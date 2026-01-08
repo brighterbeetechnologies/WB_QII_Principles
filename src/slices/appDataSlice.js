@@ -105,19 +105,6 @@ export const appDataSlice = createSlice({
 				"image": "images/resources/04.jpg"
 			},
 			{
-				"id": 4,
-				"paths": "./pdf/Life Cycle Cost Analysis Primer.pdf",
-				"type": "Technical Primer",
-				"title": "Life Cycle Cost Analysis Primer",
-
-				"principles": 3,
-				"format": 1,
-				"stage": 1,
-				"region": 1,
-				"industry": 0,
-				"image": "images/resources/05.jpg"
-			},
-			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",
 				"type": "Practical Reference Guide",
@@ -155,19 +142,6 @@ export const appDataSlice = createSlice({
 				"region": 1,
 				"industry": 4,
 				"image": "images/resources/04.jpg"
-			},
-			{
-				"id": 4,
-				"paths": "./pdf/Life Cycle Cost Analysis Primer.pdf",
-				"type": "Technical Primer",
-				"title": "Life Cycle Cost Analysis Primer",
-
-				"principles": 3,
-				"format": 3,
-				"stage": 1,
-				"region": 3,
-				"industry": 5,
-				"image": "images/resources/05.jpg"
 			},
 			{
 				"id": 5,
@@ -209,19 +183,6 @@ export const appDataSlice = createSlice({
 				"image": "images/resources/04.jpg"
 			},
 			{
-				"id": 4,
-				"paths": "./pdf/Life Cycle Cost Analysis Primer.pdf",
-				"type": "Technical Primer",
-				"title": "Life Cycle Cost Analysis Primer",
-
-				"principles": 3,
-				"format": 4,
-				"stage": 2,
-				"region": 5,
-				"industry": 1,
-				"image": "images/resources/05.jpg"
-			},
-			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",
 				"type": "Practical Reference Guide",
@@ -260,6 +221,8 @@ export const appDataSlice = createSlice({
 				"industry": 1,
 				"image": "images/resources/04.jpg"
 			},
+
+
 			{
 				"id": 4,
 				"paths": "./pdf/Life Cycle Cost Analysis Primer.pdf",
@@ -273,6 +236,182 @@ export const appDataSlice = createSlice({
 				"industry": 1,
 				"image": "images/resources/05.jpg"
 			},
+			{
+				"id": 4,
+				"paths": "https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4 ",
+				"type": "Guidance ",
+				"title": "Learning from Mega-disasters: Japan Case Study ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+			{
+				"id": 4,
+				"paths": "https://climateknowledgeportal.worldbank.org/ ",
+				"type": "Tools ",
+				"title": "World Bank Climate Knowledge Portal",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+			{
+				"id": 4,
+				"paths": "https://thinkhazard.org/en/",
+				"type": "Tools ",
+				"title": "GFDRR ThinkHazard!",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+			{
+				"id": 4,
+				"paths": "https://georisk.gov.ph/",
+				"type": "Case study  ",
+				"title": "Geospatial Information Management and Analysis Project for Hazards and Risk Assessment in the Philippines",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+			{
+				"id": 4,
+				"paths": "https://openknowledge.worldbank.org/handle/10986/21875",
+				"type": "Guidance",
+				"title": "Climate Impact Assessment Frameworks (Africa Infrastructure Example) ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+			{
+				"id": 4,
+				"paths": "https://gain.nd.edu/our-work/country-index/rankings/",
+				"type": "Tools",
+				"title": "Notre Dame Global Adaptation Initiative: ND-GAIN Vulnerability Indices",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+			{
+				"id": 4,
+				"paths": "https://www.gfdrr.org/sites/default/files/publication/pda-2015-vanuatu.pdf",
+				"type": "Case study",
+				"title": "Vanuatu Post-Disaster Needs Assessment: Tropical Cyclone Pam",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+			{
+				"id": 4,
+				"paths": "https://www.gfdrr.org/en/disaster-risk-profiles",
+				"type": "Guidance",
+				"title": "Disaster Risk Profiles (GFDRR)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://blogs.worldbank.org/en/climatechange/building-resilience-in-investment-projects--the-power-of-resilie",
+				"type": "Guidance",
+				"title": "World Bank Resilience Rating System ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://giri.unepgrid.ch/",
+				"type": "Tools",
+				"title": "Global Infrastructure Risk Model and Resilience Index (GIRI) (Coalition for Disaster Resilient Infrastructure)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Climate-Change/INFORM-Climate-Change-Tool",
+				"type": "Tools",
+				"title": "INFORM Climate Change Tool (European Commission)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.worldbank.org/en/news/feature/2025/07/17/jamaica-how-investments-in-disaster-resilience-helped-protect-communities",
+				"type": "Case study",
+				"title": "Jamaica Disaster Vulnerability Reduction Project",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
+				"type": "Case study",
+				"title": "Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+
 			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",
@@ -311,19 +450,6 @@ export const appDataSlice = createSlice({
 				"region": 1,
 				"industry": 1,
 				"image": "images/resources/04.jpg"
-			},
-			{
-				"id": 4,
-				"paths": "./pdf/Life Cycle Cost Analysis Primer.pdf",
-				"type": "Technical Primer",
-				"title": "Life Cycle Cost Analysis Primer",
-
-				"principles": 5,
-				"format": 6,
-				"stage": 6,
-				"region": 1,
-				"industry": 1,
-				"image": "images/resources/05.jpg"
 			},
 			{
 				"id": 5,

@@ -93,7 +93,7 @@ export default function ResourceLibrary() {
 				<img src='images/circle_left.png' />
 			</div>
 			<h2 className='section-title light-font'>QII Principles and Resources</h2>
-			<div className="principles-btn-cnt">
+			<div className="principles-btn-cnt"> 
 				{principleArray.map((p, idx) => (
 					<button className={`btn primary principle_btn ${selectedPrinciple.includes(p.id) ? "selected" : ""}`} key={idx} onClick={() => {
 						togglePrinciple(p.id);

@@ -246,8 +246,12 @@ export default function QII4LandingPage() {
                 demonstrates an efficient, climate-resilient solution for
                 strengthening vital transport infrastructure in the Pacific.
               </p>
-
-              <button className="qii4-video-cta">Explore Case Studies →</button>
+              <Link target="_blank" to="https://blogs.worldbank.org/en/ppps/modular-bridges-climate-resilient-solution-small-bridges-pacific">
+                <button className="qii4-video-cta">
+                  Explore Case Studies →
+                </button>
+              </Link>
+              {/* <button className="qii4-video-cta">Explore Case Studies →</button> */}
             </div>
           </div>
         </div>
@@ -263,13 +267,13 @@ export default function QII4LandingPage() {
               image="images/qii4/Fukuoka image.png"
               title={<p>World Bank Tokyo Disaster Risk Management (DRM) Hub</p>}
               buttonText="Programs"
-              link=""
+              link="https://www.worldbank.org/en/programs/tokyo-drm-hub"
             ></TopResourceCard>
             <TopResourceCard
               image="images/qii4/Ganga-case-study-image.png"
               title={<p>Global Facility For Disaster Reduction And Recovery</p>}
               buttonText="Programs"
-              link=""
+              link="https://www.gfdrr.org/en"
             ></TopResourceCard>
           </div>
         </div>
