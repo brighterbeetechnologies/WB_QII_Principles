@@ -973,9 +973,79 @@ export const appDataSlice = createSlice({
 
 			{
 				"id": 4,
+				"paths": "Cybersecurity Assessment Toolkit for Smart Cities",
+				"type": "Guidance",
+				"title": "Cybersecurity Assessment Toolkit for Smart Cities",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/introduction-to-caf#section_1",
+				"type": "Guidance",
+				"title": "UK: The Cyber Assessment Framework (CAF) (National Cyber Security Center, UK)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://documents1.worldbank.org/curated/en/099062623085028392/pdf/P17263707c36b702309f7303dbb7266e1cf.pdf",
+				"type": "Guidance",
+				"title": "Sectoral Cybersecurity Maturity Model (World Bank)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://documentsinternal.worldbank.org/Search/34392134",
+				"type": "Report",
+				"title": "Cybersecurity Economics for Emerging Markets (World Bank)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf",
+				"type": "Case study",
+				"title": "Ghana: A case study in strengthening cyber resilience (World Bank)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
 				"paths": "",
-				"type": "",
-				"title": "",
+				"type": "Guidance",
+				"title": "Cybersecurity best practice for smart cities (CISA)",
 
 				"principles": 3,
 				"format": 5,
@@ -998,7 +1068,6 @@ export const appDataSlice = createSlice({
 				"industry": 1,
 				"image": "images/resources/05.jpg"
 			},
-
 
 
 			{
