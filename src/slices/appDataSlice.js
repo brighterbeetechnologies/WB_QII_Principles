@@ -7,12 +7,12 @@ export const appDataSlice = createSlice({
 		isVideo: false,
 		videoData: { url: "", title: "", width: 1920, height: 1080 },
 		principles: [
-			{ id: 0, title: "SUSTAINABLE GROWTH", img_path: "images/QII-1.jpg", path: "" },
+			{ id: 0, title: "SUSTAINABLE GROWTH", img_path: "images/QII-1.jpg", path: "/qii1" },
 			{ id: 1, title: "ECONOMIC EFFICIENCY", img_path: "images/QII-2-1.jpg", path: "/qii2" },
-			{ id: 2, title: "ENVIRONMENT", img_path: "images/QII-3-1.jpg", path: "" },
+			{ id: 2, title: "ENVIRONMENT", img_path: "images/QII-3-1.jpg", path: "/qii3" },
 			{ id: 3, title: "RESILIENCE", img_path: "images/QII-4.jpg", path: "/qii4" },
-			{ id: 4, title: "SOCIAL", img_path: "images/QII-5.jpg", path: "" },
-			{ id: 5, title: "GOVERNANCE", img_path: "images/QII-6.jpg", path: "" }
+			{ id: 4, title: "SOCIAL", img_path: "images/QII-5.jpg", path: "/qii5" },
+			{ id: 5, title: "GOVERNANCE", img_path: "images/QII-6.jpg", path: "/qii6" }
 		],
 
 		industry: [

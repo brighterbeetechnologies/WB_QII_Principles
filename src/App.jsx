@@ -14,6 +14,10 @@ import DiagnosingVulnerabilities from "./pages/DiagnosingVulnerabilities.jsx";
 import ResilientDesignAndOperation from "./pages/ResilientDesignAndOperation.jsx";
 import FinancingResilience from "./pages/FinancingResilience.jsx";
 import ManagingCyberSecurityRisks from "./pages/ManagingCyberSecurityRisks.jsx";
+import QII1LandingPage from "./pages/QII1LandingPage.jsx";
+import QII3LandingPage from "./pages/QII3LandingPage.jsx";
+import QII5LandingPage from "./pages/QII5LandingPage.jsx";
+import QII6LandingPage from "./pages/QII6LandingPage.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -34,10 +38,50 @@ export const router = createHashRouter([
 				),
 			},
 			{
+				path: "/qii1",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII1LandingPage />
+					</Suspense>
+				),
+			},
+			{
 				path: "/qii2",
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
 						<QII2LandingPage />
+					</Suspense>
+				),
+			},
+			{
+				path: "/qii3",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII3LandingPage />
+					</Suspense>
+				),
+			},
+			{
+				path: "/qii4",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII4LandingPage />
+					</Suspense>
+				),
+			},
+			{
+				path: "/qii5",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII5LandingPage />
+					</Suspense>
+				),
+			},
+			{
+				path: "/qii6",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII6LandingPage />
 					</Suspense>
 				),
 			},
@@ -62,14 +106,6 @@ export const router = createHashRouter([
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
 						<Procurement />
-					</Suspense>
-				),
-			},
-			{
-				path: "/qii4",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<QII4LandingPage />
 					</Suspense>
 				),
 			},
