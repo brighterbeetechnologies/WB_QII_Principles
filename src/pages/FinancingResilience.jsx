@@ -1,5 +1,6 @@
 import React from "react";
 import "./FinancingResilience.css";
+import "./ResilientDesignAndOperation.css";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
 import HeaderCarousal from "../components/HeaderCarousal";
@@ -28,7 +29,16 @@ export default function FinancingResilience() {
   return (
     <div className="FinancingResilience">
       <section className="color-light">
-        <HeaderCarousal slidesData={slidesData}></HeaderCarousal>
+        <div className="hero">
+          <img src="images/qii4/Diagnosing_Vulnerabilities.png" alt="" />
+          <div className="hero-content">
+            <h3>Financing Resilience</h3>
+            <p>
+              Financing resilient infrastructure is constrained by limited resources, weak public policy alignment, lack of data on costs and benefits, and risk perceptions. Public budgets are often overstretched, making it hard to fund resilience measures that require higher upfront costs but yield long-term benefits. Standard screening and appraisal processes seldom capture these benefits, so resilience projects are often undervalued compared to conventional infrastructure. 
+            </p>
+          </div>
+        </div>
+        {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container noPTop">
           <p className="list-title">
             Overcoming these barriers requires embedding resilience into
@@ -144,7 +154,7 @@ export default function FinancingResilience() {
             </VCard>
 
             <VCard
-              image="images/qii4/FinancingResilience/card5.png"
+              image="images/qii4/FinancingResilience/Learning from Mega-disasters Japan Case Study.png"
               title={
                 <p>
                   <strong>
@@ -312,7 +322,7 @@ export default function FinancingResilience() {
             </VCard>
 
             <VCard
-              image="images/qii4/FinancingResilience/card12.png"
+              image="images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png"
               title={
                 <p>
                   <strong>
