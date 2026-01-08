@@ -1,0 +1,449 @@
+ .principles-grid {
+ 	display              : grid;
+ 	grid-template-columns: 1fr;
+ 	gap                  : 1rem;
+ 	justify-content      : center;
+ }
+
+
+ .principle-card {
+ 	position           : relative;
+ 	border-radius      : 14px;
+ 	overflow           : hidden;
+ 	background-size    : cover;
+ 	background-position: center;
+ 	min-height         : auto;
+ 	max-width          : 603px;
+ 	box-shadow         : 0 6px 20px rgba(8, 30, 45, 0.08);
+ 	transition         : transform .28s ease, box-shadow .28s ease;
+ }
+
+
+ .principle-card .card-link {
+ 	display        : flex;
+ 	align-items    : stretch;
+ 	height         : 100%;
+ 	text-decoration: none;
+ 	color          : inherit;
+ 	position       : relative;
+ }
+
+ /* dimming overlay */
+ .principle-card .card-overlay {
+ 	position  : absolute;
+ 	inset     : 0;
+ 	background: linear-gradient(180deg, rgb(8, 10, 14, 0.0) 50%, rgba(8, 10, 14, 0.8) 100%);
+ 	transition: background .3s;
+ 	z-index   : 5;
+ }
+
+ .principle-card .card-body {
+ 	position       : relative;
+ 	z-index        : 2;
+ 	display        : flex;
+ 	flex-direction : column;
+ 	justify-content: space-between;
+ 	width          : 100%;
+ }
+
+
+
+ .principle-card .card-arrow {
+ 	position       : absolute;
+ 	right          : 12px;
+ 	bottom         : 12px;
+ 	z-index        : 7;
+ 	display        : flex;
+ 	align-items    : center;
+ 	justify-content: center;
+ 	width          : 44px;
+ 	height         : 44px;
+ 	border-radius  : 50%;
+ 	transition     : transform .18s, background .18s;
+ 	cursor         : pointer;
+ 	color          : #fff;
+ }
+
+
+ .principle-card:hover,
+ .principle-card:focus-within {
+ 	transform : translateY(-6px);
+ 	box-shadow: 0 18px 36px rgba(8, 30, 45, 0.16);
+ }
+
+ .principle-card:hover .card-overlay {
+ 	background: transparent;
+ }
+
+ .principle-card:hover .card-arrow {
+ 	transform : translateX(6px);
+ 	background: rgba(255, 255, 255, 0.16);
+ }
+
+ .bottom-text-1 {
+ 	max-width : 800px;
+ 	margin    : 1rem auto;
+ 	text-align: center;
+ }
+
+ .home .content_left {
+ 	text-align: center;
+ }
+
+ .home .content_left h1 {
+ 	margin-bottom: 1.1rem;
+ 	padding      : 0 0.5rem;
+ }
+
+ .landing_page {
+ 	position: relative;
+ }
+
+ .landing_page .circle-bg {
+ 	height  : 220px;
+ 	width   : 25%;
+ 	overflow: hidden;
+ 	position: absolute;
+ 	bottom  : -20px;
+ 	right   : 0;
+ }
+
+ .landing_page .circle-bg img {
+ 	width    : 220px;
+ 	height   : 220px;
+ 	display  : block;
+ 	max-width: none;
+ 	opacity  : 0.5;
+ }
+
+ .principles-page {
+ 	position: relative;
+ }
+
+ .principles-page .circle-bg {
+ 	height    : 570px;
+ 	width     : 25%;
+ 	overflow  : hidden;
+ 	position  : absolute;
+ 	top       : 50%;
+ 	left      : 0;
+ 	margin-top: -250px;
+ }
+
+ .principles-page .circle-bg img {
+ 	width    : 570px;
+ 	height   : 570px;
+ 	display  : block;
+ 	max-width: none;
+ 	opacity  : 0.5;
+ 	position : absolute;
+ 	right    : 0;
+ }
+
+ .faq_page {
+ 	position: relative;
+ }
+
+ .faq_page .circle-bg {
+ 	height  : 220px;
+ 	width   : 50px;
+ 	overflow: hidden;
+ 	position: absolute;
+ 	top     : -70px;
+ 	right   : 0;
+ }
+
+ .faq_page .circle-bg img {
+ 	width    : 220px;
+ 	height   : 220px;
+ 	display  : block;
+ 	max-width: none;
+ 	opacity  : 0.5;
+ }
+
+ @media (min-width: 480px) {
+ 	.landing_page_bg {
+ 		object-fit: cover;
+ 		clip-path : ellipse(80% 90% at 50% 0%);
+ 		height    : 300px;
+ 		width     : 100%;
+ 	}
+
+ 	.landing_page .container {
+ 		padding: 0rem 1.56rem 1rem 1.56rem;
+ 	}
+ }
+
+
+ @media (min-width: 600px) {
+
+ 	.landing_page .circle-bg {
+ 		height: 300px;
+ 		width : 100px;
+ 	}
+
+ 	.landing_page .circle-bg img {
+ 		width : 300px;
+ 		height: 300px;
+ 	}
+
+ 	.principles-grid {
+ 		grid-template-columns: repeat(2, 1fr);
+ 		gap                  : 1rem;
+ 	}
+
+ 	.landing_page_bg {
+ 		height: 350px;
+ 	}
+
+ 	.home .content_left h1 {
+ 		margin-bottom: 1.875rem;
+ 	}
+
+ 	.home .content_left {
+ 		max-width: 650px;
+ 		margin   : 0 auto;
+ 	}
+
+ 	.faq_page .circle-bg {
+ 		height: 300px;
+ 		width : 100px;
+ 	}
+
+ 	.faq_page .circle-bg img {
+ 		width : 300px;
+ 		height: 300px;
+ 	}
+
+ }
+
+ @media (min-width: 640px) {
+ 	.landing_page_bg {
+ 		clip-path: ellipse(80% 90% at 50% 0%);
+ 		height   : 400px;
+ 	}
+ }
+
+ @media (min-width: 992px) {
+ 	.landing_page_bg {
+ 		clip-path: ellipse(60% 90% at 50% 0%);
+ 		height   : 410px;
+ 	}
+
+ 	.principles-grid {
+ 		grid-template-columns: repeat(3, 1fr);
+ 		gap                  : 1.25rem;
+ 	}
+
+ 	.landing_page {
+ 		height    : 100vh;
+ 		max-height: 700px;
+ 	}
+
+ 	.home .content_left {
+ 		max-height: 700px;
+ 	}
+
+ 	.landing_page .circle-bg {
+ 		height: 400px;
+ 		width : 130px;
+ 	}
+
+ 	.landing_page .circle-bg img {
+ 		width : 400px;
+ 		height: 400px;
+ 	}
+
+ 	.faq_page .circle-bg {
+ 		height: 400px;
+ 		width : 130px;
+ 	}
+
+ 	.faq_page .circle-bg img {
+ 		width : 400px;
+ 		height: 400px;
+ 	}
+ }
+
+ @media (min-width: 1200px) {
+ 	.landing_page {
+ 		min-height: 600px;
+ 	}
+
+ 	.landing_page_bg {
+ 		clip-path: circle(50%);
+ 		height   : 110%;
+ 		width    : auto;
+ 		position : absolute;
+ 		right    : -10%;
+ 		bottom   : 0;
+ 	}
+
+ 	.landing_page .circle-bg {
+ 		height: 400px;
+ 		width : 400px;
+ 		bottom: auto;
+ 		right : 30%;
+ 		top   : -110px;
+ 	}
+
+ 	.landing_page .circle-bg img {
+ 		width : 400px;
+ 		height: 400px;
+ 	}
+
+
+
+
+ 	.home .content_left {
+ 		margin         : 0;
+ 		text-align     : left;
+ 		height         : 100vh;
+ 		display        : flex;
+ 		flex-direction : column;
+ 		justify-content: center;
+ 		max-width      : 510px;
+ 		padding-left   : 2rem;
+ 		max-height     : 700px;
+ 	}
+
+ 	.home .content_left h1 {
+ 		padding: 0;
+ 	}
+
+ 	.bottom-text-1 {
+ 		margin: 1.5rem auto 1rem auto;
+ 	}
+
+ 	.principles-page .circle-bg {
+ 		height: 570px;
+ 		width : 200px;
+ 		top   : -100px;
+ 		left  : 0;
+ 		margin: 0;
+ 	}
+
+ 	.principles-page .circle-bg img {
+ 		width : 570px;
+ 		height: 570px;
+ 	}
+
+ 	.faq_page {
+ 		min-height      : 600px;
+ 		background-color: var(--color-bg-primary);
+ 	}
+
+ 	.faq_page .container {
+ 		padding-top   : 0;
+ 		padding-bottom: 0;
+ 		padding-right : 0;
+ 	}
+
+ 	.faq_page .circle-bg {
+ 		top   : auto;
+ 		bottom: 0;
+ 		height: 500px;
+ 		width : 130px;
+ 	}
+
+ 	.faq_page .circle-bg img {
+ 		width : 500px;
+ 		height: 500px;
+ 	}
+
+ }
+
+ @media (min-width: 1400px) {
+
+
+ 	.landing_page_bg {
+ 		height: 140%;
+ 		width : auto;
+ 		right : -20%;
+ 		bottom: -10%;
+ 	}
+
+ 	.landing_page .circle-bg {
+ 		height: 500px;
+ 		width : 500px;
+ 		bottom: auto;
+ 		right : 30%;
+ 		top   : -150px;
+ 	}
+
+ 	.landing_page .circle-bg img {
+ 		width : 500px;
+ 		height: 500px;
+ 	}
+
+ 	.faq_page .circle-bg {
+ 		top    : auto;
+ 		bottom : 0;
+ 		height : 500px;
+ 		width  : 130px;
+ 		z-index: 5;
+ 	}
+
+ 	.faq_page .circle-bg img {
+ 		width : 500px;
+ 		height: 500px;
+ 	}
+
+ 	.principle-card {
+ 		border-radius: 28px;
+ 	}
+ }
+
+ @media (min-width: 1600px) {
+ 	.home .content_left {
+ 		padding-left: 6rem;
+ 		max-width   : 572px;
+ 		max-height  : none;
+ 	}
+
+ 	.home .content_left h1 {
+ 		margin-bottom: 1.5rem;
+ 	}
+
+ 	.landing_page {
+ 		height    : 100vh;
+ 		max-height: none;
+ 	}
+
+ 	.landing_page_bg {
+ 		height: 140%;
+ 		width : auto;
+ 		right : -20%;
+ 		bottom: -10%;
+ 	}
+
+ 	.landing_page .circle-bg {
+ 		height: 700px;
+ 		width : 700px;
+ 		bottom: auto;
+ 		right : 30%;
+ 		top   : -350px;
+ 	}
+
+ 	.landing_page .circle-bg img {
+ 		width : 700px;
+ 		height: 700px;
+ 	}
+
+ 	.faq_page .circle-bg {
+ 		bottom : 100px;
+ 		height : 700px;
+ 		width  : 150px;
+ 		z-index: 5;
+ 	}
+
+ 	.faq_page .circle-bg img {
+ 		width  : 700px;
+ 		height : 700px;
+ 		opacity: 0.3;
+ 	}
+
+ 	.principle-card {
+ 		border-radius: 34px;
+ 	}
+ }

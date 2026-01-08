@@ -1,0 +1,79 @@
+/* VideoModal.css */
+.modal-overlay {
+	position        : fixed;
+	top             : 0;
+	left            : 0;
+	right           : 0;
+	bottom          : 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	z-index         : 1000;
+}
+
+.modal-content {
+	background-color: #fff;
+	padding         : 0 15px 15px 15px;
+	border-radius   : 8px;
+	width           : 100vw;
+	height          : auto;
+	max-width       : 760px;
+	max-height      : 100vh;
+	overflow        : hidden;
+
+	display       : flex;
+	flex-direction: column;
+
+	position      : relative;
+	box-shadow    : 0 5px 15px rgba(0, 0, 0, 0.5);
+	pointer-events: auto;
+}
+
+.modal-header {
+	display        : flex;
+	justify-content: space-between;
+	align-items    : center;
+	height         : 40px;
+}
+
+.modal-title {
+	margin      : 0;
+	font-size   : 1.2rem;
+	color       : #333;
+	word-break  : break-word;
+	margin-right: 10px;
+}
+
+.modal-close-button {
+	background : none;
+	border     : none;
+	font-size  : 1.8rem;
+	line-height: 1;
+	cursor     : pointer;
+	color      : #555;
+	padding    : 0 5px;
+	transition : color 0.2s;
+	flex-shrink: 0;
+}
+
+.modal-close-button:hover {
+	color: #000;
+}
+
+.video-container {
+	position        : relative;
+	overflow        : hidden;
+	background-color: #000;
+	border-radius   : 4px;
+	flex-grow       : 1;
+	min-height      : 0;
+}
+
+.video-frame {
+	display: block;
+	margin : 0 auto;
+	width  : 100%;
+	height : 100%;
+	border : none;
+}

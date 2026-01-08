@@ -1,0 +1,84 @@
+.text-icon-carousal {
+	overflow : hidden;
+	width    : 100%;
+	max-width: 300px;
+	margin   : 1.52rem auto;
+}
+
+.text-icon-carousal-cnt {
+	overflow       : hidden;
+	justify-content: flex-start;
+	align-items    : flex-start;
+	transition     : transform 0.5s ease;
+
+}
+
+.carousel-card {
+	width: 100%;
+}
+
+.icon-carousel {}
+
+.icon-carousel {
+	width           : 156px;
+	height          : 156px;
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	background-color: #fff;
+	border-radius   : 50%;
+	font-size       : 90px;
+	margin          : 0 auto;
+}
+
+.label-carousel {
+	margin-top: 0.8rem;
+	display   : block;
+	text-align: center
+}
+
+.carousel-dots {
+	display        : flex;
+	gap            : 0.5rem;
+	align-items    : center;
+	justify-content: center;
+	width          : 100%;
+	margin-top     : 2.8rem;
+}
+
+.carousel-dot {
+	width        : 45px;
+	height       : 6px;
+	background   : #A3A3A3;
+	border-radius: 6px;
+	cursor       : pointer;
+	transition   : background 0.3s;
+}
+
+.carousel-dot.active {
+	background: var(--color-primary);
+}
+
+@media (min-width: 1024px) {
+	.text-icon-carousal {
+		max-width: 420px;
+	}
+
+
+}
+
+@media (min-width: 1300px) {
+	.carousel-dots {
+		gap: 20px;
+	}
+
+	.carousel-dot {
+		width : 80px;
+		height: 8px;
+	}
+
+	.icon-carousel {
+		width : 176px;
+		height: 176px;
+	}
+}
