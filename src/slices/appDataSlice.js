@@ -917,9 +917,9 @@ export const appDataSlice = createSlice({
 
 			{
 				"id": 4,
-				"paths": "",
-				"type": "",
-				"title": "",
+				"paths": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150011892",
+				"type": "Tool",
+				"title": "World Bank Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport ",
 
 				"principles": 3,
 				"format": 5,
@@ -931,9 +931,9 @@ export const appDataSlice = createSlice({
 
 			{
 				"id": 4,
-				"paths": "",
-				"type": "",
-				"title": "",
+				"paths": "https://www.gfdrr.org/en/disaster-risk-finance",
+				"type": "Resource",
+				"title": "GFDRR Disaster Risk Finance ",
 
 				"principles": 3,
 				"format": 5,
@@ -945,9 +945,9 @@ export const appDataSlice = createSlice({
 
 			{
 				"id": 4,
-				"paths": "",
-				"type": "",
-				"title": "",
+				"paths": "https://cdri.world/upload/biennial/CH4.1-CCRI.pdf",
+				"type": "Report",
+				"title": "Financing for Disaster and Resilient Infrastructure (Coalition for Disaster Resilient Infrastructure) ",
 
 				"principles": 3,
 				"format": 5,
@@ -959,9 +959,9 @@ export const appDataSlice = createSlice({
 
 			{
 				"id": 4,
-				"paths": "",
-				"type": "",
-				"title": "",
+				"paths": "https://www.oecd.org/en/publications/g20-oecd-report-on-approaches-for-financing-and-investing-in-climate-resilient-infrastructure_8f6d436a-en.html",
+				"type": "Report",
+				"title": "G20/OECD Report on approaches for financing and investing in climate-resilient infrastructure",
 
 				"principles": 3,
 				"format": 5,
