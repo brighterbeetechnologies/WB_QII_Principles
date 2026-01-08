@@ -411,6 +411,595 @@ export const appDataSlice = createSlice({
 				"image": "images/resources/05.jpg"
 			},
 
+			{
+				"id": 4,
+				"paths": "https://www.gfdrr.org/en/publication/building-code-checklist-structural-resilience",
+				"type": "Guidance",
+				"title": "Building Code Checklist for Structural Resilience",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass",
+				"type": "Guidance",
+				"title": "EU Taxonomy Compass",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://cdn.prod.website-files.com/64869a932dab4d8c36a88774/68a44d2347380f7f25d23d24_ST01_V2_05.12.2024.pdf",
+				"type": "Guidance",
+				"title": "FAST-Infra Label",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://openknowledge.worldbank.org/entities/publication/6f69f235-edf6-40b9-9a4b-5efad46630aa",
+				"type": "Report",
+				"title": "A Global Assessment of Building Codes: Current Status and Evolving Needs to Promote Resilient, Green and Inclusive Buildings",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.preventionweb.net/publication/building-regulations-sub-saharan-africa-status-review-building-regulatory-environment",
+				"type": "Report",
+				"title": "Building regulations in Sub-Saharan Africa: A status review of the building regulatory environment",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.worldbank.org/en/topic/disasterriskmanagement/publication/stronger-building-codes-for-a-safer-more-resilient-future",
+				"type": "Blog",
+				"title": "Stronger Building Codes for a Safer, More Resilient Future",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.gfdrr.org/en/publication/building-regulatory-capacity-assessment-brca-20-methodology",
+				"type": "Guidance",
+				"title": "Building Regulatory Capacity Assessment",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.worldbank.org/en/news/press-release/2025/07/10/building-resilient-afe-infrastructure-protecting-access-connectivity-and-communities",
+				"type": "Case Study",
+				"title": "Modular Bridges in Madagascar",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725",
+				"type": "Tool",
+				"title": "World Bank: A Catalogue of Nature-Based Solutions for Urban Resilience ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf",
+				"type": "Tool",
+				"title": "IFC Catalogue of Nature-Based Solutions for Infrastructure Projects ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725",
+				"type": "Report",
+				"title": "A Catalogue of Nature-Based Solutions for Urban Resilience",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean",
+				"type": "Case study",
+				"title": "IADB: AI and deep learning for identifying pavement failures",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/04/digital-security-and-resilience-in-critical-infrastructure-and-essential-services_5593c149/a7097901-en.pdf",
+				"type": "Report",
+				"title": "Digital Security and Resilience in Critical Infrastructure and Essential Services",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/12/digital-public-infrastructure-for-digital-governments_11fe17d9/ff525dc8-en.pdf",
+				"type": "Report",
+				"title": "Digital Public Infrastructure for Digital Governments",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://ppp.worldbank.org/sites/default/files/2022-04/IPFResiliencedrmhubtokyo.pdf",
+				"type": "Report",
+				"title": "Incorporating Resilience into Infrastructure Prioritization: Application to Japan's Road Transport Sector",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.gfdrr.org/en/publication/building-back-better",
+				"type": "Report",
+				"title": "Building Back Better",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.nist.gov/publications/functional-recovery-lifeline-infrastructure-system-services",
+				"type": "Publication",
+				"title": "Functional Recovery of Lifeline Infrastructure System Services",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://infrastructure-toolkit.oecd.org/governance/strengthen-critical-infrastructure-resilience/",
+				"type": "Tool",
+				"title": "OECD Infrastructure Toolkit: Strengthening Critical Infrastructure Resilience",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/11/building-resilience_6b655137/354aa2aa-en.pdf",
+				"type": "Policy Paper",
+				"title": "Building Resilience: New Strategies for Strengthening Infrastructure Resilience and Maintenance",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.climatebonds.net/files/documents/supporting-documents/Climate-Bonds_CBRT-v1-Final-003-User-View_Protected-version2-2-1.xlsx",
+				"type": "Tool",
+				"title": "Climate Bonds Initiative",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass",
+				"type": "Guidance",
+				"title": "EU Taxonomy Compass",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://cdn.prod.website-files.com/64869a932dab4d8c36a88774/68a44d2347380f7f25d23d24_ST01_V2_05.12.2024.pdf",
+				"type": "Guidance",
+				"title": "FAST-Infra Label",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.gfdrr.org/en/feature-story/assessing-benefits-and-costs-nature-based-solutions",
+				"type": "Guidance",
+				"title": "Assessing the Benefits and Costs of Nature-Based Solutions for Climate Resilience: A Guideline for Project Developers (GFDRR)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.gfdrr.org/sites/default/files/publication/Learning%20from%20Megadisasters%20%20Lessons%20from%20the%20Great%20East%20Japan%20Earthquake.pdf",
+				"type": "Guidance",
+				"title": "Chapter 28: Measuring the Cost-Effectiveness of Various Disaster Risk Management Measures ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099032625173042760",
+				"type": "Guidance",
+				"title": "Disaster and Climate-Resilient Transport Guidance Note",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.iigcc.org/hubfs/2025%20resources%20upload/Physical%20Climate%20Risk%20Appraisal%20Methodology%202.0%20IIGCC%202025.pdf",
+				"type": "Tool",
+				"title": "Physical Climate Risk Appraisal Methodology (PCRAM) 2.0 (Institutional Investors Group on Climate Change (IIGCC) ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.iisd.org/savi/",
+				"type": "Tool",
+				"title": "Sustainable Asset Valuation (SAVi)",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.nature.org/content/dam/tnc/nature/en/documents/GCTWF-Business-Case-April-2019.pdf",
+				"type": "Case study",
+				"title": "Greater Cape Town Water Fund: Business Case",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://nbi.iisd.org/report/savi-forest-restoration-brantas-river-basin-indonesia/",
+				"type": "Case study",
+				"title": "Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
+				"type": "Report",
+				"title": "World Bank Financing Climate Adaptation and Nature-Based Infrastructure ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150032182",
+				"type": "Report",
+				"title": "World Bank Transport Resilience Financing, Resources and Opportunities ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.gfdrr.org/en/disaster-risk-finance",
+				"type": "Resource",
+				"title": "GFDRR Disaster Risk Finance ",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf",
+				"type": "Case study",
+				"title": "Philippine Water Revolving Fund",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://sustainability-coalition.org/case-study/philippines-energy-development-corporation/",
+				"type": "Case study",
+				"title": "Philippines Energy Development Corporation (EDC) Green Bond",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.conservation.org/projects/vida-manglar-carbon-project",
+				"type": "Case study",
+				"title": "Vida Manglar Carbon Project in Colombia",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps",
+				"type": "Tool",
+				"title": "World Bank - Climate Toolkits for Infrastructure PPPs",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "",
+				"type": "",
+				"title": "",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "",
+				"type": "",
+				"title": "",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "",
+				"type": "",
+				"title": "",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "",
+				"type": "",
+				"title": "",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "",
+				"type": "",
+				"title": "",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+			{
+				"id": 4,
+				"paths": "",
+				"type": "",
+				"title": "",
+
+				"principles": 3,
+				"format": 5,
+				"stage": 4,
+				"region": 1,
+				"industry": 1,
+				"image": "images/resources/05.jpg"
+			},
+
+
 
 			{
 				"id": 5,
