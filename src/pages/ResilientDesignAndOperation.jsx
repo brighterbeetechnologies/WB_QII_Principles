@@ -94,7 +94,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Guidance"
-              link=""
+              link="https://www.gfdrr.org/en/publication/building-code-checklist-structural-resilience"
             >
               <p>
                 The Building Code Checklist for Structural Resilience provides
@@ -115,13 +115,13 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Guidance"
-              link=""
+              link="https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass"
             >
               <p>
                 The EU's Taxonomy Regulation establishes six climate and
                 environmental objectives in order for an economic activity to
                 qualify as environmentally sustainable, and this includes
-                objectives related to resilience and adaptation. The EU’s
+                objectives related to resilience and adaptation. The EU's
                 Taxonomy Compass helps users better understand the EU Taxonomy
                 in a simple and practical manner.
               </p>
@@ -135,7 +135,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Guidance"
-              link=""
+              link="https://cdn.prod.website-files.com/64869a932dab4d8c36a88774/68a44d2347380f7f25d23d24_ST01_V2_05.12.2024.pdf"
             >
               <p>
                 The FAST-Infra Label Framework ensures uniformity and
@@ -157,7 +157,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Report"
-              link=""
+              link="https://openknowledge.worldbank.org/entities/publication/6f69f235-edf6-40b9-9a4b-5efad46630aa"
             >
               <p>
                 This resource provides an in-depth evaluation of current
@@ -178,7 +178,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Report"
-              link=""
+              link="https://www.preventionweb.net/publication/building-regulations-sub-saharan-africa-status-review-building-regulatory-environment"
             >
               <p>
                 This status review examines building regulations across
@@ -200,7 +200,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Blog"
-              link=""
+              link="https://www.worldbank.org/en/topic/disasterriskmanagement/publication/stronger-building-codes-for-a-safer-more-resilient-future"
             >
               <p>
                 This study reviews building codes across 22 countries,
@@ -221,7 +221,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Guidance"
-              link=""
+              link="https://www.gfdrr.org/en/publication/building-regulatory-capacity-assessment-brca-20-methodology"
             >
               <p>
                 The Building Regulatory Capacity Assessment (BRCA) 2.0 offers a
@@ -241,7 +241,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Case Study"
-              link=""
+              link="https://www.worldbank.org/en/news/press-release/2025/07/10/building-resilient-afe-infrastructure-protecting-access-connectivity-and-communities"
             >
               <p>
                 This update highlights how climate-resilient design standards
@@ -278,8 +278,8 @@ export default function ResilientDesignAndOperation() {
                   Solutions for Urban Resilience
                 </p>
               }
-              buttonText="Guidance"
-              link=""
+              buttonText="Tool"
+              link="https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725"
             >
               <p>
                 The catalogue of Nature-based solutions for urban resilience has
@@ -299,8 +299,8 @@ export default function ResilientDesignAndOperation() {
                   </strong>{" "}
                 </p>
               }
-              buttonText="Tools"
-              link=""
+              buttonText="Tool"
+              link="https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf"
             >
               <p>
                 This catalogue provides examples of nature-based solutions that
@@ -323,7 +323,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Report"
-              link=""
+              link="https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725"
             >
               <p>
                 A catalogue providing practical guidance and case examples for
@@ -344,7 +344,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Case Study"
-              link=""
+              link="https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean"
             >
               <p>
                 An innovative tool that improves paved road network planning and
@@ -369,7 +369,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Report"
-              link=""
+              link="https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/04/digital-security-and-resilience-in-critical-infrastructure-and-essential-services_5593c149/a7097901-en.pdf"
             >
               <p>
                 This OECD resource serves as a digital toolkit for
@@ -391,7 +391,7 @@ export default function ResilientDesignAndOperation() {
                 </p>
               }
               buttonText="Report"
-              link=""
+              link="https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/12/digital-public-infrastructure-for-digital-governments_11fe17d9/ff525dc8-en.pdf"
             >
               <p>
                 This OECD paper is a digital public infrastructure toolkit,
@@ -434,8 +434,8 @@ export default function ResilientDesignAndOperation() {
                   Application to Japan's Road Transport Sector{" "}
                 </p>
               }
-              buttonText="Guidance"
-              link=""
+              buttonText="Report"
+              link="https://ppp.worldbank.org/sites/default/files/2022-04/IPFResiliencedrmhubtokyo.pdf"
             >
               <p>
                 This report presents operational methods and quantitative
@@ -458,8 +458,8 @@ export default function ResilientDesignAndOperation() {
                   <strong>Building Back Better </strong>
                 </p>
               }
-              buttonText="Tools"
-              link=""
+              buttonText="Report"
+              link="https://www.gfdrr.org/en/publication/building-back-better"
             >
               <p>
                 The Resilient Recovery section (page 18) of the report
@@ -488,8 +488,8 @@ export default function ResilientDesignAndOperation() {
                   </strong>{" "}
                 </p>
               }
-              buttonText="Case study"
-              link=""
+              buttonText="Publication"
+              link="https://www.nist.gov/publications/functional-recovery-lifeline-infrastructure-system-services"
             >
               <p>
                 This NIST publication provides authoritative guidance on setting
@@ -513,8 +513,8 @@ export default function ResilientDesignAndOperation() {
                   Critical Infrastructure Resilience
                 </p>
               }
-              buttonText="Report"
-              link=""
+              buttonText="Tool"
+              link="https://infrastructure-toolkit.oecd.org/governance/strengthen-critical-infrastructure-resilience/"
             >
               <p>
                 This online toolkit frames resilience with an “all-hazards
@@ -532,8 +532,8 @@ export default function ResilientDesignAndOperation() {
                   Strengthening Infrastructure Resilience and Maintenance
                 </p>
               }
-              buttonText="Report"
-              link=""
+              buttonText="Policy Paper"
+              link="https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/11/building-resilience_6b655137/354aa2aa-en.pdf"
             >
               <p>
                 This paper emphasizes designing infrastructure investments to

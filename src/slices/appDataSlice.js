@@ -1043,7 +1043,7 @@ export const appDataSlice = createSlice({
 
 			{
 				"id": 4,
-				"paths": "",
+				"paths": "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
 				"type": "Guidance",
 				"title": "Cybersecurity best practice for smart cities (CISA)",
 
@@ -1057,9 +1057,9 @@ export const appDataSlice = createSlice({
 
 			{
 				"id": 4,
-				"paths": "",
-				"type": "",
-				"title": "",
+				"paths": "https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment",
+				"type": "Guidance",
+				"title": "Canada: the cyber threat environment",
 
 				"principles": 3,
 				"format": 5,
