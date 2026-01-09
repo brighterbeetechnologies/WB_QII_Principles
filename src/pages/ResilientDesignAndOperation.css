@@ -128,55 +128,31 @@
   }
 }
 
-.ResilientDesignAndOperation .hero {
-  position: relative;
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
+.qii4-note {
+  padding: 0 7rem;
 }
 
-.ResilientDesignAndOperation .hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+@media (max-width: 600px) {
+  .qii4-note {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
 }
 
-.ResilientDesignAndOperation .hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.15));
-  z-index: 1;
+@media (max-width: 750px) {
+  .qii4-note {
+    padding: 1rem 0rem;
+  }
 }
 
-.ResilientDesignAndOperation .hero-content {
-  position: absolute;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 880px;
-  padding: 0 1rem;
-  text-align: center;
-  color: #ffffff;
-  z-index: 2;
+@media (max-width: 1000px) {
+  .qii4-note {
+    padding: 1rem 1rem;
+  }
 }
 
-.ResilientDesignAndOperation .hero-content h3 {
-  font-size: 2.75rem;
-  font-weight: 600;
-  margin-bottom: 9rem;
-}
-
-.ResilientDesignAndOperation .hero-content p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
-.ResilientDesignAndOperation .num-step {
-	margin-bottom: 1rem;
-}
-
-.ResilientDesignAndOperation .num1-para{
-	font-style: italic;
+@media (max-width: 1400px) {
+  .qii4-note {
+    padding: 1rem 1rem;
+  }
 }

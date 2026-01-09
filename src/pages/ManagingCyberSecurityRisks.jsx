@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ManagingCyberSecurityRisks.css";
 import "./ResilientDesignAndOperation.css";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
 import HeaderCarousal from "../components/HeaderCarousal";
+import Header3 from "../components/Header3";
+import { useDispatch } from "react-redux";
+import { setBradcrump } from "../slices/appDataSlice";
 
 export default function ManagingCyberSecurityRisks() {
   const slidesData = [
@@ -28,31 +31,47 @@ export default function ManagingCyberSecurityRisks() {
       title: "Managing Cybersecurity Risks",
     },
   ];
+
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(
+      setBradcrump({
+        show: true,
+        dir: [
+          { path: "/", title: "Home" },
+          { path: "/qii4", title: "Resilience" },
+          {
+            path: "/Managing-cyber-security-risks",
+            title: "Managing Cybersecurity Risks",
+          },
+        ],
+      })
+    );
+  }, []);
   return (
     <div className="ManagingCyberSecurityRisks ResilientDesignAndOperation">
       <section className="color-light">
-        <div className="hero">
-          <img src="images/qii4/Diagnosing_Vulnerabilities.png" alt="" />
-          <div className="hero-content">
-            <h3>Managing Cybersecurity Risks </h3>
-            <p>
-              As economies and societies become increasingly digital,
-              cybersecurity risks are rising in tandem. Essential infrastructure
-              services—such as energy and transport networks—now rely on
-              interconnected digital systems and technologies that increase
-              their exposure to cyber threats.
-              <br />
-              <br />
-              Strengthening cybersecurity is therefore fundamental to
-              infrastructure resilience. The QII Partnership is at the forefront
-              of integrating cybersecurity into infrastructure design and
-              investment, working with governments and partners to assess risks,
-              build capacity, and mainstream cyber resilience to ensure that
-              critical infrastructure systems remain safe, trusted, and
-              future-ready.
-            </p>
-          </div>
-        </div>
+        <Header3
+          img="images/qii4/Diagnosing_Vulnerabilities.png"
+          title="Managing Cybersecurity Risks"
+        >
+          <p className="light-font">
+            As economies and societies become increasingly digital,
+            cybersecurity risks are rising in tandem. Essential infrastructure
+            services—such as energy and transport networks—now rely on
+            interconnected digital systems and technologies that increase their
+            exposure to cyber threats.
+            <br />
+            <br />
+            Strengthening cybersecurity is therefore fundamental to
+            infrastructure resilience. The QII Partnership is at the forefront
+            of integrating cybersecurity into infrastructure design and
+            investment, working with governments and partners to assess risks,
+            build capacity, and mainstream cyber resilience to ensure that
+            critical infrastructure systems remain safe, trusted, and
+            future-ready.
+          </p>
+        </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container noPTop">
           <p className="list-title">
@@ -78,7 +97,7 @@ export default function ManagingCyberSecurityRisks() {
                 </p>
               }
               buttonText="Guidance"
-              link="Cybersecurity Assessment Toolkit for Smart Cities"
+              link="pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf"
             >
               <p>
                 The Cybersecurity Assessment Toolkit guides countries and
@@ -187,9 +206,7 @@ export default function ManagingCyberSecurityRisks() {
               link="https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf"
             >
               <p>
-                This document aims to guide the design, implementation, and use
-                of studies to value the benefits and costs of Nature-Based
-                Solutions (NBS) for climate resilience projects.
+                This guidance note provides an overview of best practices to manage cybersecurity risks and ensure the safe and secure operation of infrastructure systems, protection of citizens’ private data, and security of sensitive government and business data.  
               </p>
             </VCard>
 
@@ -204,12 +221,7 @@ export default function ManagingCyberSecurityRisks() {
               link="https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment"
             >
               <p>
-                Cost-effectiveness analysis and cost-benefit analysis of DRM
-                projects have been widely implemented both at national and local
-                levels in Japan. This resource covers the different procedures
-                for such analysis, according to the type of project, the funds,
-                and the governing entity responsible particularly in parts V and
-                VI.
+                This document provides a useful introduction to the nature of cybersecurity threats and the motivations and strategies of malicious actors. 
               </p>
             </VCard>
           </div>

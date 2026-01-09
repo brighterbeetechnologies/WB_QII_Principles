@@ -1,0 +1,142 @@
+.site-footer {
+  background: #1a1a2e;
+  color: #b8b8c8;
+  margin-top: auto;
+}
+
+.footer-main {
+  padding: 60px 20px 40px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.footer-section h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+}
+
+.footer-section h4 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-about p {
+  line-height: 1.7;
+  margin: 0 0 20px 0;
+  font-size: 0.95rem;
+}
+
+.footer-partnership {
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-partnership span {
+  font-size: 0.85rem;
+  color: #7eb8da;
+  font-style: italic;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 12px;
+}
+
+.footer-section ul li a {
+  color: #b8b8c8;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.footer-section ul li a:hover {
+  color: #7eb8da;
+}
+
+.footer-bottom {
+  background: #12121f;
+  padding: 20px;
+}
+
+.footer-bottom .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: none;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.footer-legal {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 30px;
+}
+
+.footer-legal li a {
+  color: #888;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: color 0.2s;
+}
+
+.footer-legal li a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-about {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-about {
+    grid-column: span 1;
+  }
+
+  .footer-bottom .footer-container {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-legal {
+    gap: 20px;
+  }
+
+  .main-content h1 {
+    font-size: 1.8rem;
+  }
+}

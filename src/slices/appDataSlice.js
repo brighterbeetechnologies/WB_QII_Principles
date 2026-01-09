@@ -4,6 +4,10 @@ export const appDataSlice = createSlice({
 	name: "appData",
 	initialState: {
 		isOverlay: false,
+		breadCrump:{
+			show: false,
+			dir: []
+		},
 		isVideo: false,
 		videoData: { url: "", title: "", width: 1920, height: 1080 },
 		principles: [
@@ -1146,6 +1150,9 @@ export const appDataSlice = createSlice({
 		setCurrentPath: (state, action) => {
 			state.currentPath = action.payload;
 		},
+		setBradcrump: (state, action) => {
+			state.breadCrump = action.payload;
+		},
 		setOverlay: (state, action) => {
 			state.isOverlay = action.payload;
 		},
@@ -1161,9 +1168,10 @@ export const appDataSlice = createSlice({
 	}
 });
 
+export const breadCrump = (state) => state.appData.breadCrump;
 export const principles = (state) => state.appData.principles;
 export const isOverlay = (state) => state.appData.isOverlay;
 export const isVideo = (state) => state.appData.isVideo;
 export const getVideo = (state) => state.appData.videoData;
-export const { setCurrentPath, setOverlay, setShowVideo, setVideoData } = appDataSlice.actions;
+export const { setCurrentPath, setOverlay, setShowVideo, setVideoData, setBradcrump } = appDataSlice.actions;
 export default appDataSlice.reducer;

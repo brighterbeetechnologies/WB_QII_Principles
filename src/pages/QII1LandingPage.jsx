@@ -179,14 +179,16 @@ export default function QII1LandingPage() {
           <div className="sub-pages">
             {subPages.map((page, i) => (
               <div className="subpage-cnt" key={i}>
-                <div
-                  className="icon-subpage"
-                  dangerouslySetInnerHTML={{ __html: page.icon }}
-                ></div>
-                <h3 className="label-subpage">
-                  <strong>{page.title}</strong>
-                </h3>
-                <label className="page-description">{page.description}</label>
+                <div>
+                  <div
+                    className="icon-subpage"
+                    dangerouslySetInnerHTML={{ __html: page.icon }}
+                  ></div>
+                  <h3 className="label-subpage">
+                    <strong>{page.title}</strong>
+                  </h3>
+                  <label className="page-description">{page.description}</label>
+                </div>
                 <Link to={page.path}>
                   <div className="arrow-btn icon-arrow">&#xe900;</div>
                 </Link>

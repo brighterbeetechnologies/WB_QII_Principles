@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./FinancingResilience.css";
 import "./ResilientDesignAndOperation.css";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
 import HeaderCarousal from "../components/HeaderCarousal";
+import Header3 from "../components/Header3";
+import { useDispatch } from "react-redux";
+import { setBradcrump } from "../slices/appDataSlice";
 
 export default function FinancingResilience() {
   const slidesData = [
@@ -26,18 +29,41 @@ export default function FinancingResilience() {
       title: "Financing Resilience",
     },
   ];
+
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(
+      setBradcrump({
+        show: true,
+        dir: [
+          { path: "/", title: "Home" },
+          { path: "/qii4", title: "Resilience" },
+          {
+            path: "/Financing-resilience",
+            title: "Financing Resilience",
+          },
+        ],
+      })
+    );
+  }, []);
   return (
     <div className="FinancingResilience">
       <section className="color-light">
-        <div className="hero">
-          <img src="images/qii4/Diagnosing_Vulnerabilities.png" alt="" />
-          <div className="hero-content">
-            <h3>Financing Resilience</h3>
-            <p>
-              Financing resilient infrastructure is constrained by limited resources, weak public policy alignment, lack of data on costs and benefits, and risk perceptions. Public budgets are often overstretched, making it hard to fund resilience measures that require higher upfront costs but yield long-term benefits. Standard screening and appraisal processes seldom capture these benefits, so resilience projects are often undervalued compared to conventional infrastructure. 
-            </p>
-          </div>
-        </div>
+        <Header3
+          img="images/qii4/Diagnosing_Vulnerabilities.png"
+          title="Financing Resilience"
+        >
+          <p className="light-font">
+            Financing resilient infrastructure is constrained by limited
+            resources, weak public policy alignment, lack of data on costs and
+            benefits, and risk perceptions. Public budgets are often
+            overstretched, making it hard to fund resilience measures that
+            require higher upfront costs but yield long-term benefits. Standard
+            screening and appraisal processes seldom capture these benefits, so
+            resilience projects are often undervalued compared to conventional
+            infrastructure.
+          </p>
+        </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container noPTop">
           <p className="list-title">
@@ -464,22 +490,17 @@ export default function FinancingResilience() {
               </p>
             </VCard>
             <VCard
-              image="images/qii4/FinancingResilience/Financing for Disaster and Resilient Infrastructure.png"
+              image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
               title={
                 <p>
-                  <strong>
-                    Financing for Disaster and Resilient Infrastructure{" "}
-                  </strong>
-                  (Coalition for Disaster Resilient Infrastructure)
+                  <strong>GFDRR Disaster Risk Finance</strong>
                 </p>
               }
-              buttonText="Report"
-              link="https://cdri.world/upload/biennial/CH4.1-CCRI.pdf"
+              buttonText="Resource"
+              link="https://www.gfdrr.org/en/disaster-risk-finance  "
             >
               <p>
-                This report explores the mechanisms that can provide greater
-                incentives for both public and private sector for investment in
-                strengthening resilience.
+                GFDRR supports governments in designing financial protection strategies and instruments to respond to natural disasters. The Disaster Risk Financing and Insurance thematic area provides a compendium of case studies and resources in financing solutions for better management of disasters and climate shocks. 
               </p>
             </VCard>
 

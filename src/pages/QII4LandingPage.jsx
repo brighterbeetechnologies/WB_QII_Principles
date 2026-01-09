@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./QIILandingPage.css";
 import "./QII4LandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
-import { setShowVideo, setVideoData } from "../slices/appDataSlice";
+import { setBradcrump, setShowVideo, setVideoData } from "../slices/appDataSlice";
 // import textCrData_tab from "images/qii4/QII2_Landing_main.png"
 export default function QII4LandingPage() {
   const dispatch = useDispatch();
@@ -251,6 +251,18 @@ export default function QII4LandingPage() {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
   };
+
+  useEffect(() => {
+      dispatch(
+        setBradcrump({
+          show: true,
+          dir: [
+            { path: "/", title: "Home" },
+            { path: "/qii4", title: "Resilience" },
+          ],
+        })
+      );
+    }, []);
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
@@ -365,14 +377,16 @@ export default function QII4LandingPage() {
           <div className="sub-pages">
             {subPages.map((page, i) => (
               <div className="subpage-cnt" key={i}>
-                <div
-                  className="icon-subpage"
-                  dangerouslySetInnerHTML={{ __html: page.icon }}
-                ></div>
-                <h3 className="label-subpage">
-                  <strong>{page.title}</strong>
-                </h3>
-                <label className="page-description">{page.description}</label>
+                <div>
+                  <div
+                    className="icon-subpage"
+                    dangerouslySetInnerHTML={{ __html: page.icon }}
+                  ></div>
+                  <h3 className="label-subpage">
+                    <strong>{page.title}</strong>
+                  </h3>
+                  <label className="page-description">{page.description}</label>
+                </div>
                 <Link to={page.path}>
                   <div className="arrow-btn icon-arrow">&#xe900;</div>
                 </Link>
@@ -413,7 +427,7 @@ export default function QII4LandingPage() {
                 onClick={() => {
                   openVideo(
                     "./video/LandingPageVideo.mp4",
-                    "QII 4 in Action",
+                    "Lessons from Success Stories",
                     1920,
                     1080
                   );

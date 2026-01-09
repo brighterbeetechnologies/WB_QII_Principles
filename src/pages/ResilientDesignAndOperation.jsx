@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ResilientDesignAndOperation.css";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
 import HeaderCarousal from "../components/HeaderCarousal";
+import Header3 from "../components/Header3";
+import { useDispatch } from "react-redux";
+import { setBradcrump } from "../slices/appDataSlice";
 
 export default function ResilientDesignAndOperation() {
   const slidesData = [
@@ -25,30 +28,46 @@ export default function ResilientDesignAndOperation() {
       title: "Resilient Design and Operations",
     },
   ];
+
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(
+      setBradcrump({
+        show: true,
+        dir: [
+          { path: "/", title: "Home" },
+          { path: "/qii4", title: "Resilience" },
+          {
+            path: "/Resilient-design&operation",
+            title: "Resilient Design and Operations",
+          },
+        ],
+      })
+    );
+  }, []);
   return (
     <div className="ResilientDesignAndOperation">
       <section className="color-light">
+        <Header3
+          img="images/qii4/Diagnosing_Vulnerabilities.png"
+          title="Resilient Design and Operations"
+        >
+          <p className="light-font">
+            A resilient approach to infrastructure requires more than durable
+            construction that withstands shocks; it involves a sequence of
+            actions throughout design and operations that addresses not just the
+            asset itself but also the system in which the asset exists. <br />
+            <br />
+            Applying recognized resilience standards, building adaptive
+            operational processes, and integrating innovative digital
+            technologies and nature-based solutions – to address both natural
+            and man-made shocks (such as cyber-security threats) – collectively
+            enable projects to withstand and adapt to evolving risks over their
+            lifetime.
+          </p>
+        </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
-        <div className="hero">
-          <img src="images/qii4/Diagnosing_Vulnerabilities.png" alt="" />
-          <div className="hero-content">
-            <h3>Resilient Design and Operations </h3>
-            <p>
-              A resilient approach to infrastructure requires more than durable
-              construction that withstands shocks; it involves a sequence of
-              actions throughout design and operations that addresses not just
-              the asset itself but also the system in which the asset exists.{" "}
-              <br />
-              <br />
-              Applying recognized resilience standards, building adaptive
-              operational processes, and integrating innovative digital
-              technologies and nature-based solutions – to address both natural
-              and man-made shocks (such as cyber-security threats) –
-              collectively enable projects to withstand and adapt to evolving
-              risks over their lifetime.
-            </p>
-          </div>
-        </div>
+
         <div className="container noPTop">
           <p className="list-title">
             The incorporation of resilience into the design of infrastructure
@@ -62,15 +81,17 @@ export default function ResilientDesignAndOperation() {
             face of disaster.
           </p>
           <NumSteps num="1">
-            <strong>Prevention</strong> - Applying Resilience Standards to
-            Planning and Design: Integrating design standards and climate
-            considerations from the outset ensures that infrastructure design
-            directly addresses foreseeable hazards. This proactive approach –
-            especially when standards are applied system-wide (i.e. at a
-            national, sector, or program level and not just project-by-project)
-            – enables the scalable implementation of resilience interventions,
-            including asset integrity and service continuity, in alignment with
-            national resilience objectives.
+            <strong>
+              Prevention - Applying Resilience Standards to Planning and Design:
+            </strong>{" "}
+            Integrating design standards and climate considerations from the
+            outset ensures that infrastructure design directly addresses
+            foreseeable hazards. This proactive approach – especially when
+            standards are applied system-wide (i.e. at a national, sector, or
+            program level and not just project-by-project) – enables the
+            scalable implementation of resilience interventions, including asset
+            integrity and service continuity, in alignment with national
+            resilience objectives.
           </NumSteps>
           <p className="num1-para">
             *Much of the current work on resilience standards is still nascent,
@@ -170,7 +191,7 @@ export default function ResilientDesignAndOperation() {
             </VCard>
 
             <VCard
-              image="images/qii4/ResilientDesignAndOperation/card5.png"
+              image="images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png"
               title={
                 <p>
                   <strong>Building regulations in Sub-Saharan Africa:</strong> A
@@ -264,6 +285,16 @@ export default function ResilientDesignAndOperation() {
             reliable performance. These practices enable rapid restoration after
             natural and man-made shocks and sustain service levels under
             evolving environmental and operational pressures.
+            <br />
+            <br />
+            More specifically, both nature-based solutions and advanced digital
+            technologies are two effective mechanisms by which to enhance
+            systemic resilience, system flexibility, and cost-effectiveness in
+            both design and operations of infrastructure assets and systems.
+            Moreover, these mechanisms deliver environmental, social, and
+            economic co-benefits throughout the infrastructure lifespan.
+            <br />
+            <br />
           </NumSteps>
           <h4 className="sub-section-title">
             Nature-based Solutions for Resilience
@@ -314,7 +345,7 @@ export default function ResilientDesignAndOperation() {
             </VCard>
 
             <VCard
-              image="images/qii4/ResilientDesignAndOperation/card11.png"
+              image="images/qii4/ResilientDesignAndOperation/A Catalogue of Nature-Based Solutions for Urban Resilience.png"
               title={
                 <p>
                   <strong>
@@ -402,15 +433,15 @@ export default function ResilientDesignAndOperation() {
                 public infrastructure.
               </p>
             </VCard>
-            <p className="qii4-note">
-              *For more on digital resilience, visit our cybersecurity sub-page.
-            </p>
           </div>
+          <p className="qii4-note">
+            *For more on digital resilience, visit our cybersecurity sub-page.
+          </p>
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>
               Responsiveness – Ensuring Post-Event Performance of Infrastructure
-              Assets and Systems
+              Assets and Systems:
             </strong>{" "}
             Infrastructure practitioners and planners are increasingly
             recognizing the importance of integrating key resilience strategies
@@ -479,7 +510,7 @@ export default function ResilientDesignAndOperation() {
             </VCard>
 
             <VCard
-              image="images/qii4/ResilientDesignAndOperation/card17.png"
+              image="images/qii4/ResilientDesignAndOperation/Functional Recovery of Lifeline Infrastructure System Services.png"
               title={
                 <p>
                   <strong>
@@ -506,7 +537,7 @@ export default function ResilientDesignAndOperation() {
           </div>
           <div className="VCard-cnt col2">
             <VCard
-              image="images/qii4/ResilientDesignAndOperation/card18.png"
+              image="images/qii4/ResilientDesignAndOperation/OECD Infrastructure Toolkit Strengthening Critical Infrastructure Resilience.png"
               title={
                 <p>
                   <strong>OECD Infrastructure Toolkit:</strong> Strengthening
@@ -525,7 +556,7 @@ export default function ResilientDesignAndOperation() {
             </VCard>
 
             <VCard
-              image="images/qii4/ResilientDesignAndOperation/card19.png"
+              image="images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.png"
               title={
                 <p>
                   <strong>Building Resilience: </strong>New Strategies for
