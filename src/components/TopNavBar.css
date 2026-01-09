@@ -15,44 +15,52 @@ nav .nav-cnt {
 }
 
 .breadcrump {
+  position: absolute;
+  top: 110%;
+  left: 0px;
   display: flex;
   gap: 0.6rem;
   align-items: center;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(12px);
-  box-shadow: 1px 4px 7px -3px rgb(0, 0, 0, 0.23);
-  margin-top: 10px;
+  /* width: 100%; */
+  background: #ffffff;
+  /* background: rgba(255, 255, 255, 0.5); */
+  padding: 5px 1rem;
+  /* backdrop-filter: blur(12px); */
+  /* box-shadow: 1px 4px 7px -3px rgb(0, 0, 0, 0.23); */
+  /* margin-top: 10px; */
+  border-radius: 8rem;
+  width: auto;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 53px) {
   .breadcrump {
-    display: none;
+    flex-wrap: wrap;
   }
 }
 
 .breadcrump button {
   border: none;
   background: #ffffff;
-  color: #000000;
+  color: blue;
   border-radius: 6rem;
-  box-shadow: 0px 3px 6px #00000029;
-  padding: 0.3rem 0.8rem;
+  /* box-shadow: 0px 3px 6px #00000029; */
+  padding: 0.3rem 0rem;
   cursor: pointer;
   font-size: 0.8rem;
 }
 
 .breadcrump button:hover {
-  background: #00a996;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
 }
 
 .breadcrump img {
-  width: 0.8rem;
+  width: 0.6rem;
 }
 
 .breadcrump p {
-  font-size: 1rem;
+  color: #000000;
+  font-size: 0.8rem;
 }
 
 nav .logo-cnt {
@@ -138,7 +146,7 @@ nav .nav-btn {
 .nav-btn-link {
   background-color: #fff;
   border: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 4px 14px;
 }
 
@@ -275,7 +283,7 @@ nav .nav-btn {
   }
 
   .nav-sub-menu-cnt {
-    width: 520px;
+    width: 450px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -289,7 +297,7 @@ nav .nav-btn {
 
   .nav-sub-menu.open {
     right: auto;
-    width: 530px;
+    width: 460px;
     overflow: visible;
   }
 
@@ -366,7 +374,7 @@ nav .nav-btn {
 
   .nav-sub-menu.open {
     right: auto;
-    width: 530px;
+    width: 460px;
     overflow: visible;
   }
 

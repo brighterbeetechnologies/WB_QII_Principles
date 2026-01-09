@@ -24,7 +24,7 @@
 
 .nav-dropdown-title {
 	padding  : 4px 14px;
-	font-size: 1.25rem;
+	font-size: 1rem;
 }
 
 .dropdown-arrow {
@@ -38,7 +38,7 @@
 	color      : #555;
 	cursor     : pointer;
 	white-space: nowrap;
-	font-size  : 1rem;
+	font-size  : 0.85rem;
 }
 
 .nav-dropdown-menu-item:hover {

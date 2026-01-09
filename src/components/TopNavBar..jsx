@@ -44,6 +44,29 @@ export default function TopNavBar() {
   return (
     <nav className={scrolled ? "nav scrolled" : "nav"}>
       <div className="nav-cnt">
+        {pageBreadCrump.show && (
+          <div className="breadcrump">
+            {pageBreadCrump.dir.map((page, i) => {
+              return (
+                <>
+                  {i <= pageBreadCrump.dir.length - 2 && (
+                    <>
+                      <button key={i} onClick={() => navigate(page.path)}>
+                        {page.title}
+                      </button>
+                      <img src="images/right-arrow.png" alt="" srcset="" />
+                    </>
+                  )}
+                  {i == pageBreadCrump.dir.length - 1 && (
+                    <>
+                      <p>{page.title}</p>
+                    </>
+                  )}
+                </>
+              );
+            })}
+          </div>
+        )}
         <div className="nav-cnt-left">
           <div className="logo-cnt">
             <img className="logo-1" src="images/WorldBank_logo.png" />
@@ -86,29 +109,6 @@ export default function TopNavBar() {
           </button>
         </div>
       </div>
-      {pageBreadCrump.show && (
-        <div className="breadcrump">
-          {pageBreadCrump.dir.map((page, i) => {
-            return (
-              <>
-                {i <= pageBreadCrump.dir.length - 2 && (
-                  <>
-                    <button key={i} onClick={() => navigate(page.path)}>
-                      {page.title}
-                    </button>
-                    <img src="images/right-arrow.png" alt="" srcset="" />
-                  </>
-                )}
-                {i == pageBreadCrump.dir.length - 1 && (
-                  <>
-                    <p>{page.title}</p>
-                  </>
-                )}
-              </>
-            );
-          })}
-        </div>
-      )}
     </nav>
   );
 }
