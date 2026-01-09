@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./QIILandingPage.css";
 import "./QII4LandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
-import { setShowVideo, setVideoData } from "../slices/appDataSlice";
+import { setBradcrump, setShowVideo, setVideoData } from "../slices/appDataSlice";
 
 export default function QII1LandingPage() {
   const dispatch = useDispatch();
@@ -67,6 +67,18 @@ export default function QII1LandingPage() {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
   };
+
+   useEffect(() => {
+    dispatch(
+      setBradcrump({
+        show: true,
+        dir: [
+          { path: "/", title: "Home" },
+          { path: "/qii1", title: "Economic Efficiency" },
+        ],
+      })
+    );
+  }, []);
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
