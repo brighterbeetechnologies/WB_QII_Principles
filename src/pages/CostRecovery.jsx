@@ -46,8 +46,7 @@ export default function CostRecovery() {
     },
     {
       id: 4,
-      title:
-        "Revenue Levers to Fund Infrastructure Global Infrastructure Hub",
+      title: "Revenue Levers to Fund Infrastructure Global Infrastructure Hub",
       description:
         "This library of case studies demonstrate the use of innovative revenue, risk management, and financing levers to make projects bankable.",
       img_path: "images/costRecovery/resources/05.png",
@@ -280,6 +279,15 @@ export default function CostRecovery() {
               </p>
             </VCard>
           </div>
+          <p className="cost-recovery-last-para">
+            Different projects may involve a mix of these solutions. The
+            critical factor is to plan for, and implement, a cost recovery
+            strategy that is acceptable to stakeholders. Without a reliable
+            source of long-term funding, even the highest quality infrastructure
+            projects will fall into neglect due to insufficient resources to
+            cover full life-cycle costs, including operations, maintenance,
+            upgrades, and renewals.
+          </p>
         </div>
       </section>
       <section className="color-dark">

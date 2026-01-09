@@ -1,3 +1,7 @@
+.cost-recovery-last-para {
+	padding: 2rem 0;
+}
+
 @media (max-width: 649px) {
 	.costRecovery .Header3 .container {
 		padding-bottom: 0;
@@ -6,6 +10,9 @@
 	.container.noPTop {
 		padding-top: 1rem;
 	}
+	.cost-recovery-last-para {
+	padding: 1rem 0;
+}
 }
 
 .link-text {
@@ -59,3 +66,4 @@
 
 
 }
+

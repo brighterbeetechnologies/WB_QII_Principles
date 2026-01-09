@@ -155,9 +155,9 @@ export default function TechnicalSolutions() {
                 <p>
                   <strong>
                     South Africa Nature-based Infrastructure to Enhance Water
-                    Security The Nature Conservancy
+                    Security
                   </strong>{" "}
-                  World Bank
+                  The Nature Conservancy
                 </p>
               }
               buttonText="Case Study"
