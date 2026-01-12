@@ -52,7 +52,7 @@ export default function ManagingCyberSecurityRisks() {
     <div className="ManagingCyberSecurityRisks ResilientDesignAndOperation">
       <section className="color-light">
         <Header3
-          img="images/qii4/Diagnosing_Vulnerabilities.png"
+          img="images/qii4/cybersecurity.png"
           title="Managing Cybersecurity Risks"
         >
           <p className="light-font">

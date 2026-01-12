@@ -50,7 +50,7 @@ export default function FinancingResilience() {
     <div className="FinancingResilience">
       <section className="color-light">
         <Header3
-          img="images/qii4/Diagnosing_Vulnerabilities.png"
+          img="images/qii4/financing_resilience.png"
           title="Financing Resilience"
         >
           <p className="light-font">

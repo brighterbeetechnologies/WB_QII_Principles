@@ -49,7 +49,7 @@ export default function ResilientDesignAndOperation() {
     <div className="ResilientDesignAndOperation">
       <section className="color-light">
         <Header3
-          img="images/qii4/Diagnosing_Vulnerabilities.png"
+          img="images/qii4/resilient_design_and_ops.png"
           title="Resilient Design and Operations"
         >
           <p className="light-font">
