@@ -1,13 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./QIILandingPage.css";
 import "./QII4LandingPage.css";
+import "./QII3LandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
 import Header3 from "../components/Header3";
 import { Link } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
-import { setShowVideo, setVideoData } from "../slices/appDataSlice";
+import {
+  setBradcrump,
+  setShowVideo,
+  setVideoData,
+} from "../slices/appDataSlice";
 
 export default function QII3LandingPage() {
   const dispatch = useDispatch();
@@ -15,7 +20,13 @@ export default function QII3LandingPage() {
     {
       id: 0,
       icon: "&#xe919;",
-      text: "Reduces costly service interruptions, protecting households and businesses from economic losses.",
+      text: (
+        <>
+          <strong>Lock in carbon-intensive pathways</strong> through decisions
+          made at the planning and design stages, with emissions persisting
+          across decades of operation.
+        </>
+      ),
     },
     {
       id: 0,
@@ -33,33 +44,29 @@ export default function QII3LandingPage() {
     {
       id: 0,
       icon: "&#xe919;",
-      title: "Diagnosing vulnerabilities",
-      description:
-        "Systematically assessing infrastructure risks and weaknesses to prioritize targeted, effective resilience measures",
+      title: "Quality Environmental Standards",
+      description: "",
       path: "/Diagnosing-vulnerabilities",
     },
     {
       id: 0,
       icon: "&#xe91b;",
-      title: "Resilient design and operation",
-      description:
-        "Integrating climate-smart and adaptive practices into infrastructure planning, construction, and management to ensure long-term reliability",
+      title: "Decarbonizing Infrastructure",
+      description: "",
       path: "/Resilient-design&operation",
     },
     {
       id: 0,
       icon: "&#xe91d;",
-      title: "Financing resilience",
-      description:
-        "Mobilizing dedicated and sustainable funding sources to support resilient infrastructure investments and ongoing risk management",
+      title: "Green Designs and Nature-Based Infrastructure",
+      description: "",
       path: "/Financing-resilience",
     },
     {
       id: 0,
       icon: "&#xe918;",
-      title: "Managing cybersecurity risks",
-      description:
-        "Implementing robust safeguards and protocols to protect critical infrastructure from digital threats and service interruptions",
+      title: "Green Financing for Infrastructure",
+      description: "",
       path: "/Managing-cyber-security-risks",
     },
   ];
@@ -67,12 +74,23 @@ export default function QII3LandingPage() {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
   };
+  useEffect(() => {
+    dispatch(
+      setBradcrump({
+        show: true,
+        dir: [
+          { path: "/", title: "Home" },
+          { path: "/qii4", title: "Resilience" },
+        ],
+      })
+    );
+  }, []);
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
         <img
           className="desk_image"
-          src="images/qii4/QII2_Landing_main.png"
+          src="images/qii3/QII3_Landing main.png"
           alt=""
         />
         <img
@@ -82,41 +100,36 @@ export default function QII3LandingPage() {
         />
         <div className="container">
           <p className="header-text">
-            Resilience in infrastructure refers to the capacity to withstand,
-            adapt to, and recover from disruptions—whether caused by natural
-            disasters, climate change, or human-made risks. Resilience ensures
-            reliable infrastructure service delivery and reduces the economic
-            disruptions caused by extreme events. Resilience can be especially
-            important in low- and middle-income countries which can lack the
-            system redundancies and emergency response capacity needed in
-            disaster situations.
+            Infrastructure accounts for <strong>~79%</strong> of global
+            greenhouse gas emissions, but can also be a{" "}
+            <strong>driver of environmental solutions</strong> through
+            <strong>renewable energy, climate-smart transport,</strong> and{" "}
+            <strong>designs that work </strong>
+            with nature.
+            <br></br>
+            QII 3 supports efforts to move beyond "do-no-harm" to actively
+            promoting positive environmental outcomes throughout a project's
+            lifecycle.
           </p>
           <div className="header-items-cnt">
             <div className="header-item">
               <div className="icon-item">&#xe91c;</div>
               <label className="item-label">
-                <strong>Diagnosing vulnerabilities</strong>
+                <strong>Reducing climate impact</strong>
               </label>
             </div>
             <div className="devider"></div>
             <div className="header-item">
               <div className="icon-item">&#xe917;</div>
               <label className="item-label">
-                <strong>Resilient design and operation</strong>
+                <strong>Protecting biodiversity</strong>
               </label>
             </div>
             <div className="devider"></div>
             <div className="header-item">
               <div className="icon-item">&#xe91a;</div>
               <label className="item-label">
-                <strong>Financing resilience</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <div className="icon-item">&#xe91a;</div>
-              <label className="item-label">
-                <strong>Managing cybersecurity risks</strong>
+                <strong>Creating long-term environmental value</strong>
               </label>
             </div>
           </div>
@@ -126,14 +139,14 @@ export default function QII3LandingPage() {
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              <img src="images/qii2/videoCover.png" alt="" />
+              <img src="images/qii3/Video1_thumbnail.png" alt="" />
               <div className="vid-cnt">
                 <button
                   className="video-play-btn icon-play"
                   onClick={() => {
                     openVideo(
                       "./video/LandingPageVideo.mp4",
-                      "Unlocking the Potential of Life Cycle Costing",
+                      "The Environmental Challenge and Opportunity",
                       1920,
                       1080
                     );
@@ -142,31 +155,28 @@ export default function QII3LandingPage() {
                   &#xe91e;
                 </button>
                 <p className="video-title">
-                  <strong>
-                    Unlocking The Urgent Need for Resilient Infrastructure
-                  </strong>
+                  <strong></strong>
                 </p>
               </div>
             </div>
             <div className="text-cnt">
               <h1 className="light-font mBottom">
-                The Benefits of Resilience in Infrastructure
+                Infrastructure's Environmental Footprint
               </h1>
               <h3 className="light-font sub-text">
-                Resilient infrastructure strengthens society's capacity to cope
-                with shocks and disruptions, unlocking enduring economic,
-                social, and operational advantages. Resilience:
+                Infrastructure shapes environmental outcomes for generations.
+                Without intentional action, projects can:
               </h3>
               <TextIconCarousal data={textCrData} />
             </div>
           </div>
         </div>
-        <Header3 img="images/qii4/QII2_Landing_image2.png">
+        <Header3 img="images/qii3/shutterstock_708204115.png">
           <p>
-            Resilience is more than a safeguard—it's a foundational principle
-            for infrastructure that must withstand, adapt to, and recover from
-            shocks to ensure uninterrupted service, especially in rapidly
-            changing and vulnerable environments.
+            By accounting for climate impacts, biodiversity risks, and ecosystem
+            services from project conception through delivery, infrastructure
+            becomes a driver of environmental regeneration rather than
+            degradation.
           </p>
         </Header3>
       </section>
@@ -174,8 +184,7 @@ export default function QII3LandingPage() {
         <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">
-              To turn the principle of 'Resilience' into practice, we focus on
-              four key actionable aspects:
+              Pathways to Integrating Environmental Value
             </h1>
           </div>
           <div className="sub-pages">
@@ -202,12 +211,12 @@ export default function QII3LandingPage() {
           <div className="qii4-video-card">
             <img
               className="desk_image"
-              src="images/qii4/QII 2 in Action poster.png"
+              src="images/qii3/Highlight_video_thumbnail.png"
               alt=""
             />
             <img
               className="mob_image"
-              src="images/qii4/QII 2 in Action poster.png"
+              src="images/qii3/Highlight_video_thumbnail.png"
               alt=""
             />
             {/* <button
@@ -229,7 +238,7 @@ export default function QII3LandingPage() {
                 onClick={() => {
                   openVideo(
                     "./video/LandingPageVideo.mp4",
-                    "QII 4 in Action",
+                    "Lessons from Success Stories ",
                     1920,
                     1080
                   );
@@ -239,12 +248,11 @@ export default function QII3LandingPage() {
               </button>
             </div>
             <div className="qii4-video-overlay">
-              <p className="qii4-video-title">QII 4 in Action</p>
-
+              <p className="qii4-video-title">Lessons from Success Stories</p>
               <p className="qii4-video-desc">
-                The Solomon Islands' adoption of prefabricated modular bridges
-                demonstrates an efficient, climate-resilient solution for
-                strengthening vital transport infrastructure in the Pacific.
+                How Belgrade transformed decades of waste into clean energy,
+                pioneering a new model for sustainable infrastructure in
+                emerging markets.
               </p>
 
               <button className="qii4-video-cta">Explore Case Studies →</button>
@@ -262,6 +270,12 @@ export default function QII3LandingPage() {
             <TopResourceCard
               image="images/qii4/Fukuoka image.png"
               title={<p>World Bank Tokyo Disaster Risk Management (DRM) Hub</p>}
+              buttonText="Programs"
+              link=""
+            ></TopResourceCard>
+            <TopResourceCard
+              image="images/qii4/Ganga-case-study-image.png"
+              title={<p>Global Facility For Disaster Reduction And Recovery</p>}
               buttonText="Programs"
               link=""
             ></TopResourceCard>

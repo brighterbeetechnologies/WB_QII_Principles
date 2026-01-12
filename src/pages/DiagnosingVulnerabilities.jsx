@@ -65,7 +65,7 @@ export default function DiagnosingVulnerabilities() {
 
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container noPTop">
-          <p class="list-title">
+          <p className="list-title">
             There are three main components to these analyses, including
             identify hazards and exposures, evaluating asset and system
             vulnerabilities, and apply risk-informed decision-making. This will
