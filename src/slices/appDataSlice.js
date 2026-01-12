@@ -149,6 +149,130 @@ export const appDataSlice = createSlice({
 				"industry": 3,
 				"image": "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png"
 			},
+
+			{
+				"id": 3,
+				"paths": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+				"type": "Programs",
+				"title": "IFC Performance Standards on Environmental and Social Sustainability",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png"
+			},
+			{
+				"id": 3,
+				"paths": "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
+				"type": "Guidance ",
+				"title": "Environmental and Social Framework (ESF) World Bank ",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+				"type": "Guidance",
+				"title": "IFC Performance Standards on Environmental and Social Sustainability",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
+				"type": "Case Study",
+				"title": "Timor-Leste: Tibar Bay Port",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://www.iso.org/popular-standards.html",
+				"type": "Guidance",
+				"title": "Infrastructure Standards International Organization for Standardization (ISO) ",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/Infrastructure Standards.png"
+			},
+			{
+				"id": 3,
+				"paths": "https://equator-principles.com/",
+				"type": "Guidance",
+				"title": "Equator Principles",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/Equator Principles.png"
+			},
+			{
+				"id": 3,
+				"paths": "",
+				"type": "Guidance",
+				"title": "LEED for Buildings /n LEED for Cities and Communities ",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "https://www.usgbc.org/leed/rating-systems/leed-for-cities"
+			},
+			{
+				"id": 3,
+				"paths": "https://breeam.com/breeam-infrastructure",
+				"type": "Guidance",
+				"title": "BREEAM Infrastructure",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/BREEAM Infrastructure.png"
+			},
+			{
+				"id": 3,
+				"paths": "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
+				"type": "Case Study",
+				"title": "Blue Dot Network",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": ""
+			},
+			{
+				"id": 3,
+				"paths": "https://www.fastinfralabel.org/",
+				"type": "",
+				"title": "FAST Infra",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": ""
+			},
 			{
 				"id": 3,
 				"paths": "",
