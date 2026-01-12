@@ -19,6 +19,7 @@ import QII3LandingPage from "./pages/QII3LandingPage.jsx";
 import QII5LandingPage from "./pages/QII5LandingPage.jsx";
 import QII6LandingPage from "./pages/QII6LandingPage.jsx";
 import QualityEnvironmentalStandards from "./pages/QualityEnvironmentalStandards.jsx"
+import GreenDesignsAndNatureBasedInfrastructure from "./pages/GreenDesignsAndNatureBasedInfrastructure.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -147,6 +148,14 @@ export const router = createHashRouter([
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
 						<QualityEnvironmentalStandards />
+					</Suspense>
+				),
+			},
+			{
+				path: "/GreenDesigns&Nature-BasedInfrastructure",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<GreenDesignsAndNatureBasedInfrastructure />
 					</Suspense>
 				),
 			},

@@ -227,7 +227,7 @@ export const appDataSlice = createSlice({
 			},
 			{
 				"id": 3,
-				"paths": "",
+				"paths": "https://www.usgbc.org/leed/rating-systems/leed-for-cities",
 				"type": "Guidance",
 				"title": "LEED for Buildings /n LEED for Cities and Communities ",
 				"principles": 2,
@@ -235,7 +235,7 @@ export const appDataSlice = createSlice({
 				"stage": 2,
 				"region": 1,
 				"industry": 3,
-				"image": "https://www.usgbc.org/leed/rating-systems/leed-for-cities"
+				"image": "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png"
 			},
 			{
 				"id": 3,
@@ -259,33 +259,63 @@ export const appDataSlice = createSlice({
 				"stage": 2,
 				"region": 1,
 				"industry": 3,
-				"image": ""
+				"image": "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png"
 			},
 			{
 				"id": 3,
 				"paths": "https://www.fastinfralabel.org/",
-				"type": "",
+				"type": "Case Study",
 				"title": "FAST Infra",
 				"principles": 2,
 				"format": 2,
 				"stage": 2,
 				"region": 1,
 				"industry": 3,
-				"image": ""
+				"image": "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png"
 			},
 			{
 				"id": 3,
-				"paths": "",
-				"type": "",
-				"title": "",
+				"paths": "https://sdgfinance.undp.org/resource-library/framework-sdg-aligned-finance",
+				"type": "Guidance",
+				"title": "Framework for SDG-Aligned Finance OECD & UNDP",
 				"principles": 2,
 				"format": 2,
 				"stage": 2,
 				"region": 1,
 				"industry": 3,
-				"image": ""
+				"image": "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png"
 			},
 			
+			{
+				"id": 3,
+				"paths": "https://www.cdri.world/upload/pages/1726999413696320_202203111036infrastructure_standards-building_blocks_for_a_resilient_future_technical_note.pdf?utm_source",
+				"type": "Guidance",
+				"title": "Infrastructure Standards – Building Blocks for a Resilient Future CDRI", 
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://www.unep.org/geo/global-environment-outlook-7",
+				"type": "Guidance",
+				"title": "Global Environment Outlook (GEO-7) UNEP",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png"
+			},
+
+
+			
+
+
 			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",
@@ -312,19 +342,7 @@ export const appDataSlice = createSlice({
 				"industry": 4,
 				"image": "images/resources/03.jpg"
 			},
-			{
-				"id": 3,
-				"paths": "",
-				"type": "",
-				"title": "",
-
-				"principles": 2,
-				"format": 3,
-				"stage": 1,
-				"region": 1,
-				"industry": 4,
-				"image": ""
-			},
+			
 			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",

@@ -315,7 +315,7 @@ export default function QualityEnvironmentalStandards() {
               </p>
             }
             buttonText="Guidance"
-            link=""
+            link="https://www.cdri.world/upload/pages/1726999413696320_202203111036infrastructure_standards-building_blocks_for_a_resilient_future_technical_note.pdf?utm_source"
           >
             <p>
               The Coalition for Disaster Resilient Infrastructure has developed
@@ -335,7 +335,7 @@ export default function QualityEnvironmentalStandards() {
               </p>
             }
             buttonText="Guidance"
-            link=""
+            link="https://www.unep.org/geo/global-environment-outlook-7"
           >
             <p>
               {" "}
