@@ -72,7 +72,8 @@ export const appDataSlice = createSlice({
 				"image": "images/resources/01.jpg",
 				"videoUrl": "./video/FukuokaCaseStudy.mp4",
 				"videoTitle": "QII 2 in Action"
-			}, {
+			}, 
+			{
 				"id": 1,
 				"paths": "",
 				"type": "Case Study",
@@ -148,46 +149,6 @@ export const appDataSlice = createSlice({
 				"industry": 3,
 				"image": "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png"
 			},
-
-			{
-				"id": 3,
-				"paths": "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
-				"type": "Guidance ",
-				"title": "Environmental and Social Framework (ESF) World Bank ",
-				"principles": 2,
-				"format": 2,
-				"stage": 2,
-				"region": 1,
-				"industry": 3,
-				"image": "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png"
-			},
-
-			{
-				"id": 3,
-				"paths": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
-				"type": "Guidance",
-				"title": "IFC Performance Standards on Environmental and Social Sustainability",
-				"principles": 2,
-				"format": 2,
-				"stage": 2,
-				"region": 1,
-				"industry": 3,
-				"image": "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png"
-			},
-
-			{
-				"id": 3,
-				"paths": "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
-				"type": "Case Study",
-				"title": "Timor-Leste: Tibar Bay Port ",
-				"principles": 2,
-				"format": 2,
-				"stage": 2,
-				"region": 1,
-				"industry": 3,
-				"image": ""
-			},
-
 			{
 				"id": 3,
 				"paths": "",
@@ -200,62 +161,7 @@ export const appDataSlice = createSlice({
 				"industry": 3,
 				"image": ""
 			},
-
-			{
-				"id": 3,
-				"paths": "",
-				"type": "",
-				"title": "",
-				"principles": 2,
-				"format": 2,
-				"stage": 2,
-				"region": 1,
-				"industry": 3,
-				"image": ""
-			},
-
-			{
-				"id": 3,
-				"paths": "",
-				"type": "",
-				"title": "",
-				"principles": 2,
-				"format": 2,
-				"stage": 2,
-				"region": 1,
-				"industry": 3,
-				"image": ""
-			},
-
-			{
-				"id": 3,
-				"paths": "",
-				"type": "",
-				"title": "",
-				"principles": 2,
-				"format": 2,
-				"stage": 2,
-				"region": 1,
-				"industry": 3,
-				"image": ""
-			},
-
-			{
-				"id": 3,
-				"paths": "",
-				"type": "",
-				"title": "",
-				"principles": 2,
-				"format": 2,
-				"stage": 2,
-				"region": 1,
-				"industry": 3,
-				"image": ""
-			},
-
-
-
-
+			
 			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",
