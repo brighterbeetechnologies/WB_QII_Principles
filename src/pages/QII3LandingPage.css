@@ -31,7 +31,7 @@
 @media (min-width: 768px) {
   .top-resource-card-cnt-qii4 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     justify-content: center;
     max-width: 1270px;
@@ -42,7 +42,7 @@
 
 @media (min-width: 1200px) {
   .top-resource-card-cnt-qii4 {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   .top-resource-card-btn {
@@ -119,13 +119,14 @@
 }
 
 .qii4-video-cta {
-  background: #fff;
-  color: #000;
-  border: 1px solid #fff;
-  padding: 0.8rem 1.2rem;
-  border-radius: 50px;
-  font-size: 25px;
-  cursor: pointer;
+    background: #fff;
+    color: #000;
+    border: 1px solid #fff;
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 21px;
+    margin-top: 1rem;
+    cursor: pointer;
 }
 
 .qii4-video-cta:hover {

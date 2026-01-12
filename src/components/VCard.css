@@ -167,3 +167,35 @@
 	}
 }
 
+
+/* added */
+
+.VCard-cnt.col1 {
+	grid-template-columns: 1fr;
+	justify-items: center;
+} 
+
+@media (min-width: 768px) {
+	.VCard-cnt.col1 {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width: 1200px) {
+	.VCard-cnt.col1 {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width: 1400px) {
+	.VCard-cnt.col1 {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width: 1600px) {
+	.VCard-cnt.col1 {
+		grid-template-columns: 1fr;
+	}
+}
+

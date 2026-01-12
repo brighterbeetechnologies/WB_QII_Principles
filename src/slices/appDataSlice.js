@@ -96,18 +96,166 @@ export const appDataSlice = createSlice({
 				"industry": 3,
 				"image": "images/resources/03.jpg"
 			},
+
 			{
 				"id": 3,
-				"paths": "./pdf/Beyond the Gap.pdf",
-				"type": "Research Report",
-				"title": "Beyond the Gap: How Countries Can Afford the Infrastructure They Need While Protecting the Planet",
+				"paths": "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
+				"type": "Programs",
+				"title": "Environmental and Social Framework World Bank (2017)",
 				"principles": 2,
 				"format": 2,
 				"stage": 2,
 				"region": 1,
 				"industry": 3,
-				"image": "images/resources/04.jpg"
+				"image": "images/qii3/Environmental and Social Framework World Bank (2017).png"
 			},
+
+			{
+				"id": 3,
+				"paths": "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
+				"type": "Programs",
+				"title": "Climate Toolkits for Infrastructure PPPs World Bank",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+				"type": "Programs",
+				"title": "IFC Performance Standards on Environmental and Social Sustainability",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://doi.org/10.1787/a74a45b0-en",
+				"type": "Programs",
+				"title": "Infrastructure for a Climate-Resilient Future OECD (2024)",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
+				"type": "Guidance ",
+				"title": "Environmental and Social Framework (ESF) World Bank ",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+				"type": "Guidance",
+				"title": "IFC Performance Standards on Environmental and Social Sustainability",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png"
+			},
+
+			{
+				"id": 3,
+				"paths": "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
+				"type": "Case Study",
+				"title": "Timor-Leste: Tibar Bay Port ",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": ""
+			},
+
+			{
+				"id": 3,
+				"paths": "",
+				"type": "",
+				"title": "",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": ""
+			},
+
+			{
+				"id": 3,
+				"paths": "",
+				"type": "",
+				"title": "",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": ""
+			},
+
+			{
+				"id": 3,
+				"paths": "",
+				"type": "",
+				"title": "",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": ""
+			},
+
+			{
+				"id": 3,
+				"paths": "",
+				"type": "",
+				"title": "",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": ""
+			},
+
+			{
+				"id": 3,
+				"paths": "",
+				"type": "",
+				"title": "",
+				"principles": 2,
+				"format": 2,
+				"stage": 2,
+				"region": 1,
+				"industry": 3,
+				"image": ""
+			},
+
+
+
+
 			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",
@@ -136,16 +284,16 @@ export const appDataSlice = createSlice({
 			},
 			{
 				"id": 3,
-				"paths": "./pdf/Beyond the Gap.pdf",
-				"type": "Research Report",
-				"title": "Beyond the Gap: How Countries Can Afford the Infrastructure They Need While Protecting the Planet",
+				"paths": "",
+				"type": "",
+				"title": "",
 
 				"principles": 2,
 				"format": 3,
 				"stage": 1,
 				"region": 1,
 				"industry": 4,
-				"image": "images/resources/04.jpg"
+				"image": ""
 			},
 			{
 				"id": 5,
@@ -173,19 +321,7 @@ export const appDataSlice = createSlice({
 				"industry": 1,
 				"image": "images/resources/03.jpg"
 			},
-			{
-				"id": 3,
-				"paths": "./pdf/Beyond the Gap.pdf",
-				"type": "Research Report",
-				"title": "Beyond the Gap: How Countries Can Afford the Infrastructure They Need While Protecting the Planet",
 
-				"principles": 2,
-				"format": 3,
-				"stage": 2,
-				"region": 1,
-				"industry": 1,
-				"image": "images/resources/04.jpg"
-			},
 			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",
@@ -212,20 +348,6 @@ export const appDataSlice = createSlice({
 				"industry": 1,
 				"image": "images/resources/03.jpg"
 			},
-			{
-				"id": 3,
-				"paths": "./pdf/Beyond the Gap.pdf",
-				"type": "Research Report",
-				"title": "Beyond the Gap: How Countries Can Afford the Infrastructure They Need While Protecting the Planet",
-
-				"principles": 2,
-				"format": 4,
-				"stage": 4,
-				"region": 1,
-				"industry": 1,
-				"image": "images/resources/04.jpg"
-			},
-
 
 			{
 				"id": 4,
@@ -1100,19 +1222,7 @@ export const appDataSlice = createSlice({
 				"industry": 1,
 				"image": "images/resources/03.jpg"
 			},
-			{
-				"id": 3,
-				"paths": "./pdf/Beyond the Gap.pdf",
-				"type": "Research Report",
-				"title": "Beyond the Gap: How Countries Can Afford the Infrastructure They Need While Protecting the Planet",
-
-				"principles": 2,
-				"format": 5,
-				"stage": 6,
-				"region": 1,
-				"industry": 1,
-				"image": "images/resources/04.jpg"
-			},
+			
 			{
 				"id": 5,
 				"paths": "./pdf/PPP Reference Guide Version 3.pdf",

@@ -46,28 +46,28 @@ export default function QII3LandingPage() {
       icon: "&#xe919;",
       title: "Quality Environmental Standards",
       description: "",
-      path: "/Diagnosing-vulnerabilities",
+      path: "/QualityEnvironmentalStandards",
     },
     {
       id: 0,
       icon: "&#xe91b;",
       title: "Decarbonizing Infrastructure",
       description: "",
-      path: "/Resilient-design&operation",
+      path: "/DecarbonizingInfrastructure",
     },
     {
       id: 0,
       icon: "&#xe91d;",
       title: "Green Designs and Nature-Based Infrastructure",
       description: "",
-      path: "/Financing-resilience",
+      path: "/GreenDesigns&Nature-BasedInfrastructure",
     },
     {
       id: 0,
       icon: "&#xe918;",
       title: "Green Financing for Infrastructure",
       description: "",
-      path: "/Managing-cyber-security-risks",
+      path: "/GreenFinancingforInfrastructure",
     },
   ];
   const openVideo = (url, title, width, height) => {
@@ -80,7 +80,7 @@ export default function QII3LandingPage() {
         show: true,
         dir: [
           { path: "/", title: "Home" },
-          { path: "/qii4", title: "Resilience" },
+          { path: "/qii3", title: "Environment" },
         ],
       })
     );
@@ -219,19 +219,6 @@ export default function QII3LandingPage() {
               src="images/qii3/Highlight_video_thumbnail.png"
               alt=""
             />
-            {/* <button
-					className="qii4-play-btn"
-					onClick={() =>
-					openVideo(
-						"",
-						"QII 4 in Action",
-						1920,
-						1080
-					)
-					}
-				>
-					&#9658;
-				</button> */}
             <div className="vid-cnt qii4-vid-cnt">
               <button
                 className="video-play-btn icon-play"
@@ -268,22 +255,28 @@ export default function QII3LandingPage() {
           </div>
           <div className="top-resource-card-cnt-qii4">
             <TopResourceCard
-              image="images/qii4/Fukuoka image.png"
-              title={<p>World Bank Tokyo Disaster Risk Management (DRM) Hub</p>}
+              image="images/qii3/Environmental and Social Framework World Bank (2017).png"
+              title={<p>Environmental and Social Framework World Bank (2017)  </p>}
               buttonText="Programs"
-              link=""
+              link="https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80"
             ></TopResourceCard>
             <TopResourceCard
-              image="images/qii4/Ganga-case-study-image.png"
-              title={<p>Global Facility For Disaster Reduction And Recovery</p>}
+              image="images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png"
+              title={<p>Climate Toolkits for Infrastructure PPPs World Bank </p>}
               buttonText="Programs"
-              link=""
+              link="https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf"
             ></TopResourceCard>
             <TopResourceCard
-              image="images/qii4/Ganga-case-study-image.png"
-              title={<p>Global Facility For Disaster Reduction And Recovery</p>}
+              image="images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png"
+              title={<p>IFC Performance Standards on Environmental and Social Sustainability </p>}
               buttonText="Programs"
-              link=""
+              link="https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards"
+            ></TopResourceCard>
+            <TopResourceCard
+              image="images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png"
+              title={<p>Infrastructure for a Climate-Resilient Future OECD (2024) </p>}
+              buttonText="Programs"
+              link="https://doi.org/10.1787/a74a45b0-en" 
             ></TopResourceCard>
           </div>
         </div>
