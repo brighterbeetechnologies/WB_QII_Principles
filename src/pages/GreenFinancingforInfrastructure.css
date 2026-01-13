@@ -1,0 +1,61 @@
+@media (max-width: 649px) {
+	.procurement .Header3 .container {
+		padding-bottom: 0;
+	}
+
+	.container.noPTop {
+		padding-top: 1rem;
+	}
+}
+
+.link-text {
+	margin-bottom: 2rem;
+}
+
+.procurement .border {
+	border: 1px dashed rgba(134, 134, 134, 0.5);
+	margin: 2rem 1rem;
+}
+
+.VCard-cnt {
+	margin-bottom: 2rem;
+}
+
+.v-small-text {
+	text-align: center;
+	margin    : 1rem 0 0 0;
+	font-size : 0.9375rem;
+}
+
+@media (min-width: 1024px) {
+	.link-text {
+		text-align: center;
+		max-width : 90%;
+		margin    : 1rem auto;
+	}
+
+	.procurement .mTop2 {
+		margin: 3rem 0;
+	}
+}
+
+@media (min-width: 1400px) {
+	.link-text {
+		max-width: 90%;
+		margin   : 1rem auto;
+		font-size: 1.875rem;
+	}
+
+	.procurement .mTop2 {
+		margin: 3rem 0;
+	}
+}
+
+@media (min-width: 1600px) {
+	.link-text {
+		max-width: 1480px;
+		margin   : 1rem auto;
+	}
+
+
+}

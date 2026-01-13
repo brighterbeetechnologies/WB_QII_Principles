@@ -87,35 +87,32 @@ export default function QII2LandingPage() {
         <img className="desk_image" src="images/qii2/header_bg.png" alt="" />
         <img className="mob_image" src="images/qii2/header_bg_mob.png" alt="" />
         <div className="container">
-          <p className="header-text">
-            Life-Cycle Costing (LCC) is a forward-thinking approach to
-            infrastructure investment. Instead of focusing solely on upfront
-            costs, LCC considers all costs—planning, design, construction,
-            operation, maintenance, and eventual disposal—over an asset's entire
-            lifespan. LCC is at the heat of QII Principle 2, Economic
-            Efficiency.
-          </p>
-          <div className="header-items-cnt">
-            <div className="header-item">
-              <div className="icon-item">&#xe91c;</div>
-              <label className="item-label">
-                <strong>Smarter resource allocation</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <div className="icon-item">&#xe917;</div>
-              <label className="item-label">
-                <strong>Better value for money</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <div className="icon-item">&#xe91a;</div>
-              <label className="item-label">
-                <strong>Long-term economic efficiency</strong>
-              </label>
-            </div>
+          <div className="center-header">
+            <h1 className="light-font mBottom">
+              Building Blocks of Adopting a Life Cycle Costing approach
+            </h1>
+            <h3 className="light-font">
+              Economic Efficiency transforms infrastructure by leveraging
+              advanced technologies, prioritizing long-term value, and driving
+              policy reforms for smarter procurement and sustainable outcomes.
+            </h3>
+          </div>
+          <div className="sub-pages">
+            {subPages.map((page, i) => (
+              <div className="subpage-cnt" key={i}>
+                <div
+                  className="icon-subpage"
+                  dangerouslySetInnerHTML={{ __html: page.icon }}
+                ></div>
+                <h3 className="label-subpage">
+                  <strong>{page.title}</strong>
+                </h3>
+                <label className="page-description">{page.description}</label>
+                <Link to={page.path}>
+                  <div className="arrow-btn icon-arrow">&#xe900;</div>
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -168,37 +165,6 @@ export default function QII2LandingPage() {
             value over time.
           </p>
         </Header3>
-      </section>
-      <section className="color-light">
-        <div className="container">
-          <div className="center-header">
-            <h1 className="light-font mBottom">
-              Building Blocks of Adopting a Life Cycle Costing approach
-            </h1>
-            <h3 className="light-font">
-              Economic Efficiency transforms infrastructure by leveraging
-              advanced technologies, prioritizing long-term value, and driving
-              policy reforms for smarter procurement and sustainable outcomes.
-            </h3>
-          </div>
-          <div className="sub-pages">
-            {subPages.map((page, i) => (
-              <div className="subpage-cnt" key={i}>
-                <div
-                  className="icon-subpage"
-                  dangerouslySetInnerHTML={{ __html: page.icon }}
-                ></div>
-                <h3 className="label-subpage">
-                  <strong>{page.title}</strong>
-                </h3>
-                <label className="page-description">{page.description}</label>
-                <Link to={page.path}>
-                  <div className="arrow-btn icon-arrow">&#xe900;</div>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
       <section className="color-dark ">
         <div className="container">

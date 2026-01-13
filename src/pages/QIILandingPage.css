@@ -1,7 +1,7 @@
 /* .q2_landing_page {} */
 
 .q2_landing_page .container {
-	padding: 1.2rem 1.56rem 1.8rem 1.56rem;
+	padding: 1.2rem 1.56rem 1rem 1.56rem;
 }
 
 .header-item {
@@ -248,4 +248,16 @@
 	.qii2 .video-text-box img {
 		border-radius: 34px;
 	}
+}
+
+@media (min-width: 1200px) {
+    .center-header {
+        padding: 1rem 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sub-pages {
+        margin: 0.4rem 0;
+    }
 }
