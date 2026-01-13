@@ -99,39 +99,27 @@ export default function QII3LandingPage() {
           alt=""
         />
         <div className="container">
-          <p className="header-text">
-            Infrastructure accounts for <strong>~79%</strong> of global
-            greenhouse gas emissions, but can also be a{" "}
-            <strong>driver of environmental solutions</strong> through
-            <strong>renewable energy, climate-smart transport,</strong> and{" "}
-            <strong>designs that work </strong>
-            with nature.
-            <br></br>
-            QII 3 supports efforts to move beyond "do-no-harm" to actively
-            promoting positive environmental outcomes throughout a project's
-            lifecycle.
-          </p>
-          <div className="header-items-cnt">
-            <div className="header-item">
-              <div className="icon-item">&#xe91c;</div>
-              <label className="item-label">
-                <strong>Reducing climate impact</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <div className="icon-item">&#xe917;</div>
-              <label className="item-label">
-                <strong>Protecting biodiversity</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <div className="icon-item">&#xe91a;</div>
-              <label className="item-label">
-                <strong>Creating long-term environmental value</strong>
-              </label>
-            </div>
+          <div className="center-header">
+            <h1 className="light-font mBottom">
+              Pathways to Integrating Environmental Value
+            </h1>
+          </div>
+          <div className="sub-pages">
+            {subPages.map((page, i) => (
+              <div className="subpage-cnt" key={i}>
+                <div
+                  className="icon-subpage"
+                  dangerouslySetInnerHTML={{ __html: page.icon }}
+                ></div>
+                <h3 className="label-subpage">
+                  <strong>{page.title}</strong>
+                </h3>
+                <label className="page-description">{page.description}</label>
+                <Link to={page.path}>
+                  <div className="arrow-btn icon-arrow">&#xe900;</div>
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -179,32 +167,6 @@ export default function QII3LandingPage() {
             degradation.
           </p>
         </Header3>
-      </section>
-      <section className="color-light">
-        <div className="container">
-          <div className="center-header">
-            <h1 className="light-font mBottom">
-              Pathways to Integrating Environmental Value
-            </h1>
-          </div>
-          <div className="sub-pages">
-            {subPages.map((page, i) => (
-              <div className="subpage-cnt" key={i}>
-                <div
-                  className="icon-subpage"
-                  dangerouslySetInnerHTML={{ __html: page.icon }}
-                ></div>
-                <h3 className="label-subpage">
-                  <strong>{page.title}</strong>
-                </h3>
-                <label className="page-description">{page.description}</label>
-                <Link to={page.path}>
-                  <div className="arrow-btn icon-arrow">&#xe900;</div>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
       <section className="q4_landing_page color-dark">
         <div className="container">
