@@ -152,7 +152,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                   </strong>
                 </p>
               }
-              buttonText="Guidance "
+              buttonText="Guidance"
               link="https://www.unpri.org/infrastructure/integrating-biodiversity-considerations-into-infrastructure/11611.article"
             >
               <p>
