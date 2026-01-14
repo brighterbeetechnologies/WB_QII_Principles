@@ -84,8 +84,19 @@ export default function QII2LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        <img className="desk_image" src="images/qii2/header_bg.png" alt="" />
-        <img className="mob_image" src="images/qii2/header_bg_mob.png" alt="" />
+        {/* <img className="desk_image" src="images/qii2/header_bg.png" alt="" />
+        <img className="mob_image" src="images/qii2/header_bg_mob.png" alt="" /> */}
+        <div className="hero-wrapper">
+          <img className="desk_image" src="images/qii2/header_bg.png" alt="" />
+          <img
+            className="mob_image"
+            src="images/qii2/header_bg_mob.png"
+            alt=""
+          />
+          <div className="hero-content">
+            <h1 className="light-font">Economic Efficiency</h1>
+          </div>
+        </div>
         <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">

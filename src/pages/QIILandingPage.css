@@ -261,3 +261,66 @@
         margin: 0.4rem 0;
     }
 }
+
+
+/* added */
+.q2_landing_page {
+  position: relative;
+}
+
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.desk_image,
+.mob_image {
+  width: 100%;
+  display: block;
+}
+
+.mob_image {
+  display: none;
+}
+
+.hero-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  color: #ffffff;
+  margin: 0;
+  font-weight: 600;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 649px) {
+  .hero-content h1 {
+    font-size: 1rem;
+  }
+
+  .desk_image {
+    display: none;
+  }
+
+  .mob_image {
+    display: block;
+  }
+}
+
+@media (min-width: 650px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-content h1 {
+    font-size: 3.3rem;
+  }
+}

@@ -270,7 +270,7 @@ export default function QII4LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        <img
+        {/* <img
           className="desk_image"
           src="images/qii4/QII2_Landing_main.png"
           alt=""
@@ -279,7 +279,18 @@ export default function QII4LandingPage() {
           className="mob_image"
           src="images/qii4/QII2_Landing_main.png"
           alt=""
-        />
+        /> */}
+         <div className="hero-wrapper">
+          <img className="desk_image" src="images/qii4/QII2_Landing_main.png" alt="" />
+          <img
+            className="mob_image"
+            src="images/qii4/QII2_Landing_main.png"
+            alt=""
+          />
+          <div className="hero-content">
+            <h1 className="light-font">Resilience</h1>
+          </div>
+        </div>
         <section className="">
           <div className="container">
             <div className="center-header">

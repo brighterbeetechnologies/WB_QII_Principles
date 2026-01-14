@@ -88,7 +88,7 @@ export default function QII3LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        <img
+        {/* <img
           className="desk_image"
           src="images/qii3/QII3_Landing main.png"
           alt=""
@@ -97,7 +97,18 @@ export default function QII3LandingPage() {
           className="mob_image"
           src="images/qii4/QII2_Landing_main.png"
           alt=""
-        />
+        /> */}
+         <div className="hero-wrapper">
+          <img className="desk_image" src="images/qii3/QII3_Landing main.png" alt="" />
+          <img
+            className="mob_image"
+            src="images/qii3/QII3_Landing main.png"
+            alt=""
+          />
+          <div className="hero-content">
+            <h1 className="light-font">Environment</h1>
+          </div>
+        </div>
         <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">
