@@ -11,12 +11,12 @@ export default function TopNavBar() {
   const pageBreadCrump = useSelector(breadCrump);
   const [scrolled, setScrolled] = useState(false);
   const menuItems = [
-    { title: "Sustainable Growth", path: "/qii1" },
-    { title: "Economic Efficiency", path: "/qii2" },
-    { title: "Environment", path: "/qii3" },
-    { title: "Resilience", path: "/qii4" },
-    { title: "Social", path: "/qii5" },
-    { title: "Governance", path: "/qii5" },
+    { title: "QII.1 Sustainable Growth", path: "/qii1" },
+    { title: "QII.2 Economic Efficiency", path: "/qii2" },
+    { title: "QII.3 Environment", path: "/qii3" },
+    { title: "QII.4 Resilience", path: "/qii4" },
+    { title: "QII.5 Social", path: "/qii5" },
+    { title: "QII.6 Governance", path: "/qii5" },
   ];
   const referenceGuid = [
     { title: "Resources", path: "/" },

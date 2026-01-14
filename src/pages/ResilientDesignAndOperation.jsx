@@ -36,7 +36,7 @@ export default function ResilientDesignAndOperation() {
         show: true,
         dir: [
           { path: "/", title: "Home" },
-          { path: "/qii4", title: "Resilience" },
+          { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Resilient-design&operation",
             title: "Resilient Design and Operations",

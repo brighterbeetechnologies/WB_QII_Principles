@@ -76,7 +76,7 @@ export default function QII2LandingPage() {
         show: true,
         dir: [
           { path: "/", title: "Home" },
-          { path: "/qii2", title: "Economic Efficiency" },
+          { path: "/qii2", title: "QII.2 Economic Efficiency" },
         ],
       })
     );

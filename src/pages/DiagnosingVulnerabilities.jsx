@@ -35,7 +35,7 @@ export default function DiagnosingVulnerabilities() {
         show: true,
         dir: [
           { path: "/", title: "Home" },
-          { path: "/qii4", title: "Resilience" },
+          { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Diagnosing-vulnerabilities",
             title: "Diagnosing vulnerabilities",

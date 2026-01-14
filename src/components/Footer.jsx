@@ -23,32 +23,32 @@ const Footer = () => {
             <h4>The 6 Principles</h4>
             <ul>
               <li>
-                <a href="#/principle-1">
+                <a href="#/qii1">
                   Maximizing Positive Impact of Infrastructure
                 </a>
               </li>
               <li>
-                <a href="#/principle-2">
+                <a href="#/qii2">
                   Raising Economic Efficiency in View of Life-Cycle Cost
                 </a>
               </li>
               <li>
-                <a href="#/principle-3">
+                <a href="#/qii3">
                   Integrating Environmental Considerations in Infrastructure
                 </a>
               </li>
               <li>
-                <a href="#/principle-4">
+                <a href="#/qii4">
                   Building Resilience Against Natural Disasters and Other Risks
                 </a>
               </li>
               <li>
-                <a href="#/principle-5">
+                <a href="#/qii5">
                   Integrating Social Considerations in Infrastructure Investment
                 </a>
               </li>
               <li>
-                <a href="#/principle-6">
+                <a href="#/qii6">
                   Strengthening Infrastructure Governance
                 </a>
               </li>

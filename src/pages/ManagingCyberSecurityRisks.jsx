@@ -39,7 +39,7 @@ export default function ManagingCyberSecurityRisks() {
         show: true,
         dir: [
           { path: "/", title: "Home" },
-          { path: "/qii4", title: "Resilience" },
+          { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Managing-cyber-security-risks",
             title: "Managing Cybersecurity Risks",

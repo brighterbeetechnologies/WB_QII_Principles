@@ -49,7 +49,7 @@ export default function Governance() {
         show: true,
         dir: [
           { path: "/", title: "Home" },
-          { path: "/qii2", title: "Economic Efficiency" },
+          { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/governance", title: "Governance" },
         ],
       })

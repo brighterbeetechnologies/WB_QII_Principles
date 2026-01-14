@@ -7,7 +7,11 @@ import { Link } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
-import { setBradcrump, setShowVideo, setVideoData } from "../slices/appDataSlice";
+import {
+  setBradcrump,
+  setShowVideo,
+  setVideoData,
+} from "../slices/appDataSlice";
 // import textCrData_tab from "images/qii4/QII2_Landing_main.png"
 export default function QII4LandingPage() {
   const dispatch = useDispatch();
@@ -253,16 +257,16 @@ export default function QII4LandingPage() {
   };
 
   useEffect(() => {
-      dispatch(
-        setBradcrump({
-          show: true,
-          dir: [
-            { path: "/", title: "Home" },
-            { path: "/qii4", title: "Resilience" },
-          ],
-        })
-      );
-    }, []);
+    dispatch(
+      setBradcrump({
+        show: true,
+        dir: [
+          { path: "/", title: "Home" },
+          { path: "/qii4", title: "QII.4 Resilience" },
+        ],
+      })
+    );
+  }, []);
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
@@ -276,7 +280,38 @@ export default function QII4LandingPage() {
           src="images/qii4/QII2_Landing_main.png"
           alt=""
         />
-        <div className="container">
+        <section className="">
+          <div className="container">
+            <div className="center-header">
+              <h1 className="light-font mBottom">
+                To turn the principle of 'Resilience' into practice, we focus on
+                four key actionable aspects:
+              </h1>
+            </div>
+            <div className="sub-pages">
+              {subPages.map((page, i) => (
+                <div className="subpage-cnt" key={i}>
+                  <div>
+                    <div
+                      className="icon-subpage"
+                      dangerouslySetInnerHTML={{ __html: page.icon }}
+                    ></div>
+                    <h3 className="label-subpage">
+                      <strong>{page.title}</strong>
+                    </h3>
+                    <label className="page-description">
+                      {page.description}
+                    </label>
+                  </div>
+                  <Link to={page.path}>
+                    <div className="arrow-btn icon-arrow">&#xe900;</div>
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        {/* <div className="container">
           <p className="header-text">
             Resilience in infrastructure refers to the capacity to withstand,
             adapt to, and recover from disruptions—whether caused by natural
@@ -289,34 +324,30 @@ export default function QII4LandingPage() {
           </p>
           <div className="header-items-cnt">
             <div className="header-item">
-              {/* <div className="icon-item">&#xe91c;</div> */}
               <label className="item-label">
                 <strong>Diagnosing vulnerabilities</strong>
               </label>
             </div>
             <div className="devider"></div>
             <div className="header-item">
-              {/* <div className="icon-item">&#xe917;</div> */}
               <label className="item-label">
                 <strong>Resilient design and operation</strong>
               </label>
             </div>
             <div className="devider"></div>
             <div className="header-item">
-              {/* <div className="icon-item">&#xe91a;</div> */}
               <label className="item-label">
                 <strong>Financing resilience</strong>
               </label>
             </div>
             <div className="devider"></div>
             <div className="header-item">
-              {/* <div className="icon-item">&#xe91a;</div> */}
               <label className="item-label">
                 <strong>Managing cybersecurity risks</strong>
               </label>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <section className="color-light">
         <div className="container ">
@@ -365,35 +396,6 @@ export default function QII4LandingPage() {
             changing and vulnerable environments.
           </p>
         </Header3>
-      </section>
-      <section className="color-light">
-        <div className="container">
-          <div className="center-header">
-            <h1 className="light-font mBottom">
-              To turn the principle of 'Resilience' into practice, we focus on
-              four key actionable aspects:
-            </h1>
-          </div>
-          <div className="sub-pages">
-            {subPages.map((page, i) => (
-              <div className="subpage-cnt" key={i}>
-                <div>
-                  <div
-                    className="icon-subpage"
-                    dangerouslySetInnerHTML={{ __html: page.icon }}
-                  ></div>
-                  <h3 className="label-subpage">
-                    <strong>{page.title}</strong>
-                  </h3>
-                  <label className="page-description">{page.description}</label>
-                </div>
-                <Link to={page.path}>
-                  <div className="arrow-btn icon-arrow">&#xe900;</div>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
       <section className="q4_landing_page color-dark">
         <div className="container">
