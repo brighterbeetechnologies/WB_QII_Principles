@@ -154,12 +154,12 @@
 	}
 
 	.faq-sub-text {
-		font-size  : 2.1875rem;
+		font-size  : 1.5rem;
 		line-height: 2.5rem;
 	}
 
 	.faq-question {
-		font-size: 1.875rem;
+		font-size: 1.5rem;
 		padding  : 18px 0px 11px 10px;
 		gap      : 5px;
 	}
@@ -169,7 +169,7 @@
 	}
 
 	.faq-answer {
-		font-size: 1.55rem
+		font-size: 1.2rem
 	}
 
 	.faq-item {

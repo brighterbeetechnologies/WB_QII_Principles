@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 26 22">
+  <g id="Downward_arrow" data-name="Downward arrow" transform="translate(-3 -56.5)">
+    <g id="Downward_arrow-2" data-name="Downward arrow" transform="translate(-1051.5 -980)">
+      <path id="Line_3" data-name="Line 3" d="M12,13a1,1,0,0,1-.707-.293l-12-12a1,1,0,0,1,0-1.414,1,1,0,0,1,1.414,0l12,12A1,1,0,0,1,12,13Z" transform="translate(1055.5 1037.5)"/>
+      <path id="Line_4" data-name="Line 4" d="M0,13a1,1,0,0,1-.707-.293,1,1,0,0,1,0-1.414l12-12a1,1,0,0,1,1.414,0,1,1,0,0,1,0,1.414l-12,12A1,1,0,0,1,0,13Z" transform="translate(1067.5 1037.5)"/>
+    </g>
+    <g id="Downward_arrow-3" data-name="Downward arrow" transform="translate(-1051.5 -972)">
+      <path id="Line_3-2" data-name="Line 3" d="M12,13a1,1,0,0,1-.707-.293l-12-12a1,1,0,0,1,0-1.414,1,1,0,0,1,1.414,0l12,12A1,1,0,0,1,12,13Z" transform="translate(1055.5 1037.5)"/>
+      <path id="Line_4-2" data-name="Line 4" d="M0,13a1,1,0,0,1-.707-.293,1,1,0,0,1,0-1.414l12-12a1,1,0,0,1,1.414,0,1,1,0,0,1,0,1.414l-12,12A1,1,0,0,1,0,13Z" transform="translate(1067.5 1037.5)"/>
+    </g>
+  </g>
+</svg>

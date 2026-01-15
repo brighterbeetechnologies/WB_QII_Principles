@@ -71,7 +71,7 @@ export default function TopNavBar() {
           <div className="logo-cnt">
             <img className="logo-1" src="images/WorldBank_logo.png" />
             <div className="logo-splitter"></div>
-            <img className="logo-2" src="images/japan_logo.png" />
+            <img className="logo-2" src="images/jcoflag.svg" />
           </div>
         </div>
         <div className={`right-panel ${isMenuOpen ? "open" : ""}`}>

@@ -5,10 +5,19 @@ nav {
   width: 100%;
   z-index: 1000;
   /* padding-left: 10px; */
+  /* new */
+  height: 50px;
 }
 
 nav .nav-cnt {
-  height: 50px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-cnt-left {
+  height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -73,7 +82,7 @@ nav .right-panel {
   display: flex;
   justify-content: space-between;
   align-content: flex-end;
-  gap: 20px;
+  gap: 5px;
   padding-right: 20px;
   transition: 0.25s ease-in-out;
   width: 100%;
@@ -87,7 +96,7 @@ nav .nav-btn {
 
 .nav-menu-btn {
   transform: rotate(0deg);
-  transition: 0.5s ease-in-out;
+  /* transition: 0.5s ease-in-out; */
 }
 
 .nav-menu-btn span {
@@ -213,7 +222,7 @@ nav .nav-btn {
 
   nav .logo-cnt {
     width: 275px;
-    height: 50px;
+    height: 40px;
     background: #ffffff;
     box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.16);
     border-radius: 37px;
@@ -226,7 +235,7 @@ nav .nav-btn {
   }
 
   nav .nav-cnt {
-    height: 50px;
+    height: 40px;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 43px;
     opacity: 1;
@@ -238,16 +247,22 @@ nav .nav-btn {
     box-shadow: 1px 4px 7px -3px rgb(0, 0, 0, 0.23);
   }
 
+  .nav-cnt-left {
+    height: 40px;
+  }
+
   nav .right-panel {
     width: auto;
   }
 
   .logo-1 {
     width: 130px;
+    height: 30px;
   }
 
   .logo-2 {
     width: 100px;
+    height: 30px;
   }
 
   nav .logo-splitter {
@@ -259,11 +274,15 @@ nav .nav-btn {
 
 @media (min-width: 1010px) {
   nav .nav-cnt {
-    height: 60px;
+    height: 50px;
+  }
+
+  .nav-cnt-left {
+    height: 50px;
   }
 
   nav .logo-cnt {
-    height: 60px;
+    height: 50px;
   }
 
   .nav-sub-menu {
@@ -341,6 +360,7 @@ nav .nav-btn {
 @media (min-width: 1200px) {
   nav .logo-cnt {
     width: 475px;
+    height: 51px;
   }
 
   .logo-1 {
@@ -354,11 +374,15 @@ nav .nav-btn {
 
 @media (min-width: 1600px) {
   nav .nav-cnt {
-    height: 70px;
+    height: 60px;
+  }
+
+  .nav-cnt-left {
+    height: 60px;
   }
 
   nav .logo-cnt {
-    height: 70px;
+    height: 60px;
   }
 
   nav .logo-splitter {
@@ -429,7 +453,7 @@ nav .nav-btn {
   }
 
   nav .right-panel {
-    gap: 10px;
+    gap: 5px;
   }
 
   nav .right-panel.open {

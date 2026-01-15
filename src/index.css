@@ -112,7 +112,7 @@ img {
 
 h1,
 h2 {
-  font-size: 1.5625rem;
+  font-size: 1.56rem;
   line-height: 1.875rem;
 }
 
@@ -206,7 +206,7 @@ ul {
 
 .page-resource-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 3fr;
   gap: 1rem;
   justify-content: center;
 }
@@ -285,6 +285,7 @@ ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding: 1rem;
 }
 
 .num-step {
@@ -479,7 +480,7 @@ ul {
   }
 
   .page-resource-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
   }
 
@@ -503,12 +504,12 @@ ul {
   }
 
   body {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   h1,
   h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
     line-height: 2.5rem;
   }
 
@@ -544,12 +545,12 @@ ul {
   }
 
   body {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   h1,
   h2 {
-    font-size: 3.125rem;
+    font-size: 2.2rem;
     line-height: 3.2rem;
   }
 
@@ -564,6 +565,10 @@ ul {
   .page-resource-title {
     font-size: 1.5rem;
   }
+
+  /* .page-resource-link {
+    height: 120%;
+  } */
 
   .num-step {
     margin: 0 4rem 2rem 4rem;
@@ -595,7 +600,7 @@ ul {
   }
 
   .page-resource-grid {
-    gap: 3.25rem;
+    gap: 2.5rem;
   }
 
   .page-resource-data {
