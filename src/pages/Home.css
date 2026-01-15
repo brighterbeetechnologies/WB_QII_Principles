@@ -161,6 +161,7 @@
  	opacity  : 0.5;
  }
 
+
  @media (min-width: 480px) {
  	.landing_page_bg {
  		object-fit: cover;
