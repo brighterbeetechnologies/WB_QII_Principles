@@ -221,7 +221,7 @@ nav .nav-btn {
   }
 
   nav .logo-cnt {
-    width: 275px;
+    width: 215px;
     height: 40px;
     background: #ffffff;
     box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.16);
@@ -359,7 +359,7 @@ nav .nav-btn {
 
 @media (min-width: 1200px) {
   nav .logo-cnt {
-    width: 475px;
+    width: 415px;
     height: 51px;
   }
 
