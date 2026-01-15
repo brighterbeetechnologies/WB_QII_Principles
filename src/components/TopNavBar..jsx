@@ -76,7 +76,7 @@ export default function TopNavBar() {
         </div>
         <div className={`right-panel ${isMenuOpen ? "open" : ""}`}>
           <button className="nav-btn btn primary">
-            <span className="icon-home" onClick={goHome}>
+            <span className="icon-home" onClick={goHome}> 
               &#xe920;
             </span>
           </button>

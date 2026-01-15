@@ -185,7 +185,7 @@
 
 @media (min-width: 768px) {
   .Header4 .footer {
-    font-size: 1.25rem;
+    font-size: 1rem;
     max-width: 85%;
     margin: 0 auto;
   }
@@ -253,29 +253,29 @@
 
 @media (min-width: 1024px) {
   .Header4 .footer {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
   }
 
   .Header4 .header-title {
-    font-size: 3.4375rem;
+    font-size: 2.4rem;
   }
 }
 
 @media (min-width: 1200px) {
   .Header4 .footer {
-    font-size: 1.5625rem;
+    font-size: 1.2rem;
   }
   
 }
 
 @media (min-width: 1400px) {
   .Header4 .footer {
-    font-size: 1.875rem;
+    font-size: 1.2rem;
     line-height: 2.1875rem;
   }
 
   .Header4 .header-title {
-    font-size: 4.375rem;
+    font-size: 2.6rem;
   }
 
   .Header4 {
