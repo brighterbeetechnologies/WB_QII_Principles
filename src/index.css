@@ -352,6 +352,25 @@ ul {
   padding: 0 7rem;
 }
 
+.resource-pagination {
+  margin: 1rem 0 0 0;
+}
+
+.resource-pagination .ant-pagination-item-active {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.resource-pagination .ant-pagination-item-active:hover {
+  color: var(--color-primary);
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.resource-pagination .ant-pagination-item-active a {
+  color: #ffffff;
+}
+
 @media (max-width: 1009px) {
   .overlay {
     position: fixed;
@@ -376,6 +395,17 @@ ul {
 
   100% {
     opacity: 1;
+  }
+}
+@media (max-width: 599px) {
+  body {
+    font-size: 1rem;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -469,17 +499,17 @@ ul {
 
 @media (min-width: 1200px) {
   .btn {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   body {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   h1,
   h2 {
-    font-size: 2.5rem;
-    line-height: 2.95rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
   }
 
   .border-dash {
@@ -514,7 +544,7 @@ ul {
   }
 
   body {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
 
   h1,
@@ -532,11 +562,11 @@ ul {
   }
 
   .page-resource-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .num-step {
-    margin: 0 4rem 4rem 4rem;
+    margin: 0 4rem 2rem 4rem;
     gap: 2rem;
   }
 

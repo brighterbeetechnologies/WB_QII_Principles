@@ -38,7 +38,7 @@ export default function ManagingCyberSecurityRisks() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/", title: "Home" },
+           
           { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Managing-cyber-security-risks",

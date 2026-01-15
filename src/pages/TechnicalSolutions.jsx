@@ -58,7 +58,7 @@ export default function TechnicalSolutions() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/", title: "Home" },
+           
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/technicalsolutions", title: "Technical Solutions" },
         ],

@@ -261,7 +261,7 @@ export default function QII4LandingPage() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/", title: "Home" },
+           
           { path: "/qii4", title: "QII.4 Resilience" },
         ],
       })

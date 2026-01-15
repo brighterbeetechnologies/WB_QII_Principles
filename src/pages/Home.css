@@ -447,3 +447,7 @@
  		border-radius: 34px;
  	}
  }
+
+ #principles-grid {
+  scroll-margin-top: 200px;
+}

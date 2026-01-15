@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./TopNavBar.css";
-import NavDropDownMenu from "./NavDropdownMenu";
+import NavDropDownMenu from "./NavDropDownMenu";
 import { useDispatch, useSelector } from "react-redux";
 import { breadCrump, isOverlay, setOverlay } from "../slices/appDataSlice";
 import { useNavigate } from "react-router-dom";
@@ -38,7 +38,7 @@ export default function TopNavBar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   const goHome = () => {
-    navigate("/"); // Navigate to home page
+    navigate("/", { state: { scrollTo: "principles-grid" } }); // Navigate to home page
   };
 
   return (

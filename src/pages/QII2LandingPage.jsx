@@ -75,7 +75,7 @@ export default function QII2LandingPage() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/", title: "Home" },
+           
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
         ],
       })
@@ -93,6 +93,7 @@ export default function QII2LandingPage() {
             src="images/qii2/header_bg_mob.png"
             alt=""
           />
+          <div className="hero-content-overlay"> </div>
           <div className="hero-content">
             <h1 className="light-font">Economic Efficiency</h1>
           </div>

@@ -73,7 +73,7 @@ export default function QII1LandingPage() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/", title: "Home" },
+           
           { path: "/qii1", title: "Economic Efficiency" },
         ],
       })

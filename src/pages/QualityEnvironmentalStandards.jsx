@@ -17,7 +17,7 @@ export default function QualityEnvironmentalStandards() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/", title: "Home" },
+           
           { path: "/qii3", title: "Environment" },
           {
             path: "/QualityEnvironmentalStandards",

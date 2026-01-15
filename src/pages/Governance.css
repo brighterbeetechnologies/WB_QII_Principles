@@ -1,59 +1,59 @@
 .governance .list-title {
-	font-size    : 1.25rem;
-	margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
-
-
 .last-text {
-	margin: 2rem 0;
+  margin: 2rem 0;
 }
 
 p.margin-bottom {
-	margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  /* .governance .list-title,
+  .last-text {
+    text-align: center;
+  } */
 }
 
 @media (min-width: 768px) {
-	.governance .list-title {
-		font-size    : 1.5625rem;
-		margin-bottom: 1.5625rem;
-	}
+  .governance .list-title {
+    font-size: 1.5625rem;
+    margin-bottom: 1.5625rem;
+  }
 
-	.last-text {
-		margin: 2.5rem 0;
-	}
+  .last-text {
+    margin: 2.5rem 0;
+  }
 }
 
 @media (min-width: 992px) {
-	.governance .list-title {
-		text-align: center;
-	}
-
-
+  .governance .list-title {
+    text-align: center;
+  }
 }
 
 @media (min-width: 1200px) {
-	.governance .list-title {
-		font-size: 1.575rem;
-		margin   : 2.075rem 0 3.775rem 0;
-	}
+  .governance .list-title {
+    font-size: 1.575rem;
+    margin: 2.075rem 0 3.775rem 0;
+  }
 
-
-	.last-text {
-		margin    : 3rem auto;
-		text-align: center;
-	}
+  .last-text {
+    margin: 3rem auto;
+    text-align: center;
+  }
 }
 
 @media (min-width: 1400px) {
-	.governance .list-title {
-		font-size: 1.875rem;
-		margin   : 2.075rem 0 3.775rem 0;
-	}
+  .governance .list-title {
+    font-size: 1.875rem;
+    margin: 2.075rem 0 3.775rem 0;
+  }
 
-
-	.last-text {
-		margin: 4rem auto;
-
-	}
+  .last-text {
+    margin: 4rem auto;
+  }
 }

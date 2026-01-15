@@ -4,15 +4,23 @@ import { principles, setBradcrump } from "../slices/appDataSlice";
 import "./Home.css";
 import ResourceLibrary from "./ResourceLibrary";
 import FAQ from "../components/FAQ";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import SearchBox from "../components/SearchBox";
 export default function Home() {
   const principleArray = useSelector(principles);
   const dispatch = useDispatch();
+  const location = useLocation();
 
   useEffect(() => {
     dispatch(setBradcrump({ show: false, dir: [] }));
   }, []);
+
+  useEffect(() => {
+    if (location.state?.scrollTo) {
+      const el = document.getElementById(location.state.scrollTo);
+      el?.scrollIntoView({behavior: "smooth" });
+    }
+  }, [location]);
   return (
     <div className="home color-light">
       <section className="landing_page">
@@ -41,7 +49,7 @@ export default function Home() {
         </div>
         <div className="container">
           <h2 className="section-title light-font">Explore QII Principles</h2>
-          <div className="principles-grid" role="list">
+          <div className="principles-grid" id="principles-grid" role="list">
             {principleArray.map((p, index) => (
               <article
                 className="principle-card"

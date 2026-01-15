@@ -79,7 +79,7 @@ export default function QII3LandingPage() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/", title: "Home" },
+           
           { path: "/qii3", title: "Environment" },
         ],
       })

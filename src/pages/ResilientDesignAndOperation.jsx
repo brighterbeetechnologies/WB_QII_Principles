@@ -35,7 +35,7 @@ export default function ResilientDesignAndOperation() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/", title: "Home" },
+           
           { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Resilient-design&operation",
