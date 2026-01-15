@@ -44,6 +44,12 @@ nav .nav-cnt {
 
 @media (max-width: 1200px) {
   .breadcrump {
+    left: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrump {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     width: 100%;
