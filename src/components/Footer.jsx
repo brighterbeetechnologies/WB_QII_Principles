@@ -24,32 +24,32 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="#/qii1">
-                  Maximizing Positive Impact of Infrastructure
+                  QII.1 Sustainable Growth
                 </a>
               </li>
               <li>
                 <a href="#/qii2">
-                  Raising Economic Efficiency in View of Life-Cycle Cost
+                  QII.2 Economic Efficiency
                 </a>
               </li>
               <li>
                 <a href="#/qii3">
-                  Integrating Environmental Considerations in Infrastructure
+                  QII.3 Environment
                 </a>
               </li>
               <li>
                 <a href="#/qii4">
-                  Building Resilience Against Natural Disasters and Other Risks
+                  QII.4 Resilience
                 </a>
               </li>
               <li>
                 <a href="#/qii5">
-                  Integrating Social Considerations in Infrastructure Investment
+                  QII.5 Social
                 </a>
               </li>
               <li>
                 <a href="#/qii6">
-                  Strengthening Infrastructure Governance
+                  QII.6 Governance
                 </a>
               </li>
             </ul>
