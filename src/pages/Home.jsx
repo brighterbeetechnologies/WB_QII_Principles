@@ -37,7 +37,7 @@ export default function Home() {
             </h1>
             <p className="light-font ">
               Explore tools, principles, and resources to apply Quality
-              Infrastructure Investment (QII) principles to your projects.
+              Infrastructure Investment (QII) Principles to your projects.
             </p>
             <SearchBox></SearchBox>
           </div>

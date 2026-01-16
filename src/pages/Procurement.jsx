@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import "./Procurement.css";
+import Header3 from "../components/Header3";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
+
 import HeaderCarousal from "../components/HeaderCarousal";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
@@ -87,7 +89,6 @@ export default function Procurement() {
       setBradcrump({
         show: true,
         dir: [
-           
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/procurement", title: "Procurement" },
         ],
@@ -97,22 +98,68 @@ export default function Procurement() {
   return (
     <div className="procurement">
       <section className="color-light">
-        <HeaderCarousal slidesData={slidesData}></HeaderCarousal>
+        {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
+
+        {/* <div className="container noPTop">
+          <div className="link-text">
+            <strong>
+              Key procurement considerations to maximize economic efficiency
+              include:{" "}
+            </strong>
+          </div> */}
+        <Header3 img="images/procurement/header_bg_1.png" title="Procurement">
+          <div className="subpagehero">
+            <img src="images/UpdatedAssets/Qii2.svg" alt="Qii2 logo" />
+            <div className="subpage-description">
+              <p className="light-font">
+                The <strong>procurement</strong> process sets the foundation for
+                the economic efficiency of an infrastructure project.
+                Procurement processes that create incentives to minimize life-
+                cycle costs can lead to better value for money and reduce
+                long-term expenses. Conversely, weak procurement practices, such
+                as focusing solely on initial purchase price, can result in
+                higher operational and maintenance costs over the asset's
+                lifespan.
+              </p>
+              {/* <p className="bold-text">
+                <strong>
+                </strong>
+              </p> */}
+            </div>
+          </div>
+        </Header3>
         <div className="container noPTop">
+          <div className="link-text">
+            <p>
+              The procurement of infrastructure under Public- Private
+              Partnerships (PPPs) can be an effective way to align incentives
+              for cost efficiency over the course of the project. This alignment
+              will be strongest under PPPs that include an extended Operations
+              and Maintenance (O&M) phase and where the revenues of the private
+              sector partner are linked directly to long-term performance.
+            </p>
+            <p className="mTop">
+              Such incentives may not be as strong for infrastructure projects
+              using public procurement. However, in such cases, the evaluation
+              criteria for construction contracts can still be structured to
+              encourage bidders to factor life- cycle costing into the
+              infrastructure design. More detailed guidance on this topic can be
+              found in the Life- Cycle Costing Guidance Note.
+            </p>
+          </div>
           <div className="link-text">
             <strong>
               Key procurement considerations to maximize economic efficiency
               include:{" "}
             </strong>
           </div>
-
           <NumSteps num="1">
             <strong>Incentive Structures</strong>
             <br />
             The use of PPPs and Performance-Based Contracts (PBCs) can be used
-            to link the operator’s payments to efficient long-term performance.{" "}
+            to link the operator's payments to efficient long-term performance.{" "}
             <span style={{ opacity: "0" }}>
-              to link the operator’s payments to efficient long-term
+              to link the operator's payments to efficient long-term
             </span>
           </NumSteps>
           <div className="VCard-cnt col3">
@@ -224,7 +271,7 @@ export default function Procurement() {
       </section>
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">Resources</h2>
+          <h2 className="section-title light-font">QII.2 Resources</h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (
               <article

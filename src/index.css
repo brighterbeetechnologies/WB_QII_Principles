@@ -428,7 +428,7 @@ ul {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 1rem;
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.5rem;
   }
 
   .page-resource-grid {
@@ -522,7 +522,7 @@ ul {
   }
 
   .num-step {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     gap: 1.8rem;
   }
 
@@ -571,7 +571,7 @@ ul {
   } */
 
   .num-step {
-    margin: 0 4rem 2rem 4rem;
+    margin: 0 2rem 2rem 4rem;
     gap: 2rem;
   }
 

@@ -53,34 +53,12 @@ export default function CostRecovery() {
       path: "https://www.gihub.org/innovative-funding-and-financing/revenue-levers/",
     },
   ];
-  const slidesData = [
-    {
-      img: "images/procurement/header_bg_1.png",
-      description:
-        "The procurement process sets the foundation for the economic efficiency of an infrastructure project. Procurement processes that create incentives to minimize life- cycle costs can lead to better value for money and reduce long-term expenses. Conversely, weak procurement practices, such as focusing solely on initial purchase price, can result in higher operational and maintenance costs over the asset's lifespan. ",
-      title: "Procurement",
-    },
-    {
-      img: "images/procurement/header_bg_2.png",
-      description:
-        "The procurement of infrastructure under Public- Private Partnerships (PPPs) can be an effective way to align incentives for cost efficiency over the course of the project. This alignment will be strongest under PPPs that include an extended Operations and Maintenance (O&M) phase and where the revenues of the private sector partner are linked directly to long-term performance.",
-      title: "Procurement",
-    },
-    {
-      img: "images/procurement/header_bg_3.png",
-      description:
-        "Such incentives may not be as strong for infrastructure projects using public procurement. However, in such cases, the evaluation criteria for construction contracts can still be structured to encourage bidders to factor life- cycle costing into the infrastructure design. More detailed guidance on this topic can be found in the Life- Cycle Costing Guidance Note.",
-      title: "Procurement",
-    },
-  ];
-
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
       setBradcrump({
         show: true,
         dir: [
-           
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/costrecovery", title: "Cost-recovery" },
         ],
@@ -90,7 +68,7 @@ export default function CostRecovery() {
   return (
     <div className="costRecovery">
       <section className="color-light">
-        <Header3 img="images/costRecovery/header_bg.png" title="Cost Recovery">
+        {/* <Header3 img="images/costRecovery/header_bg.png" title="Cost Recovery">
           <p className="light-font">
             Identifying and accounting for all life- cycle costs during the
             project design stage is essential. However, this is only part of the
@@ -98,6 +76,25 @@ export default function CostRecovery() {
             <strong>recovering these costs</strong> throughout the
             infrastructure's lifespan.
           </p>
+        </Header3> */}
+        <Header3 img="images/costRecovery/header_bg.png" title="Cost Recovery">
+          <div className="subpagehero">
+            <img src="images/UpdatedAssets/Qii2.svg" alt="Qii2 logo" />
+            <div className="subpage-description">
+              <p className="light-font">
+                Identifying and accounting for all life- cycle costs during the
+                project design stage is essential. However, this is only part of
+                the process. Equally important is determining the method for{" "}
+                <strong>recovering these costs</strong> throughout the
+                infrastructure's lifespan.{" "}
+              </p>
+              {/* <p className="bold-text">
+                        <strong>
+                          
+                        </strong>
+                      </p> */}
+            </div>
+          </div>
         </Header3>
         <div className="container noPTop">
           <div className="link-text">
@@ -162,7 +159,7 @@ export default function CostRecovery() {
                   World Bank
                 </p>
               }
-              buttonText="Case Study"
+              buttonText="Guidance"
               link="https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf"
             >
               <p>
@@ -265,9 +262,9 @@ export default function CostRecovery() {
               title={
                 <p>
                   <strong>
-                    Argentina Land Value Capture and Infrastructure{" "}
+                    Land Value Capture: {" "}
                   </strong>
-                  World Bank
+                  Investment in Infrastructure
                 </p>
               }
               buttonText="Case Study"
@@ -292,7 +289,7 @@ export default function CostRecovery() {
       </section>
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">Resources</h2>
+          <h2 className="section-title light-font">QII.2 Resources</h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (
               <article

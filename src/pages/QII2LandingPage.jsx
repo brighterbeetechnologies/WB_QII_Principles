@@ -74,10 +74,7 @@ export default function QII2LandingPage() {
     dispatch(
       setBradcrump({
         show: true,
-        dir: [
-           
-          { path: "/qii2", title: "QII.2 Economic Efficiency" },
-        ],
+        dir: [{ path: "/qii2", title: "QII.2 Economic Efficiency" }],
       })
     );
   }, []);
@@ -86,7 +83,7 @@ export default function QII2LandingPage() {
       <section className="q2_landing_page color-dark">
         {/* <img className="desk_image" src="images/qii2/header_bg.png" alt="" />
         <img className="mob_image" src="images/qii2/header_bg_mob.png" alt="" /> */}
-        <div className="hero-wrapper">
+        {/* <div className="hero-wrapper">
           <img className="desk_image" src="images/qii2/header_bg.png" alt="" />
           <img
             className="mob_image"
@@ -97,7 +94,32 @@ export default function QII2LandingPage() {
           <div className="hero-content">
             <h1 className="light-font">Economic Efficiency</h1>
           </div>
-        </div>
+        </div> */}
+        <section className="color-light landingpage-banner">
+          <Header3 img="images/UpdatedAssets/QII2_Landing-main.png">
+            <div className="langing-page-container">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="landing-page-logo"
+                className="landingpage-logo"
+              />
+              <div className="landingpage-description">
+                <p className="light-font">
+                  At the heart of QII Principle 2 is the concept of Life-Cycle
+                  Costing (LCC), a forward-thinking approach to infrastructure
+                  investment. Instead of focusing solely on upfront costs, LCC
+                  considers all costs – planning, design, construction,
+                  operations, maintenance and eventual disposal – thereby
+                  maximizing the efficiency of spending over the entire lifespan
+                  of an infrastructure project. ​
+                </p>
+                {/* <p className="bold-text">
+              <strong></strong>
+            </p> */}
+              </div>
+            </div>
+          </Header3>
+        </section>
         <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">

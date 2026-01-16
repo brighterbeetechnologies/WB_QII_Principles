@@ -58,7 +58,6 @@ export default function TechnicalSolutions() {
       setBradcrump({
         show: true,
         dir: [
-           
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/technicalsolutions", title: "Technical Solutions" },
         ],
@@ -68,7 +67,7 @@ export default function TechnicalSolutions() {
   return (
     <div className="technicalSolutions">
       <section className="color-light">
-        <Header3
+        {/* <Header3
           img="images/technicalSolutions/header_bg.jpg"
           title="Technical Solutions"
         >
@@ -79,6 +78,28 @@ export default function TechnicalSolutions() {
             not only improve the quality and resilience of a project but also
             significantly enhance its economic efficiency.{" "}
           </p>
+        </Header3> */}
+        <Header3
+          img="images/technicalSolutions/header_bg.jpg"
+          title="Technical Solutions"
+        >
+          <div className="subpagehero">
+            <img src="images/UpdatedAssets/Qii2.svg" alt="Qii2 logo" />
+            <div className="subpage-description">
+              <p className="light-font">
+                The <strong>technical solutions</strong> selected for an
+                infrastructure project play a decisive role in determining its
+                life-cycle cost. Adopting innovative infrastructure technologies
+                can not only improve the quality and resilience of a project but
+                also significantly enhance its economic efficiency.{" "}
+              </p>
+              {/* <p className="bold-text">
+                <strong>
+                  
+                </strong>
+              </p> */}
+            </div>
+          </div>
         </Header3>
         <div className="container noPTop">
           <div className="link-text">
@@ -306,7 +327,7 @@ export default function TechnicalSolutions() {
       </section>
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">Resources</h2>
+          <h2 className="section-title light-font">QII.2 Resources</h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (
               <article

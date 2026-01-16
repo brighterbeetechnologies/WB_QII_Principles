@@ -260,10 +260,7 @@ export default function QII4LandingPage() {
     dispatch(
       setBradcrump({
         show: true,
-        dir: [
-           
-          { path: "/qii4", title: "QII.4 Resilience" },
-        ],
+        dir: [{ path: "/qii4", title: "QII.4 Resilience" }],
       })
     );
   }, []);
@@ -280,7 +277,7 @@ export default function QII4LandingPage() {
           src="images/qii4/QII2_Landing_main.png"
           alt=""
         /> */}
-         <div className="hero-wrapper">
+        {/* <div className="hero-wrapper">
           <img className="desk_image" src="images/qii4/QII2_Landing_main.png" alt="" />
           <img
             className="mob_image"
@@ -290,7 +287,34 @@ export default function QII4LandingPage() {
           <div className="hero-content">
             <h1 className="light-font">Resilience</h1>
           </div>
-        </div>
+        </div> */}
+        <section className="color-light landingpage-banner">
+          <Header3 img="images/qii4/QII2_Landing_main.png">
+            <div className="langing-page-container">
+              <img
+                src="images/UpdatedAssets/Qii4.svg"
+                alt="landing-page-logo"
+                className="landingpage-logo"
+              />
+              <div className="landingpage-description">
+                <p className="light-font">
+                  Resilience in infrastructure refers to the capacity to
+                  withstand, adapt to, and recover from disruptions—whether
+                  caused by natural disasters, climate change, or human-made
+                  risks. Resilience ensures reliable infrastructure service
+                  delivery and reduces the economic disruptions caused by
+                  extreme events. Resilience can be especially important in low-
+                  and middle-income countries which can lack the system
+                  redundancies and emergency response capacity needed in
+                  disaster situations.
+                </p>
+                {/* <p className="bold-text">
+                      <strong></strong>
+                    </p> */}
+              </div>
+            </div>
+          </Header3>
+        </section>
         <section className="">
           <div className="container">
             <div className="center-header">

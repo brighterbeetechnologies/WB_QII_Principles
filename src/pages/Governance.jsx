@@ -48,7 +48,6 @@ export default function Governance() {
       setBradcrump({
         show: true,
         dir: [
-           
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/governance", title: "Governance" },
         ],
@@ -59,21 +58,26 @@ export default function Governance() {
     <div className="governance">
       <section className="color-light">
         <Header3 img="images/governance/header_bg.jpg" title="Governance">
-          <p className="light-font">
-            Good governance doesn’t just support life-cycle costing, it’s what
-            makes it possible. Governance frameworks which facilitate LCC –
-            inclusive of clear roles, transparent processes, and robust
-            standards for procurement through to contract management – empower
-            governments to prioritize long-term value, curb waste, and deliver
-            infrastructure that lasts.
-          </p>
-          <p className="bold-text">
-            <strong>
-              When it comes to quality infrastructure investment, governance is
-              the foundation that determines whether life-cycle costing is truly
-              embedded in practice, or just an afterthought.
-            </strong>
-          </p>
+          <div className="subpagehero">
+            <img src="images/UpdatedAssets/Qii2.svg" alt="Qii2 logo" />
+            <div className="subpage-description">
+              <p className="light-font">
+                Good governance doesn’t just support life-cycle costing, it’s
+                what makes it possible. Governance frameworks which facilitate
+                LCC – inclusive of clear roles, transparent processes, and
+                robust standards for procurement through to contract management
+                – empower governments to prioritize long-term value, curb waste,
+                and deliver infrastructure that lasts.
+              </p>
+              <p className="bold-text">
+                <strong>
+                  When it comes to quality infrastructure investment, governance
+                  is the foundation that determines whether life-cycle costing
+                  is truly embedded in practice, or just an afterthought.
+                </strong>
+              </p>
+            </div>
+          </div>
         </Header3>
       </section>
       <section className="color-dark ">
@@ -86,10 +90,7 @@ export default function Governance() {
             step="1"
             title={
               <p>
-                <strong>
-                  Clear Definition and Empowerment of Institutions and Roles
-                </strong>{" "}
-                <br />
+                <strong>Clear Institutional Roles​</strong> <br />
                 This means assigning responsibility for LCC at each stage of the
                 infrastructure life cycle - from planning and budgeting, to
                 procurement, delivery, and long-term maintenance. Capable,
@@ -312,19 +313,19 @@ export default function Governance() {
               of road assets, aligning private incentives with public value.
             </p>
           </ListImageText>
-          <p className="last-text">
+          {/* <p className="last-text">
             By making these targeted changes in institutions, regulations,
             procedures, reporting, standards, and capacity, governance becomes
             the true enabler of life-cycle costing. This is how we ensure
             infrastructure investments deliver sustainable value, reliability,
             and efficiency for generations to come. Let’s build the governance
             systems that make quality infrastructure possible.
-          </p>
+          </p> */}
         </div>
       </section>
       <section className="color-light">
         <div className="container">
-          <h2 className="section-title light-font">Resources</h2>
+          <h2 className="section-title light-font">QII.2 Resources</h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (
               <article

@@ -260,6 +260,43 @@
 }
 
 /* added */
+
+.landingpage-banner .Header3 .footer {
+  max-width: 95%;
+}
+
+.langing-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+  /* height: 300px; */
+}
+
+/* .landingpage-logo img{
+  max-width: 100%;
+  height: 100vh;
+} */
+
+.landingpage-description .light-font{
+  text-align: left;
+}
+
+@media (max-width: 600px) {
+  .langing-page-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .landingpage-description .light-font{
+  text-align: center;
+}
+}
+
+/* added
 .q2_landing_page {
   position: relative;
 }
@@ -348,4 +385,4 @@
     font-size: 1.5rem;
     line-height: 2rem;
   }
-}
+} */
