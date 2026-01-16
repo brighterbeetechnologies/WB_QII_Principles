@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -23,34 +23,22 @@ const Footer = () => {
             <h4>The 6 Principles</h4>
             <ul>
               <li>
-                <a href="#/qii1">
-                  QII.1 Sustainable Growth
-                </a>
+                <a href="#/qii1">QII.1 Sustainable Growth</a>
               </li>
               <li>
-                <a href="#/qii2">
-                  QII.2 Economic Efficiency
-                </a>
+                <a href="#/qii2">QII.2 Economic Efficiency</a>
               </li>
               <li>
-                <a href="#/qii3">
-                  QII.3 Environment
-                </a>
+                <a href="#/qii3">QII.3 Environment</a>
               </li>
               <li>
-                <a href="#/qii4">
-                  QII.4 Resilience
-                </a>
+                <a href="#/qii4">QII.4 Resilience</a>
               </li>
               <li>
-                <a href="#/qii5">
-                  QII.5 Social
-                </a>
+                <a href="#/qii5">QII.5 Social</a>
               </li>
               <li>
-                <a href="#/qii6">
-                  QII.6 Governance
-                </a>
+                <a href="#/qii6">QII.6 Governance</a>
               </li>
             </ul>
           </div>
@@ -61,18 +49,18 @@ const Footer = () => {
               <li>
                 <a href="#/case-studies">Case Studies</a>
               </li>
-              {/* <li>
-                <a href="#/publications">Guidance</a>
+              <li>
+                <a href="#" className="disable-link">Guidance</a>
               </li>
               <li>
-                <a href="#/tools">Tools</a>
+                <a href="#" className="disable-link">Tools</a>
               </li>
               <li>
-                <a href="#/glossary">Glossary</a>
+                <a href="#" className="disable-link">Glossary</a>
               </li>
               <li>
-                <a href="#/faq">FAQ</a>
-              </li> */}
+                <a href="#" className="disable-link">FAQ</a>
+              </li>
             </ul>
           </div>
 

@@ -140,3 +140,8 @@
     font-size: 1.8rem;
   }
 }
+
+.disable-link {
+  pointer-events: none;
+  opacity: 0.3;
+}
