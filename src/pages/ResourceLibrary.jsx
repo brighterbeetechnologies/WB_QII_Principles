@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 import "./ResourceLibrary.css";
 import { useDispatch, useSelector } from "react-redux";
-
+import { Link } from "react-router-dom";
 import FilterDropDown from "../components/FilterDropDown";
 import CardBox from "../components/CardBox";
 import { principles } from "../slices/appDataSlice";
+// import { principles1 } from "../slices/appDataSlice";
 import { ConfigProvider, Pagination } from "antd";
 
 export default function ResourceLibrary() {
   const principleArray = useSelector(principles);
+  // const principleArray1 = useSelector(principles1);
 
   const available_learning = useSelector((state) => state.appData.learningPath);
   const industry = useSelector((state) => state.appData.industry);
@@ -94,6 +96,7 @@ export default function ResourceLibrary() {
       const matchPrinciple =
         selectedPrinciple.length === 0 ||
         selectedPrinciple.includes(course.principles);
+
       return (
         matchFormat &&
         matchStage &&
@@ -133,7 +136,7 @@ export default function ResourceLibrary() {
         <img src="images/circle_left.png" />
       </div>
       <h2 className="section-title light-font">QII Principles and Resources</h2>
-      <div className="principles-btn-cnt">
+      {/* <div className="principles-btn-cnt">
         {principleArray.map((p, idx) => (
           <button
             className={`btn primary principle_btn ${
@@ -147,6 +150,13 @@ export default function ResourceLibrary() {
             {p.title}
           </button>
         ))}
+      </div> */}
+      <div className="principles-btn-cnt">
+        <Link to="/governance" className='btn primary' target="_blank">Governance <span className="icon-arrow">&#xe900;</span></Link>
+        <Link to="/procurement" className='btn primary' target="_blank">Procurement <span className="icon-arrow">&#xe900;</span></Link>
+        <Link to="/technicalsolutions" target="_blank" className='btn primary'>Technical Solutions <span className="icon-arrow">&#xe900;</span></Link>
+        <Link to="/costrecovery" className='btn primary' target="_blank">Cost-recovery <span className="icon-arrow">&#xe900;</span></Link>
+
       </div>
       <div className="brk-line"></div>
       <div className="filter-cnt">

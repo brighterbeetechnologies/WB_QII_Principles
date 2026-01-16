@@ -10,6 +10,15 @@ export const appDataSlice = createSlice({
 		},
 		isVideo: false,
 		videoData: { url: "", title: "", width: 1920, height: 1080 },
+		// principles: [
+		// 	{ id: 0, title: "SUSTAINABLE GROWTH", img_path: "images/UpdatedAssets/Qii1.png", path: "/qii1" },
+		// 	{ id: 1, title: "ECONOMIC EFFICIENCY", img_path: "images/UpdatedAssets/Qii2.png", path: "/qii2" },
+		// 	{ id: 2, title: "ENVIRONMENT", img_path: "images/UpdatedAssets/Qii3.png", path: "/qii3" },
+		// 	{ id: 3, title: "RESILIENCE", img_path: "images/UpdatedAssets/Qii4.png", path: "/qii4" },
+		// 	{ id: 4, title: "SOCIAL", img_path: "images/UpdatedAssets/Qii5.png", path: "/qii5" },
+		// 	{ id: 5, title: "GOVERNANCE", img_path: "images/UpdatedAssets/Qii6.png", path: "/qii6" }
+		// ],
+
 		principles: [
 			{ id: 0, title: "SUSTAINABLE GROWTH", img_path: "images/UpdatedAssets/Qii1.png", path: "/qii1" },
 			{ id: 1, title: "ECONOMIC EFFICIENCY", img_path: "images/UpdatedAssets/Qii2.png", path: "/qii2" },

@@ -78,7 +78,7 @@ export default function Home() {
             <p>Want to know more about the fundamentals of QII?</p>
             <p>
               <a href="#" target="_blank" className="">
-                Click <span className="link">here</span>
+                Click here
               </a>
             </p>
           </div>
