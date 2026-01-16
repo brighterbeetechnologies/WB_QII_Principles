@@ -42,12 +42,19 @@
 }
 
 .technicalSolutions .subpagehero img {
-  height: 80px;
+  height: 100px;
   width: 100%;
 }
 
 .technicalSolutions .subpagehero {
   text-align: center;
+}
+
+@media (min-width: 992px) {
+	.technicalSolutions .subpagehero img {
+    height: 110px;
+    width: 100%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -59,6 +66,10 @@
 
   .technicalSolutions .mTop2 {
     margin: 3rem 0;
+  }
+  .technicalSolutions .subpagehero img {
+    height: 120px;
+    width: 100%;
   }
 }
 
@@ -84,7 +95,7 @@
     margin: 1rem auto;
   }
   .technicalSolutions .subpagehero img {
-    height: 150px;
+    height: 120px;
     width: 100%;
   }
 }
