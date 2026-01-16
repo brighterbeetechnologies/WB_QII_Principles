@@ -330,7 +330,7 @@
  	}
 
  	.faq_page {
- 		min-height      : 600px;
+ 		/* min-height      : 600px; */
  		background-color: var(--color-bg-primary);
  	}
 

@@ -100,7 +100,7 @@
 	.faq {
 		gap            : 2rem;
 		padding-top    : 0;
-		min-height     : 100vh;
+		/* min-height     : 100vh; */
 		display        : flex;
 		justify-content: flex-start;
 		align-items    : flex-start;
@@ -110,14 +110,14 @@
 		width       : 34%;
 		padding-left: 2.3rem;
 		padding-top : 4.4rem;
-		min-height  : 100vh;
+		/* min-height  : 100vh; */
 	}
 
 	.faq .right-box {
 		width           : 70%;
 		background-color: var(--color-bg-primary-dark);
 		padding         : 4.4rem 3.6rem;
-		min-height      : 100vh;
+		/* min-height      : 100vh; */
 	}
 
 
@@ -138,14 +138,14 @@
 	.faq .left-box {
 		width       : 34%;
 		padding-left: 4.3rem;
-		padding-top : 9.4rem;
-		min-height  : 100vh;
+		padding-top : 4.4rem;
+		/* min-height  : 100vh; */
 	}
 
 	.faq .right-box {
 		width     : 70%;
-		padding   : 9.4rem 3.6rem 4.4rem 3.6rem;
-		min-height: 100vh;
+		padding   : 4.4rem 3.6rem 4.4rem 3.6rem;
+		/* min-height: 100vh; */
 	}
 
 	.faq-title {
