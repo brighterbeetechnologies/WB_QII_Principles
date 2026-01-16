@@ -215,7 +215,7 @@ export default function QII2LandingPage() {
                 </p>
               }
               buttonText="Case Study"
-              link=""
+              link="pdf/Fukuoka_city_case_study.pdf"
             ></TopResourceCard>
             <TopResourceCard
               image="images/qii2/Ganga_case_study.png"
@@ -226,7 +226,7 @@ export default function QII2LandingPage() {
                 </p>
               }
               buttonText="Case Study"
-              link=""
+              link="pdf/Ganga_case_study.pdf"
             ></TopResourceCard>
             <TopResourceCard
               image="images/qii2/Performance_Based.png"

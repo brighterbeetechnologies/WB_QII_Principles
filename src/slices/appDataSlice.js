@@ -61,7 +61,7 @@ export const appDataSlice = createSlice({
 		learningPath: [
 			{
 				"id": 0,
-				"paths": "",
+				"paths": "pdf/Fukuoka_city_case_study.pdf",
 				"type": "Case Study",
 				"title": "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
 				"principles": 1,
@@ -75,7 +75,7 @@ export const appDataSlice = createSlice({
 			}, 
 			{
 				"id": 1,
-				"paths": "",
+				"paths": "pdf/Ganga_case_study.pdf",
 				"type": "Case Study",
 				"title": "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
 				"principles": 1,

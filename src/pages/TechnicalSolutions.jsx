@@ -341,14 +341,14 @@ export default function TechnicalSolutions() {
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
                     </div>
-                    <div className="page-resource-img-cnt">
                       <div className="page-resource-overlay" />
                       <img
                         className="page-resource-img"
                         src={p.img_path}
                         alt={p.title}
                       />
-                    </div>
+                    {/* <div className="page-resource-img-cnt">
+                    </div> */}
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>

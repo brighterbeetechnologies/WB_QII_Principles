@@ -201,7 +201,18 @@ ul {
 
 /*page-resources*/
 .title-big {
+  /* display: none; */
+}
+
+.title-small {
   display: none;
+}
+
+.page-resource-description {
+  font-size: 1rem;
+  z-index: 8;
+  color: #fff;
+  padding: 1rem;
 }
 
 .page-resource-grid {
@@ -214,12 +225,23 @@ ul {
 .page-resource-card {
   position: relative;
   transition: transform 0.28s ease, box-shadow 0.28s ease;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .page-resource-title,
 .page-resource-img {
   margin-bottom: 0.8rem;
+}
+
+.page-resource-title {
+  /* position: absolute; */
+  margin: 0;
+  padding: 1rem 1rem 0rem 1rem;
+  color: #fff;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  font-size: 1.2rem;
 }
 
 .page-resource-card::after {
@@ -234,6 +256,11 @@ ul {
 
 .page-resource-img {
   border-radius: 15px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -2;
 }
 
 .page-resource-card:last-child:after {
@@ -257,13 +284,16 @@ ul {
     )
     0% 0% no-repeat padding-box;
   transition: background 0.3s;
-  z-index: 5;
-  display: none;
+  z-index: -1;
+  border-radius: 15px;
+  /* display: none; */
 }
 
 .page-resource-body {
   position: relative;
   z-index: 2;
+  height: 100%;
+  padding-bottom: 3rem;
 }
 
 .page-resource-arrow {
@@ -283,9 +313,14 @@ ul {
 
 .page-resource-btn-cnt {
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   align-items: center;
-  padding: 1rem;
+  /* padding: 1rem; */
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 1rem 1.8rem;
 }
 
 .num-step {
@@ -446,13 +481,14 @@ ul {
   }
 
   .page-resource-title {
-    position: absolute;
+    /* position: absolute; */
     margin: 0;
     padding: 1rem;
     color: #fff;
     z-index: 5;
     left: 0;
     top: 0;
+    font-size: 1.2rem;
   }
 
   .page-resource-body,
@@ -599,12 +635,16 @@ ul {
     padding: 1rem;
   }
 
+  .page-resource-body {
+    padding-bottom: 3rem;
+  }
+
   .page-resource-grid {
     gap: 2rem;
   }
 
   .page-resource-data {
-    position: absolute;
+    /* position: absolute; */
     z-index: 8;
     inset: 0;
     padding: 0.8rem;

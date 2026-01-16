@@ -61,18 +61,18 @@ const Footer = () => {
               <li>
                 <a href="#/case-studies">Case Studies</a>
               </li>
-              <li>
-                <a href="#/publications">Publications</a>
+              {/* <li>
+                <a href="#/publications">Guidance</a>
               </li>
               <li>
-                <a href="#/tools">Assessment Tools</a>
+                <a href="#/tools">Tools</a>
               </li>
               <li>
                 <a href="#/glossary">Glossary</a>
               </li>
               <li>
                 <a href="#/faq">FAQ</a>
-              </li>
+              </li> */}
             </ul>
           </div>
 

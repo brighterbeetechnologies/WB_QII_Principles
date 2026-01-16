@@ -261,9 +261,7 @@ export default function CostRecovery() {
               image="images/costRecovery/Argentina.png"
               title={
                 <p>
-                  <strong>
-                    Land Value Capture: {" "}
-                  </strong>
+                  <strong>Land Value Capture: </strong>
                   Investment in Infrastructure
                 </p>
               }
@@ -303,14 +301,14 @@ export default function CostRecovery() {
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
                     </div>
-                    <div className="page-resource-img-cnt">
-                      <div className="page-resource-overlay" />
-                      <img
-                        className="page-resource-img"
-                        src={p.img_path}
-                        alt={p.title}
-                      />
-                    </div>
+                    <div className="page-resource-overlay" />
+                    <img
+                      className="page-resource-img"
+                      src={p.img_path}
+                      alt={p.title}
+                    />
+                    {/* <div className="page-resource-img-cnt">
+                    </div> */}
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
