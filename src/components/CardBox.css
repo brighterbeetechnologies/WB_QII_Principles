@@ -11,7 +11,7 @@
   transition: transform 0.28s ease, box-shadow 0.28s ease;
 }
 
-.resource_page .box-card  {
+.resource_page .box-card {
   height: 350px;
 }
 
@@ -67,6 +67,19 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2; /* number of lines */
+  overflow: hidden;
+}
+
+.card-desc {
+  display: none;
+}
+
+.resource_page .card-desc {
+  color: #fff;
+  margin-top: 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* number of lines */
   overflow: hidden;
 }
 
@@ -213,9 +226,8 @@
   }
 }
 
-
 @media (max-width: 1000px) {
-  .resource_page .box-card  {
-  height: 300px;
-}
+  .resource_page .box-card {
+    height: 300px;
+  }
 }

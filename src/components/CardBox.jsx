@@ -2,6 +2,7 @@ import React from "react";
 import "./CardBox.css";
 import { setShowVideo, setVideoData } from "../slices/appDataSlice";
 import { useDispatch } from "react-redux";
+import { Tooltip } from "antd";
 export default function CardBox({ card }) {
   const dispatch = useDispatch();
   const openVideo = (url, title, width, height) => {
@@ -20,7 +21,16 @@ export default function CardBox({ card }) {
         </div>
         <div className="card-data">
           <p className="card-type">{card.type}</p>
-          <h3 className="card-title">{card.title}</h3>
+          <h3 className="card-title">
+            <Tooltip placement="top" color={"white"} title={card.title}>
+              {card.title}
+            </Tooltip>
+          </h3>
+          <p className="card-desc">
+            <Tooltip placement="top" color={"white"} title={card.desc}>
+              {card.desc}
+            </Tooltip>
+          </p>
           <div className={`card-btn-cnt ${card.videoUrl ? "twoBtn" : ""}`}>
             <a className="btn primary" href={card.paths} target="_blank">
               See The {card.type}
