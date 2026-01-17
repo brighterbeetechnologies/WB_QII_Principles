@@ -12,6 +12,7 @@ import {
   setShowVideo,
   setVideoData,
 } from "../slices/appDataSlice";
+import CardBox from "../components/CardBox";
 // import textCrData_tab from "images/qii4/QII2_Landing_main.png"
 export default function QII4LandingPage() {
   const dispatch = useDispatch();
@@ -86,6 +87,45 @@ export default function QII4LandingPage() {
 `,
       text: "Lowers long-term maintenance and replacement expenses through better design and risk management.",
     },
+  ];
+
+  const topResources = [
+    [
+      {
+        id: 0,
+        paths: "/",
+        type: "Case Study",
+        title:
+          "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
+        principles: 1,
+        highlight: true,
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
+        format: 0,
+        stage: 1,
+        region: 1,
+        industry: 2,
+        image: "images/resources/01.jpg",
+        videoUrl: "./video/FukuokaCaseStudy.mp4",
+        videoTitle: "QII 2 in Action",
+        topResource: true,
+      },
+      {
+        id: 1,
+        paths: "/",
+        type: "Case Study",
+        title:
+          "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
+        principles: 1,
+        highlight: true,
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/resources/02.jpg",
+        topResource: true,
+      },
+    ],
   ];
 
   const subPages = [
@@ -253,8 +293,8 @@ export default function QII4LandingPage() {
     },
   ];
   const openVideo = (url, title, width, height) => {
-    dispatch(setVideoData({ url, title, width, height }));
-    dispatch(setShowVideo(true));
+    // dispatch(setVideoData({ url, title, width, height }));
+    // dispatch(setShowVideo(true));
   };
 
   useEffect(() => {
@@ -394,7 +434,7 @@ export default function QII4LandingPage() {
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              <img src="images/qii2/videoCover.png" alt="" />
+              <img src="images/qii4/QII_4_video_thumbnail.png" alt="" />
               <div className="vid-cnt">
                 <button
                   className="video-play-btn icon-play"
@@ -522,6 +562,30 @@ export default function QII4LandingPage() {
           </div>
         </div>
       </section>
+
+      <section className="color-dark top_resource_page">
+        <div className="center-header">
+          <h1 className="light-font mBottom">Top Resources: QII 4</h1>
+        </div>
+        <div className="container resource_page">
+          <div className="resource-carousel-container">
+            <div className="resource-carousel-wrapper">
+              <div className="resource-carousel-track">
+                {topResources.map((slide, i) => (
+                  <div className="resource-carousel-slide" key={i}>
+                    <div className="resource-card-container col-2">
+                      {slide.map((card, j) => (
+                        <CardBox key={j} card={card}></CardBox>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="color-light z-2">
         <ResourceLibrary subPages={subPages}></ResourceLibrary>
       </section>

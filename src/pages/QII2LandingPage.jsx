@@ -11,6 +11,7 @@ import {
   setShowVideo,
   setVideoData,
 } from "../slices/appDataSlice";
+import CardBox from "../components/CardBox";
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
@@ -67,6 +68,45 @@ export default function QII2LandingPage() {
       path: "/costrecovery",
     },
   ];
+
+  const topResources = [
+    [
+      {
+        id: 0,
+        paths: "/",
+        type: "Case Study",
+        title:
+          "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
+        principles: 1,
+        highlight: true,
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
+        format: 0,
+        stage: 1,
+        region: 1,
+        industry: 2,
+        image: "images/resources/01.jpg",
+        videoUrl: "./video/FukuokaCaseStudy.mp4",
+        videoTitle: "QII 2 in Action",
+        topResource: true
+      },
+      {
+        id: 1,
+        paths: "/",
+        type: "Case Study",
+        title:
+          "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
+        principles: 1,
+        highlight: true,
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/resources/02.jpg",
+        topResource: true
+      },
+    ],
+  ];
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
@@ -82,20 +122,6 @@ export default function QII2LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        {/* <img className="desk_image" src="images/qii2/header_bg.png" alt="" />
-        <img className="mob_image" src="images/qii2/header_bg_mob.png" alt="" /> */}
-        {/* <div className="hero-wrapper">
-          <img className="desk_image" src="images/qii2/header_bg.png" alt="" />
-          <img
-            className="mob_image"
-            src="images/qii2/header_bg_mob.png"
-            alt=""
-          />
-          <div className="hero-content-overlay"> </div>
-          <div className="hero-content">
-            <h1 className="light-font">Economic Efficiency</h1>
-          </div>
-        </div> */}
         <section className="color-light landingpage-banner">
           <Header3 img="images/UpdatedAssets/QII2_Landing-main.png">
             <div className="langing-page-container">
@@ -210,8 +236,11 @@ export default function QII2LandingPage() {
           </p>
         </Header3>
       </section>
-      <section className="color-dark ">
-        <div className="container">
+      <section className="color-dark top_resource_page">
+        <div className="center-header">
+          <h1 className="light-font mBottom">Top Resources: QII 2</h1>
+        </div>
+        {/* <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">Top Resources: QII 2</h1>
           </div>
@@ -238,17 +267,26 @@ export default function QII2LandingPage() {
               buttonText="Case Study"
               link="pdf/Ganga_case_study.pdf"
             ></TopResourceCard>
-            {/* <TopResourceCard
-              image="images/qii2/Performance_Based.png"
-              title={
-                <p>
-                  Performance-Based Contracts (Pbcs) For Proactive Road Asset
-                  Management
-                </p>
-              }
-              buttonText="Case Study"
-              link=""
-            ></TopResourceCard> */}
+          </div>
+        </div> */}
+        <div className="container resource_page">
+          <div className="resource-carousel-container">
+            <div className="resource-carousel-wrapper">
+              <div
+                className="resource-carousel-track"
+                // style={{ transform: `translateX(-${index * 100}%)` }}
+              >
+                {topResources.map((slide, i) => (
+                  <div className="resource-carousel-slide" key={i}>
+                    <div className="resource-card-container col-2">
+                      {slide.map((card, j) => (
+                        <CardBox key={j} card={card}></CardBox>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
