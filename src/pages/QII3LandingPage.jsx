@@ -4,7 +4,7 @@ import "./QII4LandingPage.css";
 import "./QII3LandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
 import Header3 from "../components/Header3";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
@@ -16,6 +16,7 @@ import {
 
 export default function QII3LandingPage() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const textCrData = [
     {
       id: 0,
@@ -78,10 +79,7 @@ export default function QII3LandingPage() {
     dispatch(
       setBradcrump({
         show: true,
-        dir: [
-           
-          { path: "/qii3", title: "Environment" },
-        ],
+        dir: [{ path: "/qii3", title: "Environment" }],
       })
     );
   }, []);
@@ -98,8 +96,12 @@ export default function QII3LandingPage() {
           src="images/qii4/QII2_Landing_main.png"
           alt=""
         /> */}
-         <div className="hero-wrapper">
-          <img className="desk_image" src="images/qii3/QII3_Landing main.png" alt="" />
+        <div className="hero-wrapper">
+          <img
+            className="desk_image"
+            src="images/qii3/QII3_Landing main.png"
+            alt=""
+          />
           <img
             className="mob_image"
             src="images/qii3/QII3_Landing main.png"
@@ -121,11 +123,20 @@ export default function QII3LandingPage() {
                 <div
                   className="icon-subpage"
                   dangerouslySetInnerHTML={{ __html: page.icon }}
+                  onClick={() => navigate(page.path)}
                 ></div>
-                <h3 className="label-subpage">
+                <h3
+                  className="label-subpage"
+                  onClick={() => navigate(page.path)}
+                >
                   <strong>{page.title}</strong>
                 </h3>
-                <label className="page-description">{page.description}</label>
+                <label
+                  className="page-description"
+                  onClick={() => navigate(page.path)}
+                >
+                  {page.description}
+                </label>
                 <Link to={page.path}>
                   <div className="arrow-btn icon-arrow">&#xe900;</div>
                 </Link>
@@ -229,33 +240,46 @@ export default function QII3LandingPage() {
           <div className="top-resource-card-cnt-qii4">
             <TopResourceCard
               image="images/qii3/Environmental and Social Framework World Bank (2017).png"
-              title={<p>Environmental and Social Framework World Bank (2017)  </p>}
+              title={
+                <p>Environmental and Social Framework World Bank (2017) </p>
+              }
               buttonText="Programs"
               link="https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80"
             ></TopResourceCard>
             <TopResourceCard
               image="images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png"
-              title={<p>Climate Toolkits for Infrastructure PPPs World Bank </p>}
+              title={
+                <p>Climate Toolkits for Infrastructure PPPs World Bank </p>
+              }
               buttonText="Programs"
               link="https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf"
             ></TopResourceCard>
             <TopResourceCard
               image="images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png"
-              title={<p>IFC Performance Standards on Environmental and Social Sustainability </p>}
+              title={
+                <p>
+                  IFC Performance Standards on Environmental and Social
+                  Sustainability{" "}
+                </p>
+              }
               buttonText="Programs"
               link="https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards"
             ></TopResourceCard>
             <TopResourceCard
               image="images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png"
-              title={<p>Infrastructure for a Climate-Resilient Future OECD (2024) </p>}
+              title={
+                <p>
+                  Infrastructure for a Climate-Resilient Future OECD (2024){" "}
+                </p>
+              }
               buttonText="Programs"
-              link="https://doi.org/10.1787/a74a45b0-en" 
+              link="https://doi.org/10.1787/a74a45b0-en"
             ></TopResourceCard>
           </div>
         </div>
       </section>
       <section className="color-light z-2">
-        <ResourceLibrary></ResourceLibrary>
+        <ResourceLibrary subPages={subPages}></ResourceLibrary>
       </section>
     </div>
   );

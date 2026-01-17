@@ -68,10 +68,10 @@ export default function TopNavBar() {
           </div>
         )}
         <div className="nav-cnt-left">
-          <div className="logo-cnt">
-            <img className="logo-1" onClick={goHome} src="images/WorldBank_logo.png" />
+          <div className="logo-cnt" onClick={goHome}>
+            <img className="logo-1" src="images/WorldBank_logo.png" />
             <div className="logo-splitter"></div>
-            <img className="logo-2" onClick={goHome} src="images/jcoflag.svg" />
+            <img className="logo-2" src="images/jcoflag.svg" />
           </div>
         </div>
         <div className={`right-panel ${isMenuOpen ? "open" : ""}`}>

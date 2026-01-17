@@ -3,14 +3,19 @@ import "./QIILandingPage.css";
 import "./QII4LandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
 import Header3 from "../components/Header3";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
-import { setBradcrump, setShowVideo, setVideoData } from "../slices/appDataSlice";
+import {
+  setBradcrump,
+  setShowVideo,
+  setVideoData,
+} from "../slices/appDataSlice";
 
 export default function QII1LandingPage() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const textCrData = [
     {
       id: 0,
@@ -68,14 +73,11 @@ export default function QII1LandingPage() {
     dispatch(setShowVideo(true));
   };
 
-   useEffect(() => {
+  useEffect(() => {
     dispatch(
       setBradcrump({
         show: true,
-        dir: [
-           
-          { path: "/qii1", title: "Economic Efficiency" },
-        ],
+        dir: [{ path: "/qii1", title: "Economic Efficiency" }],
       })
     );
   }, []);
@@ -191,16 +193,23 @@ export default function QII1LandingPage() {
           <div className="sub-pages">
             {subPages.map((page, i) => (
               <div className="subpage-cnt" key={i}>
-                <div>
-                  <div
-                    className="icon-subpage"
-                    dangerouslySetInnerHTML={{ __html: page.icon }}
-                  ></div>
-                  <h3 className="label-subpage">
-                    <strong>{page.title}</strong>
-                  </h3>
-                  <label className="page-description">{page.description}</label>
-                </div>
+                <div
+                  className="icon-subpage"
+                  dangerouslySetInnerHTML={{ __html: page.icon }}
+                  onClick={() => navigate(page.path)}
+                ></div>
+                <h3
+                  className="label-subpage"
+                  onClick={() => navigate(page.path)}
+                >
+                  <strong>{page.title}</strong>
+                </h3>
+                <label
+                  className="page-description"
+                  onClick={() => navigate(page.path)}
+                >
+                  {page.description}
+                </label>
                 <Link to={page.path}>
                   <div className="arrow-btn icon-arrow">&#xe900;</div>
                 </Link>

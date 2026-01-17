@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./QIILandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
 import Header3 from "../components/Header3";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
@@ -14,6 +14,7 @@ import {
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const textCrData = [
     {
       id: 0,
@@ -137,11 +138,20 @@ export default function QII2LandingPage() {
                 <div
                   className="icon-subpage"
                   dangerouslySetInnerHTML={{ __html: page.icon }}
+                  onClick={() => navigate(page.path)}
                 ></div>
-                <h3 className="label-subpage">
+                <h3
+                  className="label-subpage"
+                  onClick={() => navigate(page.path)}
+                >
                   <strong>{page.title}</strong>
                 </h3>
-                <label className="page-description">{page.description}</label>
+                <label
+                  className="page-description"
+                  onClick={() => navigate(page.path)}
+                >
+                  {page.description}
+                </label>
                 <Link to={page.path}>
                   <div className="arrow-btn icon-arrow">&#xe900;</div>
                 </Link>
@@ -203,7 +213,7 @@ export default function QII2LandingPage() {
       <section className="color-dark ">
         <div className="container">
           <div className="center-header">
-            <h1 className="light-font mBottom">Top Resources</h1>
+            <h1 className="light-font mBottom">Top Resources: QII 2</h1>
           </div>
           <div className="top-resource-card-cnt">
             <TopResourceCard
@@ -228,7 +238,7 @@ export default function QII2LandingPage() {
               buttonText="Case Study"
               link="pdf/Ganga_case_study.pdf"
             ></TopResourceCard>
-            <TopResourceCard
+            {/* <TopResourceCard
               image="images/qii2/Performance_Based.png"
               title={
                 <p>
@@ -238,12 +248,12 @@ export default function QII2LandingPage() {
               }
               buttonText="Case Study"
               link=""
-            ></TopResourceCard>
+            ></TopResourceCard> */}
           </div>
         </div>
       </section>
       <section className="color-light z-2">
-        <ResourceLibrary></ResourceLibrary>
+        <ResourceLibrary subPages={subPages}></ResourceLibrary>
       </section>
     </div>
   );

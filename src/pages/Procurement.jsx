@@ -188,9 +188,9 @@ export default function Procurement() {
                 </p>
               }
               buttonText="Case Study"
-              link="/notGiven"
+              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/"
               buttonText2="Case Study Summary"
-              link2="/notGiven"
+              link2="pdf/Ganga_case_study.pdf"
             >
               <p>
                 Summarizes a procurement approach for a real-life project where

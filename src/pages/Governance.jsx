@@ -149,7 +149,7 @@ export default function Governance() {
             description={"Bangladesh Combined Cycle Power Plant"}
             image="images/governance/list/02.jpg"
             buttonText="Case Study"
-            link="pdf/Revised Draft Practice Manual-LCC- with sector specific guidance-15 Oct 2022.docx"
+            link="pdf/Revised Draft Practice Manual-LCC- with sector specific guidance-15 Oct 2022.pdf"
           >
             <p>
               Demonstrates how life-cycle costing was embedded across project
@@ -296,7 +296,7 @@ export default function Governance() {
             description={"India Tamil Nadu Road Sector Project"}
             image="images/governance/list/05.jpg"
             buttonText="Case Study"
-            link="pdf/Presentation on LCC Transport Unit_ver.pdf"
+            link="pdf/Presentation on LCC Transport Unit_ver 2.2.pdf"
           >
             <p>
               Illustrates how governance reforms can align private incentives
@@ -339,12 +339,12 @@ export default function Governance() {
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
                     </div>
-                      <div className="page-resource-overlay" />
-                      <img
-                        className="page-resource-img"
-                        src={p.img_path}
-                        alt={p.title}
-                      />
+                    <div className="page-resource-overlay" />
+                    <img
+                      className="page-resource-img"
+                      src={p.img_path}
+                      alt={p.title}
+                    />
                     {/* <div className="page-resource-img-cnt">
                     </div> */}
                     <div className="page-resource-data">

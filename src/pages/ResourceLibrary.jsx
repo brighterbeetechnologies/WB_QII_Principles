@@ -8,15 +8,17 @@ import { principles } from "../slices/appDataSlice";
 // import { principles1 } from "../slices/appDataSlice";
 import { ConfigProvider, Pagination } from "antd";
 
-export default function ResourceLibrary() {
+export default function ResourceLibrary({ subPages }) {
   const principleArray = useSelector(principles);
   // const principleArray1 = useSelector(principles1);
 
   const available_learning = useSelector((state) => state.appData.learningPath);
+  const fPrinciples = useSelector((state) => state.appData.fPrinciples);
   const industry = useSelector((state) => state.appData.industry);
   const stage = useSelector((state) => state.appData.stage);
   const format = useSelector((state) => state.appData.format);
   const region = useSelector((state) => state.appData.region);
+  const income = useSelector((state) => state.appData.income);
 
   const [filteredCourses, setFilteredCourses] = useState([]);
   const [selectedFilters, setSelectedFilters] = useState([]);
@@ -28,27 +30,39 @@ export default function ResourceLibrary() {
 
   // Create filter data structure
   const filterData = [
+    ...fPrinciples.map((f) => ({
+      show: true,
+      category: "QII Principle",
+      title: f.title,
+      id: f.id,
+    })),
     ...format.map((f) => ({
       show: true,
       category: "Media Type",
       title: f.title,
       id: f.id,
     })),
-    ...stage.map((f) => ({
-      show: true,
-      category: "Project Stage",
-      title: f.title,
-      id: f.id,
-    })),
+    // ...stage.map((f) => ({
+    //   show: true,
+    //   category: "Project Stage",
+    //   title: f.title,
+    //   id: f.id,
+    // })),
     ...region.map((f) => ({
       show: true,
       category: "Region",
       title: f.title,
       id: f.id,
     })),
+    ...income.map((f) => ({
+      show: true,
+      category: "Income Group",
+      title: f.title,
+      id: f.id,
+    })),
     ...industry.map((f) => ({
       show: true,
-      category: "Industry",
+      category: "Sector",
       title: f.title,
       id: f.id,
     })),
@@ -68,17 +82,20 @@ export default function ResourceLibrary() {
   };
   // Apply filter logic
   useEffect(() => {
+    const principleFilters = selectedFilters
+      .filter((f) => f.category === "QII Principle")
+      .map((f) => f.id);
     const mediaTypeFilters = selectedFilters
       .filter((f) => f.category === "Media Type")
-      .map((f) => f.id);
-    const projectStageFilters = selectedFilters
-      .filter((f) => f.category === "Project Stage")
       .map((f) => f.id);
     const regionFilters = selectedFilters
       .filter((f) => f.category === "Region")
       .map((f) => f.id);
+    const projectStageFilters = selectedFilters
+      .filter((f) => f.category === "Project Stage")
+      .map((f) => f.id);
     const industryFilters = selectedFilters
-      .filter((f) => f.category === "Industry")
+      .filter((f) => f.category === "Sector")
       .map((f) => f.id);
 
     const filtered = allCourses.filter((course) => {
@@ -94,8 +111,11 @@ export default function ResourceLibrary() {
       const matchRegion =
         regionFilters.length === 0 || regionFilters.includes(course.region);
       const matchPrinciple =
-        selectedPrinciple.length === 0 ||
-        selectedPrinciple.includes(course.principles);
+        principleFilters.length === 0 ||
+        principleFilters.includes(course.principles);
+      // const matchPrinciple =
+      //   selectedPrinciple.length === 0 ||
+      //   selectedPrinciple.includes(course.principles);
 
       return (
         matchFormat &&
@@ -126,7 +146,7 @@ export default function ResourceLibrary() {
     }
   };
 
-  const handleFilterChange = (selectedItems) => {
+  const handleFilterChange = (selectedItems) => {    
     setSelectedFilters(selectedItems);
   };
 
@@ -151,13 +171,15 @@ export default function ResourceLibrary() {
           </button>
         ))}
       </div> */}
-      <div className="principles-btn-cnt">
-        <Link to="/governance" className='btn primary' target="_blank">Governance <span className="icon-arrow">&#xe900;</span></Link>
-        <Link to="/procurement" className='btn primary' target="_blank">Procurement <span className="icon-arrow">&#xe900;</span></Link>
-        <Link to="/technicalsolutions" target="_blank" className='btn primary'>Technical Solutions <span className="icon-arrow">&#xe900;</span></Link>
-        <Link to="/costrecovery" className='btn primary' target="_blank">Cost-recovery <span className="icon-arrow">&#xe900;</span></Link>
-
-      </div>
+      {/* <div className="principles-btn-cnt">
+        {subPages?.map((pages) => {
+          return (
+            <Link to={pages.path} className="btn primary">
+              {pages.title} <span className="icon-arrow">&#xe900;</span>
+            </Link>
+          );
+        })}
+      </div> */}
       <div className="brk-line"></div>
       <div className="filter-cnt">
         <FilterDropDown filterData={filterData} onChange={handleFilterChange} />
@@ -237,7 +259,7 @@ export default function ResourceLibrary() {
                   onChange={(data) => {
                     goToSlide(data - 1);
                   }}
-				  className="resource-pagination"
+                  className="resource-pagination"
                 />
               </ConfigProvider>
             </>

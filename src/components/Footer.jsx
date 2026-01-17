@@ -50,16 +50,29 @@ const Footer = () => {
                 <a href="#/case-studies">Case Studies</a>
               </li>
               <li>
-                <a href="#" className="disable-link">Guidance</a>
+                <a href="#" className="disable-link">
+                  Guidance
+                </a>
               </li>
               <li>
-                <a href="#" className="disable-link">Tools</a>
+                <a href="#" className="disable-link">
+                  Tools
+                </a>
               </li>
               <li>
-                <a href="#" className="disable-link">Glossary</a>
+                <a href="#" className="disable-link">
+                  Glossary
+                </a>
               </li>
               <li>
-                <a href="#" className="disable-link">FAQ</a>
+                <a href="#" className="disable-link">
+                  FAQs
+                </a>
+              </li>
+              <li>
+                <a href="#" className="disable-link">
+                  Contact Us
+                </a>
               </li>
             </ul>
           </div>
@@ -76,7 +89,7 @@ const Footer = () => {
                   QII Partnership
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://www.worldbank.org/en/programs/quality-infrastructure-investment-partnership/qii-principles"
                   target="_blank"
@@ -84,7 +97,7 @@ const Footer = () => {
                 >
                   World Bank QII
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   href="https://www.worldbank.org"

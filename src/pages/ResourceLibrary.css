@@ -259,7 +259,7 @@
 }
 
 .filter-cnt {
-  max-width: 1000px;
+  /* max-width: 1000px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -380,10 +380,10 @@
 
 /* added */
 .principles-btn .btn.primary {
-  display: inline-flex;        
-  align-items: center;        
-  justify-content: center;     
-  gap: 8px;                   
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }
 
 .principles-btn-cnt .icon-arrow {
@@ -391,4 +391,8 @@
   line-height: 1;
 }
 
-
+@media (max-width: 560px) {
+  .filter-cnt {
+    flex-direction: column;
+  }
+}

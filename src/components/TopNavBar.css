@@ -91,6 +91,7 @@ nav .nav-cnt {
 
 nav .logo-cnt {
   display: none;
+  cursor: pointer;
 }
 
 nav .right-panel {

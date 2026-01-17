@@ -3,7 +3,7 @@ import "./QIILandingPage.css";
 import "./QII4LandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
 import Header3 from "../components/Header3";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
@@ -11,6 +11,7 @@ import { setShowVideo, setVideoData } from "../slices/appDataSlice";
 
 export default function QII5LandingPage() {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const textCrData = [
     {
       id: 0,
@@ -184,11 +185,20 @@ export default function QII5LandingPage() {
                 <div
                   className="icon-subpage"
                   dangerouslySetInnerHTML={{ __html: page.icon }}
+                  onClick={() => navigate(page.path)}
                 ></div>
-                <h3 className="label-subpage">
+                <h3
+                  className="label-subpage"
+                  onClick={() => navigate(page.path)}
+                >
                   <strong>{page.title}</strong>
                 </h3>
-                <label className="page-description">{page.description}</label>
+                <label
+                  className="page-description"
+                  onClick={() => navigate(page.path)}
+                >
+                  {page.description}
+                </label>
                 <Link to={page.path}>
                   <div className="arrow-btn icon-arrow">&#xe900;</div>
                 </Link>

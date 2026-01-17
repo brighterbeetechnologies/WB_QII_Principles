@@ -118,7 +118,7 @@
 
 	.top-resource-card-cnt {
 		grid-template-columns: repeat(3, 1fr);
-	}
+	} 
 
 	.top-resource-card-btn {
 		width : 50px;

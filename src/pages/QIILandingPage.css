@@ -87,6 +87,7 @@
   border-radius: 50%;
   font-size: 90px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .subpage-cnt .arrow-btn {
@@ -110,6 +111,7 @@
 
 .label-subpage {
   margin: 0.5rem 0;
+  cursor: pointer;
 }
 
 .q2_landing_page .container {
@@ -183,7 +185,7 @@
   }
 
   .video-text-box {
-    width: 50%;
+    width: 30%;
   }
 
   .qii2 .sub-text {
@@ -279,8 +281,12 @@
   height: 100vh;
 } */
 
-.landingpage-description .light-font{
+.landingpage-description .light-font {
   text-align: left;
+}
+
+.page-description {
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
@@ -291,9 +297,9 @@
     gap: 2.5rem;
   }
 
-  .landingpage-description .light-font{
-  text-align: center;
-}
+  .landingpage-description .light-font {
+    text-align: center;
+  }
 }
 
 /* added
@@ -386,3 +392,7 @@
     line-height: 2rem;
   }
 } */
+
+.qii2 .top-resource-card-cnt {
+  grid-template-columns: repeat(2, 1fr);
+}
