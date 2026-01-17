@@ -62,7 +62,7 @@ export default function QII2LandingPage() {
     {
       id: 0,
       icon: "&#xe918;",
-      title: "Cost-recovery",
+      title: "Cost-Recovery",
       description:
         "Sustains assets through tariffs, user fees, and performance-based financing.",
       path: "/costrecovery",
@@ -87,7 +87,7 @@ export default function QII2LandingPage() {
         image: "images/resources/01.jpg",
         videoUrl: "./video/FukuokaCaseStudy.mp4",
         videoTitle: "QII 2 in Action",
-        topResource: true
+        topResource: true,
       },
       {
         id: 1,
@@ -103,7 +103,7 @@ export default function QII2LandingPage() {
         region: 1,
         industry: 2,
         image: "images/resources/02.jpg",
-        topResource: true
+        topResource: true,
       },
     ],
   ];
@@ -116,7 +116,7 @@ export default function QII2LandingPage() {
       setBradcrump({
         show: true,
         dir: [{ path: "/qii2", title: "QII.2 Economic Efficiency" }],
-      })
+      }),
     );
   }, []);
   return (
@@ -150,7 +150,7 @@ export default function QII2LandingPage() {
         <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">
-              Building Blocks of Adopting a Life Cycle Costing approach
+              Building Blocks of Adopting a Life Cycle Costing Approach
             </h1>
             <h3 className="light-font">
               Economic Efficiency transforms infrastructure by leveraging
@@ -199,7 +199,7 @@ export default function QII2LandingPage() {
                       "./video/LandingPageVideo.mp4",
                       "Unlocking the Potential of Life Cycle Costing",
                       1920,
-                      1080
+                      1080,
                     );
                   }}
                 >
@@ -236,6 +236,70 @@ export default function QII2LandingPage() {
           </p>
         </Header3>
       </section>
+
+      <section className="q4_landing_page color-dark">
+        <div className="container">
+          <div className="qii4-video-card">
+            <img
+              className="desk_image"
+              src="images/qii4/QII 2 in Action poster.png"
+              alt=""
+            />
+            <img
+              className="mob_image"
+              src="images/qii4/QII 2 in Action poster.png"
+              alt=""
+            />
+            {/* <button
+                className="qii4-play-btn"
+                onClick={() =>
+                openVideo(
+                  "",
+                  "QII 4 in Action",
+                  1920,
+                  1080
+                )
+                }
+              >
+                &#9658;
+              </button> */}
+            <div className="vid-cnt qii4-vid-cnt">
+              <button
+                className="video-play-btn icon-play"
+                onClick={() => {
+                  openVideo(
+                    "./video/LandingPageVideo.mp4",
+                    "Lessons from Success Stories",
+                    1920,
+                    1080,
+                  );
+                }}
+              >
+                &#xe91e;
+              </button>
+            </div>
+            <div className="qii4-video-overlay">
+              <p className="qii4-video-title">QII 2 in Action</p>
+
+              <p className="qii4-video-desc">
+                Fukuoka City’s water management success story showcases the
+                transformative power of LCC, aligning economic efficiency with
+                sustainability.
+              </p>
+              <Link
+                target="_blank"
+                to="/not-given"
+              >
+                <button className="qii4-video-cta">
+                  Explore Case Studies →
+                </button>
+              </Link>
+              {/* <button className="qii4-video-cta">Explore Case Studies →</button> */}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="color-dark top_resource_page">
         <div className="center-header">
           <h1 className="light-font mBottom">Top Resources: QII 2</h1>
