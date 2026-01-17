@@ -261,7 +261,7 @@ export default function CostRecovery() {
               image="images/costRecovery/Argentina.png"
               title={
                 <p>
-                  <strong>Land Value Capture: </strong>
+                  <strong>Argentina Land Value Capture: </strong>
                   Investment in Infrastructure
                 </p>
               }

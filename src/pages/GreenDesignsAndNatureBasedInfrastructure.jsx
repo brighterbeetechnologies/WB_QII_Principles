@@ -122,7 +122,8 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           </div>
           <div className="VCard-cnt col2">
             <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Resilient Infrastructure and Buildings Hub.png"
+              // image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Resilient Infrastructure and Buildings Hub.png"
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png"
               title={
                 <p>
                   <strong>Resilient Infrastructure and Buildings Hub </strong>
