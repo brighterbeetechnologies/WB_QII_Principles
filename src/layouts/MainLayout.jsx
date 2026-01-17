@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import TopNavBar from "../components/TopNavBar.";
+import TopNavBar from "../components/TopNavBar";
 import Overlay from "../components/Overlay";
 import ScrollToTop from "../components/ScrollToTop";
 import VideoModal from "../components/VideoModal";

@@ -4,11 +4,12 @@ import { principles, setBradcrump } from "../slices/appDataSlice";
 import "./Home.css";
 import ResourceLibrary from "./ResourceLibrary";
 import FAQ from "../components/FAQ";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SearchBox from "../components/SearchBox";
 export default function Home() {
   const principleArray = useSelector(principles);
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
@@ -16,10 +17,13 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    if (location.state?.scrollTo) {
-      const el = document.getElementById(location.state.scrollTo);
-      el?.scrollIntoView({behavior: "smooth" });
-    }
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate("/", { replace: true, state: null });
+      }
+    }, 500);
   }, [location]);
   return (
     <div className="home color-light">
@@ -87,7 +91,7 @@ export default function Home() {
       <section className="color-light z-2">
         <ResourceLibrary></ResourceLibrary>
       </section>
-      <section className="color-dark faq_page">
+      <section className="color-dark faq_page" id="faq_page">
         <div className="circle-bg">
           <img src="images/circle_right.png" />
         </div>

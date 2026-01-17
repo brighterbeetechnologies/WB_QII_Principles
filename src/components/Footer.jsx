@@ -1,7 +1,9 @@
 import React from "react";
 import "./Footer.css";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <footer className="site-footer">
       <div className="footer-main">
@@ -65,7 +67,12 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="disable-link">
+                <a
+                  // href="#"
+                  onClick={() =>
+                    navigate("/", { state: { scrollTo: "faq_page" } })
+                  }
+                >
                   FAQs
                 </a>
               </li>
