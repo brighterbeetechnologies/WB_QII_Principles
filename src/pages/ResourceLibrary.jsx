@@ -148,7 +148,7 @@ export default function ResourceLibrary({ subPages }) {
 
   const handleFilterChange = (selectedItems) => {    
     setSelectedFilters(selectedItems);
-  };
+  };  
 
   return (
     <div className="container resource_page">

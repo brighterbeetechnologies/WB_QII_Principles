@@ -28,11 +28,15 @@ export default function CardBox({ card }) {
           </h3>
           <p className="card-desc">
             {/* <Tooltip placement="top" color={"white"} title={card.desc}> */}
-              {card.desc}
+            {card.desc}
             {/* </Tooltip> */}
           </p>
           <div className={`card-btn-cnt ${card.videoUrl ? "twoBtn" : ""}`}>
-            <a className="btn primary" href={card.paths} target="_blank">
+            <a
+              className="btn primary"
+              href={card.paths}
+              target={card.topResource ? "_self" : "_blank"}
+            >
               See The {card.type}
               <span className="icon-arrow">&#xe900;</span>
             </a>
