@@ -122,8 +122,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-container">
           <p className="copyright">
-            &copy; 2025 QII Principles Learning Module. Educational purposes
-            only.
+            &copy; QII Principles Reference Guide. For educational purposes only.
           </p>
           <ul className="footer-legal">
             <li>

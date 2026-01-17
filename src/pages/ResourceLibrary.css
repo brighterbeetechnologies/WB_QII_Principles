@@ -58,6 +58,10 @@
   padding: 0 2rem;
 }
 
+.top_resource_page .box-card {
+  width: 100%;
+}
+
 .col-2 {
   grid-template-columns: repeat(1, 1fr);
 }
@@ -370,6 +374,10 @@
 
   .resource-carousel-container .dot {
     width: 25px;
+  }
+
+  .top_resource_page .box-card {
+    width: 90%;
   }
 }
 

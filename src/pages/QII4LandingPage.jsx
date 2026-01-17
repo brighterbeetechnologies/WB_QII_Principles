@@ -92,37 +92,33 @@ export default function QII4LandingPage() {
   const topResources = [
     [
       {
-        id: 0,
+        id: 4,
         paths: "/",
-        type: "Case Study",
-        title:
-          "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
-        principles: 1,
+        type: "Programs",
+        title: "World Bank Tokyo Disaster Risk Management (DRM) Hub",
         highlight: true,
+        principles: 3,
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-        format: 0,
-        stage: 1,
+        format: 5,
+        stage: 4,
         region: 1,
-        industry: 2,
-        image: "images/resources/01.jpg",
-        videoUrl: "./video/FukuokaCaseStudy.mp4",
-        videoTitle: "QII 2 in Action",
+        industry: 1,
+        image: "images/qii4/Fukuoka image.png",
         topResource: true,
       },
       {
-        id: 1,
+        id: 4,
         paths: "/",
-        type: "Case Study",
-        title:
-          "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
-        principles: 1,
+        type: "Programs",
+        title: "Global Facility For Disaster Reduction And Recovery",
         highlight: true,
+        principles: 3,
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-        format: 1,
-        stage: 2,
+        format: 5,
+        stage: 4,
         region: 1,
-        industry: 2,
-        image: "images/resources/02.jpg",
+        industry: 1,
+        image: "images/qii4/Ganga-case-study-image.png",
         topResource: true,
       },
     ],
@@ -537,28 +533,6 @@ export default function QII4LandingPage() {
               </Link>
               {/* <button className="qii4-video-cta">Explore Case Studies →</button> */}
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="color-dark ">
-        <div className="container">
-          <div className="center-header">
-            <h1 className="light-font mBottom">Top Resources</h1>
-          </div>
-          <div className="top-resource-card-cnt-qii4">
-            <TopResourceCard
-              image="images/qii4/Fukuoka image.png"
-              title={<p>World Bank Tokyo Disaster Risk Management (DRM) Hub</p>}
-              buttonText="Programs"
-              link="https://www.worldbank.org/en/programs/tokyo-drm-hub"
-            ></TopResourceCard>
-            <TopResourceCard
-              image="images/qii4/Ganga-case-study-image.png"
-              title={<p>Global Facility For Disaster Reduction And Recovery</p>}
-              buttonText="Programs"
-              link="https://www.gfdrr.org/en"
-            ></TopResourceCard>
           </div>
         </div>
       </section>
