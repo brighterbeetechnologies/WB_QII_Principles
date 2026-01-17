@@ -457,8 +457,7 @@ export default function FinancingResilience() {
               link="https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps"
             >
               <p>
-                This toolkit aims to guide practitioners on incorporating a
-                climate lens into PPPs to enhance climate resilience.
+                This toolkit aims to guide practitioners on incorporating a climate lens into PPPs to enhance climate resilience.
               </p>
             </VCard>
 
@@ -543,6 +542,24 @@ export default function FinancingResilience() {
                 climate-resilient infrastructure and was welcomed at the G20
                 Finance Ministers and Central Bank Governors meeting in July
                 2024.
+              </p>
+            </VCard>
+            <VCard
+              // image=""
+              image="images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png"
+              title={
+                <p>
+                  <strong>
+                    Financing for Disaster and Resilient Infrastructure
+                  </strong>
+                  (Coalition for Disaster Resilient Infrastructure)
+                </p>
+              }
+              buttonText="Report"
+              link="https://cdri.world/upload/biennial/CH4.1-CCRI.pdf"
+            >
+              <p>
+               This report explores the mechanisms that can provide greater incentives for both public and private sector for investment in strengthening resilience.
               </p>
             </VCard>
           </div>
