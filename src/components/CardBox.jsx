@@ -11,7 +11,7 @@ export default function CardBox({ card }) {
   };
   return (
     <article
-      className={`box-card ${card.type === "Case Study" && "highlighted"}`}
+      className={`box-card ${card.highlight && "highlighted"}`}
       role="listitem"
     >
       <div className="card-link">
@@ -27,9 +27,9 @@ export default function CardBox({ card }) {
             </Tooltip>
           </h3>
           <p className="card-desc">
-            <Tooltip placement="top" color={"white"} title={card.desc}>
+            {/* <Tooltip placement="top" color={"white"} title={card.desc}> */}
               {card.desc}
-            </Tooltip>
+            {/* </Tooltip> */}
           </p>
           <div className={`card-btn-cnt ${card.videoUrl ? "twoBtn" : ""}`}>
             <a className="btn primary" href={card.paths} target="_blank">
@@ -49,7 +49,7 @@ export default function CardBox({ card }) {
           </div>
         </div>
       </div>
-      {card.type === "Case Study" && (
+      {card.highlight && (
         <div className="highlighted-badge">
           <img src="images/Star_for_spotligh.svg" alt="" srcset="" />
           Spotlight Case Study

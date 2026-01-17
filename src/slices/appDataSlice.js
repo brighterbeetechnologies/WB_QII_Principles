@@ -124,6 +124,7 @@ export const appDataSlice = createSlice({
         title:
           "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
         principles: 1,
+		highlight: true,
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
         format: 0,
         stage: 1,
@@ -140,6 +141,7 @@ export const appDataSlice = createSlice({
         title:
           "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
         principles: 1,
+		highlight: true,
         desc: "",
         format: 1,
         stage: 2,
@@ -166,7 +168,8 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "Netherlands DuboCalc and CO2 Performance Ladder",
         principles: 1,
-        desc: "",
+		highlight: false,
+        desc: "Demonstrates how dedicated governance structures support long-term asset oversight through environmental and emissions tools. DuboCalc is a tool applied in work tenders to calculate environmental impacts. It outputs a final Environmental Cost Indicator (ECI value). An important foundation for the calculations is the underlying database, the National Environmental Database, which has a dedicated governance structure (National Environmental Database Foundation - NMD) tasked with maintaining and regularly updating the database. The CO2 Performance Ladder is a certification system with which a tenderer can show the measures taken to limit CO2 emissions both within the company and in projects, as well as elsewhere in the supply chain. The CO2 Performance Ladder is managed by an independent foundation with a defined governance structure for the tool’s operation and maintenance.",
         format: 1,
         stage: 2,
         region: 1,
@@ -180,6 +183,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "Bangladesh Combined Cycle Power Plant",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -193,6 +197,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "Malawi Infrastructure Data Innovations",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -208,6 +213,7 @@ export const appDataSlice = createSlice({
         title:
           "South Korea Public and Private Infrastructure Investment Management Center (PIMAC)",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -221,6 +227,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "India Tamil Nadu Road Sector Project",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -236,6 +243,7 @@ export const appDataSlice = createSlice({
         title:
           "Well Maintained: - Economic Benefits from More Reliable and Resilient Infrastructure ",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -250,6 +258,7 @@ export const appDataSlice = createSlice({
         type: "Resources",
         title: "PPP Reference Guide",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -264,6 +273,7 @@ export const appDataSlice = createSlice({
         type: "Resources",
         title: "Infrastructure Maintenance in the Pacific",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -279,6 +289,7 @@ export const appDataSlice = createSlice({
         title:
           "Bringing PPPs into the Sunlight Inter-American Development Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -292,6 +303,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "Vietnam Ho Chi Minh City PBCs World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -305,6 +317,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "India Ganga River Wastewater Program World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -319,6 +332,7 @@ export const appDataSlice = createSlice({
         title:
           "Reference Guide on Output Specifications for Quality Infrastructure Global Infrastructure Hub",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -334,6 +348,7 @@ export const appDataSlice = createSlice({
         title:
           "Pre-Fabrication Technology for Modular Construction Global Infrastructure Hub",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -348,6 +363,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "Disruptive Technologies in Public Procurement World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -362,6 +378,7 @@ export const appDataSlice = createSlice({
         title:
           "Life-Cycle Cost Analysis Primer U.S. Department of Transportation - Federal Highway Administration",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -377,6 +394,7 @@ export const appDataSlice = createSlice({
         title:
           "New Strategies for Strengthening Infrastructure Resilience and Maintenance Organization for Economic Co-operation and Development",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -392,6 +410,7 @@ export const appDataSlice = createSlice({
         title:
           "Bringing PPPs into the Sunlight Inter-American Development Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -407,6 +426,7 @@ export const appDataSlice = createSlice({
         title:
           "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -422,6 +442,7 @@ export const appDataSlice = createSlice({
         title:
           "Life-Cycle Costing in Sustainable Public Procurement International Institute for Sustainable Development",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -449,6 +470,7 @@ export const appDataSlice = createSlice({
         title:
           "Solomon Islands Climate-Resilient Solution for Small Bridges in the Pacific World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -463,6 +485,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "The Nature Conservancy Security The Nature Conservancy",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -478,6 +501,7 @@ export const appDataSlice = createSlice({
         title:
           "Peru Technologies to Increase Observability and Controllability in Real-Time System Operations World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -493,6 +517,7 @@ export const appDataSlice = createSlice({
         title:
           "Vietnam National Power Transmission Corporation’s Digitalization Journey World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -508,6 +533,7 @@ export const appDataSlice = createSlice({
         title:
           "AI and Deep Learning for Identifying Pavement Failures Global Infrastructure Hub",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -523,6 +549,7 @@ export const appDataSlice = createSlice({
         title:
           "Sensors and Machine Learning for Predictive Maintenance Global Infrastructure Hub",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -536,6 +563,7 @@ export const appDataSlice = createSlice({
         type: "Resources",
         title: "InfraTech Portal Asian Infrastructure Investment Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -550,6 +578,7 @@ export const appDataSlice = createSlice({
         type: "Resources",
         title: "InfraTech Policy Toolkit World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -565,6 +594,7 @@ export const appDataSlice = createSlice({
         title:
           "Nature-Based Solutions for Infrastructure Projects International Finance Corporation",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -579,6 +609,7 @@ export const appDataSlice = createSlice({
         title:
           "Global BIM Network UK Foreign, Commonwealth and Development Office",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -593,6 +624,7 @@ export const appDataSlice = createSlice({
         type: "Resources",
         title: "IEA Technology Roadmaps International Energy Agency",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -608,6 +640,7 @@ export const appDataSlice = createSlice({
         title:
           "Timor-Leste Tibar Bay Port PPP International Finance Corporation",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -623,6 +656,7 @@ export const appDataSlice = createSlice({
         title:
           "Maldives Facilitating Private Investment in Clean and Affordable Energy World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -638,6 +672,7 @@ export const appDataSlice = createSlice({
         title:
           "Report Revisiting Water Pricing for Affordable and Sustainable Water Services World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -652,6 +687,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "India Hyderabad Metro Rail Global Infrastructure Hub",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -666,6 +702,7 @@ export const appDataSlice = createSlice({
         type: "Guidance",
         title: "Innovative Revenues for Infrastructure Guidelines World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -681,6 +718,7 @@ export const appDataSlice = createSlice({
         title:
           "Investment in Infrastructure City Resilience Program, Global Facility for Disaster Reduction and Recovery",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -695,6 +733,7 @@ export const appDataSlice = createSlice({
         type: "Case Study",
         title: "Argentina Land Value Capture and Infrastructure World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -710,6 +749,7 @@ export const appDataSlice = createSlice({
         title:
           "Financing Climate Adaptation and Nature-Based Infrastructure (World Bank)",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -725,6 +765,7 @@ export const appDataSlice = createSlice({
         title:
           "Life-Cycle Cost Analysis for Management of Highway Assets World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -740,6 +781,7 @@ export const appDataSlice = createSlice({
         title:
           "Harnessing Land Value Capture Municipal Public-Private Partnership Framework Global Platform for Sustainable Cities",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -755,6 +797,7 @@ export const appDataSlice = createSlice({
         title:
           "Monetization of Carbon Credits Energy and Agriculture Sectors World Bank",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
@@ -770,6 +813,7 @@ export const appDataSlice = createSlice({
         title:
           "Revenue Levers to Fund Infrastructure Global Infrastructure Hub",
         principles: 1,
+		highlight: false,
         desc: "",
         format: 1,
         stage: 2,
