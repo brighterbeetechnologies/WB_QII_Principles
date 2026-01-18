@@ -1,4 +1,4 @@
-.governance .subpagehero {
+/* .governance .subpagehero {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -15,6 +15,30 @@
 .governance .list-title {
   font-size: 1.25rem;
   margin-bottom: 1.25rem;
+} */
+
+.governance .Header3 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.governance .Header3 .title,
+.governance .governance .hero-content {
+  display: inline-flex;
+  align-items: center;
+}
+
+.governance .hero-content {
+  margin-top: 2.8rem; 
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.governance .qii-badge {
+  height: 48px;
+  width: auto;
 }
 
 .last-text {

@@ -51,12 +51,12 @@ export default function Governance() {
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/governance", title: "Governance" },
         ],
-      })
+      }),
     );
   }, []);
   return (
     <div className="governance">
-      <section className="color-light">
+      {/* <section className="color-light">
         <Header3 img="images/governance/header_bg.jpg" title="Governance">
           <div className="subpagehero">
             <img src="images/UpdatedAssets/Qii2.svg" alt="Qii2 logo" />
@@ -79,7 +79,41 @@ export default function Governance() {
             </div>
           </div>
         </Header3>
+      </section> */}
+      <section className="color-light">
+        <div className="subpagehero">
+          <Header3 img="images/governance/header_bg.jpg" title="Governance">
+            <div className="hero-content">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              </div>
+              <div className="subpage-description">
+                <p className="light-font">
+                  Good governance doesn’t just support life-cycle costing, it’s
+                  what makes it possible. Governance frameworks which facilitate
+                  LCC – inclusive of clear roles, transparent processes, and
+                  robust standards for procurement through to contract
+                  management – empower governments to prioritize long-term
+                  value, curb waste, and deliver infrastructure that lasts.
+                </p>
+
+                <p className="bold-text">
+                  <strong>
+                    When it comes to quality infrastructure investment,
+                    governance is the foundation that determines whether
+                    life-cycle costing is truly embedded in practice, or just an
+                    afterthought.
+                  </strong>
+                </p>
+              </div>
+            
+          </Header3>
+        </div>
       </section>
+
       <section className="color-dark ">
         <div className="container max-1600">
           <p className="list-title">
