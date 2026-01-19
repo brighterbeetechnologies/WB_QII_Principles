@@ -104,7 +104,7 @@ export default function FAQ() {
     // 		</div>
     // 	</div>
     // </div>
-    <main className="main-content">
+    <main className="main-content faq-page">
       <div className="left-panel">
         <h1 className="faq-title">FAQ</h1>
         <p className="faq-description">
