@@ -52,6 +52,14 @@ export default function CostRecovery() {
       img_path: "images/costRecovery/resources/05.png",
       path: "https://www.gihub.org/innovative-funding-and-financing/revenue-levers/",
     },
+    {
+      id: 4,
+      title: "Banking on Cities : Investing in Resilient and Low-Carbon Urbanization",
+      description:
+        "This report provides a stock take of various cost recovery mechanisms for low carbon cities.",
+      img_path: "images/costRecovery/resources/05.png",
+      path: "https://worldbankgroup.sharepoint.com/sites/DNRINT/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDNRINT%2FShared%20Documents%2FP180194%2Db0d1220d%2Df566%2D4788%2D8d06%2Da61f97de6114%2Epdf&parent=%2Fsites%2FDNRINT%2FShared%20Documents",
+    },
   ];
   const dispatch = useDispatch();
   useEffect(() => {
