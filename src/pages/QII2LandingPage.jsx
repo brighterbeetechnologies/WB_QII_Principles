@@ -288,14 +288,19 @@ export default function QII2LandingPage() {
                 transformative power of LCC, aligning economic efficiency with
                 sustainability.
               </p>
-              <Link
-                target="_blank"
-                to="/not-given"
-              >
-                <button className="qii4-video-cta">
-                  Explore Case Studies →
+              <Link target="_blank" to="/not-given">
+                <button className="btn-primary qii2-video-cta">
+                  Explore Case Studies <span class="icon-arrow">&#xe900;</span>
                 </button>
               </Link>
+              {/* <a
+                href=""
+                target="_blank"
+                data-discover="true"
+                className="qii4-video-cta btn-primary"
+              >
+                Explore Case Study <span class="icon-arrow">&#xe900;</span>
+              </a> */}
               {/* <button className="qii4-video-cta">Explore Case Studies →</button> */}
             </div>
           </div>
