@@ -73,7 +73,7 @@ export default function QII2LandingPage() {
     [
       {
         id: 0,
-        paths: "/",
+        paths: "/qii2casestudy1",
         type: "Case Study",
         title:
           "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
@@ -88,10 +88,11 @@ export default function QII2LandingPage() {
         videoUrl: "./video/FukuokaCaseStudy.mp4",
         videoTitle: "QII 2 in Action",
         topResource: true,
+        navigate: true,
       },
       {
         id: 1,
-        paths: "/",
+        paths: "/qii2casestudy2",
         type: "Case Study",
         title:
           "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
@@ -104,6 +105,7 @@ export default function QII2LandingPage() {
         industry: 2,
         image: "images/resources/02.jpg",
         topResource: true,
+        navigate: true,
       },
     ],
   ];

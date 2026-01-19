@@ -3,12 +3,14 @@ import "./CardBox.css";
 import { setShowVideo, setVideoData } from "../slices/appDataSlice";
 import { useDispatch } from "react-redux";
 import { Tooltip } from "antd";
+import { Link, useNavigate } from "react-router-dom";
 export default function CardBox({ card }) {
   const dispatch = useDispatch();
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
   };
+  const navigate = useNavigate();
   return (
     <article
       className={`box-card ${card.highlight && "highlighted"}`}
@@ -32,14 +34,24 @@ export default function CardBox({ card }) {
             {/* </Tooltip> */}
           </p>
           <div className={`card-btn-cnt ${card.videoUrl ? "twoBtn" : ""}`}>
-            <a
+            <Link
               className="btn primary"
-              href={card.paths}
+              href={card.navigate ? "#" : card.paths}
+              onClick={() => card.navigate && navigate(card.paths)}
               target={card.topResource ? "_self" : "_blank"}
             >
               See The {card.type}
               <span className="icon-arrow">&#xe900;</span>
-            </a>
+            </Link>
+            {/* <a
+              className="btn primary"
+              href={card.navigate ? "#" : card.paths}
+              onClick={() => card.navigate && navigate(card.paths)}
+              target={card.topResource ? "_self" : "_blank"}
+            >
+              See The {card.type}
+              <span className="icon-arrow">&#xe900;</span>
+            </a> */}
             {card.videoUrl && (
               <button
                 className="btn primary video_btn"

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 
-export default function QII2CaseStudy1() {
+export default function QII2CaseStudy2() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -23,10 +23,15 @@ export default function QII2CaseStudy1() {
     <div className="single-case-study-page">
       <section className="color-light">
         <div className="container">
-          <div className="single-case-study-wrapper">
+          <div
+            className="single-case-study-wrapper"
+            style={{
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii2/ganga_case_study_Image.png")`,
+            }}
+          >
             <h2 className="main-title">
-              <span>Fukuoka City:</span> Pioneering Life Cycle Costing for
-              Efficient Water Management
+              <span>The Ganga Wastewater Program</span> Strengthening Life Cycle
+              Costing through Public-Private Partnerships
             </h2>
             <div className="sub-title">
               <h2>CASE SNAPSHOT</h2>
@@ -36,32 +41,40 @@ export default function QII2CaseStudy1() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/sector_icon.svg" alt="" />
                   <h3>SECTOR</h3>
-                  <p>Water</p>
+                  <p>Water and Sanitation</p>
                 </div>
               </div>
               <div className="case-study-details-card">
                 <div className="icon-title">
                   <img src="images/qii2/case-study/country_icon.svg" alt="" />
                   <h3>COUNTRY</h3>
-                  <p>Japan</p>
+                  <p>India</p>
                 </div>
               </div>
               <div className="case-study-details-card">
                 <div className="icon-title">
                   <img src="images/qii2/case-study/timeline.svg" alt="" />
                   <h3>TIMELINE</h3>
-                  <p>1979–Present</p>
+                  <p>2014–Present</p>
                 </div>
               </div>
               <div className="case-study-details-card">
                 <div className="icon-title">
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
-                  <p>
-                    Initial investment of ¥32.5 billion ($148.3 million) for the
-                    Water Distribution Control Center and leakage reduction
-                    program.
-                  </p>
+                  <div>
+                    <ul>
+                      <li>
+                        Over US <strong>$ 4 billion</strong> is being invested
+                        in the Clean Ganga program1 to clean the Ganga River.
+                      </li>
+                      <li>
+                        Includes US <strong>$ 1.5 billion</strong> in investment
+                        through PPP projects, of which US$ 650 million will come
+                        from private sector sources2.
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div className="case-study-details-card">
@@ -71,19 +84,12 @@ export default function QII2CaseStudy1() {
                   <div>
                     <ul>
                       <li>
-                        Internal Rate of Return (IRR) of <strong>15%</strong>,
-                        demonstrating sound investment decisions.
+                        12 PPP contracts awarded to treat around{" "}
+                        <strong>600 million liters/day</strong> of wastewater.
                       </li>
                       <li>
-                        Leakage rate reduced from{" "}
-                        <strong>14% in 1979 to 2% by mid-2000s</strong>,
-                        significantly lowering operational costs and water
-                        production needs.
-                      </li>
-                      <li>
-                        Delayed capital expenditures by controlling demand
-                        through water reclamation facilities and usage-based
-                        tariffs.
+                        Integrating long-term operation and maintenance into PPP
+                        contracts has broken the cycle of build-neglect-rebuild.
                       </li>
                     </ul>
                   </div>
