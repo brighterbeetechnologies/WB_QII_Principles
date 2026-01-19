@@ -203,7 +203,7 @@ export default function FAQ() {
             </div>
           </div>
 
-          {/* <div className="accordion-item" data-category="about">
+          <div className="accordion-item" data-category="about">
             <div className="accordion-header">
               <div className="accordion-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -227,7 +227,7 @@ export default function FAQ() {
                 and regions.
               </p>
             </div>
-          </div> */}
+          </div>
 
           <div className="accordion-item" data-category="using">
             <div className="accordion-header">
