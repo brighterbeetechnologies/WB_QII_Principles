@@ -288,10 +288,7 @@ export default function QII2LandingPage() {
                 transformative power of LCC, aligning economic efficiency with
                 sustainability.
               </p>
-              <Link
-                target="_blank"
-                to="/not-given"
-              >
+              <Link target="_blank" to="/not-given">
                 <button className="qii4-video-cta">
                   Explore Case Studies →
                 </button>
@@ -303,12 +300,9 @@ export default function QII2LandingPage() {
       </section>
 
       <section className="color-dark top_resource_page">
-        <div className="center-header">
-          <h1 className="light-font mBottom">Top Resources: QII 2</h1>
-        </div>
-        {/* <div className="container">
+        <div className="container">
           <div className="center-header">
-            <h1 className="light-font mBottom">Top Resources: QII 2</h1>
+            <h1 className="light-font mBottom">QII.2 Case Studies</h1>
           </div>
           <div className="top-resource-card-cnt">
             <TopResourceCard
@@ -334,8 +328,8 @@ export default function QII2LandingPage() {
               link="pdf/Ganga_case_study.pdf"
             ></TopResourceCard>
           </div>
-        </div> */}
-        <div className="container resource_page">
+        </div>
+        {/* <div className="container resource_page">
           <div className="resource-carousel-container">
             <div className="resource-carousel-wrapper">
               <div
@@ -354,10 +348,20 @@ export default function QII2LandingPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       <section className="color-light z-2">
-        <ResourceLibrary subPages={subPages}></ResourceLibrary>
+        <ResourceLibrary
+          subPages={subPages}
+          preSelected={[
+            {
+              show: true,
+              category: "QII Principle",
+              title: "QII.2 Economic Efficiency",
+              id: 1,
+            },
+          ]}
+        ></ResourceLibrary>
       </section>
     </div>
   );
