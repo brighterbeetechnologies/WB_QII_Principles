@@ -1,5 +1,5 @@
 .DiagnosingVulnerabilities .list-title {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin-bottom: 1.25rem;
 }
 
@@ -31,20 +31,20 @@
 
 @media (max-width: 767px) {
   .DiagnosingVulnerabilities .list-title {
-    text-align: center;
+    text-align: left;
   }
 }
 
 @media (min-width: 768px) {
   .DiagnosingVulnerabilities .list-title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 1.5625rem;
   }
 }
 
 @media (min-width: 992px) {
   .DiagnosingVulnerabilities .list-title {
-    text-align: center;
+    text-align: left;
   }
 }
 

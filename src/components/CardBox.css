@@ -8,7 +8,9 @@
   min-height: auto;
   max-width: 603px;
   box-shadow: 0 6px 20px rgba(8, 30, 45, 0.08);
-  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
 }
 
 .resource_page .box-card {
@@ -19,6 +21,13 @@
   border: 6px solid #fdb714;
   box-sizing: border-box;
   position: relative;
+}
+
+.VCard .highlighted-badge {
+  top: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 210px;
 }
 
 .highlighted-badge {
@@ -115,10 +124,11 @@
   text-align: center;
   justify-content: center;
   gap: 7px;
-  transition: transform 0.18s, background 0.18s;
+  transition:
+    transform 0.18s,
+    background 0.18s;
   min-height: 34px;
   font-size: 0.9rem;
-
 }
 
 .box-card .btn.video_btn {

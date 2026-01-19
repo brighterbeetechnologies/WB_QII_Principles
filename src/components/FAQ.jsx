@@ -109,7 +109,7 @@ export default function FAQ() {
         <h1 className="faq-title">FAQ</h1>
         <p className="faq-description">
           Find quick answers to common questions about the Quality
-          Infrastructure Investment (QII) Reference Guide
+          Infrastructure Investment (QII) Reference Guide.
         </p>
 
         <div className="category-filters">

@@ -4,7 +4,8 @@
   border-radius: 25px;
   margin: 0 auto 1.8rem;
   max-width: 380px;
-  overflow: hidden;
+  position: relative;
+  /* overflow: hidden; */
 }
 
 .VCardImg {

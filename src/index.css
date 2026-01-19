@@ -734,6 +734,11 @@ ul {
   }
 }
 
+.subpage-description {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
 @media (max-width: 600px) {
   .sub-section-title {
     padding: 1rem 2rem;
@@ -744,6 +749,10 @@ ul {
 @media (max-width: 750px) {
   .sub-section-title {
     padding: 1rem 0rem;
+  }
+  .subpage-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 

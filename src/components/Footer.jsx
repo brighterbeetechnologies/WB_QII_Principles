@@ -22,25 +22,40 @@ const Footer = () => {
           </div>
 
           <div className="footer-section footer-principles">
-            <h4>The 6 Principles</h4>
+            <h4>The six Principles</h4>
             <ul>
               <li>
-                <a href="#/qii1" className="disable-link">QII.1 Sustainable Growth</a>
+                <a href="#/qii1" className="disable-link">
+                  QII.1 Maximizing Positive Impact of Infrastructure
+                </a>
               </li>
               <li>
-                <a href="#/qii2">QII.2 Economic Efficiency</a>
+                <a href="#/qii2">
+                  QII.2 Raising Economic Efficiency in View of Life-Cycle Cost
+                </a>
               </li>
               <li>
-                <a href="#/qii3" className="disable-link">QII.3 Environment</a>
+                <a href="#/qii3" className="disable-link">
+                  QII.3 Integrating Environmental Considerations in
+                  Infrastructure
+                </a>
               </li>
               <li>
-                <a href="#/qii4">QII.4 Resilience</a>
+                <a href="#/qii4">
+                  QII.4 Building Resilience Against Natural Disasters and Other
+                  Risks
+                </a>
               </li>
               <li>
-                <a href="#/qii5" className="disable-link">QII.5 Social</a>
+                <a href="#/qii5" className="disable-link">
+                  QII.5 Integrating Social Considerations in Infrastructure
+                  Investment
+                </a>
               </li>
               <li>
-                <a href="#/qii6"className="disable-link">QII.6 Governance</a>
+                <a href="#/qii6" className="disable-link">
+                  QII.6 Strengthening Infrastructure Governance
+                </a>
               </li>
             </ul>
           </div>
@@ -122,7 +137,8 @@ const Footer = () => {
       <div className="footer-bottom">
         <div className="footer-container">
           <p className="copyright">
-            &copy; QII Principles Reference Guide. For educational purposes only.
+            &copy; QII Principles Reference Guide. For educational purposes
+            only.
           </p>
           <ul className="footer-legal">
             <li>

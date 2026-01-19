@@ -102,6 +102,7 @@ nav .right-panel {
   align-items: center;
   gap: 3px;
   padding-right: 7px;
+  padding-left: 7px;
   transition: 0.25s ease-in-out;
   width: 100%;
 }
