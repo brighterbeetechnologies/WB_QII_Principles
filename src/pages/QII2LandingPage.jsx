@@ -16,6 +16,33 @@ import CardBox from "../components/CardBox";
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+   const resourceArray = [
+    {
+      id: 0,
+      title:
+        "Ganga River Wastewater Program ​World Bank",
+      description:
+        "Summarizes a procurement approach for a life project where annuity payments were linked to long-term O&M performance.",
+      img_path: "images/qii2/Ganga_case_study.png",
+      path: "pdf/Ganga_case_study.pdf",
+    },
+    {
+      id: 1,
+      title: "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies​ World Bank",
+      description:
+        "Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
+      img_path: "images/governance/list/05.jpg",
+      path: "https://documents1.worldbank.org/curated/en/099235011182219257/pdf/P1679330af035007e0829505bcfd724025b.pdf",
+    },
+    {
+      id: 2,
+      title: "Life-Cycle Costing in Public Procurement in Hungary​ OECD",
+      description:
+        "Analyzes Hungary's policy framework and current practices and provides recommendations for promoting LCC adoption in public procurement.",
+      img_path: "images/governance/list/01.jpg",
+      path: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/10/life-cycle-costing-in-public-procurement-in-hungary_90b7465a/8d90f627-en.pdf",
+    },
+  ];
   const textCrData = [
     {
       id: 0,
@@ -69,46 +96,46 @@ export default function QII2LandingPage() {
     },
   ];
 
-  const topResources = [
-    [
-      {
-        id: 0,
-        paths: "/qii2casestudy1",
-        type: "Case Study",
-        title:
-          "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
-        principles: 1,
-        highlight: true,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-        format: 0,
-        stage: 1,
-        region: 1,
-        industry: 2,
-        image: "images/resources/01.jpg",
-        videoUrl: "./video/FukuokaCaseStudy.mp4",
-        videoTitle: "QII 2 in Action",
-        topResource: true,
-        navigate: true,
-      },
-      {
-        id: 1,
-        paths: "/qii2casestudy2",
-        type: "Case Study",
-        title:
-          "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
-        principles: 1,
-        highlight: true,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/resources/02.jpg",
-        topResource: true,
-        navigate: true,
-      },
-    ],
-  ];
+  // const topResources = [
+  //   [
+  //     {
+  //       id: 0,
+  //       paths: "/qii2casestudy1",
+  //       type: "Case Study",
+  //       title:
+  //         "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
+  //       principles: 1,
+  //       highlight: true,
+  //       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
+  //       format: 0,
+  //       stage: 1,
+  //       region: 1,
+  //       industry: 2,
+  //       image: "images/resources/01.jpg",
+  //       videoUrl: "./video/FukuokaCaseStudy.mp4",
+  //       videoTitle: "QII 2 in Action",
+  //       topResource: true,
+  //       navigate: true,
+  //     },
+  //     {
+  //       id: 1,
+  //       paths: "/qii2casestudy2",
+  //       type: "Case Study",
+  //       title:
+  //         "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
+  //       principles: 1,
+  //       highlight: true,
+  //       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
+  //       format: 1,
+  //       stage: 2,
+  //       region: 1,
+  //       industry: 2,
+  //       image: "images/resources/02.jpg",
+  //       topResource: true,
+  //       navigate: true,
+  //     },
+  //   ],
+  // ];
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
@@ -289,17 +316,25 @@ export default function QII2LandingPage() {
                 sustainability.
               </p>
               <Link target="_blank" to="/not-given">
-                <button className="qii4-video-cta">
-                  Explore Case Studies →
+                <button className="btn-primary qii2-video-cta">
+                  Explore Case Studies <span class="icon-arrow">&#xe900;</span>
                 </button>
               </Link>
+              {/* <a
+                href=""
+                target="_blank"
+                data-discover="true"
+                className="qii4-video-cta btn-primary"
+              >
+                Explore Case Study <span class="icon-arrow">&#xe900;</span>
+              </a> */}
               {/* <button className="qii4-video-cta">Explore Case Studies →</button> */}
             </div>
           </div>
         </div>
       </section>
 
-      <section className="color-dark top_resource_page">
+      {/* <section className="color-dark top_resource_page">
         <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">QII.2 Case Studies</h1>
@@ -309,8 +344,7 @@ export default function QII2LandingPage() {
               image="images/qii2/Fukuoka.png"
               title={
                 <p>
-                  Fukuoka City: Pioneering Life Cycle Costing For Efficient
-                  Water Management
+                  Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management
                 </p>
               }
               buttonText="Case Study"
@@ -348,7 +382,55 @@ export default function QII2LandingPage() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div> }
+      </section> */}
+      <section className="color-dark">
+        <div className="container">
+          <h2 className="section-title light-font">QII.2 Case Studies</h2>
+          <div className="page-resource-grid" role="list">
+            {resourceArray.map((p, index) => (
+              <article
+                className="page-resource-card"
+                key={index}
+                role="listitem"
+                style={{ backgroundImage: `url(${p.img})` }}
+              >
+                <div className="page-resource-link">
+                  <div className="page-resource-body">
+                    <div className="page-resource-title title-small">
+                      <strong>{p.title}</strong>
+                    </div>
+                    <div className="page-resource-overlay" />
+                    <img
+                      className="page-resource-img"
+                      src={p.img_path}
+                      alt={p.title}
+                    />
+                    {/* <div className="page-resource-img-cnt">
+                    </div> */}
+                    <div className="page-resource-data">
+                      <div className="page-resource-title title-big">
+                        <strong>{p.title}</strong>
+                      </div>
+                      <div className="page-resource-description">
+                        {p.description}
+                      </div>
+                      <div className="page-resource-btn-cnt">
+                        <a
+                          className="page-resource-arrow"
+                          href={p.path}
+                          target="_blank"
+                        >
+                          <span className="icon-arrow">&#xe900;</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
       </section>
       <section className="color-light z-2">
         <ResourceLibrary
