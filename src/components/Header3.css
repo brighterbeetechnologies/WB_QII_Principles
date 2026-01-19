@@ -2,6 +2,12 @@
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .Header3 {
+    margin-top: 2.6rem;
+  }
+}
+
 .header3-bg {
   position: relative;
   height: 200px;

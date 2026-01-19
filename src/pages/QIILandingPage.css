@@ -1,7 +1,7 @@
-/* .q2_landing_page {} */
+/* .video_landing_page {} */
 
-.q2_landing_page .container {
-  padding: 1.2rem 1.56rem 1rem 1.56rem;
+.video_landing_page .container {
+  /* padding: 1.2rem 1.56rem 1rem 1.56rem; */
 }
 
 .header-item {
@@ -27,14 +27,14 @@
   display: block;
 }
 
-.q2_landing_page .devider {
+.video_landing_page .devider {
   width: 20%;
   height: 1px;
   background-color: #292929;
   margin: 0 auto;
 }
 
-/* .q2_landing_page .desk_image {
+/* .video_landing_page .desk_image {
   display: none;
 } */
 
@@ -78,19 +78,21 @@
 }
 
 .qii2 .qii2-video-cta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    background: #fff;
-    color: #000;
-    border: none;
-    padding: 0.4rem 1rem;
-    border-radius: 50px;
-    font-size: 1rem;
-    margin-top: 1rem;
-    transition: transform 0.4s, background 0.18s;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition:
+    transform 0.4s,
+    background 0.18s;
+  cursor: pointer;
 }
 
 .qii2 .qii2-video-cta:hover {
@@ -121,7 +123,6 @@
   color: var(--color-primary);
 }
 
-
 .subpage-cnt {
   text-align: center;
   margin: 2rem auto;
@@ -142,7 +143,7 @@
   cursor: pointer;
 }
 
-.q2_landing_page .container {
+.video_landing_page .container {
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -188,16 +189,21 @@
 }
 
 @media (min-width: 800px) {
-  .q2_landing_page .desk_image {
+  .video_landing_page .desk_image {
     display: block;
   }
 
-  .q2_landing_page .mob_image {
+  .video_landing_page .mob_image {
     display: none;
   }
 }
 
 @media (min-width: 992px) {
+  .video_landing_page .devider {
+    width: 1px;
+    height: 48px;
+    margin-bottom: 10px;
+  }
   .subpage-cnt {
     max-width: 320px;
   }
@@ -239,16 +245,15 @@
     flex-direction: column;
   }
 
-  .q2_landing_page .devider {
+  .video_landing_page .devider {
     width: 1px;
     height: 48px;
     margin-bottom: 10px;
   }
-  
 
-.view-all-btn-container {
-  justify-content: flex-end;
-}
+  .view-all-btn-container {
+    justify-content: flex-end;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -273,7 +278,6 @@
 }
 
 @media (min-width: 1400px) {
-
   .center-header {
     padding: 4rem 0;
     max-width: 1450px;
@@ -328,36 +332,8 @@
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
-  .langing-page-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2.5rem;
-  }
-
-  .landingpage-description .light-font {
-    text-align: center;
-  }
-
-  .qii4-video-section {
-    padding: 2.5rem 0;
-  }
-
-  .qii4-video-overlay {
-    padding: 1.25rem;
-  }
-
-  .qii2-video-cta {
-    font-size: 0.8rem;
-    padding: 0.35rem 1rem;
-  }
-}
-
-
-
 /* added
-.q2_landing_page {
+.video_landing_page {
   position: relative;
 }
 
@@ -449,4 +425,237 @@
 
 .qii2 .top-resource-card-cnt {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.qii-video-section {
+  background: #eef6fb;
+}
+
+.qii-video-section .qii-container {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.qii-video-card {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  /* border-radius: 18px; */
+  overflow: hidden;
+  /* box-shadow: 0 16px 40px rgba(14, 13, 13, 0.25); */
+}
+
+.qii-video-img {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+.qii-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 28px;
+  cursor: pointer;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+
+.qii-play-btn:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.qii-video-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2.5rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  color: #fff;
+  z-index: 999;
+}
+
+@media (max-width: 767px) {
+  .qii-video-overlay {
+    position: relative;
+  }
+}
+
+.qii-video-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.qii-video-desc {
+  font-size: 35px;
+  /* font-weight: 300; */
+  max-width: 1000px;
+  margin-bottom: 4rem;
+}
+
+.qii-video-cta {
+  background: #fff;
+  color: #000;
+  border: 1px solid #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 50px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.qii-video-cta:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.qii-video-card {
+  max-width: 100%;
+}
+
+.qii-video-overlay {
+  padding: 2.5rem;
+}
+
+.qii-vid-cnt {
+  border-radius: 0 !important;
+}
+
+.qii-play-btn {
+  width: 72px;
+  height: 72px;
+  font-size: 28px;
+}
+
+@media (min-width: 1600px) {
+  .qii-video-card {
+    max-width: 100%;
+  }
+
+  .qii-video-overlay {
+    padding: 3rem;
+  }
+
+  .qii-video-title {
+    font-size: 50px;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1400px) {
+  .qii-video-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .qii-video-card {
+    max-width: 100%;
+  }
+
+  .qii-video-desc {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .qii-play-btn {
+    width: 64px;
+    height: 64px;
+    font-size: 24px;
+  }
+
+  .qii-video-title {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .qii-video-overlay {
+    padding: 2rem;
+  }
+
+  .qii-video-desc {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .qii-video-overlay {
+    padding: 1.75rem;
+  }
+
+  .qii-video-desc {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .qii-video-card {
+    border-radius: 14px;
+  }
+
+  .qii-play-btn {
+    width: 56px;
+    height: 56px;
+    font-size: 20px;
+  }
+
+  .qii-video-title {
+    font-size: 1.2rem;
+  }
+
+  .qii-video-desc {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .qii-video-section {
+    padding: 2.5rem 0;
+  }
+
+  .qii-video-overlay {
+    padding: 1.25rem;
+  }
+
+  .qii-video-cta {
+    font-size: 0.8rem;
+    padding: 0.35rem 1rem;
+  }
+}
+
+
+
+@media (max-width: 600px) {
+  .langing-page-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+
+  .landingpage-description .light-font {
+    text-align: center;
+  }
+
+  .qii-video-section {
+    padding: 2.5rem 0;
+  }
+
+  .qii-video-overlay {
+    padding: 1.25rem;
+  }
+
+  .qii2-video-cta {
+    font-size: 0.8rem;
+    padding: 0.35rem 1rem;
+  }
 }
