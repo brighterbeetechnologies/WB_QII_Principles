@@ -22,10 +22,15 @@
 
 .VCard-footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 2px;
-  padding: 0 10px 1.8rem;
+  gap: 1.5rem;
+  padding: 0 2rem 1.8rem;
+  text-align: left;
+}
+
+.VCard-footer strong {
+  text-align: left;
 }
 
 .VCard-btn {
@@ -51,11 +56,12 @@
 
 .v-btn-cnt {
   display: inline-flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   gap: 10px;
-  max-width: 140px;
+  /* max-width: 140px; */
   text-align: right;
+  width: 50%;
 }
 
 @media (min-width: 600px) {
@@ -71,7 +77,7 @@
 
 @media (max-width: 767px) {
   .VCard-footer {
-    padding: 0 10px 1.2rem 10px;
+    padding: 0 10px 1.2rem 1rem;
   }
 }
 
@@ -118,14 +124,14 @@
 
 @media (min-width: 1200px) {
   .v-title {
-    font-size: 1.52rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
   }
 
   .VCard {
     max-width: 590px;
   }
-  
+
   .col-2 .VCard {
     max-width: 75%;
   }
@@ -147,8 +153,8 @@
   }
 
   .VCard-btn {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
 
   .VCard-cnt.col3 {
@@ -167,13 +173,13 @@
   }
 
   .VCard-btn {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
   }
 
   .v-title {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
   }
 
   .vCardBody {

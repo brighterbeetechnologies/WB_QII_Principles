@@ -89,7 +89,7 @@
     border-radius: 50px;
     font-size: 1rem;
     margin-top: 1rem;
-    transition: transform 0.18s, background 0.18s;
+    transition: transform 0.4s, background 0.18s;
     cursor: pointer;
 }
 

@@ -74,6 +74,11 @@ a {
   color: inherit;
 }
 
+a,
+button {
+  transition: 0.4s;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -135,6 +140,7 @@ h2 {
 .btn.primary {
   background-color: #fff;
   color: #000;
+  transition: 0.4s ease-in-out;
 }
 
 .btn.selected,
@@ -224,7 +230,9 @@ ul {
 
 .page-resource-card {
   position: relative;
-  transition: transform 0.28s ease, box-shadow 0.28s ease;
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
   /* margin-bottom: 2rem; */
 }
 
@@ -304,7 +312,9 @@ ul {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  transition: transform 0.18s, background 0.18s;
+  transition:
+    transform 0.18s,
+    background 0.18s;
   cursor: pointer;
   color: #000;
   background-color: #fff;
@@ -339,7 +349,7 @@ ul {
   align-items: center;
   font-size: 1.4rem;
   flex-shrink: 0;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0;
 }
 
 .border-dash {

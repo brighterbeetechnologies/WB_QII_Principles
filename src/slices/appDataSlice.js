@@ -1809,7 +1809,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/FAST-Infra Label.png",
       },
 
       {
@@ -2100,22 +2100,6 @@ export const appDataSlice = createSlice({
         highlight: false,
         principles: 3,
         desc: "The EU's Taxonomy Regulation establishes six climate and environmental objectives in order for an economic activity to qualify as environmentally sustainable, and this includes objectives related to resilience and adaptation. The EU’s Taxonomy Compass helps users better understand the EU Taxonomy in a simple and practical manner.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/resources/05.jpg",
-      },
-
-      {
-        id: 4,
-        paths:
-          "https://cdn.prod.website-files.com/64869a932dab4d8c36a88774/68a44d2347380f7f25d23d24_ST01_V2_05.12.2024.pdf",
-        type: "Guidance",
-        title: "FAST-Infra Label",
-        highlight: false,
-        principles: 3,
-        desc: "The FAST-Infra Label Framework ensures uniformity and comparability in evaluating sustainability performance of infrastructure across the global infrastructure finance market. The label aggregates international best practices on sustainable infrastructure financing from around the world. The criteria for resilience and adaptation can be found in page 46.",
         format: 5,
         stage: 4,
         region: 1,

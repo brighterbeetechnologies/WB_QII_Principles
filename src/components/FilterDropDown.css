@@ -13,6 +13,12 @@
   color: #000000;
   font-size: 0.809rem;
   position: relative;
+  transition: 0.4s;
+}
+
+.filter-dropdown_toggle:hover {
+  background-color: #00a996;
+  color: #ffffff;
 }
 
 .filter-dropdown_menu {
@@ -30,7 +36,7 @@
   width: 1240px;
   gap: 10px;
   flex-wrap: wrap;
-  max-width    : 100%;
+  max-width: 100%;
 }
 
 .filter-dropdown_item {

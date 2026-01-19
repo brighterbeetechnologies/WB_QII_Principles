@@ -505,7 +505,7 @@ export default function QII4LandingPage() {
           </p>
         </Header3>
       </section>
-      {/* <section className="q4_landing_page color-dark">
+      <section className="q4_landing_page color-dark">
         <div className="container">
           <div className="qii4-video-card">
             <img
@@ -553,7 +553,7 @@ export default function QII4LandingPage() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section className="color-dark">
         <div className="container">
@@ -627,7 +627,7 @@ export default function QII4LandingPage() {
         </div>
       </section>
 
-      <section className="color-dark top_resource_page">
+      {/* <section className="color-dark top_resource_page">
         <div className="center-header">
           <h1 className="light-font mBottom">Top Resources: QII 4</h1>
         </div>
@@ -648,7 +648,7 @@ export default function QII4LandingPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="color-light z-2" id="resourcesSection">
         <ResourceLibrary
