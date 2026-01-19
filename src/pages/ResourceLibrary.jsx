@@ -8,7 +8,7 @@ import { principles } from "../slices/appDataSlice";
 // import { principles1 } from "../slices/appDataSlice";
 import { ConfigProvider, Pagination } from "antd";
 
-export default function ResourceLibrary({ subPages }) {
+export default function ResourceLibrary({ subPages, preSelected }) {
   const principleArray = useSelector(principles);
   // const principleArray1 = useSelector(principles1);
 
@@ -182,7 +182,7 @@ export default function ResourceLibrary({ subPages }) {
       </div> */}
       <div className="brk-line"></div>
       <div className="filter-cnt">
-        <FilterDropDown filterData={filterData} onChange={handleFilterChange} />
+        <FilterDropDown filterData={filterData} preSelected={preSelected} onChange={handleFilterChange} />
         <div className="search-box">
           <input type="text" placeholder="Search query" />
           <button className="icon-search">&#xe90a;</button>

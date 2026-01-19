@@ -1,12 +1,15 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./FilterDropDown.css";
 
-export default function FilterDropDown({ filterData, onChange }) {
+export default function FilterDropDown({ filterData, onChange, preSelected }) {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState([]);
   const dropdownRef = useRef(null);
 
   useEffect(() => {
+    if (preSelected) {
+      setSelected(preSelected);
+    }
     const handleClickOutside = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
         setOpen(false);
@@ -37,7 +40,7 @@ export default function FilterDropDown({ filterData, onChange }) {
     let updated;
     if (exists) {
       updated = selected.filter(
-        (sel) => !(sel.id === item.id && sel.category === item.category)
+        (sel) => !(sel.id === item.id && sel.category === item.category),
       );
     } else {
       updated = [...selected, item];
