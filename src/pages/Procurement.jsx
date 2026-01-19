@@ -174,7 +174,7 @@ export default function Procurement() {
               image="images/procurement/Vietnam.png"
               title={
                 <p>
-                  <strong>Vietnam Ho Chi Minh City PBCs</strong> World Bank
+                  Vietnam<br /><strong> Ho Chi Minh City PBCs  </strong><br />World Bank
                 </p>
               }
               buttonText="Case Study"
@@ -190,7 +190,7 @@ export default function Procurement() {
               image="images/procurement/IndiaGanga.png"
               title={
                 <p>
-                  <strong>India Ganga River Wastewater Program</strong> World
+                  India <br /><strong>Ganga River Wastewater Program</strong> <br />World
                   Bank
                 </p>
               }
@@ -213,6 +213,7 @@ export default function Procurement() {
                     Reference Guide on Output Specifications for Quality
                     Infrastructure
                   </strong>{" "}
+                  <br />
                   Global Infrastructure Hub
                 </p>
               }

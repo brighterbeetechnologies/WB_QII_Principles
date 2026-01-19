@@ -138,7 +138,14 @@ export default function Governance() {
                 decisions with long-term value, not just short-term gains.
               </p>
             }
-            description={"Netherlands DuboCalc and CO₂ Performance Ladder"}
+            // description={"Netherlands DuboCalc and CO₂ Performance Ladder"}
+            description={
+              <>
+                <span style={{ fontWeight: "300" }}>Netherlands</span>
+                <br />
+                DuboCalc and CO₂ Performance Ladder
+              </>
+            }
             image="images/governance/list/01.jpg"
             buttonText="Case Study"
             link="https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html"
@@ -161,12 +168,13 @@ export default function Governance() {
               the database .
             </p>
             <p className="mTop">
-              The CO<sub>2</sub> Performance Ladder is a certification system with which a
-              tenderer can show the measures taken to limit CO<sub>2</sub> emissions both
-              within the company and in projects, as well as elsewhere in the
-              supply chain. The CO<sub>2</sub> Performance Ladder is managed by an
-              independent foundation with a defined governance structure for the
-              tool’s operation and maintenance.
+              The CO<sub>2</sub> Performance Ladder is a certification system
+              with which a tenderer can show the measures taken to limit CO
+              <sub>2</sub> emissions both within the company and in projects, as
+              well as elsewhere in the supply chain. The CO<sub>2</sub>{" "}
+              Performance Ladder is managed by an independent foundation with a
+              defined governance structure for the tool’s operation and
+              maintenance.
             </p>
           </ListImageText>
           <div className="border-dash"></div>

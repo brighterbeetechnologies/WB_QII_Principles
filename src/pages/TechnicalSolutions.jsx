@@ -154,10 +154,11 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/SolomonIslands.png"
               title={
                 <p>
-                  <strong>
-                    Solomon Islands Climate-Resilient Solution for Small Bridges
+                  
+                    Solomon Islands <br /><strong>Climate-Resilient Solution for Small Bridges
                     in the Pacific
                   </strong>{" "}
+                  <br />
                   World Bank
                 </p>
               }
@@ -178,10 +179,11 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/SouthAfrica.png"
               title={
                 <p>
-                  <strong>
-                    South Africa Nature-based Infrastructure to Enhance Water
+                  
+                    South Africa <br /><strong>Nature-based Infrastructure to Enhance Water
                     Security
                   </strong>{" "}
+                  <br />
                   The Nature Conservancy
                 </p>
               }
@@ -224,10 +226,11 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/Peru.png"
               title={
                 <p>
-                  <strong>
-                    Peru Technologies to Increase Observability and
+                  
+                    Peru <br /><strong>Technologies to Increase Observability and
                     Controllability in Real-Time System Operations
                   </strong>{" "}
+                  <br />
                   World Bank
                 </p>
               }
@@ -249,10 +252,11 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/Vietnam.png"
               title={
                 <p>
-                  <strong>
-                    Vietnam National Power Transmission Corporation’s
+                  
+                    Vietnam <br /><strong>National Power Transmission Corporation’s
                     Digitalization Journey
                   </strong>{" "}
+                  <br />
                   World Bank
                 </p>
               }
@@ -291,6 +295,7 @@ export default function TechnicalSolutions() {
                   <strong>
                     AI and Deep Learning for Identifying Pavement Failures
                   </strong>{" "}
+                  <br />
                   Global Infrastructure Hub
                 </p>
               }
@@ -312,6 +317,7 @@ export default function TechnicalSolutions() {
                   <strong>
                     Sensors and Machine Learning for Predictive Maintenance
                   </strong>{" "}
+                  <br />
                   Global Infrastructure Hub
                 </p>
               }
