@@ -5,6 +5,7 @@ import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
 import { setBradcrump } from "../slices/appDataSlice";
 import { useDispatch } from "react-redux";
+import ResourceLibrary from "./ResourceLibrary";
 
 export default function CostRecovery() {
   const resourceArray = [
@@ -54,7 +55,8 @@ export default function CostRecovery() {
     },
     {
       id: 4,
-      title: "Banking on Cities : Investing in Resilient and Low-Carbon Urbanization",
+      title:
+        "Banking on Cities : Investing in Resilient and Low-Carbon Urbanization",
       description:
         "This report provides a stock take of various cost recovery mechanisms for low carbon cities.",
       img_path: "images/costRecovery/resources/05.png",
@@ -340,6 +342,18 @@ export default function CostRecovery() {
             ))}
           </div>
         </div>
+      </section>
+      <section className="color-light z-2" id="resourcesSection">
+        <ResourceLibrary
+          preSelected={[
+            {
+              show: true,
+              category: "QII Principle",
+              title: "QII.2 Economic Efficiency",
+              id: 1,
+            },
+          ]}
+        ></ResourceLibrary>
       </section>
     </div>
   );

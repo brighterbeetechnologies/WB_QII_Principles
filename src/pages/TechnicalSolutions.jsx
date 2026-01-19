@@ -5,6 +5,7 @@ import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import ResourceLibrary from "./ResourceLibrary";
 export default function TechnicalSolutions() {
   const resourceArray = [
     {
@@ -375,6 +376,18 @@ export default function TechnicalSolutions() {
             ))}
           </div>
         </div>
+      </section>
+      <section className="color-light z-2" id="resourcesSection">
+        <ResourceLibrary
+          preSelected={[
+            {
+              show: true,
+              category: "QII Principle",
+              title: "QII.2 Economic Efficiency",
+              id: 1,
+            },
+          ]}
+        ></ResourceLibrary>
       </section>
     </div>
   );

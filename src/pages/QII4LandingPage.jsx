@@ -124,6 +124,37 @@ export default function QII4LandingPage() {
     ],
   ];
 
+  const resourceArray = [
+    {
+      id: 0,
+      title: "Ganga River Wastewater Program ​World Bank",
+      description:
+        "Summarizes a procurement approach for a life project where annuity payments were linked to long-term O&M performance.",
+      img_path: "images/qii2/Ganga_case_study.png",
+      path: "/qii2casestudy2",
+      target: "_self",
+    },
+    {
+      id: 1,
+      title:
+        "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies​ World Bank",
+      description:
+        "Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
+      img_path: "images/governance/list/05.jpg",
+      path: "https://documents1.worldbank.org/curated/en/099235011182219257/pdf/P1679330af035007e0829505bcfd724025b.pdf",
+      target: "_blank",
+    },
+    {
+      id: 2,
+      title: "Life-Cycle Costing in Public Procurement in Hungary​ OECD",
+      description:
+        "Analyzes Hungary's policy framework and current practices and provides recommendations for promoting LCC adoption in public procurement.",
+      img_path: "images/governance/list/01.jpg",
+      path: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/10/life-cycle-costing-in-public-procurement-in-hungary_90b7465a/8d90f627-en.pdf",
+      target: "_blank",
+    },
+  ];
+
   const subPages = [
     {
       id: 0,
@@ -298,7 +329,7 @@ export default function QII4LandingPage() {
       setBradcrump({
         show: true,
         dir: [{ path: "/qii4", title: "QII.4 Resilience" }],
-      })
+      }),
     );
   }, []);
   return (
@@ -439,7 +470,7 @@ export default function QII4LandingPage() {
                       "./video/LandingPageVideo.mp4",
                       "Unlocking the Potential of Life Cycle Costing",
                       1920,
-                      1080
+                      1080,
                     );
                   }}
                 >
@@ -474,7 +505,7 @@ export default function QII4LandingPage() {
           </p>
         </Header3>
       </section>
-      <section className="q4_landing_page color-dark">
+      {/* <section className="q4_landing_page color-dark">
         <div className="container">
           <div className="qii4-video-card">
             <img
@@ -487,19 +518,6 @@ export default function QII4LandingPage() {
               src="images/qii4/QII 2 in Action poster.png"
               alt=""
             />
-            {/* <button
-					className="qii4-play-btn"
-					onClick={() =>
-					openVideo(
-						"",
-						"QII 4 in Action",
-						1920,
-						1080
-					)
-					}
-				>
-					&#9658;
-				</button> */}
             <div className="vid-cnt qii4-vid-cnt">
               <button
                 className="video-play-btn icon-play"
@@ -508,7 +526,7 @@ export default function QII4LandingPage() {
                     "./video/LandingPageVideo.mp4",
                     "Lessons from Success Stories",
                     1920,
-                    1080
+                    1080,
                   );
                 }}
               >
@@ -527,12 +545,84 @@ export default function QII4LandingPage() {
                 target="_blank"
                 to="https://blogs.worldbank.org/en/ppps/modular-bridges-climate-resilient-solution-small-bridges-pacific"
               >
-                <button className="qii4-video-cta">
-                  Explore Case Studies →
+                <button className="btn-primary qii2-video-cta">
+                  Explore Case Study{" "}
+                  <span className="icon-arrow">&#xe900;</span>
                 </button>
               </Link>
-              {/* <button className="qii4-video-cta">Explore Case Studies →</button> */}
             </div>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="color-dark">
+        <div className="container">
+          <h2 className="section-title light-font">QII.2 Case Studies</h2>
+          <div className="page-resource-grid" role="list">
+            {resourceArray.map((p, index) => {
+              return (
+                <article
+                  className="page-resource-card"
+                  key={index}
+                  role="listitem"
+                  style={{ backgroundImage: `url(${p.img})` }}
+                >
+                  <div className="page-resource-link">
+                    <div className="page-resource-body">
+                      <div className="page-resource-title title-small">
+                        <strong>{p.title}</strong>
+                      </div>
+                      <div className="page-resource-overlay" />
+                      <img
+                        className="page-resource-img"
+                        src={p.img_path}
+                        alt={p.title}
+                      />
+                      {/* <div className="page-resource-img-cnt">
+                          </div> */}
+                      <div className="page-resource-data">
+                        <div className="page-resource-title title-big">
+                          <strong>{p.title}</strong>
+                        </div>
+                        <div className="page-resource-description">
+                          {p.description}
+                        </div>
+                        <div className="page-resource-btn-cnt">
+                          {p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : (
+                            <Link
+                              className="page-resource-arrow"
+                              to={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+          <div className="view-all-btn-container">
+            <button
+              className="btn-primary qii2-video-cta"
+              onClick={() => {
+                const el = document.getElementById("resourcesSection");
+                el?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              View All <span className="icon-arrow">&#xe900;</span>
+            </button>
           </div>
         </div>
       </section>
@@ -560,8 +650,18 @@ export default function QII4LandingPage() {
         </div>
       </section>
 
-      <section className="color-light z-2">
-        <ResourceLibrary subPages={subPages}></ResourceLibrary>
+      <section className="color-light z-2" id="resourcesSection">
+        <ResourceLibrary
+          subPages={subPages}
+          preSelected={[
+            {
+              show: true,
+              category: "QII Principle",
+              title: "QII.4 Resilience",
+              id: 3,
+            },
+          ]}
+        ></ResourceLibrary>
       </section>
     </div>
   );

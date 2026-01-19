@@ -5,6 +5,7 @@ import "./Governance.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import ResourceLibrary from "./ResourceLibrary";
 
 export default function Governance() {
   const resourceArray = [
@@ -123,7 +124,7 @@ export default function Governance() {
         <div className="container max-1600">
           <p className="list-title">
             To enable life-cycle costing, governance frameworks must evolve in
-            several specific ways
+            several specific ways.
           </p>
           <ListImageText
             step="1"
@@ -137,7 +138,7 @@ export default function Governance() {
                 decisions with long-term value, not just short-term gains.
               </p>
             }
-            description={"Netherlands DuboCalc and CO2 Performance Ladder"}
+            description={"Netherlands DuboCalc and CO₂ Performance Ladder"}
             image="images/governance/list/01.jpg"
             buttonText="Case Study"
             link="https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html"
@@ -160,10 +161,10 @@ export default function Governance() {
               the database .
             </p>
             <p className="mTop">
-              The CO2 Performance Ladder is a certification system with which a
-              tenderer can show the measures taken to limit CO2 emissions both
+              The CO<sub>2</sub> Performance Ladder is a certification system with which a
+              tenderer can show the measures taken to limit CO<sub>2</sub> emissions both
               within the company and in projects, as well as elsewhere in the
-              supply chain. The CO2 Performance Ladder is managed by an
+              supply chain. The CO<sub>2</sub> Performance Ladder is managed by an
               independent foundation with a defined governance structure for the
               tool’s operation and maintenance.
             </p>
@@ -409,6 +410,18 @@ export default function Governance() {
             ))}
           </div>
         </div>
+      </section>
+      <section className="color-dark z-2" id="resourcesSection">
+        <ResourceLibrary
+          preSelected={[
+            {
+              show: true,
+              category: "QII Principle",
+              title: "QII.2 Economic Efficiency",
+              id: 1,
+            },
+          ]}
+        ></ResourceLibrary>
       </section>
     </div>
   );

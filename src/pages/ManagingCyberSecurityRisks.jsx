@@ -7,6 +7,7 @@ import HeaderCarousal from "../components/HeaderCarousal";
 import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import ResourceLibrary from "./ResourceLibrary";
 
 export default function ManagingCyberSecurityRisks() {
   const slidesData = [
@@ -246,6 +247,18 @@ export default function ManagingCyberSecurityRisks() {
             </VCard>
           </div>
         </div>
+      </section>
+      <section className="color-dark z-2" id="resourcesSection">
+        <ResourceLibrary
+          preSelected={[
+            {
+              show: true,
+              category: "QII Principle",
+              title: "QII.4 Resilience",
+              id: 3,
+            },
+          ]}
+        ></ResourceLibrary>
       </section>
     </div>
   );

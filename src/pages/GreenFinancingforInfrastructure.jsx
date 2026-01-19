@@ -261,9 +261,9 @@ export default function GreenFinancingforInfrastructure() {
                 This project was the first project in Serbia certified by Gold
                 Standard Carbon Credit Certification. This was achieved by
                 modernizing waste treatment infrastructure – going from an open
-                dump emitting 90 million tons of CO2 equivalent over the last 45
+                dump emitting 90 million tons of CO₂ equivalent over the last 45
                 years – to a sanitary landfill with biogas collection and
-                leachate treatment, which reduced 210,000 tons of CO2e per year.
+                leachate treatment, which reduced 210,000 tons of CO₂e per year.
               </p>
             </VCard>
           </div>

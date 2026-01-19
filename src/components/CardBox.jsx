@@ -48,7 +48,7 @@ export default function CardBox({ card }) {
               href={card.paths}
               target={card.topResource ? "_self" : "_blank"}
             >
-              See The {card.type}
+              {/* See The {card.type} */}
               <span className="icon-arrow">&#xe900;</span>
             </a>
             {card.videoUrl && (
