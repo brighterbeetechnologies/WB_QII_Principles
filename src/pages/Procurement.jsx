@@ -8,6 +8,7 @@ import HeaderCarousal from "../components/HeaderCarousal";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
+import { Popover, Tooltip } from "antd";
 
 export default function Procurement() {
   const resourceArray = [
@@ -174,7 +175,11 @@ export default function Procurement() {
               image="images/procurement/Vietnam.png"
               title={
                 <p>
-                  Vietnam<br /><strong> Ho Chi Minh City PBCs  </strong><br />World Bank
+                  Vietnam
+                  <br />
+                  <strong> Ho Chi Minh City PBCs </strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Case Study"
@@ -190,8 +195,9 @@ export default function Procurement() {
               image="images/procurement/IndiaGanga.png"
               title={
                 <p>
-                  India <br /><strong>Ganga River Wastewater Program</strong> <br />World
-                  Bank
+                  India <br />
+                  <strong>Ganga River Wastewater Program</strong> <br />
+                  World Bank
                 </p>
               }
               buttonText="Case Study"
@@ -307,9 +313,15 @@ export default function Procurement() {
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
                       </div>
-                      <div className="page-resource-description">
-                        {p.description}
-                      </div>
+                      <Popover
+                        content={p.description}
+                        title={p.title}
+                        trigger="click"
+                      >
+                        <div className="page-resource-description">
+                          Read More...
+                        </div>
+                      </Popover>
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"

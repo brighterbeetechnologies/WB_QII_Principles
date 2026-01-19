@@ -2,7 +2,7 @@ import React from "react";
 import "./CardBox.css";
 import { setShowVideo, setVideoData } from "../slices/appDataSlice";
 import { useDispatch } from "react-redux";
-import { Tooltip } from "antd";
+import { Popover, Tooltip } from "antd";
 import { Link, useNavigate } from "react-router-dom";
 export default function CardBox({ card }) {
   const dispatch = useDispatch();
@@ -24,13 +24,15 @@ export default function CardBox({ card }) {
         <div className="card-data">
           <p className="card-type">{card.type}</p>
           <h3 className="card-title">
-            <Tooltip placement="top" color={"white"} title={card.title}>
-              {card.title}
-            </Tooltip>
+            {/* <Tooltip placement="top" color={"white"} title={card.title}> */}
+            {card.title}
+            {/* </Tooltip> */}
           </h3>
           <p className="card-desc">
-            {/* <Tooltip placement="top" color={"white"} title={card.desc}> */}
-            {card.desc}
+            <Popover content={card.desc} title={card.title} trigger="click">
+              Read More...
+            </Popover>
+            {/* {card.desc} */}
             {/* </Tooltip> */}
           </p>
           <div className={`card-btn-cnt ${card.videoUrl ? "twoBtn" : ""}`}>
