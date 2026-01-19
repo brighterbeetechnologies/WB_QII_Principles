@@ -250,11 +250,16 @@ export default function Governance() {
                 and asset management.
               </p>
             }
-            description={"Malawi Infrastructure Data Innovations"}
+            disableDescription={true}
+            description={" "}
             image="images/governance/list/03.jpg"
             buttonText="Case Study"
             link="pdf/Infrastructure Data Innovations in Malawi.pdf"
           >
+            <div className="description">
+              Malawi <br />
+              <strong>Infrastructure Data Innovations</strong>
+            </div>
             <p>
               Highlights how digital platforms and inclusive oversight
               mechanisms enhance governance and life-cycle accountability.
@@ -293,13 +298,16 @@ export default function Governance() {
                 infrastructure is delivered and maintained.
               </p>
             }
-            description={
-              "South Korea Public and Private Infrastructure Investment Management Center (PIMAC)"
-            }
+            disableDescription={true}
+            description={" "}
             image="images/governance/list/04.jpg"
             buttonText="Case Study"
             link="https://ppp.worldbank.org/library/basic-plan-public-private-partnerships-seoul-korea-development-institute-pimac-kr-2011"
           >
+            <div className="description">
+              South Korea <br />
+              <strong>Public and Private Infrastructure Investment Management Center (PIMAC)</strong>
+            </div>
             <p>
               Showcases how institutional training strengthens the practical
               application of life-cycle costing.{" "}
@@ -346,11 +354,16 @@ export default function Governance() {
                 entire life cycle.
               </p>
             }
-            description={"India Tamil Nadu Road Sector Project"}
+            disableDescription={true}
+            description={" "}
             image="images/governance/list/05.jpg"
             buttonText="Case Study"
             link="pdf/Presentation on LCC Transport Unit_ver 2.2.pdf"
           >
+            <div className="description">
+              India <br />
+              <strong>Tamil Nadu Road Sector Project</strong>
+            </div>
             <p>
               Illustrates how governance reforms can align private incentives
               with life-cycle performance outcomes.
