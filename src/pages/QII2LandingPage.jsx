@@ -281,9 +281,9 @@ export default function QII2LandingPage() {
         </Header3>
       </section>
 
-      <section className="q4_landing_page color-dark">
+      <section className="video_landing_page color-dark">
         <div className="container">
-          <div className="qii4-video-card">
+          <div className="qii-video-card">
             <img
               className="desk_image"
               src="images/qii4/QII 2 in Action poster.png"
@@ -294,20 +294,7 @@ export default function QII2LandingPage() {
               src="images/qii4/QII 2 in Action poster.png"
               alt=""
             />
-            {/* <button
-                className="qii4-play-btn"
-                onClick={() =>
-                openVideo(
-                  "",
-                  "QII 4 in Action",
-                  1920,
-                  1080
-                )
-                }
-              >
-                &#9658;
-              </button> */}
-            <div className="vid-cnt qii4-vid-cnt">
+            <div className="vid-cnt qii-vid-cnt">
               <button
                 className="video-play-btn icon-play"
                 onClick={() => {
@@ -322,10 +309,10 @@ export default function QII2LandingPage() {
                 &#xe91e;
               </button>
             </div>
-            <div className="qii4-video-overlay">
-              <p className="qii4-video-title">QII 2 in Action</p>
+            <div className="qii-video-overlay">
+              <p className="qii-video-title">QII 2 in Action</p>
 
-              <p className="qii4-video-desc">
+              <p className="qii-video-desc">
                 Fukuoka City’s water management success story showcases the
                 transformative power of LCC, aligning economic efficiency with
                 sustainability.
@@ -336,15 +323,6 @@ export default function QII2LandingPage() {
                   <span className="icon-arrow">&#xe900;</span>
                 </button>
               </Link>
-              {/* <a
-                href=""
-                target="_blank"
-                data-discover="true"
-                className="qii4-video-cta btn-primary"
-              >
-                Explore Case Study <span className="icon-arrow">&#xe900;</span>
-              </a> */}
-              {/* <button className="qii4-video-cta">Explore Case Studies →</button> */}
             </div>
           </div>
         </div>
