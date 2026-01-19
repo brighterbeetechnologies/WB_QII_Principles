@@ -141,10 +141,13 @@ export default function FAQ() {
             <div className="accordion-content">
               <p className="accordion-answer">
                 The QII Reference Guide is an interactive platform designed to
-                help stakeholders understand and apply the G20 Principles for
-                Quality Infrastructure Investment. It provides tools, case
-                studies, and resources to support sustainable and efficient
-                infrastructure development.
+                support stakeholders in understanding and applying the G20
+                Principles for Quality Infrastructure Investment. Developed
+                through a partnership between the World Bank and the Government
+                of Japan, the guide provides a curated collection of tools, case
+                studies, guidance documents, and resources to facilitate
+                sustainable, resilient, and efficient infrastructure development
+                worldwide.
               </p>
             </div>
           </div>
@@ -157,7 +160,7 @@ export default function FAQ() {
                 </svg>
               </div>
               <span className="accordion-question">
-                Who is the QII Reference Guide for?
+                Who is this guide designed for?
               </span>
             </div>
             <div className="accordion-content">
@@ -200,7 +203,7 @@ export default function FAQ() {
             </div>
           </div>
 
-          <div className="accordion-item" data-category="about">
+          {/* <div className="accordion-item" data-category="about">
             <div className="accordion-header">
               <div className="accordion-icon">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
@@ -224,7 +227,7 @@ export default function FAQ() {
                 and regions.
               </p>
             </div>
-          </div>
+          </div> */}
 
           <div className="accordion-item" data-category="using">
             <div className="accordion-header">
@@ -244,9 +247,8 @@ export default function FAQ() {
                 Resilience, Social, and Governance. Select any principle to
                 access relevant case studies, guidance documents, tools, and
                 resources. For users new to QII concepts, we recommend clicking
-                "Want to know more about the fundamentals of QII?" on the
-                homepage to build foundational understanding before exploring
-                specific resources.
+                "What is QII?" on the homepage to build foundational
+                understanding before exploring specific resources.
               </p>
             </div>
           </div>
@@ -267,9 +269,7 @@ export default function FAQ() {
                 The six QII Principles are accessible from multiple entry points
                 throughout the guide. On the homepage, select any principle from
                 the navigation tiles to view associated content. Within the
-                resource library, use the principle tabs (Sustainable Growth,
-                Economic Efficiency, Environment, Resilience, Social,
-                Governance) to filter content by your area of interest. Each
+                resource library, use the filter by your area of interest. Each
                 principle page provides an overview of key concepts, actionable
                 aspects, and curated resources.
               </p>
@@ -291,10 +291,10 @@ export default function FAQ() {
               <p className="accordion-answer">
                 The resource library includes filtering functionality to help
                 locate relevant content. Use the principle tabs to narrow
-                resources by QII Principle, or use the "Filter by" option to
-                refine results by resource type (Case Study, Guidance, Tools,
-                Resources, Programs, Reports). These filters can be combined to
-                identify materials that match your specific requirements.
+                resources by QII Principle or use the "Filter by" option to
+                refine results by resource type, project stage, region and
+                industry. These filters can be combined to identify materials
+                that match your specific requirements.
               </p>
             </div>
           </div>
@@ -312,7 +312,7 @@ export default function FAQ() {
             </div>
             <div className="accordion-content">
               <div className="accordion-answer">
-                <p>The guide features several resource categories:</p>
+                <p>The guide features several resource categories: </p>
                 <ul>
                   <li>
                     <strong>Case Studies:</strong> Real-world examples of QII
@@ -383,11 +383,12 @@ export default function FAQ() {
             </div>
             <div className="accordion-content">
               <p className="accordion-answer">
-                Many resources link to external documents, publications, and
-                tools hosted by partner institutions such as the World Bank,
-                OECD, and Global Infrastructure Hub. Where available, these
-                external resources may be downloaded directly from the source
-                institution's website in PDF or other formats.
+                Some spotlight case studies have been made available for
+                download, however, many resources link to external documents,
+                publications, and tools hosted by partner institutions such as
+                the World Bank, OECD, and Global Infrastructure Hub. Where
+                available, these external resources may be downloaded directly
+                from the source institution's website in PDF or other formats.
               </p>
             </div>
           </div>
