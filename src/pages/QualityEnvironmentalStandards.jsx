@@ -140,7 +140,7 @@ export default function QualityEnvironmentalStandards() {
           </div>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/Quality-Environmental-Standards/Infrastructure Standards.png"
+              image="images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png"
               title={
                 <p>
                   <strong>Infrastructure Standards</strong> International
@@ -221,7 +221,7 @@ export default function QualityEnvironmentalStandards() {
             </VCard>
             <div className="VCard-cnt col1">
               <VCard
-                image="images/qii3/Quality-Environmental-Standards/BREEAM Infrastructure.png"
+                image="images/newresource/BREEAM-Infrastructure.png"
                 title={
                   <p>
                     <strong>BREEAM Infrastructure</strong>{" "}
@@ -262,7 +262,7 @@ export default function QualityEnvironmentalStandards() {
           </div>
           <div className="top-resource-card-cnt-qii4">
             <TopResourceCard
-              image=""
+              image="images/newresource/Blue-Dot-Network.png"
               title={<p>Blue Dot Network </p>}
               buttonText=""
               link="https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE"
@@ -285,7 +285,7 @@ export default function QualityEnvironmentalStandards() {
         </div>
         <div className="VCard-cnt col3">
           <VCard
-            image="images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png"
+            image="images/qii3/Quality-Environmental-Standards/FrameworkforSDG-AlignedFinanceOECD&UNDP.png"
             title={
               <p>
                 <strong>Framework for SDG-Aligned Finance </strong> OECD & UNDP
@@ -304,7 +304,7 @@ export default function QualityEnvironmentalStandards() {
           </VCard>
 
           <VCard
-            image="images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png"
+            image="images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png"
             title={
               <p>
                 <strong>
@@ -328,7 +328,7 @@ export default function QualityEnvironmentalStandards() {
           </VCard>
 
           <VCard
-            image="images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png"
+            image="images/qii3/Quality-Environmental-Standards/Global-Environment-Outlook.png"
             title={
               <p>
                 <strong>Global Environment Outlook (GEO-7) </strong> UNEP
