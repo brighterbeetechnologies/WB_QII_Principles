@@ -1,12 +1,12 @@
 .procurement .link-text {
   margin-bottom: 2rem;
 }
-.procurement .link-text p{
+.procurement .link-text p {
   font-size: 1.3rem;
 }
 
 .procurement .link-text strong {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .procurement .subpagehero {
@@ -141,5 +141,15 @@
   .link-text {
     max-width: 1480px;
     margin: 2rem auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .procurement .link-text p {
+    font-size: 1.1rem;
+  }
+
+  .procurement .link-text strong {
+    font-size: 1.1rem;
   }
 }

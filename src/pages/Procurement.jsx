@@ -204,6 +204,7 @@ export default function Procurement() {
               link="https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/"
               buttonText2="Case Study Summary"
               link2="pdf/Ganga_case_study.pdf"
+              highlight={true}
             >
               <p>
                 Summarizes a procurement approach for a real-life project where
