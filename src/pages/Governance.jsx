@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
+import { Popover, Tooltip } from "antd";
 
 export default function Governance() {
   const resourceArray = [
@@ -139,17 +140,16 @@ export default function Governance() {
               </p>
             }
             // description={"Netherlands DuboCalc and CO₂ Performance Ladder"}
-            description={
-              <>
-                <span style={{ fontWeight: "300" }}>Netherlands</span>
-                <br />
-                DuboCalc and CO₂ Performance Ladder
-              </>
-            }
+            disableDescription={true}
+            description={""}
             image="images/governance/list/01.jpg"
             buttonText="Case Study"
             link="https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html"
           >
+            <div className="description">
+              Netherlands <br />
+              <strong>DuboCalc and CO₂ Performance Ladder</strong>
+            </div>
             <p>
               Demonstrates how dedicated governance structures support long-term
               asset oversight through environmental and emissions tools.{" "}
@@ -194,11 +194,16 @@ export default function Governance() {
                 time.
               </p>
             }
-            description={"Bangladesh Combined Cycle Power Plant"}
+            disableDescription={true}
+            description={" "}
             image="images/governance/list/02.jpg"
             buttonText="Case Study"
             link="pdf/Revised Draft Practice Manual-LCC- with sector specific guidance-15 Oct 2022.pdf"
           >
+            <div className="description">
+              Bangladesh <br />
+              <strong>Combined Cycle Power Plant</strong>
+            </div>
             <p>
               Demonstrates how life-cycle costing was embedded across project
               appraisal, procurement, and contract management.
@@ -399,9 +404,15 @@ export default function Governance() {
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
                       </div>
-                      <div className="page-resource-description">
-                        {p.description}
-                      </div>
+                      <Popover
+                        content={p.description}
+                        title={p.title}
+                        trigger="click"
+                      >
+                        <div className="page-resource-description">
+                          Read More...
+                        </div>
+                      </Popover>
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"

@@ -13,6 +13,7 @@ import {
   setVideoData,
 } from "../slices/appDataSlice";
 import CardBox from "../components/CardBox";
+import { Popover, Tooltip } from "antd";
 // import textCrData_tab from "images/qii4/QII2_Landing_main.png"
 export default function QII4LandingPage() {
   const dispatch = useDispatch();
@@ -584,9 +585,15 @@ export default function QII4LandingPage() {
                         <div className="page-resource-title title-big">
                           <strong>{p.title}</strong>
                         </div>
-                        <div className="page-resource-description">
-                          {p.description}
-                        </div>
+                        <Popover
+                          content={p.description}
+                          title={p.title}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover>
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

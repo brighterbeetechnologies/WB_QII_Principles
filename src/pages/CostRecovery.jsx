@@ -6,6 +6,7 @@ import VCard from "../components/VCard";
 import { setBradcrump } from "../slices/appDataSlice";
 import { useDispatch } from "react-redux";
 import ResourceLibrary from "./ResourceLibrary";
+import { Popover, Tooltip } from "antd";
 
 export default function CostRecovery() {
   const resourceArray = [
@@ -132,8 +133,9 @@ export default function CostRecovery() {
               image="images/costRecovery/Timor-Leste.png"
               title={
                 <p>
-                  Timor-Leste  <br /><strong>Tibar Bay Port PPP</strong><br /> International
-                  Finance Corporation
+                  Timor-Leste <br />
+                  <strong>Tibar Bay Port PPP</strong>
+                  <br /> International Finance Corporation
                 </p>
               }
               buttonText="Case Study"
@@ -148,9 +150,10 @@ export default function CostRecovery() {
               image="images/costRecovery/Maldives.png"
               title={
                 <p>
-                  
-                    Maldives <br /><strong>Facilitating Private Investment in Clean and
-                    Affordable Energy
+                  Maldives <br />
+                  <strong>
+                    Facilitating Private Investment in Clean and Affordable
+                    Energy
                     <br />
                   </strong>{" "}
                   World Bank
@@ -170,8 +173,8 @@ export default function CostRecovery() {
               title={
                 <p>
                   <strong>
-                    Revisiting Water Pricing for Affordable and
-                    Sustainable Water Services{" "}
+                    Revisiting Water Pricing for Affordable and Sustainable
+                    Water Services{" "}
                   </strong>
                   <br />
                   World Bank
@@ -210,8 +213,9 @@ export default function CostRecovery() {
               image="images/costRecovery/India.png"
               title={
                 <p>
-                  India <br /><strong>Hyderabad Metro Rail</strong><br /> Global
-                  Infrastructure Hub
+                  India <br />
+                  <strong>Hyderabad Metro Rail</strong>
+                  <br /> Global Infrastructure Hub
                 </p>
               }
               buttonText="Case Study"
@@ -275,8 +279,10 @@ export default function CostRecovery() {
               image="images/costRecovery/Argentina.png"
               title={
                 <p>
-                  Argentina <br /><strong>Land Value Capture and Infrastructure </strong>
-                  <br />World Bank
+                  Argentina <br />
+                  <strong>Land Value Capture and Infrastructure </strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Case Study"
@@ -327,9 +333,15 @@ export default function CostRecovery() {
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
                       </div>
-                      <div className="page-resource-description">
-                        {p.description}
-                      </div>
+                      <Popover
+                        content={p.description}
+                        title={p.title}
+                        trigger="click"
+                      >
+                        <div className="page-resource-description">
+                          Read More...
+                        </div>
+                      </Popover>
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"

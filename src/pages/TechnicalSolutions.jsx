@@ -6,6 +6,7 @@ import VCard from "../components/VCard";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
+import { Popover, Tooltip } from "antd";
 export default function TechnicalSolutions() {
   const resourceArray = [
     {
@@ -154,9 +155,9 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/SolomonIslands.png"
               title={
                 <p>
-                  
-                    Solomon Islands <br /><strong>Climate-Resilient Solution for Small Bridges
-                    in the Pacific
+                  Solomon Islands <br />
+                  <strong>
+                    Climate-Resilient Solution for Small Bridges in the Pacific
                   </strong>{" "}
                   <br />
                   World Bank
@@ -179,9 +180,9 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/SouthAfrica.png"
               title={
                 <p>
-                  
-                    South Africa <br /><strong>Nature-based Infrastructure to Enhance Water
-                    Security
+                  South Africa <br />
+                  <strong>
+                    Nature-based Infrastructure to Enhance Water Security
                   </strong>{" "}
                   <br />
                   The Nature Conservancy
@@ -226,9 +227,10 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/Peru.png"
               title={
                 <p>
-                  
-                    Peru <br /><strong>Technologies to Increase Observability and
-                    Controllability in Real-Time System Operations
+                  Peru <br />
+                  <strong>
+                    Technologies to Increase Observability and Controllability
+                    in Real-Time System Operations
                   </strong>{" "}
                   <br />
                   World Bank
@@ -252,9 +254,10 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/Vietnam.png"
               title={
                 <p>
-                  
-                    Vietnam <br /><strong>National Power Transmission Corporation’s
-                    Digitalization Journey
+                  Vietnam <br />
+                  <strong>
+                    National Power Transmission Corporation’s Digitalization
+                    Journey
                   </strong>{" "}
                   <br />
                   World Bank
@@ -363,9 +366,15 @@ export default function TechnicalSolutions() {
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
                       </div>
-                      <div className="page-resource-description">
-                        {p.description}
-                      </div>
+                      <Popover
+                        content={p.description}
+                        title={p.title}
+                        trigger="click"
+                      >
+                        <div className="page-resource-description">
+                          Read More...
+                        </div>
+                      </Popover>
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"
