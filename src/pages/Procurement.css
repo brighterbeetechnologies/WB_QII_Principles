@@ -1,6 +1,13 @@
 .procurement .link-text {
   margin-bottom: 2rem;
 }
+.procurement .link-text p{
+  font-size: 1.3rem;
+}
+
+.procurement .link-text strong {
+  font-size: 1.5rem;
+}
 
 .procurement .subpagehero {
   display: flex;
@@ -35,9 +42,6 @@
   .procurement .subpagehero img {
     height: 100px;
     width: 100%;
-  }
-  .procurement .Header3 .container {
-    padding-bottom: 0;
   }
 
   .container.noPTop {

@@ -13,7 +13,7 @@
       rgba(0, 0, 0, 0.6) 85%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("images/qii2/Fukuoka_Case_study.png");
+    url("/images/qii2/Fukuoka_Case_study.png");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +39,7 @@
 }
 
 .single-case-study-wrapper .sub-title {
-  background: url("images/qii2/case_study_title_holder.png") no-repeat;
+  background: url("/images/qii2/case_study_title_holder.png") no-repeat;
   padding: 1.25rem 3rem;
   background-size: auto 159px;
 }

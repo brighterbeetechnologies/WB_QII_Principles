@@ -7,21 +7,16 @@
   margin-bottom: 1rem;
 }
 
-.governance .subpagehero img {
-  height: 100px;
-  width: 100%;
-}
-
 .governance .list-title {
   font-size: 1.25rem;
   margin-bottom: 1.25rem;
 } */
 
-.governance .Header3 .container {
+/* .governance .Header3 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 .governance .Header3 .title,
 .governance .governance .hero-content {
@@ -30,15 +25,10 @@
 }
 
 .governance .hero-content {
-  margin-top: 2.8rem; 
+  /* margin-top: 2.8rem;  */
   display: flex;
   align-items: center;
   gap: 0.75rem;
-}
-
-.governance .qii-badge {
-  height: 48px;
-  width: auto;
 }
 
 .last-text {
@@ -49,20 +39,9 @@ p.margin-bottom {
   margin-bottom: 1.5rem;
 }
 
-@media (mid-width: 614px) {
-  .governance .subpagehero img {
-    height: 100px;
-    width: 100%;
-  }
-}
-
 @media (min-width: 659px) {
   .Header3 .container {
     padding: 6rem 1rem 1rem 1rem;
-  }
-  .governance .subpagehero img {
-    height: 100px;
-    width: 100%;
   }
   .governance .list-title {
     font-size: 0.7rem;
@@ -86,10 +65,6 @@ p.margin-bottom {
   .last-text {
     margin: 2rem 0;
   }
-  .governance .subpagehero img {
-    height: 110px;
-    width: 100%;
-  }
 }
 
 @media (min-width: 992px) {
@@ -99,10 +74,6 @@ p.margin-bottom {
   }
   .governance .list-title {
     text-align: center;
-  }
-  .governance .subpagehero img {
-    height: 100px;
-    width: 100%;
   }
 }
 
@@ -119,10 +90,6 @@ p.margin-bottom {
 }
 
 @media (min-width: 1400px) {
-  .governance .subpagehero img {
-    height: 120px;
-    width: 100%;
-  }
   .governance .list-title {
     font-size: 1.875rem;
     margin: 2rem 0 2rem 0;
@@ -132,8 +99,4 @@ p.margin-bottom {
     margin: 4rem auto;
   }
 
-  .governance .subpagehero img {
-    height: 110px;
-    width: 100%;
-  }
 }

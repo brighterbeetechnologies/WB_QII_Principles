@@ -92,7 +92,7 @@ export default function Procurement() {
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/procurement", title: "Procurement" },
         ],
-      })
+      }),
     );
   }, []);
   return (
@@ -107,25 +107,31 @@ export default function Procurement() {
               include:{" "}
             </strong>
           </div> */}
-        <Header3 img="images/procurement/header_bg_1.png" title="Procurement">
-          <div className="subpagehero">
-            <img src="images/UpdatedAssets/Qii2.svg" alt="Qii2 logo" />
-            <div className="subpage-description">
-              <p className="light-font">
-                The <strong>procurement</strong> process sets the foundation for
-                the economic efficiency of an infrastructure project.
-                Procurement processes that create incentives to minimize life-
-                cycle costs can lead to better value for money and reduce
-                long-term expenses. Conversely, weak procurement practices, such
-                as focusing solely on initial purchase price, can result in
-                higher operational and maintenance costs over the asset's
-                lifespan.
-              </p>
-              {/* <p className="bold-text">
-                <strong>
-                </strong>
-              </p> */}
+        <Header3
+          img="images/procurement/header_bg_1.png"
+          title={"Procurement"}
+          hideDeskTitle={true}
+        >
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">Procurement</h1>
             </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              The <strong>procurement</strong> process sets the foundation for
+              the economic efficiency of an infrastructure project. Procurement
+              processes that create incentives to minimize life- cycle costs can
+              lead to better value for money and reduce long-term expenses.
+              Conversely, weak procurement practices, such as focusing solely on
+              initial purchase price, can result in higher operational and
+              maintenance costs over the asset's lifespan.
+            </p>
           </div>
         </Header3>
         <div className="container noPTop">
@@ -228,7 +234,7 @@ export default function Procurement() {
               to link the operator’s payments to efficient long-term
             </span>
           </NumSteps>
-          <div className="VCard-cnt">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/procurement/Pre-Fabrication.png"
               title={
@@ -236,6 +242,7 @@ export default function Procurement() {
                   <strong>
                     Pre-Fabrication Technology for Modular Construction
                   </strong>{" "}
+                  <br />
                   Global Infrastructure Hub
                 </p>
               }
@@ -254,6 +261,7 @@ export default function Procurement() {
               title={
                 <p>
                   <strong>Disruptive Technologies in Public Procurement</strong>{" "}
+                  <br />
                   World Bank
                 </p>
               }
@@ -285,12 +293,12 @@ export default function Procurement() {
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
                     </div>
-                      <div className="page-resource-overlay" />
-                      <img
-                        className="page-resource-img"
-                        src={p.img_path}
-                        alt={p.title}
-                      />
+                    <div className="page-resource-overlay" />
+                    <img
+                      className="page-resource-img"
+                      src={p.img_path}
+                      alt={p.title}
+                    />
                     {/* <div className="page-resource-img-cnt">
                     </div> */}
                     <div className="page-resource-data">

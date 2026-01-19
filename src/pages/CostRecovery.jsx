@@ -62,7 +62,7 @@ export default function CostRecovery() {
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/costrecovery", title: "Cost-recovery" },
         ],
-      })
+      }),
     );
   }, []);
   return (
@@ -77,23 +77,29 @@ export default function CostRecovery() {
             infrastructure's lifespan.
           </p>
         </Header3> */}
-        <Header3 img="images/costRecovery/header_bg.png" title="Cost Recovery">
-          <div className="subpagehero">
-            <img src="images/UpdatedAssets/Qii2.svg" alt="Qii2 logo" />
-            <div className="subpage-description">
-              <p className="light-font">
-                Identifying and accounting for all life- cycle costs during the
-                project design stage is essential. However, this is only part of
-                the process. Equally important is determining the method for{" "}
-                <strong>recovering these costs</strong> throughout the
-                infrastructure's lifespan.{" "}
-              </p>
-              {/* <p className="bold-text">
-                        <strong>
-                          
-                        </strong>
-                      </p> */}
+        <Header3
+          img="images/costRecovery/header_bg.png"
+          title={"Cost Recovery"}
+          hideDeskTitle={true}
+        >
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">Cost Recovery</h1>
             </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              Identifying and accounting for all life- cycle costs during the
+              project design stage is essential. However, this is only part of
+              the process. Equally important is determining the method for{" "}
+              <strong>recovering these costs</strong> throughout the
+              infrastructure's lifespan.{" "}
+            </p>
           </div>
         </Header3>
         <div className="container noPTop">
@@ -169,18 +175,12 @@ export default function CostRecovery() {
             </VCard>
           </div>
           <div className="border-dash"></div>
-          <NumSteps num="2">
+          <NumSteps num="2" className="no-margin">
             <strong>Public Budgets</strong>
             <br />
             To fund the delivery of infrastructure that serves the public at
             large, governments typically rely on revenues generated through
-            their tax base.{" "}
-            <span style={{ opacity: 0 }}>
-              To fund the delivery of infrastructure that serves the public at
-              large, governments typically rely on revenues generated through
-              their tax base.
-            </span>{" "}
-            <br />
+            their tax base. <br />
           </NumSteps>
           <div className="border-dash"></div>
           <NumSteps num="3">
@@ -193,7 +193,7 @@ export default function CostRecovery() {
             able to tap into climate-related funding streams, such as carbon
             markets.
           </NumSteps>
-          <div className="VCard-cnt">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/costRecovery/India.png"
               title={
@@ -239,7 +239,7 @@ export default function CostRecovery() {
             taxes, levies, or betterment charges on beneficiaries within
             designated zones.
           </NumSteps>
-          <div className="VCard-cnt">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/costRecovery/lvc.png"
               title={

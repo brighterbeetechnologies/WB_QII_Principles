@@ -461,7 +461,7 @@ ul {
   .num-step {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 1.5rem;
   }

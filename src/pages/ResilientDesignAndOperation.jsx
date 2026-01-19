@@ -35,14 +35,13 @@ export default function ResilientDesignAndOperation() {
       setBradcrump({
         show: true,
         dir: [
-           
           { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Resilient-design&operation",
             title: "Resilient Design and Operations",
           },
         ],
-      })
+      }),
     );
   }, []);
   return (
@@ -50,21 +49,37 @@ export default function ResilientDesignAndOperation() {
       <section className="color-light">
         <Header3
           img="images/qii4/resilient_design_and_ops.png"
-          title="Resilient Design and Operations"
+          title={"Resilient Design and Operations"}
+          hideDeskTitle={true}
         >
-          <p className="light-font">
-            A resilient approach to infrastructure requires more than durable
-            construction that withstands shocks; it involves a sequence of
-            actions throughout design and operations that addresses not just the
-            asset itself but also the system in which the asset exists. <br />
-            <br />
-            Applying recognized resilience standards, building adaptive
-            operational processes, and integrating innovative digital
-            technologies and nature-based solutions – to address both natural
-            and man-made shocks (such as cyber-security threats) – collectively
-            enable projects to withstand and adapt to evolving risks over their
-            lifetime.
-          </p>
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">
+                Resilient Design and Operations
+              </h1>
+            </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              A resilient approach to infrastructure requires more than durable
+              construction that withstands shocks; it involves a sequence of
+              actions throughout design and operations that addresses not just
+              the asset itself but also the system in which the asset exists.{" "}
+              <br />
+              <br />
+              Applying recognized resilience standards, building adaptive
+              operational processes, and integrating innovative digital
+              technologies and nature-based solutions – to address both natural
+              and man-made shocks (such as cyber-security threats) –
+              collectively enable projects to withstand and adapt to evolving
+              risks over their lifetime.
+            </p>
+          </div>
         </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
 
@@ -233,7 +248,7 @@ export default function ResilientDesignAndOperation() {
               </p>
             </VCard>
           </div>
-          <div className="VCard-cnt col2">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/Building Regulatory Capacity Assessment.png"
               title={
@@ -300,7 +315,7 @@ export default function ResilientDesignAndOperation() {
             Nature-based Solutions for Resilience
           </h4>
 
-          <div className="VCard-cnt col2">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/World Bank A Catalogue of Nature-Based Solutions for Urban Resilience.png"
               title={
@@ -349,7 +364,8 @@ export default function ResilientDesignAndOperation() {
               title={
                 <p>
                   <strong>
-                    A Catalogue of Nature-Based Solutions for Urban Resilience{" "}
+                    A Catalogue of Nature-Based Solutions for Urban
+                    Resilience{" "}
                   </strong>
                 </p>
               }
@@ -388,7 +404,7 @@ export default function ResilientDesignAndOperation() {
           <h4 className="sub-section-title">
             Digital Solutions for Resilience
           </h4>
-          <div className="VCard-cnt col2">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/Digital Security and Resilience in Critical Infrastructure and Essential Services1.png"
               title={
@@ -460,7 +476,8 @@ export default function ResilientDesignAndOperation() {
               title={
                 <p>
                   <strong>
-                    Incorporating Resilience into Infrastructure Prioritization:{" "}
+                    Incorporating Resilience into Infrastructure
+                    Prioritization:{" "}
                   </strong>
                   Application to Japan's Road Transport Sector{" "}
                 </p>
@@ -535,7 +552,7 @@ export default function ResilientDesignAndOperation() {
               </p>
             </VCard>
           </div>
-          <div className="VCard-cnt col2">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/OECD Infrastructure Toolkit Strengthening Critical Infrastructure Resilience.png"
               title={

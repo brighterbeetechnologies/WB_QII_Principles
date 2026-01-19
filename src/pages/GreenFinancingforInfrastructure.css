@@ -1,7 +1,4 @@
 @media (max-width: 649px) {
-	.procurement .Header3 .container {
-		padding-bottom: 0;
-	}
 
 	.container.noPTop {
 		padding-top: 1rem;
