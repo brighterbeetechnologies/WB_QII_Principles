@@ -59,7 +59,7 @@ export default function CostRecovery() {
         "Banking on Cities : Investing in Resilient and Low-Carbon Urbanization",
       description:
         "This report provides a stock take of various cost recovery mechanisms for low carbon cities.",
-      img_path: "images/costRecovery/resources/05.png",
+      img_path: "images/newresource/Cost-Recovery.png",
       path: "https://worldbankgroup.sharepoint.com/sites/DNRINT/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDNRINT%2FShared%20Documents%2FP180194%2Db0d1220d%2Df566%2D4788%2D8d06%2Da61f97de6114%2Epdf&parent=%2Fsites%2FDNRINT%2FShared%20Documents",
     },
   ];
