@@ -280,51 +280,40 @@ export default function QII2LandingPage() {
           </p>
         </Header3>
       </section>
-
-      <section className="video_landing_page color-dark">
-        <div className="container">
-          <div className="qii-video-card">
-            <img
-              className="desk_image"
-              src="images/qii4/QII 2 in Action poster.png"
-              alt=""
-            />
-            <img
-              className="mob_image"
-              src="images/qii4/QII 2 in Action poster.png"
-              alt=""
-            />
-            <div className="vid-cnt qii-vid-cnt">
-              <button
-                className="video-play-btn icon-play"
-                onClick={() => {
-                  openVideo(
-                    "./video/LandingPageVideo.mp4",
-                    "Lessons from Success Stories",
-                    1920,
-                    1080,
-                  );
-                }}
-              >
-                &#xe91e;
-              </button>
-            </div>
-            <div className="qii-video-overlay">
-              <p className="qii-video-title">QII 2 in Action</p>
-
-              <p className="qii-video-desc">
-                Fukuoka City’s water management success story showcases the
-                transformative power of LCC, aligning economic efficiency with
-                sustainability.
-              </p>
-              <Link to="/qii2casestudy1">
-                <button className="btn-primary qii2-video-cta">
-                  Explore Case Study{" "}
-                  <span className="icon-arrow">&#xe900;</span>
-                </button>
-              </Link>
-            </div>
-          </div>
+      <section className="qii_video_landing_page color-light">
+        <img
+          className="qii_video-thumbnail-image"
+          src="images/qii4/QII 2 in Action poster.png"
+          alt="video thumbnail"
+        />
+        <div className="qii-video-overlay"></div>
+        <div className="qii-video-cnt">
+          <button
+            className="video-play-btn icon-play"
+            onClick={() => {
+              openVideo(
+                "./video/LandingPageVideo.mp4",
+                "Lessons from Success Stories",
+                1920,
+                1080,
+              );
+            }}
+          >
+            &#xe91e;
+          </button>
+        </div>
+        <div className="qii-video-text-cnt">
+          <p className="video-title">QII 2 in Action</p>
+          <p className="video-desc">
+            Fukuoka City’s water management success story showcases the
+            transformative power of LCC, aligning economic efficiency with
+            sustainability.
+          </p>
+          <Link to="/qii2casestudy1">
+            <button className="btn-primary qii2-video-cta">
+              Explore Case Study <span className="icon-arrow">&#xe900;</span>
+            </button>
+          </Link>
         </div>
       </section>
 
