@@ -81,6 +81,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3; /* number of lines */
   overflow: hidden;
+  font-size: 1rem;
 }
 
 .box-card .card-overlay {
@@ -183,12 +184,6 @@
   .box-card .card-title {
     font-size: 1.25rem;
   }
-}
-
-@media (min-width: 1600px) {
-  .box-card .card-title {
-    font-size: 1.5625rem;
-  }
 
   .box-card {
     border-radius: 35px;
@@ -200,6 +195,12 @@
 
   .box-card .card-overlay {
     border-radius: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .box-card .card-title {
+    font-size: 1.5625rem;
   }
 
   .box-card .card-data {

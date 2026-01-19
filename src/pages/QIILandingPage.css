@@ -145,6 +145,15 @@
   text-align: center;
 }
 
+.view-all-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+#resourcesSection {
+  scroll-margin-top: 100px;
+}
+
 @media (min-width: 600px) {
   .sub-pages {
     grid-template-columns: repeat(2, 1fr);
@@ -229,6 +238,11 @@
     height: 48px;
     margin-bottom: 10px;
   }
+  
+
+.view-all-btn-container {
+  justify-content: flex-end;
+}
 }
 
 @media (min-width: 1024px) {

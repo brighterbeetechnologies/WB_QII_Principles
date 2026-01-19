@@ -34,7 +34,7 @@ export default function CardBox({ card }) {
             {/* </Tooltip> */}
           </p>
           <div className={`card-btn-cnt ${card.videoUrl ? "twoBtn" : ""}`}>
-            <Link
+            {/* <Link
               className="btn primary"
               href={card.navigate ? "#" : card.paths}
               onClick={() => card.navigate && navigate(card.paths)}
@@ -42,16 +42,15 @@ export default function CardBox({ card }) {
             >
               See The {card.type}
               <span className="icon-arrow">&#xe900;</span>
-            </Link>
-            {/* <a
+            </Link> */}
+            <a
               className="btn primary"
-              href={card.navigate ? "#" : card.paths}
-              onClick={() => card.navigate && navigate(card.paths)}
+              href={card.paths}
               target={card.topResource ? "_self" : "_blank"}
             >
               See The {card.type}
               <span className="icon-arrow">&#xe900;</span>
-            </a> */}
+            </a>
             {card.videoUrl && (
               <button
                 className="btn primary video_btn"

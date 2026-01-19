@@ -102,7 +102,7 @@ export default function QII2CaseStudy2() {
               className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "pdf/Fukuoka_city_case_study.pdf",
+                  "pdf/Ganga_case_study.pdf",
                   "_blank",
                   "noopener,noreferrer",
                 )
@@ -115,7 +115,7 @@ export default function QII2CaseStudy2() {
               className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "pdf/Fukuoka_city_case_study.pdf",
+                  "https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/",
                   "_blank",
                   "noopener,noreferrer",
                 )
@@ -124,11 +124,11 @@ export default function QII2CaseStudy2() {
               View detailed case study
               <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
-            <div
+            {/* <div
               className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "pdf/Fukuoka_city_case_study.pdf",
+                  "pdf/Ganga_case_study.pdf",
                   "_blank",
                   "noopener,noreferrer",
                 )
@@ -136,7 +136,7 @@ export default function QII2CaseStudy2() {
             >
               View data
               <div className="arrow-btn icon-arrow">&#xe900;</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

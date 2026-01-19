@@ -109,7 +109,7 @@ export default function QII2CaseStudy1() {
               className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "pdf/Fukuoka_city_case_study.pdf",
+                  "https://openknowledge.worldbank.org/entities/publication/39c49500-f182-5d63-a002-56133d6f5d9c",
                   "_blank",
                   "noopener,noreferrer",
                 )
@@ -118,7 +118,7 @@ export default function QII2CaseStudy1() {
               View detailed case study
               <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
-            <div
+            {/* <div
               className="single-case-study-button"
               onClick={() =>
                 window.open(
@@ -130,7 +130,7 @@ export default function QII2CaseStudy1() {
             >
               View data
               <div className="arrow-btn icon-arrow">&#xe900;</div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

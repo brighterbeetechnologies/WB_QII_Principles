@@ -16,23 +16,25 @@ import CardBox from "../components/CardBox";
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-   const resourceArray = [
+  const resourceArray = [
     {
       id: 0,
-      title:
-        "Ganga River Wastewater Program ​World Bank",
+      title: "Ganga River Wastewater Program ​World Bank",
       description:
         "Summarizes a procurement approach for a life project where annuity payments were linked to long-term O&M performance.",
       img_path: "images/qii2/Ganga_case_study.png",
-      path: "pdf/Ganga_case_study.pdf",
+      path: "/qii2casestudy2",
+      target: "_self",
     },
     {
       id: 1,
-      title: "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies​ World Bank",
+      title:
+        "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies​ World Bank",
       description:
         "Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
       img_path: "images/governance/list/05.jpg",
       path: "https://documents1.worldbank.org/curated/en/099235011182219257/pdf/P1679330af035007e0829505bcfd724025b.pdf",
+      target: "_blank",
     },
     {
       id: 2,
@@ -41,6 +43,7 @@ export default function QII2LandingPage() {
         "Analyzes Hungary's policy framework and current practices and provides recommendations for promoting LCC adoption in public procurement.",
       img_path: "images/governance/list/01.jpg",
       path: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/10/life-cycle-costing-in-public-procurement-in-hungary_90b7465a/8d90f627-en.pdf",
+      target: "_blank",
     },
   ];
   const textCrData = [
@@ -315,9 +318,10 @@ export default function QII2LandingPage() {
                 transformative power of LCC, aligning economic efficiency with
                 sustainability.
               </p>
-              <Link target="_blank" to="/not-given">
+              <Link to="/qii2casestudy1">
                 <button className="btn-primary qii2-video-cta">
-                  Explore Case Studies <span class="icon-arrow">&#xe900;</span>
+                  Explore Case Study{" "}
+                  <span className="icon-arrow">&#xe900;</span>
                 </button>
               </Link>
               {/* <a
@@ -326,7 +330,7 @@ export default function QII2LandingPage() {
                 data-discover="true"
                 className="qii4-video-cta btn-primary"
               >
-                Explore Case Study <span class="icon-arrow">&#xe900;</span>
+                Explore Case Study <span className="icon-arrow">&#xe900;</span>
               </a> */}
               {/* <button className="qii4-video-cta">Explore Case Studies →</button> */}
             </div>
@@ -388,51 +392,74 @@ export default function QII2LandingPage() {
         <div className="container">
           <h2 className="section-title light-font">QII.2 Case Studies</h2>
           <div className="page-resource-grid" role="list">
-            {resourceArray.map((p, index) => (
-              <article
-                className="page-resource-card"
-                key={index}
-                role="listitem"
-                style={{ backgroundImage: `url(${p.img})` }}
-              >
-                <div className="page-resource-link">
-                  <div className="page-resource-body">
-                    <div className="page-resource-title title-small">
-                      <strong>{p.title}</strong>
-                    </div>
-                    <div className="page-resource-overlay" />
-                    <img
-                      className="page-resource-img"
-                      src={p.img_path}
-                      alt={p.title}
-                    />
-                    {/* <div className="page-resource-img-cnt">
-                    </div> */}
-                    <div className="page-resource-data">
-                      <div className="page-resource-title title-big">
+            {resourceArray.map((p, index) => {
+              return (
+                <article
+                  className="page-resource-card"
+                  key={index}
+                  role="listitem"
+                  style={{ backgroundImage: `url(${p.img})` }}
+                >
+                  <div className="page-resource-link">
+                    <div className="page-resource-body">
+                      <div className="page-resource-title title-small">
                         <strong>{p.title}</strong>
                       </div>
-                      <div className="page-resource-description">
-                        {p.description}
-                      </div>
-                      <div className="page-resource-btn-cnt">
-                        <a
-                          className="page-resource-arrow"
-                          href={p.path}
-                          target="_blank"
-                        >
-                          <span className="icon-arrow">&#xe900;</span>
-                        </a>
+                      <div className="page-resource-overlay" />
+                      <img
+                        className="page-resource-img"
+                        src={p.img_path}
+                        alt={p.title}
+                      />
+                      {/* <div className="page-resource-img-cnt">
+                    </div> */}
+                      <div className="page-resource-data">
+                        <div className="page-resource-title title-big">
+                          <strong>{p.title}</strong>
+                        </div>
+                        <div className="page-resource-description">
+                          {p.description}
+                        </div>
+                        <div className="page-resource-btn-cnt">
+                          {p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : (
+                            <Link
+                              className="page-resource-arrow"
+                              to={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </Link>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </article>
-            ))}
+                </article>
+              );
+            })}
+          </div>
+          <div className="view-all-btn-container">
+            <button
+              className="btn-primary qii2-video-cta"
+              onClick={() => {
+                const el = document.getElementById("resourcesSection");
+                el?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              View All <span className="icon-arrow">&#xe900;</span>
+            </button>
           </div>
         </div>
       </section>
-      <section className="color-light z-2">
+      <section className="color-light z-2" id="resourcesSection">
         <ResourceLibrary
           subPages={subPages}
           preSelected={[
