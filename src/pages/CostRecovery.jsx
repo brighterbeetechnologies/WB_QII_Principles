@@ -132,7 +132,7 @@ export default function CostRecovery() {
               image="images/costRecovery/Timor-Leste.png"
               title={
                 <p>
-                  <strong>Timor-Leste Tibar Bay Port PPP</strong> International
+                  Timor-Leste  <br /><strong>Tibar Bay Port PPP</strong><br /> International
                   Finance Corporation
                 </p>
               }
@@ -148,9 +148,10 @@ export default function CostRecovery() {
               image="images/costRecovery/Maldives.png"
               title={
                 <p>
-                  <strong>
-                    Maldives Facilitating Private Investment in Clean and
+                  
+                    Maldives <br /><strong>Facilitating Private Investment in Clean and
                     Affordable Energy
+                    <br />
                   </strong>{" "}
                   World Bank
                 </p>
@@ -169,13 +170,14 @@ export default function CostRecovery() {
               title={
                 <p>
                   <strong>
-                    Report Revisiting Water Pricing for Affordable and
+                    Revisiting Water Pricing for Affordable and
                     Sustainable Water Services{" "}
                   </strong>
+                  <br />
                   World Bank
                 </p>
               }
-              buttonText="Guidance"
+              buttonText="Report"
               link="https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf"
             >
               <p>
@@ -208,7 +210,7 @@ export default function CostRecovery() {
               image="images/costRecovery/India.png"
               title={
                 <p>
-                  <strong>India Hyderabad Metro Rail</strong> Global
+                  India <br /><strong>Hyderabad Metro Rail</strong><br /> Global
                   Infrastructure Hub
                 </p>
               }
@@ -227,6 +229,7 @@ export default function CostRecovery() {
                   <strong>
                     Innovative Revenues for Infrastructure Guidelines
                   </strong>{" "}
+                  <br />
                   World Bank
                 </p>
               }
@@ -255,6 +258,7 @@ export default function CostRecovery() {
               title={
                 <p>
                   <strong>Investment in Infrastructure </strong>
+                  <br />
                   City Resilience Program, Global Facility for Disaster
                   Reduction and Recovery
                 </p>
@@ -271,8 +275,8 @@ export default function CostRecovery() {
               image="images/costRecovery/Argentina.png"
               title={
                 <p>
-                  <strong>Argentina Land Value Capture: </strong>
-                  Investment in Infrastructure
+                  Argentina <br /><strong>Land Value Capture and Infrastructure </strong>
+                  <br />World Bank
                 </p>
               }
               buttonText="Case Study"
