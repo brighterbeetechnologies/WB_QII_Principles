@@ -15,23 +15,11 @@
     height: 360px;
   }
 
-  .FinancingResilience .hero-content h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .FinancingResilience .hero-content {
-    bottom: 2rem;
-  }
-
-  .FinancingResilience .hero-content p {
-    font-size: 0.875rem;
-  }
 }
 
 @media (min-width: 768px) {
   .FinancingResilience .list-title {
-    font-size: 1.5625rem;
+    font-size: 1.3rem;
     margin-bottom: 1.5625rem;
   }
   .FinancingResilience .num-step {
@@ -82,7 +70,7 @@
 
 @media (min-width: 1200px) {
   .FinancingResilience .list-title {
-    font-size: 1.575rem;
+    font-size: 1.5rem;
     margin: 2.075rem 0 3.775rem 0;
   }
   .FinancingResilience .num-step {
@@ -104,15 +92,8 @@
   .FinancingResilience .hero {
     height: 640px;
   }
-  .FinancingResilience .hero-content h3 {
-    font-size: 3.25rem;
-  }
-
-  .FinancingResilience .hero-content p {
-    font-size: 1.125rem;
-  }
   .FinancingResilience .list-title {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     margin: 2.075rem 0 3.775rem 0;
   }
   .FinancingResilience .num-step {
@@ -150,29 +131,6 @@
   z-index: 1;
 }
 
-.FinancingResilience .hero-content {
-  position: absolute;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 880px;
-  padding: 0 1rem;
-  text-align: center;
-  color: #ffffff;
-  z-index: 2;
-}
-
-.FinancingResilience .hero-content h3 {
-  font-size: 2.75rem;
-  font-weight: 600;
-  margin-bottom: 9rem;
-}
-
-.FinancingResilience .hero-content p {
-  font-size: 1rem;
-  line-height: 1.6;
-}
-
 .FinancingResilience .num-step {
 	margin-bottom: 1rem;
 }
@@ -185,7 +143,6 @@
   font-size: 1.25rem;
   margin-bottom: 1.25rem;
 }
-
 
 .FinancingResilience .num-step {
 	margin-bottom: 1rem;
@@ -238,7 +195,7 @@
 
 @media (min-width: 1200px) {
   .FinancingResilience .list-title {
-    font-size: 1.575rem;
+    font-size: 1.5rem;
     margin: 2.075rem 0 3.775rem 0;
   }
   .FinancingResilience .num-step {
@@ -258,7 +215,7 @@
 		margin: 3rem 0;
 	}
 	.FinancingResilience .list-title {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     margin: 2.075rem 0 3.775rem 0;
   }
   .FinancingResilience .num-step {

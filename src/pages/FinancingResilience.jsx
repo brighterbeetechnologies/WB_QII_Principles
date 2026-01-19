@@ -36,14 +36,13 @@ export default function FinancingResilience() {
       setBradcrump({
         show: true,
         dir: [
-           
           { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Financing-resilience",
             title: "Financing Resilience",
           },
         ],
-      })
+      }),
     );
   }, []);
   return (
@@ -51,18 +50,31 @@ export default function FinancingResilience() {
       <section className="color-light">
         <Header3
           img="images/qii4/financing_resilience.png"
-          title="Financing Resilience"
+          title={"Financing Resilience"}
+          hideDeskTitle={true}
         >
-          <p className="light-font">
-            Financing resilient infrastructure is constrained by limited
-            resources, weak public policy alignment, lack of data on costs and
-            benefits, and risk perceptions. Public budgets are often
-            overstretched, making it hard to fund resilience measures that
-            require higher upfront costs but yield long-term benefits. Standard
-            screening and appraisal processes seldom capture these benefits, so
-            resilience projects are often undervalued compared to conventional
-            infrastructure.
-          </p>
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">Financing Resilience</h1>
+            </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              Financing resilient infrastructure is constrained by limited
+              resources, weak public policy alignment, lack of data on costs and
+              benefits, and risk perceptions. Public budgets are often
+              overstretched, making it hard to fund resilience measures that
+              require higher upfront costs but yield long-term benefits.
+              Standard screening and appraisal processes seldom capture these
+              benefits, so resilience projects are often undervalued compared to
+              conventional infrastructure.
+            </p>
+          </div>
         </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container noPTop">
@@ -235,7 +247,8 @@ export default function FinancingResilience() {
               title={
                 <p>
                   <strong>
-                    Physical Climate Risk Appraisal Methodology (PCRAM) 2.0:{" "}
+                    Physical Climate Risk Appraisal Methodology (PCRAM)
+                    2.0:{" "}
                   </strong>
                   Institutional Investors Group on Climate Change (IIGCC){" "}
                 </p>
@@ -457,7 +470,8 @@ export default function FinancingResilience() {
               link="https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps"
             >
               <p>
-                This toolkit aims to guide practitioners on incorporating a climate lens into PPPs to enhance climate resilience.
+                This toolkit aims to guide practitioners on incorporating a
+                climate lens into PPPs to enhance climate resilience.
               </p>
             </VCard>
 
@@ -499,7 +513,11 @@ export default function FinancingResilience() {
               link="https://www.gfdrr.org/en/disaster-risk-finance  "
             >
               <p>
-                GFDRR supports governments in designing financial protection strategies and instruments to respond to natural disasters. The Disaster Risk Financing and Insurance thematic area provides a compendium of case studies and resources in financing solutions for better management of disasters and climate shocks. 
+                GFDRR supports governments in designing financial protection
+                strategies and instruments to respond to natural disasters. The
+                Disaster Risk Financing and Insurance thematic area provides a
+                compendium of case studies and resources in financing solutions
+                for better management of disasters and climate shocks.
               </p>
             </VCard>
 
@@ -559,7 +577,9 @@ export default function FinancingResilience() {
               link="https://cdri.world/upload/biennial/CH4.1-CCRI.pdf"
             >
               <p>
-               This report explores the mechanisms that can provide greater incentives for both public and private sector for investment in strengthening resilience.
+                This report explores the mechanisms that can provide greater
+                incentives for both public and private sector for investment in
+                strengthening resilience.
               </p>
             </VCard>
           </div>

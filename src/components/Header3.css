@@ -45,6 +45,19 @@
   max-width: 1350px;
 }
 
+.header-3-subpages .qii-badge {
+  height: 8rem;
+}
+
+.header-3-subpages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
 @media (max-width: 649px) {
   .Header3 .container {
     position: relative;
@@ -58,11 +71,14 @@
       linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, RGBA(0, 0, 0, 0.8) 100%) 0%
       0% no-repeat padding-box;
   }
+  .header-3-subpages {
+    padding-bottom: 1rem;
+  }
 }
 
 @media (min-width: 650px) {
   .header3-bg {
-    height: 400px;
+    height: 100vh;
   }
 
   .Header3 .mob-title {
@@ -75,7 +91,9 @@
 
   .Header3 .desk-title {
     display: inline;
-    text-shadow: 1px 1px 20px #000, 1px 1px 39px #000;
+    text-shadow:
+      1px 1px 20px #000,
+      1px 1px 39px #000;
   }
 
   .Header3 .container {
@@ -87,7 +105,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: end;
   }
 
   .Header3 .footer {

@@ -61,7 +61,7 @@ export default function TechnicalSolutions() {
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
           { path: "/technicalsolutions", title: "Technical Solutions" },
         ],
-      })
+      }),
     );
   }, []);
   return (
@@ -81,24 +81,27 @@ export default function TechnicalSolutions() {
         </Header3> */}
         <Header3
           img="images/technicalSolutions/header_bg.jpg"
-          title="Technical Solutions"
+          title={"Technical Solutions"}
+          hideDeskTitle={true}
         >
-          <div className="subpagehero">
-            <img src="images/UpdatedAssets/Qii2.svg" alt="Qii2 logo" />
-            <div className="subpage-description">
-              <p className="light-font">
-                The <strong>technical solutions</strong> selected for an
-                infrastructure project play a decisive role in determining its
-                life-cycle cost. Adopting innovative infrastructure technologies
-                can not only improve the quality and resilience of a project but
-                also significantly enhance its economic efficiency.{" "}
-              </p>
-              {/* <p className="bold-text">
-                <strong>
-                  
-                </strong>
-              </p> */}
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">Technical Solutions</h1>
             </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              The <strong>technical solutions</strong> selected for an
+              infrastructure project play a decisive role in determining its
+              life-cycle cost. Adopting innovative infrastructure technologies
+              can not only improve the quality and resilience of a project but
+              also significantly enhance its economic efficiency.{" "}
+            </p>
           </div>
         </Header3>
         <div className="container noPTop">
@@ -145,7 +148,7 @@ export default function TechnicalSolutions() {
             materials, minimize installation expenses, and accelerate
             construction timelines.{" "}
           </NumSteps>
-          <div className="VCard-cnt">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/SolomonIslands.png"
               title={
@@ -215,7 +218,7 @@ export default function TechnicalSolutions() {
             consumption and make more informed, data-driven O&M decisions,
             ultimately lowering routine operational expenses.
           </NumSteps>
-          <div className="VCard-cnt">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/Peru.png"
               title={
@@ -279,7 +282,7 @@ export default function TechnicalSolutions() {
             asset life, and minimize the frequency and cost of major
             rehabilitations over the asset’s life cycle.
           </NumSteps>
-          <div className="VCard-cnt">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/AIanddeep.png"
               title={
@@ -341,12 +344,12 @@ export default function TechnicalSolutions() {
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
                     </div>
-                      <div className="page-resource-overlay" />
-                      <img
-                        className="page-resource-img"
-                        src={p.img_path}
-                        alt={p.title}
-                      />
+                    <div className="page-resource-overlay" />
+                    <img
+                      className="page-resource-img"
+                      src={p.img_path}
+                      alt={p.title}
+                    />
                     {/* <div className="page-resource-img-cnt">
                     </div> */}
                     <div className="page-resource-data">

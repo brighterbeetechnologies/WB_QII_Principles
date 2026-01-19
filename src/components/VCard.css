@@ -85,6 +85,18 @@
     margin: 1.25rem auto;
   }
 
+  .col-2 .VCard {
+    max-width: 90%;
+  }
+
+  /* .col-2 .VCard:nth-child(odd) {
+    margin-left: 25%;
+  }
+
+  .col-2 .VCard:nth-child(even) {
+    margin-right: 25%;
+  } */
+
   .VCard {
     max-width: 450px;
     margin: 0 auto 0.5rem;
@@ -112,6 +124,18 @@
 
   .VCard {
     max-width: 590px;
+  }
+  
+  .col-2 .VCard {
+    max-width: 75%;
+  }
+
+  .col-2 .VCard:nth-child(odd) {
+    margin-left: 25%;
+  }
+
+  .col-2 .VCard:nth-child(even) {
+    margin-right: 25%;
   }
 
   .vCardBody {

@@ -1,5 +1,5 @@
 .ResilientDesignAndOperation .list-title {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 1.25rem;
 }
 
@@ -31,7 +31,7 @@
 
 @media (min-width: 768px) {
   .ResilientDesignAndOperation .list-title {
-    font-size: 1.5625rem;
+    font-size: 1.3rem;
     margin-bottom: 1.5625rem;
   }
   .ResilientDesignAndOperation .num-step {
@@ -82,7 +82,7 @@
 
 @media (min-width: 1200px) {
   .ResilientDesignAndOperation .list-title {
-    font-size: 1.575rem;
+    font-size: 1.5rem;
     margin: 2.075rem 0 3.775rem 0;
   }
   .ResilientDesignAndOperation .num-step {
@@ -112,7 +112,7 @@
     font-size: 1.125rem;
   }
   .ResilientDesignAndOperation .list-title {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     margin: 2.075rem 0 3.775rem 0;
   }
   .ResilientDesignAndOperation .num-step {

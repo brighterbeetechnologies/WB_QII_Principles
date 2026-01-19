@@ -87,7 +87,7 @@
   .case-card .step {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
   }
 

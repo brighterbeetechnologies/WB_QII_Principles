@@ -82,34 +82,39 @@ export default function Governance() {
       </section> */}
       <section className="color-light">
         <div className="subpagehero">
-          <Header3 img="images/governance/header_bg.jpg" title="Governance">
+          <Header3
+            img="images/governance/header_bg.jpg"
+            title={"Governance"}
+            hideDeskTitle={true}
+          >
             <div className="hero-content">
-              <img
-                src="images/UpdatedAssets/Qii2.svg"
-                alt="Qii2 logo"
-                className="qii-badge"
-              />
+              <div className="header-3-subpages">
+                <img
+                  src="images/UpdatedAssets/Qii2.svg"
+                  alt="Qii2 logo"
+                  className="qii-badge"
+                />
+                <h1 className="header-title desk-title">Governance</h1>
               </div>
-              <div className="subpage-description">
-                <p className="light-font">
-                  Good governance doesn’t just support life-cycle costing, it’s
-                  what makes it possible. Governance frameworks which facilitate
-                  LCC – inclusive of clear roles, transparent processes, and
-                  robust standards for procurement through to contract
-                  management – empower governments to prioritize long-term
-                  value, curb waste, and deliver infrastructure that lasts.
-                </p>
+            </div>
+            <div className="subpage-description">
+              <p className="light-font">
+                Good governance doesn’t just support life-cycle costing, it’s
+                what makes it possible. Governance frameworks which facilitate
+                LCC – inclusive of clear roles, transparent processes, and
+                robust standards for procurement through to contract management
+                – empower governments to prioritize long-term value, curb waste,
+                and deliver infrastructure that lasts.
+              </p>
 
-                <p className="bold-text">
-                  <strong>
-                    When it comes to quality infrastructure investment,
-                    governance is the foundation that determines whether
-                    life-cycle costing is truly embedded in practice, or just an
-                    afterthought.
-                  </strong>
-                </p>
-              </div>
-            
+              <p className="bold-text">
+                <strong>
+                  When it comes to quality infrastructure investment, governance
+                  is the foundation that determines whether life-cycle costing
+                  is truly embedded in practice, or just an afterthought.
+                </strong>
+              </p>
+            </div>
           </Header3>
         </div>
       </section>

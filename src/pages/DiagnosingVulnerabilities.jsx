@@ -34,14 +34,13 @@ export default function DiagnosingVulnerabilities() {
       setBradcrump({
         show: true,
         dir: [
-           
           { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Diagnosing-vulnerabilities",
             title: "Diagnosing vulnerabilities",
           },
         ],
-      })
+      }),
     );
   }, []);
   return (
@@ -49,18 +48,33 @@ export default function DiagnosingVulnerabilities() {
       <section className="color-light">
         <Header3
           img="images/qii4/Diagnosing_Vulnerabilities.png"
-          title="Diagnosing Vulnerabilities"
+          title={"Diagnosing Vulnerabilities"}
+          hideDeskTitle={true}
         >
-          <p className="light-font">
-            Assessing the vulnerability of infrastructure and the system in
-            which they exist ensures that these systems can withstand, adapt,
-            and recover from shocks. Vulnerability assessments identify the weak
-            points in the system, highlighting areas where exposure to natural
-            disasters and man-made events (such as cyber attacks) present great
-            risks. These assessments help prioritize interventions where they
-            are needed the most, making the best use of public and private
-            investment.
-          </p>
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">
+                Diagnosing Vulnerabilities
+              </h1>
+            </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              Assessing the vulnerability of infrastructure and the system in
+              which they exist ensures that these systems can withstand, adapt,
+              and recover from shocks. Vulnerability assessments identify the
+              weak points in the system, highlighting areas where exposure to
+              natural disasters and man-made events (such as cyber attacks)
+              present great risks. These assessments help prioritize
+              interventions where they are needed the most, making the best use
+              of public and private investment.
+            </p>
+          </div>
         </Header3>
 
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
@@ -81,7 +95,7 @@ export default function DiagnosingVulnerabilities() {
             geographically and how impacted or exposed they are to these
             threats.
           </NumSteps>
-          <div className="VCard-cnt col2">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/DiagnosingVulnerabilities/Learning from Mega-disasters Japan Case Study.png"
               title={

@@ -38,14 +38,13 @@ export default function ManagingCyberSecurityRisks() {
       setBradcrump({
         show: true,
         dir: [
-           
           { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Managing-cyber-security-risks",
             title: "Managing Cybersecurity Risks",
           },
         ],
-      })
+      }),
     );
   }, []);
   return (
@@ -53,24 +52,39 @@ export default function ManagingCyberSecurityRisks() {
       <section className="color-light">
         <Header3
           img="images/qii4/cybersecurity.png"
-          title="Managing Cybersecurity Risks"
+          title={"Managing Cybersecurity Risks"}
+          hideDeskTitle={true}
         >
-          <p className="light-font">
-            As economies and societies become increasingly digital,
-            cybersecurity risks are rising in tandem. Essential infrastructure
-            services—such as energy and transport networks—now rely on
-            interconnected digital systems and technologies that increase their
-            exposure to cyber threats.
-            <br />
-            <br />
-            Strengthening cybersecurity is therefore fundamental to
-            infrastructure resilience. The QII Partnership is at the forefront
-            of integrating cybersecurity into infrastructure design and
-            investment, working with governments and partners to assess risks,
-            build capacity, and mainstream cyber resilience to ensure that
-            critical infrastructure systems remain safe, trusted, and
-            future-ready.
-          </p>
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">
+                Managing Cybersecurity Risks
+              </h1>
+            </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              As economies and societies become increasingly digital,
+              cybersecurity risks are rising in tandem. Essential infrastructure
+              services—such as energy and transport networks—now rely on
+              interconnected digital systems and technologies that increase
+              their exposure to cyber threats.
+              <br />
+              <br />
+              Strengthening cybersecurity is therefore fundamental to
+              infrastructure resilience. The QII Partnership is at the forefront
+              of integrating cybersecurity into infrastructure design and
+              investment, working with governments and partners to assess risks,
+              build capacity, and mainstream cyber resilience to ensure that
+              critical infrastructure systems remain safe, trusted, and
+              future-ready.
+            </p>
+          </div>
         </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container noPTop">
@@ -143,7 +157,7 @@ export default function ManagingCyberSecurityRisks() {
               </p>
             </VCard>
           </div>
-          <div className="VCard-cnt col2">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png"
               title={
@@ -193,7 +207,7 @@ export default function ManagingCyberSecurityRisks() {
             practical measures in place to manage and lower these risks.
           </NumSteps>
 
-          <div className="VCard-cnt col2">
+          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png"
               title={
@@ -206,7 +220,11 @@ export default function ManagingCyberSecurityRisks() {
               link="https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf"
             >
               <p>
-                This guidance note provides an overview of best practices to manage cybersecurity risks and ensure the safe and secure operation of infrastructure systems, protection of citizens’ private data, and security of sensitive government and business data.  
+                This guidance note provides an overview of best practices to
+                manage cybersecurity risks and ensure the safe and secure
+                operation of infrastructure systems, protection of citizens’
+                private data, and security of sensitive government and business
+                data.
               </p>
             </VCard>
 
@@ -221,7 +239,9 @@ export default function ManagingCyberSecurityRisks() {
               link="https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment"
             >
               <p>
-                This document provides a useful introduction to the nature of cybersecurity threats and the motivations and strategies of malicious actors. 
+                This document provides a useful introduction to the nature of
+                cybersecurity threats and the motivations and strategies of
+                malicious actors.
               </p>
             </VCard>
           </div>

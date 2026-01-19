@@ -40,6 +40,10 @@
   margin-bottom: 2rem;
 }
 
+.num-step-title {
+  width: 100%;
+}
+
 .costRecovery .border {
   border: 1px dashed rgba(134, 134, 134, 0.5);
   margin: 2rem 1rem;
@@ -88,7 +92,7 @@
 @media (min-width: 1400px) {
   .link-text {
     max-width: 90%;
-    margin: 1rem auto;
+    margin: 1rem auto 2rem 0;
     font-size: 1.875rem;
   }
 
