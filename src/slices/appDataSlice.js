@@ -1026,7 +1026,7 @@ export const appDataSlice = createSlice({
         title: "Blue Dot Network",
         principles: 2,
         highlight: true,
-        desc: "not given",
+        desc: "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk. ",
         format: 2,
         stage: 2,
         region: 1,
@@ -1034,21 +1034,21 @@ export const appDataSlice = createSlice({
         image:
           "images/newresource/Blue-Dot-Network.png",
       },
-      // {
-      //   id: 3,
-      //   paths: "https://www.fastinfralabel.org/",
-      //   type: "Case Study",
-      //   title: "FAST Infra",
-      //   principles: 2,
-      //   highlight: true,
-      //   desc: "",
-      //   format: 2,
-      //   stage: 2,
-      //   region: 1,
-      //   industry: 3,
-      //   image:
-      //     "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
-      // },
+      {
+        id: 3,
+        paths: "https://www.fastinfralabel.org/",
+        type: "Case Study",
+        title: "FAST Infra",
+        principles: 2,
+        highlight: true,
+        desc: "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing. ",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
+      },
       {
         id: 3,
         paths:
