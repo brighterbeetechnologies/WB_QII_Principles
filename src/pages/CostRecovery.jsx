@@ -345,7 +345,7 @@ export default function CostRecovery() {
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
-                        {p.subTitle && (
+                        {p.subTitle && ( 
                           <>
                             <br />
                             {p.subTitle}

@@ -1,8 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './TextIconCarousal.css';
 export default function TextIconCarousal({ data }) {
 	const [current, setCurrent] = useState(0);
 	const [startX, setStartX] = useState(0);
+
+	useEffect(() => {
+		const interval = setInterval(() => {
+			setCurrent((prev) => (prev + 1) % data.length);
+		}, 2000);
+
+		return () => clearInterval(interval);
+	}, [data.length]);
 
 	const handleTouchStart = (e) => {
 		setStartX(e.touches[0].clientX);

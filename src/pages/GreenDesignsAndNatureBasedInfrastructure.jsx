@@ -154,7 +154,8 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                 </p>
               }
               buttonText="Guidance"
-              link="https://www.unpri.org/infrastructure/integrating-biodiversity-considerations-into-infrastructure/11611.article"
+              // link="https://www.unpri.org/infrastructure/integrating-biodiversity-considerations-into-infrastructure/11611.article"
+              link=""
             >
               <p>
                 This guidance from UN PRI helps infrastructure investors and
@@ -285,7 +286,8 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                 </p>
               }
               buttonText="Case Study"
-              link="https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4"
+              // link="https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4"
+              link= "/#/qii4casestudy1"
             >
               <p>
                 Demonstrates how green infrastructure can be integrated with

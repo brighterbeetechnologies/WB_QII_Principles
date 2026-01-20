@@ -7,13 +7,21 @@
   margin-bottom: 1rem;
 }
 
+.technicalSolutions .link-text p{
+  font-size: 1.3rem;
+}
+
+.technicalSolutions .link-text p strong{
+  font-size: 1.5rem;
+}
+
 .technicalSolutions .subpagehero img {
   height: 180px;
   width: 100%;
 }
 
 @media (max-width: 649px) {
-  .technicalSolutions .Header3 .container {
+  .technicalSolutions .Header3 .container { 
     padding-bottom: 0;
   }
 
@@ -23,7 +31,7 @@
 }
 
 .link-text {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .technicalSolutions .border {
@@ -65,7 +73,7 @@
   }
 
   .technicalSolutions .mTop2 {
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
   .technicalSolutions .subpagehero img {
     height: 120px;
@@ -81,7 +89,7 @@
   }
 
   .technicalSolutions .mTop2 {
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
   .technicalSolutions .subpagehero img {
     height: 120px;

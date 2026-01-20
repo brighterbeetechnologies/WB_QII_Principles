@@ -97,9 +97,9 @@
 
   .Header3 .desk-title {
     display: inline;
-    text-shadow:
+    /* text-shadow:
       1px 1px 20px #000,
-      1px 1px 39px #000;
+      1px 1px 39px #000; */
   }
 
   .Header3 .container {

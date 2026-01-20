@@ -104,6 +104,7 @@ export default function FAQ() {
     // 		</div>
     // 	</div>
     // </div>
+    <section className="color-dark">
     <main className="main-content faq-page">
       <div className="left-panel">
         <h1 className="faq-title">FAQ</h1>
@@ -551,5 +552,6 @@ export default function FAQ() {
         </div>
       </div>
     </main>
+    </section>
   );
 }

@@ -21,13 +21,22 @@
   font-size: 1.125rem;
 }
 
-.VCard-footer {
+/* .VCard-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1.5rem;
   padding: 0 2rem 1.8rem;
   text-align: left;
+} */
+
+.VCard-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    gap: 1rem;
+    padding: 0 1rem 1rem;
+    text-align: center;
 }
 
 .VCard-footer strong {
