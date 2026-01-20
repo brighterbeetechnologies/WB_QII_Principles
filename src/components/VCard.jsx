@@ -12,7 +12,7 @@ export default function VCard({
   highlight,
 }) {
   return (
-    <div className="VCard">
+    <div className={`VCard ${highlight && "highlighted"}`}>
       <img className="VCardImg" src={image} alt={title} style={imageStyle} />
       <div className="vCardBody">
         <div className="v-title">{title}</div>
