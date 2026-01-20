@@ -248,7 +248,7 @@ export default function ManagingCyberSecurityRisks() {
           </div>
         </div>
       </section>
-      <section className="color-dark z-2" id="resourcesSection">
+      {/* <section className="color-dark z-2" id="resourcesSection">
         <ResourceLibrary
           preSelected={[
             {
@@ -259,7 +259,7 @@ export default function ManagingCyberSecurityRisks() {
             },
           ]}
         ></ResourceLibrary>
-      </section>
+      </section> */}
     </div>
   );
 }

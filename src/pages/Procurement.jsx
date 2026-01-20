@@ -14,8 +14,9 @@ export default function Procurement() {
   const resourceArray = [
     {
       id: 0,
-      title:
-        "Life-Cycle Cost Analysis Primer U.S. Department of Transportation - Federal Highway Administration",
+      title: "Life-Cycle Cost Analysis Primer",
+      subTitle:
+        "U.S. Department of Transportation - Federal Highway Administration",
       description:
         "This primer provides an introduction to LCCA as a method for comparing the total long-term costs, including agency and user costs, of alternative infrastructure project designs. It explains the step-by-step LCCA process, key concepts, and practical implementation issues.",
       img_path: "images/procurement/resources/01.png",
@@ -25,7 +26,8 @@ export default function Procurement() {
     {
       id: 1,
       title:
-        "New Strategies for Strengthening Infrastructure Resilience and Maintenance Organization for Economic Co-operation and Development",
+        "New Strategies for Strengthening Infrastructure Resilience and Maintenance ",
+      subTitle: "Organization for Economic Co-operation and Development",
       description:
         "This report presents strategies and practical recommendations for strengthening infrastructure resilience and maintenance, emphasizing a holistic, life-cycle approach. It covers regulatory frameworks, innovation (including digital and nature-based solutions), and funding models to help governments optimize existing assets and build new, sustainable infrastructure resilient to future risk.",
       img_path: "images/procurement/resources/02.png",
@@ -34,6 +36,7 @@ export default function Procurement() {
     {
       id: 2,
       title: "Bringing PPPs into the Sunlight Inter-American Development Bank",
+      subTitle: "Inter-American Development Bank",
       description:
         "This report critically examines Public-Private Partnerships (PPPs), considering their benefits and drawbacks. It provides guidance on institutional frameworks, fiscal implications, government support, and unsolicited proposals, emphasizing rigorous value-for-money analysis and risk management to avoid common pitfalls and maximize public benefit.",
       img_path: "images/procurement/resources/03.png",
@@ -42,7 +45,8 @@ export default function Procurement() {
     {
       id: 3,
       title:
-        "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure World Bank",
+        "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
+      subTitle: "(World Bank)",
       description:
         "This report demonstrates that regular maintenance is essential for reliable and resilient infrastructure, quantifies the high economic and social costs of unreliable services, and provides evidence-based recommendations for improving maintenance practices, governance, and investment planning to maximize infrastructure’s economic benefits and resilience to shocks.",
       img_path: "images/procurement/resources/04.png",
@@ -52,6 +56,7 @@ export default function Procurement() {
       id: 4,
       title:
         "Life-Cycle Costing in Sustainable Public Procurement International Institute for Sustainable Development",
+      subTitle: "International Institute for Sustainable Development",
       description:
         "This white paper explores how life-cycle costing (LCC) can enhance sustainable public procurement by evaluating all costs, financial, environmental, and social, across an asset’s life. It reviews global practices, highlights barriers to systematic LCC use, and offers recommendations for integrating LCC into procurement policies to achieve better long-term value and sustainability outcomes.",
       img_path: "images/procurement/resources/05.png",
@@ -288,7 +293,9 @@ export default function Procurement() {
       </section>
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">QII.2 Resources</h2>
+          <h2 className="section-title light-font">
+            Further Reading On Procurement
+          </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (
               <article
@@ -301,6 +308,12 @@ export default function Procurement() {
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
+                      {p.subTitle && (
+                        <>
+                          <br />
+                          {p.subTitle}
+                        </>
+                      )}
                     </div>
                     <div className="page-resource-overlay" />
                     <img
@@ -313,8 +326,17 @@ export default function Procurement() {
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
+                        {p.subTitle && (
+                          <>
+                            <br />
+                            {p.subTitle}
+                          </>
+                        )}
                       </div>
-                      <Popover
+                      <div className="page-resource-description">
+                        {p.description}
+                      </div>
+                      {/* <Popover
                         content={p.description}
                         title={p.title}
                         trigger="click"
@@ -322,7 +344,7 @@ export default function Procurement() {
                         <div className="page-resource-description">
                           Read More...
                         </div>
-                      </Popover>
+                      </Popover> */}
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"
@@ -340,7 +362,7 @@ export default function Procurement() {
           </div>
         </div>
       </section>
-      <section className="color-light z-2" id="resourcesSection">
+      {/* <section className="color-light z-2" id="resourcesSection">
         <ResourceLibrary
           preSelected={[
             {
@@ -351,7 +373,7 @@ export default function Procurement() {
             },
           ]}
         ></ResourceLibrary>
-      </section>
+      </section> */}
     </div>
   );
 }

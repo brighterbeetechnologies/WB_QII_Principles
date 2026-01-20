@@ -598,7 +598,7 @@ export default function ResilientDesignAndOperation() {
           </div>
         </div>
       </section>
-      <section className="color-dark z-2" id="resourcesSection">
+      {/* <section className="color-dark z-2" id="resourcesSection">
         <ResourceLibrary
           preSelected={[
             {
@@ -609,7 +609,7 @@ export default function ResilientDesignAndOperation() {
             },
           ]}
         ></ResourceLibrary>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -14,6 +14,7 @@ export default function Governance() {
       id: 0,
       title:
         "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
+      subTitle: false,
       description:
         "This resource is a foundational guide for policymakers, practitioners, and stakeholders seeking to understand and implement effective infrastructure maintenance as a driver of economic efficiency, resilience, and sustainable development.",
       img_path: "images/governance/resources/01.jpg",
@@ -22,6 +23,7 @@ export default function Governance() {
     {
       id: 1,
       title: "PPP Reference Guide",
+      subTitle: false,
       description:
         "This document acts as a comprehensive reference on Public-Private Partnership (PPP) structures, legal frameworks, and global case studies, designed to help governments and practitioners make informed decisions about PPPs.",
       img_path: "images/governance/resources/02.jpg",
@@ -30,6 +32,7 @@ export default function Governance() {
     {
       id: 2,
       title: "Infrastructure Maintenance in the Pacific",
+      subTitle: false,
       description:
         "This report explores the governance challenges of infrastructure maintenance in Pacific Island countries, emphasizing the need for clear institutional roles, accountability, and sustainable funding to break the “build-neglect-rebuild” cycle and ensure long-term service delivery.",
       img_path: "images/governance/resources/03.jpg",
@@ -37,7 +40,8 @@ export default function Governance() {
     },
     {
       id: 3,
-      title: "Bringing PPPs into the Sunlight Inter-American Development Bank",
+      title: "Bringing PPPs into the Sunlight",
+      subTitle: "Inter-American Development Bank",
       description:
         "This report examines the fiscal, institutional, and governance challenges of Public-Private Partnerships (PPPs), providing practical guidance to improve transparency, manage fiscal risks, and ensure PPPs deliver long-term value for money.",
       img_path: "images/governance/resources/04.jpg",
@@ -131,7 +135,8 @@ export default function Governance() {
             step="1"
             title={
               <p>
-                <strong>Clear Institutional Roles​</strong><br /> <br className="mobile-break" />
+                <strong>Clear Institutional Roles​</strong>
+                <br /> <br className="mobile-break" />
                 This means assigning responsibility for LCC at each stage of the
                 infrastructure life cycle - from planning and budgeting, to
                 procurement, delivery, and long-term maintenance. Capable,
@@ -306,7 +311,10 @@ export default function Governance() {
           >
             <div className="description">
               South Korea <br />
-              <strong>Public and Private Infrastructure Investment Management Center (PIMAC)</strong>
+              <strong>
+                Public and Private Infrastructure Investment Management Center
+                (PIMAC)
+              </strong>
             </div>
             <p>
               Showcases how institutional training strengthens the practical
@@ -343,8 +351,9 @@ export default function Governance() {
             title={
               <p>
                 <strong>
-                  Long-term Performance Rewarded with Incentives in Contracts – 
-                </strong>{" "} <br /> <br className="mobile-break" />
+                  Long-term Performance Rewarded with Incentives in Contracts –
+                </strong>{" "}
+                <br /> <br className="mobile-break" />
                 By updating regulatory frameworks to allow for innovative
                 contracting structures, often involving the private sector in
                 addition to sovereign entities (e.g., Performance-Based
@@ -391,7 +400,9 @@ export default function Governance() {
       </section>
       <section className="color-light">
         <div className="container">
-          <h2 className="section-title light-font">QII.2 Resources</h2>
+          <h2 className="section-title light-font">
+            Further Reading On Governance
+          </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (
               <article
@@ -404,6 +415,12 @@ export default function Governance() {
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
+                      {p.subTitle && (
+                        <>
+                          <br />
+                          {p.subTitle}
+                        </>
+                      )}
                     </div>
                     <div className="page-resource-overlay" />
                     <img
@@ -416,8 +433,17 @@ export default function Governance() {
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
+                        {p.subTitle && (
+                          <>
+                            <br />
+                            {p.subTitle}
+                          </>
+                        )}
                       </div>
-                      <Popover
+                      <div className="page-resource-description">
+                        {p.description}
+                      </div>
+                      {/* <Popover
                         content={p.description}
                         title={p.title}
                         trigger="click"
@@ -425,7 +451,7 @@ export default function Governance() {
                         <div className="page-resource-description">
                           Read More...
                         </div>
-                      </Popover>
+                      </Popover> */}
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"
@@ -443,7 +469,7 @@ export default function Governance() {
           </div>
         </div>
       </section>
-      <section className="color-dark z-2" id="resourcesSection">
+      {/* <section className="color-dark z-2" id="resourcesSection">
         <ResourceLibrary
           preSelected={[
             {
@@ -454,7 +480,7 @@ export default function Governance() {
             },
           ]}
         ></ResourceLibrary>
-      </section>
+      </section> */}
     </div>
   );
 }

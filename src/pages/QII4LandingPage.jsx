@@ -128,31 +128,36 @@ export default function QII4LandingPage() {
   const resourceArray = [
     {
       id: 0,
-      title: "Ganga River Wastewater Program ​World Bank",
+      country: "Japan",
+      title: "Futakotamagawa: Integrating Flood Protection and Urban Renewal",
       description:
-        "Summarizes a procurement approach for a life project where annuity payments were linked to long-term O&M performance.",
-      img_path: "images/qii2/Ganga_case_study.png",
-      path: "/qii2casestudy2",
+        "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
+      img_path:
+        "images/newresource/FutakotamagawaIntegratingFloodProtectionandUrbanRenewal.png",
+      path: "/qii4casestudy1",
       target: "_self",
     },
     {
       id: 1,
+      country: "Japan",
       title:
-        "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies​ World Bank",
+        "Shibaura Wastewater Treatment Facility: Financing Resilience through Land Value Capture",
       description:
-        "Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
-      img_path: "images/governance/list/05.jpg",
-      path: "https://documents1.worldbank.org/curated/en/099235011182219257/pdf/P1679330af035007e0829505bcfd724025b.pdf",
-      target: "_blank",
+        "Demonstrates how underground stormwater detention protects a high-density urban area from flooding while a PPP that monetized surface development rights ensures long-term financial sustainability for operations and maintenance.",
+      img_path: "images/newresource/ShibauraWastewaterTreatment.png",
+      path: "/qii4casestudy2",
+      target: "_self",
     },
     {
       id: 2,
-      title: "Life-Cycle Costing in Public Procurement in Hungary​ OECD",
+      country: "Cabo Verde",
+      title:
+        "Diagnosing Road Network Vulnerabilities to Guide Resilient Investment",
       description:
-        "Analyzes Hungary's policy framework and current practices and provides recommendations for promoting LCC adoption in public procurement.",
-      img_path: "images/governance/list/01.jpg",
-      path: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/10/life-cycle-costing-in-public-procurement-in-hungary_90b7465a/8d90f627-en.pdf",
-      target: "_blank",
+        "Demonstrates how systematic hazard mapping and asset vulnerability diagnostics can prioritize resilient infrastructure investments.",
+      img_path: "images/newresource/Diagnosing-Road-Network.png",
+      path: "/qii4casestudy3",
+      target: "_self",
     },
   ];
 
@@ -585,7 +590,7 @@ export default function QII4LandingPage() {
             demonstrates an efficient, climate-resilient solution for
             strengthening vital transport infrastructure in the Pacific.
           </p>
-          <Link to="/card">
+          <Link to="/qii4casestudy4">
             <button className="btn-primary qii2-video-cta">
               Explore Case Study <span className="icon-arrow">&#xe900;</span>
             </button>
@@ -595,7 +600,7 @@ export default function QII4LandingPage() {
 
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">QII.2 Case Studies</h2>
+          <h2 className="section-title light-font">QII.4 Case Studies</h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => {
               return (
@@ -619,10 +624,16 @@ export default function QII4LandingPage() {
                       {/* <div className="page-resource-img-cnt">
                           </div> */}
                       <div className="page-resource-data">
-                        <div className="page-resource-title title-big">
-                          <strong>{p.title}</strong>
+                        <div className="page-resource-country country-title">
+                          {p.country}
                         </div>
-                        <Popover
+                        <div className="page-resource-title title-big">
+                          {p.title}
+                        </div>
+                        <div className="page-resource-description">
+                          {p.description}
+                        </div>
+                        {/* <Popover
                           content={p.description}
                           title={p.title}
                           trigger="click"
@@ -630,7 +641,7 @@ export default function QII4LandingPage() {
                           <div className="page-resource-description">
                             Read More...
                           </div>
-                        </Popover>
+                        </Popover> */}
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

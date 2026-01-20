@@ -23,6 +23,10 @@ import GreenDesignsAndNatureBasedInfrastructure from "./pages/GreenDesignsAndNat
 import GreenFinancingforInfrastructure from "./pages/GreenFinancingforInfrastructure.jsx";
 import QII2CaseStudy1 from "./pages/QII2CaseStudy1.jsx";
 import QII2CaseStudy2 from "./pages/QII2CaseStudy2.jsx";
+import QII4CaseStudy1 from "./pages/CaseStudy/QII4CaseStudy1.jsx";
+import QII4CaseStudy2 from "./pages/CaseStudy/QII4CaseStudy2.jsx";
+import QII4CaseStudy3 from "./pages/CaseStudy/QII4CaseStudy3.jsx";
+import QII4CaseStudy4 from "./pages/CaseStudy/QII4CaseStudy4.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -87,6 +91,38 @@ export const router = createHashRouter([
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
 						<QII4LandingPage />
+					</Suspense>
+				),
+			},
+			{
+				path: "/qii4casestudy1",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII4CaseStudy1 />
+					</Suspense>
+				),
+			},
+			{
+				path: "/qii4casestudy2",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII4CaseStudy2 />
+					</Suspense>
+				),
+			},
+			{
+				path: "/qii4casestudy3",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII4CaseStudy3 />
+					</Suspense>
+				),
+			},
+			{
+				path: "/qii4casestudy4",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QII4CaseStudy4 />
 					</Suspense>
 				),
 			},

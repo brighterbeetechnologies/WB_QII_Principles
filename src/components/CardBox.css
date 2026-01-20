@@ -23,12 +23,12 @@
   position: relative;
 }
 
-.VCard .highlighted-badge {
+/* .VCard .highlighted-badge {
   top: -7px;
   left: 50%;
   transform: translateX(-50%);
   width: 210px;
-}
+} */
 
 .highlighted-badge {
   position: absolute;

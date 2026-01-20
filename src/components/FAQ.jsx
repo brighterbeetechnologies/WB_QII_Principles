@@ -477,7 +477,8 @@ export default function FAQ() {
                 <p>
                   The G20 Principles for Quality Infrastructure Investment are
                   six voluntary, non-binding principles endorsed by G20 Leaders
-                  at the Osaka Summit in June 2019:
+                  at the Osaka Summit in June 2019. They represent a common
+                  strategic direction for infrastructure investment globally:
                 </p>
                 <ul>
                   <li>

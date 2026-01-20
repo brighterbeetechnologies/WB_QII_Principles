@@ -394,9 +394,12 @@ export default function QII2LandingPage() {
                     </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          <strong>{p.title}</strong>
+                          {p.title}
                         </div>
-                        <Popover
+                         <div className="page-resource-description">
+                          {p.description}
+                        </div>
+                        {/* <Popover
                           content={p.description}
                           title={p.title}
                           trigger="click"
@@ -404,7 +407,7 @@ export default function QII2LandingPage() {
                           <div className="page-resource-description">
                             Read More...
                           </div>
-                        </Popover>
+                        </Popover> */}
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

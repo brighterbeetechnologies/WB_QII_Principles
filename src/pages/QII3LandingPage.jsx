@@ -71,6 +71,48 @@ export default function QII3LandingPage() {
       path: "/GreenFinancingforInfrastructure",
     },
   ];
+
+  const resourceArray = [
+    {
+      id: 0,
+      title: "Environmental and Social Framework World Bank (2017)",
+      description:
+        "This framework provides a replicable approach for integrating E&S considerations into infrastructure projects through ten standards, ensuring sustainable and responsible infrastructure development across the project lifecycle. ",
+      img_path:
+        "images/qii3/Environmental and Social Framework World Bank (2017).png",
+      path: "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
+      target: "_self",
+    },
+    {
+      id: 1,
+      title:
+        "Climate Toolkits for Infrastructure PPPs World Bank",
+      description:
+        "This toolkit offers practical, step-by-step guidance to integrate climate mitigation and adaptation measures into infrastructure PPPs, helping structure bankable projects that align with climate policies, assess climate risks, and incorporate climate solutions that are technically and financially feasible.",
+      img_path: "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
+      path: "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
+      target: "_blank",
+    },
+    {
+      id: 2,
+      title: "IFC Performance Standards on Environmental and Social Sustainability",
+      description:
+        "These standards provide a globally recognized framework to identify and manage E&S risks in infrastructure investments, covering a range of key environmental topics including resource efficiency, pollution prevention, and biodiversity conservation.",
+      img_path: "images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png",
+      path: "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+      target: "_blank",
+    },
+    {
+      id: 3,
+      title: "Infrastructure for a Climate-Resilient Future OECD (2024)",
+      description:
+        "This report provides evidence-based strategies for building climate-resilient infrastructure systems, covering adaptation planning, financing mechanisms, nature-based solutions, and governance frameworks.",
+      img_path: "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
+      path: "https://doi.org/10.1787/a74a45b0-en",
+      target: "_blank",
+    },
+  ];
+
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
@@ -80,7 +122,7 @@ export default function QII3LandingPage() {
       setBradcrump({
         show: true,
         dir: [{ path: "/qii3", title: "Environment" }],
-      })
+      }),
     );
   }, []);
   return (
@@ -158,7 +200,7 @@ export default function QII3LandingPage() {
                       "./video/LandingPageVideo.mp4",
                       "The Environmental Challenge and Opportunity",
                       1920,
-                      1080
+                      1080,
                     );
                   }}
                 >
@@ -211,7 +253,7 @@ export default function QII3LandingPage() {
                     "./video/LandingPageVideo.mp4",
                     "Lessons from Success Stories ",
                     1920,
-                    1080
+                    1080,
                   );
                 }}
               >
@@ -232,7 +274,7 @@ export default function QII3LandingPage() {
         </div>
       </section>
 
-      <section className="color-dark ">
+      {/* <section className="color-dark ">
         <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">Top Resources</h1>
@@ -258,8 +300,7 @@ export default function QII3LandingPage() {
               image="images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png"
               title={
                 <p>
-                  IFC Performance Standards on Environmental and Social
-                  Sustainability{" "}
+                  IFC Performance Standards on Environmental and Social Sustainability{" "}
                 </p>
               }
               buttonText="Programs"
@@ -275,6 +316,86 @@ export default function QII3LandingPage() {
               buttonText="Programs"
               link="https://doi.org/10.1787/a74a45b0-en"
             ></TopResourceCard>
+          </div>
+        </div>
+      </section> */}
+      <section className="color-dark">
+        <div className="container">
+          <h2 className="section-title light-font">QII.3 Case Studies</h2>
+          <div className="page-resource-grid" role="list">
+            {resourceArray.map((p, index) => {
+              return (
+                <article
+                  className="page-resource-card"
+                  key={index}
+                  role="listitem"
+                  style={{ backgroundImage: `url(${p.img})` }}
+                >
+                  <div className="page-resource-link">
+                    <div className="page-resource-body">
+                      <div className="page-resource-title title-small">
+                        {p.title}
+                      </div>
+                      <div className="page-resource-overlay" />
+                      <img
+                        className="page-resource-img"
+                        src={p.img_path}
+                        alt={p.title}
+                      />
+                      {/* <div className="page-resource-img-cnt">
+                    </div> */}
+                      <div className="page-resource-data">
+                        <div className="page-resource-title title-big">
+                          {p.title}
+                        </div>
+                        <div className="page-resource-description">
+                          {p.description}
+                        </div>
+                        {/* <Popover
+                          content={p.description}
+                          title={p.title}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover> */}
+                        <div className="page-resource-btn-cnt">
+                          {p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : (
+                            <Link
+                              className="page-resource-arrow"
+                              to={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
+          <div className="view-all-btn-container">
+            <button
+              className="btn-primary qii2-video-cta"
+              onClick={() => {
+                const el = document.getElementById("resourcesSection");
+                el?.scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              View All <span className="icon-arrow">&#xe900;</span>
+            </button>
           </div>
         </div>
       </section>

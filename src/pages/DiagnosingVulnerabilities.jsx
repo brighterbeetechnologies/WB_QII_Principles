@@ -373,7 +373,7 @@ export default function DiagnosingVulnerabilities() {
           </div>
         </div>
       </section>
-      <section className="color-dark z-2" id="resourcesSection">
+      {/* <section className="color-dark z-2" id="resourcesSection">
         <ResourceLibrary
           preSelected={[
             {
@@ -384,7 +384,7 @@ export default function DiagnosingVulnerabilities() {
             },
           ]}
         ></ResourceLibrary>
-      </section>
+      </section> */}
     </div>
   );
 }

@@ -12,8 +12,8 @@ export default function CostRecovery() {
   const resourceArray = [
     {
       id: 0,
-      title:
-        "Financing Climate Adaptation and Nature-Based Infrastructure (World Bank)",
+      title: "Financing Climate Adaptation and Nature-Based Infrastructure",
+      subTitle: "(World Bank)",
       description:
         "Drawing on infrastructure projects from across the globe, this report explores how different financing and cost recovery solutions have successfully mobilized private sector participation and investment to address the growing risks of flooding, droughts, storm surges and heatwaves.",
       img_path: "images/costRecovery/resources/01.png",
@@ -23,6 +23,7 @@ export default function CostRecovery() {
       id: 1,
       title:
         "Life-Cycle Cost Analysis for Management of Highway Assets World Bank",
+      subTitle: "(World Bank)",
       description:
         "This report contains an inventory of quantitative processes and models for predicting LCC associated with highway assets.",
       img_path: "images/costRecovery/resources/02.png",
@@ -31,7 +32,8 @@ export default function CostRecovery() {
     {
       id: 2,
       title:
-        "Harnessing Land Value Capture Municipal Public-Private Partnership Framework Global Platform for Sustainable Cities",
+        "Harnessing Land Value Capture Municipal Public-Private Partnership Framework ",
+      subTitle: "Global Platform for Sustainable Cities",
       description:
         "This report introduces concepts of land value capture and describes different instruments for climate-related funding and financing of projects. It provides brief examples of solutions developed in specific energy and agricultural sub-sectors.",
       img_path: "images/costRecovery/resources/03.png",
@@ -41,6 +43,7 @@ export default function CostRecovery() {
       id: 3,
       title:
         "Monetization of Carbon Credits Energy and Agriculture Sectors World Bank",
+      subTitle: "(World Bank)",
       description:
         "This presentation introduces concepts of the carbon market and describes a few of the key instruments that municipalities can use to capture land value.",
       img_path: "images/costRecovery/resources/04.png",
@@ -49,6 +52,7 @@ export default function CostRecovery() {
     {
       id: 4,
       title: "Revenue Levers to Fund Infrastructure Global Infrastructure Hub",
+      subTitle: "Global Infrastructure Hub",
       description:
         "This library of case studies demonstrate the use of innovative revenue, risk management, and financing levers to make projects bankable.",
       img_path: "images/costRecovery/resources/05.png",
@@ -249,7 +253,8 @@ export default function CostRecovery() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="4">
-            <strong>Land Value Capture</strong> <br /> <br className="mobile-break" />
+            <strong>Land Value Capture</strong> <br />{" "}
+            <br className="mobile-break" />
             Infrastructure often increases the value of surrounding land and
             properties. Land value capture seeks to monetize these positive
             value adjustments through development contributions or special
@@ -307,7 +312,9 @@ export default function CostRecovery() {
       </section>
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">QII.2 Resources</h2>
+          <h2 className="section-title light-font">
+            Further Reading On Cost Recovery
+          </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (
               <article
@@ -320,6 +327,12 @@ export default function CostRecovery() {
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
+                      {p.subTitle && (
+                        <>
+                          <br />
+                          {p.subTitle}
+                        </>
+                      )}
                     </div>
                     <div className="page-resource-overlay" />
                     <img
@@ -332,8 +345,17 @@ export default function CostRecovery() {
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
+                        {p.subTitle && (
+                          <>
+                            <br />
+                            {p.subTitle}
+                          </>
+                        )}
                       </div>
-                      <Popover
+                      <div className="page-resource-description">
+                        {p.description}
+                      </div>
+                      {/* <Popover
                         content={p.description}
                         title={p.title}
                         trigger="click"
@@ -341,7 +363,7 @@ export default function CostRecovery() {
                         <div className="page-resource-description">
                           Read More...
                         </div>
-                      </Popover>
+                      </Popover> */}
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"
@@ -359,7 +381,7 @@ export default function CostRecovery() {
           </div>
         </div>
       </section>
-      <section className="color-light z-2" id="resourcesSection">
+      {/* <section className="color-light z-2" id="resourcesSection">
         <ResourceLibrary
           preSelected={[
             {
@@ -370,7 +392,7 @@ export default function CostRecovery() {
             },
           ]}
         ></ResourceLibrary>
-      </section>
+      </section> */}
     </div>
   );
 }

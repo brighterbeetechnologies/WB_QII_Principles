@@ -209,9 +209,9 @@ ul {
 .title-big strong {
   /* display: none; */
 
-  display: -webkit-box;
+  /* display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2; */
   overflow: hidden;
 }
 
@@ -219,13 +219,17 @@ ul {
   display: none;
 }
 
+.country-title{
+  font-size: 0.1rem;
+  /* margin-bottom: 1rem; */
+}
+
 .page-resource-description {
-  font-size: 1rem;
+  font-size: 0.9rem;
   z-index: 8;
   color: #fff;
   padding: 0 1rem 1rem 1rem;
   cursor: pointer;
-  text-decoration: underline;
   display: inline-block;
 }
 
@@ -250,6 +254,17 @@ ul {
   margin-bottom: 0.8rem;
 }
 
+.page-resource-country{
+  /* position: absolute; */
+  margin: 0;
+  color: #fff;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  font-size: 0.8rem;
+}
+
+
 .page-resource-title {
   /* position: absolute; */
   margin: 0;
@@ -258,7 +273,7 @@ ul {
   z-index: 5;
   left: 0;
   top: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .page-resource-card::after {
@@ -505,7 +520,18 @@ ul {
   .page-resource-link {
     height: 100%;
   }
-
+  .page-resource-country{
+    /* position: absolute; */
+    font-weight: 50;
+    margin: 0;
+    padding: 1rem 0 0 1rem;
+    color: #fff;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    font-size: 0.8rem;
+  }
+  
   .page-resource-title {
     /* position: absolute; */
     margin: 0;
@@ -514,7 +540,7 @@ ul {
     z-index: 5;
     left: 0;
     top: 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .page-resource-body,
@@ -624,8 +650,12 @@ ul {
     padding: 2rem;
   }
 
+  .page-resource-country{
+    font-size: 0.8rem;
+  }
+
   .page-resource-title {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   /* .page-resource-link {
@@ -654,8 +684,13 @@ ul {
     display: none;
   }
 
+  .country-title{
+    font-size: 0.4rem;
+    /* margin-bottom: 1rem; */
+  }
+
   .page-resource-description {
-    font-size: 1.2rem;
+    font-size: 1rem;
     z-index: 8;
     color: #fff;
     padding: 0 1rem 1rem 1rem;
@@ -736,7 +771,7 @@ ul {
 
 @media (min-width: 1650px) {
   .page-resource-description {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 }
 
@@ -760,15 +795,14 @@ ul {
     font-size: 1rem;
     line-height: 1.5rem;
   }
-  
-  
-.mobile-break {
-  display: block;
-}
 
-.list-title p{
-  margin-bottom: 1rem;
-}
+  .mobile-break {
+    display: block;
+  }
+
+  .list-title p {
+    margin-bottom: 1rem;
+  }
 }
 
 @media (max-width: 1000px) {

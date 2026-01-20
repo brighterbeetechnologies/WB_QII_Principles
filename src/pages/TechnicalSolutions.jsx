@@ -11,7 +11,8 @@ export default function TechnicalSolutions() {
   const resourceArray = [
     {
       id: 0,
-      title: "InfraTech Portal Asian Infrastructure Investment Bank",
+      title: "InfraTech Portal ",
+      subTitle: "Asian Infrastructure Investment Bank",
       description:
         "This portal was developed by the AIIB to disseminate free information on InfraTech and facilitate interaction among the InfraTech community.",
       img_path: "images/technicalSolutions/resources/InfratechPortal.png",
@@ -19,7 +20,8 @@ export default function TechnicalSolutions() {
     },
     {
       id: 1,
-      title: "InfraTech Policy Toolkit World Bank",
+      title: "InfraTech Policy Toolkit",
+      subTitle: "World Bank",
       description:
         "This toolkit outlines key priority areas for policymaking and tools for policymakers wishing to integrate InfraTech across the infrastructure life cycle.",
       img_path:
@@ -29,7 +31,8 @@ export default function TechnicalSolutions() {
     {
       id: 2,
       title:
-        "Nature-Based Solutions for Infrastructure Projects International Finance Corporation",
+        "Nature-Based Solutions for Infrastructure Projects ",
+      subTitle : "International Finance Corporation",
       description:
         "This catalogue provides examples of nature-based solutions that private infrastructure companies can integrate into their core business operations and articulates the business case for doing so.",
       img_path: "images/technicalSolutions/resources/CatalogueofNature.png",
@@ -38,7 +41,8 @@ export default function TechnicalSolutions() {
     {
       id: 3,
       title:
-        "Global BIM Network UK Foreign, Commonwealth and Development Office",
+        "Global BIM Network ",
+      subTitle: "UK Foreign, Commonwealth and Development Office",
       description:
         "This platform connects international public sector representatives and multi-lateral organizations with the aim of advancing the digitalization of the global built environment and sharing the resulting benefits.",
       img_path: "images/technicalSolutions/resources/GlobalBIMetwork.png",
@@ -46,7 +50,8 @@ export default function TechnicalSolutions() {
     },
     {
       id: 4,
-      title: "IEA Technology Roadmaps International Energy Agency",
+      title: "IEA Technology Roadmaps ",
+      subTitle : "International Energy Agency",
       description:
         "This publication offers a series of roadmaps for some of the most important energy technologies, and provide analytical footing that enables policy makers and industry to develop and adopt specific technologies.",
       img_path: "images/technicalSolutions/resources/IEATechnology.png",
@@ -155,7 +160,7 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/SolomonIslands.png"
               title={
                 <p>
-                  Solomon Islands <br /> 
+                  Solomon Islands <br />
                   <strong>
                     Climate-Resilient Solution for Small Bridges in the Pacific
                   </strong>{" "}
@@ -340,7 +345,9 @@ export default function TechnicalSolutions() {
       </section>
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">QII.2 Resources</h2>
+          <h2 className="section-title light-font">
+            Further Reading on Technical Solutions
+          </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (
               <article
@@ -353,6 +360,12 @@ export default function TechnicalSolutions() {
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
                       <strong>{p.title}</strong>
+                      {p.subTitle && (
+                        <>
+                          <br />
+                          {p.subTitle}
+                        </>
+                      )}
                     </div>
                     <div className="page-resource-overlay" />
                     <img
@@ -365,8 +378,17 @@ export default function TechnicalSolutions() {
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
+                        {p.subTitle && (
+                          <>
+                            <br />
+                            {p.subTitle}
+                          </>
+                        )}
                       </div>
-                      <Popover
+                      <div className="page-resource-description">
+                        {p.description}
+                      </div>
+                      {/* <Popover
                         content={p.description}
                         title={p.title}
                         trigger="click"
@@ -374,7 +396,7 @@ export default function TechnicalSolutions() {
                         <div className="page-resource-description">
                           Read More...
                         </div>
-                      </Popover>
+                      </Popover> */}
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"
@@ -392,7 +414,7 @@ export default function TechnicalSolutions() {
           </div>
         </div>
       </section>
-      <section className="color-light z-2" id="resourcesSection">
+      {/* <section className="color-light z-2" id="resourcesSection">
         <ResourceLibrary
           preSelected={[
             {
@@ -403,7 +425,7 @@ export default function TechnicalSolutions() {
             },
           ]}
         ></ResourceLibrary>
-      </section>
+      </section> */}
     </div>
   );
 }
