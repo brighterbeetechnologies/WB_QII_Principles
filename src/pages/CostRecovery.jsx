@@ -122,7 +122,7 @@ export default function CostRecovery() {
           </div>
 
           <NumSteps num="1">
-            <strong>User Fees</strong> <br />
+            <strong>User Fees</strong> <br /> <br className="mobile-break" />
             Where infrastructure provides direct and measurable benefits to
             specific users, such as electricity supply, water supply, or public
             transport, it can be possible to recover all or partial costs
@@ -192,7 +192,7 @@ export default function CostRecovery() {
           <div className="border-dash"></div>
           <NumSteps num="2" className="no-margin">
             <strong>Public Budgets</strong>
-            <br />
+            <br /> <br className="mobile-break" />
             To fund the delivery of infrastructure that serves the public at
             large, governments typically rely on revenues generated through
             their tax base. <br />
@@ -200,7 +200,7 @@ export default function CostRecovery() {
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>Ancillary Revenues</strong>
-            <br />
+            <br /> <br className="mobile-break" />
             In some cases, it may be possible to generate supplementary revenue
             streams from infrastructure assets. Examples include commercial
             retail spaces in transit stations, or advertising in public
@@ -249,7 +249,7 @@ export default function CostRecovery() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="4">
-            <strong>Land Value Capture</strong> <br />
+            <strong>Land Value Capture</strong> <br /> <br className="mobile-break" />
             Infrastructure often increases the value of surrounding land and
             properties. Land value capture seeks to monetize these positive
             value adjustments through development contributions or special

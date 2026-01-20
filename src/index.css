@@ -343,9 +343,9 @@ ul {
   padding: 0 0 1rem 1.8rem;
 }
 
-.num-step {
+/* .num-step {
   margin-bottom: 1rem;
-}
+} */
 
 .num-step-number {
   background-color: #002244;
@@ -359,7 +359,7 @@ ul {
   align-items: center;
   font-size: 1.4rem;
   flex-shrink: 0;
-  margin: 0 auto 0;
+  margin: 1rem auto;
 }
 
 .border-dash {
@@ -427,6 +427,10 @@ ul {
   color: #ffffff;
 }
 
+.mobile-break {
+  display: none;
+}
+
 @media (max-width: 1009px) {
   .overlay {
     position: fixed;
@@ -456,6 +460,8 @@ ul {
 @media (max-width: 599px) {
   body {
     font-size: 1rem;
+    /* added */
+    /* margin-bottom: 1rem; */
   }
 
   h1,
@@ -754,6 +760,15 @@ ul {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+  
+  
+.mobile-break {
+  display: block;
+}
+
+.list-title p{
+  margin-bottom: 1rem;
+}
 }
 
 @media (max-width: 1000px) {

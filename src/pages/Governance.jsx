@@ -131,7 +131,7 @@ export default function Governance() {
             step="1"
             title={
               <p>
-                <strong>Clear Institutional Roles​</strong> <br />
+                <strong>Clear Institutional Roles​</strong><br /> <br className="mobile-break" />
                 This means assigning responsibility for LCC at each stage of the
                 infrastructure life cycle - from planning and budgeting, to
                 procurement, delivery, and long-term maintenance. Capable,
@@ -186,7 +186,7 @@ export default function Governance() {
                 <strong>
                   Requirement for LCC at Every Step in Procedures and Standards
                 </strong>{" "}
-                <br />
+                <br /> <br className="mobile-break" />
                 This includes mandating life-cycle cost analysis in project
                 appraisal, procurement documents, and contract management.
                 Evaluation criteria should move beyond lowest initial cost to
@@ -242,7 +242,7 @@ export default function Governance() {
                 <strong>
                   Strengthened Transparency and Reporting Mechanisms
                 </strong>{" "}
-                <br />
+                <br /> <br className="mobile-break" />
                 Regular audits, open data on costs and performance, and clear
                 reporting lines ensure that infrastructure decisions are
                 evidence-based and publicly accountable. This helps prevent the
@@ -289,7 +289,7 @@ export default function Governance() {
             title={
               <p>
                 <strong>Effective Capacity Building</strong>
-                <br />
+                <br /> <br className="mobile-break" />
                 Staff and stakeholders must be trained to use LCC tools,
                 interpret cost and performance data, and apply LCC best
                 practices throughout the infrastructure life cycle. Building
@@ -343,9 +343,9 @@ export default function Governance() {
             title={
               <p>
                 <strong>
-                  Long-term Performance Rewarded with Incentives in Contracts
-                </strong>{" "}
-                – By updating regulatory frameworks to allow for innovative
+                  Long-term Performance Rewarded with Incentives in Contracts – 
+                </strong>{" "} <br /> <br className="mobile-break" />
+                By updating regulatory frameworks to allow for innovative
                 contracting structures, often involving the private sector in
                 addition to sovereign entities (e.g., Performance-Based
                 Contracts and Public-Private Partnerships), incentives such as

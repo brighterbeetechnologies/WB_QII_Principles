@@ -142,7 +142,7 @@ export default function TechnicalSolutions() {
           </div>
           <NumSteps num="1">
             <strong>Reducing Construction Costs</strong>
-            <br />
+            <br /> <br className="mobile-break" />
             Using innovative materials, modern construction methods, and green
             alternatives to conventional ‘gray’ infrastructure, such as
             nature-based solutions, can significantly lower upfront construction
@@ -155,7 +155,7 @@ export default function TechnicalSolutions() {
               image="images/technicalSolutions/SolomonIslands.png"
               title={
                 <p>
-                  Solomon Islands <br />
+                  Solomon Islands <br /> 
                   <strong>
                     Climate-Resilient Solution for Small Bridges in the Pacific
                   </strong>{" "}
@@ -215,7 +215,7 @@ export default function TechnicalSolutions() {
 
           <NumSteps num="2">
             <strong>Reducing Operational Costs</strong>
-            <br />
+            <br /> <br className="mobile-break" />
             Real-time reporting, data analytics, and visualization tools can
             transform large volumes of sensor and monitoring data into
             actionable intelligence. This enables operators to optimize resource
@@ -282,7 +282,7 @@ export default function TechnicalSolutions() {
 
           <NumSteps num="3">
             <strong>Increasing the Life of Assets </strong>
-            <br />
+            <br /> <br className="mobile-break" />
             Predictive maintenance technologies, smart monitoring systems, and
             automated inspection tools can help identify wear and degradation
             before they lead to failure. By enabling targeted interventions and

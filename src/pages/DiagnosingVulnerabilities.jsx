@@ -89,7 +89,8 @@ export default function DiagnosingVulnerabilities() {
             services.
           </p> 
           <NumSteps num="1">
-            <strong>Hazards and Exposure Assessments</strong> – This involves
+            <strong>Hazards and Exposure Assessments</strong> – 
+            <br /> <br className="mobile-break" />This involves
             mapping the full range of natural and man-made threats or hazards
             that could affect infrastructure—such as floods, droughts,
             earthquakes, cyberattacks—and understanding where these assets are
@@ -176,7 +177,8 @@ export default function DiagnosingVulnerabilities() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Asset and System Vulnerability Assessments </strong> – This
+            <strong>Asset and System Vulnerability Assessments </strong> – 
+            <br /> <br className="mobile-break" />This
             involves examining the physical condition, design standards, and
             interdependencies of infrastructure systems to determine how they
             might fail or degrade under stress. It also considers institutional
@@ -243,7 +245,8 @@ export default function DiagnosingVulnerabilities() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Risk-informed decision-making </strong> – This involves
+            <strong>Risk-informed decision-making </strong> – 
+            <br /> <br className="mobile-break" />This involves
             translating hazard and vulnerability assessments into actionable
             choices. By quantifying risks in terms of probability and impact,
             decision-makers can prioritize investments, strengthen standards,

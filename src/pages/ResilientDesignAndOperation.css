@@ -32,14 +32,14 @@
 @media (min-width: 768px) {
   .ResilientDesignAndOperation .list-title {
     font-size: 1.2rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 1.5rem;
   }
   .ResilientDesignAndOperation .num-step {
 		display        : flex;
-		justify-content: flex-start;
-		align-items    : flex-start;
+		justify-content: center;
+		align-items    : center;
 		gap            : 1rem;
-		margin-bottom  : 1.875rem;
+		margin-bottom  : 1rem;
 	}
 }
 
@@ -82,8 +82,8 @@
 
 @media (min-width: 1200px) {
   .ResilientDesignAndOperation .list-title {
-    font-size: 1.5rem;
-    margin: 2.075rem 0 3.775rem 0;
+    font-size: 1.3rem;
+    margin: 1rem 0 2rem 0;
   }
   .ResilientDesignAndOperation .num-step {
 		margin-bottom: 1rem;
@@ -112,8 +112,8 @@
     font-size: 1.125rem;
   }
   .ResilientDesignAndOperation .list-title {
-    font-size: 1.5rem;
-    margin: 2.075rem 0 3.775rem 0;
+    font-size: 1.3rem;
+    margin: 1rem 0 2rem 0;
   }
   .ResilientDesignAndOperation .num-step {
 		margin: 0 1rem 1rem 1rem;

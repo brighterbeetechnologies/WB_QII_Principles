@@ -163,7 +163,7 @@ export default function Procurement() {
           </div>
           <NumSteps num="1">
             <strong>Incentive Structures</strong>
-            <br />
+            <br /> <br className="mobile-break" />
             The use of PPPs and Performance-Based Contracts (PBCs) can be used
             to link the operator's payments to efficient long-term performance.{" "}
             <span style={{ opacity: "0" }}>
@@ -236,7 +236,7 @@ export default function Procurement() {
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>Innovative Technologies</strong>
-            <br />
+            <br /> <br className="mobile-break" />
             Procurement processes can be structured to incentivize cost-saving
             innovations during both the construction and O&M phases.
             <span style={{ opacity: "0" }}>

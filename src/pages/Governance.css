@@ -80,7 +80,7 @@ p.margin-bottom {
 @media (min-width: 1200px) {
   .governance .list-title {
     font-size: 1.575rem;
-    margin: 2rem 0 2rem 0;
+    /* margin: 1rem 0 2rem 0; */
   }
 
   .last-text {

@@ -1,6 +1,6 @@
 .DiagnosingVulnerabilities .list-title {
   font-size: 1.1rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.2rem;
 }
 
 @media (max-width: 649px) {
@@ -38,7 +38,7 @@
 @media (min-width: 768px) {
   .DiagnosingVulnerabilities .list-title {
     font-size: 1.1rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 1rem;
   }
 }
 
@@ -81,8 +81,8 @@
 
 @media (min-width: 1200px) {
   .DiagnosingVulnerabilities .list-title {
-    font-size: 1.5rem;
-    margin: 2.075rem 0 3.775rem 0;
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
   }
 }
 
@@ -107,8 +107,8 @@
     font-size: 1.125rem;
   }
   .DiagnosingVulnerabilities .list-title {
-    font-size: 1.5rem;
-    margin: 2.075rem 0 3.775rem 0;
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
   }
 }
 

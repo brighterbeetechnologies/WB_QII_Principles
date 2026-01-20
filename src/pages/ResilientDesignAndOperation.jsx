@@ -98,8 +98,9 @@ export default function ResilientDesignAndOperation() {
           </p>
           <NumSteps num="1">
             <strong>
-              Prevention - Applying Resilience Standards to Planning and Design:
-            </strong>{" "}
+              Prevention -
+              <br className="mobile-break" /> Applying Resilience Standards to Planning and Design:
+            </strong>{" "} <br /> 
             Integrating design standards and climate considerations from the
             outset ensures that infrastructure design directly addresses
             foreseeable hazards. This proactive approach – especially when
@@ -293,7 +294,8 @@ export default function ResilientDesignAndOperation() {
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>
-              Adaptation – Integrating Nature-Based Solutions and Digital
+              Adaptation – 
+               <br className="mobile-break" />Integrating Nature-Based Solutions and Digital
               Approaches into Design and Operations:
             </strong>{" "}
             Embedding technology, consistent and routine monitoring, maintenance
@@ -457,7 +459,7 @@ export default function ResilientDesignAndOperation() {
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>
-              Responsiveness – Ensuring Post-Event Performance of Infrastructure
+              Responsiveness – <br className="mobile-break" />Ensuring Post-Event Performance of Infrastructure
               Assets and Systems:
             </strong>{" "}
             Infrastructure practitioners and planners are increasingly

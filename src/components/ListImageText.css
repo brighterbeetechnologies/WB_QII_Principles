@@ -18,7 +18,8 @@
   align-items: center;
   font-size: 1.4rem;
   flex-shrink: 0;
-  margin: 0 auto 1rem;
+  /* margin: 0 auto 1rem; */
+  
 }
 
 .case-card ul {
@@ -81,6 +82,14 @@
   .case-card .case-footer {
 	justify-content: start;
   }
+
+  .case-card .step-number {
+  text-align: center;
+  align-items: center;
+  margin: 1rem 0rem;
+  
+}
+
 }
 
 @media (min-width: 768px) {

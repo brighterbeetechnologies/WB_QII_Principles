@@ -20,12 +20,12 @@
 @media (min-width: 768px) {
   .FinancingResilience .list-title {
     font-size: 1.2rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 1.5rem;
   }
   .FinancingResilience .num-step {
 		display        : flex;
-		justify-content: flex-start;
-		align-items    : flex-start;
+		justify-content: center;
+		align-items    : center;
 		gap            : 1rem;
 		margin-bottom  : 1.875rem;
 	}
@@ -70,8 +70,8 @@
 
 @media (min-width: 1200px) {
   .FinancingResilience .list-title {
-    font-size: 1.5rem;
-    margin: 2.075rem 0 3.775rem 0;
+    font-size: 1.3rem;
+    margin: 1rem 0 2rem 0;
   }
   .FinancingResilience .num-step {
 		margin-bottom: 1rem;
@@ -93,8 +93,8 @@
     height: 640px;
   }
   .FinancingResilience .list-title {
-    font-size: 1.5rem;
-    margin: 2.075rem 0 3.775rem 0;
+    font-size: 1.3rem;
+    margin: 1rem 0 2rem 0;
   }
   .FinancingResilience .num-step {
 		margin: 0 1rem 1rem 1rem;
@@ -139,10 +139,10 @@
 	font-style: italic;
 }
 
-.FinancingResilience .list-title {
+/* .FinancingResilience .list-title {
   font-size: 1.1rem;
   margin-bottom: 1.25rem;
-}
+} */
 
 .FinancingResilience .num-step {
 	margin-bottom: 1rem;
@@ -195,8 +195,8 @@
 
 @media (min-width: 1200px) {
   .FinancingResilience .list-title {
-    font-size: 1.5rem;
-    margin: 2.075rem 0 3.775rem 0;
+    font-size: 1.3rem;
+    margin: 1rem 0 2rem 0;
   }
   .FinancingResilience .num-step {
 		margin-bottom: 1rem;
@@ -215,8 +215,8 @@
 		margin: 3rem 0;
 	}
 	.FinancingResilience .list-title {
-    font-size: 1.5rem;
-    margin: 2.075rem 0 3.775rem 0;
+    font-size: 1.3rem;
+    margin: 1rem 0 2rem 0;
   }
   .FinancingResilience .num-step {
 		margin: 0 1rem 1rem 1rem;
