@@ -1496,47 +1496,47 @@ export const appDataSlice = createSlice({
       // 	"industry": 4,
       // 	"image": "images/resources/03.jpg"
       // },
-      {
-        id: 5,
-        paths: "./pdf/PPP Reference Guide Version 3.pdf",
-        type: "Practical Reference Guide",
-        title: "Public-Private Partnerships Reference Guide",
-        highlight: false,
-        principles: 4,
-        desc: "",
-        format: 4,
-        stage: 1,
-        region: 1,
-        industry: 5,
-        image: "images/resources/06.jpg",
-      },
-      {
-        id: 5,
-        paths: "./pdf/PPP Reference Guide Version 3.pdf",
-        type: "Practical Reference Guide",
-        title: "Public-Private Partnerships Reference Guide ",
-        highlight: false,
-        principles: 4,
-        desc: "",
-        format: 4,
-        stage: 3,
-        region: 1,
-        industry: 1,
-        image: "images/resources/06.jpg",
-      },
-      {
-        id: 4,
-        paths: "./pdf/Life Cycle Cost Analysis Primer.pdf",
-        type: "Technical Primer",
-        title: "Life Cycle Cost Analysis Primer",
-        highlight: false,
-        principles: 3,
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/resources/05.jpg",
-      },
+      // {
+      //   id: 5,
+      //   paths: "./pdf/PPP Reference Guide Version 3.pdf",
+      //   type: "Practical Reference Guide",
+      //   title: "Public-Private Partnerships Reference Guide",
+      //   highlight: false,
+      //   principles: 4,
+      //   desc: "",
+      //   format: 4,
+      //   stage: 1,
+      //   region: 1,
+      //   industry: 5,
+      //   image: "images/resources/06.jpg",
+      // },
+      // {
+      //   id: 5,
+      //   paths: "./pdf/PPP Reference Guide Version 3.pdf",
+      //   type: "Practical Reference Guide",
+      //   title: "Public-Private Partnerships Reference Guide ",
+      //   highlight: false,
+      //   principles: 4,
+      //   desc: "",
+      //   format: 4,
+      //   stage: 3,
+      //   region: 1,
+      //   industry: 1,
+      //   image: "images/resources/06.jpg",
+      // },
+      // {
+      //   id: 4,
+      //   paths: "./pdf/Life Cycle Cost Analysis Primer.pdf",
+      //   type: "Technical Primer",
+      //   title: "Life Cycle Cost Analysis Primer",
+      //   highlight: false,
+      //   principles: 3,
+      //   format: 5,
+      //   stage: 4,
+      //   region: 1,
+      //   industry: 1,
+      //   image: "images/resources/05.jpg",
+      // },
       {
         id: 4,
         paths: "https://www.worldbank.org/en/programs/tokyo-drm-hub",
@@ -1578,7 +1578,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Learning from Mega-disasters Japan Case Study.png",
       },
       {
         id: 4,
@@ -1592,7 +1592,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
       },
       {
         id: 4,
@@ -1606,7 +1606,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/GFDRR.png",
       },
       {
         id: 4,
@@ -1621,7 +1621,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png",
       },
       {
         id: 4,
@@ -1636,7 +1636,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png",
       },
       {
         id: 4,
@@ -1651,7 +1651,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Notre Dame Global Adaptation Initiative.png",
       },
       {
         id: 4,
@@ -1666,7 +1666,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png",
       },
       {
         id: 4,
@@ -1680,7 +1680,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Disaster Risk Profiles (GFDRR).png",
       },
 
       {
@@ -1696,7 +1696,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
       },
 
       {
@@ -1712,7 +1712,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Global Infrastructure Risk.png",
       },
 
       {
@@ -1728,7 +1728,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/INFORM Climate Change Tool (European Commission).png",
       },
 
       {
@@ -1744,7 +1744,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Jamaica Disaster Vulnerability Reduction Project.png",
       },
 
       {
@@ -1761,7 +1761,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/DiagnosingVulnerabilities/Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1).png",
       },
 
       {
@@ -1777,7 +1777,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Building Code Checklist for Structural Resilience.png",
       },
 
       {
@@ -1793,7 +1793,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/EU Taxonomy Compass.png",
       },
 
       {
@@ -1826,7 +1826,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/A Global Assessment of Building Codes.png",
       },
 
       {
@@ -1843,7 +1843,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png",
       },
 
       {
@@ -1859,7 +1859,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Stronger Building Codes for a Safer, More Resilient Future.png",
       },
 
       {
@@ -1875,7 +1875,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Building Regulatory Capacity Assessment.png",
       },
 
       {
@@ -1891,7 +1891,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Modular Bridges in Madagascar.png",
       },
 
       {
@@ -1908,7 +1908,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/World Bank A Catalogue of Nature-Based Solutions for Urban Resilience.png",
       },
 
       {
@@ -1925,7 +1925,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/IFC Catalogue of Nature Based Solutions for Infrastructure Projects.png",
       },
 
       {
@@ -1941,7 +1941,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/A Catalogue of Nature-Based Solutions for Urban Resilience.png",
       },
 
       {
@@ -1957,7 +1957,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png",
       },
 
       {
@@ -1974,7 +1974,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Digital Security and Resilience in Critical Infrastructure and Essential Services1.png",
       },
 
       {
@@ -1990,7 +1990,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Digital Public Infrastructure for Digital Governments.png",
       },
 
       {
@@ -2007,7 +2007,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Incorporating Resilience into Infrastructure Prioritization Application to Japan’s Road Transport Sector.png",
       },
 
       {
@@ -2022,7 +2022,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Building Back Better.png",
       },
 
       {
@@ -2038,7 +2038,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Functional Recovery of Lifeline Infrastructure System Services.png",
       },
 
       {
@@ -2055,7 +2055,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/OECD Infrastructure Toolkit Strengthening Critical Infrastructure Resilience.png",
       },
 
       {
@@ -2072,7 +2072,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.png",
       },
 
       {
@@ -2088,7 +2088,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Climate Bonds Initiative.png",
       },
 
       {
@@ -2104,7 +2104,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
       },
 
       {
@@ -2121,7 +2121,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Assessing the Benefits and Costs of Nature-Based Solutions for Climate Resilience A Guideline for Project Developers (GFDRR).png",
       },
 
       {
@@ -2138,7 +2138,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Learning from Mega-disasters Japan Case Study.png",
       },
 
       {
@@ -2154,7 +2154,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Disaster and Climate-Resilient Transport Guidance Note.png",
       },
 
       {
@@ -2171,7 +2171,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Physical Climate Risk Appraisal Methodology.png",
       },
 
       {
@@ -2186,7 +2186,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi).png",
       },
 
       {
@@ -2202,7 +2202,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Greater Cape Town Water Fund Business Case.png",
       },
 
       {
@@ -2219,42 +2219,42 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia.png",
       },
 
-      // {
-      //   id: 4,
-      //   paths:
-      //     "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
-      //   type: "Report",
-      //   title:
-      //     "World Bank Financing Climate Adaptation and Nature-Based Infrastructure ",
-      //   highlight: false,
-      //   principles: 3,
-      //   desc:"",
-      //   format: 5,
-      //   stage: 4,
-      //   region: 1,
-      //   industry: 1,
-      //   image: "images/resources/05.jpg",
-      // },
+      {
+        id: 4,
+        paths:
+          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
+        type: "Report",
+        title:
+          "World Bank Financing Climate Adaptation and Nature-Based Infrastructure ",
+        highlight: false,
+        principles: 3,
+        desc:"This report assesses opportunities to increase private sector participation and financing for climate adaptation and nature-based infrastructure in Emerging and Developing Economies (EMDEs).",
+        format: 5,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
+      },
 
-      // {
-      //   id: 4,
-      //   paths:
-      //     "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150032182",
-      //   type: "Report",
-      //   title:
-      //     "World Bank Transport Resilience Financing, Resources and Opportunities ",
-      //   highlight: false,
-      //   principles: 3,
-      //   desc:"",
-      //   format: 5,
-      //   stage: 4,
-      //   region: 1,
-      //   industry: 1,
-      //   image: "images/resources/05.jpg",
-      // },
+      {
+        id: 4,
+        paths:
+          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150032182",
+        type: "Report",
+        title:
+          "World Bank Transport Resilience Financing, Resources and Opportunities ",
+        highlight: false,
+        principles: 3,
+        desc:"This report presents information on 42 global financing facilities, 33 public funds, and 29 tax measures, offering valuable insights into financing transport resilience in developing countries.",
+        format: 5,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png",
+      },
 
       {
         id: 4,
@@ -2268,7 +2268,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       },
 
       {
@@ -2284,7 +2284,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
       },
 
       {
@@ -2300,7 +2300,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png",
       },
 
       {
@@ -2316,7 +2316,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Vida Manglar Carbon Project in Colombia.png",
       },
 
       {
@@ -2332,7 +2332,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png",
       },
 
       {
@@ -2349,7 +2349,23 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience Roads, Railways, and Urban Transport.png",
+      },
+
+       {
+        id: 4,
+        paths: "https://www.gfdrr.org/en/disaster-risk-finance",
+        type: "Resource",
+        title:
+          "GFDRR Disaster Risk Finance",
+        highlight: false,
+        principles: 3,
+        desc: "GFDRR supports governments in designing financial protection strategies and instruments to respond to natural disasters. The Disaster Risk Financing and Insurance thematic area provides a compendium of case studies and resources in financing solutions for better management of disasters and climate shocks.",
+        format: 5,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       },
 
       {
@@ -2365,7 +2381,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
       },
 
       {
@@ -2382,12 +2398,12 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
       },
 
       {
         id: 4,
-        paths: "Cybersecurity Assessment Toolkit for Smart Cities",
+        paths: "pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf",
         type: "Guidance",
         title: "Cybersecurity Assessment Toolkit for Smart Cities",
         highlight: false,
@@ -2397,7 +2413,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
       },
 
       {
@@ -2414,7 +2430,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png",
       },
 
       {
@@ -2430,7 +2446,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).png",
       },
 
       {
@@ -2445,7 +2461,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png",
       },
 
       {
@@ -2462,7 +2478,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png",
       },
 
       {
@@ -2478,7 +2494,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png",
       },
 
       {
@@ -2494,7 +2510,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/resources/05.jpg",
+        image: "images/qii4/ManagingCyberSecurityRisks/Canada the cyber threat environment.png",
       },
       {
         id: 4,

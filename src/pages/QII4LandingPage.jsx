@@ -506,7 +506,7 @@ export default function QII4LandingPage() {
           </p>
         </Header3>
       </section>
-      <section className="q4_landing_page color-dark">
+      {/* <section className="q4_landing_page color-dark">
         <div className="container">
           <div className="qii4-video-card">
             <img
@@ -553,6 +553,43 @@ export default function QII4LandingPage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section> */}
+
+      <section className="qii_video_landing_page color-light">
+        <img
+          className="qii_video-thumbnail-image"
+          src="images/qii4/QII 2 in Action poster.png"
+          alt="video thumbnail"
+        />
+        <div className="qii-video-overlay"></div>
+        <div className="qii-video-cnt">
+          <button
+            className="video-play-btn icon-play"
+            onClick={() => {
+              openVideo(
+                "./video/LandingPageVideo.mp4",
+                "Lessons from Success Stories",
+                1920,
+                1080,
+              );
+            }}
+          >
+            &#xe91e;
+          </button>
+        </div>
+        <div className="qii-video-text-cnt">
+          <p className="video-title">QII 4 in Action</p>
+          <p className="video-desc">
+            The Solomon Islands’ adoption of prefabricated modular bridges
+            demonstrates an efficient, climate-resilient solution for
+            strengthening vital transport infrastructure in the Pacific.
+          </p>
+          <Link to="/card">
+            <button className="btn-primary qii2-video-cta">
+              Explore Case Study <span className="icon-arrow">&#xe900;</span>
+            </button>
+          </Link>
         </div>
       </section>
 

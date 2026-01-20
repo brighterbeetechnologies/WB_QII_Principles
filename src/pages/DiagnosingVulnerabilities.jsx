@@ -87,7 +87,7 @@ export default function DiagnosingVulnerabilities() {
             determine how assets and systems may fail under stress and guides
             investment priorities to strengthen resilience and ensure reliable
             services.
-          </p>
+          </p> 
           <NumSteps num="1">
             <strong>Hazards and Exposure Assessments</strong> – This involves
             mapping the full range of natural and man-made threats or hazards

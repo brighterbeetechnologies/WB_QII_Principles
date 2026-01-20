@@ -511,7 +511,7 @@ export default function FinancingResilience() {
                 </p>
               }
               buttonText="Resource"
-              link="https://www.gfdrr.org/en/disaster-risk-finance  "
+              link="https://www.gfdrr.org/en/disaster-risk-finance"
             >
               <p>
                 GFDRR supports governments in designing financial protection
