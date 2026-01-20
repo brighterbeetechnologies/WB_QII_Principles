@@ -463,6 +463,14 @@ export default function QII4LandingPage() {
           </div>
         </div> */}
       </section>
+      <Header3 img="images/qii4/QII2_Landing_image2.png">
+        <p>
+          Resilience is more than a safeguard—it's a foundational principle for
+          infrastructure that must withstand, adapt to, and recover from shocks
+          to ensure uninterrupted service, especially in rapidly changing and
+          vulnerable environments.
+        </p>
+      </Header3>
       <section className="color-light">
         <div className="container ">
           <div className="video-text-cnt">
@@ -502,14 +510,6 @@ export default function QII4LandingPage() {
             </div>
           </div>
         </div>
-        <Header3 img="images/qii4/QII2_Landing_image2.png">
-          <p>
-            Resilience is more than a safeguard—it's a foundational principle
-            for infrastructure that must withstand, adapt to, and recover from
-            shocks to ensure uninterrupted service, especially in rapidly
-            changing and vulnerable environments.
-          </p>
-        </Header3>
       </section>
       {/* <section className="q4_landing_page color-dark">
         <div className="container">

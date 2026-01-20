@@ -7,7 +7,7 @@ export default function TextIconCarousal({ data }) {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setCurrent((prev) => (prev + 1) % data.length);
-		}, 2000);
+		}, 5000);
 
 		return () => clearInterval(interval);
 	}, [data.length]);

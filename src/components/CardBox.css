@@ -36,6 +36,7 @@
   right: 2rem;
   z-index: 5;
   background: url("/images/Spotlight_highlight_BG.png") no-repeat;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
   align-items: center;
@@ -247,5 +248,27 @@
 @media (max-width: 1000px) {
   .resource_page .box-card {
     height: 300px;
+  }
+}
+
+/* .ant-popover .ant-popover-container {
+  width: 33%;
+} */
+
+.resource-popover-content {
+  width: 30vw;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+@media (max-width: 900px) {
+  .resource-popover-content {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .resource-popover-content {
+    width: 90vw;
   }
 }

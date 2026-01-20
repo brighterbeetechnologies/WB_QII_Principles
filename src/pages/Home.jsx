@@ -45,7 +45,9 @@ export default function Home() {
             </p>
             <SearchBox></SearchBox>
           </div>
+          <img src="images/Scroll_icon.png" className="scroll-icon" alt="" />
         </div>
+        <div></div>
       </section>
       <section className="color-dark  principles-page">
         <div className="circle-bg">

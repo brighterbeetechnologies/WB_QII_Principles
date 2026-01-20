@@ -29,8 +29,14 @@ export default function CardBox({ card }) {
             {/* </Tooltip> */}
           </h3>
           <p className="card-desc">
-            <Popover content={card.desc} title={card.title} trigger="click">
-              Read More...
+            <Popover
+              content={
+                <div className="resource-popover-content">{card.desc}</div>
+              }
+              title={false}
+              trigger="click"
+            >
+              <u>READ MORE...</u>
             </Popover>
             {/* {card.desc} */}
             {/* </Tooltip> */}
@@ -66,12 +72,18 @@ export default function CardBox({ card }) {
           </div>
         </div>
       </div>
-      {card.highlight && (
-        <div className="highlighted-badge">
+      {card.highlight? (
+        <div
+          className="highlighted-badge"
+          style={{
+            background: `${card.highlight === 1 ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
+            backgroundSize: "100% 100%",
+          }}
+        >
           <img src="images/Star_for_spotligh.svg" alt="" srcset="" />
-          Spotlight Case Study
+          {card.highlight === 1 && <>Spotlight Case Study</>}
         </div>
-      )}
+      ): <></>}
     </article>
   );
 }

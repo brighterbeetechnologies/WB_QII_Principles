@@ -230,6 +230,16 @@ export default function QII2LandingPage() {
           </div>
         </div>
       </section>
+      <Header3 img="images/qii2/qii2_img2.png">
+        <p>
+          Incorporating <strong>life cycle costing</strong> into infrastructure
+          planning and decision-making helps break the costly cycle of
+          short-term thinking. By accounting for the{" "}
+          <strong>total cost of service delivery</strong>—including operations,
+          maintenance, and eventual decommissioning—governments and institutions
+          can make smarter investments that deliver better value over time.
+        </p>
+      </Header3>
       <section className="color-light">
         <div className="container ">
           <div className="video-text-cnt">
@@ -268,17 +278,6 @@ export default function QII2LandingPage() {
             </div>
           </div>
         </div>
-        <Header3 img="images/qii2/qii2_img2.png">
-          <p>
-            Incorporating <strong>life cycle costing</strong> into
-            infrastructure planning and decision-making helps break the costly
-            cycle of short-term thinking. By accounting for the{" "}
-            <strong>total cost of service delivery</strong>—including
-            operations, maintenance, and eventual decommissioning—governments
-            and institutions can make smarter investments that deliver better
-            value over time.
-          </p>
-        </Header3>
       </section>
       <section className="qii_video_landing_page color-light">
         <img
@@ -396,7 +395,7 @@ export default function QII2LandingPage() {
                         <div className="page-resource-title title-big">
                           {p.title}
                         </div>
-                         <div className="page-resource-description">
+                        <div className="page-resource-description">
                           {p.description}
                         </div>
                         {/* <Popover

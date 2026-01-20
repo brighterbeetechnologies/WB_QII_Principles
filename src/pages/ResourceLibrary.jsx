@@ -77,9 +77,16 @@ export default function ResourceLibrary({ subPages, preSelected }) {
   });
   const togglePrinciple = (id) => {
     setSelectedPrinciple((prev) =>
-      prev.includes(id) ? prev.filter((p) => p !== id) : [...prev, id]
+      prev.includes(id) ? prev.filter((p) => p !== id) : [...prev, id],
     );
   };
+
+  // useEffect(() => {
+  //   if (preSelected) {
+  //     setSelectedPrinciple(preSelected);
+  //   }
+  // }, []);
+
   // Apply filter logic
   useEffect(() => {
     const principleFilters = selectedFilters
@@ -146,9 +153,9 @@ export default function ResourceLibrary({ subPages, preSelected }) {
     }
   };
 
-  const handleFilterChange = (selectedItems) => {    
+  const handleFilterChange = (selectedItems) => {
     setSelectedFilters(selectedItems);
-  };  
+  };
 
   return (
     <div className="container resource_page">
@@ -182,7 +189,11 @@ export default function ResourceLibrary({ subPages, preSelected }) {
       </div> */}
       <div className="brk-line"></div>
       <div className="filter-cnt">
-        <FilterDropDown filterData={filterData} preSelected={preSelected} onChange={handleFilterChange} />
+        <FilterDropDown
+          filterData={filterData}
+          preSelected={preSelected}
+          onChange={handleFilterChange}
+        />
         <div className="search-box">
           <input type="text" placeholder="Search query" />
           <button className="icon-search">&#xe90a;</button>
@@ -253,6 +264,8 @@ export default function ResourceLibrary({ subPages, preSelected }) {
                 <Pagination
                   align="center"
                   pageSize={1}
+                  showQuickJumper={false}
+                  showPrevNextJumpers={false}
                   total={slides?.length}
                   showSizeChanger={false}
                   //   current={index}
