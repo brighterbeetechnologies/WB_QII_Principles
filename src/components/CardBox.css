@@ -65,6 +65,11 @@
   color: #fff;
   font-size: 0.7rem;
   margin-bottom: 8px;
+  background: #cde6ff;
+  display: inline-block;
+  border-radius: 10rem;
+  padding: 0.1rem 0.6rem;
+  color: #000000;
 }
 
 .box-card .card-title {
@@ -78,6 +83,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2; /* number of lines */
   overflow: hidden;
+  width: 70%;
 }
 
 .card-desc {
@@ -117,7 +123,7 @@
 
 .box-card .btn {
   position: absolute;
-  left: 12px;
+  left: 1.8rem;
   bottom: 12px;
   z-index: 3;
   display: flex;
@@ -134,7 +140,7 @@
 
 .box-card .btn.video_btn {
   left: auto;
-  right: 12px;
+  right: 1.8rem;
 }
 
 .box-card:hover,
@@ -170,6 +176,14 @@
 .video_btn:hover .icon-video {
   color: #fff;
   border-color: #fff;
+}
+
+.card-pinciple-badge {
+  position: absolute;
+  width: 18%;
+  right: 1rem;
+  top: 3rem;
+  z-index: 666;
 }
 
 /* Rounded corners larger on large screens */
@@ -237,7 +251,7 @@
 
   .box-card .btn {
     border-radius: 34px;
-    padding: 13px 20px;
+    /* padding: 13px 20px; */
   }
 
   .box-card .btn.video_btn {

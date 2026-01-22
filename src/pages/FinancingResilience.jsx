@@ -78,7 +78,7 @@ export default function FinancingResilience() {
           </div>
         </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <p className="list-title">
             Overcoming these barriers requires embedding resilience into
             infrastructure financing frameworks and deploying innovative
@@ -96,7 +96,7 @@ export default function FinancingResilience() {
             new funding sources—including from private investors—that are often
             out of reach for these kinds of infrastructure projects.
           </NumSteps>
-          <p>
+          <p className="mTop">
             *The below list highlights references, which aggregate global best
             practices across multiple sectors. For a deeper dive into the topic,
             please refer to the ‘Resilient Design and Operations’ sub-page.
@@ -160,7 +160,7 @@ export default function FinancingResilience() {
             </VCard>
           </div>
 
-          <div className="border-dash"></div>
+          {/* <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>Valuing resilience through life cycle costing -</strong>{" "}
             Infrastructure should be assessed on its full life-cycle costs, not
@@ -325,10 +325,10 @@ export default function FinancingResilience() {
                 basin in Indonesia.
               </p>
             </VCard>
-          </div>
+          </div> */}
 
           <div className="border-dash"></div>
-          <NumSteps num="3">
+          <NumSteps num="2">
             <strong>Innovative Financing Instruments - </strong> Innovative
             financing instruments attract private investors by lowering risk
             exposure and improving the predictability and stability of cash
@@ -345,9 +345,10 @@ export default function FinancingResilience() {
               title={
                 <p>
                   <strong>
-                    World Bank Financing Climate Adaptation and Nature-Based
-                    Infrastructure
+                    Financing Climate Adaptation and Nature-Based Infrastructure
                   </strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Report"
@@ -366,9 +367,10 @@ export default function FinancingResilience() {
               title={
                 <p>
                   <strong>
-                    World Bank Transport Resilience Financing, Resources and
-                    Opportunities
-                  </strong>
+                    Transport Resilience Financing, Resources and Opportunities
+                  </strong>{" "}
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Report"
@@ -462,9 +464,9 @@ export default function FinancingResilience() {
               image="images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png"
               title={
                 <p>
-                  <strong>
-                    World Bank - Climate Toolkits for Infrastructure PPPs
-                  </strong>
+                  <strong>Climate Toolkits for Infrastructure PPPs</strong>{" "}
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Tool"
@@ -481,10 +483,12 @@ export default function FinancingResilience() {
               title={
                 <p>
                   <strong>
-                    World Bank Sub-sectoral Roadmaps to Promote Private Sector
-                    Participation in Transport Resilience:{" "}
+                    Sub-sectoral Roadmaps to Promote Private Sector
+                    Participation in Transport Resilience: Roads, Railways, and
+                    Urban Transport
                   </strong>{" "}
-                  Roads, Railways, and Urban Transport
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Tool"
@@ -570,8 +574,8 @@ export default function FinancingResilience() {
                 <p>
                   <strong>
                     Financing for Disaster and Resilient Infrastructure
+                    (Coalition for Disaster Resilient Infrastructure)
                   </strong>
-                  (Coalition for Disaster Resilient Infrastructure)
                 </p>
               }
               buttonText="Report"

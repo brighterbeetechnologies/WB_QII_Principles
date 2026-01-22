@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./Procurement.css";
+import "./InternalPages.css";
 import Header3 from "../components/Header3";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
@@ -46,7 +47,7 @@ export default function Procurement() {
       id: 3,
       title:
         "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
-      subTitle: "(World Bank)",
+      subTitle: "World Bank",
       description:
         "This report demonstrates that regular maintenance is essential for reliable and resilient infrastructure, quantifies the high economic and social costs of unreliable services, and provides evidence-based recommendations for improving maintenance practices, governance, and investment planning to maximize infrastructure’s economic benefits and resilience to shocks.",
       img_path: "images/procurement/resources/04.png",
@@ -55,7 +56,7 @@ export default function Procurement() {
     {
       id: 4,
       title:
-        "Life-Cycle Costing in Sustainable Public Procurement International Institute for Sustainable Development",
+        "Life-Cycle Costing in Sustainable Public Procurement",
       subTitle: "International Institute for Sustainable Development",
       description:
         "This white paper explores how life-cycle costing (LCC) can enhance sustainable public procurement by evaluating all costs, financial, environmental, and social, across an asset’s life. It reviews global practices, highlights barriers to systematic LCC use, and offers recommendations for integrating LCC into procurement policies to achieve better long-term value and sustainability outcomes.",
@@ -64,8 +65,9 @@ export default function Procurement() {
     },
     {
       id: 5,
-      title: "Life-Cycle Costing Guidance Note World Bank",
-      description: "(Forthcoming)",
+      title: "Life-Cycle Costing Guidance Note",
+      subTitle: "World Bank",
+      description: "Forthcoming",
       img_path: "images/procurement/resources/06.png",
       path: "",
     },
@@ -131,17 +133,17 @@ export default function Procurement() {
           </div>
           <div className="subpage-description">
             <p className="light-font">
-              The <strong>procurement</strong> process sets the foundation for
-              the economic efficiency of an infrastructure project. Procurement
-              processes that create incentives to minimize life- cycle costs can
-              lead to better value for money and reduce long-term expenses.
-              Conversely, weak procurement practices, such as focusing solely on
-              initial purchase price, can result in higher operational and
-              maintenance costs over the asset's lifespan.
+              The procurement process sets the foundation for the economic
+              efficiency of an infrastructure project. Procurement processes
+              that create incentives to minimize life- cycle costs can lead to
+              better value for money and reduce long-term expenses. Conversely,
+              weak procurement practices, such as focusing solely on initial
+              purchase price, can result in higher operational and maintenance
+              costs over the asset's lifespan.
             </p>
           </div>
         </Header3>
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <div className="link-text">
             <p>
               The procurement of infrastructure under Public- Private
@@ -159,23 +161,42 @@ export default function Procurement() {
               infrastructure design. More detailed guidance on this topic can be
               found in the Life- Cycle Costing Guidance Note.
             </p>
+            <div class="border-dash"></div>
+            <p className="mTop">
+              <strong>
+                Key procurement considerations to maximize economic efficiency
+                include:
+              </strong>
+            </p>
           </div>
-          <div className="link-text">
-            <strong>
-              Key procurement considerations to maximize economic efficiency
-              include:{" "}
-            </strong>
-          </div>
+          <div className="link-text mTop"></div>
           <NumSteps num="1">
             <strong>Incentive Structures</strong>
             <br /> <br className="mobile-break" />
             The use of PPPs and Performance-Based Contracts (PBCs) can be used
-            to link the operator's payments to efficient long-term performance.{" "}
-            <span style={{ opacity: "0" }}>
-              to link the operator's payments to efficient long-term
-            </span>
+            to link the operator's payments to efficient long-term performance.
           </NumSteps>
           <div className="VCard-cnt col3">
+            <VCard
+              image="images/procurement/IndiaGanga.png"
+              title={
+                <p>
+                  India <br />
+                  <strong>Ganga River Wastewater Program</strong> <br />
+                  World Bank
+                </p>
+              }
+              buttonText="Case Study"
+              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/"
+              buttonText2="Case Study Summary"
+              link2="pdf/Ganga_case_study.pdf"
+              highlight={2}
+            >
+              <p>
+                Summarizes a procurement approach for a real-life project where
+                annuity payments were linked to long-term O&M performance.
+              </p>
+            </VCard>
             <VCard
               image="images/procurement/Vietnam.png"
               title={
@@ -193,27 +214,6 @@ export default function Procurement() {
               <p>
                 Demonstrates the use of Performance-Based Contracts (PBC) to
                 incentivize non-revenue water reduction.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/procurement/IndiaGanga.png"
-              title={
-                <p>
-                  India <br />
-                  <strong>Ganga River Wastewater Program</strong> <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Case Study"
-              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/"
-              buttonText2="Case Study Summary"
-              link2="pdf/Ganga_case_study.pdf"
-              highlight={true}
-            >
-              <p>
-                Summarizes a procurement approach for a real-life project where
-                annuity payments were linked to long-term O&M performance.
               </p>
             </VCard>
 
@@ -292,7 +292,7 @@ export default function Procurement() {
         </div>
       </section>
       <section className="color-dark">
-        <div className="container">
+        <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading On Procurement
           </h2>
@@ -311,7 +311,7 @@ export default function Procurement() {
                       {p.subTitle && (
                         <>
                           <br />
-                          {p.subTitle}
+                          <span>{p.subTitle}</span>
                         </>
                       )}
                     </div>
@@ -329,7 +329,7 @@ export default function Procurement() {
                         {p.subTitle && (
                           <>
                             <br />
-                            {p.subTitle}
+                            <span>{p.subTitle}</span>
                           </>
                         )}
                       </div>

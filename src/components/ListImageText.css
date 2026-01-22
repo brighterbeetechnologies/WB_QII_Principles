@@ -98,11 +98,8 @@
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-  }
-
-  .case-card .step {
     margin-bottom: 2rem;
-}
+  }
 }
 
 @media (min-width: 992px) {

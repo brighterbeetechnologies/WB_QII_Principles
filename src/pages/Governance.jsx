@@ -14,7 +14,7 @@ export default function Governance() {
       id: 0,
       title:
         "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
-      subTitle: false,
+      subTitle: "World Bank​",
       description:
         "This resource is a foundational guide for policymakers, practitioners, and stakeholders seeking to understand and implement effective infrastructure maintenance as a driver of economic efficiency, resilience, and sustainable development.",
       img_path: "images/governance/resources/01.jpg",
@@ -32,7 +32,7 @@ export default function Governance() {
     {
       id: 2,
       title: "Infrastructure Maintenance in the Pacific",
-      subTitle: false,
+      subTitle: "Pacific Region Infrastructure Facility​",
       description:
         "This report explores the governance challenges of infrastructure maintenance in Pacific Island countries, emphasizing the need for clear institutional roles, accountability, and sustainable funding to break the “build-neglect-rebuild” cycle and ensure long-term service delivery.",
       img_path: "images/governance/resources/03.jpg",
@@ -126,8 +126,8 @@ export default function Governance() {
       </section>
 
       <section className="color-dark ">
-        <div className="container max-1600">
-          <p className="list-title">
+        <div className="container internal-pages-container">
+          <p className="link-text">
             To enable life-cycle costing, governance frameworks must evolve in
             several specific ways.
           </p>
@@ -152,7 +152,7 @@ export default function Governance() {
             link="https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html"
           >
             <div className="description">
-              Netherlands <br />
+              Hungary <br />
               <strong>DuboCalc and CO₂ Performance Ladder</strong>
             </div>
             <p>
@@ -399,7 +399,7 @@ export default function Governance() {
         </div>
       </section>
       <section className="color-light">
-        <div className="container">
+        <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading On Governance
           </h2>
@@ -418,7 +418,7 @@ export default function Governance() {
                       {p.subTitle && (
                         <>
                           <br />
-                          {p.subTitle}
+                          <span>{p.subTitle}</span>
                         </>
                       )}
                     </div>
@@ -436,7 +436,7 @@ export default function Governance() {
                         {p.subTitle && (
                           <>
                             <br />
-                            {p.subTitle}
+                            <span>{p.subTitle}</span>
                           </>
                         )}
                       </div>

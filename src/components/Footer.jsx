@@ -64,7 +64,9 @@ const Footer = () => {
             <h4>Resources</h4>
             <ul>
               <li>
-                <a href="#/case-studies">Case Studies</a>
+                <a href="#/case-studies" className="disable-link">
+                  Case Studies
+                </a>
               </li>
               <li>
                 <a href="#" className="disable-link">

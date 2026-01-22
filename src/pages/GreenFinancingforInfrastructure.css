@@ -5,10 +5,6 @@
 	}
 }
 
-.link-text {
-	margin-bottom: 2rem;
-}
-
 .procurement .border {
 	border: 1px dashed rgba(134, 134, 134, 0.5);
 	margin: 2rem 1rem;
@@ -25,11 +21,6 @@
 }
 
 @media (min-width: 1024px) {
-	.link-text {
-		text-align: center;
-		max-width : 90%;
-		margin    : 1rem auto;
-	}
 
 	.procurement .mTop2 {
 		margin: 3rem 0;
@@ -37,25 +28,12 @@
 }
 
 @media (min-width: 1400px) {
-	.link-text {
-		max-width: 90%;
-		margin   : 1rem auto;
-		font-size: 1.875rem;
-	}
 
 	.procurement .mTop2 {
 		margin: 3rem 0;
 	}
 }
 
-@media (min-width: 1600px) {
-	.link-text {
-		max-width: 1480px;
-		margin   : 1rem auto;
-	}
-
-
-}
 
 /* @media (min-width: 992px) {
     .Header3 .container {

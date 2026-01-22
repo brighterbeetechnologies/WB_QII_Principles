@@ -11,6 +11,7 @@ export default function CardBox({ card }) {
     dispatch(setShowVideo(true));
   };
   const navigate = useNavigate();
+
   return (
     <article
       className={`box-card ${card.highlight && "highlighted"}`}
@@ -24,15 +25,21 @@ export default function CardBox({ card }) {
         <div className="card-data">
           <p className="card-type">{card.type}</p>
           <h3 className="card-title">
-            {/* <Tooltip placement="top" color={"white"} title={card.title}> */}
-            {card.title}
-            {/* </Tooltip> */}
+            <Tooltip placement="right" color={"white"} title={card.title}>
+              {card.title}
+            </Tooltip>
+            <img
+              src={`images/principles/Qii_${card.principles + 1}.png`}
+              alt=""
+              className="card-pinciple-badge"
+            />
           </h3>
           <p className="card-desc">
             <Popover
               content={
                 <div className="resource-popover-content">{card.desc}</div>
               }
+              placement="left"
               title={false}
               trigger="click"
             >
@@ -51,14 +58,25 @@ export default function CardBox({ card }) {
               See The {card.type}
               <span className="icon-arrow">&#xe900;</span>
             </Link> */}
-            <a
-              className="btn primary"
-              href={card.paths}
-              target={card.topResource ? "_self" : "_blank"}
-            >
-              {/* See The {card.type} */}
-              <span className="icon-arrow">&#xe900;</span>
-            </a>
+            {card.pdf ? (
+              <a
+                className="btn primary"
+                href={card.paths}
+                target={card.topResource ? "_self" : "_blank"}
+              >
+                {/* See The {card.type} */}
+                <span className="icon-arrow">&#xe900;</span>
+              </a>
+            ) : (
+              <Link
+                className="btn primary"
+                to={card.paths}
+                target={card.topResource ? "_self" : "_blank"}
+              >
+                {/* See The {card.type} */}
+                <span className="icon-arrow">&#xe900;</span>
+              </Link>
+            )}
             {card.videoUrl && (
               <button
                 className="btn primary video_btn"
@@ -72,7 +90,7 @@ export default function CardBox({ card }) {
           </div>
         </div>
       </div>
-      {card.highlight? (
+      {card.highlight ? (
         <div
           className="highlighted-badge"
           style={{
@@ -83,7 +101,9 @@ export default function CardBox({ card }) {
           <img src="images/Star_for_spotligh.svg" alt="" srcset="" />
           {card.highlight === 1 && <>Spotlight Case Study</>}
         </div>
-      ): <></>}
+      ) : (
+        <></>
+      )}
     </article>
   );
 }

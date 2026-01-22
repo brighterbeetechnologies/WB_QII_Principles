@@ -1,5 +1,6 @@
 .resourceLibrary {
-  background: url("/images/resourceLibrary.png") no-repeat scroll 0 0 transparent;
+  background: url("/images/resourceLibrary.png") no-repeat scroll 0 0
+    transparent;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -68,7 +69,7 @@
 
 .resource-carousel-slide {
   min-width: 100%;
-  padding: 1.3rem 0 0 0rem;
+  padding: 2rem 0 0 0rem;
   box-sizing: border-box;
   position: relative;
 }
@@ -411,6 +412,10 @@
   .principles-btn-cnt > button {
     border-radius: 34px;
     padding: 13px 20px;
+  }
+
+  .resource-carousel-slide {
+    padding: 3rem 0 0 0rem;
   }
 }
 

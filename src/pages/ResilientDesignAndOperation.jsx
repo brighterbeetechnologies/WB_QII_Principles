@@ -84,7 +84,7 @@ export default function ResilientDesignAndOperation() {
         </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
 
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <p className="list-title">
             The incorporation of resilience into the design of infrastructure
             assets and their operational processes can be broken down into three
@@ -99,8 +99,10 @@ export default function ResilientDesignAndOperation() {
           <NumSteps num="1">
             <strong>
               Prevention -
-              <br className="mobile-break" /> Applying Resilience Standards to Planning and Design:
-            </strong>{" "} <br /> 
+              <br className="mobile-break" /> Applying Resilience Standards to
+              Planning and Design:
+            </strong>{" "}
+            <br />
             Integrating design standards and climate considerations from the
             outset ensures that infrastructure design directly addresses
             foreseeable hazards. This proactive approach – especially when
@@ -110,16 +112,19 @@ export default function ResilientDesignAndOperation() {
             integrity and service continuity, in alignment with national
             resilience objectives.
           </NumSteps>
-          <p className="num1-para">
-            *Much of the current work on resilience standards is still nascent,
-            especially as it pertains to infrastructure, and tends to address
-            sustainability in a broader sense, often encompassing themes such as
-            climate change and biodiversity, but also transparency and human
-            rights, etc. Additionally, the prevailing guidance has been heavily
-            influenced by financial markets and the Disaster Risk Management
-            field. Since efforts are relatively nascent globally, users may need
-            to reference best practice examples from more developed contexts and
-            field of practice, and these are outlined below.
+          <p className="num1-para mTop">
+            <i>
+              *Much of the current work on resilience standards is still
+              nascent, especially as it pertains to infrastructure, and tends to
+              address sustainability in a broader sense, often encompassing
+              themes such as climate change and biodiversity, but also
+              transparency and human rights, etc. Additionally, the prevailing
+              guidance has been heavily influenced by financial markets and the
+              Disaster Risk Management field. Since efforts are relatively
+              nascent globally, users may need to reference best practice
+              examples from more developed contexts and field of practice, and
+              these are outlined below.
+            </i>
           </p>
           <div className="VCard-cnt col3">
             <VCard
@@ -189,7 +194,7 @@ export default function ResilientDesignAndOperation() {
               image="images/qii4/ResilientDesignAndOperation/A Global Assessment of Building Codes.png"
               title={
                 <p>
-                  <strong>A Global Assessment of Building Codes:</strong>{" "}
+                  <strong>A Global Assessment of Building Codes:</strong> <br />
                   Current Status and Evolving Needs to Promote Resilient, Green
                   and Inclusive Buildings
                 </p>
@@ -211,8 +216,8 @@ export default function ResilientDesignAndOperation() {
               image="images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png"
               title={
                 <p>
-                  <strong>Building regulations in Sub-Saharan Africa:</strong> A
-                  status review of the building regulatory environment
+                  <strong>Building regulations in Sub-Saharan Africa:</strong>{" "}
+                  <br />A status review of the building regulatory environment
                 </p>
               }
               buttonText="Report"
@@ -249,8 +254,6 @@ export default function ResilientDesignAndOperation() {
                 development.
               </p>
             </VCard>
-          </div>
-          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/Building Regulatory Capacity Assessment.png"
               title={
@@ -291,18 +294,20 @@ export default function ResilientDesignAndOperation() {
               </p>
             </VCard>
           </div>
+          {/* <div className="VCard-cnt col-2"></div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>
-              Adaptation – 
-               <br className="mobile-break" />Integrating Nature-Based Solutions and Digital
-              Approaches into Design and Operations:
+              Adaptation –
+              <br className="mobile-break" />
+              Integrating Nature-Based Solutions and Digital Approaches into
+              Design and Operations:
             </strong>{" "}
-            Embedding technology, consistent and routine monitoring, maintenance
-            protocols, and contingency planning within operations underpins
-            reliable performance. These practices enable rapid restoration after
-            natural and man-made shocks and sustain service levels under
-            evolving environmental and operational pressures.
+            Embedding technology, routine monitoring, maintenance protocols, and
+            contingency planning within operations underpins reliable
+            performance. These practices enable rapid restoration after natural
+            and man-made shocks and sustain service levels under evolving
+            environmental and operational pressures.
             <br />
             <br />
             More specifically, both nature-based solutions and advanced digital
@@ -318,13 +323,16 @@ export default function ResilientDesignAndOperation() {
             Nature-based Solutions for Resilience
           </h4>
 
-          <div className="VCard-cnt col-2">
+          <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/World Bank A Catalogue of Nature-Based Solutions for Urban Resilience.png"
               title={
                 <p>
-                  <strong>World Bank: </strong> A Catalogue of Nature-Based
-                  Solutions for Urban Resilience
+                  <strong>
+                    A Catalogue of Nature-Based Solutions for Urban Resilience
+                  </strong>{" "}
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Tool"
@@ -363,34 +371,12 @@ export default function ResilientDesignAndOperation() {
             </VCard>
 
             <VCard
-              image="images/qii4/ResilientDesignAndOperation/A Catalogue of Nature-Based Solutions for Urban Resilience.png"
-              title={
-                <p>
-                  <strong>
-                    A Catalogue of Nature-Based Solutions for Urban
-                    Resilience{" "}
-                  </strong>
-                </p>
-              }
-              buttonText="Report"
-              link="https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725"
-            >
-              <p>
-                A catalogue providing practical guidance and case examples for
-                integrating nature-based solutions into urban infrastructure,
-                showcasing how these approaches (combined with routine
-                monitoring and adaptive maintenance) enhance system flexibility,
-                resilience, and deliver broad environmental and social benefits
-                throughout asset operations and recovery.
-              </p>
-            </VCard>
-
-            <VCard
               image="images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png"
               title={
                 <p>
-                  <strong>IADB: </strong>AI and deep learning for identifying
-                  pavement failures
+                  <strong>
+                    IADB: AI and deep learning for identifying pavement failures
+                  </strong>
                 </p>
               }
               buttonText="Case Study"
@@ -459,8 +445,9 @@ export default function ResilientDesignAndOperation() {
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>
-              Responsiveness – <br className="mobile-break" />Ensuring Post-Event Performance of Infrastructure
-              Assets and Systems:
+              Responsiveness – <br className="mobile-break" />
+              Ensuring Post-Event Performance of Infrastructure Assets and
+              Systems:
             </strong>{" "}
             Infrastructure practitioners and planners are increasingly
             recognizing the importance of integrating key resilience strategies
@@ -479,10 +466,9 @@ export default function ResilientDesignAndOperation() {
               title={
                 <p>
                   <strong>
-                    Incorporating Resilience into Infrastructure
-                    Prioritization:{" "}
+                    Incorporating Resilience into Infrastructure Prioritization:{" "}
+                    Application to Japan's Road Transport Sector{" "}
                   </strong>
-                  Application to Japan's Road Transport Sector{" "}
                 </p>
               }
               buttonText="Report"
@@ -554,14 +540,14 @@ export default function ResilientDesignAndOperation() {
                 goals for lifeline infrastructure.
               </p>
             </VCard>
-          </div>
-          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/OECD Infrastructure Toolkit Strengthening Critical Infrastructure Resilience.png"
               title={
                 <p>
-                  <strong>OECD Infrastructure Toolkit:</strong> Strengthening
-                  Critical Infrastructure Resilience
+                  <strong>
+                    OECD Infrastructure Toolkit: Strengthening Critical
+                    Infrastructure Resilience
+                  </strong>
                 </p>
               }
               buttonText="Tool"
@@ -579,8 +565,10 @@ export default function ResilientDesignAndOperation() {
               image="images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.png"
               title={
                 <p>
-                  <strong>Building Resilience: </strong>New Strategies for
-                  Strengthening Infrastructure Resilience and Maintenance
+                  <strong>
+                    Building Resilience: New Strategies for Strengthening
+                    Infrastructure Resilience and Maintenance{" "}
+                  </strong>
                 </p>
               }
               buttonText="Policy Paper"
@@ -596,6 +584,7 @@ export default function ResilientDesignAndOperation() {
               </p>
             </VCard>
           </div>
+          <div className="VCard-cnt col-2"></div>
         </div>
       </section>
       {/* <section className="color-dark z-2" id="resourcesSection">

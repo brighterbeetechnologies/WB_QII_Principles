@@ -24,7 +24,6 @@ export default function SearchBox() {
 //         setData(myData);
 //       });
 // 	}, []);
-    // console.log("data", dataaa);
   const handleSearch = (e) => {
     const value = e.target.value;
     setQuery(value);

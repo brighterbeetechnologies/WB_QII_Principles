@@ -66,44 +66,44 @@ export default function DiagnosingVulnerabilities() {
           </div>
           <div className="subpage-description">
             <p className="light-font">
-              Assessing the vulnerability of infrastructure and the system in
-              which they exist ensures that these systems can withstand, adapt,
-              and recover from shocks. Vulnerability assessments identify the
-              weak points in the system, highlighting areas where exposure to
-              natural disasters and man-made events (such as cyber attacks)
-              present great risks. These assessments help prioritize
-              interventions where they are needed the most, making the best use
-              of public and private investment.
+              Assessing the vulnerability of infrastructure systems ensures they
+              can withstand, adapt, and recover from shocks. Vulnerability
+              assessments identify the weak points in the system, highlighting
+              areas where exposure to natural disasters and man-made events
+              (such as cyber attacks) present great risks. These assessments
+              help prioritize interventions where they are needed the most,
+              making the best use of public and private investment.
             </p>
           </div>
         </Header3>
 
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <p className="list-title">
-            There are three main components to these analyses, including
-            identify hazards and exposures, evaluating asset and system
-            vulnerabilities, and apply risk-informed decision-making. This will
-            determine how assets and systems may fail under stress and guides
-            investment priorities to strengthen resilience and ensure reliable
-            services.
-          </p> 
+            There are three main components to vulnerability assessment: (i)
+            identifying hazards and exposures, (ii) evaluating asset and system
+            vulnerabilities and (iii) applying risk-informed decision making.
+            This will determine how assets and systems may fail under stress and
+            guides investment priorities to strengthen resilience and ensure
+            reliable services.
+          </p>
           <NumSteps num="1">
-            <strong>Hazards and Exposure Assessments</strong> – 
-            <br /> <br className="mobile-break" />This involves
-            mapping the full range of natural and man-made threats or hazards
-            that could affect infrastructure—such as floods, droughts,
-            earthquakes, cyberattacks—and understanding where these assets are
-            geographically and how impacted or exposed they are to these
-            threats.
+            <strong>Hazards and Exposure Assessments</strong> –
+            <br /> <br className="mobile-break" />
+            This involves mapping the full range of natural and man-made threats
+            or hazards that could affect infrastructure—such as floods,
+            droughts, earthquakes, cyberattacks—and understanding where these
+            assets are geographically and how impacted or exposed they are to
+            these threats.
           </NumSteps>
           <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/DiagnosingVulnerabilities/Learning from Mega-disasters Japan Case Study.png"
               title={
                 <p>
-                  <strong>Learning from Mega-disasters: </strong> Japan Case
-                  Study
+                  Japan <br />
+                  <strong>Learning from Mega-disasters: </strong> <br />
+                  Case Study
                 </p>
               }
               buttonText="Guidance"
@@ -123,7 +123,9 @@ export default function DiagnosingVulnerabilities() {
               image="images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png"
               title={
                 <p>
-                  <strong>World Bank Climate Knowledge Portal</strong>
+                  <strong> Climate Knowledge Portal</strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Tools"
@@ -177,20 +179,22 @@ export default function DiagnosingVulnerabilities() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Asset and System Vulnerability Assessments </strong> – 
-            <br /> <br className="mobile-break" />This
-            involves examining the physical condition, design standards, and
-            interdependencies of infrastructure systems to determine how they
-            might fail or degrade under stress. It also considers institutional
-            and operational weaknesses that limit resilience and recovery.
+            <strong>Asset and System Vulnerability Assessments </strong> –
+            <br /> <br className="mobile-break" />
+            This involves examining the physical condition, design standards,
+            and interdependencies of infrastructure systems to determine how
+            they might fail or degrade under stress. It also considers
+            institutional and operational weaknesses that limit resilience and
+            recovery.
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png"
               title={
                 <p>
-                  <strong>Climate Impact Assessment Frameworks</strong> (Africa
-                  Infrastructure Example)
+                  Africa <br />
+                  <strong>Climate Impact Assessment Frameworks</strong> <br />
+                  (Infrastructure Example)
                 </p>
               }
               buttonText="Guidance"
@@ -210,7 +214,8 @@ export default function DiagnosingVulnerabilities() {
               image="images/qii4/DiagnosingVulnerabilities/Notre Dame Global Adaptation Initiative.png"
               title={
                 <p>
-                  <strong>Notre Dame Global Adaptation Initiative: </strong>{" "}
+                  <strong>Notre Dame Global Adaptation Initiative </strong>{" "}
+                  <br />
                   ND-GAIN Vulnerability Indices
                 </p>
               }
@@ -228,7 +233,8 @@ export default function DiagnosingVulnerabilities() {
               image="images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png"
               title={
                 <p>
-                  <strong>Vanuatu Post-Disaster Needs Assessment: </strong>
+                  <strong>Vanuatu Post-Disaster Needs Assessment </strong>{" "}
+                  <br />
                   Tropical Cyclone Pam
                 </p>
               }
@@ -245,19 +251,21 @@ export default function DiagnosingVulnerabilities() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Risk-informed decision-making </strong> – 
-            <br /> <br className="mobile-break" />This involves
-            translating hazard and vulnerability assessments into actionable
-            choices. By quantifying risks in terms of probability and impact,
-            decision-makers can prioritize investments, strengthen standards,
-            and integrate resilience into planning, operations, and policy.
+            <strong>Risk-informed decision-making </strong> –
+            <br /> <br className="mobile-break" />
+            This involves translating hazard and vulnerability assessments into
+            actionable choices. By quantifying risks in terms of probability and
+            impact, decision-makers can prioritize investments, strengthen
+            standards, and integrate resilience into planning, operations, and
+            policy.
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/DiagnosingVulnerabilities/Disaster Risk Profiles (GFDRR).png"
               title={
                 <p>
-                  <strong>Disaster Risk Profiles </strong>(GFDRR)
+                  <strong>Disaster Risk Profiles </strong>
+                  <br /> (GFDRR)
                 </p>
               }
               buttonText="Guidance"
@@ -277,7 +285,8 @@ export default function DiagnosingVulnerabilities() {
               image="images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png"
               title={
                 <p>
-                  <strong>World Bank </strong> Resilience Rating System
+                  <strong>Resilience Rating System</strong> <br />
+                  World Bank
                 </p>
               }
               buttonText="Guidance"
@@ -297,6 +306,7 @@ export default function DiagnosingVulnerabilities() {
                   <strong>
                     Global Infrastructure Risk Model and Resilience Index{" "}
                   </strong>{" "}
+                  <br />
                   (GIRI) (Coalition for Disaster Resilient Infrastructure)
                 </p>
               }
@@ -314,8 +324,9 @@ export default function DiagnosingVulnerabilities() {
               image="images/qii4/DiagnosingVulnerabilities/INFORM Climate Change Tool (European Commission).png"
               title={
                 <p>
-                  <strong>INFORM Climate Change Tool </strong>(European
-                  Commission)
+                  <strong>INFORM Climate Change Tool </strong>
+                  <br />
+                  (European Commission)
                 </p>
               }
               buttonText="Tools"
@@ -359,6 +370,7 @@ export default function DiagnosingVulnerabilities() {
                   <strong>
                     Initial Sea Level Rise Risk Assessment for Nauru{" "}
                   </strong>{" "}
+                  <br />
                   (Chapter 5.6.1)(Pacific Regional Infrastructure Facility)
                 </p>
               }

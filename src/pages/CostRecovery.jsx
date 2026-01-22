@@ -117,11 +117,12 @@ export default function CostRecovery() {
             </p>
           </div>
         </Header3>
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <div className="link-text">
             <strong>
-              Options for recovering the costs of infrastructure depend on the
-              type of project and service delivered:{" "}
+              In addition to public funding, there are a range of other ways in
+              which project developers can raise revenue for infrastructure
+              projects, such as:
             </strong>
           </div>
 
@@ -184,7 +185,7 @@ export default function CostRecovery() {
                   World Bank
                 </p>
               }
-              buttonText="Report"
+              buttonText="Guidance"
               link="https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf"
             >
               <p>
@@ -193,16 +194,16 @@ export default function CostRecovery() {
               </p>
             </VCard>
           </div>
-          <div className="border-dash"></div>
+          {/* <div className="border-dash"></div>
           <NumSteps num="2" className="no-margin">
             <strong>Public Budgets</strong>
             <br /> <br className="mobile-break" />
             To fund the delivery of infrastructure that serves the public at
             large, governments typically rely on revenues generated through
             their tax base. <br />
-          </NumSteps>
+          </NumSteps> */}
           <div className="border-dash"></div>
-          <NumSteps num="3">
+          <NumSteps num="2">
             <strong>Ancillary Revenues</strong>
             <br /> <br className="mobile-break" />
             In some cases, it may be possible to generate supplementary revenue
@@ -252,7 +253,7 @@ export default function CostRecovery() {
             </VCard>
           </div>
           <div className="border-dash"></div>
-          <NumSteps num="4">
+          <NumSteps num="3">
             <strong>Land Value Capture</strong> <br />{" "}
             <br className="mobile-break" />
             Infrastructure often increases the value of surrounding land and
@@ -266,10 +267,10 @@ export default function CostRecovery() {
               image="images/costRecovery/lvc.png"
               title={
                 <p>
-                  <strong>Investment in Infrastructure </strong>
-                  <br />
-                  City Resilience Program, Global Facility for Disaster
-                  Reduction and Recovery
+                  <strong>
+                    Investment in Infrastructure City Resilience Program, Global
+                    Facility for Disaster Reduction and Recovery
+                  </strong>
                 </p>
               }
               buttonText="Guidance"
@@ -285,7 +286,9 @@ export default function CostRecovery() {
               title={
                 <p>
                   Argentina <br />
-                  <strong>Land Value Capture and Infrastructure </strong>
+                  <strong>
+                    Land Value Capture: Investment in Infrastructure
+                  </strong>
                   <br />
                   World Bank
                 </p>
@@ -311,7 +314,7 @@ export default function CostRecovery() {
         </div>
       </section>
       <section className="color-dark">
-        <div className="container">
+        <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading On Cost Recovery
           </h2>
@@ -345,7 +348,7 @@ export default function CostRecovery() {
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
                         <strong>{p.title}</strong>
-                        {p.subTitle && ( 
+                        {p.subTitle && (
                           <>
                             <br />
                             {p.subTitle}

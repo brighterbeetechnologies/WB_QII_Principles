@@ -10,10 +10,6 @@ export default function FilterDropDown({ filterData, onChange, preSelected }) {
   const updateddFilter = useSelector(updatedFilter);
 
   useEffect(() => {
-    if (preSelected) {
-      setSelected(preSelected);
-      onChange(preSelected);
-    }
     const handleClickOutside = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
         setOpen(false);
@@ -22,8 +18,12 @@ export default function FilterDropDown({ filterData, onChange, preSelected }) {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
-  console.log("selected", selected);
+  useEffect(() => {
+    if (preSelected) {
+      setSelected(preSelected);
+      onChange(preSelected);
+    }
+  }, [preSelected]);
 
   const grouped = filterData.reduce((acc, item) => {
     const key = item.category || "General";

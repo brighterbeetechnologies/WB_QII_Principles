@@ -51,7 +51,7 @@ export default function TechnicalSolutions() {
     {
       id: 4,
       title: "IEA Technology Roadmaps ",
-      subTitle : "International Energy Agency",
+      subTitle : "Organisation for Economic Co-operation and Development",
       description:
         "This publication offers a series of roadmaps for some of the most important energy technologies, and provide analytical footing that enables policy makers and industry to develop and adopt specific technologies.",
       img_path: "images/technicalSolutions/resources/IEATechnology.png",
@@ -103,7 +103,7 @@ export default function TechnicalSolutions() {
           </div>
           <div className="subpage-description">
             <p className="light-font">
-              The <strong>technical solutions</strong> selected for an
+              The technical solutions selected for an
               infrastructure project play a decisive role in determining its
               life-cycle cost. Adopting innovative infrastructure technologies
               can not only improve the quality and resilience of a project but
@@ -111,7 +111,7 @@ export default function TechnicalSolutions() {
             </p>
           </div>
         </Header3>
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <div className="link-text">
             <p>
               Infrastructure technologies include a broad range of new or
@@ -344,7 +344,7 @@ export default function TechnicalSolutions() {
         </div>
       </section>
       <section className="color-dark">
-        <div className="container">
+        <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading on Technical Solutions
           </h2>

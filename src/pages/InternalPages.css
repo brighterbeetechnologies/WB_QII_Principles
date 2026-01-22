@@ -1,0 +1,31 @@
+.internal-pages-container {
+  padding: 2rem;
+}
+
+.link-text {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.num1-para {
+    font-size: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .internal-pages-container {
+    padding: 3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .internal-pages-container {
+    padding: 4rem 8rem;
+  }
+
+  .link-text {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+}

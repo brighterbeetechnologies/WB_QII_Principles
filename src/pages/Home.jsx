@@ -80,14 +80,9 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <div className="bottom-text-1">
-            <p>Want to know more about the fundamentals of QII?</p>
-            <p>
-              <a href="#" target="_blank" className="">
-                Click here
-              </a>
-            </p>
-          </div>
+          <button class="btn-arrow-txt" disabled>
+            Explore The Fundamentals Of QII <span class="icon-arrow"></span>
+          </button>
         </div>
       </section>
       <section className="color-light z-2">

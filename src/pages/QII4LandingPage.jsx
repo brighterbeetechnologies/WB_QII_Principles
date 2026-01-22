@@ -179,7 +179,7 @@ export default function QII4LandingPage() {
 </svg>`,
       title: "Diagnosing vulnerabilities",
       description:
-        "Systematically assessing infrastructure risks and weaknesses to prioritize targeted, effective resilience measures",
+        "Systematically assessing infrastructure risks and weaknesses to prioritize resilience measures",
       path: "/Diagnosing-vulnerabilities",
     },
     {
@@ -205,7 +205,7 @@ export default function QII4LandingPage() {
 </svg>`,
       title: "Resilient design and operation",
       description:
-        "Integrating climate-smart and adaptive practices into infrastructure planning, construction, and management to ensure long-term reliability",
+        "Integrating climate-smart and adaptive practices into infrastructure planning, construction, and management",
       path: "/Resilient-design&operation",
     },
     {
@@ -285,7 +285,7 @@ export default function QII4LandingPage() {
 </svg>`,
       title: "Financing resilience",
       description:
-        "Mobilizing dedicated and sustainable funding sources to support resilient infrastructure investments and ongoing risk management",
+        "Mobilizing dedicated funding sources to support resilient infrastructure investments and ongoing risk management",
       path: "/Financing-resilience",
     },
     {
@@ -321,7 +321,7 @@ export default function QII4LandingPage() {
 </svg>`,
       title: "Managing cybersecurity risks",
       description:
-        "Implementing robust safeguards and protocols to protect critical infrastructure from digital threats and service interruptions",
+        "Implementing safeguards to protect critical infrastructure from digital threats and service interruptions",
       path: "/Managing-cyber-security-risks",
     },
   ];
@@ -390,12 +390,12 @@ export default function QII4LandingPage() {
           </Header3>
         </section>
         <section className="">
-          <div className="container">
+          <div className="container internal-pages-cards">
             <div className="center-header">
-              <h1 className="light-font mBottom">
+              <h3 className="light-font mBottom sub-text ">
                 To turn the principle of 'Resilience' into practice, we focus on
                 four key actionable aspects:
-              </h1>
+              </h3>
             </div>
             <div className="sub-pages">
               {subPages.map((page, i) => (
@@ -675,6 +675,7 @@ export default function QII4LandingPage() {
                 const el = document.getElementById("resourcesSection");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
+              disabled
             >
               View All <span className="icon-arrow">&#xe900;</span>
             </button>

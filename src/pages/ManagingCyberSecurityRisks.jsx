@@ -88,17 +88,18 @@ export default function ManagingCyberSecurityRisks() {
           </div>
         </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <p className="list-title">
             The following resources provide more details on the key
             interventions needed to systematically build cybersecurity into
             infrastructure planning, design and operations:
           </p>
           <NumSteps num="1">
-            <strong>Building a foundation for cybersecurity : </strong> <br />This
-            includes assessing cybersecurity maturity, developing strategies and
-            legal frameworks, establishing cybersecurity governance structures,
-            and strengthening institutions for implementation.
+            <strong>Building a foundation for cybersecurity : </strong> <br />
+            This includes assessing cybersecurity maturity, developing
+            strategies and legal frameworks, establishing cybersecurity
+            governance structures, and strengthening institutions for
+            implementation.
           </NumSteps>
 
           <div className="VCard-cnt col3">
@@ -125,8 +126,10 @@ export default function ManagingCyberSecurityRisks() {
               image="images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png"
               title={
                 <p>
-                  <strong>UK: The Cyber Assessment Framework </strong>(CAF)
-                  (National Cyber Security Center, UK)
+                  UK <br />
+                  <strong>The Cyber Assessment Framework </strong>
+                  <br />
+                  (CAF) (National Cyber Security Center, UK)
                 </p>
               }
               buttonText="Guidance"
@@ -143,8 +146,9 @@ export default function ManagingCyberSecurityRisks() {
               image="images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).png"
               title={
                 <p>
-                  <strong>Sectoral Cybersecurity Maturity Model </strong>(World
-                  Bank)
+                  <strong>Sectoral Cybersecurity Maturity Model </strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Guidance"
@@ -157,14 +161,13 @@ export default function ManagingCyberSecurityRisks() {
                 guide investment and policy decisions.
               </p>
             </VCard>
-          </div>
-          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png"
               title={
                 <p>
-                  <strong>Cybersecurity Economics for Emerging Markets </strong>
-                  (World Bank)
+                  <strong>Cybersecurity Economics for Emerging Markets </strong>{" "}
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Report"
@@ -183,10 +186,12 @@ export default function ManagingCyberSecurityRisks() {
               image="images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png"
               title={
                 <p>
+                  Ghana <br />
                   <strong>
-                    Ghana: A case study in strengthening cyber resilience{" "}
+                    A case study in strengthening cyber resilience{" "}
                   </strong>
-                  (World Bank)
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Case study"
@@ -203,8 +208,8 @@ export default function ManagingCyberSecurityRisks() {
 
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Implementing cyber security in practice : </strong> <br />This
-            involves evaluating critical cybersecurity risks and putting
+            <strong>Implementing cyber security in practice : </strong> <br />
+            This involves evaluating critical cybersecurity risks and putting
             practical measures in place to manage and lower these risks.
           </NumSteps>
 
@@ -213,7 +218,8 @@ export default function ManagingCyberSecurityRisks() {
               image="images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png"
               title={
                 <p>
-                  <strong>Cybersecurity best practice for smart cities </strong>
+                  <strong>Cybersecurity best practice for smart cities </strong>{" "}
+                  <br />
                   (CISA)
                 </p>
               }
@@ -233,7 +239,8 @@ export default function ManagingCyberSecurityRisks() {
               image="images/qii4/ManagingCyberSecurityRisks/Canada the cyber threat environment.png"
               title={
                 <p>
-                  <strong>Canada: the cyber threat environment</strong>
+                  Canada <br />
+                  <strong>The cyber threat environment</strong>
                 </p>
               }
               buttonText="Guidance"

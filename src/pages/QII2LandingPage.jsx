@@ -13,14 +13,25 @@ import {
 } from "../slices/appDataSlice";
 import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
+import ImagewithStatement from "../components/ImagewithStatement";
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [preSelectedResources, setPreSelectedResources] = useState([
+    {
+      show: true,
+      category: "QII Principle",
+      title: "QII.2 Economic Efficiency",
+      id: 1,
+    },
+  ]);
   const resourceArray = [
     {
       id: 0,
-      title: "Ganga River Wastewater Program ​World Bank",
+      title: "Ganga River Wastewater Program",
+      country: "India",
+      org: "World Bank",
       description:
         "Summarizes a procurement approach for a life project where annuity payments were linked to long-term O&M performance.",
       img_path: "images/qii2/Ganga_case_study.png",
@@ -30,7 +41,9 @@ export default function QII2LandingPage() {
     {
       id: 1,
       title:
-        "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies​ World Bank",
+        "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies",
+      country: false,
+      org: "World Bank",
       description:
         "Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
       img_path: "images/governance/list/05.jpg",
@@ -39,7 +52,9 @@ export default function QII2LandingPage() {
     },
     {
       id: 2,
-      title: "Life-Cycle Costing in Public Procurement in Hungary​ OECD",
+      title: "Life-Cycle Costing in Public Procurement in Hungary",
+      country: "Hungary",
+      org: "Organisation for Economic Co-operation and Development",
       description:
         "Analyzes Hungary's policy framework and current practices and provides recommendations for promoting LCC adoption in public procurement.",
       img_path: "images/governance/list/01.jpg",
@@ -109,7 +124,7 @@ export default function QII2LandingPage() {
         "Sustains assets through tariffs, user fees, and performance-based financing.",
       path: "/costrecovery",
     },
-  ];
+  ];  
 
   // const topResources = [
   //   [
@@ -180,7 +195,7 @@ export default function QII2LandingPage() {
                   Costing (LCC), a forward-thinking approach to infrastructure
                   investment. Instead of focusing solely on upfront costs, LCC
                   considers all costs – planning, design, construction,
-                  operations, maintenance and eventual disposal – thereby
+                  operations, maintenance, and eventual disposal – thereby
                   maximizing the efficiency of spending over the entire lifespan
                   of an infrastructure project. ​
                 </p>
@@ -191,7 +206,7 @@ export default function QII2LandingPage() {
             </div>
           </Header3>
         </section>
-        <div className="container">
+        <div className="container internal-pages-cards">
           <div className="center-header">
             <h1 className="light-font mBottom">
               Building Blocks of Adopting a Life Cycle Costing Approach
@@ -230,7 +245,7 @@ export default function QII2LandingPage() {
           </div>
         </div>
       </section>
-      <Header3 img="images/qii2/qii2_img2.png">
+      {/* <Header3 img="images/qii2/qii2_img2.png">
         <p>
           Incorporating <strong>life cycle costing</strong> into infrastructure
           planning and decision-making helps break the costly cycle of
@@ -240,6 +255,13 @@ export default function QII2LandingPage() {
           can make smarter investments that deliver better value over time.
         </p>
       </Header3>
+       */}
+      <ImagewithStatement
+        backgroundImage={"images/qii2/qii2_img2.png"}
+        text={
+          "When the building blocks are missing, infrastructure falls into a familiar and costly trap."
+        }
+      />
       <section className="color-light">
         <div className="container ">
           <div className="video-text-cnt">
@@ -265,19 +287,28 @@ export default function QII2LandingPage() {
               </div>
             </div>
             <div className="text-cnt">
-              <h1 className="light-font mBottom">
+              {/* <h1 className="light-font mBottom">
                 Why Life Cycle Costing Matters
-              </h1>
+              </h1> */}
               <h3 className="light-font sub-text">
-                Too often, infrastructure projects fall into the{" "}
-                <strong>'Build-Neglect-Rebuild'</strong> trap—leading to
-                inefficiencies, higher costs, and wasted resources. These can be
-                caused by:
+                The <strong>'Build-Neglect-Rebuild'</strong> cycle leads to
+                inefficiencies, higher costs, and wasted resources. Common
+                causes include:
               </h3>
               <TextIconCarousal data={textCrData} />
             </div>
           </div>
         </div>
+      </section>
+      <section className="container internal-pages-container color-dark">
+        <h3 class="statement-text">
+          <strong>Life cycle costing</strong> breaks this cycle. <br />
+          <br />
+          By accounting for the <strong>total cost of service delivery</strong>,
+          governments and institutions can make smarter investments that deliver
+          better value over time.
+        </h3>
+        <h1 className="light-font "></h1>
       </section>
       <section className="qii_video_landing_page color-light">
         <img
@@ -291,8 +322,8 @@ export default function QII2LandingPage() {
             className="video-play-btn icon-play"
             onClick={() => {
               openVideo(
-                "./video/LandingPageVideo.mp4",
-                "Lessons from Success Stories",
+                "./video/FukuokaCaseStudy.mp4",
+                "QII.2 in Action",
                 1920,
                 1080,
               );
@@ -302,7 +333,7 @@ export default function QII2LandingPage() {
           </button>
         </div>
         <div className="qii-video-text-cnt">
-          <p className="video-title">QII 2 in Action</p>
+          <p className="video-title">QII.2 in Action</p>
           <p className="video-desc">
             Fukuoka City’s water management success story showcases the
             transformative power of LCC, aligning economic efficiency with
@@ -381,7 +412,18 @@ export default function QII2LandingPage() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
+                        {p.country && (
+                          <>
+                            <span>{p.country}</span> <br />
+                          </>
+                        )}
                         <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -393,7 +435,18 @@ export default function QII2LandingPage() {
                     </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.title}
+                          {p.country && (
+                            <>
+                              <span>{p.country}</span> <br />
+                            </>
+                          )}
+                          <strong>{p.title}</strong>
+                          {p.org && (
+                            <>
+                              <br />
+                              <span>{p.org}</span>
+                            </>
+                          )}
                         </div>
                         <div className="page-resource-description">
                           {p.description}
@@ -439,7 +492,22 @@ export default function QII2LandingPage() {
               onClick={() => {
                 const el = document.getElementById("resourcesSection");
                 el?.scrollIntoView({ behavior: "smooth" });
+                setPreSelectedResources([
+                  {
+                    show: true,
+                    category: "QII Principle",
+                    title: "QII.2 Economic Efficiency",
+                    id: 1,
+                  },
+                  {
+                    show: true,
+                    category: "Media Type",
+                    title: "Case Study",
+                    id: 1,
+                  },
+                ]);
               }}
+              // disabled
             >
               View All <span className="icon-arrow">&#xe900;</span>
             </button>
@@ -449,14 +517,7 @@ export default function QII2LandingPage() {
       <section className="color-light z-2" id="resourcesSection">
         <ResourceLibrary
           subPages={subPages}
-          preSelected={[
-            {
-              show: true,
-              category: "QII Principle",
-              title: "QII.2 Economic Efficiency",
-              id: 1,
-            },
-          ]}
+          preSelected={preSelectedResources}
         ></ResourceLibrary>
       </section>
     </div>

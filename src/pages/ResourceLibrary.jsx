@@ -86,7 +86,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
   //     setSelectedPrinciple(preSelected);
   //   }
   // }, []);
-
+  
   // Apply filter logic
   useEffect(() => {
     const principleFilters = selectedFilters

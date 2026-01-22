@@ -59,7 +59,7 @@
   cursor: pointer;
   text-align: left;
   transition: all 0.3s;
-  border-radius: 6px;
+  border-radius: 14px;
 }
 
 .faq-page .category-btn:hover {

@@ -50,6 +50,12 @@
   width: 100%;
 }
 
+.principle-card .card-body img {
+  width: 101%;
+  height: 101%;
+  object-fit: cover;
+}
+
 .principle-card .card-arrow {
   position: absolute;
   right: 12px;
@@ -172,6 +178,29 @@
   display: none;
 }
 
+.btn-arrow-txt {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 50px;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.btn-arrow-txt:hover {
+  color: #ffffff;
+  background: #00a996;
+}
+
+.btn-arrow-txt:disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}
 
 @media (min-width: 480px) {
   .landing_page_bg {
@@ -278,11 +307,10 @@
   .landing_page {
     min-height: 600px;
   }
-  
 
-.scroll-icon {
-  display: block;
-}
+  .scroll-icon {
+    display: block;
+  }
 
   .landing_page_bg {
     clip-path: circle(50%);
