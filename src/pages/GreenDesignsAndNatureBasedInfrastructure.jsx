@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Procurement.css";
+import "./GreenDesignsAndNatureBasedInfrastructure.css";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
 import HeaderCarousal from "../components/HeaderCarousal";
@@ -14,20 +14,19 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       setBradcrump({
         show: true,
         dir: [
-           
-          { path: "/qii3", title: "Environment" },
+          { path: "/qii3", title: "QII.3 Environment" },
           {
             path: "/GreenDesigns&Nature-BasedInfrastructure",
             title: "Green Designs And Nature Based Infrastructure",
           },
         ],
-      })
+      }),
     );
   }, []);
   return (
-    <div className="procurement">
+    <div className="GreenDesignsAndNatureBasedInfrastructure">
       <section className="color-light">
-        <Header3
+        {/* <Header3
           img="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/shutterstock_2477739245.png"
           title="Green Designs And Nature Based Infrastructure"
         >
@@ -40,8 +39,37 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             regulation. Taken together, these concepts strengthen both
             infrastructure performance and environmental outcomes.
           </p>
+        </Header3> */}
+        <Header3
+          img="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/shutterstock_2477739245.png"
+          title={"Green Designs And Nature Based Infrastructure"}
+          hideDeskTitle={true}
+        >
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii3.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">
+                Green Designs And Nature Based Infrastructure
+              </h1>
+            </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              Green design offers a comprehensive approach to sustainable
+              infrastructure, combining resilient engineering approaches with
+              ecosystem protection across the project lifecycle. Nature-based
+              Solutions (NbS), a subset of green design, harness natural systems
+              to deliver services such as flood mitigation and temperature
+              regulation. Taken together, these concepts strengthen both
+              infrastructure performance and environmental outcomes.
+            </p>
+          </div>
         </Header3>
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <NumSteps num="1">
             <strong>Green Design </strong>
             <br />
@@ -180,6 +208,90 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             Nature-based infrastructure can help deliver:
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
+          <div className="internal-pages-container icon-text-cards-container">
+            <div className="icon-text-cards">
+              <div className="icon-img">
+                <img src="images/qii3/icon.svg" alt="" />
+              </div>
+              <div className="icon-text-cards-description">
+                <span className="icon-text-cards-title">CLEAN WATER:</span>
+                <span className="icon-text-cards-detail">
+                  <ul>
+                    <li>Improve water quality by reducing chemical,</li>
+                    <li>
+                      Improve water quality by removing pollutants in wastewater
+                      such as solids and pathogens
+                    </li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div className="icon-text-cards">
+              <div className="icon-img">
+                <img src="images/qii3/icon.svg" alt="" />
+              </div>
+              <div className="icon-text-cards-description">
+                <span className="icon-text-cards-title">EROSION CONTROL:</span>
+                <span className="icon-text-cards-detail">
+                  <ul>
+                    <li>Stabilize steep slopes and degraded areas </li>
+                    <li>
+                     Reduce number of landslides in the surrounding environment of infrastructure
+                    </li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div className="icon-text-cards">
+              <div className="icon-img">
+                <img src="images/qii3/icon.svg" alt="" />
+              </div>
+              <div className="icon-text-cards-description">
+                <span className="icon-text-cards-title">FLOOD MANAGEMENT:</span>
+                <span className="icon-text-cards-detail">
+                  <ul>
+                    <li>Protect and increase the resilience of communities and assets from flooding </li>
+                    <li>
+                      Reduce peak flow (the maximum rate of flow water passing a given point following rainfall)5
+                    </li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+           <div className="icon-text-cards">
+              <div className="icon-img">
+                <img src="images/qii3/icon.svg" alt="" />
+              </div>
+              <div className="icon-text-cards-description">
+                <span className="icon-text-cards-title">COASTAL PROTECTION:</span>
+                <span className="icon-text-cards-detail">
+                  <ul>
+                    <li>Protect coastal urban areas and assets from erosion, storm surges, damage from wave energy, and sea level rise.</li>
+                    {/* <li>
+                      Improve water quality by removing pollutants in wastewater
+                      such as solids and pathogens
+                    </li> */}
+                  </ul>
+                </span>
+              </div>
+            </div>
+            <div className="icon-text-cards">
+              <div className="icon-img">
+                <img src="images/qii3/icon.svg" alt="" />
+              </div>
+              <div className="icon-text-cards-description">
+                <span className="icon-text-cards-title">WATER SECURTY:</span>
+                <span className="icon-text-cards-detail">
+                  <ul>
+                    <li>Improve water retention </li>
+                    <li>
+                      Contribute to water supply reliability
+                    </li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          </div>
           <div className="VCard-cnt col3">
             <VCard
               image=""
@@ -225,7 +337,9 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
               image=""
               title={
                 <p>
-                  <strong>The Nature-Based Solutions Opportunity Scan </strong>{" "}
+                  <strong>
+                    The Nature-Based Solutions Opportunity Scan{" "}
+                  </strong>{" "}
                 </p>
               }
               buttonText="Guidance"
@@ -255,7 +369,8 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
               <p>
                 The report assesses opportunities and barriers for mobilizing
                 private finance and investment into climateadaptation and
-                naturebased infrastructure in emerging and developing economies.{" "}
+                naturebased infrastructure in emerging and developing
+                economies.{" "}
               </p>
             </VCard>
 
@@ -274,7 +389,8 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                 engineering for coastal infrastructure protection under a
                 renewable energy project. Facing tidal damage to roads, turbine
                 platforms, and cables, the project opted for NBS instead of grey
-                infrastructure, saving an estimated USD 7 million over 25 years.{" "}
+                infrastructure, saving an estimated USD 7 million over 25
+                years.{" "}
               </p>
             </VCard>
 
@@ -287,7 +403,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
               }
               buttonText="Case Study"
               // link="https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4"
-              link= "/#/qii4casestudy1"
+              link="/#/qii4casestudy1"
             >
               <p>
                 Demonstrates how green infrastructure can be integrated with

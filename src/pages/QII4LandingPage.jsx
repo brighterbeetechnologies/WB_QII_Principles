@@ -90,40 +90,40 @@ export default function QII4LandingPage() {
     },
   ];
 
-  const topResources = [
-    [
-      {
-        id: 4,
-        paths: "/",
-        type: "Programs",
-        title: "World Bank Tokyo Disaster Risk Management (DRM) Hub",
-        highlight: true,
-        principles: 3,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii4/Fukuoka image.png",
-        topResource: true,
-      },
-      {
-        id: 4,
-        paths: "/",
-        type: "Programs",
-        title: "Global Facility For Disaster Reduction And Recovery",
-        highlight: true,
-        principles: 3,
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii4/Ganga-case-study-image.png",
-        topResource: true,
-      },
-    ],
-  ];
+  // const topResources = [
+  //   [
+  //     {
+  //       id: 4,
+  //       paths: "/",
+  //       type: "Programs",
+  //       title: "World Bank Tokyo Disaster Risk Management (DRM) Hub",
+  //       highlight: true,
+  //       principles: 3,
+  //       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
+  //       format: 5,
+  //       stage: 4,
+  //       region: 1,
+  //       industry: 1,
+  //       image: "images/qii4/Fukuoka image.png",
+  //       topResource: true,
+  //     },
+  //     {
+  //       id: 4,
+  //       paths: "/",
+  //       type: "Programs",
+  //       title: "Global Facility For Disaster Reduction And Recovery",
+  //       highlight: true,
+  //       principles: 3,
+  //       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
+  //       format: 5,
+  //       stage: 4,
+  //       region: 1,
+  //       industry: 1,
+  //       image: "images/qii4/Ganga-case-study-image.png",
+  //       topResource: true,
+  //     },
+  //   ],
+  // ];
 
   const resourceArray = [
     {
@@ -675,7 +675,7 @@ export default function QII4LandingPage() {
                 const el = document.getElementById("resourcesSection");
                 el?.scrollIntoView({ behavior: "smooth" });
               }}
-              disabled
+              // disabled
             >
               View All <span className="icon-arrow">&#xe900;</span>
             </button>
@@ -716,6 +716,12 @@ export default function QII4LandingPage() {
               title: "QII.4 Resilience",
               id: 3,
             },
+            // {
+            //   show: true,
+            //   category: "Media Type",
+            //   title: "Case Study",
+            //   id: 1,
+            // },
           ]}
         ></ResourceLibrary>
       </section>

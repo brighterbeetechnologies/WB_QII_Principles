@@ -1,57 +1,104 @@
+.QualityEnvironmentalStandards .list-title {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
 @media (max-width: 649px) {
+  .QualityEnvironmentalStandards .Header3 .container {
+    padding-bottom: 0;
+  }
 
-	.container.noPTop {
-		padding-top: 1rem;
-	}
+  .container.noPTop {
+    padding-top: 1rem;
+  }
+  .QualityEnvironmentalStandards .hero {
+    height: 360px;
+  }
+
+  .QualityEnvironmentalStandards .hero-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .QualityEnvironmentalStandards .hero-content {
+    bottom: 2rem;
+  }
+
+  .QualityEnvironmentalStandards .hero-content p {
+    font-size: 0.875rem;
+  }
 }
+
+@media (max-width: 767px) {
+  .QualityEnvironmentalStandards .list-title {
+    text-align: left;
+  }
+}
+
 @media (min-width: 768px) {
-  .top-resource-card-cnt-qii4 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    justify-content: center;
-    max-width: 1270px;
-    margin: 1.25rem auto;
-    padding-bottom: 3rem;
+  .QualityEnvironmentalStandards .border {
+ .list-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+}
+}
+
+@media (min-width: 992px) {
+  .QualityEnvironmentalStandards .list-title {
+    text-align: left;
   }
 }
 
-
-@media (min-width: 1200px) {
-  .top-resource-card-cnt-qii4 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-
-.procurement .border {
-	border: 1px dashed rgba(134, 134, 134, 0.5);
-	margin: 2rem 1rem;
+.QualityEnvironmentalStandards .border {
+  border: 1px dashed rgba(134, 134, 134, 0.5);
+  margin: 2rem 1rem;
 }
 
 .VCard-cnt {
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .v-small-text {
-	text-align: center;
-	margin    : 1rem 0 0 0;
-	font-size : 0.9375rem;
+  text-align: center;
+  margin: 1rem 0 0 0;
+  font-size: 0.9375rem;
 }
 
 @media (min-width: 1024px) {
 
-	.procurement .mTop2 {
-		margin: 3rem 0;
-	}
+  .QualityEnvironmentalStandards .mTop2 {
+    margin: 3rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .QualityEnvironmentalStandards .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
+  }
 }
 
 @media (min-width: 1400px) {
-	.procurement .mTop2 {
-		margin: 3rem 0;
-	}
+
+  .QualityEnvironmentalStandards .mTop2 {
+    margin: 3rem 0;
+  }
+  .QualityEnvironmentalStandards .hero {
+    height: 640px;
+  }
+  .QualityEnvironmentalStandards .hero-content h3 {
+    font-size: 3.25rem;
+  }
+
+  .QualityEnvironmentalStandards .hero-content p {
+    font-size: 1.125rem;
+  }
+  .QualityEnvironmentalStandards .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 2.5rem 0;
+  }
 }
 
 @media (min-width: 1600px) {
-
 }

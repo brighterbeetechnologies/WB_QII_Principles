@@ -17,28 +17,42 @@ export default function QualityEnvironmentalStandards() {
       setBradcrump({
         show: true,
         dir: [
-           
-          { path: "/qii3", title: "Environment" },
+          { path: "/qii3", title: "QII.3 Environment" },
           {
             path: "/QualityEnvironmentalStandards",
             title: "Quality Environmental Standards",
           },
         ],
-      })
+      }),
     );
   }, []);
   return (
-    <div className="procurement">
+    <div className="QualityEnvironmentalStandards">
       <section className="color-light">
         <Header3
           img="images/qii3/Quality-Environmental-Standards/shutterstock_2477739245.png"
-          title="Quality Environmental Standards"
+          title={"Quality Environmental Standards"}
+          hideDeskTitle={true}
         >
-          <p className="light-font">
-            Quality environmental standards are the foundation of good
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii3.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">
+                Quality Environmental Standards
+              </h1>
+            </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              Quality environmental standards are the foundation of good
             infrastructure project development. They are also a requirement for
             project developers seeking to attract credible investors.
-          </p>
+            </p>
+          </div>
         </Header3>
         <div className="container noPTop">
           <div className="link-text">
@@ -219,8 +233,7 @@ export default function QualityEnvironmentalStandards() {
                 UN Sustainable Development Goals.
               </p>
             </VCard>
-            <div className="VCard-cnt col1">
-              <VCard
+            <VCard
                 image="images/newresource/BREEAM-Infrastructure.png"
                 title={
                   <p>
@@ -239,7 +252,6 @@ export default function QualityEnvironmentalStandards() {
                   to define its criteria.{" "}
                 </p>
               </VCard>
-            </div>
           </div>
         </div>
       </section>
@@ -260,7 +272,7 @@ export default function QualityEnvironmentalStandards() {
               investors.
             </div>
           </div>
-          <div className="top-resource-card-cnt-qii4">
+          {/* <div className="top-resource-card-cnt-qii4">
             <TopResourceCard
               image="images/newresource/Blue-Dot-Network.png"
               title={<p>Blue Dot Network </p>}
@@ -273,11 +285,11 @@ export default function QualityEnvironmentalStandards() {
               buttonText=""
               link="https://www.fastinfralabel.org/"
             ></TopResourceCard>
-          </div>
+          </div> */}
         </div>
       </section>
-      <section className="color-light">
-        <div className="link-text">
+      <section className="container internal-pages-container color-light">
+        <div className="section-title">
           <strong>
             Additional Framing Documentation on the importance of Quality
             Standards
@@ -352,7 +364,8 @@ export default function QualityEnvironmentalStandards() {
           infrastructure planning and development, please navigate to{" "}
           <Link to="/qii6">
             <strong>QII 6: Governance</strong>
-          </Link>.
+          </Link>
+          .
         </div>
       </section>
     </div>

@@ -27,6 +27,7 @@ import QII4CaseStudy1 from "./pages/CaseStudy/QII4CaseStudy1.jsx";
 import QII4CaseStudy2 from "./pages/CaseStudy/QII4CaseStudy2.jsx";
 import QII4CaseStudy3 from "./pages/CaseStudy/QII4CaseStudy3.jsx";
 import QII4CaseStudy4 from "./pages/CaseStudy/QII4CaseStudy4.jsx";
+import Decarbonizing_Infrastructure from "./pages/Decarbonizing_Infrastructure.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -219,6 +220,14 @@ export const router = createHashRouter([
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
 						<GreenFinancingforInfrastructure />
+					</Suspense>
+				),
+			},
+			{
+				path: "/DecarbonizingInfrastructure",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Decarbonizing_Infrastructure />
 					</Suspense>
 				),
 			},

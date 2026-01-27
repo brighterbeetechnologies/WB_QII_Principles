@@ -1,0 +1,201 @@
+.DecarbonizingInfrastructure .list-title {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-section {
+  padding: 4rem 0 4rem 4rem;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-img {
+  width: 70%;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description h2 {
+  margin: 1rem 1rem 0 1rem;
+  font-size: 1.5rem;
+  color: #002244;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-details {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-details-subtitle {
+  font-size: 1.3rem;
+}
+
+.DecarbonizingInfrastructure
+  .Decarbonizing-Infrastructure-details-subtitle-details {
+  font-size: 1rem;
+}
+
+@media (max-width: 649px) {
+  .DecarbonizingInfrastructure .Header3 .container {
+    padding-bottom: 0;
+  }
+
+  .container.noPTop {
+    padding-top: 1rem;
+  }
+  .DecarbonizingInfrastructure .hero {
+    height: 360px;
+  }
+
+  .DecarbonizingInfrastructure .hero-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .DecarbonizingInfrastructure .hero-content {
+    bottom: 2rem;
+  }
+
+  .DecarbonizingInfrastructure .hero-content p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .DecarbonizingInfrastructure .list-title {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .DecarbonizingInfrastructure .border {
+    .list-title {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media (max-width: 845px) {
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-section {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-img {
+    width: 100%;
+  }
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    justify-content: left;
+    align-content: left;
+  }
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description h2 {
+    margin: 1rem 1rem 0 1rem;
+    font-size: 1.3rem;
+    color: #002244;
+  }
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-details {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-details-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-details-subtitle-details {
+    font-size: 1rem;
+  }
+
+  .Decarbonizing-Infrastructure-section .color-dark {
+    background: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .DecarbonizingInfrastructure .list-title {
+    text-align: left;
+  }
+}
+
+.DecarbonizingInfrastructure .border {
+  border: 1px dashed rgba(134, 134, 134, 0.5);
+  margin: 2rem 1rem;
+}
+
+.VCard-cnt {
+  margin-bottom: 2rem;
+}
+
+.v-small-text {
+  text-align: center;
+  margin: 1rem 0 0 0;
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 1024px) {
+  .DecarbonizingInfrastructure .mTop2 {
+    margin: 3rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .DecarbonizingInfrastructure .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .DecarbonizingInfrastructure .mTop2 {
+    margin: 3rem 0;
+  }
+  .DecarbonizingInfrastructure .hero {
+    height: 640px;
+  }
+  .DecarbonizingInfrastructure .hero-content h3 {
+    font-size: 3.25rem;
+  }
+
+  .DecarbonizingInfrastructure .hero-content p {
+    font-size: 1.125rem;
+  }
+  .DecarbonizingInfrastructure .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 2.5rem 0;
+  }
+}
+
+@media (min-width: 1600px) {
+}

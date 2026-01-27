@@ -14,14 +14,13 @@ export default function GreenFinancingforInfrastructure() {
       setBradcrump({
         show: true,
         dir: [
-           
-          { path: "/qii3", title: "Environment" },
+          { path: "/qii3", title: "QII.3 Environment" },
           {
             path: "/GreenFinancingforInfrastructure",
             title: "Green Financing for Infrastructure",
           },
         ],
-      })
+      }),
     );
   }, []);
   return (
@@ -29,18 +28,33 @@ export default function GreenFinancingforInfrastructure() {
       <section className="color-light">
         <Header3
           img="images/qii3/GreenFinancingforInfrastructure/shutterstock_2477739245.png"
-          title="Green Financing for Infrastructure"
+          title={"Green Financing for Infrastructure"}
+          hideDeskTitle={true}
         >
-          <p className="light-font">
-            How do we incentivize infrastructure projects that generate positive
-            environmental impacts when those benefits often fall outside the
-            project's revenue stream? Green finance solutions, spanning
-            sustainable investment and carbon finance, help rebalance this
-            equation by channeling capital toward projects that deliver
-            measurable environmental gains.
-          </p>
+          <div className="hero-content">
+            <div className="header-3-subpages">
+              <img
+                src="images/UpdatedAssets/Qii3.svg"
+                alt="Qii2 logo"
+                className="qii-badge"
+              />
+              <h1 className="header-title desk-title">
+                Green Financing for Infrastructure
+              </h1>
+            </div>
+          </div>
+          <div className="subpage-description">
+            <p className="light-font">
+              How do we incentivize infrastructure projects that generate
+              positive environmental impacts when those benefits often fall
+              outside the project's revenue stream? Green finance solutions,
+              spanning sustainable investment and carbon finance, help rebalance
+              this equation by channeling capital toward projects that deliver
+              measurable environmental gains.
+            </p>
+          </div>
         </Header3>
-        <div className="container noPTop">
+        <div className="container internal-pages-container">
           <p className="link-text">
             <strong>Sustainable Infrastructure Finance</strong>
             <br />
@@ -122,8 +136,6 @@ export default function GreenFinancingforInfrastructure() {
                 specifically for infrastructure investments.{" "}
               </p>
             </VCard>
-          </div>
-          <div className="VCard-cnt col1">
             <VCard
               image="images/qii3/GreenFinancingforInfrastructure/Sector-Specific Criteria.png"
               title={
@@ -221,8 +233,6 @@ export default function GreenFinancingforInfrastructure() {
                 coastal protection.
               </p>
             </VCard>
-          </div>
-          <div className="VCard-cnt col2">
             <VCard
               image="images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png"
               title={
@@ -244,7 +254,6 @@ export default function GreenFinancingforInfrastructure() {
                 reduced if Corsan met pre-agreed reductions in water losses.
               </p>
             </VCard>
-
             <VCard
               image="images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png"
               title={

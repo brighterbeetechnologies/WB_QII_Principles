@@ -301,7 +301,7 @@ export default function QII2LandingPage() {
         </div>
       </section>
       <section className="container internal-pages-container color-dark">
-        <h3 class="statement-text">
+        <h3 className="statement-text">
           <strong>Life cycle costing</strong> breaks this cycle. <br />
           <br />
           By accounting for the <strong>total cost of service delivery</strong>,
@@ -327,7 +327,7 @@ export default function QII2LandingPage() {
                 1920,
                 1080,
               );
-            }}
+            }} 
           >
             &#xe91e;
           </button>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./QIILandingPage.css";
-import "./QII4LandingPage.css";
-import "./QII3LandingPage.css";
+// import "./QII4LandingPage.css";
+// import "./QII3LandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
 import Header3 from "../components/Header3";
 import { Link, useNavigate } from "react-router-dom";
@@ -13,10 +13,21 @@ import {
   setShowVideo,
   setVideoData,
 } from "../slices/appDataSlice";
+import CardBox from "../components/CardBox";
+import { Popover, Tooltip } from "antd";
+import ImagewithStatement from "../components/ImagewithStatement";
 
 export default function QII3LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const [preSelectedResources, setPreSelectedResources] = useState([
+    {
+      show: true,
+      category: "QII Principle",
+      title: "QII.3 Environment",
+      id: 2,
+    },
+  ]);
   const textCrData = [
     {
       id: 0,
@@ -85,20 +96,22 @@ export default function QII3LandingPage() {
     },
     {
       id: 1,
-      title:
-        "Climate Toolkits for Infrastructure PPPs World Bank",
+      title: "Climate Toolkits for Infrastructure PPPs World Bank",
       description:
         "This toolkit offers practical, step-by-step guidance to integrate climate mitigation and adaptation measures into infrastructure PPPs, helping structure bankable projects that align with climate policies, assess climate risks, and incorporate climate solutions that are technically and financially feasible.",
-      img_path: "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
+      img_path:
+        "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
       path: "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
       target: "_blank",
     },
     {
       id: 2,
-      title: "IFC Performance Standards on Environmental and Social Sustainability",
+      title:
+        "IFC Performance Standards on Environmental and Social Sustainability",
       description:
         "These standards provide a globally recognized framework to identify and manage E&S risks in infrastructure investments, covering a range of key environmental topics including resource efficiency, pollution prevention, and biodiversity conservation.",
-      img_path: "images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png",
+      img_path:
+        "images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png",
       path: "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
       target: "_blank",
     },
@@ -107,7 +120,8 @@ export default function QII3LandingPage() {
       title: "Infrastructure for a Climate-Resilient Future OECD (2024)",
       description:
         "This report provides evidence-based strategies for building climate-resilient infrastructure systems, covering adaptation planning, financing mechanisms, nature-based solutions, and governance frameworks.",
-      img_path: "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
+      img_path:
+        "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
       path: "https://doi.org/10.1787/a74a45b0-en",
       target: "_blank",
     },
@@ -121,43 +135,46 @@ export default function QII3LandingPage() {
     dispatch(
       setBradcrump({
         show: true,
-        dir: [{ path: "/qii3", title: "Environment" }],
+        dir: [{ path: "/qii3", title: "QII.3 Environment" }],
       }),
     );
   }, []);
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        {/* <img
-          className="desk_image"
-          src="images/qii3/QII3_Landing main.png"
-          alt=""
-        />
-        <img
-          className="mob_image"
-          src="images/qii4/QII2_Landing_main.png"
-          alt=""
-        /> */}
-        <div className="hero-wrapper">
-          <img
-            className="desk_image"
-            src="images/qii3/QII3_Landing main.png"
-            alt=""
-          />
-          <img
-            className="mob_image"
-            src="images/qii3/QII3_Landing main.png"
-            alt=""
-          />
-          <div className="hero-content">
-            <h1 className="light-font">Environment</h1>
-          </div>
-        </div>
-        <div className="container">
+        <section className="color-light landingpage-banner">
+          <Header3 img="images/qii3/QII3_Landing_main.png">
+            <div className="langing-page-container">
+              <img
+                src="images/UpdatedAssets/Qii3.svg"
+                alt="landing-page-logo"
+                className="landingpage-logo"
+              />
+              <div className="landingpage-description">
+                <p className="light-font">
+                  Infrastructure accounts for ~79% of global greenhouse gas
+                  emissions, but can also be a driver of environmental solutions
+                  through renewable energy, climate-smart transport, and designs
+                  that work with nature. <br />
+                  QII 3 supports efforts to move beyond "do-no-harm" to actively
+                  promoting positive environmental outcomes throughout a
+                  project's lifecycle.
+                </p>
+                {/* <p className="bold-text">
+                      <strong></strong>
+                    </p> */}
+              </div>
+            </div>
+          </Header3>
+        </section>
+        <div className="container internal-pages-cards">
           <div className="center-header">
             <h1 className="light-font mBottom">
               Pathways to Integrating Environmental Value
             </h1>
+            {/* <h3 className="light-font">
+              
+            </h3> */}
           </div>
           <div className="sub-pages">
             {subPages.map((page, i) => (
@@ -187,6 +204,12 @@ export default function QII3LandingPage() {
           </div>
         </div>
       </section>
+      <ImagewithStatement
+        backgroundImage={"images/qii3/shutterstock_708204115.png"}
+        text={
+          "By accounting for climate impacts, biodiversity risks, and ecosystem services from project conception through delivery, infrastructure becomes a driver of environmental regeneration rather than degradation."
+        }
+      />
       <section className="color-light">
         <div className="container ">
           <div className="video-text-cnt">
@@ -207,7 +230,7 @@ export default function QII3LandingPage() {
                   &#xe91e;
                 </button>
                 <p className="video-title">
-                  <strong></strong>
+                  <strong>The Environmental Challenge and Opportunity</strong>
                 </p>
               </div>
             </div>
@@ -223,16 +246,52 @@ export default function QII3LandingPage() {
             </div>
           </div>
         </div>
-        <Header3 img="images/qii3/shutterstock_708204115.png">
-          <p>
-            By accounting for climate impacts, biodiversity risks, and ecosystem
-            services from project conception through delivery, infrastructure
-            becomes a driver of environmental regeneration rather than
-            degradation.
-          </p>
-        </Header3>
       </section>
-      <section className="q4_landing_page color-dark">
+      <section className="container internal-pages-container color-dark">
+        <h3 className="statement-text">
+          <strong> Infrastructure's Environmental Footprint</strong>
+          <br />
+          <br />
+        </h3>
+        <h1 className="light-font "></h1>
+      </section>
+      <section className="qii_video_landing_page color-light">
+        <img
+          className="qii_video-thumbnail-image"
+          src="images/qii3/Highlight_video_thumbnail.png"
+          alt="video thumbnail"
+        />
+        <div className="qii-video-overlay"></div>
+        <div className="qii-video-cnt">
+          <button
+            className="video-play-btn icon-play"
+            onClick={() => {
+              openVideo(
+                "./video/FukuokaCaseStudy.mp4",
+                "QII.2 in Action",
+                1920,
+                1080,
+              );
+            }}
+          >
+            &#xe91e;
+          </button>
+        </div>
+        <div className="qii-video-text-cnt">
+          <p className="video-title">Lessons from Success Stories</p>
+          <p className="video-desc">
+            How Belgrade transformed decades of waste into clean energy,
+            pioneering a new model for sustainable infrastructure in emerging
+            markets.
+          </p>
+          <Link to="/qii3casestudy1">
+            <button className="btn-primary qii2-video-cta">
+              Explore Case Study <span className="icon-arrow">&#xe900;</span>
+            </button>
+          </Link>
+        </div>
+      </section>
+      {/* <section className="q4_landing_page color-dark">
         <div className="container">
           <div className="qii4-video-card">
             <img
@@ -272,7 +331,7 @@ export default function QII3LandingPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <section className="color-dark ">
         <div className="container">
@@ -334,7 +393,18 @@ export default function QII3LandingPage() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
-                        {p.title}
+                        {p.country && (
+                          <>
+                            <span>{p.country}</span> <br />
+                          </>
+                        )}
+                        <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -343,23 +413,34 @@ export default function QII3LandingPage() {
                         alt={p.title}
                       />
                       {/* <div className="page-resource-img-cnt">
-                    </div> */}
+                          </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.title}
+                          {p.country && (
+                            <>
+                              <span>{p.country}</span> <br />
+                            </>
+                          )}
+                          <strong>{p.title}</strong>
+                          {p.org && (
+                            <>
+                              <br />
+                              <span>{p.org}</span>
+                            </>
+                          )}
                         </div>
                         <div className="page-resource-description">
                           {p.description}
                         </div>
                         {/* <Popover
-                          content={p.description}
-                          title={p.title}
-                          trigger="click"
-                        >
-                          <div className="page-resource-description">
-                            Read More...
-                          </div>
-                        </Popover> */}
+                                content={p.description}
+                                title={p.title}
+                                trigger="click"
+                              >
+                                <div className="page-resource-description">
+                                  Read More...
+                                </div>
+                              </Popover> */}
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a
@@ -392,15 +473,33 @@ export default function QII3LandingPage() {
               onClick={() => {
                 const el = document.getElementById("resourcesSection");
                 el?.scrollIntoView({ behavior: "smooth" });
+                setPreSelectedResources([
+                  {
+                    show: true,
+                    category: "QII Principle",
+                    title: "QII.3 Environment",
+                    id: 2,
+                  },
+                  {
+                    show: true,
+                    category: "Media Type",
+                    title: "Case Study",
+                    id: 2,
+                  },
+                ]);
               }}
+              // disabled
             >
               View All <span className="icon-arrow">&#xe900;</span>
             </button>
           </div>
         </div>
       </section>
-      <section className="color-light z-2">
-        <ResourceLibrary subPages={subPages}></ResourceLibrary>
+      <section className="color-light z-2" id="resourcesSection">
+        <ResourceLibrary
+          subPages={subPages}
+          preSelected={preSelectedResources}
+        ></ResourceLibrary>
       </section>
     </div>
   );

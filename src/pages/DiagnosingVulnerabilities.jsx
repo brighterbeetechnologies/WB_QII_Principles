@@ -9,26 +9,26 @@ import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 
 export default function DiagnosingVulnerabilities() {
-  const slidesData = [
-    {
-      img: "images/qii4/DiagnosingVulnerabilities/header_bg_1.png",
-      description:
-        "The procurement process sets the foundation for the economic efficiency of an infrastructure project. Procurement processes that create incentives to minimize life cycle costs can lead to better value for money and reduce long-term expenses. Conversely, weak procurement practices, such as focusing solely on initial purchase price, can result in higher operational and maintenance costs over the asset's lifespan.",
-      title: "Diagnosing Vulnerabilities",
-    },
-    {
-      img: "images/qii4/DiagnosingVulnerabilities/header_bg_2.png",
-      description:
-        "The procurement of infrastructure under Public-Private Partnerships (PPPs) can be an effective way to align incentives for cost efficiency over the course of the project. This alignment will be strongest under PPPs that include an extended Operations and Maintenance (O&M) phase and where the revenues of the private sector partner are linked directly to long-term performance.",
-      title: "Diagnosing Vulnerabilities",
-    },
-    {
-      img: "images/qii4/DiagnosingVulnerabilities/header_bg_3.png",
-      description:
-        "Assessing the vulnerability of infrastructure and the system in which they exist ensures that these systems can withstand, adapt, and recover from shocks. Vulnerability assessments identify the weak points in the system, highlighting areas where exposure to natural disasters and man-made events (such as cyber attacks) present great risks. These assessments help prioritize interventions where they are needed the most, making the best use of public and private investment.",
-      title: "Diagnosing Vulnerabilities",
-    },
-  ];
+  // const slidesData = [
+  //   {
+  //     img: "images/qii4/DiagnosingVulnerabilities/header_bg_1.png",
+  //     description:
+  //       "The procurement process sets the foundation for the economic efficiency of an infrastructure project. Procurement processes that create incentives to minimize life cycle costs can lead to better value for money and reduce long-term expenses. Conversely, weak procurement practices, such as focusing solely on initial purchase price, can result in higher operational and maintenance costs over the asset's lifespan.",
+  //     title: "Diagnosing Vulnerabilities",
+  //   },
+  //   {
+  //     img: "images/qii4/DiagnosingVulnerabilities/header_bg_2.png",
+  //     description:
+  //       "The procurement of infrastructure under Public-Private Partnerships (PPPs) can be an effective way to align incentives for cost efficiency over the course of the project. This alignment will be strongest under PPPs that include an extended Operations and Maintenance (O&M) phase and where the revenues of the private sector partner are linked directly to long-term performance.",
+  //     title: "Diagnosing Vulnerabilities",
+  //   },
+  //   {
+  //     img: "images/qii4/DiagnosingVulnerabilities/header_bg_3.png",
+  //     description:
+  //       "Assessing the vulnerability of infrastructure and the system in which they exist ensures that these systems can withstand, adapt, and recover from shocks. Vulnerability assessments identify the weak points in the system, highlighting areas where exposure to natural disasters and man-made events (such as cyber attacks) present great risks. These assessments help prioritize interventions where they are needed the most, making the best use of public and private investment.",
+  //     title: "Diagnosing Vulnerabilities",
+  //   },
+  // ];
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(

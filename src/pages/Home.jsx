@@ -80,7 +80,7 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <button class="btn-arrow-txt" disabled>
+          <button className="btn-arrow-txt" disabled>
             Explore The Fundamentals Of QII <span class="icon-arrow"></span>
           </button>
         </div>

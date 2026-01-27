@@ -161,13 +161,13 @@ export default function Procurement() {
               infrastructure design. More detailed guidance on this topic can be
               found in the Life- Cycle Costing Guidance Note.
             </p>
-            <div class="border-dash"></div>
+            <div className="border-dash"></div>
             <p className="mTop">
               <strong>
                 Key procurement considerations to maximize economic efficiency
                 include:
               </strong>
-            </p>
+            </p> 
           </div>
           <div className="link-text mTop"></div>
           <NumSteps num="1">
