@@ -54,7 +54,7 @@ export default function QualityEnvironmentalStandards() {
             </p>
           </div>
         </Header3>
-        <div className="container noPTop">
+        <div className="internal-pages-container noPTop">
           <div className="link-text">
             <strong>
               Applying Global Best Practices for Environmental and Social
