@@ -154,7 +154,7 @@ export default function QualityEnvironmentalStandards() {
           </div>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png"
+              image="images/qii3/Quality-Environmental-Standards/Equator Principles.png"
               title={
                 <p>
                   <strong>Infrastructure Standards</strong> International
