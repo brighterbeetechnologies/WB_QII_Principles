@@ -156,13 +156,41 @@ export default function Decarbonizing_Infrastructure() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Decarbonization Solutions </strong>
+            <strong>Decarbonization Solutions</strong>
             <br />
             <br></br>
             Decarbonization will take on very different forms across different
             sectors, and technology will play a key role.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
+          {/* <div className="Decarbonization-Solutions-details-container">
+            <div className="Decarbonization-Solutions-icon-details">
+              <div className="icon-detail-container">
+                <img src="images/qii3/icon.svg" alt="" />
+                <span className="icon-heading">Energy</span>
+                <span className="icon-description">
+                  Key decarbonization approaches include replacing fossil fuel
+                  generation with renewables, greening transmission networks,
+                  and enabling on-site renewable generation for buildings and
+                  industry.
+                </span>
+              </div>
+              <div className="icon-detail-container">
+                <img src="images/qii3/icon.svg" alt="" />
+                <span className="icon-heading">Transport</span>
+                <span className="icon-description">
+                  Electric charging points and hydrogen fuelling stations are
+                  critical enablers of vehicle decarbonization, while emissions
+                  from road construction can be reduced in many ways, including
+                  reducing materials consumption, and reuse and recycling of
+                  materials from old roadways.
+                </span>
+              </div>
+            </div>
+            <div className="Decarbonization-Solutions-info">
+              <p>At a sector or project level, the Avoid-Shift-Improve (ASI) framework provides a useful hierarchy.</p>
+            </div>
+          </div> */}
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png"
@@ -291,21 +319,19 @@ export default function Decarbonizing_Infrastructure() {
               title={
                 <p>
                   <strong>
-                    Building Green: Sustainable Construction in Emerging Markets 
-                  </strong>{" "} <br />
+                    Building Green: Sustainable Construction in Emerging Markets
+                  </strong>{" "}
+                  <br />
                   IFC
                 </p>
               }
               buttonText="Guidance – Buildings"
               link="https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf"
             >
-              <p>
-               Guide to decarbonizing construction value chains.
-              </p>
+              <p>Guide to decarbonizing construction value chains.</p>
             </VCard>
           </div>
         </div>
-        
       </section>
     </div>
   );

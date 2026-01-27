@@ -22,7 +22,7 @@ export default function QII5LandingPage() {
       show: true,
       category: "QII Principle",
       title: "QII.5 Social",
-      id: 1,
+      id: 4,
     },
   ]);
   const textCrData = [
@@ -40,6 +40,43 @@ export default function QII5LandingPage() {
       id: 0,
       icon: "&#xe921;",
       text: "Erosion of community trust and social stability",
+    },
+  ];
+
+  const resourceArray = [
+    {
+      id: 0,
+      title:
+        "Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9 ",
+      country: false,
+      org: false,
+      description:
+        "Foundation for international accessibility standards referenced throughout World Bank global policy and operational documents. Its mandates shape the development, adoption, and monitoring of accessibility norms and standards worldwide.",
+      img_path: "images/qii2/Ganga_case_study.png",
+      path: "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
+      target: "_self",
+    },
+    {
+      id: 1,
+      title: "PPP Gender Toolkit",
+      country: false,
+      org: "World Bank",
+      description:
+        "A comprehensive resource designed to guide the mainstreaming of gender considerations throughout the lifecycle of infrastructure projects delivered via Public-Private Partnerships (PPPs).",
+      img_path: "images/governance/list/01.jpg",
+      path: "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
+      target: "_blank",
+    },
+    {
+      id: 2,
+      title: "Inclusive Infrastructure Toolkit",
+      country: false,
+      org: "World Bank / GI Hub ",
+      description:
+        "A practical, evidence-based framework for developing infrastructure that advances social inclusivity. It outlines six key action areas and detailed practices to maximize infrastructure’s impact on reducing inequality and promoting shared prosperity, illustrated by real-life international examples. ",
+      img_path: "images/governance/list/01.jpg",
+      path: "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
+      target: "_blank",
     },
   ];
 
@@ -210,62 +247,162 @@ export default function QII5LandingPage() {
         <h1 className="light-font "></h1>
       </section>
       <section className="qii_video_landing_page color-light">
-             <img
-               className="qii_video-thumbnail-image"
-               src="images/qii4/QII 2 in Action poster.png"
-               alt="video thumbnail"
-             />
-             <div className="qii-video-overlay"></div>
-             <div className="qii-video-cnt">
-               <button
-                 className="video-play-btn icon-play"
-                 onClick={() => {
-                   openVideo(
-                     "./video/FukuokaCaseStudy.mp4",
-                     "QII.2 in Action",
-                     1920,
-                     1080,
-                   );
-                 }} 
-               >
-                 &#xe91e;
-               </button>
-             </div>
-             <div className="qii-video-text-cnt">
-               <p className="video-title">QII.5 in Action</p>
-               <p className="video-desc">
-                 Discover how the design of Maputo's Bus Rapid Transit system is transforming public transport in Mozambique’s capital. 
-               </p>
-               <Link to="/qii2casestudy1">
-                 <button className="btn-primary qii2-video-cta">
-                   Explore Case Study <span className="icon-arrow">&#xe900;</span>
-                 </button>
-               </Link>
-             </div>
-           </section>
-      <section className="color-dark ">
+        <img
+          className="qii_video-thumbnail-image"
+          src="images/qii4/QII 2 in Action poster.png"
+          alt="video thumbnail"
+        />
+        <div className="qii-video-overlay"></div>
+        <div className="qii-video-cnt">
+          <button
+            className="video-play-btn icon-play"
+            onClick={() => {
+              openVideo(
+                "./video/FukuokaCaseStudy.mp4",
+                "QII.2 in Action",
+                1920,
+                1080,
+              );
+            }}
+          >
+            &#xe91e;
+          </button>
+        </div>
+        <div className="qii-video-text-cnt">
+          <p className="video-title">QII.5 in Action</p>
+          <p className="video-desc">
+            Discover how the design of Maputo's Bus Rapid Transit system is
+            transforming public transport in Mozambique’s capital.
+          </p>
+          <Link to="/qii2casestudy1">
+            <button className="btn-primary qii2-video-cta">
+              Explore Case Study <span className="icon-arrow">&#xe900;</span>
+            </button>
+          </Link>
+        </div>
+      </section>
+      <section className="color-dark">
         <div className="container">
-          <div className="center-header">
-            <h1 className="light-font mBottom">Top Resources</h1>
+          <h2 className="section-title light-font">QII.5 Case Studies</h2>
+          <div className="page-resource-grid" role="list">
+            {resourceArray.map((p, index) => {
+              return (
+                <article
+                  className="page-resource-card"
+                  key={index}
+                  role="listitem"
+                  style={{ backgroundImage: `url(${p.img})` }}
+                >
+                  <div className="page-resource-link">
+                    <div className="page-resource-body">
+                      <div className="page-resource-title title-small">
+                        {p.country && (
+                          <>
+                            <span>{p.country}</span> <br />
+                          </>
+                        )}
+                        <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
+                      </div>
+                      <div className="page-resource-overlay" />
+                      <img
+                        className="page-resource-img"
+                        src={p.img_path}
+                        alt={p.title}
+                      />
+                      {/* <div className="page-resource-img-cnt">
+                    </div> */}
+                      <div className="page-resource-data">
+                        <div className="page-resource-title title-big">
+                          {p.country && (
+                            <>
+                              <span>{p.country}</span> <br />
+                            </>
+                          )}
+                          <strong>{p.title}</strong>
+                          {p.org && (
+                            <>
+                              <br />
+                              <span>{p.org}</span>
+                            </>
+                          )}
+                        </div>
+                        <div className="page-resource-description">
+                          {p.description}
+                        </div>
+                        {/* <Popover
+                          content={p.description}
+                          title={p.title}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover> */}
+                        <div className="page-resource-btn-cnt">
+                          {p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : (
+                            <Link
+                              className="page-resource-arrow"
+                              to={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
           </div>
-          <div className="top-resource-card-cnt-qii4">
-            <TopResourceCard
-              image="images/qii4/Fukuoka image.png"
-              title={<p>World Bank Tokyo Disaster Risk Management (DRM) Hub</p>}
-              buttonText="Programs"
-              link=""
-            ></TopResourceCard>
-            <TopResourceCard
-              image="images/qii4/Ganga-case-study-image.png"
-              title={<p>Global Facility For Disaster Reduction And Recovery</p>}
-              buttonText="Programs"
-              link=""
-            ></TopResourceCard>
+          <div className="view-all-btn-container">
+            <button
+              className="btn-primary qii2-video-cta"
+              onClick={() => {
+                const el = document.getElementById("resourcesSection");
+                el?.scrollIntoView({ behavior: "smooth" });
+                setPreSelectedResources([
+                  {
+                    show: true,
+                    category: "QII Principle",
+                    title: "QII.5 Social",
+                    id: 4,
+                  },
+                  {
+                    show: true,
+                    category: "Media Type",
+                    title: "Case Study",
+                    id: 1,
+                  },
+                ]);
+              }}
+              // disabled
+            >
+              View All <span className="icon-arrow">&#xe900;</span>
+            </button>
           </div>
         </div>
       </section>
-      <section className="color-light z-2">
-        <ResourceLibrary></ResourceLibrary>
+      <section className="color-light z-2" id="resourcesSection">
+        <ResourceLibrary
+          subPages={subPages}
+          preSelected={preSelectedResources}
+        ></ResourceLibrary>
       </section>
     </div>
   );

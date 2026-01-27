@@ -138,7 +138,7 @@ export default function QII3LandingPage() {
         dir: [{ path: "/qii3", title: "QII.3 Environment" }],
       }),
     );
-  }, []);
+  }, []); 
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
