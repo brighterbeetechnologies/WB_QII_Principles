@@ -11,7 +11,7 @@ import {
   setShowVideo,
   setVideoData,
 } from "../slices/appDataSlice";
-import CardBox from "../components/CardBox";
+import CardBox from "../components/CardBox"; 
 import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
 

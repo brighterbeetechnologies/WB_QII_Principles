@@ -14,6 +14,7 @@ import {
 } from "../slices/appDataSlice";
 import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
+import ImagewithStatement from "../components/ImagewithStatement";
 // import textCrData_tab from "images/qii4/QII2_Landing_main.png"
 export default function QII4LandingPage() {
   const dispatch = useDispatch();
@@ -463,14 +464,20 @@ export default function QII4LandingPage() {
           </div>
         </div> */}
       </section>
-      <Header3 img="images/qii4/QII2_Landing_image2.png">
+      {/* <Header3 img="images/qii4/QII2_Landing_image2.png">
         <p>
           Resilience is more than a safeguard—it's a foundational principle for
           infrastructure that must withstand, adapt to, and recover from shocks
           to ensure uninterrupted service, especially in rapidly changing and
           vulnerable environments.
         </p>
-      </Header3>
+      </Header3> */}
+      <ImagewithStatement
+        backgroundImage={"images/qii4/QII2_Landing_image2.png"}
+        text={
+          "Resilience is more than a safeguard—it's a foundational principle for infrastructure that must withstand, adapt to, and recover from shocks to ensure uninterrupted service, especially in rapidly changing and vulnerable environments."
+        }
+      />
       <section className="color-light">
         <div className="container ">
           <div className="video-text-cnt">
