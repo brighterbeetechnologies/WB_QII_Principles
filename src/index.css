@@ -455,6 +455,11 @@ ul {
   padding: 0 20%;
 }
 
+.disable-link {
+  pointer-events: none;
+  opacity: 0.3;
+}
+
 @media (max-width: 1009px) {
   .overlay {
     position: fixed;

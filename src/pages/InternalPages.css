@@ -9,7 +9,111 @@
 }
 
 .num1-para {
-    font-size: 1rem;
+  font-size: 1rem;
+}
+
+.internal-pages-container .noPBottom {
+  padding-bottom: 0;
+  margin-bottom: 0 !important;
+}
+
+.ico-text-card-1-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 3rem;
+  margin: 2rem 2rem 0 calc(70px + 2rem);
+}
+
+.ico-text-card-1 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 48%;
+}
+
+.ico-text-card-1-ico {
+  width: 150px;
+  aspect-ratio: 1/1;
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ico-text-card-1-ico img {
+  height: 60%;
+  max-width: 60%;
+}
+
+.ico-text-card-1-title {
+  font-weight: 800;
+}
+
+.ico-text-card-1-description {
+  width: calc(100% - 2rem - 150px);
+}
+
+.ico-text-card-1-description ul {
+  padding-left: 1.15rem;
+}
+
+.ico-text-card-1-description ul li {
+  padding-top: 0.5rem;
+}
+
+.ico-text-card-1-description ul li::marker {
+  font-size: 1.7rem;
+}
+
+@media (max-width: 1399px) {
+  .ico-text-card-1-container {
+    margin: 2rem 2rem 0 calc(60px + 1.8rem);
+  }
+}
+
+@media (max-width: 1199px) {
+  .ico-text-card-1-container {
+    margin: 2rem 2rem 0 calc(60px + 1rem);
+  }
+  .ico-text-card-1-ico {
+    width: 120px;
+  }
+
+  .ico-text-card-1-description {
+    width: calc(100% - 2rem - 120px);
+  }
+}
+
+@media (max-width: 999px) {
+  .ico-text-card-1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ico-text-card-1-container {
+    margin: auto;
+    padding: 2rem 0;
+    row-gap: 1.5rem;
+  }
+
+  .ico-text-card-1-description {
+    width: calc(100% - 2rem - 80px);
+  }
+
+  .ico-text-card-1-description ul li {
+    padding-top: 0rem;
+  }
+
+  .ico-text-card-1 {
+    gap: 1rem;
+  }
+
+  .ico-text-card-1-ico {
+    width: 80px;
+  }
 }
 
 @media (min-width: 1200px) {

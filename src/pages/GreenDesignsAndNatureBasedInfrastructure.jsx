@@ -206,95 +206,91 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             <br></br>
             <br></br>
             Nature-based infrastructure can help deliver:
-            <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="internal-pages-container icon-text-cards-container">
-            <div className="icon-text-cards">
-              <div className="icon-img">
+          <div className="ico-text-card-1-container">
+            <div className="ico-text-card-1">
+              <div className="ico-text-card-1-ico">
                 <img src="images/qii3/icon.svg" alt="" />
               </div>
-              <div className="icon-text-cards-description">
-                <span className="icon-text-cards-title">CLEAN WATER:</span>
-                <span className="icon-text-cards-detail">
-                  <ul>
-                    <li>Improve water quality by reducing chemical,</li>
-                    <li>
-                      Improve water quality by removing pollutants in wastewater
-                      such as solids and pathogens
-                    </li>
-                  </ul>
-                </span>
+              <div className="ico-text-card-1-description">
+                <p className="ico-text-card-1-title">CLEAN WATER:</p>
+                <ul>
+                  <li>Improve water quality by reducing chemical,</li>
+                  <li>
+                    Improve water quality by removing pollutants in wastewater
+                    such as solids and pathogens
+                  </li>
+                </ul>
               </div>
             </div>
-            <div className="icon-text-cards">
-              <div className="icon-img">
+            <div className="ico-text-card-1">
+              <div className="ico-text-card-1-ico">
                 <img src="images/qii3/icon.svg" alt="" />
               </div>
-              <div className="icon-text-cards-description">
-                <span className="icon-text-cards-title">EROSION CONTROL:</span>
-                <span className="icon-text-cards-detail">
-                  <ul>
-                    <li>Stabilize steep slopes and degraded areas </li>
-                    <li>
-                     Reduce number of landslides in the surrounding environment of infrastructure
-                    </li>
-                  </ul>
-                </span>
+              <div className="ico-text-card-1-description">
+                <p className="ico-text-card-1-title">EROSION CONTROL:</p>
+
+                <ul>
+                  <li>Stabilize steep slopes and degraded areas </li>
+                  <li>
+                    Reduce number of landslides in the surrounding environment
+                    of infrastructure
+                  </li>
+                </ul>
               </div>
             </div>
-            <div className="icon-text-cards">
-              <div className="icon-img">
+            <div className="ico-text-card-1">
+              <div className="ico-text-card-1-ico">
                 <img src="images/qii3/icon.svg" alt="" />
               </div>
-              <div className="icon-text-cards-description">
-                <span className="icon-text-cards-title">FLOOD MANAGEMENT:</span>
-                <span className="icon-text-cards-detail">
-                  <ul>
-                    <li>Protect and increase the resilience of communities and assets from flooding </li>
-                    <li>
-                      Reduce peak flow (the maximum rate of flow water passing a given point following rainfall)5
-                    </li>
-                  </ul>
-                </span>
+              <div className="ico-text-card-1-description">
+                <p className="ico-text-card-1-title">FLOOD MANAGEMENT:</p>
+                <ul>
+                  <li>
+                    Protect and increase the resilience of communities and
+                    assets from flooding{" "}
+                  </li>
+                  <li>
+                    Reduce peak flow (the maximum rate of flow water passing a
+                    given point following rainfall)5
+                  </li>
+                </ul>
               </div>
             </div>
-           <div className="icon-text-cards">
-              <div className="icon-img">
+            <div className="ico-text-card-1">
+              <div className="ico-text-card-1-ico">
                 <img src="images/qii3/icon.svg" alt="" />
               </div>
-              <div className="icon-text-cards-description">
-                <span className="icon-text-cards-title">COASTAL PROTECTION:</span>
-                <span className="icon-text-cards-detail">
-                  <ul>
-                    <li>Protect coastal urban areas and assets from erosion, storm surges, damage from wave energy, and sea level rise.</li>
-                    {/* <li>
+              <div className="ico-text-card-1-description">
+                <p className="ico-text-card-1-title">COASTAL PROTECTION:</p>
+                <ul>
+                  <li>
+                    Protect coastal urban areas and assets from erosion, storm
+                    surges, damage from wave energy, and sea level rise.
+                  </li>
+                  {/* <li>
                       Improve water quality by removing pollutants in wastewater
                       such as solids and pathogens
                     </li> */}
-                  </ul>
-                </span>
+                </ul>
               </div>
             </div>
-            <div className="icon-text-cards">
-              <div className="icon-img">
+            <div className="ico-text-card-1">
+              <div className="ico-text-card-1-ico">
                 <img src="images/qii3/icon.svg" alt="" />
               </div>
-              <div className="icon-text-cards-description">
-                <span className="icon-text-cards-title">WATER SECURTY:</span>
-                <span className="icon-text-cards-detail">
-                  <ul>
-                    <li>Improve water retention </li>
-                    <li>
-                      Contribute to water supply reliability
-                    </li>
-                  </ul>
-                </span>
+              <div className="ico-text-card-1-description">
+                <p className="ico-text-card-1-title">WATER SECURTY:</p>
+                <ul>
+                  <li>Improve water retention </li>
+                  <li>Contribute to water supply reliability</li>
+                </ul>
               </div>
             </div>
           </div>
           <div className="VCard-cnt col3">
             <VCard
-              image=""
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
               title={
                 <p>
                   <strong>
@@ -315,7 +311,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </VCard>
 
             <VCard
-              image=""
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
               title={
                 <p>
                   <strong>
@@ -334,7 +330,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </VCard>
 
             <VCard
-              image=""
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
               title={
                 <p>
                   <strong>
@@ -355,7 +351,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </VCard>
 
             <VCard
-              image=""
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
               title={
                 <p>
                   <strong>
@@ -375,7 +371,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </VCard>
 
             <VCard
-              image=""
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
               title={
                 <p>
                   <strong>Pakistan: Zephyr Wind Farm </strong>{" "}
@@ -395,7 +391,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </VCard>
 
             <VCard
-              image=""
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
               title={
                 <p>
                   <strong>Japan: Futakotamagawa </strong>{" "}

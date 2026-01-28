@@ -10,6 +10,9 @@
 
 .VCardImg {
   border-radius: 20px;
+  height: 13rem;
+  width: 100%;
+  object-fit: cover;
 }
 
 .vCardBody {
@@ -31,12 +34,12 @@
 } */
 
 .VCard-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    gap: 1rem;
-    padding: 0 1rem 1rem;
-    text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  gap: 1rem;
+  padding: 0 1rem 1rem;
+  text-align: center;
 }
 
 .VCard-footer strong {
@@ -70,8 +73,8 @@
   align-items: center;
   gap: 10px;
   /* max-width: 140px; */
-  text-align: right;
-  width: 50%;
+  text-align: left;
+  width: 100%;
   font-weight: 800;
 }
 
@@ -82,7 +85,7 @@
   }
 
   .v-btn-cnt {
-    max-width: 170px;
+    /* max-width: 170px; */
   }
 }
 
@@ -184,7 +187,7 @@
   }
 
   .v-btn-cnt {
-    max-width: 230px;
+    /* max-width: 230px; */
   }
 
   .VCard-btn {

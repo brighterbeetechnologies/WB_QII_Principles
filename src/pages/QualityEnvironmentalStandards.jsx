@@ -49,12 +49,12 @@ export default function QualityEnvironmentalStandards() {
           <div className="subpage-description">
             <p className="light-font">
               Quality environmental standards are the foundation of good
-            infrastructure project development. They are also a requirement for
-            project developers seeking to attract credible investors.
+              infrastructure project development. They are also a requirement
+              for project developers seeking to attract credible investors.
             </p>
           </div>
         </Header3>
-        <div className="internal-pages-container noPTop">
+        <div className="container internal-pages-container">
           <div className="link-text">
             <strong>
               Applying Global Best Practices for Environmental and Social
@@ -234,43 +234,41 @@ export default function QualityEnvironmentalStandards() {
               </p>
             </VCard>
             <VCard
-                image="images/newresource/BREEAM-Infrastructure.png"
-                title={
-                  <p>
-                    <strong>BREEAM Infrastructure</strong>{" "}
-                  </p>
-                }
-                buttonText="Guidance"
-                link="https://breeam.com/breeam-infrastructure"
-              >
+              image="images/newresource/BREEAM-Infrastructure.png"
+              title={
                 <p>
-                  BREEAM evaluates infrastructure projects against
-                  sustainability criteria, including energy, water, materials,
-                  biodiversity, resilience, and social value, and provides a
-                  rating (Pass, Good, Very Good, Excellent, Outstanding). It
-                  draws on existing standards, regulations, and best practices
-                  to define its criteria.{" "}
+                  <strong>BREEAM Infrastructure</strong>{" "}
                 </p>
-              </VCard>
+              }
+              buttonText="Guidance"
+              link="https://breeam.com/breeam-infrastructure"
+            >
+              <p>
+                BREEAM evaluates infrastructure projects against sustainability
+                criteria, including energy, water, materials, biodiversity,
+                resilience, and social value, and provides a rating (Pass, Good,
+                Very Good, Excellent, Outstanding). It draws on existing
+                standards, regulations, and best practices to define its
+                criteria.{" "}
+              </p>
+            </VCard>
           </div>
         </div>
       </section>
 
       <section className="color-dark ">
-        <div className="container">
-          <div className="center-header">
-            <div className="link-text">
-              Quality environmental standards can also increase the
-              attractiveness of projects to potential investors. Financial
-              institutions increasingly use internationally recognized standards
-              as benchmarks to assess and manage risk in project finance.
-              Projects that integrate these standards demonstrate reduced risk
-              profiles and improved long-term viability. Moreover, they can
-              qualify for certification by initiatives such as{" "}
-              <strong>Blue Dot Network</strong>
-              and <strong>Fast Infra</strong>, making them more attractive to
-              investors.
-            </div>
+        <div className="container internal-pages-container">
+          <div className="link-text noPBottom">
+            Quality environmental standards can also increase the attractiveness
+            of projects to potential investors. Financial institutions
+            increasingly use internationally recognized standards as benchmarks
+            to assess and manage risk in project finance. Projects that
+            integrate these standards demonstrate reduced risk profiles and
+            improved long-term viability. Moreover, they can qualify for
+            certification by initiatives such as{" "}
+            <strong>Blue Dot Network</strong>
+            and <strong>Fast Infra</strong>, making them more attractive to
+            investors.
           </div>
           {/* <div className="top-resource-card-cnt-qii4">
             <TopResourceCard
@@ -356,14 +354,16 @@ export default function QualityEnvironmentalStandards() {
             </p>
           </VCard>
         </div>
-        <div className="link-text">
+        <div className="link-text mTop2 noPBottom">
           The incorporation of environmental standards requires a robust
           <strong> governance framework</strong> that mandates these standards
           be met. For more on the development of strong governance practices
           that support and require environmental considerations in
           infrastructure planning and development, please navigate to{" "}
           <Link to="/qii6">
-            <strong>QII 6: Governance</strong>
+            <strong className="disable-link">
+              <u>QII 6: Governance</u>
+            </strong>
           </Link>
           .
         </div>
