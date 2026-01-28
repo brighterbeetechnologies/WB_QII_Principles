@@ -28,6 +28,7 @@ import QII4CaseStudy2 from "./pages/CaseStudy/QII4CaseStudy2.jsx";
 import QII4CaseStudy3 from "./pages/CaseStudy/QII4CaseStudy3.jsx";
 import QII4CaseStudy4 from "./pages/CaseStudy/QII4CaseStudy4.jsx";
 import Decarbonizing_Infrastructure from "./pages/Decarbonizing_Infrastructure.jsx";
+import Policies_Standards_Regulation from "./pages/Policies_Standards_Regulation.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -39,14 +40,7 @@ export const router = createHashRouter([
 				index: true,
 				element: <Home></Home>,
 			},
-			{
-				path: "/governance",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<Governance />
-					</Suspense>
-				),
-			},
+			
 			{
 				path: "/qii1",
 				element: (
@@ -60,6 +54,38 @@ export const router = createHashRouter([
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
 						<QII2LandingPage />
+					</Suspense>
+				),
+			},
+			{
+				path: "/governance",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Governance />
+					</Suspense>
+				),
+			},
+			{
+				path: "/technicalsolutions",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<TechnicalSolutions />
+					</Suspense>
+				),
+			},
+			{
+				path: "/costrecovery",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<CostRecovery />
+					</Suspense>
+				),
+			},
+			{
+				path: "/procurement",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Procurement />
 					</Suspense>
 				),
 			},
@@ -88,10 +114,74 @@ export const router = createHashRouter([
 				),
 			},
 			{
+				path: "/QualityEnvironmentalStandards",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<QualityEnvironmentalStandards />
+					</Suspense>
+				),
+			},
+			{
+				path: "/GreenDesigns&Nature-BasedInfrastructure",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<GreenDesignsAndNatureBasedInfrastructure />
+					</Suspense>
+				),
+			},
+			{
+				path: "/GreenFinancingforInfrastructure",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<GreenFinancingforInfrastructure />
+					</Suspense>
+				),
+			},
+			{
+				path: "/DecarbonizingInfrastructure",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Decarbonizing_Infrastructure />
+					</Suspense>
+				),
+			},
+			{
 				path: "/qii4",
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
 						<QII4LandingPage />
+					</Suspense>
+				),
+			},
+			{
+				path: "/Diagnosing-vulnerabilities",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<DiagnosingVulnerabilities />
+					</Suspense>
+				),
+			},
+			{
+				path: "/Resilient-design&operation",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<ResilientDesignAndOperation />
+					</Suspense>
+				),
+			},
+			{
+				path: "/Financing-resilience",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<FinancingResilience />
+					</Suspense>
+				),
+			},
+			{
+				path: "/Managing-cyber-security-risks",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<ManagingCyberSecurityRisks />
 					</Suspense>
 				),
 			},
@@ -136,6 +226,14 @@ export const router = createHashRouter([
 				),
 			},
 			{
+				path: "/Policies_Standards_Regulation",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Policies_Standards_Regulation />
+					</Suspense>
+				),
+			},
+			{
 				path: "/qii6",
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
@@ -143,94 +241,7 @@ export const router = createHashRouter([
 					</Suspense>
 				),
 			},
-			{
-				path: "/technicalsolutions",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<TechnicalSolutions />
-					</Suspense>
-				),
-			},
-			{
-				path: "/costrecovery",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<CostRecovery />
-					</Suspense>
-				),
-			},
-			{
-				path: "/procurement",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<Procurement />
-					</Suspense>
-				),
-			},
-			{
-				path: "/Diagnosing-vulnerabilities",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<DiagnosingVulnerabilities />
-					</Suspense>
-				),
-			},
-			{
-				path: "/Resilient-design&operation",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<ResilientDesignAndOperation />
-					</Suspense>
-				),
-			},
-			{
-				path: "/Financing-resilience",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<FinancingResilience />
-					</Suspense>
-				),
-			},
-			{
-				path: "/Managing-cyber-security-risks",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<ManagingCyberSecurityRisks />
-					</Suspense>
-				),
-			},
-			{
-				path: "/QualityEnvironmentalStandards",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<QualityEnvironmentalStandards />
-					</Suspense>
-				),
-			},
-			{
-				path: "/GreenDesigns&Nature-BasedInfrastructure",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<GreenDesignsAndNatureBasedInfrastructure />
-					</Suspense>
-				),
-			},
-			{
-				path: "/GreenFinancingforInfrastructure",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<GreenFinancingforInfrastructure />
-					</Suspense>
-				),
-			},
-			{
-				path: "/DecarbonizingInfrastructure",
-				element: (
-					<Suspense fallback={<Loader></Loader>}>
-						<Decarbonizing_Infrastructure />
-					</Suspense>
-				),
-			},
+
 			{
 				path: "*",
 				element: <NotFound />,
