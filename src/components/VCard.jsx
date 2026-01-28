@@ -21,14 +21,14 @@ export default function VCard({
       <div className="VCard-footer">
         <div className="v-btn-cnt">
           {/* <strong></strong> */}
-          {buttonText}
+          <span>{buttonText}</span>
           <a href={link} target="_blank" className="VCard-btn ">
             <span className="icon-arrow">&#xe900;</span>
           </a>
         </div>
         {buttonText2 && (
           <div className="v-btn-cnt">
-            {buttonText2}
+            <span>{buttonText2}</span>
             {/* <strong>{buttonText2}</strong> */}
             <a href={link2} target="_blank" className="VCard-btn ">
               <span className="icon-arrow">&#xe900;</span>
@@ -44,7 +44,7 @@ export default function VCard({
             backgroundSize: "100% 100%",
           }}
         >
-          <img src="images/Star_for_spotligh.svg" alt="" srcset="" />
+          <img src="images/Star_for_spotligh.svg" alt="" />
           {highlight === 1 && <>Spotlight Case Study</>}
         </div>
       )}

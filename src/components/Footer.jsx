@@ -35,7 +35,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#/qii3" className="disable-link">
+                <a href="#/qii3">
                   QII.3 Integrating Environmental Considerations in
                   Infrastructure
                 </a>
