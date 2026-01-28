@@ -44,7 +44,7 @@ export default function VCard({
             backgroundSize: "100% 100%",
           }}
         >
-          <img src="images/Star_for_spotligh.svg" alt="" srcset="" />
+          <img src="images/Star_for_spotligh.svg" alt="" />
           {highlight === 1 && <>Spotlight Case Study</>}
         </div>
       )}

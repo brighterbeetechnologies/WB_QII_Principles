@@ -250,8 +250,6 @@ export default function QII3LandingPage() {
       <section className="container internal-pages-container color-dark">
         <h3 className="statement-text">
           <strong> Infrastructure's Environmental Footprint</strong>
-          <br />
-          <br />
         </h3>
         <h1 className="light-font "></h1>
       </section>
@@ -484,7 +482,7 @@ export default function QII3LandingPage() {
                     show: true,
                     category: "Media Type",
                     title: "Case Study",
-                    id: 2,
+                    id: 1,
                   },
                 ]);
               }}

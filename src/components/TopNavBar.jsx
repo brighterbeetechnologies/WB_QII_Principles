@@ -54,7 +54,7 @@ export default function TopNavBar() {
                       <button key={i} onClick={() => navigate(page.path)}>
                         {page.title}
                       </button>
-                      <img src="images/right-arrow.png" alt="" srcset="" />
+                      <img src="images/right-arrow.png" alt="" />
                     </>
                   )}
                   {i == pageBreadCrump.dir.length - 1 && (
