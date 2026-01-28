@@ -19,7 +19,7 @@ export default function QII4CaseStudy1() {
       }),
     );
   }, []);
-  return (
+  return ( 
     <div className="single-case-study-page">
       <section className="color-light">
         <div className="container">

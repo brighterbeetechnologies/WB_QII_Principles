@@ -505,9 +505,9 @@ export default function QII4LandingPage() {
               </div>
             </div>
             <div className="text-cnt">
-              <h1 className="light-font mBottom">
+              {/* <h1 className="light-font mBottom">
                 The Benefits of Resilience in Infrastructure
-              </h1>
+              </h1> */}
               <h3 className="light-font sub-text">
                 Resilient infrastructure strengthens society's capacity to cope
                 with shocks and disruptions, unlocking enduring economic,
@@ -517,6 +517,12 @@ export default function QII4LandingPage() {
             </div>
           </div>
         </div>
+      </section>
+       <section className="container internal-pages-container color-dark">
+        <h3 className="statement-text">
+          <strong>The Benefits of Resilience in Infrastructure </strong>
+        </h3>
+        <h1 className="light-font "></h1>
       </section>
       {/* <section className="q4_landing_page color-dark">
         <div className="container">

@@ -32,7 +32,8 @@
   width: 48%;
 }
 
-.ico-text-card-1-ico {
+.ico-text-card-1-ico,
+.ico-text-card-2-ico {
   width: 150px;
   aspect-ratio: 1/1;
   background: #ffffff;
@@ -42,12 +43,14 @@
   justify-content: center;
 }
 
-.ico-text-card-1-ico img {
+.ico-text-card-1-ico img,
+.ico-text-card-2-ico img {
   height: 60%;
   max-width: 60%;
 }
 
-.ico-text-card-1-title {
+.ico-text-card-1-title,
+.ico-text-card-2-title {
   font-weight: 800;
 }
 
@@ -67,9 +70,103 @@
   font-size: 1.7rem;
 }
 
+.ico-text-card-2-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.ico-text-card-2 {
+  width: 30%;
+  padding: 0 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.ico-text-card-2-ico {
+  margin: 0 auto;
+}
+
+.ico-text-card-2-container .ico-text-card-2:not(:first-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0px;
+  border: 1px dashed rgb(112, 112, 112, 0.5);
+}
+
+.ico-text-card-2-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ico-text-card-2-infographics {
+  width: 70%;
+  margin: 1rem auto 1rem auto;
+  position: relative;
+}
+
+.ico-text-card-2-infographics .mobile-img {
+  display: none;
+}
+
+.ico-text-card-2-infographics img {
+  width: 100%;
+}
+
+.ico-text-card-2-infographics .ico-text-card-2-infographics-p1 {
+  position: absolute;
+  color: #ffffff;
+  top: 49%;
+  left: 21.8%;
+  font-size: 100%;
+  width: 20%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.ico-text-card-2-infographics .ico-text-card-2-infographics-p2 {
+  position: absolute;
+  color: #ffffff;
+  top: 49.3%;
+  left: 50.4%;
+  font-size: 100%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  text-align: center;
+}
+
+.ico-text-card-2-infographics .ico-text-card-2-infographics-p3 {
+  position: absolute;
+  color: #ffffff;
+  top: 48.7%;
+  left: 78.4%;
+  font-size: 100%;
+  transform: translate(-50%, -50%);
+  width: 20%;
+  text-align: center;
+}
+
 @media (max-width: 1399px) {
   .ico-text-card-1-container {
     margin: 2rem 2rem 0 calc(60px + 1.8rem);
+  }
+}
+
+@media (max-width: 1399px) {
+  .ico-text-card-1-container {
+    margin: 2rem 2rem 0 calc(60px + 1.8rem);
+  }
+}
+
+@media (max-width: 1125px) {
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p3,
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p2,
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p1 {
+    font-size: 80%;
   }
 }
 
@@ -89,6 +186,64 @@
 @media (max-width: 999px) {
   .ico-text-card-1 {
     width: 100%;
+  }
+}
+
+@media (max-width: 910px) {
+  .ico-text-card-2-infographics .desk-img {
+    display: none;
+  }
+  .ico-text-card-2-infographics .mobile-img {
+    display: block;
+    width: 43%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p1 {
+    position: absolute;
+    color: #ffffff;
+    top: 22%;
+    left: 50.8%;
+    font-size: 100%;
+    width: 34%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p2 {
+    position: absolute;
+    color: #ffffff;
+    top: 51.3%;
+    left: 51.4%;
+    font-size: 100%;
+    transform: translate(-50%, -50%);
+    width: 34%;
+    text-align: center;
+  }
+
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p3 {
+    position: absolute;
+    color: #ffffff;
+    top: 79.7%;
+    left: 50.4%;
+    font-size: 100%;
+    transform: translate(-50%, -50%);
+    width: 34%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 890px) {
+  .ico-text-card-2 {
+    width: 45%;
+  }
+}
+
+@media (max-width: 755px) {
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p3,
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p2,
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p1 {
+    font-size: 80%;
   }
 }
 
@@ -113,6 +268,52 @@
 
   .ico-text-card-1-ico {
     width: 80px;
+  }
+
+  .ico-text-card-2-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .ico-text-card-2 {
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .ico-text-card-2-container .ico-text-card-2:not(:first-child)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    border: 1px dashed rgb(112, 112, 112, 0.5);
+  }
+}
+
+@media (max-width: 650px) {
+  .ico-text-card-2-infographics {
+  width: 85%;
+}
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p3,
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p2,
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p1 {
+    font-size: 75%;
+    width: 25%;
+  }
+}
+
+@media (max-width: 590px) {
+  .ico-text-card-2-infographics {
+  width: 100%;
+}
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p3,
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p2,
+  .ico-text-card-2-infographics .ico-text-card-2-infographics-p1 {
+    font-size: 70%;
+    width: 35%;
   }
 }
 

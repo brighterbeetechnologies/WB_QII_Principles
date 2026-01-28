@@ -165,12 +165,23 @@
   /* transition: 0.4s; */
 }
 
+.subpage-icon {
+width: 90px;
+height: 90px;
+object-fit: contain;
+cursor: pointer;
+}
+
 .subpage-cnt:hover .icon-subpage {
   color: #00a996;
 }
 
-.subpage-cnt .icon-subpage svg {
-  /* transition: 0.4s; */
+.subpage-cnt:hover .subpage-icon {
+  color: #00a996;
+}
+
+.subpage-cnt .subpage-icon svg {
+   color: #00a996;
 }
 
 .subpage-cnt:hover .icon-subpage svg {

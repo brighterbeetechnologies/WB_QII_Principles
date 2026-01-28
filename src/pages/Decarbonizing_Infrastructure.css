@@ -51,18 +51,7 @@
   font-size: 1rem;
 }
 
-.DecarbonizingInfrastructure .Decarbonization-Solutions-details-container {
-  width: 100%;
-  margin: 1rem;
-}
 
-.DecarbonizingInfrastructure .Decarbonization-Solutions-icon-details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 80%;
-}
 
 @media (max-width: 649px) {
   .DecarbonizingInfrastructure .Header3 .container {

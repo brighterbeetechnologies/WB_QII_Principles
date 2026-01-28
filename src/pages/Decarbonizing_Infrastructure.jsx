@@ -102,7 +102,7 @@ export default function Decarbonizing_Infrastructure() {
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/World of Taxonomies.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Change_Development.png"
               title={
                 <p>
                   <strong>Climate Change and Development Reports</strong>{" "}
@@ -118,7 +118,7 @@ export default function Decarbonizing_Infrastructure() {
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/EU Taxonomy for Sustainable Activities.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png"
               title={
                 <p>
                   <strong>Net Zero by 2050</strong>
@@ -136,7 +136,7 @@ export default function Decarbonizing_Infrastructure() {
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Infrastructure_Transition_Pathways.png"
               title={
                 <p>
                   <strong>Infrastructure Transition Pathways </strong>
@@ -163,37 +163,49 @@ export default function Decarbonizing_Infrastructure() {
             sectors, and technology will play a key role.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          {/* <div className="Decarbonization-Solutions-details-container">
-            <div className="Decarbonization-Solutions-icon-details">
-              <div className="icon-detail-container">
-                <img src="images/qii3/icon.svg" alt="" />
-                <span className="icon-heading">Energy</span>
-                <span className="icon-description">
-                  Key decarbonization approaches include replacing fossil fuel
-                  generation with renewables, greening transmission networks,
-                  and enabling on-site renewable generation for buildings and
-                  industry.
-                </span>
+          <div className="ico-text-card-2-container">
+            <div className="ico-text-card-2">
+              <div className="ico-text-card-2-ico">
+                <img src="images/qii3/icon/energy.svg" alt="" />
               </div>
-              <div className="icon-detail-container">
-                <img src="images/qii3/icon.svg" alt="" />
-                <span className="icon-heading">Transport</span>
-                <span className="icon-description">
-                  Electric charging points and hydrogen fuelling stations are
-                  critical enablers of vehicle decarbonization, while emissions
-                  from road construction can be reduced in many ways, including
-                  reducing materials consumption, and reuse and recycling of
-                  materials from old roadways.
-                </span>
+              <p className="ico-text-card-2-title mTop">Energy</p>
+              <p className="ico-text-card-2-description mTop">
+                Key decarbonization approaches include replacing fossil fuel
+                generation with renewables, greening transmission networks, and
+                enabling on-site renewable generation for buildings and
+                industry.
+              </p>
+            </div>
+            <div className="ico-text-card-2">
+              <div className="ico-text-card-2-ico">
+                <img src="images/qii3/icon/transport.svg" alt="" />
               </div>
+              <p className="ico-text-card-2-title mTop">Transport</p>
+              <p className="ico-text-card-2-description mTop">
+                Electric charging points and hydrogen fuelling stations are
+                critical enablers of vehicle decarbonization, while emissions
+                from road construction can be reduced in many ways, including
+                reducing materials consumption, and reuse and recycling of
+                materials from old roadways.
+              </p>
             </div>
-            <div className="Decarbonization-Solutions-info">
-              <p>At a sector or project level, the Avoid-Shift-Improve (ASI) framework provides a useful hierarchy.</p>
-            </div>
-          </div> */}
+          </div>
+          <div className="ico-text-card-2-info">
+            <p>
+              At a sector or project level, the <strong>Avoid-Shift-Improve (ASI) framework </strong>
+               provides a useful hierarchy.
+            </p>
+          </div>
+          <div className="ico-text-card-2-infographics">
+            <img className="desk-img"src="images/qii3/QII3/Landing/Infographic.png" alt="" />
+            <img className="mobile-img" src="images/qii3/QII3/Landing/mobile_infographic.png" alt="" />
+            <p className="ico-text-card-2-infographics-p1">Avoid unnecessary emissions</p>
+            <p className="ico-text-card-2-infographics-p2">Shift to lower-carbon alternatives</p>
+            <p className="ico-text-card-2-infographics-p3">Improve efficiency of remaining systems</p>
+          </div>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png"
               title={
                 <p>
                   <strong>Climate Toolkits for Infrastructure PPPs </strong>{" "}
@@ -213,7 +225,7 @@ export default function Decarbonizing_Infrastructure() {
             </VCard>
 
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png"
               title={
                 <p>
                   <strong>Net Zero by 2050 </strong> <br />
@@ -231,7 +243,7 @@ export default function Decarbonizing_Infrastructure() {
             </VCard>
 
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Rewa_Ultra_Mega_Solar_Project.png"
               title={
                 <p>
                   <strong>Rewa Ultra Mega Solar Project, India</strong> <br />
@@ -251,7 +263,7 @@ export default function Decarbonizing_Infrastructure() {
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/New_Technologies_Powering_The_Energy_Transition.png"
               title={
                 <p>
                   <strong>
@@ -273,7 +285,7 @@ export default function Decarbonizing_Infrastructure() {
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Investigating_Life_Cycle.png"
               title={
                 <p>
                   <strong>
@@ -295,7 +307,7 @@ export default function Decarbonizing_Infrastructure() {
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Cairo_Alexandria_Trade_Logistics_Development.png"
               title={
                 <p>
                   <strong>
@@ -315,7 +327,7 @@ export default function Decarbonizing_Infrastructure() {
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png"
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Building_Green_Sustainable_Construction.png"
               title={
                 <p>
                   <strong>
