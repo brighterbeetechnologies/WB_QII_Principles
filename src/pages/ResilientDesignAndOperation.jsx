@@ -7,6 +7,7 @@ import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
+import { Link } from "react-router-dom";
 
 export default function ResilientDesignAndOperation() {
   const slidesData = [
@@ -56,8 +57,8 @@ export default function ResilientDesignAndOperation() {
           <div className="hero-content">
             <div className="header-3-subpages">
               <img
-                src="images/UpdatedAssets/Qii2.svg"
-                alt="Qii2 logo"
+                src="images/UpdatedAssets/Qii4.svg"
+                alt="Qii4 logo"
                 className="qii-badge"
               />
               <h1 className="header-title desk-title">
@@ -194,9 +195,13 @@ export default function ResilientDesignAndOperation() {
               image="images/qii4/ResilientDesignAndOperation/A Global Assessment of Building Codes.png"
               title={
                 <p>
-                  <strong>A Global Assessment of Building Codes:</strong> <br />
-                  Current Status and Evolving Needs to Promote Resilient, Green
-                  and Inclusive Buildings
+                  <strong>
+                    A Global Assessment of Building Codes: Current Status and
+                    Evolving Needs to Promote Resilient, Green and Inclusive
+                    Buildings
+                  </strong>
+                  <br />
+                  World Bank; GFDRR; Inter-American Development Bank
                 </p>
               }
               buttonText="Report"
@@ -216,8 +221,12 @@ export default function ResilientDesignAndOperation() {
               image="images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png"
               title={
                 <p>
-                  <strong>Building regulations in Sub-Saharan Africa:</strong>{" "}
-                  <br />A status review of the building regulatory environment
+                  <strong>
+                    Building regulations in Sub-Saharan Africa : A status review
+                    of the building regulatory environment
+                  </strong>{" "}
+                  <br />
+                  GFDRR
                 </p>
               }
               buttonText="Report"
@@ -240,6 +249,8 @@ export default function ResilientDesignAndOperation() {
                   <strong>
                     Stronger Building Codes for a Safer, More Resilient Future
                   </strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Blog"
@@ -259,6 +270,8 @@ export default function ResilientDesignAndOperation() {
               title={
                 <p>
                   <strong>Building Regulatory Capacity Assessment</strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Guidance"
@@ -279,6 +292,8 @@ export default function ResilientDesignAndOperation() {
               title={
                 <p>
                   <strong>Modular Bridges in Madagascar</strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Case Study"
@@ -351,9 +366,11 @@ export default function ResilientDesignAndOperation() {
               title={
                 <p>
                   <strong>
-                    IFC Catalogue of Nature-Based Solutions for Infrastructure
+                    Catalogue of Nature-Based Solutions for Infrastructure
                     Projects{" "}
                   </strong>{" "}
+                  <br />
+                  IFC
                 </p>
               }
               buttonText="Tool"
@@ -375,8 +392,10 @@ export default function ResilientDesignAndOperation() {
               title={
                 <p>
                   <strong>
-                    IADB: AI and deep learning for identifying pavement failures
+                    AI and deep learning for identifying pavement failures
                   </strong>
+                  <br />
+                  Inter-American Development Bank
                 </p>
               }
               buttonText="Case Study"
@@ -440,7 +459,10 @@ export default function ResilientDesignAndOperation() {
             </VCard>
           </div>
           <p className="qii4-note">
-            *For more on digital resilience, visit our cybersecurity sub-page.
+            *For more on digital resilience, visit our{" "}
+            <Link to="/Managing-cyber-security-risks" className="cyber-link">
+              cybersecurity
+            </Link> sub-page.
           </p>
           <div className="border-dash"></div>
           <NumSteps num="3">
@@ -468,7 +490,7 @@ export default function ResilientDesignAndOperation() {
                   <strong>
                     Incorporating Resilience into Infrastructure Prioritization:{" "}
                     Application to Japan's Road Transport Sector{" "}
-                  </strong>
+                  </strong><br />World Bank
                 </p>
               }
               buttonText="Report"
@@ -492,7 +514,7 @@ export default function ResilientDesignAndOperation() {
               image="images/qii4/ResilientDesignAndOperation/Building Back Better.png"
               title={
                 <p>
-                  <strong>Building Back Better </strong>
+                  <strong>Building Back Better </strong><br />GFDRR
                 </p>
               }
               buttonText="Report"
@@ -523,6 +545,7 @@ export default function ResilientDesignAndOperation() {
                     Functional Recovery of Lifeline Infrastructure System
                     Services{" "}
                   </strong>{" "}
+                  <br />National Institute of Standards and Technology
                 </p>
               }
               buttonText="Publication"
@@ -545,9 +568,9 @@ export default function ResilientDesignAndOperation() {
               title={
                 <p>
                   <strong>
-                    OECD Infrastructure Toolkit: Strengthening Critical
+                    Infrastructure Toolkit: Strengthening Critical
                     Infrastructure Resilience
-                  </strong>
+                  </strong><br />Organisation for Economic Co-operation and Development
                 </p>
               }
               buttonText="Tool"
@@ -568,7 +591,7 @@ export default function ResilientDesignAndOperation() {
                   <strong>
                     Building Resilience: New Strategies for Strengthening
                     Infrastructure Resilience and Maintenance{" "}
-                  </strong>
+                  </strong><br />Organisation for Economic Co-operation and Development
                 </p>
               }
               buttonText="Policy Paper"

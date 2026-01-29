@@ -460,6 +460,16 @@ ul {
   opacity: 0.3;
 }
 
+.cyber-link {
+  color: #1a73e8;
+  cursor: pointer;
+}
+
+.cyber-link:hover {
+  text-decoration: none;
+}
+
+
 @media (max-width: 1009px) {
   .overlay {
     position: fixed;

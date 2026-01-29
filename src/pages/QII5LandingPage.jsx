@@ -137,14 +137,8 @@ export default function QII5LandingPage() {
                   electricity, transport, and digital networks fuels
                   productivity and expands opportunities. More users improve
                   financial viability, especially when capital costs are high
-                  and marginal costs low (for example, in public transport).{" "}
-                  <br />
-                  <br /> To fully realize these social and economic benefits,
-                  inclusion must be integrated throughout the infrastructure
-                  lifecycle starting with policies and regulations, then through
-                  planning and design. Stakeholder engagement throughout these
-                  early stages, as well as during project delivery, ensures
-                  diverse needs are met.{" "}
+                  and marginal costs low (for example, in public
+                  transport).{" "}
                 </p>
               </div>
             </div>
@@ -153,6 +147,13 @@ export default function QII5LandingPage() {
         <div className="container internal-pages-cards">
           <div className="center-header">
             <h3 className="light-font">
+              To fully realize these social and economic benefits, inclusion
+              must be integrated throughout the infrastructure lifecycle
+              starting with policies and regulations, then through planning and
+              design. Stakeholder engagement throughout these early stages, as
+              well as during project delivery, ensures diverse needs are met.{" "}
+              <br />
+              <br />
               Making infrastructure inclusive does not need to be expensive.
               Studies indicate that{" "}
               <a
@@ -162,7 +163,7 @@ export default function QII5LandingPage() {
                 className="blue-link"
               >
                 inclusive design adds only 1–2% to upfront costs
-              </a>
+              </a>{" "}
               - much less than the cost of future retrofits.
             </h3>
           </div>
@@ -194,12 +195,12 @@ export default function QII5LandingPage() {
           </div>
         </div>
       </section>
-      <ImagewithStatement
+      {/* <ImagewithStatement
         backgroundImage={"images/qii2/qii2_img2.png"}
         text={
           "When the building blocks are missing, infrastructure falls into a familiar and costly trap."
         }
-      />
+      /> */}
       <section className="color-light">
         <div className="container ">
           <div className="video-text-cnt">
@@ -236,7 +237,7 @@ export default function QII5LandingPage() {
           </div>
         </div>
       </section>
-      <section className="container internal-pages-container color-dark">
+      {/* <section className="container internal-pages-container color-dark">
         <h3 className="statement-text">
           <strong>Life cycle costing</strong> breaks this cycle. <br />
           <br />
@@ -245,7 +246,7 @@ export default function QII5LandingPage() {
           better value over time.
         </h3>
         <h1 className="light-font "></h1>
-      </section>
+      </section> */}
       <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
@@ -272,9 +273,9 @@ export default function QII5LandingPage() {
           <p className="video-title">QII.5 in Action</p>
           <p className="video-desc">
             Discover how the design of Maputo's Bus Rapid Transit system is
-            transforming public transport in Mozambique’s capital.
+            transforming public transport in Mozambique's capital.
           </p>
-          <Link to="/qii2casestudy1">
+          <Link to="/qii5casestudy1">
             <button className="btn-primary qii2-video-cta">
               Explore Case Study <span className="icon-arrow">&#xe900;</span>
             </button>

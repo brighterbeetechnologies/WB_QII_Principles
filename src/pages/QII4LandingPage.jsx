@@ -178,7 +178,7 @@ export default function QII4LandingPage() {
     </g>
   </g>
 </svg>`,
-      title: "Diagnosing vulnerabilities",
+      title: "Diagnosing Vulnerabilities",
       description:
         "Systematically assessing infrastructure risks and weaknesses to prioritize resilience measures",
       path: "/Diagnosing-vulnerabilities",
@@ -204,7 +204,7 @@ export default function QII4LandingPage() {
     <path id="Path_6859" data-name="Path 6859" d="M-20021.24,6336.583a1,1,0,0,1-1-1v-20.619a1,1,0,0,1,1-1,1,1,0,0,1,1,1v20.619A1,1,0,0,1-20021.24,6336.583Z" transform="translate(20397.322 -5804.07)"/>
   </g>
 </svg>`,
-      title: "Resilient design and operation",
+      title: "Resilient Design and Operation",
       description:
         "Integrating climate-smart and adaptive practices into infrastructure planning, construction, and management",
       path: "/Resilient-design&operation",
@@ -284,7 +284,7 @@ export default function QII4LandingPage() {
     <path id="Line_686" data-name="Line 686" d="M13.245,1H0A1,1,0,0,1-1,0,1,1,0,0,1,0-1H13.245a1,1,0,0,1,1,1A1,1,0,0,1,13.245,1Z" transform="translate(63.357 50.112)"/>
   </g>
 </svg>`,
-      title: "Financing resilience",
+      title: "Financing Resilience",
       description:
         "Mobilizing dedicated funding sources to support resilient infrastructure investments and ongoing risk management",
       path: "/Financing-resilience",
@@ -320,7 +320,7 @@ export default function QII4LandingPage() {
     </g>
   </g>
 </svg>`,
-      title: "Managing cybersecurity risks",
+      title: "Managing Cybersecurity Risks",
       description:
         "Implementing safeguards to protect critical infrastructure from digital threats and service interruptions",
       path: "/Managing-cyber-security-risks",
@@ -597,7 +597,7 @@ export default function QII4LandingPage() {
           </button>
         </div>
         <div className="qii-video-text-cnt">
-          <p className="video-title">QII 4 in Action</p>
+          <p className="video-title">QII.4 in Action</p>
           <p className="video-desc">
             The Solomon Islands’ adoption of prefabricated modular bridges
             demonstrates an efficient, climate-resilient solution for

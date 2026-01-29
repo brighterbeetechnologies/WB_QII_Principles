@@ -1727,7 +1727,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4",
         type: "Guidance ",
-        title: "Learning from Mega-disasters: Japan Case Study ",
+        title: "Learning from Mega-disasters: Japan World Bank ",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -1742,7 +1742,7 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths: "https://climateknowledgeportal.worldbank.org/ ",
-        type: "Tools ",
+        type: "Tool ",
         title: "World Bank Climate Knowledge Portal",
         highlight: 0,
         target: "_blank",
@@ -1758,7 +1758,7 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths: "https://thinkhazard.org/en/",
-        type: "Tools ",
+        type: "Tool",
         title: "GFDRR ThinkHazard!",
         highlight: 0,
         target: "_blank",
@@ -1787,12 +1787,29 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png",
       },
-      {
+      // {
+      //   id: 4,
+      //   paths: "https://openknowledge.worldbank.org/handle/10986/21875",
+      //   type: "Guidance",
+      //   title:
+      //     "Climate Impact Assessment Frameworks (Africa Infrastructure Example) ",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 3,
+      //   desc: "This resource details consistent, state-of-the-art methods to assess the vulnerability of Africa's power and water infrastructure, analyzing physical condition, design, and operational interdependencies to identify system weaknesses under climate stress and recommending ways to strengthen resilience and adaptive planning.",
+      //   format: 5,
+      //   stage: 4,
+      //   region: 1,
+      //   industry: 1,
+      //   image:
+      //     "images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png",
+      // },
+       {
         id: 4,
         paths: "https://openknowledge.worldbank.org/handle/10986/21875",
         type: "Guidance",
         title:
-          "Climate Impact Assessment Frameworks (Africa Infrastructure Example) ",
+          "Enhancing the Climate Resilience of Africa's Infrastructure ​World Bank",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -1807,9 +1824,9 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths: "https://gain.nd.edu/our-work/country-index/rankings/",
-        type: "Tools",
+        type: "Tool",
         title:
-          "Notre Dame Global Adaptation Initiative: ND-GAIN Vulnerability Indices",
+          "Notre Dame Global Adaptation Initiative: University of Notre Dame",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -1826,7 +1843,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.gfdrr.org/sites/default/files/publication/pda-2015-vanuatu.pdf",
         type: "Case study",
-        title: "Vanuatu Post-Disaster Needs Assessment: Tropical Cyclone Pam",
+        title: "Vanuatu Post-Disaster Needs Assessment: GFDRR",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -1876,7 +1893,7 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths: "https://giri.unepgrid.ch/",
-        type: "Tools",
+        type: "Tool",
         title:
           "Global Infrastructure Risk Model and Resilience Index (GIRI) (Coalition for Disaster Resilient Infrastructure)",
         highlight: 0,
@@ -1895,7 +1912,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Climate-Change/INFORM-Climate-Change-Tool",
-        type: "Tools",
+        type: "Tool",
         title: "INFORM Climate Change Tool (European Commission)",
         highlight: 0,
         target: "_blank",
@@ -2005,7 +2022,7 @@ export const appDataSlice = createSlice({
           "https://openknowledge.worldbank.org/entities/publication/6f69f235-edf6-40b9-9a4b-5efad46630aa",
         type: "Report",
         title:
-          "A Global Assessment of Building Codes: Current Status and Evolving Needs to Promote Resilient, Green and Inclusive Buildings",
+          "A Global Assessment of Building Codes: Current Status and Evolving Needs to Promote Resilient, Green and Inclusive Buildings World Bank; GFDRR; Inter-American Development Bank",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2243,7 +2260,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.nist.gov/publications/functional-recovery-lifeline-infrastructure-system-services",
         type: "Publication",
-        title: "Functional Recovery of Lifeline Infrastructure System Services",
+        title: "Functional Recovery of Lifeline Infrastructure System Services National Institute of Standards and Technology",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2262,7 +2279,7 @@ export const appDataSlice = createSlice({
           "https://infrastructure-toolkit.oecd.org/governance/strengthen-critical-infrastructure-resilience/",
         type: "Tool",
         title:
-          "OECD Infrastructure Toolkit: Strengthening Critical Infrastructure Resilience",
+          "Infrastructure Toolkit: Strengthening Critical Infrastructure Resilience Organisation for Economic Co-operation and Development",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2281,7 +2298,7 @@ export const appDataSlice = createSlice({
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/11/building-resilience_6b655137/354aa2aa-en.pdf",
         type: "Policy Paper",
         title:
-          "Building Resilience: New Strategies for Strengthening Infrastructure Resilience and Maintenance",
+          "Building Resilience: New Strategies for Strengthening Infrastructure Resilience and Maintenance Organisation for Economic Co-operation and Development",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2625,7 +2642,7 @@ export const appDataSlice = createSlice({
         paths: "https://cdri.world/upload/biennial/CH4.1-CCRI.pdf",
         type: "Report",
         title:
-          "Financing for Disaster and Resilient Infrastructure (Coalition for Disaster Resilient Infrastructure) ",
+          "Financing for Disaster and Resilient Infrastructure Coalition for Disaster Resilient Infrastructure",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2644,7 +2661,7 @@ export const appDataSlice = createSlice({
           "https://www.oecd.org/en/publications/g20-oecd-report-on-approaches-for-financing-and-investing-in-climate-resilient-infrastructure_8f6d436a-en.html",
         type: "Report",
         title:
-          "G20/OECD Report on approaches for financing and investing in climate-resilient infrastructure",
+          "G20/OECD Report on approaches for financing and investing in climate-resilient infrastructure Organisation for Economic Co-operation and Development",
         highlight: 0,
         target: "_blank",
         principles: 3,

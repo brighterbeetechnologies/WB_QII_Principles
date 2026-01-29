@@ -8,6 +8,7 @@ import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
+import { Link } from "react-router-dom";
 
 export default function FinancingResilience() {
   const slidesData = [
@@ -57,8 +58,8 @@ export default function FinancingResilience() {
           <div className="hero-content">
             <div className="header-3-subpages">
               <img
-                src="images/UpdatedAssets/Qii2.svg"
-                alt="Qii2 logo"
+                src="images/UpdatedAssets/Qii4.svg"
+                alt="Qii4 logo"
                 className="qii-badge"
               />
               <h1 className="header-title desk-title">Financing Resilience</h1>
@@ -89,17 +90,21 @@ export default function FinancingResilience() {
           <NumSteps num="1">
             <strong>Screening projects with sustainability standards –</strong>{" "}
             Alongside the vulnerability and risk assessments (outlined within
-            the ‘Diagnosing Vulnerabilities’ sub-page of QII.4), projects can
+            the <Link to="/Diagnosing-vulnerabilities" className="cyber-link">
+              ‘Diagnosing Vulnerabilities’
+            </Link> sub-page of QII.4), projects can
             also be screened against international sustainability and resilience
             standards. Meeting these standards shows investors that a project
             meets certain ‘sustainable and resilient’ criteria, which can unlock
             new funding sources—including from private investors—that are often
             out of reach for these kinds of infrastructure projects.
           </NumSteps>
-          <p className="mTop">
+          <p className="mTop" style={{ fontStyle: "italic" }}>
             *The below list highlights references, which aggregate global best
             practices across multiple sectors. For a deeper dive into the topic,
-            please refer to the ‘Resilient Design and Operations’ sub-page.
+            please refer to the <Link to="/Resilient-design&operation" className="cyber-link">
+              ‘Resilient Design and Operations’
+            </Link> sub-page.
           </p>
           <div className="VCard-cnt col3">
             <VCard
@@ -388,7 +393,8 @@ export default function FinancingResilience() {
               image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
               title={
                 <p>
-                  <strong>GFDRR Disaster Risk Finance</strong>
+                  <strong>Disaster Risk Finance</strong>
+                  <br />GFDRR 
                 </p>
               }
               buttonText="Resource"
@@ -407,7 +413,8 @@ export default function FinancingResilience() {
               image="images/qii4/FinancingResilience/Philippine Water Revolving Fund.png"
               title={
                 <p>
-                  <strong>Philippine Water Revolving Fund</strong>
+                  <strong>Philippines Water Revolving Fund</strong><br />
+                  World Bank
                 </p>
               }
               buttonText="Case study"
@@ -458,7 +465,7 @@ export default function FinancingResilience() {
               </p>
             </VCard>
           </div>
-          <h4 className="sub-section-title">General references</h4>
+          <h4 className="sub-section-title">Further Reading On Financing Resilience</h4>
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png"
@@ -507,7 +514,7 @@ export default function FinancingResilience() {
                 financially viable and scalable.
               </p>
             </VCard>
-            <VCard
+            {/* <VCard
               image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
               title={
                 <p>
@@ -524,7 +531,7 @@ export default function FinancingResilience() {
                 compendium of case studies and resources in financing solutions
                 for better management of disasters and climate shocks.
               </p>
-            </VCard>
+            </VCard> */}
 
             {/* <VCard
               image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
@@ -551,9 +558,9 @@ export default function FinancingResilience() {
               title={
                 <p>
                   <strong>
-                    G20/OECD Report on approaches for financing and investing in
-                    climate-resilient infrastructure
-                  </strong>
+                    G20/OECD Report on Approaches for Financing and Investing in Climate-resilient Infrastructure
+                  </strong><br />
+                  Organisation for Economic Co-operation and Development
                 </p>
               }
               buttonText="Report"
@@ -574,8 +581,8 @@ export default function FinancingResilience() {
                 <p>
                   <strong>
                     Financing for Disaster and Resilient Infrastructure
-                    (Coalition for Disaster Resilient Infrastructure)
-                  </strong>
+                  </strong><br />
+                  Coalition for Disaster Resilient Infrastructure
                 </p>
               }
               buttonText="Report"

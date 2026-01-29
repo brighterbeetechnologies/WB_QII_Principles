@@ -14,32 +14,32 @@ export default function Policies_Standards_Regulation() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/qii3", title: "QII.3 Environment" },
+          { path: "/qii5", title: "QII.5 Social" },
           {
             path: "/Policies_Standards_Regulation",
-            title: "Green Financing for Infrastructure",
+            title: "Inclusion through Policies, Standards and Regulation",
           },
         ],
       }),
     );
   }, []);
   return (
-    <div className="procurement">
+    <div className="Policies_Standards_Regulation">
       <section className="color-light">
         <Header3
           img="images/qii3/GreenFinancingforInfrastructure/shutterstock_2477739245.png"
-          title={"Green Financing for Infrastructure"}
+          title={"Inclusion through Policies, Standards and Regulation"}
           hideDeskTitle={true}
         >
           <div className="hero-content">
             <div className="header-3-subpages">
               <img
-                src="images/UpdatedAssets/Qii3.svg"
-                alt="Qii2 logo"
+                src="images/UpdatedAssets/Qii5.svg"
+                alt="Qii5 logo"
                 className="qii-badge"
               />
               <h1 className="header-title desk-title">
-                Green Financing for Infrastructure
+                Inclusion through Policies, Standards and Regulation
               </h1>
             </div>
           </div>
@@ -56,120 +56,149 @@ export default function Policies_Standards_Regulation() {
         </Header3>
         <div className="container internal-pages-container">
           <p className="link-text">
-            <strong>Sustainable Infrastructure Finance</strong>
-            <br />
-            <br />
-            Sustainable investment directs capital toward infrastructure that
-            delivers long-term environmental and social benefits alongside
-            financial returns, using tools such as green bonds,
-            sustainability-linked loans, and climate-aligned investment funds.
-            <br />
-            <br />
-            To access green finance, project developers much first understand
-            how their project can deliver measurable environmental benefits, and
-            how these benefits can qualify the project for different forms of
-            green finance. Access to such finance will be determined not just by
-            the nature of the project, but also the availability of green
-            finance instruments in the specific country or region.
+            Regulations should require compliance with universal design
+            standards, continuous monitoring, inclusive stakeholder engagement,
+            and the adaptation of policies to emerging needs and technologies,
+            ensuring genuine equitable access and opportunity at every stage.
           </p>
           <NumSteps num="1">
-            <strong>Define and Meet Eligibility for Green Finance</strong>
+            <strong>Setting clear inclusivity strategies and goals –</strong>
             <br />
-            <br />
-            Sustainable finance taxonomies set common definitions for what
-            counts as green or sustainable investments. They help prioritize
-            projects that genuinely meet sustainability criteria and reduce the
-            risk of greenwashing. Over the past decade, numerous taxonomies have
-            emerged at national, regional, and international levels to guide
-            sustainable investment decisions.{" "}
+            Authorities should specify clear targets for gender, disability,
+            age, or other identified gaps, then require every sector and project
+            to integrate these goals into funding, design, and monitoring.{" "}
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/World of Taxonomies.png"
+              image="images/qii5/PoliciesandRegulation/To-Have-and-Have-Not.png"
               title={
                 <p>
-                  <strong>World of TaxonomiesClimate Bonds Initiative </strong>{" "}
-                  <br></br>Climate Bonds Initiative
+                  <strong>
+                    To Have and Have Not – How to Bridge the Gap in
+                    Opportunities
+                  </strong>{" "}
                 </p>
               }
-              buttonText="Tool"
-              link="https://www.climatebonds.net/expertise/taxonomy/world-taxonomies"
+              buttonText="Tools"
+              link="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/to-have-and-have-not-how-to-bridge-the-gap-in-opportunities_f642138a/dec143ad-en.pdf"
             >
               <p>
-                There are numerous green and sustainable finance taxonomies in
-                use or under development at national, regional, and
-                international levels. This tool allows users to navigate through
-                these taxonomies from a single source.
+                This OECD report examines disparities in opportunities across
+                societies and provides evidence-based policy recommendations for
+                closing gaps.
+                <br />
+                <br />
+                Section 4, page 122 has an evidence-based framework for setting
+                clear inclusivity strategies and goals within policy and
+                regulation.
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/EU Taxonomy for Sustainable Activities.png"
+              image="images/qii5/PoliciesandRegulation/Asian-Development-Bank(ADB)—Gender-Equality-and-Social-Inclusion.png"
               title={
                 <p>
-                  <strong>EU Taxonomy for Sustainable Activities </strong>
+                  <strong>
+                    Gender Equality and Social Inclusion (GESI) Guidance for
+                    Infrastructure{" "}
+                  </strong>
+                  <br />
+                  Asian Development Bank (ADB)
                 </p>
               }
-              buttonText="Tool"
-              link="https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en"
+              buttonText="Tools"
+              link="https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source"
             >
               <p>
-                This taxonomy provides a common definition of economic
-                activities that can be considered environmentally sustainable.
-                It helps to scale up sustainable investment and protects
-                investors from greenwashing.{" "}
+                The JICA Thematic Guidelines on Disability and Development
+                provide a comprehensive framework for mainstreaming disability
+                inclusion across all development activities and sectors. <br />
+                <br />
+                Most relevant are chapters II to IV, focusing on actionable
+                frameworks, diagnostic processes, and evaluation procedures.
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png"
+              image="images/qii5/PoliciesandRegulation/JICA-Thematic-Guidelines-for-Inclusive-Development-including-Universal-Design.png"
               title={
                 <p>
-                  <strong>FAST-Infra</strong>
+                  <strong>
+                    JICA Thematic Guidelines for Inclusive Development,
+                    including Universal Design{" "}
+                  </strong>
                 </p>
               }
-              buttonText="Tool"
-              link="https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en"
+              buttonText="Guidance "
+              link="https://www.jica.go.jp/Resource/english/our_work/thematic_issues/social/c8h0vm00005znamu-att/guideline_social_01.pdf"
             >
               <p>
-                This is a harmonized framework that aggregates various
-                sustainable finance taxonomies to create a certification label
-                specifically for infrastructure investments.{" "}
+                The JICA Thematic Guidelines on Disability and Development
+                provide a comprehensive framework for mainstreaming disability
+                inclusion across all development activities and sectors.{" "}
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Sector-Specific Criteria.png"
+              image="images/qii5/PoliciesandRegulation/Gender-Inclusive-Urban-Planning-Design.png"
               title={
                 <p>
-                  <strong>Sector-Specific Criteria</strong> <br></br>Climate
-                  Bonds Initiative
+                  <strong>Gender-Inclusive Urban Planning Design</strong>
                 </p>
               }
               buttonText="Guidance"
-              link="https://www.climatebonds.net/expertise/taxonomy/world-taxonomies"
+              link="https://openknowledge.worldbank.org/entities/publication/63c07ff8-cd1e-52c0-9441-005b9aa22bcf"
             >
               <p>
-                The Climate Bonds Initiative (CBI) develops sector-specific
-                criteria that provide climate benchmarks across a range of
-                infrastructure sectors to define projects eligible for climate
-                finance.
+                This World Bank handbook provides a comprehensive framework for
+                integrating gender considerations into urban planning and design
+                processes. It covers the full spectrum from policy development
+                to implementation.
+                <br />
+                <br />
+                Page 37 offers a snapshot of the challenges in collecting
+                primary data for gender gap analysis, including how women's
+                perspectives may be sidelined due to household responsibilities
+                or patriarchal norms.
+              </p>
+            </VCard>
+
+            <VCard
+              image="images/qii5/PoliciesandRegulation/Mainstreaming-Gender-in-Infrastructure–Gender-Action-Plan.png"
+              title={
+                <p>
+                  <strong>
+                    Mainstreaming Gender in Infrastructure – Gender Action Plan
+                  </strong>
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf"
+            >
+              <p>
+                This provides a comprehensive framework for mainstreaming gender
+                considerations throughout infrastructure project cycles. It
+                addresses practical challenges in collecting
+                gender-disaggregated data and developing gender action plans.
+                <br />
+                <br />
+                Page 37 offers a snapshot of the challenges in collecting
+                primary data for gender gap analysis, including how women's
+                perspectives may be sidelined due to household responsibilities
+                or patriarchal norms.
               </p>
             </VCard>
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Identify Green Financing Instruments</strong>
+            <strong>
+              Strengthening Governance to Enforce Inclusivity Standards
+            </strong>
             <br />
-            <br></br>
-            Green bonds, sustainability-linked loans, and carbon credit schemes
-            are just some examples of financing instruments which direct capital
-            towards projects with clear environmental benefits. Such instruments
-            are intended to incentivize the development of environmentally
-            sustainable projects and are typically guided by green finance
-            taxonomies (as above). The availability of different green financing
-            sources will vary according to many factors, including the country
-            or region of the project, the sector, and the nature of the
-            environmental benefits, and therefore will require further
-            context-specific exploration.
+            Once clear inclusion targets have been set, these should be
+            integrated as requirements within national regulations, sector
+            technical codes, and procurement systems. Dedicated authorities must
+            oversee inclusion compliance at all project stages and make
+            reporting mandatory. Legal tools can be leveraged to mandate audits
+            and corrective action.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
           <div className="VCard-cnt col3">

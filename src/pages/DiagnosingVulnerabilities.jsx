@@ -55,7 +55,7 @@ export default function DiagnosingVulnerabilities() {
           <div className="hero-content">
             <div className="header-3-subpages">
               <img
-                src="images/UpdatedAssets/Qii2.svg"
+                src="images/UpdatedAssets/Qii4.svg"
                 alt="Qii2 logo"
                 className="qii-badge"
               />
@@ -103,7 +103,7 @@ export default function DiagnosingVulnerabilities() {
                 <p>
                   Japan <br />
                   <strong>Learning from Mega-disasters: </strong> <br />
-                  Case Study
+                  World Bank
                 </p>
               }
               buttonText="Guidance"
@@ -128,7 +128,7 @@ export default function DiagnosingVulnerabilities() {
                   World Bank
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://climateknowledgeportal.worldbank.org/ "
             >
               <p>
@@ -144,7 +144,7 @@ export default function DiagnosingVulnerabilities() {
                   <strong>GFDRR ThinkHazard!</strong>
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://thinkhazard.org/en/  "
             >
               <p>
@@ -188,13 +188,35 @@ export default function DiagnosingVulnerabilities() {
             recovery.
           </NumSteps>
           <div className="VCard-cnt col3">
-            <VCard
+            {/* <VCard
               image="images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png"
               title={
                 <p>
                   Africa <br />
                   <strong>Climate Impact Assessment Frameworks</strong> <br />
                   (Infrastructure Example)
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://openknowledge.worldbank.org/handle/10986/21875"
+            >
+              <p>
+                This resource details consistent, state-of-the-art methods to
+                assess the vulnerability of Africa's power and water
+                infrastructure, analyzing physical condition, design, and
+                operational interdependencies to identify system weaknesses
+                under climate stress and recommending ways to strengthen
+                resilience and adaptive planning.
+              </p>
+            </VCard> */}
+
+               <VCard
+              image="images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png"
+              title={
+                <p>
+                  
+                  <strong>Enhancing the Climate Resilience of Africa's Infrastructure</strong> <br />
+                  ​World Bank
                 </p>
               }
               buttonText="Guidance"
@@ -216,10 +238,10 @@ export default function DiagnosingVulnerabilities() {
                 <p>
                   <strong>Notre Dame Global Adaptation Initiative </strong>{" "}
                   <br />
-                  ND-GAIN Vulnerability Indices
+                  University of Notre Dame
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://gain.nd.edu/our-work/country-index/rankings/ "
             >
               <p>
@@ -235,7 +257,7 @@ export default function DiagnosingVulnerabilities() {
                 <p>
                   <strong>Vanuatu Post-Disaster Needs Assessment </strong>{" "}
                   <br />
-                  Tropical Cyclone Pam
+                 GFDRR
                 </p>
               }
               buttonText="Case study"
@@ -251,7 +273,7 @@ export default function DiagnosingVulnerabilities() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Risk-informed decision-making </strong> –
+            <strong>Risk-Informed Decision-Making​</strong> 
             <br /> <br className="mobile-break" />
             This involves translating hazard and vulnerability assessments into
             actionable choices. By quantifying risks in terms of probability and
@@ -265,7 +287,7 @@ export default function DiagnosingVulnerabilities() {
               title={
                 <p>
                   <strong>Disaster Risk Profiles </strong>
-                  <br /> (GFDRR)
+                  <br /> GFDRR
                 </p>
               }
               buttonText="Guidance"
@@ -304,10 +326,10 @@ export default function DiagnosingVulnerabilities() {
               title={
                 <p>
                   <strong>
-                    Global Infrastructure Risk Model and Resilience Index{" "}
+                    Global Infrastructure Risk Model and Resilience Index (GIRI){" "}
                   </strong>{" "}
                   <br />
-                  (GIRI) (Coalition for Disaster Resilient Infrastructure)
+                   Coalition for Disaster Resilient Infrastructure
                 </p>
               }
               buttonText="Tools"
@@ -326,7 +348,7 @@ export default function DiagnosingVulnerabilities() {
                 <p>
                   <strong>INFORM Climate Change Tool </strong>
                   <br />
-                  (European Commission)
+                  European Commission
                 </p>
               }
               buttonText="Tools"
@@ -368,10 +390,10 @@ export default function DiagnosingVulnerabilities() {
               title={
                 <p>
                   <strong>
-                    Initial Sea Level Rise Risk Assessment for Nauru{" "}
+                    Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1){" "}
                   </strong>{" "}
                   <br />
-                  (Chapter 5.6.1)(Pacific Regional Infrastructure Facility)
+                  Pacific Regional Infrastructure Facility
                 </p>
               }
               buttonText="Case study"

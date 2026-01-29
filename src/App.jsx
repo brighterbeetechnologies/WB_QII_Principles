@@ -152,7 +152,7 @@ export const router = createHashRouter([
 						<QII4LandingPage />
 					</Suspense>
 				),
-			},
+			}, 
 			{
 				path: "/Diagnosing-vulnerabilities",
 				element: (
@@ -233,6 +233,22 @@ export const router = createHashRouter([
 					</Suspense>
 				),
 			},
+			// {
+			// 	path: "/Policies_Standards_Regulation",
+			// 	element: (
+			// 		<Suspense fallback={<Loader></Loader>}>
+			// 			<Policies_Standards_Regulation />
+			// 		</Suspense>
+			// 	),
+			// },
+			// {
+			// 	path: "/Policies_Standards_Regulation",
+			// 	element: (
+			// 		<Suspense fallback={<Loader></Loader>}>
+			// 			<Policies_Standards_Regulation />
+			// 		</Suspense>
+			// 	),
+			// },
 			{
 				path: "/qii6",
 				element: (

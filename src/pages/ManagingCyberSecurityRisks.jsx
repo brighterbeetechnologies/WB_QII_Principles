@@ -59,8 +59,8 @@ export default function ManagingCyberSecurityRisks() {
           <div className="hero-content">
             <div className="header-3-subpages">
               <img
-                src="images/UpdatedAssets/Qii2.svg"
-                alt="Qii2 logo"
+                src="images/UpdatedAssets/Qii4.svg"
+                alt="Qii4 logo"
                 className="qii-badge"
               />
               <h1 className="header-title desk-title">
@@ -95,7 +95,7 @@ export default function ManagingCyberSecurityRisks() {
             infrastructure planning, design and operations:
           </p>
           <NumSteps num="1">
-            <strong>Building a foundation for cybersecurity : </strong> <br />
+            <strong>Building a foundation for cybersecurity </strong> <br />
             This includes assessing cybersecurity maturity, developing
             strategies and legal frameworks, establishing cybersecurity
             governance structures, and strengthening institutions for
@@ -129,7 +129,7 @@ export default function ManagingCyberSecurityRisks() {
                   UK <br />
                   <strong>The Cyber Assessment Framework </strong>
                   <br />
-                  (CAF) (National Cyber Security Center, UK)
+                  National Cyber Security Center
                 </p>
               }
               buttonText="Guidance"
@@ -188,7 +188,7 @@ export default function ManagingCyberSecurityRisks() {
                 <p>
                   Ghana <br />
                   <strong>
-                    A case study in strengthening cyber resilience{" "}
+                    A Case Study in Strengthening Cyber Resilience ​{" "}
                   </strong>
                   <br />
                   World Bank
@@ -208,7 +208,7 @@ export default function ManagingCyberSecurityRisks() {
 
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Implementing cyber security in practice : </strong> <br />
+            <strong>Implementing cyber security in practice </strong> <br />
             This involves evaluating critical cybersecurity risks and putting
             practical measures in place to manage and lower these risks.
           </NumSteps>
@@ -218,9 +218,9 @@ export default function ManagingCyberSecurityRisks() {
               image="images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png"
               title={
                 <p>
-                  <strong>Cybersecurity best practice for smart cities </strong>{" "}
+                  <strong>Cybersecurity Best Practice for Smart Cities ​</strong>{" "}
                   <br />
-                  (CISA)
+                  CISA
                 </p>
               }
               buttonText="Guidance"
@@ -240,7 +240,7 @@ export default function ManagingCyberSecurityRisks() {
               title={
                 <p>
                   Canada <br />
-                  <strong>The cyber threat environment</strong>
+                  <strong>The Cyber Threat Environment</strong><br />Government of Canada
                 </p>
               }
               buttonText="Guidance"
