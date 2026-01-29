@@ -40,7 +40,7 @@ export default function ResilientDesignAndOperation() {
           { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Resilient-design&operation",
-            title: "Resilient Design and Operations",
+            title: "Resilient Design and Operation​",
           },
         ],
       }),

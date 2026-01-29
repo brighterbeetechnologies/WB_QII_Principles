@@ -341,6 +341,10 @@ cursor: pointer;
     width: 30%;
   }
 
+  .video-text-box img{
+   position: relative;
+  }
+
   .qii2 .sub-text {
     margin: 1rem 0;
   }

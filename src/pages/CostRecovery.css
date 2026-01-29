@@ -16,6 +16,7 @@
   width: 100%;
 }
 
+
 @media (max-width: 687px) {
   .costRecovery .Header3 .container {
     padding-bottom: 0;
@@ -61,6 +62,12 @@
   }
 }
 
+@media (min-width: 768px) {
+    .page-resource-title span {
+    font-size: 0.8rem;
+  }
+}
+
 @media (min-width: 992px) {
 	.costRecovery .subpagehero img {
     height: 110px;
@@ -88,6 +95,10 @@
     height: 120px;
     width: 100%;
   }
+   .page-resource-title span {
+    font-size: 1rem;
+  }
+
 }
 
 @media (min-width: 1600px) {

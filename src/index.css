@@ -313,7 +313,7 @@ ul {
       180deg,
       rgba(0, 0, 0, 0.76) 0%,
       rgba(0, 0, 0, 0.63) 48%,
-      rgba(0, 0, 0, 0) 100%
+      rgba(0, 0, 0, 0.63) 100%
     )
     0% 0% no-repeat padding-box;
   transition: background 0.3s;

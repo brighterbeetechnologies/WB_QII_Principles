@@ -71,7 +71,7 @@ export default function QII4CaseStudy2() {
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
                   <p>
-                    ¥34.1 billion (US$310 million) - for Phase 1 improvements.
+                    ¥34.1 billion (US$310 million) - for Phase 1 improvements
                     <br />
                     <br />
                     <br />
@@ -85,7 +85,7 @@ export default function QII4CaseStudy2() {
                   <div>
                     <ul>
                       <li>
-                        Expansion of 135,000 m3 underground stormwater storage
+                        Expansion of 135,000 m<sup>3</sup> underground stormwater storage
                         capacity, protecting a high-density urban bay area from
                         flooding
                       </li>

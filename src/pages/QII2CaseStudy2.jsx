@@ -30,7 +30,7 @@ export default function QII2CaseStudy2() {
             }}
           >
             <h2 className="main-title">
-              <span>The Ganga Wastewater Program</span> Strengthening Life Cycle
+              <span>The Ganga Wastewater Program</span> <br />Strengthening Life Cycle
               Costing through Public-Private Partnerships
             </h2>
             <div className="sub-title">

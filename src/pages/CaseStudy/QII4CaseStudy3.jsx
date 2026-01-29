@@ -71,13 +71,14 @@ export default function QII4CaseStudy3() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/result_icon.svg" alt="" />
                   <h3>RESULT</h3>
-                  <div>
+                  {/* <div>
                     <ul>
                       <li>
                         Road sector investment, maintenance, and emergency response systematically informed and prioritized based on hazard risk and vulnerability diagnostics
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
+                  <p>Road sector investment, maintenance, and emergency response systematically informed and prioritized based on hazard risk and vulnerability diagnostics</p>
                 </div>
               </div>
             </div>

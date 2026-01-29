@@ -38,7 +38,7 @@ export default function DiagnosingVulnerabilities() {
           { path: "/qii4", title: "QII.4 Resilience" },
           {
             path: "/Diagnosing-vulnerabilities",
-            title: "Diagnosing vulnerabilities",
+            title: "Diagnosing Vulnerabilities​",
           },
         ],
       }),
@@ -141,7 +141,7 @@ export default function DiagnosingVulnerabilities() {
               image="images/qii4/DiagnosingVulnerabilities/GFDRR.png"
               title={
                 <p>
-                  <strong>GFDRR ThinkHazard!</strong>
+                  <strong>ThinkHazard!</strong><br />GFDRR 
                 </p>
               }
               buttonText="Tool"

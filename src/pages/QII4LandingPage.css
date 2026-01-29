@@ -1,5 +1,16 @@
-
-
+.qii2 .vid-cnt::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.7) 90%,
+    rgba(0, 0, 0, 1.85) 100%
+  );
+  z-index: -1;
+  border-radius: 15px;
+}
 
 @media (min-width: 768px) {
   .top-resource-card-cnt-qii4 {

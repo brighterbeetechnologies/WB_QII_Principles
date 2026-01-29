@@ -12,7 +12,7 @@ export default function TechnicalSolutions() {
     {
       id: 0,
       title: "InfraTech Portal ",
-      subTitle: "Asian Infrastructure Investment Bank",
+      org: "Asian Infrastructure Investment Bank",
       description:
         "This portal was developed by the AIIB to disseminate free information on InfraTech and facilitate interaction among the InfraTech community.",
       img_path: "images/technicalSolutions/resources/InfratechPortal.png",
@@ -21,7 +21,7 @@ export default function TechnicalSolutions() {
     {
       id: 1,
       title: "InfraTech Policy Toolkit",
-      subTitle: "World Bank",
+      org: "World Bank",
       description:
         "This toolkit outlines key priority areas for policymaking and tools for policymakers wishing to integrate InfraTech across the infrastructure life cycle.",
       img_path:
@@ -32,7 +32,7 @@ export default function TechnicalSolutions() {
       id: 2,
       title:
         "Nature-Based Solutions for Infrastructure Projects ",
-      subTitle : "International Finance Corporation",
+      org: "International Finance Corporation",
       description:
         "This catalogue provides examples of nature-based solutions that private infrastructure companies can integrate into their core business operations and articulates the business case for doing so.",
       img_path: "images/technicalSolutions/resources/CatalogueofNature.png",
@@ -42,7 +42,7 @@ export default function TechnicalSolutions() {
       id: 3,
       title:
         "Global BIM Network ",
-      subTitle: "UK Foreign, Commonwealth and Development Office",
+      org: "UK Foreign, Commonwealth and Development Office",
       description:
         "This platform connects international public sector representatives and multi-lateral organizations with the aim of advancing the digitalization of the global built environment and sharing the resulting benefits.",
       img_path: "images/technicalSolutions/resources/GlobalBIMetwork.png",
@@ -358,15 +358,20 @@ export default function TechnicalSolutions() {
               >
                 <div className="page-resource-link">
                   <div className="page-resource-body">
-                    <div className="page-resource-title title-small">
-                      <strong>{p.title}</strong>
-                      {p.subTitle && (
-                        <>
-                          <br />
-                          {p.subTitle}
-                        </>
-                      )}
-                    </div>
+                     <div className="page-resource-title title-small">
+                        {p.country && (
+                          <>
+                            <span>{p.country}</span> <br />
+                          </>
+                        )}
+                        <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
+                      </div>
                     <div className="page-resource-overlay" />
                     <img
                       className="page-resource-img"
@@ -376,15 +381,20 @@ export default function TechnicalSolutions() {
                     {/* <div className="page-resource-img-cnt">
                     </div> */}
                     <div className="page-resource-data">
-                      <div className="page-resource-title title-big">
-                        <strong>{p.title}</strong>
-                        {p.subTitle && (
-                          <>
-                            <br />
-                            {p.subTitle}
-                          </>
-                        )}
-                      </div>
+                   <div className="page-resource-title title-big">
+                          {p.country && (
+                            <>
+                              <span>{p.country}</span> <br />
+                            </>
+                          )}
+                          <strong>{p.title}</strong>
+                          {p.org && (
+                            <>
+                              <br />
+                              <span>{p.org}</span>
+                            </>
+                          )}
+                        </div>
                       <div className="page-resource-description">
                         {p.description}
                       </div>

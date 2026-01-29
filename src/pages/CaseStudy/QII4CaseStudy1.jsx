@@ -61,9 +61,16 @@ export default function QII4CaseStudy1() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
-                  <p>
-                    Futakotamagawa Rise: ¥102.4 billion (US$875 million) for Phase 1 8.1 ha of 11.2 ha) Futakotamagawa Park: ¥1.274 billion (US$11.6 million)
-                  </p>
+                   <div>
+                    <ul>
+                      <li>
+                        <strong>Futakotamagawa Rise :</strong> ¥102.4 billion ($875 million)  Phase 1 (8.1  ha out of 11.2 ha)
+                      </li>
+                      <li>
+                        <strong>Futakotamagawa Park :</strong> ¥1.274 billion ($11.6 million)
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div className="case-study-details-card">

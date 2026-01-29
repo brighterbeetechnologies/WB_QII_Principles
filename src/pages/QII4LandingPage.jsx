@@ -131,6 +131,7 @@ export default function QII4LandingPage() {
       id: 0,
       country: "Japan",
       title: "Futakotamagawa: Integrating Flood Protection and Urban Renewal",
+      org: "World Bank",
       description:
         "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
       img_path:
@@ -143,6 +144,7 @@ export default function QII4LandingPage() {
       country: "Japan",
       title:
         "Shibaura Wastewater Treatment Facility: Financing Resilience through Land Value Capture",
+      org: "World Bank",
       description:
         "Demonstrates how underground stormwater detention protects a high-density urban area from flooding while a PPP that monetized surface development rights ensures long-term financial sustainability for operations and maintenance.",
       img_path: "images/newresource/ShibauraWastewaterTreatment.png",
@@ -154,6 +156,7 @@ export default function QII4LandingPage() {
       country: "Cabo Verde",
       title:
         "Diagnosing Road Network Vulnerabilities to Guide Resilient Investment",
+      org: "World Bank",
       description:
         "Demonstrates how systematic hazard mapping and asset vulnerability diagnostics can prioritize resilient infrastructure investments.",
       img_path: "images/newresource/Diagnosing-Road-Network.png",
@@ -520,12 +523,12 @@ export default function QII4LandingPage() {
           </div>
         </div>
       </section>
-       <section className="container internal-pages-container color-dark">
+      {/* <section className="container internal-pages-container color-dark">
         <h3 className="statement-text">
           <strong>The Benefits of Resilience in Infrastructure </strong>
         </h3>
         <h1 className="light-font "></h1>
-      </section>
+      </section> */}
       {/* <section className="q4_landing_page color-dark">
         <div className="container">
           <div className="qii4-video-card">
@@ -628,7 +631,18 @@ export default function QII4LandingPage() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
+                        {p.country && (
+                          <>
+                            <span>{p.country}</span> <br />
+                          </>
+                        )}
                         <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -637,26 +651,34 @@ export default function QII4LandingPage() {
                         alt={p.title}
                       />
                       {/* <div className="page-resource-img-cnt">
-                          </div> */}
+                                    </div> */}
                       <div className="page-resource-data">
-                        <div className="page-resource-country country-title">
-                          {p.country}
-                        </div>
                         <div className="page-resource-title title-big">
-                          {p.title}
+                          {p.country && (
+                            <>
+                              <span>{p.country}</span> <br />
+                            </>
+                          )}
+                          <strong>{p.title}</strong>
+                          {p.org && (
+                            <>
+                              <br />
+                              <span>{p.org}</span>
+                            </>
+                          )}
                         </div>
                         <div className="page-resource-description">
                           {p.description}
                         </div>
                         {/* <Popover
-                          content={p.description}
-                          title={p.title}
-                          trigger="click"
-                        >
-                          <div className="page-resource-description">
-                            Read More...
-                          </div>
-                        </Popover> */}
+                                          content={p.description}
+                                          title={p.title}
+                                          trigger="click"
+                                        >
+                                          <div className="page-resource-description">
+                                            Read More...
+                                          </div>
+                                        </Popover> */}
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

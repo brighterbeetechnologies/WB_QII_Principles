@@ -27,7 +27,7 @@ export default function Policies_Standards_Regulation() {
     <div className="Policies_Standards_Regulation">
       <section className="color-light">
         <Header3
-          img="images/qii3/GreenFinancingforInfrastructure/shutterstock_2477739245.png"
+          img="images/qii5/PoliciesandRegulation/QII_5_InternalPage_PoliciesandRegulation.png"
           title={"Inclusion through Policies, Standards and Regulation"}
           hideDeskTitle={true}
         >
@@ -203,21 +203,19 @@ export default function Policies_Standards_Regulation() {
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png"
+              image="images/qii5/PoliciesandRegulation/Environmental-and-Social-Framework.png"
               title={
                 <p>
-                  <strong>Green Bond Principles</strong> <br />
-                  ICMA
+                  <strong>Environmental and Social Framework</strong>
                 </p>
               }
-              buttonText="Guidance"
-              link="https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/green-bond-principles-gbp/"
+              buttonText="Tools"
+              link="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/383011492423734099/the-world-bank-environmental-and-social-framework"
             >
               <p>
-                These principles outline international best practices when
-                issuing green bonds including the eligible use of proceeds,
-                project evaluation and selection, management of proceeds, and
-                reporting requirements.
+                This framework provides essential guidance for integrating
+                grievance procedures and relevant mechanisms in projects through
+                a comprehensive set of standards and requirements.
               </p>
             </VCard>
 
