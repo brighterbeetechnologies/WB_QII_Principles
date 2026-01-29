@@ -154,7 +154,8 @@ export default function Decarbonizing_Infrastructure() {
               </p>
             </VCard>
           </div>
-          <div className="border-dash"></div>
+          </div>
+          <div className="container internal-pages-container color-light">
           <NumSteps num="2">
             <strong>Decarbonization Solutions</strong>
             <br />
@@ -192,16 +193,31 @@ export default function Decarbonizing_Infrastructure() {
           </div>
           <div className="ico-text-card-2-info">
             <p>
-              At a sector or project level, the <strong>Avoid-Shift-Improve (ASI) framework </strong>
-               provides a useful hierarchy.
+              At a sector or project level, the{" "}
+              <strong>Avoid-Shift-Improve (ASI) framework </strong>
+              provides a useful hierarchy.
             </p>
           </div>
           <div className="ico-text-card-2-infographics">
-            <img className="desk-img"src="images/qii3/QII3/Landing/Infographic.png" alt="" />
-            <img className="mobile-img" src="images/qii3/QII3/Landing/mobile_infographic.png" alt="" />
-            <p className="ico-text-card-2-infographics-p1">Avoid unnecessary emissions</p>
-            <p className="ico-text-card-2-infographics-p2">Shift to lower-carbon alternatives</p>
-            <p className="ico-text-card-2-infographics-p3">Improve efficiency of remaining systems</p>
+            <img
+              className="desk-img"
+              src="images/qii3/QII3/Landing/Infographic.png"
+              alt=""
+            />
+            <img
+              className="mobile-img"
+              src="images/qii3/QII3/Landing/mobile_infographic.png"
+              alt=""
+            />
+            <p className="ico-text-card-2-infographics-p1">
+              Avoid unnecessary emissions
+            </p>
+            <p className="ico-text-card-2-infographics-p2">
+              Shift to lower-carbon alternatives
+            </p>
+            <p className="ico-text-card-2-infographics-p3">
+              Improve efficiency of remaining systems
+            </p>
           </div>
           <div className="VCard-cnt col3">
             <VCard
@@ -344,6 +360,81 @@ export default function Decarbonizing_Infrastructure() {
             </VCard>
           </div>
         </div>
+        <section className="color-dark noPTop">
+          <div className="container internal-pages-container">
+            <h2 className="section-title">Resources</h2>
+            <div className="section-title noPTop">
+              If you’d like to dive deeper, these resources provide detailed
+              methodologies, frameworks, and tracking tools relevant to
+              infrastructure decarbonization.
+            </div>
+            <div className="VCard-cnt col3">
+              <VCard
+                image="images/qii3/Decarbonizing-Infrastructure/Greenhouse-Gas-Protocol.png"
+                title={
+                  <p>
+                    <strong>Greenhouse Gas Protocol</strong>{" "}
+                  </p>
+                }
+                buttonText="Tool"
+                link="https://ghgprotocol.org/"
+              >
+                <p>
+                  A widely used international accounting standard for greenhouse
+                  gas emissions, developed by WRI and WBCSD. Provides
+                  comprehensive global standardized frameworks to measure and
+                  manage GHG emissions, with sector-specific and
+                  country-specific calculation tools for private and public
+                  sector operations, value chains, and mitigation actions.
+                </p>
+              </VCard>
+
+              <VCard
+                image="images/qii3/Decarbonizing-Infrastructure/RICS-Whole-Life-Carbon-Assessment-Standard.png"
+                title={
+                  <p>
+                    <strong>
+                      RICS Whole Life Carbon Assessment Standard
+                    </strong>{" "}
+                  </p>
+                }
+                buttonText="Tool"
+                link="https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/whole-life-carbon-assessment/whole-life-carbon-assessment-implementation-guides-and-supporting-documents"
+              >
+                <p>
+                  Professional standard from the Royal Institution of Chartered
+                  Surveyors for measuring carbon emissions across the entire
+                  lifecycle of built assets, from raw material extraction
+                  through construction, operation, and end of life.
+                </p>
+              </VCard>
+              <VCard
+                image="images/qii3/Decarbonizing-Infrastructure/Reducing-Infrastructure-Climate-Risk-Through-Technology-Measures.png"
+                title={
+                  <p>
+                    <strong>
+                      Reducing Infrastructure Climate Risk Through Technology
+                      Measures
+                    </strong>{" "}
+                    <br /> EDHEC Climate Institute
+                  </p>
+                }
+                buttonText="Guidance – Multi-sector"
+                link="https://climateinstitute.edhec.edu/climatech-project"
+              >
+                <p>
+                  Guidance on developing decarbonization roadmaps for
+                  infrastructure owners and investors. The initiative identifies
+                  and evaluates over 100 decarbonization and climate resilience
+                  strategies across 101 infrastructure asset subclasses,
+                  resulting in more than 1,800 unique asset-strategy
+                  applications. Each strategy is assessed for effectiveness and
+                  hazard protection level (for physical risks).
+                </p>
+              </VCard>
+            </div>
+          </div>
+        </section>
       </section>
     </div>
   );
