@@ -55,8 +55,7 @@ export default function Procurement() {
     },
     {
       id: 4,
-      title:
-        "Life-Cycle Costing in Sustainable Public Procurement",
+      title: "Life-Cycle Costing in Sustainable Public Procurement",
       subTitle: "International Institute for Sustainable Development",
       description:
         "This white paper explores how life-cycle costing (LCC) can enhance sustainable public procurement by evaluating all costs, financial, environmental, and social, across an asset’s life. It reviews global practices, highlights barriers to systematic LCC use, and offers recommendations for integrating LCC into procurement policies to achieve better long-term value and sustainability outcomes.",
@@ -135,7 +134,7 @@ export default function Procurement() {
             <p className="light-font">
               The procurement process sets the foundation for the economic
               efficiency of an infrastructure project. Procurement processes
-              that create incentives to minimize life- cycle costs can lead to
+              that create incentives to minimize life- cycle costs lead to
               better value for money and reduce long-term expenses. Conversely,
               weak procurement practices, such as focusing solely on initial
               purchase price, can result in higher operational and maintenance
@@ -167,14 +166,14 @@ export default function Procurement() {
                 Key procurement considerations to maximize economic efficiency
                 include:
               </strong>
-            </p> 
+            </p>
           </div>
           <div className="link-text mTop"></div>
           <NumSteps num="1">
             <strong>Incentive Structures</strong>
             <br /> <br className="mobile-break" />
-            The use of PPPs and Performance-Based Contracts (PBCs) can be used
-            to link the operator's payments to efficient long-term performance.
+            Performance-Based Contracts (PBCs) can be used to link contractors’
+            payments to long-term performance and efficiency.
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
@@ -242,8 +241,8 @@ export default function Procurement() {
           <NumSteps num="2">
             <strong>Innovative Technologies</strong>
             <br /> <br className="mobile-break" />
-            Procurement processes can be structured to incentivize cost-saving
-            innovations during both the construction and O&M phases.
+            Procurement processes can incentivize the adoption of innovative
+            technologies to enable cost saving during construction and O&M.
             <span style={{ opacity: "0" }}>
               to link the operator’s payments to efficient long-term
             </span>

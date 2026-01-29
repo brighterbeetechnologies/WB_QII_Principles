@@ -351,7 +351,7 @@ export default function Governance() {
             title={
               <p>
                 <strong>
-                  Long-term Performance Rewarded with Incentives in Contracts –
+                  Long-term Performance Rewarded with Incentives in Contracts 
                 </strong>{" "}
                 <br /> <br className="mobile-break" />
                 By updating regulatory frameworks to allow for innovative

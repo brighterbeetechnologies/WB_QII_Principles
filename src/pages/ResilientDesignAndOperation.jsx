@@ -113,7 +113,7 @@ export default function ResilientDesignAndOperation() {
             integrity and service continuity, in alignment with national
             resilience objectives.
           </NumSteps>
-          <p className="num1-para mTop">
+          {/* <p className="num1-para mTop">
             <i>
               *Much of the current work on resilience standards is still
               nascent, especially as it pertains to infrastructure, and tends to
@@ -126,7 +126,7 @@ export default function ResilientDesignAndOperation() {
               examples from more developed contexts and field of practice, and
               these are outlined below.
             </i>
-          </p>
+          </p> */}
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/Building Code Checklist for Structural Resilience.png"
@@ -315,7 +315,7 @@ export default function ResilientDesignAndOperation() {
             <strong>
               Adaptation –
               <br className="mobile-break" />
-              Integrating Nature-Based Solutions and Digital Approaches into
+              Integrating Nature-Based Solutions and Digital Technology into
               Design and Operations:
             </strong>{" "}
             Embedding technology, routine monitoring, maintenance protocols, and
@@ -334,9 +334,9 @@ export default function ResilientDesignAndOperation() {
             <br />
             <br />
           </NumSteps>
-          <h4 className="sub-section-title">
+          {/* <h4 className="sub-section-title">
             Nature-based Solutions for Resilience
-          </h4>
+          </h4> */}
 
           <div className="VCard-cnt col3">
             <VCard
@@ -409,9 +409,9 @@ export default function ResilientDesignAndOperation() {
               </p>
             </VCard>
           </div>
-          <h4 className="sub-section-title">
+          {/* <h4 className="sub-section-title">
             Digital Solutions for Resilience
-          </h4>
+          </h4> */}
           <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/Digital Security and Resilience in Critical Infrastructure and Essential Services1.png"

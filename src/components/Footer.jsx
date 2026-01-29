@@ -10,8 +10,14 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-section footer-about">
             <h3>QII Principles</h3>
-            <p>
+            {/* <p>
               An educational resource on Quality Infrastructure Investment
+              principles adopted by the G20 at the 2019 Osaka Summit. These
+              principles guide sustainable, resilient, and inclusive
+              infrastructure development worldwide.
+            </p> */}
+            <p>
+              The Quality Infrastructure Investment
               principles adopted by the G20 at the 2019 Osaka Summit. These
               principles guide sustainable, resilient, and inclusive
               infrastructure development worldwide.

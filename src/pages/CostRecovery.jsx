@@ -13,7 +13,7 @@ export default function CostRecovery() {
     {
       id: 0,
       title: "Financing Climate Adaptation and Nature-Based Infrastructure",
-      subTitle: "(World Bank)",
+      subTitle: "World Bank",
       description:
         "Drawing on infrastructure projects from across the globe, this report explores how different financing and cost recovery solutions have successfully mobilized private sector participation and investment to address the growing risks of flooding, droughts, storm surges and heatwaves.",
       img_path: "images/costRecovery/resources/01.png",
@@ -23,7 +23,7 @@ export default function CostRecovery() {
       id: 1,
       title:
         "Life-Cycle Cost Analysis for Management of Highway Assets World Bank",
-      subTitle: "(World Bank)",
+      subTitle: "World Bank",
       description:
         "This report contains an inventory of quantitative processes and models for predicting LCC associated with highway assets.",
       img_path: "images/costRecovery/resources/02.png",
@@ -32,7 +32,7 @@ export default function CostRecovery() {
     {
       id: 2,
       title:
-        "Harnessing Land Value Capture Municipal Public-Private Partnership Framework ",
+        "Harnessing Land Value Capture Municipal Public-Private Partnership Framework : ",
       subTitle: "Global Platform for Sustainable Cities",
       description:
         "This report introduces concepts of land value capture and describes different instruments for climate-related funding and financing of projects. It provides brief examples of solutions developed in specific energy and agricultural sub-sectors.",
@@ -43,7 +43,7 @@ export default function CostRecovery() {
       id: 3,
       title:
         "Monetization of Carbon Credits Energy and Agriculture Sectors World Bank",
-      subTitle: "(World Bank)",
+      subTitle: "World Bank",
       description:
         "This presentation introduces concepts of the carbon market and describes a few of the key instruments that municipalities can use to capture land value.",
       img_path: "images/costRecovery/resources/04.png",
@@ -52,7 +52,8 @@ export default function CostRecovery() {
     {
       id: 4,
       title: "Revenue Levers to Fund Infrastructure Global Infrastructure Hub",
-      subTitle: "Global Infrastructure Hub",
+      // subTitle: "Global Infrastructure Hub",
+      subTitle: false,
       description:
         "This library of case studies demonstrate the use of innovative revenue, risk management, and financing levers to make projects bankable.",
       img_path: "images/costRecovery/resources/05.png",
@@ -268,9 +269,8 @@ export default function CostRecovery() {
               title={
                 <p>
                   <strong>
-                    Investment in Infrastructure City Resilience Program, Global
-                    Facility for Disaster Reduction and Recovery
-                  </strong>
+                    Investment in Infrastructure 
+                  </strong><br />City Resilience Program, Global Facility for Disaster Reduction and Recovery
                 </p>
               }
               buttonText="Guidance"

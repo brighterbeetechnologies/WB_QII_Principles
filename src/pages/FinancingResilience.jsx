@@ -99,13 +99,13 @@ export default function FinancingResilience() {
             new funding sources—including from private investors—that are often
             out of reach for these kinds of infrastructure projects.
           </NumSteps>
-          <p className="mTop" style={{ fontStyle: "italic" }}>
+          {/* <p className="mTop" style={{ fontStyle: "italic" }}>
             *The below list highlights references, which aggregate global best
             practices across multiple sectors. For a deeper dive into the topic,
             please refer to the <Link to="/Resilient-design&operation" className="cyber-link">
               ‘Resilient Design and Operations’
             </Link> sub-page.
-          </p>
+          </p> */}
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/FinancingResilience/Climate Bonds Initiative.png"

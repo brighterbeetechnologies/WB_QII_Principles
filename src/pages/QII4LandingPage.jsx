@@ -180,7 +180,7 @@ export default function QII4LandingPage() {
 </svg>`,
       title: "Diagnosing Vulnerabilities",
       description:
-        "Systematically assessing infrastructure risks and weaknesses to prioritize resilience measures",
+        "Systematically assessing infrastructure risks and weaknesses to prioritize resilience measures.",
       path: "/Diagnosing-vulnerabilities",
     },
     {
@@ -206,7 +206,7 @@ export default function QII4LandingPage() {
 </svg>`,
       title: "Resilient Design and Operation",
       description:
-        "Integrating climate-smart and adaptive practices into infrastructure planning, construction, and management",
+        "Integrating climate-smart and adaptive practices into infrastructure planning, construction, and management.",
       path: "/Resilient-design&operation",
     },
     {
@@ -285,8 +285,10 @@ export default function QII4LandingPage() {
   </g>
 </svg>`,
       title: "Financing Resilience",
+      // description:
+      //   "Mobilizing dedicated funding sources to support resilient infrastructure investments and ongoing risk management",
       description:
-        "Mobilizing dedicated funding sources to support resilient infrastructure investments and ongoing risk management",
+        "Mobilizing dedicated funding sources to support resilient infrastructure investments.",
       path: "/Financing-resilience",
     },
     {
@@ -322,7 +324,7 @@ export default function QII4LandingPage() {
 </svg>`,
       title: "Managing Cybersecurity Risks",
       description:
-        "Implementing safeguards to protect critical infrastructure from digital threats and service interruptions",
+        "Implementing safeguards to protect critical infrastructure from digital threats and service interruptions.",
       path: "/Managing-cyber-security-risks",
     },
   ];

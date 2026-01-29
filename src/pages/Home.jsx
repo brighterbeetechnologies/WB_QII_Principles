@@ -54,7 +54,7 @@ export default function Home() {
           <img src="images/circle_left.png" />
         </div>
         <div className="container">
-          <h2 className="section-title light-font">Explore QII Principles</h2>
+          <h2 className="section-title light-font">Explore The QII Principles</h2>
           <div className="principles-grid" id="principles-grid" role="list">
             {principleArray.map((p, index) => (
               <article

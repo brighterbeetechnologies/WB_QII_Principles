@@ -11,7 +11,7 @@ import {
   setShowVideo,
   setVideoData,
 } from "../slices/appDataSlice";
-import CardBox from "../components/CardBox"; 
+import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
 
@@ -83,26 +83,22 @@ export default function QII2LandingPage() {
   const subPages = [
     {
       id: 0,
-      icon: "&#xe919;",
-      title: "Governance",
-      description:
-        "Ensures accountability and institutional capacity for effective LCC implementation.",
-      path: "/governance",
-    },
-    {
-      id: 0,
       icon: "&#xe91b;",
       title: "Procurement",
+      // description:
+      //   "Prioritizes long-term value through quality-based contracts and strategic structuring.",
       description:
-        "Prioritizes long-term value through quality-based contracts and strategic structuring.",
+        "Prioritizes long-term value through quality-based contracts.",
       path: "/procurement",
     },
     {
       id: 0,
       icon: "&#xe91d;",
       title: "Technical Solutions",
+      // description:
+      //   "Enhances infrastructure durability and operational performance with resilience-focused strategies.",
       description:
-        "Enhances infrastructure durability and operational performance with resilience-focused strategies.",
+        "Enhances infrastructure durability and operational performance.",
       path: "/technicalsolutions",
     },
     {
@@ -124,7 +120,15 @@ export default function QII2LandingPage() {
         "Sustains assets through tariffs, user fees, and performance-based financing.",
       path: "/costrecovery",
     },
-  ];  
+    {
+      id: 0,
+      icon: "&#xe919;",
+      title: "Governance",
+      description:
+        "Ensures accountability and institutional capacity for effective LCC implementation.",
+      path: "/governance",
+    },
+  ];
 
   // const topResources = [
   //   [
@@ -208,8 +212,11 @@ export default function QII2LandingPage() {
         </section>
         <div className="container internal-pages-cards">
           <div className="center-header">
-            <h1 className="light-font mBottom">
+            {/* <h1 className="light-font mBottom">
               Building Blocks of Adopting a Life Cycle Costing Approach
+            </h1> */}
+            <h1 className="light-font mBottom">
+              Building Blocks Of Life Cycle Costing Approach
             </h1>
             <h3 className="light-font">
               Economic Efficiency transforms infrastructure by leveraging
@@ -258,8 +265,11 @@ export default function QII2LandingPage() {
        */}
       <ImagewithStatement
         backgroundImage={"images/qii2/qii2_img2.png"}
+        // text={
+        //   "When the building blocks are missing, infrastructure falls into a familiar and costly trap."
+        // }
         text={
-          "When the building blocks are missing, infrastructure falls into a familiar and costly trap."
+          "Incorporating life cycle costing into infrastructure planning and decision-making helps break the costly cycle of short-term thinking. By accounting for the total cost of service delivery—including operations, maintenance, and eventual decommissioning—governments and institutions can make smarter investments that deliver better value over time.​"
         }
       />
       <section className="color-light">
@@ -300,7 +310,7 @@ export default function QII2LandingPage() {
           </div>
         </div>
       </section>
-      <section className="container internal-pages-container color-dark">
+      {/* <section className="container internal-pages-container color-dark">
         <h3 className="statement-text">
           <strong>Life cycle costing</strong> breaks this cycle. <br />
           <br />
@@ -309,7 +319,7 @@ export default function QII2LandingPage() {
           better value over time.
         </h3>
         <h1 className="light-font "></h1>
-      </section>
+      </section> */}
       <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
@@ -327,7 +337,7 @@ export default function QII2LandingPage() {
                 1920,
                 1080,
               );
-            }} 
+            }}
           >
             &#xe91e;
           </button>

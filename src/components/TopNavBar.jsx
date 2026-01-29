@@ -82,7 +82,7 @@ export default function TopNavBar() {
           </button>
           <div className={`nav-sub-menu ${isMenuOpen ? "open" : ""}`}>
             <div className="nav-sub-menu-cnt">
-              <button className="nav-btn-link">What is QII</button>
+              <button className="nav-btn-link" onClick={goHome}>What is QII</button>
               <div className="menu-splitter"></div>
               <NavDropDownMenu
                 menuItems={menuItems}
