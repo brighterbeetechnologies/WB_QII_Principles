@@ -138,7 +138,7 @@ export default function DiagnosingVulnerabilities() {
             </VCard>
 
             <VCard
-              image="images/qii4/DiagnosingVulnerabilities/GFDRR.png"
+              image="images/qii4/updated/GDFR_Thinkhazard.png"
               title={
                 <p>
                   <strong>ThinkHazard!</strong><br />GFDRR 

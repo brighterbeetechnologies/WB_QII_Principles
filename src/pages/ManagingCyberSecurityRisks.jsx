@@ -236,7 +236,7 @@ export default function ManagingCyberSecurityRisks() {
             </VCard>
 
             <VCard
-              image="images/qii4/ManagingCyberSecurityRisks/Canada the cyber threat environment.png"
+              image="images/qii4/updated/The-cyber-threat-environment.png"
               title={
                 <p>
                   Canada <br />

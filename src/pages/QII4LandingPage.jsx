@@ -135,7 +135,7 @@ export default function QII4LandingPage() {
       description:
         "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
       img_path:
-        "images/newresource/FutakotamagawaIntegratingFloodProtectionandUrbanRenewal.png",
+        "images/qii4/updated/Futakotamagawa.png",
       path: "/qii4casestudy1",
       target: "_self",
     },
@@ -147,7 +147,7 @@ export default function QII4LandingPage() {
       org: "World Bank",
       description:
         "Demonstrates how underground stormwater detention protects a high-density urban area from flooding while a PPP that monetized surface development rights ensures long-term financial sustainability for operations and maintenance.",
-      img_path: "images/newresource/ShibauraWastewaterTreatment.png",
+      img_path: "images/qii4/updated/Shibaura_Wastewater_Management.png",
       path: "/qii4casestudy2",
       target: "_self",
     },
@@ -347,27 +347,6 @@ export default function QII4LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        {/* <img
-          className="desk_image"
-          src="images/qii4/QII2_Landing_main.png"
-          alt=""
-        />
-        <img
-          className="mob_image"
-          src="images/qii4/QII2_Landing_main.png"
-          alt=""
-        /> */}
-        {/* <div className="hero-wrapper">
-          <img className="desk_image" src="images/qii4/QII2_Landing_main.png" alt="" />
-          <img
-            className="mob_image"
-            src="images/qii4/QII2_Landing_main.png"
-            alt=""
-          />
-          <div className="hero-content">
-            <h1 className="light-font">Resilience</h1>
-          </div>
-        </div> */}
         <section className="color-light landingpage-banner">
           <Header3 img="images/qii4/QII2_Landing_main.png">
             <div className="langing-page-container">
@@ -582,7 +561,7 @@ export default function QII4LandingPage() {
       <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
-          src="images/qii4/QII 2 in Action poster.png"
+          src="images/qii4/updated/QII-4-in-Action.png"
           alt="video thumbnail"
         />
         <div className="qii-video-overlay"></div>

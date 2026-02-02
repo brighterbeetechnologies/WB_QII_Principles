@@ -17,13 +17,15 @@ export default function QII4CaseStudy1() {
           { path: "/qii4", title: "Case Study" },
         ],
       }),
-    );
+    ); 
   }, []);
   return ( 
     <div className="single-case-study-page">
       <section className="color-light">
         <div className="container">
-          <div className="single-case-study-wrapper">
+          <div className="single-case-study-wrapper"style={{
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii4/updated/Futakotamagawa.png")`,
+            }}>
             <h2 className="main-title">
               <p>Japan</p>
               <span>Futakotamagawa:</span> Integrating Flood Protection and Urban Renewal

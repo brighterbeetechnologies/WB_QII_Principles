@@ -34,12 +34,12 @@ export default function QII5LandingPage() {
     {
       id: 0,
       icon: "&#xe922;",
-      text: "Underutilization of infrastructure",
+      text: "Enhances recovery speed after disasters, sustaining reliable access to essential services.",
     },
     {
       id: 0,
       icon: "&#xe921;",
-      text: "Erosion of community trust and social stability",
+      text: "Lowers long-term maintenance and replacement expenses through better design and risk management.",
     },
   ];
 
@@ -47,7 +47,7 @@ export default function QII5LandingPage() {
     {
       id: 0,
       title:
-        "Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9 ",
+        "Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9",
       country: false,
       org: false,
       description:

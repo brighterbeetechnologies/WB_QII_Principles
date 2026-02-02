@@ -17,7 +17,7 @@ export default function QII4CaseStudy3() {
           { path: "/qii4", title: "Case Study" },
         ],
       }),
-    );
+    ); 
   }, []);
   return (
     <div className="single-case-study-page">

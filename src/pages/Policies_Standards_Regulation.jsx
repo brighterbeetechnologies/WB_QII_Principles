@@ -128,7 +128,7 @@ export default function Policies_Standards_Regulation() {
                   </strong>
                 </p>
               }
-              buttonText="Guidance "
+              buttonText="Guidance"
               link="https://www.jica.go.jp/Resource/english/our_work/thematic_issues/social/c8h0vm00005znamu-att/guideline_social_01.pdf"
             >
               <p>
@@ -220,86 +220,174 @@ export default function Policies_Standards_Regulation() {
             </VCard>
 
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png"
+              image="images/qii5/PoliciesandRegulation/Inclusive-Infrastructure –Policy-Regulation&Standards.png"
               title={
                 <p>
-                  <strong>Green Eligibility Checker tool</strong> <br />
-                  European Investment Bank
+                  <strong>
+                    Inclusive Infrastructure – Policy, Regulation & Standards
+                  </strong>{" "}
+                  <br />
                 </p>
               }
-              buttonText="Tool"
-              link="https://greenchecker.eib.org/"
+              buttonText="Tools"
+              link="https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/"
             >
               <p>
-                Developed by the European Investment Bank, this tool helps
-                project developers to assess the compliance of projects with the
-                EIB's green eligibility criteria. While focused on Europe, the
-                tool has also been expanded to be of relevance to countries
-                across North Africa and the Middle East.{" "}
+                The GI Hub's Inclusive Infrastructure resource provides
+                actionable principles for applying inclusive standards and
+                Universal Design in project planning and procurement.{" "}
               </p>
             </VCard>
 
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png"
+              image="images/qii5/PoliciesandRegulation/EU-Accessibility-Act(2019).png"
               title={
                 <p>
-                  <strong>South Africa: Cape Town Green Bond</strong>{" "}
+                  <strong>EU Accessibility Act (2019)</strong>{" "}
                 </p>
               }
-              buttonText="Case Study"
-              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/"
+              buttonText="Guidance"
+              link="https://www.legislation.gov.uk/eudr/2019/882"
             >
               <p>
-                Illustrates how green bond certification builds investor
-                confidence in climate-aligned municipal infrastructure. In 2017,
-                amid severe drought, Cape Town issued a ZAR 1 billion (~US$75
-                million) Green Bond, the first in South Africa to receive CBI
-                accreditation and the first to earn an “Excellent” rating from
-                the rating agency Moody’s. Proceeds funded electric buses,
-                energy-efficient buildings, water resilience initiatives, and
-                coastal protection.
+                Directive (EU) 2019/882 creates enforceable accessibility
+                standards for transport, ICT, and public services in the EU.
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png"
+              image="images/qii5/PoliciesandRegulation/Americans-with-Disabilities.png"
               title={
                 <p>
                   <strong>
-                    Brazil: Corsan Water Sustainability-Linked Loan
+                    Americans with Disabilities Act (ADA) Standards for
+                    Accessible Design
                   </strong>{" "}
                 </p>
               }
-              buttonText="Case Study"
-              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/sustainability-linked-loan-to-improve-water-supply-efficiency-and-resilience/"
+              buttonText="Guidance"
+              link="https://www.ada.gov/law-and-regs/design-standards/2010-stds/"
             >
               <p>
-                Demonstrates how sustainability-linked financing can drive
-                efficiency improvements in state utilities. IFC provided a US$
-                83 million loan to Corsan, the main water utility in Rio Grande
-                do Sul state, to replace obsolete pumps and hydrometers. The
-                loan was structured in a way that the interest rate would be
-                reduced if Corsan met pre-agreed reductions in water losses.
+                The 2010 ADA Standards for Accessible Design set enforceable
+                accessibility criteria for buildings and public spaces in the
+                United States and are frequently used as a reference for global
+                infrastructure projects seeking to ensure inclusive,
+                barrier-free environments for all users.
               </p>
             </VCard>
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png"
+              image="images/qii5/PoliciesandRegulation/Advancing-universal-design-in-urban-planning.png"
+              title={
+                <p>
+                  <strong>Japan and the World Bank: Advancing universal design in urban planning </strong>{" "}
+                  <br />
+                  
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://blogs.worldbank.org/en/ppps/japan-and-world-bank-advancing-universal-design-urban-planning"
+            >
+              <p>
+                Japan and the World Bank are collaborating to advance universal
+                design and disability inclusion in urban planning, leveraging
+                Japan’s expertise in accessible infrastructure and the QII
+                Partnership’s global strategies.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii5/PoliciesandRegulation/She-Drives-Change.png"
+              title={
+                <p>
+                  <strong>She Drives Change</strong>{" "}           </p>
+              }
+              buttonText="Case study"
+              link="https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07"
+            >
+              <p>
+                This World Bank publication compiles case studies demonstrating
+                how transport sector interventions can advance gender equality.
+                <br />  <br />
+                Case study 16 is an example of how employment restrictions in
+                Azerbaijan were overcome by policy and regulatory adjustments,
+                conducting awareness campaigns, and including employer
+                engagement to create enabling conditions for women drivers.
+              </p>
+            </VCard>
+          </div>
+          <div className="border-dash"></div>
+          <NumSteps num="3">
+            <strong>
+              Meeting international best practice standards for inclusion to
+              attract investment –
+            </strong>
+            <br />
+            Private investors and institutional financiers are increasingly
+            looking for projects with clear ESG (Environmental, Social, and
+            Governance) credentials. Meeting social standards signals that a
+            project is socially responsible, reduces community risk, and is
+            likely to have smoother implementation, all of which lower perceived
+            risk.
+            <span style={{ opacity: "0" }}></span>
+          </NumSteps>
+          <div className="VCard-cnt col3">
+            <VCard
+              image="images/qii5/PoliciesandRegulation/FAST-Infra-Label.png"
+              title={
+                <p>
+                  <strong>FAST-Infra Sustainable Infrastructure Label</strong>
+                </p>
+              }
+              buttonText="Tool"
+              link="https://www.fastinfralabel.org/"
+            >
+              <p>
+                A globally applicable certification for infrastructure projects
+                demonstrating significant positive sustainability performance
+                across environmental, social, governance, and resilience
+                dimensions. The label helps project developers communicate
+                sustainability credentials to investors and supports due
+                diligence processes.
+              </p>
+            </VCard>
+
+            <VCard
+              image="images/qii5/PoliciesandRegulation/Blue-Dot-Network.png"
+              title={
+                <p>
+                  <strong>Blue Dot Network</strong> <br />
+                </p>
+              }
+              buttonText="Tool"
+              link="https://www.bluedot-network.org/"
+            >
+              <p>
+                A multilateral certification framework for quality
+                infrastructure projects which consolidates over 80 international
+                standards including the G20 Principles for Quality
+                Infrastructure Investment and IFC Performance Standards.{" "}
+              </p>
+            </VCard>
+
+            <VCard
+              image="images/qii5/PoliciesandRegulation/OECD-Principles.png"
               title={
                 <p>
                   <strong>
-                    Belgrade Waste-to-Energy PPP Carbon Credit Certification
+                    OECD Principles for Private Sector Participation in
+                    Infrastructure
                   </strong>{" "}
                 </p>
               }
-              buttonText="Case Study"
-              link="https://www.bcenergy.rs/belgrade-waste-management-ppp-project-becomes-the-first-serbian-project-certified-by-the-gold-standard-organization/"
+              buttonText="Guidance"
+              link="https://www.oecd.org/en/publications/oecd-principles-for-private-sector-participation-in-infrastructure_9789264034105-en.html"
             >
               <p>
-                This project was the first project in Serbia certified by Gold
-                Standard Carbon Credit Certification. This was achieved by
-                modernizing waste treatment infrastructure – going from an open
-                dump emitting 90 million tons of CO₂ equivalent over the last 45
-                years – to a sanitary landfill with biogas collection and
-                leachate treatment, which reduced 210,000 tons of CO₂e per year.
+                These OECD principles help governments work with private-sector
+                partners to finance and deliver infrastructure projects in
+                transport, water, power, and telecommunications. The principles
+                address the public interest, and provide guidance on regulatory
+                frameworks, transparency, and stakeholder engagement that
+                support inclusive outcomes.
               </p>
             </VCard>
           </div>

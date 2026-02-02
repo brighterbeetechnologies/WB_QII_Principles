@@ -311,12 +311,12 @@ export default function QII3LandingPage() {
           </div>
         </div>
       </section>
-      <section className="container internal-pages-container color-dark">
+      {/* <section className="container internal-pages-container color-dark">
         <h3 className="statement-text">
           <strong> Infrastructure's Environmental Footprint</strong>
         </h3>
         <h1 className="light-font "></h1>
-      </section>
+      </section> */}
       <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"

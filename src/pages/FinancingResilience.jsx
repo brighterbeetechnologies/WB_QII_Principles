@@ -449,7 +449,7 @@ export default function FinancingResilience() {
             </VCard>
 
             <VCard
-              image="images/qii4/FinancingResilience/Vida Manglar Carbon Project in Colombia.png"
+              image="images/qii4/updated/Vida-Manglar-Colombia.png"
               title={
                 <p>
                   <strong>Vida Manglar Carbon Project in Colombia</strong>

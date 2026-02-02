@@ -147,13 +147,13 @@ export default function Governance() {
             // description={"Netherlands DuboCalc and CO₂ Performance Ladder"}
             disableDescription={true}
             description={""}
-            image="images/governance/list/01.jpg"
+            image="images/governance/list/Slide_29.jpg"
             buttonText="Case Study"
             link="https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html"
           >
             <div className="description">
-              Hungary <br />
-              <strong>DuboCalc and CO₂ Performance Ladder</strong>
+              Japan <br />
+              <strong>Resilience in Infrastructure Prioritization: Japan’s Road Transport Sector</strong>
             </div>
             <p>
               Demonstrates how dedicated governance structures support long-term

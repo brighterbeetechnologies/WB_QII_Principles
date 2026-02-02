@@ -210,7 +210,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           <div className="ico-text-card-1-container">
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/icon.svg" alt="" />
+                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/clean-water.svg" alt="" />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">CLEAN WATER:</p>
@@ -225,7 +225,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/icon.svg" alt="" />
+                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/EROSION-CONTROL.svg" alt="" />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">EROSION CONTROL:</p>
@@ -241,7 +241,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/icon.svg" alt="" />
+                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/FLOOD-MANAGEMENT.svg" alt="" />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">FLOOD MANAGEMENT:</p>
@@ -259,7 +259,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/icon.svg" alt="" />
+                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/COASTAL-PROTECTION.svg" alt="" />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">COASTAL PROTECTION:</p>
@@ -277,7 +277,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/icon.svg" alt="" />
+                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/WATER-SECURTY.svg" alt="" />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">WATER SECURTY:</p>
@@ -290,7 +290,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           </div>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/IFC-Catalogue-of-Nature-based-Solutions-for-Infrastructure-Projects.png"
               title={
                 <p>
                   <strong>
@@ -311,7 +311,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </VCard>
 
             <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/World-Bank-Global-Program-for-Nature-Based-Solutions.png"
               title={
                 <p>
                   <strong>
@@ -330,7 +330,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </VCard>
 
             <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/The-Nature-Based-Solutions-Opportunity-Scan.png"
               title={
                 <p>
                   <strong>
@@ -351,7 +351,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </VCard>
 
             <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Financing-Climate-AdaptationandNature-Based-Infrastructure.png"
               title={
                 <p>
                   <strong>
