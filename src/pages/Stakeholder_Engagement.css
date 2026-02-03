@@ -1,16 +1,16 @@
-.Policies_Standards_Regulation .list-title {
+.Project_Planning_And_Design .list-title {
   font-size: 1.1rem;
   margin-bottom: 1.2rem;
 }
 
-.Policies_Standards_Regulation .icon-text-cards-container {
+.Project_Planning_And_Design .icon-text-cards-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
   gap: 2rem;
 }
 
-.Policies_Standards_Regulation .icon-text-cards {
+.Project_Planning_And_Design .icon-text-cards {
 	display: flex;
 	/* flex-wrap: wrap; */
 	gap: 2rem;
@@ -19,17 +19,17 @@
 	align-content: flex-start;
 }
 
-.Policies_Standards_Regulation .icon-img {
+.Project_Planning_And_Design .icon-img {
 	align-items: center;
 	text-align: center;
 }
 
-.Policies_Standards_Regulation .icon-img img{
+.Project_Planning_And_Design .icon-img img{
 	height: 40px;
 	width: 40px;
 }
 
-.Policies_Standards_Regulation .icon-text-cards-description {
+.Project_Planning_And_Design .icon-text-cards-description {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -46,51 +46,51 @@
 }
 
 @media (max-width: 649px) {
-  .Policies_Standards_Regulation .Header3 .container {
+  .Project_Planning_And_Design .Header3 .container {
     padding-bottom: 0;
   }
 
   .container.noPTop {
     padding-top: 1rem;
   }
-  .Policies_Standards_Regulation .hero {
+  .Project_Planning_And_Design .hero {
     height: 360px;
   }
 
-  .Policies_Standards_Regulation .hero-content h3 {
+  .Project_Planning_And_Design .hero-content h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
-  .Policies_Standards_Regulation .hero-content {
+  .Project_Planning_And_Design .hero-content {
     bottom: 2rem;
   }
 
-  .Policies_Standards_Regulation .hero-content p {
+  .Project_Planning_And_Design .hero-content p {
     font-size: 0.875rem;
   }
 }
 
 @media (max-width: 767px) {
-  .Policies_Standards_Regulation .list-title {
+  .Project_Planning_And_Design .list-title {
     text-align: left;
   }
 }
 
 @media (min-width: 768px) {
-  .Policies_Standards_Regulation .list-title {
+  .Project_Planning_And_Design .list-title {
     font-size: 1.1rem;
     margin-bottom: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  .Policies_Standards_Regulation .list-title {
+  .Project_Planning_And_Design .list-title {
     text-align: left;
   }
 }
 
-.Policies_Standards_Regulation .border {
+.Project_Planning_And_Design .border {
   border: 1px dashed rgba(134, 134, 134, 0.5);
   margin: 2rem 1rem;
 }
@@ -107,13 +107,13 @@
 
 @media (min-width: 1024px) {
 
-  .Policies_Standards_Regulation .mTop2 {
+  .Project_Planning_And_Design .mTop2 {
     margin: 3rem 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .Policies_Standards_Regulation .list-title {
+  .Project_Planning_And_Design .list-title {
     font-size: 1.3rem;
     margin: 1rem 0 1rem 0;
   }
@@ -121,20 +121,20 @@
 
 @media (min-width: 1400px) {
 
-  .Policies_Standards_Regulation .mTop2 {
+  .Project_Planning_And_Design .mTop2 {
     margin: 3rem 0;
   }
-  .Policies_Standards_Regulation .hero {
+  .Project_Planning_And_Design .hero {
     height: 640px;
   }
-  .Policies_Standards_Regulation .hero-content h3 {
+  .Project_Planning_And_Design .hero-content h3 {
     font-size: 3.25rem;
   }
 
-  .Policies_Standards_Regulation .hero-content p {
+  .Project_Planning_And_Design .hero-content p {
     font-size: 1.125rem;
   }
-  .Policies_Standards_Regulation .list-title {
+  .Project_Planning_And_Design .list-title {
     font-size: 1.3rem;
     margin: 1rem 0 2.5rem 0;
   }

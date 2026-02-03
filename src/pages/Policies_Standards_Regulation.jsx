@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Procurement.css";
+import "./Policies_Standards_Regulation.css";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
 import HeaderCarousal from "../components/HeaderCarousal";
@@ -45,12 +45,7 @@ export default function Policies_Standards_Regulation() {
           </div>
           <div className="subpage-description">
             <p className="light-font">
-              How do we incentivize infrastructure projects that generate
-              positive environmental impacts when those benefits often fall
-              outside the project's revenue stream? Green finance solutions,
-              spanning sustainable investment and carbon finance, help rebalance
-              this equation by channeling capital toward projects that deliver
-              measurable environmental gains.
+              Policies, standards, and regulations are the foundation for inclusive infrastructure.
             </p>
           </div>
         </Header3>

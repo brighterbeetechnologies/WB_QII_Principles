@@ -29,6 +29,8 @@ import QII4CaseStudy3 from "./pages/CaseStudy/QII4CaseStudy3.jsx";
 import QII4CaseStudy4 from "./pages/CaseStudy/QII4CaseStudy4.jsx";
 import Decarbonizing_Infrastructure from "./pages/Decarbonizing_Infrastructure.jsx";
 import Policies_Standards_Regulation from "./pages/Policies_Standards_Regulation.jsx";
+import Project_Planning_And_Design from "./pages/Project_Planning_And_Design.jsx";
+import Stakeholder_Engagement from "./pages/Stakeholder_Engagement.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -233,22 +235,22 @@ export const router = createHashRouter([
 					</Suspense>
 				),
 			},
-			// {
-			// 	path: "/Policies_Standards_Regulation",
-			// 	element: (
-			// 		<Suspense fallback={<Loader></Loader>}>
-			// 			<Policies_Standards_Regulation />
-			// 		</Suspense>
-			// 	),
-			// },
-			// {
-			// 	path: "/Policies_Standards_Regulation",
-			// 	element: (
-			// 		<Suspense fallback={<Loader></Loader>}>
-			// 			<Policies_Standards_Regulation />
-			// 		</Suspense>
-			// 	),
-			// },
+			{
+				path: "/Project_Planning_And_Design",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Project_Planning_And_Design />
+					</Suspense>
+				),
+			},
+			{
+				path: "/Stakeholder_Engagement",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Stakeholder_Engagement />
+					</Suspense>
+				),
+			},
 			{
 				path: "/qii6",
 				element: (
