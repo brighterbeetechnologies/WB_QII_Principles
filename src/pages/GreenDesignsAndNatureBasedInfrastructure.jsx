@@ -290,87 +290,6 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           </div>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/IFC-Catalogue-of-Nature-based-Solutions-for-Infrastructure-Projects.png"
-              title={
-                <p>
-                  <strong>
-                    IFC Catalogue of Nature-based Solutions for Infrastructure
-                    Projects
-                  </strong>{" "}
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf"
-            >
-              <p>
-                This catalogue helps to articulate the business case for
-                nature-based infrastructure and provides examples of
-                nature-based solutions, organized by sector, as inspiration for
-                infrastructure companies and project developers.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/World-Bank-Global-Program-for-Nature-Based-Solutions.png"
-              title={
-                <p>
-                  <strong>
-                    World Bank Global Program for Nature-Based Solutions
-                  </strong>{" "}
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://www.naturebasedsolutions.org/knowledge-hub"
-            >
-              <p>
-                This knowledge hub provides detailed and up-to-date guidance,
-                case studies, and tools for integrating NBS into infrastructure
-                and urban development projects.{" "}
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/The-Nature-Based-Solutions-Opportunity-Scan.png"
-              title={
-                <p>
-                  <strong>
-                    The Nature-Based Solutions Opportunity Scan{" "}
-                  </strong>{" "}
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://openknowledge.worldbank.org/entities/publication/f350c5c0-b17b-4f35-ad29-cb3ddc101958"
-            >
-              <p>
-                This report categorizes different families of nature-based
-                solutions and maps investment opportunities across sectors. It
-                helps practitioners understand associated benefits and identify
-                where NBS interventions can be integrated into infrastructure
-                projects.{" "}
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Financing-Climate-AdaptationandNature-Based-Infrastructure.png"
-              title={
-                <p>
-                  <strong>
-                    Financing Climate Adaptation and Nature Based Infrastructure
-                  </strong>{" "}
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://documents1.worldbank.org/curated/en/099050725135521570/pdf/P501013-299da78d-86cc-4f74-a095-cde17655875a.pdf"
-            >
-              <p>
-                The report assesses opportunities and barriers for mobilizing
-                private finance and investment into climateadaptation and
-                naturebased infrastructure in emerging and developing
-                economies.{" "}
-              </p>
-            </VCard>
-
-            <VCard
               image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
               title={
                 <p>
@@ -410,8 +329,6 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                 cooling the urban district.{" "}
               </p>
             </VCard>
-          </div>
-          <div className="VCard-cnt col2">
             <VCard
               image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/GFDRR Mapping of Nature-Based Solutions Projects.png"
               title={
@@ -431,7 +348,83 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                 identify relevant precedents.{" "}
               </p>
             </VCard>
-
+            <VCard
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/IFC-Catalogue-of-Nature-based-Solutions-for-Infrastructure-Projects.png"
+              title={
+                <p>
+                  <strong>
+                    IFC Catalogue of Nature-based Solutions for Infrastructure
+                    Projects
+                  </strong>{" "}
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf"
+            >
+              <p>
+                This catalogue helps to articulate the business case for
+                nature-based infrastructure and provides examples of
+                nature-based solutions, organized by sector, as inspiration for
+                infrastructure companies and project developers.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/World-Bank-Global-Program-for-Nature-Based-Solutions.png"
+              title={
+                <p>
+                  <strong>
+                    World Bank Global Program for Nature-Based Solutions
+                  </strong>{" "}
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://www.naturebasedsolutions.org/knowledge-hub"
+            >
+              <p>
+                This knowledge hub provides detailed and up-to-date guidance,
+                case studies, and tools for integrating NBS into infrastructure
+                and urban development projects.{" "}
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/The-Nature-Based-Solutions-Opportunity-Scan.png"
+              title={
+                <p>
+                  <strong>
+                    The Nature-Based Solutions Opportunity Scan{" "}
+                  </strong>{" "}
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://openknowledge.worldbank.org/entities/publication/f350c5c0-b17b-4f35-ad29-cb3ddc101958"
+            >
+              <p>
+                This report categorizes different families of nature-based
+                solutions and maps investment opportunities across sectors. It
+                helps practitioners understand associated benefits and identify
+                where NBS interventions can be integrated into infrastructure
+                projects.{" "}
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Financing-Climate-AdaptationandNature-Based-Infrastructure.png"
+              title={
+                <p>
+                  <strong>
+                    Financing Climate Adaptation and Nature Based Infrastructure
+                  </strong>{" "}
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://documents1.worldbank.org/curated/en/099050725135521570/pdf/P501013-299da78d-86cc-4f74-a095-cde17655875a.pdf"
+            >
+              <p>
+                The report assesses opportunities and barriers for mobilizing
+                private finance and investment into climateadaptation and
+                naturebased infrastructure in emerging and developing
+                economies.{" "}
+              </p>
+            </VCard>
             <VCard
               image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png"
               title={

@@ -27,6 +27,7 @@ export default function QII2CaseStudy2() {
             className="single-case-study-wrapper"
             style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii2/ganga_case_study_Image.png")`,
+              margin: "6rem 0 0 0"
             }}
           >
             <h2 className="main-title">

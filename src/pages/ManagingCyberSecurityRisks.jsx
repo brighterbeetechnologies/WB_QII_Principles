@@ -104,6 +104,28 @@ export default function ManagingCyberSecurityRisks() {
 
           <div className="VCard-cnt col3">
             <VCard
+              image="images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png"
+              title={
+                <p>
+                  Ghana <br />
+                  <strong>
+                    A Case Study in Strengthening Cyber Resilience ​{" "}
+                  </strong>
+                  <br />
+                  World Bank
+                </p>
+              }
+              buttonText="Case study"
+              link="https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf"
+            >
+              <p>
+                The case of Ghana demonstrates that forward-looking investments
+                and policy initiatives based on international best-practices can
+                go a long way in boosting cybersecurity capacity in developing
+                countries.
+              </p>
+            </VCard>
+            <VCard
               image="images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png"
               title={
                 <p>
@@ -121,7 +143,6 @@ export default function ManagingCyberSecurityRisks() {
                 in critical infrastructure.
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png"
               title={
@@ -141,7 +162,6 @@ export default function ManagingCyberSecurityRisks() {
                 by the UK National Cyber Security Center.
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).png"
               title={
@@ -179,29 +199,6 @@ export default function ManagingCyberSecurityRisks() {
                 strategies, policies, and governance efforts to foster
                 innovation and sustainability amid change and uncertainty. See
                 page 87 onwards for a specific discussion on infrastructure.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png"
-              title={
-                <p>
-                  Ghana <br />
-                  <strong>
-                    A Case Study in Strengthening Cyber Resilience ​{" "}
-                  </strong>
-                  <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Case study"
-              link="https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf"
-            >
-              <p>
-                The case of Ghana demonstrates that forward-looking investments
-                and policy initiatives based on international best-practices can
-                go a long way in boosting cybersecurity capacity in developing
-                countries.
               </p>
             </VCard>
           </div>

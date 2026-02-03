@@ -346,6 +346,59 @@ export default function FinancingResilience() {
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
+              image="images/qii4/FinancingResilience/Philippine Water Revolving Fund.png"
+              title={
+                <p>
+                  <strong>Philippines Water Revolving Fund</strong><br />
+                  World Bank
+                </p>
+              }
+              buttonText="Case study"
+              link="https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf"
+            >
+              <p>
+                The PWRF blends Official Development Assistance (ODA) and
+                domestic public funds with commercial financing to lower
+                borrowing rates, and to market water and sanitation projects to
+                private finance institutions (PFIs).
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png"
+              title={
+                <p>
+                  <strong>
+                    Philippines Energy Development Corporation (EDC) Green Bond
+                  </strong>
+                </p>
+              }
+              buttonText="Case study"
+              link="https://sustainability-coalition.org/case-study/philippines-energy-development-corporation/"
+            >
+              <p>
+                In 2018, IFC issued the first AAA peso-denominated green bond
+                for $90 million with a fifteen-year maturity. The bond was
+                intended to support EDC with restoration and resilience efforts
+                at the Malitbog plant.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii4/updated/Vida-Manglar-Colombia.png"
+              title={
+                <p>
+                  <strong>Vida Manglar Carbon Project in Colombia</strong>
+                </p>
+              }
+              buttonText="Case study"
+              link="https://www.conservation.org/projects/vida-manglar-carbon-project"
+            >
+              <p>
+                Coastal protection project that uses blue carbon credits to
+                finance the cost of restoring mangrove forests to protect local
+                communities.
+              </p>
+            </VCard>
+            <VCard
               image="images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png"
               title={
                 <p>
@@ -366,7 +419,6 @@ export default function FinancingResilience() {
                 (EMDEs).
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png"
               title={
@@ -408,62 +460,7 @@ export default function FinancingResilience() {
                 for better management of disasters and climate shocks.
               </p>
             </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/Philippine Water Revolving Fund.png"
-              title={
-                <p>
-                  <strong>Philippines Water Revolving Fund</strong><br />
-                  World Bank
-                </p>
-              }
-              buttonText="Case study"
-              link="https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf"
-            >
-              <p>
-                The PWRF blends Official Development Assistance (ODA) and
-                domestic public funds with commercial financing to lower
-                borrowing rates, and to market water and sanitation projects to
-                private finance institutions (PFIs).
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png"
-              title={
-                <p>
-                  <strong>
-                    Philippines Energy Development Corporation (EDC) Green Bond
-                  </strong>
-                </p>
-              }
-              buttonText="Case study"
-              link="https://sustainability-coalition.org/case-study/philippines-energy-development-corporation/"
-            >
-              <p>
-                In 2018, IFC issued the first AAA peso-denominated green bond
-                for $90 million with a fifteen-year maturity. The bond was
-                intended to support EDC with restoration and resilience efforts
-                at the Malitbog plant.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/updated/Vida-Manglar-Colombia.png"
-              title={
-                <p>
-                  <strong>Vida Manglar Carbon Project in Colombia</strong>
-                </p>
-              }
-              buttonText="Case study"
-              link="https://www.conservation.org/projects/vida-manglar-carbon-project"
-            >
-              <p>
-                Coastal protection project that uses blue carbon credits to
-                finance the cost of restoring mangrove forests to protect local
-                communities.
-              </p>
-            </VCard>
+            
           </div>
           <h4 className="sub-section-title">Further Reading On Financing Resilience</h4>
           <div className="VCard-cnt col3">
@@ -514,45 +511,6 @@ export default function FinancingResilience() {
                 financially viable and scalable.
               </p>
             </VCard>
-            {/* <VCard
-              image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
-              title={
-                <p>
-                  <strong>GFDRR Disaster Risk Finance</strong>
-                </p>
-              }
-              buttonText="Resource"
-              link="https://www.gfdrr.org/en/disaster-risk-finance"
-            >
-              <p>
-                GFDRR supports governments in designing financial protection
-                strategies and instruments to respond to natural disasters. The
-                Disaster Risk Financing and Insurance thematic area provides a
-                compendium of case studies and resources in financing solutions
-                for better management of disasters and climate shocks.
-              </p>
-            </VCard> */}
-
-            {/* <VCard
-              image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
-              title={
-                <p>
-                  <strong>GFDRR Disaster Risk Finance</strong>
-                </p>
-              }
-              buttonText="Resource"
-              link="https://www.gfdrr.org/en/disaster-risk-finance"
-            >
-              <p>
-                GFDRR supports governments in designing financial protection
-                strategies and instruments to respond to natural disasters. The
-                Disaster Risk Financing and Insurance thematic area provides a
-                compendium of case studies and resources in financing solutions
-                for better management of disasters and climate shocks.
-              </p>
-            </VCard> */}
-          </div>
-          <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png"
               title={
@@ -594,7 +552,45 @@ export default function FinancingResilience() {
                 strengthening resilience.
               </p>
             </VCard>
+            {/* <VCard
+              image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
+              title={
+                <p>
+                  <strong>GFDRR Disaster Risk Finance</strong>
+                </p>
+              }
+              buttonText="Resource"
+              link="https://www.gfdrr.org/en/disaster-risk-finance"
+            >
+              <p>
+                GFDRR supports governments in designing financial protection
+                strategies and instruments to respond to natural disasters. The
+                Disaster Risk Financing and Insurance thematic area provides a
+                compendium of case studies and resources in financing solutions
+                for better management of disasters and climate shocks.
+              </p>
+            </VCard> */}
+
+            {/* <VCard
+              image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
+              title={
+                <p>
+                  <strong>GFDRR Disaster Risk Finance</strong>
+                </p>
+              }
+              buttonText="Resource"
+              link="https://www.gfdrr.org/en/disaster-risk-finance"
+            >
+              <p>
+                GFDRR supports governments in designing financial protection
+                strategies and instruments to respond to natural disasters. The
+                Disaster Risk Financing and Insurance thematic area provides a
+                compendium of case studies and resources in financing solutions
+                for better management of disasters and climate shocks.
+              </p>
+            </VCard> */}
           </div>
+          
         </div>
       </section>
       {/* <section className="color-dark z-2" id="resourcesSection">

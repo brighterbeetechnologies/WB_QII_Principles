@@ -14,6 +14,8 @@ import {
 import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
+import QII2CaseStudy1 from "./QII2CaseStudy1";
+import "./QII2CaseStudy.css"
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
@@ -42,7 +44,7 @@ export default function QII2LandingPage() {
       id: 1,
       title:
         "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies",
-      country: false,
+      country: "Multi-country",
       org: "World Bank",
       description:
         "Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
@@ -272,7 +274,7 @@ export default function QII2LandingPage() {
           "Incorporating life cycle costing into infrastructure planning and decision-making helps break the costly cycle of short-term thinking. By accounting for the total cost of service delivery—including operations, maintenance, and eventual decommissioning—governments and institutions can make smarter investments that deliver better value over time.​"
         }
       />
-      <section className="color-light">
+      <section className="color-dark">
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
@@ -320,7 +322,7 @@ export default function QII2LandingPage() {
         </h3>
         <h1 className="light-font "></h1>
       </section> */}
-      <section className="qii_video_landing_page color-light">
+      {/* <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
           src="images/qii4/QII 2 in Action poster.png"
@@ -355,7 +357,9 @@ export default function QII2LandingPage() {
             </button>
           </Link>
         </div>
-      </section>
+      </section> */}
+
+      <QII2CaseStudy1 />
 
       {/* <section className="color-dark top_resource_page">
         <div className="container">

@@ -129,6 +129,27 @@ export default function ResilientDesignAndOperation() {
           </p> */}
           <div className="VCard-cnt col3">
             <VCard
+              image="images/qii4/ResilientDesignAndOperation/Modular Bridges in Madagascar.png"
+              title={
+                <p>
+                  <strong>Modular Bridges in Madagascar</strong>
+                  <br />
+                  World Bank
+                </p>
+              }
+              buttonText="Case Study"
+              link="https://www.worldbank.org/en/news/press-release/2025/07/10/building-resilient-afe-infrastructure-protecting-access-connectivity-and-communities"
+            >
+              <p>
+                This update highlights how climate-resilient design standards
+                and rapid-response operational planning (such as pre-positioned
+                modular bridges) are being incorporated into Madagascar’s
+                national infrastructure projects to proactively prevent
+                isolation, maintain connectivity, and protect communities from
+                natural disasters and climate shocks.
+              </p>
+            </VCard>
+            <VCard
               image="images/qii4/ResilientDesignAndOperation/Building Code Checklist for Structural Resilience.png"
               title={
                 <p>
@@ -150,7 +171,6 @@ export default function ResilientDesignAndOperation() {
                 infrastructure planning.
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/ResilientDesignAndOperation/EU Taxonomy Compass.png"
               title={
@@ -170,7 +190,6 @@ export default function ResilientDesignAndOperation() {
                 in a simple and practical manner.
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/ResilientDesignAndOperation/FAST-Infra Label.png"
               title={
@@ -190,7 +209,6 @@ export default function ResilientDesignAndOperation() {
                 resilience and adaptation can be found in page 46.
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/ResilientDesignAndOperation/A Global Assessment of Building Codes.png"
               title={
@@ -216,7 +234,6 @@ export default function ResilientDesignAndOperation() {
                 evolving hazards.
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png"
               title={
@@ -241,7 +258,6 @@ export default function ResilientDesignAndOperation() {
                 prevention and structural safety region-wide.
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/ResilientDesignAndOperation/Stronger Building Codes for a Safer, More Resilient Future.png"
               title={
@@ -286,28 +302,6 @@ export default function ResilientDesignAndOperation() {
                 and enforcement from the outset.
               </p>
             </VCard>
-
-            <VCard
-              image="images/qii4/ResilientDesignAndOperation/Modular Bridges in Madagascar.png"
-              title={
-                <p>
-                  <strong>Modular Bridges in Madagascar</strong>
-                  <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Case Study"
-              link="https://www.worldbank.org/en/news/press-release/2025/07/10/building-resilient-afe-infrastructure-protecting-access-connectivity-and-communities"
-            >
-              <p>
-                This update highlights how climate-resilient design standards
-                and rapid-response operational planning (such as pre-positioned
-                modular bridges) are being incorporated into Madagascar’s
-                national infrastructure projects to proactively prevent
-                isolation, maintain connectivity, and protect communities from
-                natural disasters and climate shocks.
-              </p>
-            </VCard>
           </div>
           {/* <div className="VCard-cnt col-2"></div> */}
           <div className="border-dash"></div>
@@ -340,6 +334,27 @@ export default function ResilientDesignAndOperation() {
 
           <div className="VCard-cnt col3">
             <VCard
+              image="images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png"
+              title={
+                <p>
+                  <strong>
+                    AI and deep learning for identifying pavement failures
+                  </strong>
+                  <br />
+                  Inter-American Development Bank
+                </p>
+              }
+              buttonText="Case Study"
+              link="https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean"
+            >
+              <p>
+                An innovative tool that improves paved road network planning and
+                reduces maintenance costs for government agencies, replacing a
+                costly and lengthy manual process; AI application,
+                digitalization, and simplification of road assessment process.
+              </p>
+            </VCard>
+            <VCard
               image="images/qii4/ResilientDesignAndOperation/World Bank A Catalogue of Nature-Based Solutions for Urban Resilience.png"
               title={
                 <p>
@@ -360,7 +375,6 @@ export default function ResilientDesignAndOperation() {
                 potential investments in nature-based solutions.
               </p>
             </VCard>
-
             <VCard
               image="images/qii4/ResilientDesignAndOperation/IFC Catalogue of Nature Based Solutions for Infrastructure Projects.png"
               title={
@@ -386,33 +400,6 @@ export default function ResilientDesignAndOperation() {
                 opportunities and possible projects.
               </p>
             </VCard>
-
-            <VCard
-              image="images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png"
-              title={
-                <p>
-                  <strong>
-                    AI and deep learning for identifying pavement failures
-                  </strong>
-                  <br />
-                  Inter-American Development Bank
-                </p>
-              }
-              buttonText="Case Study"
-              link="https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean"
-            >
-              <p>
-                An innovative tool that improves paved road network planning and
-                reduces maintenance costs for government agencies, replacing a
-                costly and lengthy manual process; AI application,
-                digitalization, and simplification of road assessment process.
-              </p>
-            </VCard>
-          </div>
-          {/* <h4 className="sub-section-title">
-            Digital Solutions for Resilience
-          </h4> */}
-          <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/Digital Security and Resilience in Critical Infrastructure and Essential Services1.png"
               title={
@@ -458,6 +445,9 @@ export default function ResilientDesignAndOperation() {
               </p>
             </VCard>
           </div>
+          {/* <h4 className="sub-section-title">
+            Digital Solutions for Resilience
+          </h4> */}
           <p className="qii4-note">
             *For more on digital resilience, visit our{" "}
             <Link to="/Managing-cyber-security-risks" className="cyber-link">

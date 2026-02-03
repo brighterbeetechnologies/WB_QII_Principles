@@ -174,45 +174,6 @@ export default function GreenFinancingforInfrastructure() {
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png"
-              title={
-                <p>
-                  <strong>Green Bond Principles</strong> <br />
-                  ICMA
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/green-bond-principles-gbp/"
-            >
-              <p>
-                These principles outline international best practices when
-                issuing green bonds including the eligible use of proceeds,
-                project evaluation and selection, management of proceeds, and
-                reporting requirements.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png"
-              title={
-                <p>
-                  <strong>Green Eligibility Checker tool</strong> <br />
-                  European Investment Bank
-                </p>
-              }
-              buttonText="Tool"
-              link="https://greenchecker.eib.org/"
-            >
-              <p>
-                Developed by the European Investment Bank, this tool helps
-                project developers to assess the compliance of projects with the
-                EIB's green eligibility criteria. While focused on Europe, the
-                tool has also been expanded to be of relevance to countries
-                across North Africa and the Middle East.{" "}
-              </p>
-            </VCard>
-
-            <VCard
               image="images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png"
               title={
                 <p>
@@ -273,6 +234,43 @@ export default function GreenFinancingforInfrastructure() {
                 dump emitting 90 million tons of CO₂ equivalent over the last 45
                 years – to a sanitary landfill with biogas collection and
                 leachate treatment, which reduced 210,000 tons of CO₂e per year.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png"
+              title={
+                <p>
+                  <strong>Green Bond Principles</strong> <br />
+                  ICMA
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/green-bond-principles-gbp/"
+            >
+              <p>
+                These principles outline international best practices when
+                issuing green bonds including the eligible use of proceeds,
+                project evaluation and selection, management of proceeds, and
+                reporting requirements.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png"
+              title={
+                <p>
+                  <strong>Green Eligibility Checker tool</strong> <br />
+                  European Investment Bank
+                </p>
+              }
+              buttonText="Tool"
+              link="https://greenchecker.eib.org/"
+            >
+              <p>
+                Developed by the European Investment Bank, this tool helps
+                project developers to assess the compliance of projects with the
+                EIB's green eligibility criteria. While focused on Europe, the
+                tool has also been expanded to be of relevance to countries
+                across North Africa and the Middle East.{" "}
               </p>
             </VCard>
           </div>

@@ -286,72 +286,6 @@ export const appDataSlice = createSlice({
       },
       {
         id: 1,
-        paths:
-          "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
-        type: "Resources",
-        title:
-          "Well Maintained: - Economic Benefits from More Reliable and Resilient Infrastructure ",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report demonstrates that regular maintenance is essential for reliable and resilient infrastructure, quantifies the high economic and social costs of unreliable services, and provides evidence-based recommendations for improving maintenance practices, governance, and investment planning to maximize infrastructure’s economic benefits and resilience to shocks.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/governance/resources/01.jpg",
-      },
-      {
-        id: 1,
-        paths:
-          "https://ppp.worldbank.org/sites/default/files/2024-08/PPP Reference Guide Version 3.pdf",
-        type: "Resources",
-        title: "PPP Reference Guide",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This document acts as a comprehensive reference on Public-Private Partnership (PPP) structures, legal frameworks, and global case studies, designed to help governments and practitioners make informed decisions about PPPs.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/governance/resources/02.jpg",
-      },
-      {
-        id: 1,
-        paths:
-          "https://prdrse4all.spc.int/system/files/149856004-infrastructure-maintenance-in-the-pacific-challenging-the-build-neglect-rebuild-paradigm.pdf",
-        type: "Resources",
-        title: "Infrastructure Maintenance in the Pacific",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report explores the governance challenges of infrastructure maintenance in Pacific Island countries, emphasizing the need for clear institutional roles, accountability, and sustainable funding to break the “build-neglect-rebuild” cycle and ensure long-term service delivery.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/governance/resources/03.jpg",
-      },
-      {
-        id: 1,
-        paths:
-          "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
-        type: "Resources",
-        title:
-          "Bringing PPPs into the Sunlight Inter-American Development Bank",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report examines the fiscal, institutional, and governance challenges of Public-Private Partnerships (PPPs), providing practical guidance to improve transparency, manage fiscal risks, and ensure PPPs deliver long-term value for money.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/governance/resources/04.jpg",
-      },
-      {
-        id: 1,
         paths: "https://www.ppiaf.org/documents/5629",
         type: "Case Study",
         title: "Vietnam Ho Chi Minh City PBCs World Bank",
@@ -380,22 +314,6 @@ export const appDataSlice = createSlice({
         industry: 2,
         pdf: true,
         image: "images/procurement/IndiaGanga.png",
-      },
-      {
-        id: 1,
-        paths: "https://www.gihub.org/infrastructure-output-specifications/",
-        type: "Guidance",
-        title:
-          "Reference Guide on Output Specifications for Quality Infrastructure Global Infrastructure Hub",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "Provides guidance on how quality infrastructure is incorporated in output specifications of long-term infrastructure contracts.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/procurement/ReferenceGuide.png",
       },
       {
         id: 1,
@@ -430,105 +348,6 @@ export const appDataSlice = createSlice({
         industry: 2,
         image: "images/procurement/Disruptive.png",
       },
-      {
-        id: 1,
-        paths: "https://www.fhwa.dot.gov/pavement/lcca/010621.pdf",
-        type: "Resources",
-        title:
-          "Life-Cycle Cost Analysis Primer U.S. Department of Transportation - Federal Highway Administration",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This primer provides an introduction to LCCA as a method for comparing the total long-term costs, including agency and user costs, of alternative infrastructure project designs. It explains the step-by-step LCCA process, key concepts, and practical implementation issues.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/procurement/resources/01.png",
-      },
-      {
-        id: 1,
-        paths:
-          "https://www.oecd.org/en/publications/building-resilience_354aa2aa-en.html",
-        type: "Resources",
-        title:
-          "New Strategies for Strengthening Infrastructure Resilience and Maintenance Organization for Economic Co-operation and Development",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report presents strategies and practical recommendations for strengthening infrastructure resilience and maintenance, emphasizing a holistic, life-cycle approach. It covers regulatory frameworks, innovation (including digital and nature-based solutions), and funding models to help governments optimize existing assets and build new, sustainable infrastructure resilient to future risk.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/procurement/resources/02.png",
-      },
-      {
-        id: 1,
-        paths:
-          "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
-        type: "Resources",
-        title:
-          "Bringing PPPs into the Sunlight Inter-American Development Bank",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report critically examines Public-Private Partnerships (PPPs), considering their benefits and drawbacks. It provides guidance on institutional frameworks, fiscal implications, government support, and unsolicited proposals, emphasizing rigorous value-for-money analysis and risk management to avoid common pitfalls and maximize public benefit.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/procurement/resources/03.png",
-      },
-      {
-        id: 1,
-        paths:
-          "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
-        type: "Resources",
-        title:
-          "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure World Bank",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report demonstrates that regular maintenance is essential for reliable and resilient infrastructure, quantifies the high economic and social costs of unreliable services, and provides evidence-based recommendations for improving maintenance practices, governance, and investment planning to maximize infrastructure’s economic benefits and resilience to shocks.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/procurement/resources/04.png",
-      },
-      {
-        id: 1,
-        paths:
-          "https://www.iisd.org/publications/report/life-cycle-costing-sustainable-public-procurement-question-value",
-        type: "Resources",
-        title:
-          "Life-Cycle Costing in Sustainable Public Procurement International Institute for Sustainable Development",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This white paper explores how life-cycle costing (LCC) can enhance sustainable public procurement by evaluating all costs, financial, environmental, and social, across an asset’s life. It reviews global practices, highlights barriers to systematic LCC use, and offers recommendations for integrating LCC into procurement policies to achieve better long-term value and sustainability outcomes.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/procurement/resources/05.png",
-      },
-      // {
-      //   id: 1,
-      //   paths: "",
-      //   type: "Resources",
-      //   title: "Life-Cycle Costing Guidance Note World Bank",
-      //   highlight: 0,
-      //target:"_blank",
-      //   desc: "(Forthcoming)",
-      //   principles: 1,
-      //   format: 1,
-      //   stage: 2,
-      //   region: 1,
-      //   industry: 2,
-      //   image: "images/procurement/resources/06.png",
-      // },
       {
         id: 1,
         paths:
@@ -633,6 +452,275 @@ export const appDataSlice = createSlice({
       },
       {
         id: 1,
+        paths:
+          "https://documents1.worldbank.org/curated/en/470341542225495367/pdf/132059-BRI-PUBLIC-PPP-Stories-Tibar-Bay-Port.pdf",
+        type: "Case Study",
+        title:
+          "Timor-Leste Tibar Bay Port PPP International Finance Corporation",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "Demonstrates the use of a combined user-pays and government-pays model for the delivery of a port PPP in Timor-Leste.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/costRecovery/Timor-Leste.png",
+      },
+      {
+        id: 1,
+        paths:
+          "https://documents1.worldbank.org/curated/en/942711467994666687/pdf/103935-REVISED-LW61-fin-logo-OKR.pdf",
+        type: "Case Study",
+        title:
+          "Maldives Facilitating Private Investment in Clean and Affordable Energy World Bank",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "Describes a program for tariff-based revenues secured through long-term power-purchase agreements with utilities supported by a World Bank guarantee.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/costRecovery/Maldives.png",
+      },
+      {
+        id: 1,
+        paths:
+          "https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf",
+        type: "Case Study",
+        title:
+          "Report Revisiting Water Pricing for Affordable and Sustainable Water Services World Bank",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "Synthesizes the literature to articulate a step-by-step process for designing effective water tariffs.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/costRecovery/TroubledTariffs.png",
+      },
+      {
+        id: 1,
+        paths:
+          "https://infrastructuredeliverymodels.gihub.org/case-studies/hyderabad-metro-rail/",
+        type: "Case Study",
+        title: "India Hyderabad Metro Rail Global Infrastructure Hub",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "Demonstrates the use of ancillary revenue sources from rentals of commercial real estate at the metro station.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/costRecovery/India.png",
+      },
+      {
+        id: 1,
+        paths:
+          "https://documents1.worldbank.org/curated/en/099325009052225715/pdf/P1773160bfd9f30ed0977607550f60b2651.pdf",
+        type: "Case Study",
+        title:
+          "Argentina Land Value Capture: Investment in Infrastructure World Bank",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "Assesses the potential for land value capture for urban infrastructure financing in the Buenos Aires Metropolitan Area.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/costRecovery/Argentina.png",
+      },
+      
+      {
+        id: 1,
+        paths:
+          "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
+        type: "Resources",
+        title:
+          "Well Maintained: - Economic Benefits from More Reliable and Resilient Infrastructure ",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This report demonstrates that regular maintenance is essential for reliable and resilient infrastructure, quantifies the high economic and social costs of unreliable services, and provides evidence-based recommendations for improving maintenance practices, governance, and investment planning to maximize infrastructure’s economic benefits and resilience to shocks.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/governance/resources/01.jpg",
+      },
+      {
+        id: 1,
+        paths:
+          "https://ppp.worldbank.org/sites/default/files/2024-08/PPP Reference Guide Version 3.pdf",
+        type: "Resources",
+        title: "PPP Reference Guide",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This document acts as a comprehensive reference on Public-Private Partnership (PPP) structures, legal frameworks, and global case studies, designed to help governments and practitioners make informed decisions about PPPs.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/governance/resources/02.jpg",
+      },
+      {
+        id: 1,
+        paths:
+          "https://prdrse4all.spc.int/system/files/149856004-infrastructure-maintenance-in-the-pacific-challenging-the-build-neglect-rebuild-paradigm.pdf",
+        type: "Resources",
+        title: "Infrastructure Maintenance in the Pacific",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This report explores the governance challenges of infrastructure maintenance in Pacific Island countries, emphasizing the need for clear institutional roles, accountability, and sustainable funding to break the “build-neglect-rebuild” cycle and ensure long-term service delivery.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/governance/resources/03.jpg",
+      },
+      {
+        id: 1,
+        paths:
+          "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
+        type: "Resources",
+        title:
+          "Bringing PPPs into the Sunlight Inter-American Development Bank",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This report examines the fiscal, institutional, and governance challenges of Public-Private Partnerships (PPPs), providing practical guidance to improve transparency, manage fiscal risks, and ensure PPPs deliver long-term value for money.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/governance/resources/04.jpg",
+      },
+      
+      {
+        id: 1,
+        paths: "https://www.gihub.org/infrastructure-output-specifications/",
+        type: "Guidance",
+        title:
+          "Reference Guide on Output Specifications for Quality Infrastructure Global Infrastructure Hub",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "Provides guidance on how quality infrastructure is incorporated in output specifications of long-term infrastructure contracts.",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/procurement/ReferenceGuide.png",
+      },
+      
+      {
+        id: 1,
+        paths: "https://www.fhwa.dot.gov/pavement/lcca/010621.pdf",
+        type: "Resources",
+        title:
+          "Life-Cycle Cost Analysis Primer U.S. Department of Transportation - Federal Highway Administration",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This primer provides an introduction to LCCA as a method for comparing the total long-term costs, including agency and user costs, of alternative infrastructure project designs. It explains the step-by-step LCCA process, key concepts, and practical implementation issues.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/procurement/resources/01.png",
+      },
+      {
+        id: 1,
+        paths:
+          "https://www.oecd.org/en/publications/building-resilience_354aa2aa-en.html",
+        type: "Resources",
+        title:
+          "New Strategies for Strengthening Infrastructure Resilience and Maintenance Organization for Economic Co-operation and Development",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This report presents strategies and practical recommendations for strengthening infrastructure resilience and maintenance, emphasizing a holistic, life-cycle approach. It covers regulatory frameworks, innovation (including digital and nature-based solutions), and funding models to help governments optimize existing assets and build new, sustainable infrastructure resilient to future risk.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/procurement/resources/02.png",
+      },
+      {
+        id: 1,
+        paths:
+          "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
+        type: "Resources",
+        title:
+          "Bringing PPPs into the Sunlight Inter-American Development Bank",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This report critically examines Public-Private Partnerships (PPPs), considering their benefits and drawbacks. It provides guidance on institutional frameworks, fiscal implications, government support, and unsolicited proposals, emphasizing rigorous value-for-money analysis and risk management to avoid common pitfalls and maximize public benefit.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/procurement/resources/03.png",
+      },
+      {
+        id: 1,
+        paths:
+          "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
+        type: "Resources",
+        title:
+          "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure World Bank",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This report demonstrates that regular maintenance is essential for reliable and resilient infrastructure, quantifies the high economic and social costs of unreliable services, and provides evidence-based recommendations for improving maintenance practices, governance, and investment planning to maximize infrastructure’s economic benefits and resilience to shocks.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/procurement/resources/04.png",
+      },
+      {
+        id: 1,
+        paths:
+          "https://www.iisd.org/publications/report/life-cycle-costing-sustainable-public-procurement-question-value",
+        type: "Resources",
+        title:
+          "Life-Cycle Costing in Sustainable Public Procurement International Institute for Sustainable Development",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This white paper explores how life-cycle costing (LCC) can enhance sustainable public procurement by evaluating all costs, financial, environmental, and social, across an asset’s life. It reviews global practices, highlights barriers to systematic LCC use, and offers recommendations for integrating LCC into procurement policies to achieve better long-term value and sustainability outcomes.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 2,
+        image: "images/procurement/resources/05.png",
+      },
+      // {
+      //   id: 1,
+      //   paths: "",
+      //   type: "Resources",
+      //   title: "Life-Cycle Costing Guidance Note World Bank",
+      //   highlight: 0,
+      //target:"_blank",
+      //   desc: "(Forthcoming)",
+      //   principles: 1,
+      //   format: 1,
+      //   stage: 2,
+      //   region: 1,
+      //   industry: 2,
+      //   image: "images/procurement/resources/06.png",
+      // },
+      
+      {
+        id: 1,
         paths: "https://www.infratechportal.org/LandingPage",
         type: "Resources",
         title: "InfraTech Portal Asian Infrastructure Investment Bank",
@@ -711,73 +799,7 @@ export const appDataSlice = createSlice({
         industry: 2,
         image: "images/technicalSolutions/resources/IEATechnology.png",
       },
-      {
-        id: 1,
-        paths:
-          "https://documents1.worldbank.org/curated/en/470341542225495367/pdf/132059-BRI-PUBLIC-PPP-Stories-Tibar-Bay-Port.pdf",
-        type: "Case Study",
-        title:
-          "Timor-Leste Tibar Bay Port PPP International Finance Corporation",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "Demonstrates the use of a combined user-pays and government-pays model for the delivery of a port PPP in Timor-Leste.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/costRecovery/Timor-Leste.png",
-      },
-      {
-        id: 1,
-        paths:
-          "https://documents1.worldbank.org/curated/en/942711467994666687/pdf/103935-REVISED-LW61-fin-logo-OKR.pdf",
-        type: "Case Study",
-        title:
-          "Maldives Facilitating Private Investment in Clean and Affordable Energy World Bank",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "Describes a program for tariff-based revenues secured through long-term power-purchase agreements with utilities supported by a World Bank guarantee.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/costRecovery/Maldives.png",
-      },
-      {
-        id: 1,
-        paths:
-          "https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf",
-        type: "Case Study",
-        title:
-          "Report Revisiting Water Pricing for Affordable and Sustainable Water Services World Bank",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "Synthesizes the literature to articulate a step-by-step process for designing effective water tariffs.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/costRecovery/TroubledTariffs.png",
-      },
-      {
-        id: 1,
-        paths:
-          "https://infrastructuredeliverymodels.gihub.org/case-studies/hyderabad-metro-rail/",
-        type: "Case Study",
-        title: "India Hyderabad Metro Rail Global Infrastructure Hub",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "Demonstrates the use of ancillary revenue sources from rentals of commercial real estate at the metro station.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/costRecovery/India.png",
-      },
+      
       {
         id: 1,
         paths:
@@ -788,7 +810,7 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         desc: "Provides guidance on analyzing key requirements to implement Commercial Value Capture (CVC) for a project or portfolio of projects.",
-        format: 1,
+        format: 2,
         stage: 2,
         region: 1,
         industry: 2,
@@ -805,28 +827,11 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         desc: "Identifies the different types of land value capture mechanisms and how they were applied in certain locations.",
-        format: 1,
+        format: 2,
         stage: 2,
         region: 1,
         industry: 2,
         image: "images/costRecovery/lvc.png",
-      },
-      {
-        id: 1,
-        paths:
-          "https://documents1.worldbank.org/curated/en/099325009052225715/pdf/P1773160bfd9f30ed0977607550f60b2651.pdf",
-        type: "Case Study",
-        title:
-          "Argentina Land Value Capture: Investment in Infrastructure World Bank",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "Assesses the potential for land value capture for urban infrastructure financing in the Buenos Aires Metropolitan Area.",
-        format: 1,
-        stage: 2,
-        region: 1,
-        industry: 2,
-        image: "images/costRecovery/Argentina.png",
       },
       {
         id: 1,
@@ -1000,7 +1005,154 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
       },
-
+      {
+        id: 3,
+        paths:
+          "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
+        type: "Case Study",
+        title: "Timor-Leste: Tibar Bay Port",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "This project demonstrates application of the IFC Performance Standards, which gained recognition for rigorous environmental and social scoping that led to key operational improvements such as reducing congestion and enhancing trade efficiency.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png",
+      },
+      {
+        id: 3,
+        paths:
+          "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
+        type: "Case Study",
+        title: "Blue Dot Network",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk. ",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image: "images/newresource/Blue-Dot-Network.png",
+      },
+      {
+        id: 3,
+        paths: "https://www.fastinfralabel.org/",
+        type: "Case Study",
+        title: "FAST Infra",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing. ",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
+      },
+      {
+        id: 3,
+        paths: "/not-given",
+        type: "Case Study",
+        title: "Pakistan: Zephyr Wind Farm",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "Demonstrates how mangrove restoration replaced conventional engineering for coastal infrastructure protection under a renewable energy project. Facing tidal damage to roads, turbine platforms, and cables, the project opted for NBS instead of grey infrastructure, saving an estimated USD 7 million over 25 years.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        // "image": ""
+        image:
+          "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/UN Principles for Responsible Investment Integrating Biodiversity Considerations into Infrastructure.png",
+      },
+      {
+        id: 3,
+        paths: "/qii4casestudy1",
+        type: "Case Study",
+        title: "Japan: Futakotamagawa",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "Demonstrates how green infrastructure can be integrated with urban flood protection to deliver multiple benefits. Futakotamagawa Park serves as a natural buffer between Tokyo's Tama River and the city, absorbing floodwater while reconnecting the community to the river, creating wildlife habitat, and cooling the urban district.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image: "images/qii4/updated/Futakotamagawa.png",
+      },
+      {
+        id: 3,
+        paths: "https://www.naturebasedsolutions.org/",
+        type: "Case Study",
+        title: "GFDRR Mapping of Nature-Based Solutions Projects",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "This interactive map from the Global Facility for Disaster Reduction and Recovery visualizes NBS projects worldwide. Explore project locations, types, and implementation details to identify relevant precedents.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/GFDRR Mapping of Nature-Based Solutions Projects.png",
+      },
+      {
+        id: 3,
+        paths:
+          "https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/",
+        type: "Case Study",
+        title: "South Africa: Cape Town Green Bond",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "Illustrates how green bond certification builds investor confidence in climate-aligned municipal infrastructure. In 2017, amid severe drought, Cape Town issued a ZAR 1 billion (~US$75 million) Green Bond, the first in South Africa to receive CBI accreditation and the first to earn an “Excellent” rating from the rating agency Moody’s. Proceeds funded electric buses, energy-efficient buildings, water resilience initiatives, and coastal protection.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png",
+      },
+      {
+        id: 3,
+        paths:
+          "https://www.gihub.org/innovative-funding-and-financing/case-studies/sustainability-linked-loan-to-improve-water-supply-efficiency-and-resilience/",
+        type: "Case Study",
+        title: "Brazil: Corsan Water Sustainability-Linked Loan",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "Demonstrates how sustainability-linked financing can drive efficiency improvements in state utilities. IFC provided a US$ 83 million loan to Corsan, the main water utility in Rio Grande do Sul state, to replace obsolete pumps and hydrometers. The loan was structured in a way that the interest rate would be reduced if Corsan met pre-agreed reductions in water losses.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png",
+      },
+      {
+        id: 3,
+        paths:
+          "https://www.bcenergy.rs/belgrade-waste-management-ppp-project-becomes-the-first-serbian-project-certified-by-the-gold-standard-organization/",
+        type: "Case Study",
+        title: "Belgrade Waste-to-Energy PPP Carbon Credit Certification",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "This project was the first project in Serbia certified by Gold Standard Carbon Credit Certification. This was achieved by modernizing waste treatment infrastructure – going from an open dump emitting 90 million tons of CO₂ equivalent over the last 45 years – to a sanitary landfill with biogas collection and leachate treatment, which reduced 210,000 tons of CO₂e per year.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png",
+      },
       {
         id: 3,
         paths:
@@ -1037,25 +1189,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png",
       },
-
-      {
-        id: 3,
-        paths:
-          "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
-        type: "Case Study",
-        title: "Timor-Leste: Tibar Bay Port",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This project demonstrates application of the IFC Performance Standards, which gained recognition for rigorous environmental and social scoping that led to key operational improvements such as reducing congestion and enhancing trade efficiency.",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        image:
-          "images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png",
-      },
-
       {
         id: 3,
         paths: "https://www.iso.org/popular-standards.html",
@@ -1119,38 +1252,6 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 3,
         image: "images/newresource/BREEAM-Infrastructure.png",
-      },
-      {
-        id: 3,
-        paths:
-          "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
-        type: "Case Study",
-        title: "Blue Dot Network",
-        principles: 2,
-        highlight: 1,
-        target: "_blank",
-        desc: "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk. ",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        image: "images/newresource/Blue-Dot-Network.png",
-      },
-      {
-        id: 3,
-        paths: "https://www.fastinfralabel.org/",
-        type: "Case Study",
-        title: "FAST Infra",
-        principles: 2,
-        highlight: 1,
-        target: "_blank",
-        desc: "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing. ",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        image:
-          "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
       },
       {
         id: 3,
@@ -1366,54 +1467,6 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths: "/not-given",
-        type: "Case Study",
-        title: "Pakistan: Zephyr Wind Farm",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "Demonstrates how mangrove restoration replaced conventional engineering for coastal infrastructure protection under a renewable energy project. Facing tidal damage to roads, turbine platforms, and cables, the project opted for NBS instead of grey infrastructure, saving an estimated USD 7 million over 25 years.",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        // "image": ""
-        image:
-          "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/UN Principles for Responsible Investment Integrating Biodiversity Considerations into Infrastructure.png",
-      },
-      {
-        id: 3,
-        paths: "/qii4casestudy1",
-        type: "Case Study",
-        title: "Japan: Futakotamagawa",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "Demonstrates how green infrastructure can be integrated with urban flood protection to deliver multiple benefits. Futakotamagawa Park serves as a natural buffer between Tokyo's Tama River and the city, absorbing floodwater while reconnecting the community to the river, creating wildlife habitat, and cooling the urban district.",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        image: "images/qii4/updated/Futakotamagawa.png",
-      },
-      {
-        id: 3,
-        paths: "https://www.naturebasedsolutions.org/",
-        type: "Case Study",
-        title: "GFDRR Mapping of Nature-Based Solutions Projects",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This interactive map from the Global Facility for Disaster Reduction and Recovery visualizes NBS projects worldwide. Explore project locations, types, and implementation details to identify relevant precedents.",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        image:
-          "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/GFDRR Mapping of Nature-Based Solutions Projects.png",
-      },
-      {
-        id: 3,
         paths: "https://www.youtube.com/watch?v=XqFihz4k7Kk",
         type: "Video",
         title: "Finding Solutions to Development Challenges in Nature",
@@ -1529,57 +1582,7 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png",
       },
-      {
-        id: 3,
-        paths:
-          "https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/",
-        type: "Case Study",
-        title: "South Africa: Cape Town Green Bond",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "Illustrates how green bond certification builds investor confidence in climate-aligned municipal infrastructure. In 2017, amid severe drought, Cape Town issued a ZAR 1 billion (~US$75 million) Green Bond, the first in South Africa to receive CBI accreditation and the first to earn an “Excellent” rating from the rating agency Moody’s. Proceeds funded electric buses, energy-efficient buildings, water resilience initiatives, and coastal protection.",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        image:
-          "images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png",
-      },
-      {
-        id: 3,
-        paths:
-          "https://www.gihub.org/innovative-funding-and-financing/case-studies/sustainability-linked-loan-to-improve-water-supply-efficiency-and-resilience/",
-        type: "Case Study",
-        title: "Brazil: Corsan Water Sustainability-Linked Loan",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "Demonstrates how sustainability-linked financing can drive efficiency improvements in state utilities. IFC provided a US$ 83 million loan to Corsan, the main water utility in Rio Grande do Sul state, to replace obsolete pumps and hydrometers. The loan was structured in a way that the interest rate would be reduced if Corsan met pre-agreed reductions in water losses.",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        image:
-          "images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png",
-      },
-      {
-        id: 3,
-        paths:
-          "https://www.bcenergy.rs/belgrade-waste-management-ppp-project-becomes-the-first-serbian-project-certified-by-the-gold-standard-organization/",
-        type: "Case Study",
-        title: "Belgrade Waste-to-Energy PPP Carbon Credit Certification",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This project was the first project in Serbia certified by Gold Standard Carbon Credit Certification. This was achieved by modernizing waste treatment infrastructure – going from an open dump emitting 90 million tons of CO₂ equivalent over the last 45 years – to a sanitary landfill with biogas collection and leachate treatment, which reduced 210,000 tons of CO₂e per year.",
-        format: 2,
-        stage: 2,
-        region: 1,
-        industry: 3,
-        image:
-          "images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png",
-      },
+      
       // {
       // 	"id": 3,
       // 	"paths": "",
@@ -1762,6 +1765,213 @@ export const appDataSlice = createSlice({
       },
       {
         id: 4,
+        paths: "https://georisk.gov.ph/",
+        type: "Case study  ",
+        title:
+          "Geospatial Information Management and Analysis Project for Hazards and Risk Assessment in the Philippines",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "This online resource provides protocols and platforms to share hazards, exposure and other risk information to help people, communities, local governments, and national agencies prepare and plan how to reduce the risks from natural hazards.",
+        format: 5,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://www.gfdrr.org/sites/default/files/publication/pda-2015-vanuatu.pdf",
+        type: "Case study",
+        title: "Vanuatu Post-Disaster Needs Assessment: GFDRR",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "This Post-Disaster Needs Assessment (PDNA) looks at the scale of impact of Tropical Cyclone Pam on key sectors and the economy as a whole. This PDNA formed the basis of a Joint Action Plan prepared by the government of Vanuatu.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://www.worldbank.org/en/news/feature/2025/07/17/jamaica-how-investments-in-disaster-resilience-helped-protect-communities",
+        type: "Case study",
+        title: "Jamaica Disaster Vulnerability Reduction Project",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "The Disaster Vulnerability Reduction Project aims to strengthen Jamaica’s resilience to disasters and climate risks through four components: technical assistance to improve hazard data and monitoring, risk reduction measures such as retrofitting and coastal protection, a contingent emergency response mechanism to finance recovery after disasters, and project administration.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/DiagnosingVulnerabilities/Jamaica Disaster Vulnerability Reduction Project.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
+        type: "Case study",
+        title:
+          "Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1)",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "A conceptual sea level rise assessment has been completed for Nauru to assess potential infrastructure risk and vulnerability.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/DiagnosingVulnerabilities/Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1).png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean",
+        type: "Case study",
+        title: "IADB: AI and deep learning for identifying pavement failures",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "An innovative tool that improves paved road network planning and reduces maintenance costs for government agencies, replacing a costly and lengthy manual process; AI application, digitalization, and simplification of road assessment process.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://www.worldbank.org/en/news/press-release/2025/07/10/building-resilient-afe-infrastructure-protecting-access-connectivity-and-communities",
+        type: "Case Study",
+        title: "Modular Bridges in Madagascar",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "This update highlights how climate-resilient design standards and rapid-response operational planning (such as pre-positioned modular bridges) are being incorporated into Madagascar’s national infrastructure projects to proactively prevent isolation, maintain connectivity, and protect communities from natural disasters and climate shocks.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/ResilientDesignAndOperation/Modular Bridges in Madagascar.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://www.nature.org/content/dam/tnc/nature/en/documents/GCTWF-Business-Case-April-2019.pdf",
+        type: "Case study",
+        title: "Greater Cape Town Water Fund: Business Case",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "This business case puts forward the lifecycle costs and benefits of ecological infrastructure restoration as a critical solution to enhance water security in the Western Cape Water Supply System (WCWSS).",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/FinancingResilience/Greater Cape Town Water Fund Business Case.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://nbi.iisd.org/report/savi-forest-restoration-brantas-river-basin-indonesia/",
+        type: "Case study",
+        title:
+          "Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "This report presents a SAVi assessment that quantifies the ecosystem services and economic impacts of the planned reforestation and water retention wells in the Brantas River basin in Indonesia.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf",
+        type: "Case study",
+        title: "Philippine Water Revolving Fund",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "The PWRF blends Official Development Assistance (ODA) and domestic public funds with commercial financing to lower borrowing rates, and to market water and sanitation projects to private finance institutions (PFIs).",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
+      },
+
+      {
+        id: 4,
+        paths:
+          "https://sustainability-coalition.org/case-study/philippines-energy-development-corporation/",
+        type: "Case study",
+        title: "Philippines Energy Development Corporation (EDC) Green Bond",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "In 2018, IFC issued the first AAA peso-denominated green bond for $90 million with a fifteen-year maturity. The bond was intended to support EDC with restoration and resilience efforts at the Malitbog plant.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://www.conservation.org/projects/vida-manglar-carbon-project",
+        type: "Case study",
+        title: "Vida Manglar Carbon Project in Colombia",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "Coastal protection project that uses blue carbon credits to finance the cost of restoring mangrove forests to protect local communities.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii4/updated/Vida-Manglar-Colombia.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf",
+        type: "Case study",
+        title:
+          "Ghana: A case study in strengthening cyber resilience (World Bank)",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "The case of Ghana demonstrates that forward-looking investments and policy initiatives based on international best-practices can go a long way in boosting cybersecurity capacity in developing countries.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png",
+      },
+      {
+        id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4",
         type: "Guidance ",
@@ -1808,23 +2018,7 @@ export const appDataSlice = createSlice({
         industry: 1,
         image: "images/qii4/updated/GDFR_Thinkhazard.png",
       },
-      {
-        id: 4,
-        paths: "https://georisk.gov.ph/",
-        type: "Case study  ",
-        title:
-          "Geospatial Information Management and Analysis Project for Hazards and Risk Assessment in the Philippines",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "This online resource provides protocols and platforms to share hazards, exposure and other risk information to help people, communities, local governments, and national agencies prepare and plan how to reduce the risks from natural hazards.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png",
-      },
+      
       // {
       //   id: 4,
       //   paths: "https://openknowledge.worldbank.org/handle/10986/21875",
@@ -1835,7 +2029,7 @@ export const appDataSlice = createSlice({
       //   target: "_blank",
       //   principles: 3,
       //   desc: "This resource details consistent, state-of-the-art methods to assess the vulnerability of Africa's power and water infrastructure, analyzing physical condition, design, and operational interdependencies to identify system weaknesses under climate stress and recommending ways to strengthen resilience and adaptive planning.",
-      //   format: 5,
+      //   format: 2,
       //   stage: 4,
       //   region: 1,
       //   industry: 1,
@@ -1852,7 +2046,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "This resource details consistent, state-of-the-art methods to assess the vulnerability of Africa's power and water infrastructure, analyzing physical condition, design, and operational interdependencies to identify system weaknesses under climate stress and recommending ways to strengthen resilience and adaptive planning.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -1878,23 +2072,6 @@ export const appDataSlice = createSlice({
       },
       {
         id: 4,
-        paths:
-          "https://www.gfdrr.org/sites/default/files/publication/pda-2015-vanuatu.pdf",
-        type: "Case study",
-        title: "Vanuatu Post-Disaster Needs Assessment: GFDRR",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "This Post-Disaster Needs Assessment (PDNA) looks at the scale of impact of Tropical Cyclone Pam on key sectors and the economy as a whole. This PDNA formed the basis of a Joint Action Plan prepared by the government of Vanuatu.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png",
-      },
-      {
-        id: 4,
         paths: "https://www.gfdrr.org/en/disaster-risk-profiles",
         type: "Guidance",
         title: "Disaster Risk Profiles (GFDRR)",
@@ -1902,14 +2079,13 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "These risk profiles provide a preliminary view of disaster risk at the national level, and distribution of risk across regions of the country and types of assets. They enable the identification and prioritization of risk, to guide risk management activities and identify the need for further, more detailed risk assessment.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
         image:
           "images/qii4/DiagnosingVulnerabilities/Disaster Risk Profiles (GFDRR).png",
       },
-
       {
         id: 4,
         paths:
@@ -1920,7 +2096,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "This framework provides insights into projects’ economic viability against current and future climate and disaster scenarios through a climate risk stress test.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -1963,44 +2139,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/DiagnosingVulnerabilities/INFORM Climate Change Tool (European Commission).png",
       },
-
-      {
-        id: 4,
-        paths:
-          "https://www.worldbank.org/en/news/feature/2025/07/17/jamaica-how-investments-in-disaster-resilience-helped-protect-communities",
-        type: "Case study",
-        title: "Jamaica Disaster Vulnerability Reduction Project",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "The Disaster Vulnerability Reduction Project aims to strengthen Jamaica’s resilience to disasters and climate risks through four components: technical assistance to improve hazard data and monitoring, risk reduction measures such as retrofitting and coastal protection, a contingent emergency response mechanism to finance recovery after disasters, and project administration.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/DiagnosingVulnerabilities/Jamaica Disaster Vulnerability Reduction Project.png",
-      },
-
-      {
-        id: 4,
-        paths:
-          "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
-        type: "Case study",
-        title:
-          "Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1)",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "A conceptual sea level rise assessment has been completed for Nauru to assess potential infrastructure risk and vulnerability.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/DiagnosingVulnerabilities/Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1).png",
-      },
-
       {
         id: 4,
         paths:
@@ -2011,14 +2149,13 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "The Building Code Checklist for Structural Resilience provides expert-reviewed tools to evaluate and strengthen building code provisions for structural resilience, enabling systematic embedding of prevention-oriented standards - such as hazard-resistant design and construction - across infrastructure projects and align with global best practices for resilient infrastructure planning.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
         image:
           "images/qii4/ResilientDesignAndOperation/Building Code Checklist for Structural Resilience.png",
       },
-
       {
         id: 4,
         paths:
@@ -2029,14 +2166,13 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "The EU's Taxonomy Regulation establishes six climate and environmental objectives in order for an economic activity to qualify as environmentally sustainable, and this includes objectives related to resilience and adaptation. The EU's Taxonomy Compass helps users better understand the EU Taxonomy in a simple and practical manner.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
         image:
           "images/qii4/ResilientDesignAndOperation/EU Taxonomy Compass.png",
       },
-
       {
         id: 4,
         paths:
@@ -2047,13 +2183,12 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "The FAST-Infra Label Framework ensures uniformity and comparability in evaluating sustainability performance of infrastructure across the global infrastructure finance market. The label aggregates international best practices on sustainable infrastructure financing from around the world. The criteria for resilience and adaptation can be found in page 46.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
         image: "images/qii4/ResilientDesignAndOperation/FAST-Infra Label.png",
       },
-
       {
         id: 4,
         paths:
@@ -2072,7 +2207,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/A Global Assessment of Building Codes.png",
       },
-
       {
         id: 4,
         paths:
@@ -2091,7 +2225,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png",
       },
-
       {
         id: 4,
         paths:
@@ -2109,7 +2242,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Stronger Building Codes for a Safer, More Resilient Future.png",
       },
-
       {
         id: 4,
         paths:
@@ -2120,32 +2252,13 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "The Building Regulatory Capacity Assessment (BRCA) 2.0 offers a robust methodology and practical tools for evaluating and strengthening a country’s or city’s building and land use regulatory systems, enabling prevention-focused reforms that embed resilience standards into infrastructure planning, policy, and enforcement from the outset.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
         image:
           "images/qii4/ResilientDesignAndOperation/Building Regulatory Capacity Assessment.png",
       },
-
-      {
-        id: 4,
-        paths:
-          "https://www.worldbank.org/en/news/press-release/2025/07/10/building-resilient-afe-infrastructure-protecting-access-connectivity-and-communities",
-        type: "Case Study",
-        title: "Modular Bridges in Madagascar",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "This update highlights how climate-resilient design standards and rapid-response operational planning (such as pre-positioned modular bridges) are being incorporated into Madagascar’s national infrastructure projects to proactively prevent isolation, maintain connectivity, and protect communities from natural disasters and climate shocks.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/ResilientDesignAndOperation/Modular Bridges in Madagascar.png",
-      },
-
       {
         id: 4,
         paths:
@@ -2164,7 +2277,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/World Bank A Catalogue of Nature-Based Solutions for Urban Resilience.png",
       },
-
       {
         id: 4,
         paths:
@@ -2183,7 +2295,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/IFC Catalogue of Nature Based Solutions for Infrastructure Projects.png",
       },
-
       {
         id: 4,
         paths:
@@ -2201,25 +2312,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/A Catalogue of Nature-Based Solutions for Urban Resilience.png",
       },
-
-      {
-        id: 4,
-        paths:
-          "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean",
-        type: "Case study",
-        title: "IADB: AI and deep learning for identifying pavement failures",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "An innovative tool that improves paved road network planning and reduces maintenance costs for government agencies, replacing a costly and lengthy manual process; AI application, digitalization, and simplification of road assessment process.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png",
-      },
-
       {
         id: 4,
         paths:
@@ -2238,7 +2330,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Digital Security and Resilience in Critical Infrastructure and Essential Services1.png",
       },
-
       {
         id: 4,
         paths:
@@ -2256,7 +2347,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Digital Public Infrastructure for Digital Governments.png",
       },
-
       {
         id: 4,
         paths:
@@ -2275,7 +2365,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Incorporating Resilience into Infrastructure Prioritization Application to Japan’s Road Transport Sector.png",
       },
-
       {
         id: 4,
         paths: "https://www.gfdrr.org/en/publication/building-back-better",
@@ -2292,7 +2381,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Building Back Better.png",
       },
-
       {
         id: 4,
         paths:
@@ -2311,7 +2399,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Functional Recovery of Lifeline Infrastructure System Services.png",
       },
-
       {
         id: 4,
         paths:
@@ -2330,7 +2417,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/OECD Infrastructure Toolkit Strengthening Critical Infrastructure Resilience.png",
       },
-
       {
         id: 4,
         paths:
@@ -2349,7 +2435,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.png",
       },
-
       {
         id: 4,
         paths:
@@ -2366,7 +2451,6 @@ export const appDataSlice = createSlice({
         industry: 1,
         image: "images/qii4/FinancingResilience/Climate Bonds Initiative.png",
       },
-
       {
         id: 4,
         paths:
@@ -2377,7 +2461,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "The EU's Taxonomy Regulation establishes six climate and environmental objectives in order for an economic activity to qualify as environmentally sustainable, and this includes objectives related to resilience and adaptation. The EU’s Taxonomy Compass helps users better understand the EU Taxonomy in a simple and practical manner.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -2395,14 +2479,13 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "This document aims to guide the design, implementation, and use of studies to value the benefits and costs of Nature-Based Solutions (NBS) for climate resilience projects.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
         image:
           "images/qii4/FinancingResilience/Assessing the Benefits and Costs of Nature-Based Solutions for Climate Resilience A Guideline for Project Developers (GFDRR).png",
       },
-
       {
         id: 4,
         paths:
@@ -2414,14 +2497,13 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "Cost-effectiveness analysis and cost-benefit analysis of DRM projects have been widely implemented both at national and local levels in Japan. This resource covers the different procedures for such analysis, according to the type of project, the funds, and the governing entity responsible particularly in parts V and VI.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
         image:
           "images/qii4/FinancingResilience/Learning from Mega-disasters Japan Case Study.png",
       },
-
       {
         id: 4,
         paths:
@@ -2432,7 +2514,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "To effectively address climate risks on transportation system functionality, considering a more comprehensive approach is essential. The World Bank therefore developed the life-cycle approach, i.e. a five-pillar approach, to enable climate resilience in every phase of the transport infrastructure life cycle: system planning and financing to assess risks and guide investments, engineering, and design to develop cost-effective adaptation solutions, operations and maintenance to facilitate proactive monitoring and climate-smart upkeep, contingency planning to strengthen emergency response, and institutional capacity and coordination to enhance cross-sector collaboration (overview of 5 pillars on page 5).",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -2475,44 +2557,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi).png",
       },
-
-      {
-        id: 4,
-        paths:
-          "https://www.nature.org/content/dam/tnc/nature/en/documents/GCTWF-Business-Case-April-2019.pdf",
-        type: "Case study",
-        title: "Greater Cape Town Water Fund: Business Case",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "This business case puts forward the lifecycle costs and benefits of ecological infrastructure restoration as a critical solution to enhance water security in the Western Cape Water Supply System (WCWSS).",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/FinancingResilience/Greater Cape Town Water Fund Business Case.png",
-      },
-
-      {
-        id: 4,
-        paths:
-          "https://nbi.iisd.org/report/savi-forest-restoration-brantas-river-basin-indonesia/",
-        type: "Case study",
-        title:
-          "Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "This report presents a SAVi assessment that quantifies the ecosystem services and economic impacts of the planned reforestation and water retention wells in the Brantas River basin in Indonesia.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia.png",
-      },
-
       {
         id: 4,
         paths:
@@ -2531,7 +2575,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
       },
-
       {
         id: 4,
         paths:
@@ -2567,61 +2610,7 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       },
-
-      {
-        id: 4,
-        paths:
-          "https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf",
-        type: "Case study",
-        title: "Philippine Water Revolving Fund",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "The PWRF blends Official Development Assistance (ODA) and domestic public funds with commercial financing to lower borrowing rates, and to market water and sanitation projects to private finance institutions (PFIs).",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
-      },
-
-      {
-        id: 4,
-        paths:
-          "https://sustainability-coalition.org/case-study/philippines-energy-development-corporation/",
-        type: "Case study",
-        title: "Philippines Energy Development Corporation (EDC) Green Bond",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "In 2018, IFC issued the first AAA peso-denominated green bond for $90 million with a fifteen-year maturity. The bond was intended to support EDC with restoration and resilience efforts at the Malitbog plant.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png",
-      },
-
-      {
-        id: 4,
-        paths:
-          "https://www.conservation.org/projects/vida-manglar-carbon-project",
-        type: "Case study",
-        title: "Vida Manglar Carbon Project in Colombia",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Coastal protection project that uses blue carbon credits to finance the cost of restoring mangrove forests to protect local communities.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii4/updated/Vida-Manglar-Colombia.png",
-      },
-
-      {
+{
         id: 4,
         paths:
           "https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps",
@@ -2722,7 +2711,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "The Cybersecurity Assessment Toolkit guides countries and sectors to assess, strengthen, and mainstream cyber resilience in critical infrastructure.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -2742,7 +2731,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "This Cyber Assessment Framework (CAF) provides a systematic approach to assessing cyber risks and how they are being managed by the UK National Cyber Security Center.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -2760,7 +2749,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "The Sectoral Cybersecurity Maturity Model evaluates cybersecurity maturity and provides actionable recommendations to strengthen cyber resilience, address vulnerabilities, and guide investment and policy decisions.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -2784,26 +2773,6 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png",
       },
-
-      {
-        id: 4,
-        paths:
-          "https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf",
-        type: "Case study",
-        title:
-          "Ghana: A case study in strengthening cyber resilience (World Bank)",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "The case of Ghana demonstrates that forward-looking investments and policy initiatives based on international best-practices can go a long way in boosting cybersecurity capacity in developing countries.",
-        format: 5,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png",
-      },
-
       {
         id: 4,
         paths:
@@ -2814,7 +2783,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "This guidance note provides an overview of best practices to manage cybersecurity risks and ensure the safe and secure operation of infrastructure systems, protection of citizens’ private data, and security of sensitive government and business data.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -2832,7 +2801,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 3,
         desc: "This document provides a useful introduction to the nature of cybersecurity threats and the motivations and strategies of malicious actors.",
-        format: 5,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3088,7 +3057,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "The JICA Thematic Guidelines on Disability and Development provide a comprehensive framework for mainstreaming disability inclusion across all development activities and sectors.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3105,7 +3074,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This World Bank handbook provides a comprehensive framework for integrating gender considerations into urban planning and design processes. It covers the full spectrum from policy development to implementation. Page 37 offers a snapshot of the challenges in collecting primary data for gender gap analysis, including how women's perspectives may be sidelined due to household responsibilities or patriarchal norms.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3122,7 +3091,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This provides a comprehensive framework for mainstreaming gender considerations throughout infrastructure project cycles. It addresses practical challenges in collecting gender-disaggregated data and developing gender action plans. Page 37 offers a snapshot of the challenges in collecting primary data for gender gap analysis, including how women's perspectives may be sidelined due to household responsibilities or patriarchal norms.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3168,7 +3137,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "Directive (EU) 2019/882 creates enforceable accessibility standards for transport, ICT, and public services in the EU.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3183,7 +3152,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "The 2010 ADA Standards for Accessible Design set enforceable accessibility criteria for buildings and public spaces in the United States and are frequently used as a reference for global infrastructure projects seeking to ensure inclusive, barrier-free environments for all users.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3198,7 +3167,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "Japan and the World Bank are collaborating to advance universal design and disability inclusion in urban planning, leveraging Japan’s expertise in accessible infrastructure and the QII Partnership’s global strategies.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3260,7 +3229,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "These OECD principles help governments work with private-sector partners to finance and deliver infrastructure projects in transport, water, power, and telecommunications. The principles address the public interest, and provide guidance on regulatory frameworks, transparency, and stakeholder engagement that support inclusive outcomes.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3275,7 +3244,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "The “Rated Criteria” approach ensures that procurement goes beyond price alone, making it mandatory to consider factors like value, quality, sustainability, and social outcomes—such as inclusion.  ",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3290,7 +3259,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This is an account of how traditional approaches are transformed by actively addressing systemic barriers faced by women and women-led enterprises throughout the supply chain.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3305,7 +3274,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This guidance note outlines how inclusivity can be embedded into procurement strategies and processes throughout the project cycle of multilateral development bank initiatives.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3335,7 +3304,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This is a resource explaining how PPP contracts should include clear, measurable indicators, making clauses binding, with reporting and performance obligations linked to outcomes. PPP Project Stages Three and Four: Drafting the Contract and Managing the Transaction, pg 37",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3350,7 +3319,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This resource demonstrates how inclusivity can be explicitly embedded into public-private partnership contracts and bidding documents.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3380,7 +3349,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "The ISO 21542 standard serves as a critical benchmark for applying inclusive design standards in infrastructure projects. It is the leading international technical standard for accessibility and universal design in buildings and infrastructure.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3395,7 +3364,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This report has cross-sectoral policy guidance and practical strategies for cities aiming to create urban environments that are accessible, safe, and inclusive for older populations as the world’s cities face rapid demographic aging.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3455,7 +3424,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This provides a comprehensive framework for mainstreaming gender considerations throughout infrastructure project cycles. It covers diagnostics, design, implementation, and monitoring. Figure 7.1 on page 56 maps how different stakeholders (government authorities, MDBs, private sector, gender specialists, civil society, and affected communities) each hold data-driven responsibilities for ensuring gender inclusion at every stage.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,
@@ -3470,7 +3439,7 @@ export const appDataSlice = createSlice({
         target: "_blank",
         principles: 4,
         desc: "This resource outlines methods for collecting and analyzing disaggregated data by gender, age, disability, income, and other criteria to identify at-risk stakeholders in infrastructure projects.",
-        format: 1,
+        format: 2,
         stage: 4,
         region: 1,
         industry: 1,

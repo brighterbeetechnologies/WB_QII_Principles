@@ -62,14 +62,14 @@ export default function Procurement() {
       img_path: "images/procurement/resources/05.png",
       path: "https://www.iisd.org/publications/report/life-cycle-costing-sustainable-public-procurement-question-value",
     },
-    {
-      id: 5,
-      title: "Life-Cycle Costing Guidance Note",
-      subTitle: "World Bank",
-      description: "Forthcoming",
-      img_path: "images/procurement/resources/06.png",
-      path: "",
-    },
+    // {
+    //   id: 5,
+    //   title: "Life-Cycle Costing Guidance Note",
+    //   subTitle: "World Bank",
+    //   description: "Forthcoming",
+    //   img_path: "images/procurement/resources/06.png",
+    //   path: "",
+    // },
   ];
   const slidesData = [
     {
@@ -149,7 +149,7 @@ export default function Procurement() {
               Partnerships (PPPs) can be an effective way to align incentives
               for cost efficiency over the course of the project. This alignment
               will be strongest under PPPs that include an extended Operations
-              and Maintenance (O&M) phase and where the revenues of the private
+              and Maintenance phase and where the revenues of the private
               sector partner are linked directly to long-term performance.
             </p>
             <p className="mTop">
@@ -157,8 +157,7 @@ export default function Procurement() {
               using public procurement. However, in such cases, the evaluation
               criteria for construction contracts can still be structured to
               encourage bidders to factor life- cycle costing into the
-              infrastructure design. More detailed guidance on this topic can be
-              found in the Life- Cycle Costing Guidance Note.
+              infrastructure design.
             </p>
             <div className="border-dash"></div>
             <p className="mTop">
@@ -185,10 +184,10 @@ export default function Procurement() {
                   World Bank
                 </p>
               }
-              buttonText="Case Study"
-              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/"
-              buttonText2="Case Study Summary"
-              link2="pdf/Ganga_case_study.pdf"
+              buttonText="Case Study Summary"
+              link2="https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/"
+              buttonText2="Case Study"
+              link="pdf/Ganga_case_study.pdf"
               highlight={2}
             >
               <p>

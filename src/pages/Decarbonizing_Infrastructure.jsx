@@ -221,44 +221,6 @@ export default function Decarbonizing_Infrastructure() {
           </div>
           <div className="VCard-cnt col3">
             <VCard
-              image="images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png"
-              title={
-                <p>
-                  <strong>Climate Toolkits for Infrastructure PPPs </strong>{" "}
-                  <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Guidance – Project level"
-              link="https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf"
-            >
-              <p>
-                This toolkit provides guidance on the integration of GHG
-                emissions analysis and decarbonization options into the design
-                of Public Private Partnerships (PPPs) across a range of
-                infrastructure sectors.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png"
-              title={
-                <p>
-                  <strong>Net Zero by 2050 </strong> <br />
-                  International Energy Agency (IEA)
-                </p>
-              }
-              buttonText="Guidance – Energy"
-              link="https://www.iea.org/reports/net-zero-by-2050#overview"
-            >
-              <p>
-                Pathways to net zero by 2050 for several infrastructure sectors,
-                including the transport, electricity, buildings, and industry
-                sectors.{" "}
-              </p>
-            </VCard>
-
-            <VCard
               image="images/qii3/QII3/Decarbonizing_Infrastructure/Rewa_Ultra_Mega_Solar_Project.png"
               title={
                 <p>
@@ -301,6 +263,62 @@ export default function Decarbonizing_Infrastructure() {
               </p>
             </VCard>
             <VCard
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Cairo_Alexandria_Trade_Logistics_Development.png"
+              title={
+                <p>
+                  <strong>
+                    Cairo Alexandria Trade Logistics Development Project, Egypt
+                  </strong>{" "}
+                  <br />
+                  Asian Development Bank (ADB)
+                </p>
+              }
+              buttonText="Case Study – Transport"
+              link="https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf"
+            >
+              <p>
+                A $1 billion project to decarbonize freight transport between
+                Alexandria's ports and Cairo through a new rail bypass and
+                upgraded signaling, electrification, and track.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png"
+              title={
+                <p>
+                  <strong>Climate Toolkits for Infrastructure PPPs </strong>{" "}
+                  <br />
+                  World Bank
+                </p>
+              }
+              buttonText="Guidance – Project level"
+              link="https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf"
+            >
+              <p>
+                This toolkit provides guidance on the integration of GHG
+                emissions analysis and decarbonization options into the design
+                of Public Private Partnerships (PPPs) across a range of
+                infrastructure sectors.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png"
+              title={
+                <p>
+                  <strong>Net Zero by 2050 </strong> <br />
+                  International Energy Agency (IEA)
+                </p>
+              }
+              buttonText="Guidance – Energy"
+              link="https://www.iea.org/reports/net-zero-by-2050#overview"
+            >
+              <p>
+                Pathways to net zero by 2050 for several infrastructure sectors,
+                including the transport, electricity, buildings, and industry
+                sectors.{" "}
+              </p>
+            </VCard>
+            <VCard
               image="images/qii3/QII3/Decarbonizing_Infrastructure/Investigating_Life_Cycle.png"
               title={
                 <p>
@@ -320,26 +338,6 @@ export default function Decarbonizing_Infrastructure() {
                 design of road projects and programs – from construction to
                 rehabilitation and with consideration of raw material and supply
                 chain activities.
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii3/QII3/Decarbonizing_Infrastructure/Cairo_Alexandria_Trade_Logistics_Development.png"
-              title={
-                <p>
-                  <strong>
-                    Cairo Alexandria Trade Logistics Development Project, Egypt
-                  </strong>{" "}
-                  <br />
-                  Asian Development Bank (ADB)
-                </p>
-              }
-              buttonText="Case Study – Transport"
-              link="https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf"
-            >
-              <p>
-                A $1 billion project to decarbonize freight transport between
-                Alexandria's ports and Cairo through a new rail bypass and
-                upgraded signaling, electrification, and track.
               </p>
             </VCard>
             <VCard

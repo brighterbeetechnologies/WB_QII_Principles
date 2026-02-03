@@ -80,6 +80,23 @@ export default function QualityEnvironmentalStandards() {
 
           <div className="VCard-cnt col3">
             <VCard
+              image="images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png"
+              title={
+                <p>
+                  <strong>Timor-Leste: Tibar Bay Port </strong>
+                </p>
+              }
+              buttonText="Case Study"
+              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/"
+            >
+              <p>
+                This project demonstrates application of the IFC Performance
+                Standards, which gained recognition for rigorous environmental
+                and social scoping that led to key operational improvements such
+                as reducing congestion and enhancing trade efficiency.
+              </p>
+            </VCard>
+            <VCard
               image="images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png"
               title={
                 <p>
@@ -99,7 +116,6 @@ export default function QualityEnvironmentalStandards() {
                 considerations into infrastructure projects.
               </p>
             </VCard>
-
             <VCard
               image="images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png"
               title={
@@ -122,24 +138,6 @@ export default function QualityEnvironmentalStandards() {
                 finance institutions and private investors worldwide, ensuring
                 that finance is only channeled to projects with strong
                 environmental fundamentals.{" "}
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png"
-              title={
-                <p>
-                  <strong>Timor-Leste: Tibar Bay Port </strong>
-                </p>
-              }
-              buttonText="Case Study"
-              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/"
-            >
-              <p>
-                This project demonstrates application of the IFC Performance
-                Standards, which gained recognition for rigorous environmental
-                and social scoping that led to key operational improvements such
-                as reducing congestion and enhancing trade efficiency.
               </p>
             </VCard>
           </div>

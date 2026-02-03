@@ -379,7 +379,7 @@ export default function QII4LandingPage() {
             <div className="center-header">
               <h3 className="light-font mBottom sub-text ">
                 To turn the principle of 'Resilience' into practice, we focus on
-                four key actionable aspects:
+                four key areas :
               </h3>
             </div>
             <div className="sub-pages">
@@ -732,12 +732,12 @@ export default function QII4LandingPage() {
               title: "QII.4 Resilience",
               id: 3,
             },
-            // {
-            //   show: true,
-            //   category: "Media Type",
-            //   title: "Case Study",
-            //   id: 1,
-            // },
+            {
+              show: true,
+              category: "Media Type",
+              title: "Case Study",
+              id: 1,
+            },
           ]}
         ></ResourceLibrary>
       </section>

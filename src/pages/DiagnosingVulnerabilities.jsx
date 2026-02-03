@@ -96,7 +96,27 @@ export default function DiagnosingVulnerabilities() {
             assets are geographically and how impacted or exposed they are to
             these threats.
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <div className="VCard-cnt col3">
+             <VCard
+              image="images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png"
+              title={
+                <p>
+                  <strong>
+                    Geospatial Information Management and Analysis Project for
+                    Hazards and Risk Assessment in the Philippines
+                  </strong>
+                </p>
+              }
+              buttonText="Case study"
+              link="https://georisk.gov.ph/  "
+            >
+              <p>
+                This online resource provides protocols and platforms to share
+                hazards, exposure and other risk information to help people,
+                communities, local governments, and national agencies prepare
+                and plan how to reduce the risks from natural hazards.
+              </p>
+            </VCard>
             <VCard
               image="images/qii4/DiagnosingVulnerabilities/Learning from Mega-disasters Japan Case Study.png"
               title={
@@ -155,27 +175,6 @@ export default function DiagnosingVulnerabilities() {
                 risk-informed project planning and resilient decision-making.
               </p>
             </VCard>
-
-            <VCard
-              image="images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png"
-              title={
-                <p>
-                  <strong>
-                    Geospatial Information Management and Analysis Project for
-                    Hazards and Risk Assessment in the Philippines
-                  </strong>
-                </p>
-              }
-              buttonText="Case study"
-              link="https://georisk.gov.ph/  "
-            >
-              <p>
-                This online resource provides protocols and platforms to share
-                hazards, exposure and other risk information to help people,
-                communities, local governments, and national agencies prepare
-                and plan how to reduce the risks from natural hazards.
-              </p>
-            </VCard>
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
@@ -188,6 +187,25 @@ export default function DiagnosingVulnerabilities() {
             recovery.
           </NumSteps>
           <div className="VCard-cnt col3">
+            <VCard
+              image="images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png"
+              title={
+                <p>
+                  <strong>Vanuatu Post-Disaster Needs Assessment </strong>{" "}
+                  <br />
+                 GFDRR
+                </p>
+              }
+              buttonText="Case study"
+              link="https://www.gfdrr.org/sites/default/files/publication/pda-2015-vanuatu.pdf"
+            >
+              <p>
+                This Post-Disaster Needs Assessment (PDNA) looks at the scale of
+                impact of Tropical Cyclone Pam on key sectors and the economy as
+                a whole. This PDNA formed the basis of a Joint Action Plan
+                prepared by the government of Vanuatu.
+              </p>
+            </VCard>
             {/* <VCard
               image="images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png"
               title={
@@ -250,26 +268,6 @@ export default function DiagnosingVulnerabilities() {
                 its readiness to improve resilience.
               </p>
             </VCard>
-
-            <VCard
-              image="images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png"
-              title={
-                <p>
-                  <strong>Vanuatu Post-Disaster Needs Assessment </strong>{" "}
-                  <br />
-                 GFDRR
-                </p>
-              }
-              buttonText="Case study"
-              link="https://www.gfdrr.org/sites/default/files/publication/pda-2015-vanuatu.pdf"
-            >
-              <p>
-                This Post-Disaster Needs Assessment (PDNA) looks at the scale of
-                impact of Tropical Cyclone Pam on key sectors and the economy as
-                a whole. This PDNA formed the basis of a Joint Action Plan
-                prepared by the government of Vanuatu.
-              </p>
-            </VCard>
           </div>
           <div className="border-dash"></div>
           <NumSteps num="3">
@@ -282,87 +280,6 @@ export default function DiagnosingVulnerabilities() {
             policy.
           </NumSteps>
           <div className="VCard-cnt col3">
-            <VCard
-              image="images/qii4/DiagnosingVulnerabilities/Disaster Risk Profiles (GFDRR).png"
-              title={
-                <p>
-                  <strong>Disaster Risk Profiles </strong>
-                  <br /> GFDRR
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://www.gfdrr.org/en/disaster-risk-profiles"
-            >
-              <p>
-                These risk profiles provide a preliminary view of disaster risk
-                at the national level, and distribution of risk across regions
-                of the country and types of assets. They enable the
-                identification and prioritization of risk, to guide risk
-                management activities and identify the need for further, more
-                detailed risk assessment.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png"
-              title={
-                <p>
-                  <strong>Resilience Rating System</strong> <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://blogs.worldbank.org/en/climatechange/building-resilience-in-investment-projects--the-power-of-resilie"
-            >
-              <p>
-                This framework provides insights into projects’ economic
-                viability against current and future climate and disaster
-                scenarios through a climate risk stress test.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/DiagnosingVulnerabilities/Global Infrastructure Risk.png"
-              title={
-                <p>
-                  <strong>
-                    Global Infrastructure Risk Model and Resilience Index (GIRI){" "}
-                  </strong>{" "}
-                  <br />
-                   Coalition for Disaster Resilient Infrastructure
-                </p>
-              }
-              buttonText="Tools"
-              link="https://giri.unepgrid.ch/  "
-            >
-              <p>
-                This is a fully probabilistic risk model to estimate risk for
-                infrastructure assets for most geological and climate-related
-                hazards.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/DiagnosingVulnerabilities/INFORM Climate Change Tool (European Commission).png"
-              title={
-                <p>
-                  <strong>INFORM Climate Change Tool </strong>
-                  <br />
-                  European Commission
-                </p>
-              }
-              buttonText="Tools"
-              link="https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Climate-Change/INFORM-Climate-Change-Tool"
-            >
-              <p>
-                INFORM Climate Change tool provides insight into the results of
-                the climate change risk analysis. It helps the users to easily
-                navigate within different scenario combinations and different
-                points in time, exploring the potential changes in risk, Hazard
-                & Exposure variables, vulnerability gap and population.
-              </p>
-            </VCard>
-
             <VCard
               image="images/qii4/DiagnosingVulnerabilities/Jamaica Disaster Vulnerability Reduction Project.png"
               title={
@@ -402,6 +319,83 @@ export default function DiagnosingVulnerabilities() {
               <p>
                 A conceptual sea level rise assessment has been completed for
                 Nauru to assess potential infrastructure risk and vulnerability.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii4/DiagnosingVulnerabilities/Disaster Risk Profiles (GFDRR).png"
+              title={
+                <p>
+                  <strong>Disaster Risk Profiles </strong>
+                  <br /> GFDRR
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://www.gfdrr.org/en/disaster-risk-profiles"
+            >
+              <p>
+                These risk profiles provide a preliminary view of disaster risk
+                at the national level, and distribution of risk across regions
+                of the country and types of assets. They enable the
+                identification and prioritization of risk, to guide risk
+                management activities and identify the need for further, more
+                detailed risk assessment.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png"
+              title={
+                <p>
+                  <strong>Resilience Rating System</strong> <br />
+                  World Bank
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://blogs.worldbank.org/en/climatechange/building-resilience-in-investment-projects--the-power-of-resilie"
+            >
+              <p>
+                This framework provides insights into projects’ economic
+                viability against current and future climate and disaster
+                scenarios through a climate risk stress test.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii4/DiagnosingVulnerabilities/Global Infrastructure Risk.png"
+              title={
+                <p>
+                  <strong>
+                    Global Infrastructure Risk Model and Resilience Index (GIRI){" "}
+                  </strong>{" "}
+                  <br />
+                   Coalition for Disaster Resilient Infrastructure
+                </p>
+              }
+              buttonText="Tools"
+              link="https://giri.unepgrid.ch/  "
+            >
+              <p>
+                This is a fully probabilistic risk model to estimate risk for
+                infrastructure assets for most geological and climate-related
+                hazards.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii4/DiagnosingVulnerabilities/INFORM Climate Change Tool (European Commission).png"
+              title={
+                <p>
+                  <strong>INFORM Climate Change Tool </strong>
+                  <br />
+                  European Commission
+                </p>
+              }
+              buttonText="Tools"
+              link="https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Climate-Change/INFORM-Climate-Change-Tool"
+            >
+              <p>
+                INFORM Climate Change tool provides insight into the results of
+                the climate change risk analysis. It helps the users to easily
+                navigate within different scenario combinations and different
+                points in time, exploring the potential changes in risk, Hazard
+                & Exposure variables, vulnerability gap and population.
               </p>
             </VCard>
           </div>

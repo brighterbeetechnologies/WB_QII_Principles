@@ -30,8 +30,7 @@ export default function TechnicalSolutions() {
     },
     {
       id: 2,
-      title:
-        "Nature-Based Solutions for Infrastructure Projects ",
+      title: "Nature-Based Solutions for Infrastructure Projects ",
       org: "International Finance Corporation",
       description:
         "This catalogue provides examples of nature-based solutions that private infrastructure companies can integrate into their core business operations and articulates the business case for doing so.",
@@ -40,8 +39,7 @@ export default function TechnicalSolutions() {
     },
     {
       id: 3,
-      title:
-        "Global BIM Network ",
+      title: "Global BIM Network ",
       org: "UK Foreign, Commonwealth and Development Office",
       description:
         "This platform connects international public sector representatives and multi-lateral organizations with the aim of advancing the digitalization of the global built environment and sharing the resulting benefits.",
@@ -51,7 +49,7 @@ export default function TechnicalSolutions() {
     {
       id: 4,
       title: "IEA Technology Roadmaps ",
-      subTitle : "Organisation for Economic Co-operation and Development",
+      subTitle: "Organisation for Economic Co-operation and Development",
       description:
         "This publication offers a series of roadmaps for some of the most important energy technologies, and provide analytical footing that enables policy makers and industry to develop and adopt specific technologies.",
       img_path: "images/technicalSolutions/resources/IEATechnology.png",
@@ -103,11 +101,11 @@ export default function TechnicalSolutions() {
           </div>
           <div className="subpage-description">
             <p className="light-font">
-              The technical solutions selected for an
-              infrastructure project play a decisive role in determining its
-              life-cycle cost. Adopting innovative infrastructure technologies
-              can not only improve the quality and resilience of a project but
-              also significantly enhance its economic efficiency.{" "}
+              The technical solutions selected for an infrastructure project
+              play a decisive role in determining its life-cycle cost. Adopting
+              innovative infrastructure technologies can not only improve the
+              quality and resilience of a project but also significantly enhance
+              its economic efficiency.{" "}
             </p>
           </div>
         </Header3>
@@ -155,7 +153,27 @@ export default function TechnicalSolutions() {
             materials, minimize installation expenses, and accelerate
             construction timelines.{" "}
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <div className="VCard-cnt col3">
+            <VCard
+              image="images/procurement/Pre-Fabrication.png"
+              title={
+                <p>
+                  <strong>
+                    Pre-Fabrication Technology for Modular Construction
+                  </strong>{" "}
+                  <br />
+                  Global Infrastructure Hub
+                </p>
+              }
+              buttonText="Case Study"
+              link="https://www.gihub.org/infrastructure-technology-use-cases/case-studies/pre-fabrication-technology-for-modular-construction/"
+            >
+              <p>
+                Reduces the cost and time taken to construct infrastructure
+                projects by using pre-fabricated and modular components of
+                railways and road bridges.
+              </p>
+            </VCard>
             <VCard
               image="images/technicalSolutions/SolomonIslands.png"
               title={
@@ -180,7 +198,6 @@ export default function TechnicalSolutions() {
                 surrounding environment.
               </p>
             </VCard>
-
             <VCard
               image="images/technicalSolutions/SouthAfrica.png"
               title={
@@ -204,7 +221,7 @@ export default function TechnicalSolutions() {
               </p>
             </VCard>
           </div>
-          <p className="v-small-text">
+          {/* <p className="v-small-text">
             Global Infrastructure Hub (2023). InfraTech.{" "}
             <a
               href="https://infratech.gihub.org/#improving-efficiency"
@@ -214,7 +231,7 @@ export default function TechnicalSolutions() {
               https://infratech.gihub.org/#improving-efficiency
             </a>
             .
-          </p>
+          </p> */}
 
           <div className="border-dash"></div>
 
@@ -358,7 +375,30 @@ export default function TechnicalSolutions() {
               >
                 <div className="page-resource-link">
                   <div className="page-resource-body">
-                     <div className="page-resource-title title-small">
+                    <div className="page-resource-title title-small">
+                      {p.country && (
+                        <>
+                          <span>{p.country}</span> <br />
+                        </>
+                      )}
+                      <strong>{p.title}</strong>
+                      {p.org && (
+                        <>
+                          <br />
+                          <span>{p.org}</span>
+                        </>
+                      )}
+                    </div>
+                    <div className="page-resource-overlay" />
+                    <img
+                      className="page-resource-img"
+                      src={p.img_path}
+                      alt={p.title}
+                    />
+                    {/* <div className="page-resource-img-cnt">
+                    </div> */}
+                    <div className="page-resource-data">
+                      <div className="page-resource-title title-big">
                         {p.country && (
                           <>
                             <span>{p.country}</span> <br />
@@ -372,29 +412,6 @@ export default function TechnicalSolutions() {
                           </>
                         )}
                       </div>
-                    <div className="page-resource-overlay" />
-                    <img
-                      className="page-resource-img"
-                      src={p.img_path}
-                      alt={p.title}
-                    />
-                    {/* <div className="page-resource-img-cnt">
-                    </div> */}
-                    <div className="page-resource-data">
-                   <div className="page-resource-title title-big">
-                          {p.country && (
-                            <>
-                              <span>{p.country}</span> <br />
-                            </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
-                            <>
-                              <br />
-                              <span>{p.org}</span>
-                            </>
-                          )}
-                        </div>
                       <div className="page-resource-description">
                         {p.description}
                       </div>

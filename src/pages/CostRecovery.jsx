@@ -21,8 +21,7 @@ export default function CostRecovery() {
     },
     {
       id: 1,
-      title:
-        "Life-Cycle Cost Analysis for Management of Highway Assets",
+      title: "Life-Cycle Cost Analysis for Management of Highway Assets",
       org: "World Bank",
       description:
         "This report contains an inventory of quantitative processes and models for predicting LCC associated with highway assets.",
@@ -41,8 +40,7 @@ export default function CostRecovery() {
     },
     {
       id: 3,
-      title:
-        "Monetization of Carbon Credits Energy and Agriculture Sectors",
+      title: "Monetization of Carbon Credits Energy and Agriculture Sectors",
       org: "World Bank",
       description:
         "This presentation introduces concepts of the carbon market and describes a few of the key instruments that municipalities can use to capture land value.",
@@ -68,7 +66,7 @@ export default function CostRecovery() {
       org: "World Bank",
       img_path: "images/newresource/Cost-Recovery.png",
       // path: "https://worldbankgroup.sharepoint.com/sites/DNRINT/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDNRINT%2FShared%20Documents%2FP180194%2Db0d1220d%2Df566%2D4788%2D8d06%2Da61f97de6114%2Epdf&parent=%2Fsites%2FDNRINT%2FShared%20Documents",
-       path: "https://openknowledge.worldbank.org/entities/publication/aa15661f-9c0b-4b64-9836-76a712411742",
+      path: "https://openknowledge.worldbank.org/entities/publication/aa15661f-9c0b-4b64-9836-76a712411742",
     },
   ];
   const dispatch = useDispatch();
@@ -265,25 +263,31 @@ export default function CostRecovery() {
             taxes, levies, or betterment charges on beneficiaries within
             designated zones.
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <div className="VCard-cnt col3">
             <VCard
-              image="images/costRecovery/lvc.png"
+              image="images/qii4/updated/Shibaura_Wastewater_Management.png"
               title={
                 <p>
+                  Japan <br />
                   <strong>
-                    Investment in Infrastructure 
-                  </strong><br />City Resilience Program, Global Facility for Disaster Reduction and Recovery
+                    Shibaura Wastewater Treatment Facility: Financing Resilience
+                    through Land Value Capture
+                  </strong>
+                  <br />
+                  World Bank
                 </p>
               }
-              buttonText="Guidance"
-              link="https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf"
+              buttonText="Case Study"
+              link="/qii4casestudy2"
             >
               <p>
-                Identifies the different types of land value capture mechanisms
-                and how they were applied in certain locations.
+                Demonstrates how underground stormwater detention protects a
+                high-density urban area from flooding while a PPP that monetized
+                surface development rights ensures long-term financial
+                sustainability for operations and maintenance.
               </p>
             </VCard>
-            <VCard
+             <VCard
               image="images/costRecovery/Argentina.png"
               title={
                 <p>
@@ -303,8 +307,26 @@ export default function CostRecovery() {
                 infrastructure financing in the Buenos Aires Metropolitan Area.
               </p>
             </VCard>
+            <VCard
+              image="images/costRecovery/lvc.png"
+              title={
+                <p>
+                  <strong>Investment in Infrastructure</strong>
+                  <br />
+                  City Resilience Program, Global Facility for Disaster
+                  Reduction and Recovery
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf"
+            >
+              <p>
+                Identifies the different types of land value capture mechanisms
+                and how they were applied in certain locations.
+              </p>
+            </VCard>
           </div>
-          <p className="cost-recovery-last-para">
+          {/* <p className="cost-recovery-last-para">
             Different projects may involve a mix of these solutions. The
             critical factor is to plan for, and implement, a cost recovery
             strategy that is acceptable to stakeholders. Without a reliable
@@ -312,7 +334,7 @@ export default function CostRecovery() {
             projects will fall into neglect due to insufficient resources to
             cover full life-cycle costs, including operations, maintenance,
             upgrades, and renewals.
-          </p>
+          </p> */}
         </div>
       </section>
       <section className="color-dark">
@@ -330,7 +352,30 @@ export default function CostRecovery() {
               >
                 <div className="page-resource-link">
                   <div className="page-resource-body">
-                     <div className="page-resource-title title-small">
+                    <div className="page-resource-title title-small">
+                      {p.country && (
+                        <>
+                          <span>{p.country}</span> <br />
+                        </>
+                      )}
+                      <strong>{p.title}</strong>
+                      {p.org && (
+                        <>
+                          <br />
+                          <span>{p.org}</span>
+                        </>
+                      )}
+                    </div>
+                    <div className="page-resource-overlay" />
+                    <img
+                      className="page-resource-img"
+                      src={p.img_path}
+                      alt={p.title}
+                    />
+                    {/* <div className="page-resource-img-cnt">
+                    </div> */}
+                    <div className="page-resource-data">
+                      <div className="page-resource-title title-big">
                         {p.country && (
                           <>
                             <span>{p.country}</span> <br />
@@ -344,29 +389,6 @@ export default function CostRecovery() {
                           </>
                         )}
                       </div>
-                    <div className="page-resource-overlay" />
-                    <img
-                      className="page-resource-img"
-                      src={p.img_path}
-                      alt={p.title}
-                    />
-                    {/* <div className="page-resource-img-cnt">
-                    </div> */}
-                    <div className="page-resource-data">
-                      <div className="page-resource-title title-big">
-                          {p.country && (
-                            <>
-                              <span>{p.country}</span> <br />
-                            </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
-                            <>
-                              <br />
-                              <span>{p.org}</span>
-                            </>
-                          )}
-                        </div>
                       <div className="page-resource-description">
                         {p.description}
                       </div>
