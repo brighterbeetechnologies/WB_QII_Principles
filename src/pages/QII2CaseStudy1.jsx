@@ -25,6 +25,7 @@ export default function QII2CaseStudy1() {
         <div className="container">
           <div className="single-case-study-wrapper" style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii2/Fukuoka_Case_study.png")`,
+              margin: "1rem 0 0 0",
             }}>
             <h2 className="main-title">
               <span>Fukuoka City:</span> Pioneering Life Cycle Costing for

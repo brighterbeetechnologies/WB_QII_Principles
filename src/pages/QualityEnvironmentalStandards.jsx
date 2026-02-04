@@ -87,7 +87,7 @@ export default function QualityEnvironmentalStandards() {
                 </p>
               }
               buttonText="Case Study"
-              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/"
+              link="pdf/QII_3_CaseStudy_TibarBay.pdf"
             >
               <p>
                 This project demonstrates application of the IFC Performance

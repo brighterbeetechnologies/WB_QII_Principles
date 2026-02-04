@@ -1,16 +1,16 @@
-.Project_Planning_And_Design .list-title {
+.Stakeholder_Engagement .list-title {
   font-size: 1.1rem;
   margin-bottom: 1.2rem;
 }
 
-.Project_Planning_And_Design .icon-text-cards-container {
+.Stakeholder_Engagement .icon-text-cards-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
   gap: 2rem;
 }
 
-.Project_Planning_And_Design .icon-text-cards {
+.Stakeholder_Engagement .icon-text-cards {
 	display: flex;
 	/* flex-wrap: wrap; */
 	gap: 2rem;
@@ -19,17 +19,17 @@
 	align-content: flex-start;
 }
 
-.Project_Planning_And_Design .icon-img {
+.Stakeholder_Engagement .icon-img {
 	align-items: center;
 	text-align: center;
 }
 
-.Project_Planning_And_Design .icon-img img{
+.Stakeholder_Engagement .icon-img img{
 	height: 40px;
 	width: 40px;
 }
 
-.Project_Planning_And_Design .icon-text-cards-description {
+.Stakeholder_Engagement .icon-text-cards-description {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -46,51 +46,51 @@
 }
 
 @media (max-width: 649px) {
-  .Project_Planning_And_Design .Header3 .container {
+  .Stakeholder_Engagement .Header3 .container {
     padding-bottom: 0;
   }
 
   .container.noPTop {
     padding-top: 1rem;
   }
-  .Project_Planning_And_Design .hero {
+  .Stakeholder_Engagement .hero {
     height: 360px;
   }
 
-  .Project_Planning_And_Design .hero-content h3 {
+  .Stakeholder_Engagement .hero-content h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
 
-  .Project_Planning_And_Design .hero-content {
+  .Stakeholder_Engagement .hero-content {
     bottom: 2rem;
   }
 
-  .Project_Planning_And_Design .hero-content p {
+  .Stakeholder_Engagement .hero-content p {
     font-size: 0.875rem;
   }
 }
 
 @media (max-width: 767px) {
-  .Project_Planning_And_Design .list-title {
+  .Stakeholder_Engagement .list-title {
     text-align: left;
   }
 }
 
 @media (min-width: 768px) {
-  .Project_Planning_And_Design .list-title {
+  .Stakeholder_Engagement .list-title {
     font-size: 1.1rem;
     margin-bottom: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  .Project_Planning_And_Design .list-title {
+  .Stakeholder_Engagement .list-title {
     text-align: left;
   }
 }
 
-.Project_Planning_And_Design .border {
+.Stakeholder_Engagement .border {
   border: 1px dashed rgba(134, 134, 134, 0.5);
   margin: 2rem 1rem;
 }
@@ -107,13 +107,13 @@
 
 @media (min-width: 1024px) {
 
-  .Project_Planning_And_Design .mTop2 {
+  .Stakeholder_Engagement .mTop2 {
     margin: 3rem 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .Project_Planning_And_Design .list-title {
+  .Stakeholder_Engagement .list-title {
     font-size: 1.3rem;
     margin: 1rem 0 1rem 0;
   }
@@ -121,20 +121,20 @@
 
 @media (min-width: 1400px) {
 
-  .Project_Planning_And_Design .mTop2 {
+  .Stakeholder_Engagement .mTop2 {
     margin: 3rem 0;
   }
-  .Project_Planning_And_Design .hero {
+  .Stakeholder_Engagement .hero {
     height: 640px;
   }
-  .Project_Planning_And_Design .hero-content h3 {
+  .Stakeholder_Engagement .hero-content h3 {
     font-size: 3.25rem;
   }
 
-  .Project_Planning_And_Design .hero-content p {
+  .Stakeholder_Engagement .hero-content p {
     font-size: 1.125rem;
   }
-  .Project_Planning_And_Design .list-title {
+  .Stakeholder_Engagement .list-title {
     font-size: 1.3rem;
     margin: 1rem 0 2.5rem 0;
   }

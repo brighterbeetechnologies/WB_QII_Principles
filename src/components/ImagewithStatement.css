@@ -36,6 +36,12 @@
   .image-statement-container {
     padding: 8rem 4rem;
   }
+  .image-statement-container p {
+    width: 100%;
+    padding: 0 2rem;
+    left: 0;
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 767px) {

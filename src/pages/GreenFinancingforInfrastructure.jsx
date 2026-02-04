@@ -225,7 +225,7 @@ export default function GreenFinancingforInfrastructure() {
                 </p>
               }
               buttonText="Case Study"
-              link="https://www.bcenergy.rs/belgrade-waste-management-ppp-project-becomes-the-first-serbian-project-certified-by-the-gold-standard-organization/"
+              link="pdf/QII_3_SpotlightCaseStudy_Belgrade.pdf"
             >
               <p>
                 This project was the first project in Serbia certified by Gold

@@ -31,6 +31,7 @@ import Decarbonizing_Infrastructure from "./pages/Decarbonizing_Infrastructure.j
 import Policies_Standards_Regulation from "./pages/Policies_Standards_Regulation.jsx";
 import Project_Planning_And_Design from "./pages/Project_Planning_And_Design.jsx";
 import Stakeholder_Engagement from "./pages/Stakeholder_Engagement.jsx";
+import Infrastructure_Institutions from "./pages/Infrastructure_Institutions.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -256,6 +257,14 @@ export const router = createHashRouter([
 				element: (
 					<Suspense fallback={<Loader></Loader>}>
 						<QII6LandingPage />
+					</Suspense>
+				),
+			},
+			{
+				path: "/Infrastructure-Institutions",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Infrastructure_Institutions />
 					</Suspense>
 				),
 			},

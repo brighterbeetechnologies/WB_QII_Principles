@@ -1,0 +1,144 @@
+.Infrastructure_Institutions .list-title {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.Infrastructure_Institutions .icon-text-cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+  gap: 2rem;
+}
+
+.Infrastructure_Institutions .icon-text-cards {
+	display: flex;
+	/* flex-wrap: wrap; */
+	gap: 2rem;
+	width: calc(50% - 2rem);
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+.Infrastructure_Institutions .icon-img {
+	align-items: center;
+	text-align: center;
+}
+
+.Infrastructure_Institutions .icon-img img{
+	height: 40px;
+	width: 40px;
+}
+
+.Infrastructure_Institutions .icon-text-cards-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 400px;
+}
+
+.icon-text-cards-title {
+  font-weight: 700;
+}
+
+.icon-text-cards-detail ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+@media (max-width: 649px) {
+  .Infrastructure_Institutions .Header3 .container {
+    padding-bottom: 0;
+  }
+
+  .container.noPTop {
+    padding-top: 1rem;
+  }
+  .Infrastructure_Institutions .hero {
+    height: 360px;
+  }
+
+  .Infrastructure_Institutions .hero-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .Infrastructure_Institutions .hero-content {
+    bottom: 2rem;
+  }
+
+  .Infrastructure_Institutions .hero-content p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .Infrastructure_Institutions .list-title {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .Infrastructure_Institutions .list-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Infrastructure_Institutions .list-title {
+    text-align: left;
+  }
+}
+
+.Infrastructure_Institutions .border {
+  border: 1px dashed rgba(134, 134, 134, 0.5);
+  margin: 2rem 1rem;
+}
+
+.VCard-cnt {
+  margin-bottom: 2rem;
+}
+
+.v-small-text {
+  text-align: center;
+  margin: 1rem 0 0 0;
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 1024px) {
+
+  .Infrastructure_Institutions .mTop2 {
+    margin: 3rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Infrastructure_Institutions .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .Infrastructure_Institutions .mTop2 {
+    margin: 3rem 0;
+  }
+  .Infrastructure_Institutions .hero {
+    height: 640px;
+  }
+  .Infrastructure_Institutions .hero-content h3 {
+    font-size: 3.25rem;
+  }
+
+  .Infrastructure_Institutions .hero-content p {
+    font-size: 1.125rem;
+  }
+  .Infrastructure_Institutions .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 2.5rem 0;
+  }
+}
+
+@media (min-width: 1600px) {
+}

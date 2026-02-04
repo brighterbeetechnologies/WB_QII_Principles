@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImagewithStatement.css";
 
-const ImagewithStatement = ({ backgroundImage, text }) => {
+const ImagewithStatement = ({ backgroundImage, text}) => {
   return (
     <div
       className="image-statement-container"
@@ -10,7 +10,7 @@ const ImagewithStatement = ({ backgroundImage, text }) => {
       }}
     >
       <p>{text}</p>
-    </div>
+     </div>
   );
 };
 
