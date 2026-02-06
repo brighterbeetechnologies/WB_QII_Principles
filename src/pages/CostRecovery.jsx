@@ -128,7 +128,7 @@ export default function CostRecovery() {
           </div>
 
           <NumSteps num="1">
-            <strong>User Fees</strong> <br /> <br className="mobile-break" />
+            <strong>User fees</strong> <br /> <br className="mobile-break" />
             Where infrastructure provides direct and measurable benefits to
             specific users, such as electricity supply, water supply, or public
             transport, it can be possible to recover all or partial costs
@@ -205,7 +205,7 @@ export default function CostRecovery() {
           </NumSteps> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Ancillary Revenues</strong>
+            <strong>Ancillary revenues</strong>
             <br /> <br className="mobile-break" />
             In some cases, it may be possible to generate supplementary revenue
             streams from infrastructure assets. Examples include commercial
@@ -255,7 +255,7 @@ export default function CostRecovery() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Land Value Capture</strong> <br />{" "}
+            <strong>Land value capture</strong> <br />{" "}
             <br className="mobile-break" />
             Infrastructure often increases the value of surrounding land and
             properties. Land value capture seeks to monetize these positive

@@ -32,6 +32,57 @@ export default function FinancingResilience() {
     },
   ];
 
+  const resourceArray = [
+    {
+      id: 0,
+      country: false,
+      title:
+        "Climate Toolkits for Infrastructure PPPs",
+      org: "World Bank",
+      description:
+        "This toolkit aims to guide practitioners on incorporating a climate lens into PPPs to enhance climate resilience.",
+      img_path: "images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png",
+      path: "https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps",
+      target: "_blank",
+    },
+    {
+      id: 1,
+      country: false,
+      title:
+        "Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport",
+      org: "World Bank",
+      description:
+        "Mobilizing support for resilient transport projects also requires a compelling investment case grounded in measurable targets, cost-benefit analyses, and clearly defined performance indicators. Private sector participation can significantly contribute to this agenda by offering technical expertise,  financing, and lifecycle efficiency, especially when resilience is built into project design and contracts from the outset.  Selecting the right PSP models and funding mechanisms, including green bonds and concessional finance, is key to making projects financially viable and scalable.",
+      img_path: "images/qii4/FinancingResilience/Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience Roads, Railways, and Urban Transport.png",
+      path: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150011892",
+      target: "_blank",
+    },
+    {
+      id: 2,
+      country: false,
+      title:
+        "G20/OECD Report on Approaches for Financing and Investing in Climate-resilient Infrastructure",
+      org: false,
+      description:
+        "This report was prepared to inform G20 policy makers about approaches that can be taken to advance financing for climate-resilient infrastructure and was welcomed at the G20 Finance Ministers and Central Bank Governors meeting in July 2024. Organisation for Economic Co-operation and Development",
+      img_path: "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
+      path: "https://www.oecd.org/en/publications/g20-oecd-report-on-approaches-for-financing-and-investing-in-climate-resilient-infrastructure_8f6d436a-en.html",
+      target: "_blank",
+    },
+    {
+      id: 3,
+      country: false,
+      title:
+        "Financing for Disaster and Resilient Infrastructure Coalition for Disaster Resilient Infrastructure",
+      org: false,
+      description:
+        "This report explores the mechanisms that can provide greater incentives for both public and private sector for investment in strengthening resilience.",
+      img_path: "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
+      path: "https://cdri.world/upload/biennial/CH4.1-CCRI.pdf",
+      target: "_blank",
+    },
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -88,16 +139,19 @@ export default function FinancingResilience() {
             to prioritize investments.
           </p>
           <NumSteps num="1">
-            <strong>Screening projects with sustainability standards –</strong>{" "}
+            <strong>Screening projects with sustainability standards </strong>{" "}
+            <br />
             Alongside the vulnerability and risk assessments (outlined within
-            the <Link to="/Diagnosing-vulnerabilities" className="cyber-link">
+            the{" "}
+            <Link to="/Diagnosing-vulnerabilities" className="cyber-link">
               ‘Diagnosing Vulnerabilities’
-            </Link> sub-page of QII.4), projects can
-            also be screened against international sustainability and resilience
-            standards. Meeting these standards shows investors that a project
-            meets certain ‘sustainable and resilient’ criteria, which can unlock
-            new funding sources—including from private investors—that are often
-            out of reach for these kinds of infrastructure projects.
+            </Link>{" "}
+            sub-page of QII.4), projects can also be screened against
+            international sustainability and resilience standards. Meeting these
+            standards shows investors that a project meets certain ‘sustainable
+            and resilient’ criteria, which can unlock new funding sources —
+            including from private investors — that are often out of reach for
+            these kinds of infrastructure projects.
           </NumSteps>
           {/* <p className="mTop" style={{ fontStyle: "italic" }}>
             *The below list highlights references, which aggregate global best
@@ -334,22 +388,23 @@ export default function FinancingResilience() {
 
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Innovative Financing Instruments - </strong> Innovative
-            financing instruments attract private investors by lowering risk
-            exposure and improving the predictability and stability of cash
-            flows. Instruments can cover the financing needs from project
-            preparation through to construction, operation, and maintenance,
-            including project preparation facilities, green bonds, guarantees,
-            and blended finance structures which shift or share the risks
-            between investors and increase the likelihood of achieving target
-            returns.
+            <strong>Innovative financing instruments </strong>
+            <br /> Innovative financing instruments attract private investors by
+            lowering risk exposure and improving the predictability and
+            stability of cash flows. Instruments can cover the financing needs
+            from project preparation through to construction, operation, and
+            maintenance, including project preparation facilities, green bonds,
+            guarantees, and blended finance structures which shift or share the
+            risks between investors and increase the likelihood of achieving
+            target returns.
           </NumSteps>
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/FinancingResilience/Philippine Water Revolving Fund.png"
               title={
                 <p>
-                  <strong>Philippines Water Revolving Fund</strong><br />
+                  <strong>Philippines Water Revolving Fund</strong>
+                  <br />
                   World Bank
                 </p>
               }
@@ -446,7 +501,8 @@ export default function FinancingResilience() {
               title={
                 <p>
                   <strong>Disaster Risk Finance</strong>
-                  <br />GFDRR 
+                  <br />
+                  GFDRR
                 </p>
               }
               buttonText="Resource"
@@ -460,98 +516,11 @@ export default function FinancingResilience() {
                 for better management of disasters and climate shocks.
               </p>
             </VCard>
-            
           </div>
-          <h4 className="sub-section-title">Further Reading On Financing Resilience</h4>
-          <div className="VCard-cnt col3">
-            <VCard
-              image="images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png"
-              title={
-                <p>
-                  <strong>Climate Toolkits for Infrastructure PPPs</strong>{" "}
-                  <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Tool"
-              link="https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps"
-            >
-              <p>
-                This toolkit aims to guide practitioners on incorporating a
-                climate lens into PPPs to enhance climate resilience.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience Roads, Railways, and Urban Transport.png"
-              title={
-                <p>
-                  <strong>
-                    Sub-sectoral Roadmaps to Promote Private Sector
-                    Participation in Transport Resilience: Roads, Railways, and
-                    Urban Transport
-                  </strong>{" "}
-                  <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Tool"
-              link="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150011892"
-            >
-              <p>
-                Mobilizing support for resilient transport projects also
-                requires a compelling investment case grounded in measurable
-                targets, cost-benefit analyses, and clearly defined performance
-                indicators. Private sector participation can significantly
-                contribute to this agenda by offering technical expertise,
-                financing, and lifecycle efficiency, especially when resilience
-                is built into project design and contracts from the outset.
-                Selecting the right PSP models and funding mechanisms, including
-                green bonds and concessional finance, is key to making projects
-                financially viable and scalable.
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png"
-              title={
-                <p>
-                  <strong>
-                    G20/OECD Report on Approaches for Financing and Investing in Climate-resilient Infrastructure
-                  </strong><br />
-                  Organisation for Economic Co-operation and Development
-                </p>
-              }
-              buttonText="Report"
-              link="https://www.oecd.org/en/publications/g20-oecd-report-on-approaches-for-financing-and-investing-in-climate-resilient-infrastructure_8f6d436a-en.html"
-            >
-              <p>
-                This report was prepared to inform G20 policy makers about
-                approaches that can be taken to advance financing for
-                climate-resilient infrastructure and was welcomed at the G20
-                Finance Ministers and Central Bank Governors meeting in July
-                2024.
-              </p>
-            </VCard>
-            <VCard
-              // image=""
-              image="images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png"
-              title={
-                <p>
-                  <strong>
-                    Financing for Disaster and Resilient Infrastructure
-                  </strong><br />
-                  Coalition for Disaster Resilient Infrastructure
-                </p>
-              }
-              buttonText="Report"
-              link="https://cdri.world/upload/biennial/CH4.1-CCRI.pdf"
-            >
-              <p>
-                This report explores the mechanisms that can provide greater
-                incentives for both public and private sector for investment in
-                strengthening resilience.
-              </p>
-            </VCard>
+          {/* <h4 className="sub-section-title">
+            Further Reading On Financing Resilience
+          </h4> */}
+          {/* <div className="VCard-cnt col3"> */}
             {/* <VCard
               image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
               title={
@@ -589,8 +558,110 @@ export default function FinancingResilience() {
                 for better management of disasters and climate shocks.
               </p>
             </VCard> */}
+          {/* </div> */}
+        </div>
+      </section>
+      <section className="color-dark">
+        <div className="container">
+          <h2 className="section-title light-font">Further Reading On Financing Resilience</h2>
+          <div className="page-resource-grid" role="list">
+            {resourceArray.map((p, index) => {
+              return (
+                <article
+                  className="page-resource-card"
+                  key={index}
+                  role="listitem"
+                  style={{ backgroundImage: `url(${p.img})` }}
+                >
+                  <div className="page-resource-link">
+                    <div className="page-resource-body">
+                      <div className="page-resource-title title-small">
+                        {p.country && (
+                          <>
+                            <span>{p.country}</span> <br />
+                          </>
+                        )}
+                        <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
+                      </div>
+                      <div className="page-resource-overlay" />
+                      <img
+                        className="page-resource-img"
+                        src={p.img_path}
+                        alt={p.title}
+                      />
+                      {/* <div className="page-resource-img-cnt">
+                                          </div> */}
+                      <div className="page-resource-data">
+                        <div className="page-resource-title title-big">
+                          {p.country && (
+                            <>
+                              <span>{p.country}</span> <br />
+                            </>
+                          )}
+                          <strong>{p.title}</strong>
+                          {p.org && (
+                            <>
+                              <br />
+                              <span>{p.org}</span>
+                            </>
+                          )}
+                        </div>
+                        <div className="page-resource-description">
+                          {p.description}
+                        </div>
+                        {/* <Popover
+                                                content={p.description}
+                                                title={p.title}
+                                                trigger="click"
+                                              >
+                                                <div className="page-resource-description">
+                                                  Read More...
+                                                </div>
+                                              </Popover> */}
+                        <div className="page-resource-btn-cnt">
+                          {p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : (
+                            <Link
+                              className="page-resource-arrow"
+                              to={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
           </div>
-          
+          <div className="view-all-btn-container">
+            <button
+              className="btn-primary qii2-video-cta"
+              onClick={() => {
+                const el = document.getElementById("resourcesSection");
+                el?.scrollIntoView({ behavior: "smooth" });
+              }}
+              // disabled
+            >
+              View All <span className="icon-arrow">&#xe900;</span>
+            </button>
+          </div>
         </div>
       </section>
       {/* <section className="color-dark z-2" id="resourcesSection">

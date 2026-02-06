@@ -56,7 +56,7 @@ export default function Project_Planning_And_Design() {
           {/* <p className="link-text">
           </p> */}
           <NumSteps num="1">
-            <strong>Enhance procurement strategies and processes – </strong>
+            <strong>Enhance procurement strategies and processes  </strong>
             <br />
             Design procurement documents that mandate contractors and
             consultants to show proven experience with inclusion, and weight
@@ -142,7 +142,7 @@ export default function Project_Planning_And_Design() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Embed inclusivity into contracts –</strong>
+            <strong>Embed inclusivity into contracts </strong>
             <br />
             Inclusion must move from procurement intent into binding
             obligations. Contracts should include clear clauses that specify
@@ -218,7 +218,7 @@ export default function Project_Planning_And_Design() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Apply inclusive design standards –</strong>
+            <strong>Apply inclusive design standards </strong>
             <br />
             Inclusive design means anticipating the diverse needs of women,
             persons with disabilities, older persons, and other vulnerable

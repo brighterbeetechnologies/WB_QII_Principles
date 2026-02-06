@@ -32,6 +32,8 @@ import Policies_Standards_Regulation from "./pages/Policies_Standards_Regulation
 import Project_Planning_And_Design from "./pages/Project_Planning_And_Design.jsx";
 import Stakeholder_Engagement from "./pages/Stakeholder_Engagement.jsx";
 import Infrastructure_Institutions from "./pages/Infrastructure_Institutions.jsx";
+import Govtech_For_Infrastructure from "./pages/Govtech_For_Infrastructure.jsx";
+import Public_Investment_And_Asset_Management from "./pages/Public_Investment_And_Asset_Management.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -268,6 +270,23 @@ export const router = createHashRouter([
 					</Suspense>
 				),
 			},
+			{
+				path: "/govtech-for-infrastructure",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Govtech_For_Infrastructure />
+					</Suspense>
+				),
+			},
+			{
+				path: "/Public-Investment-And-Asset-Management",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Public_Investment_And_Asset_Management />
+					</Suspense>
+				),
+			},
+
 
 			{
 				path: "*",

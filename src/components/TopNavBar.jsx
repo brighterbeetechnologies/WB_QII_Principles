@@ -41,6 +41,11 @@ export default function TopNavBar() {
     navigate("/", { state: { scrollTo: "principles-grid" } }); // Navigate to home page
   };
 
+  const gotoHome = () => {
+    navigate("/"); // Navigate to home page
+  };
+
+
   return (
     <nav className={scrolled ? "nav scrolled" : "nav"}>
       <div className="nav-cnt">
@@ -68,7 +73,7 @@ export default function TopNavBar() {
           </div>
         )}
         <div className="nav-cnt-left">
-          <div className="logo-cnt" onClick={goHome}>
+          <div className="logo-cnt" id="homepage" onClick={gotoHome}>
             <img className="logo-1" src="images/WorldBank_logo.png" />
             <div className="logo-splitter"></div>
             <img className="logo-2" src="images/jcoflag.svg" />

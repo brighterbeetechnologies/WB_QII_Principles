@@ -57,7 +57,7 @@ export default function Policies_Standards_Regulation() {
             ensuring genuine equitable access and opportunity at every stage.
           </p>
           <NumSteps num="1">
-            <strong>Setting clear inclusivity strategies and goals –</strong>
+            <strong>Setting clear inclusivity strategies and goals </strong>
             <br />
             Authorities should specify clear targets for gender, disability,
             age, or other identified gaps, then require every sector and project
@@ -185,7 +185,7 @@ export default function Policies_Standards_Regulation() {
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>
-              Strengthening Governance to Enforce Inclusivity Standards
+              Strengthening governance to enforce inclusivity standards
             </strong>
             <br />
             Once clear inclusion targets have been set, these should be
@@ -313,7 +313,7 @@ export default function Policies_Standards_Regulation() {
           <NumSteps num="3">
             <strong>
               Meeting international best practice standards for inclusion to
-              attract investment –
+              attract investment 
             </strong>
             <br />
             Private investors and institutional financiers are increasingly

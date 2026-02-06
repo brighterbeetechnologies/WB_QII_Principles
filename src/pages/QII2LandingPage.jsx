@@ -279,7 +279,6 @@ export default function QII2LandingPage() {
           <div className="video-text-cnt">
             <div className="video-text-box">
               <img src="images/qii2/Landing-QII-2.gif" alt="" />
-              {/* <img src="images/qii2/videoCover.png" alt="" />
               <div className="vid-cnt">
                 <button
                   className="video-play-btn icon-play"
@@ -297,7 +296,7 @@ export default function QII2LandingPage() {
                 <p className="video-title">
                   <strong>Unlocking the Potential of Life Cycle Costing</strong>
                 </p>
-              </div> */}
+              </div>
             </div>
             <div className="text-cnt">
               {/* <h1 className="light-font mBottom">

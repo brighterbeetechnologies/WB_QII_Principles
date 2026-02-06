@@ -534,7 +534,7 @@ export const appDataSlice = createSlice({
         industry: 2,
         image: "images/costRecovery/Argentina.png",
       },
-      
+
       {
         id: 1,
         paths:
@@ -601,7 +601,7 @@ export const appDataSlice = createSlice({
         industry: 2,
         image: "images/governance/resources/04.jpg",
       },
-      
+
       {
         id: 1,
         paths: "https://www.gihub.org/infrastructure-output-specifications/",
@@ -618,7 +618,7 @@ export const appDataSlice = createSlice({
         industry: 2,
         image: "images/procurement/ReferenceGuide.png",
       },
-      
+
       {
         id: 1,
         paths: "https://www.fhwa.dot.gov/pavement/lcca/010621.pdf",
@@ -718,7 +718,7 @@ export const appDataSlice = createSlice({
       //   industry: 2,
       //   image: "images/procurement/resources/06.png",
       // },
-      
+
       {
         id: 1,
         paths: "https://www.infratechportal.org/LandingPage",
@@ -799,7 +799,7 @@ export const appDataSlice = createSlice({
         industry: 2,
         image: "images/technicalSolutions/resources/IEATechnology.png",
       },
-      
+
       {
         id: 1,
         paths:
@@ -1007,8 +1007,7 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths:
-          "pdf/QII_3_CaseStudy_TibarBay.pdf",
+        paths: "pdf/QII_3_CaseStudy_TibarBay.pdf",
         type: "Case Study",
         title: "Timor-Leste: Tibar Bay Port",
         principles: 2,
@@ -1139,8 +1138,7 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths:
-          "pdf/QII_3_SpotlightCaseStudy_Belgrade.pdf",
+        paths: "pdf/QII_3_SpotlightCaseStudy_Belgrade.pdf",
         type: "Case Study",
         title: "Belgrade Waste-to-Energy PPP Carbon Credit Certification",
         principles: 2,
@@ -1584,7 +1582,7 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png",
       },
-      
+
       // {
       // 	"id": 3,
       // 	"paths": "",
@@ -2020,7 +2018,7 @@ export const appDataSlice = createSlice({
         industry: 1,
         image: "images/qii4/updated/GDFR_Thinkhazard.png",
       },
-      
+
       // {
       //   id: 4,
       //   paths: "https://openknowledge.worldbank.org/handle/10986/21875",
@@ -2612,7 +2610,7 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       },
-{
+      {
         id: 4,
         paths:
           "https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps",
@@ -3017,6 +3015,157 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths:
+          "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
+        type: "Case study",
+        title: "She Drives Change",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "This World Bank publication compiles case studies demonstrating how transport sector interventions can advance gender equality. Case study 16 is an example of how employment restrictions in Azerbaijan were overcome by policy and regulatory adjustments, conducting awareness campaigns, and including employer engagement to create enabling conditions for women drivers. ",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii5/PoliciesandRegulation/She-Drives-Change.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://projects.worldbank.org/en/projects-operations/project-detail/P160594",
+        type: "Case Study ",
+        title: "Albania",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "In the Albania Gender Equality in Access to Economic Opportunities project, standard bidding documents for tenders above a certain threshold were updated to require firms to explicitly declare their adherence to principles of non-discrimination and equal pay for equal work.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii5/ProjectPlanningandDesign/albania.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
+        type: "Case Study",
+        title:
+          "Incorporating Universal Accessibility into Infrastructure Planning and Design in Vietnam",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "This case from Vietnam highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the project embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii5/ProjectPlanningandDesign/Incorporating-Universal-Accessibility-into-Infrastructure-Planning-and-Design-in-Vietnam.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
+        type: "Case Study",
+        title:
+          "Mainstreaming Universal Accessibility in the built environment projects in Senegal",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "This engagement brief offers a practical stakeholder training and capacity-building framework.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii5/ProjectPlanningandDesign/Mainstreaming-Universal-Accessibility.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
+        type: "Case Study",
+        title: "Maputo",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "The use of big data to map mobility patterns helped to ensure a new bus rapid transit system in Maputo was designed to maximize accessibility for all socio-economic groups.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii5/StakeholderEngagement/Maputo.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
+        type: "Guidance",
+        title: "Gender Equality, Infrastructure and PPPs",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "This is a resource explaining how PPP contracts should include clear, measurable indicators, making clauses binding, with reporting and performance obligations linked to outcomes. PPP Project Stages Three and Four: Drafting the Contract and Managing the Transaction, pg 37",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://finance.go.ug/sites/default/files/reports/Stakeholder-Engagement-Plan-SEP-PIMs-P511206-June-11-2025.pdf",
+        type: "Case Study",
+        title: "Uganda Stakeholder Engagement Plan",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "This resource exemplifies best practice in stakeholder engagement for large, multi-sectoral projects. It provides a detailed framework for identifying stakeholder groups, mapping their interests and influence, selecting appropriate engagement methods for each group, and establishing grievance mechanisms.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii5/StakeholderEngagement/Uganda-Stakeholder-Engagement-Plan.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://www.oecd.org/en/publications/providing-local-actors-with-case-studies-evidence-and-solutions-places_eb108047-en/hachioji-city-utilising-3d-city-models-and-augmented-reality-to-enhance-local-public-engagement_ab018d21-en.html",
+        type: "Case Study",
+        title: "Japan: Hachioji City",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "Hachioji City demonstrates how innovative use of 3D city models and augmented reality can significantly enhance local public engagement in urban planning, ultimately strengthening trust and collaboration between the city government and its citizens.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii5/StakeholderEngagement/Hachioji-City-Japan.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
+        type: "Case Study",
+        title: "Gender Dimensions of Cross-Border Trade in Tajikistan",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "This World Bank study on Tajikistan’s cross-border trade highlights the critical role of community engagement and inclusion, particularly of women traders, in official trade processes.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii5/StakeholderEngagement/Gender-Dimensions-of-Cross-Border-Trade-in-Tajikistan.png",
+      },
+      {
+        id: 4,
+        paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/to-have-and-have-not-how-to-bridge-the-gap-in-opportunities_f642138a/dec143ad-en.pdf",
         type: "Tools",
         title: "To Have and Have Not – How to Bridge the Gap in Opportunities",
@@ -3102,7 +3251,8 @@ export const appDataSlice = createSlice({
       },
       {
         id: 4,
-        paths: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/383011492423734099/the-world-bank-environmental-and-social-framework",
+        paths:
+          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/383011492423734099/the-world-bank-environmental-and-social-framework",
         type: "Tools",
         title: "Environmental and Social Framework",
         highlight: 0,
@@ -3113,11 +3263,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/PoliciesandRegulation/Environmental-and-Social-Framework.png",
+        image:
+          "images/qii5/PoliciesandRegulation/Environmental-and-Social-Framework.png",
       },
       {
         id: 4,
-        paths: "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
+        paths:
+          "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
         type: "Tools",
         title: "Inclusive Infrastructure – Policy, Regulation & Standards",
         highlight: 0,
@@ -3128,7 +3280,8 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/PoliciesandRegulation/Inclusive-Infrastructure –Policy-Regulation&Standards.png",
+        image:
+          "images/qii5/PoliciesandRegulation/Inclusive-Infrastructure –Policy-Regulation&Standards.png",
       },
       {
         id: 4,
@@ -3143,13 +3296,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/PoliciesandRegulation/EU-Accessibility-Act(2019).png",
+        image:
+          "images/qii5/PoliciesandRegulation/EU-Accessibility-Act(2019).png",
       },
       {
         id: 4,
         paths: "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
         type: "Guidance",
-        title: "Americans with Disabilities Act (ADA) Standards for Accessible Design",
+        title:
+          "Americans with Disabilities Act (ADA) Standards for Accessible Design",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3158,13 +3313,16 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/PoliciesandRegulation/Americans-with-Disabilities.png",
+        image:
+          "images/qii5/PoliciesandRegulation/Americans-with-Disabilities.png",
       },
       {
         id: 4,
-        paths: "https://blogs.worldbank.org/en/ppps/japan-and-world-bank-advancing-universal-design-urban-planning",
+        paths:
+          "https://blogs.worldbank.org/en/ppps/japan-and-world-bank-advancing-universal-design-urban-planning",
         type: "Guidance",
-        title: "Advancing universal design in urban planning Japan and the World Bank ",
+        title:
+          "Advancing universal design in urban planning Japan and the World Bank ",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3173,22 +3331,8 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/PoliciesandRegulation/Advancing-universal-design-in-urban-planning.png",
-      },
-      {
-        id: 4,
-        paths: "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
-        type: "Case study",
-        title: "She Drives Change",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "This World Bank publication compiles case studies demonstrating how transport sector interventions can advance gender equality. Case study 16 is an example of how employment restrictions in Azerbaijan were overcome by policy and regulatory adjustments, conducting awareness campaigns, and including employer engagement to create enabling conditions for women drivers. ",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/PoliciesandRegulation/She-Drives-Change.png",
+        image:
+          "images/qii5/PoliciesandRegulation/Advancing-universal-design-in-urban-planning.png",
       },
       {
         id: 4,
@@ -3239,7 +3383,8 @@ export const appDataSlice = createSlice({
       },
       {
         id: 4,
-        paths: "https://www.worldbank.org/en/programs/project-procurement/framework/rated-criteria",
+        paths:
+          "https://www.worldbank.org/en/programs/project-procurement/framework/rated-criteria",
         type: "Guidance",
         title: "Procurement Rated Criteria World Bank",
         highlight: 0,
@@ -3250,11 +3395,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
+        image:
+          "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
       },
       {
         id: 4,
-        paths: "https://blogs.worldbank.org/en/governance/mainstreaming-gender-public-procurement",
+        paths:
+          "https://blogs.worldbank.org/en/governance/mainstreaming-gender-public-procurement",
         type: "Guidance",
         title: "Mainstreaming Gender in Public Procurement",
         highlight: 0,
@@ -3265,11 +3412,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
+        image:
+          "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
       },
       {
         id: 4,
-        paths: "https://ukgreencitiesandinfrastructure.org/resource/inclusivity-in-procurement/",
+        paths:
+          "https://ukgreencitiesandinfrastructure.org/resource/inclusivity-in-procurement/",
         type: "Guidance",
         title: "UK Green Cities & Infrastructure (ICED) facility",
         highlight: 0,
@@ -3280,26 +3429,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/UK-Green-Cities-Infrastructure-(ICED)-facility.png",
+        image:
+          "images/qii5/ProjectPlanningandDesign/UK-Green-Cities-Infrastructure-(ICED)-facility.png",
       },
       {
         id: 4,
-        paths: "https://projects.worldbank.org/en/projects-operations/project-detail/P160594",
-        type: "Case Study ",
-        title: "Albania",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "In the Albania Gender Equality in Access to Economic Opportunities project, standard bidding documents for tenders above a certain threshold were updated to require firms to explicitly declare their adherence to principles of non-discrimination and equal pay for equal work.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/albania.png",
-      },
-      {
-        id: 4,
-        paths: "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
+        paths:
+          "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
         type: "Guidance",
         title: "Gender Equality, Infrastructure and PPPs",
         highlight: 0,
@@ -3310,13 +3446,16 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
+        image:
+          "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
       },
       {
         id: 4,
-        paths: "https://ppp.worldbank.org/sub-national-ppp/bidding-documents-and-contractual-provisions-regarding-inclusion-smes-ppps?utm",
+        paths:
+          "https://ppp.worldbank.org/sub-national-ppp/bidding-documents-and-contractual-provisions-regarding-inclusion-smes-ppps?utm",
         type: "Guidance",
-        title: "Bidding Documents and Contractual Provisions for Inclusion World Bank",
+        title:
+          "Bidding Documents and Contractual Provisions for Inclusion World Bank",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3325,7 +3464,8 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/World-Bank-Bidding-Documents-Contractual-Provisions-for-Inclusion.png",
+        image:
+          "images/qii5/ProjectPlanningandDesign/World-Bank-Bidding-Documents-Contractual-Provisions-for-Inclusion.png",
       },
       {
         id: 4,
@@ -3340,13 +3480,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/Responsible-Contracting-Project-(RCP)-Toolkit.png",
+        image:
+          "images/qii5/ProjectPlanningandDesign/Responsible-Contracting-Project-(RCP)-Toolkit.png",
       },
       {
         id: 4,
         paths: "https://www.iso.org/obp/ui/en/#iso:std:iso:21542:ed-2:v1:en",
         type: "Guidance",
-        title: "ISO 21542:2021 – Building Construction: Accessibility and Usability of the Built Environment",
+        title:
+          "ISO 21542:2021 – Building Construction: Accessibility and Usability of the Built Environment",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3355,7 +3497,8 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png",
+        image:
+          "images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png",
       },
       {
         id: 4,
@@ -3374,52 +3517,8 @@ export const appDataSlice = createSlice({
       },
       {
         id: 4,
-        paths: "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
-        type: "Case Study",
-        title: "Incorporating Universal Accessibility into Infrastructure Planning and Design in Vietnam",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "This case from Vietnam highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the project embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/Incorporating-Universal-Accessibility-into-Infrastructure-Planning-and-Design-in-Vietnam.png",
-      },
-      {
-        id: 4,
-        paths: "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
-        type: "Case Study",
-        title: "Mainstreaming Universal Accessibility in the built environment projects in Senegal",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "This engagement brief offers a practical stakeholder training and capacity-building framework.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Universal-Accessibility.png",
-      },
-      {
-        id: 4,
-        paths: "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
-        type: "Case Study",
-        title: "Maputo",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "The use of big data to map mobility patterns helped to ensure a new bus rapid transit system in Maputo was designed to maximize accessibility for all socio-economic groups.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/StakeholderEngagement/Maputo.png",
-      },
-      {
-        id: 4,
-        paths: "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
+        paths:
+          "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
         type: "Guidance",
         title: "Mainstreaming Gender in Infrastructure",
         highlight: 0,
@@ -3430,11 +3529,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/StakeholderEngagement/Mainstreaming-Gender-in-Infrastructure.png",
+        image:
+          "images/qii5/StakeholderEngagement/Mainstreaming-Gender-in-Infrastructure.png",
       },
       {
         id: 4,
-        paths: "https://inclusiveinfra.gihub.org/action-areas/stakeholder-identification-engagement-and-empowerment",
+        paths:
+          "https://inclusiveinfra.gihub.org/action-areas/stakeholder-identification-engagement-and-empowerment",
         type: "Guidance",
         title: `Inclusive Infrastructure “Data Collection and Stakeholder Identification”`,
         highlight: 0,
@@ -3445,11 +3546,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/StakeholderEngagement/Inclusive-Infrastructure-Data-Collection-and-Stakeholder-Identification.png",
+        image:
+          "images/qii5/StakeholderEngagement/Inclusive-Infrastructure-Data-Collection-and-Stakeholder-Identification.png",
       },
       {
         id: 4,
-        paths: "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
+        paths:
+          "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
         type: "Case Study",
         title: "Gender Equality, Infrastructure and PPPs",
         highlight: 0,
@@ -3460,13 +3563,16 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
+        image:
+          "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
       },
       {
         id: 4,
-        paths: "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
+        paths:
+          "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
         type: "Tools",
-        title: "OECD Infrastructure Toolkit: Ensuring Transparent, Systematic and Effective Stakeholder Participation",
+        title:
+          "OECD Infrastructure Toolkit: Ensuring Transparent, Systematic and Effective Stakeholder Participation",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3475,58 +3581,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
+        image:
+          "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
       },
-      {
-        id: 4,
-        paths: "https://finance.go.ug/sites/default/files/reports/Stakeholder-Engagement-Plan-SEP-PIMs-P511206-June-11-2025.pdf",
-        type: "Case Study",
-        title: "Uganda Stakeholder Engagement Plan",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "This resource exemplifies best practice in stakeholder engagement for large, multi-sectoral projects. It provides a detailed framework for identifying stakeholder groups, mapping their interests and influence, selecting appropriate engagement methods for each group, and establishing grievance mechanisms.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/StakeholderEngagement/Uganda-Stakeholder-Engagement-Plan.png",
-      },
-      {
-        id: 4,
-        paths: "https://www.oecd.org/en/publications/providing-local-actors-with-case-studies-evidence-and-solutions-places_eb108047-en/hachioji-city-utilising-3d-city-models-and-augmented-reality-to-enhance-local-public-engagement_ab018d21-en.html",
-        type: "Case Study",
-        title: "Japan: Hachioji City",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "Hachioji City demonstrates how innovative use of 3D city models and augmented reality can significantly enhance local public engagement in urban planning, ultimately strengthening trust and collaboration between the city government and its citizens.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/StakeholderEngagement/Hachioji-City-Japan.png",
-      },
-      {
-        id: 4,
-        paths: "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
-        type: "Case Study",
-        title: "Gender Dimensions of Cross-Border Trade in Tajikistan",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "This World Bank study on Tajikistan’s cross-border trade highlights the critical role of community engagement and inclusion, particularly of women traders, in official trade processes.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/StakeholderEngagement/Gender-Dimensions-of-Cross-Border-Trade-in-Tajikistan.png",
-      },
-      
+
       //principle 6 resources
       {
         id: 5,
-        paths: "https://www.elibrary.imf.org/display/book/9781513571829/9781513571829.xml",
+        paths:
+          "https://www.elibrary.imf.org/display/book/9781513571829/9781513571829.xml",
         type: "Case Study",
         title: "Public Investment Management Assessment (PIMA) IMF",
         highlight: 2,
@@ -3541,9 +3604,11 @@ export const appDataSlice = createSlice({
       },
       {
         id: 5,
-        paths: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
+        paths:
+          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
         type: "Case Study",
-        title: "Getting Infrastructure Right : A Framework for Better Governance OECD",
+        title:
+          "Getting Infrastructure Right : A Framework for Better Governance OECD",
         highlight: 2,
         target: "_blank",
         principles: 5,
@@ -3552,11 +3617,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
+        image:
+          "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
       },
       {
         id: 5,
-        paths: "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
+        paths:
+          "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
         type: "Case Study",
         title: "Infrastructure Governance Assessment Framework World Bank",
         highlight: 2,
@@ -3567,11 +3634,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/QII6-Landing/Infrastructure-Governance-Assessment-Framework.png",
+        image:
+          "images/qii6/QII6-Landing/Infrastructure-Governance-Assessment-Framework.png",
       },
       {
         id: 5,
-        paths: "https://www.imf.org/en/Publications/Books/Issues/2020/09/03/Well-Spent-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment-48603",
+        paths:
+          "https://www.imf.org/en/Publications/Books/Issues/2020/09/03/Well-Spent-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment-48603",
         type: "Case Study",
         title: "Well Spent",
         highlight: 2,
@@ -3586,19 +3655,345 @@ export const appDataSlice = createSlice({
       },
       {
         id: 5,
-        paths: "",
+        paths:
+          "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
         type: "Case Study",
-        title: "",
+        title: "UNEP Integrated Approaches in Action",
         highlight: 0,
         target: "_blank",
         principles: 5,
-        desc: "",
+        desc: "This showcases integrated approaches to infrastructure planning in small island developing states, highlighting how countries can align infrastructure investments with climate resilience and sustainable development goals. Saint Lucia's National Infrastructure Assessment demonstrates integrated long-term planning through cross-sectoral analysis and stakeholder engagement to strategically prioritize climate-resilient investments supporting national development.",
         format: 1,
         stage: 4,
         region: 1,
         industry: 1,
-        image: "",
+        image:
+          "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
       },
+      {
+        id: 5,
+        paths: "/not-given",
+        type: "Case Study",
+        title:
+          "Public Transport Demand Forecasting Regional Platform: New Technology for Better Investment Decision-making",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "TBD",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
+      },
+      {
+        id: 5,
+        paths:
+          "https://www.opengovpartnership.org/wp-content/uploads/2017/05/case-study_Indonesia_One-Map-Policy_0.pdf",
+        type: "Case study",
+        title: "Indonesia: One Map Policy",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "National geospatial platform consolidating land-use data from 19 government agencies across all 34 provinces into a single unified database. Launched in 2018 to resolve overlapping claims and fragmented information that had long impeded sustainable development, infrastructure planning, and land governance.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Govtech_For_Infrastructure/IndonesiaOneMapPolicy.png",
+      },
+      {
+        id: 5,
+        paths:
+          "https://kryeministri.rks-gov.net/en/news/launch-of-the-digital-governance-strengthening-project-for-service-delivery/",
+        type: "Case Study",
+        title:
+          "QII Grant: Supporting Sustainable Digital Infrastructure through Innovation in Kosovo",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "TBD",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Govtech_For_Infrastructure/QIIGrantSupportingSustainable.png",
+      },
+      {
+        id: 5,
+        paths: "/not-given",
+        type: "Case Study",
+        title: "Albania: GovTech Program (Phases 1 and 2)",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "TBD",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii6/Govtech_For_Infrastructure/Albania.png",
+      },
+      {
+        id: 5,
+        paths: "https://infrastructuregovern.imf.org/",
+        type: "Guidance",
+        title: "InfraGov Assessment Framework",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "The Infrastructure Governance framework provides frameworks and tools to help countries strengthen legal and regulatory structures, ensuring transparent, efficient, and accountable public infrastructure investment management. The OECD Infrastructure Toolkit provides practical guidance for designing stakeholder engagement plans that are inclusive and systematic.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png",
+      },
+      {
+        id: 5,
+        paths:
+          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/08/effective-multi-level-public-investment_4bcedf6d/c3bc625b-en.pdf",
+        type: "Guidance",
+        title: "OECD Recommendation on Public Investment",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "This resource provides a comprehensive framework to help governments at all levels work together more effectively on public investment. It covers 12 principles organized around three pillars: coordination, capacities, and framework conditions, addressing the challenges of fragmented responsibilities and the need for coherent investment strategies. Chapter 2 details practical mechanisms for reinforcing coordination across government levels, emphasizing joint investment strategies, intergovernmental dialogue, and capacity-building to unify standards and promote accountability in public infrastructure investment decisions.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
+      },
+      {
+        id: 5,
+        paths:
+          "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
+        type: "Guidance",
+        title:
+          "CoST Infrastructure Transparency Initiative - “A Framework for Integrity in Infrastructure Planning”",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "This is a practical resource for embedding transparency throughout the infrastructure planning phase, to tackle corruption and strengthen public confidence in infrastructure decision-making processes.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Infrastructure-Institutions/CoST-Infrastructure-Transparency-Initiative.png",
+      },
+      {
+        id: 5,
+        paths:
+          "https://www.elibrary.imf.org/display/book/9781513511818/9781513511818.xml",
+        type: "Guidance",
+        title: "Well Spent",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, and best practices in project appraisal and selection. Table 10.3 (Measures and Indicators to Prevent and Detect Corruption in Public Infrastructure) provides a comprehensive list of measures and indicators designed to identify vulnerabilities and detect corruption across the infrastructure investment cycle.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii6/Infrastructure-Institutions/WellSpent.png",
+      },
+
+      {
+        id: 5,
+        paths:
+          "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
+        type: "Guidance",
+        title: "OECD /IMF Reference Note",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "This note provides principles for developing strategic infrastructure planning frameworks that integrate long-term national priorities with project selection.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
+      },
+      {
+        id: 5,
+        paths: "https://data.worldbank.org/",
+        type: "Tool",
+        title: "Global Infrastructure Indicators Dashboard (World Bank)",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "Open access portal providing internationally comparable development indicators across transport, energy, water, digital connectivity, etc. You can explore data by country, visualize trends, and benchmark infrastructure performance using the DataBank analysis tool.",
+        format: 3,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Govtech_For_Infrastructure/Global-Infrastructure-Indicators-Dashboard.png",
+      },
+      {
+        id: 5,
+        paths: "https://www.jasca2021.jp/",
+        type: "Guidance",
+        title: "Japan Association for Smart Cities in ASEAN (EN/JP)",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "Platform facilitating public-private cooperation between Japan and ASEAN countries on smart city development. Provides access to Japanese smart city technologies across infrastructure maintenance, disaster prevention, and urban planning, alongside the Smart JAMP cooperative framework and ASEAN Smart City Planning Guidebook.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
+      },
+      {
+        id: 5,
+        paths:
+          "https://www.worldbank.org/en/data/interactive/2022/10/21/govtech-maturity-index-gtmi-data-dashboard",
+        type: "Tool",
+        title: "GovTech Maturity Index (GTMI) Data Dashboard World BanK",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "Interactive dashboard presenting digital governance data for 198 economies, enabling users to explore GovTech maturity across countries, track progress, and inform next steps on GovTech agendas. Also provides access to the World Bank's database of 1,450+ digital governance projects funded since 1995.",
+        format: 3,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
+      },
+      {
+        id: 5,
+        paths:
+          "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
+        type: "Guidance",
+        title:
+          "OECD: Digital Public Infrastructure for Digital Governments (2024)",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii6/Govtech_For_Infrastructure/OECD-Digital-Public-Infrastructure-for-Digital-Governments.png",
+      },
+      {
+        id: 5,
+        paths: "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
+        type: "Guidance",
+        title: "Well Spent",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets. Chapters 11 (Fiscal Risks in Infrastructure) and 12 (Integrating Infrastructure Planning and Budgeting) examine fiscal risk identification and mitigation strategies for infrastructure projects, and outline methods for integrating infrastructure planning with budgetary processes to ensure fiscal sustainability and alignment between investment decisions and available resources.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+      },
+      {
+        id: 5,
+        paths: "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
+        type: "Guidance",
+        title: "IMF PIMA",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "The IMF’s Public Investment Management Assessment (PIMA) provides a comprehensive framework to evaluate the strength of public investment management institutions, helping governments identify weaknesses and prioritize reforms.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
+      },
+      {
+        id: 5,
+        paths: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/07/oecd-implementation-handbook-for-quality-infrastructure-investment_b9131199/479131b2-en.pdf",
+        type: "Guidance",
+        title: "OECD Implementation Handbook for Quality Infrastructure Investment",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "This handbook provides practical guidance on implementing quality infrastructure principles throughout the project lifecycle, emphasizing integrated planning, stakeholder engagement, environmental and social considerations, and governance mechanisms that support sustainable infrastructure outcomes.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png",
+      },
+      {
+        id: 5,
+        paths: "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
+        type: "Guidance",
+        title: "InfraGov Assessment Framework",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "InfraGov is a diagnostic framework developed by the World Bank to help countries optimize infrastructure investments by assessing governance across the project lifecycle, cross-cutting principles, and service delivery. Dimension 6 (Infrastructure procurement and contract management systems) assesses the effectiveness of procurement frameworks and contract management practices, examining transparency, competition, risk allocation, and monitoring systems that ensure infrastructure projects are delivered efficiently and contractors meet performance obligations.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii6/Public_Investment_And_Asset_Management/InfraGov-Assessment-Framework.png",
+      },
+      {
+        id: 5,
+        paths: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
+        type: "Guidance",
+        title: "OECD Getting Infrastructure Right",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "This 2017 report, based on a survey of 27 countries, provides an overview of current practices in infrastructure governance and presents practical tools to help policy makers better manage infrastructure across its full lifecycle. It addresses challenges from technical and budgetary concerns to delivery and governance issues. “Infrastructure procurement and the choice of the delivery modality” – page 52 and “Performance throughout the life cycle” pages – 76-77 analyze procurement strategy selection based on project characteristics and capacity, and emphasize the importance of performance monitoring, maintenance planning, and asset management systems to maximize infrastructure value over its operational lifespan.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
+      },
+      {
+        id: 5,
+        paths: "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
+        type: "Guidance",
+        title: "Well Spent",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance, with dedicated chapters on maintenance and asset management. Chapter 14 (Maintaining and Managing Public Infrastructure Assets) addresses the critical need for systematic asset management and maintenance planning, highlighting how neglect of routine maintenance accelerates asset deterioration, increases long-term costs, and undermines the benefits of infrastructure investments.",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+      },
+      // {
+      //   id: 5,
+      //   paths: "",
+      //   type: "",
+      //   title: "",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 5,
+      //   desc: "",
+      //   format: 1,
+      //   stage: 4,
+      //   region: 1,
+      //   industry: 1,
+      //   image: "images/qii6//.png",
+      // },
 
       // {
       //   id: 5,

@@ -31,6 +31,10 @@ export default function ResilientDesignAndOperation() {
     },
   ];
 
+  const VCardStep1 = [
+    
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -100,8 +104,8 @@ export default function ResilientDesignAndOperation() {
           <NumSteps num="1">
             <strong>
               Prevention -
-              <br className="mobile-break" /> Applying Resilience Standards to
-              Planning and Design:
+              <br className="mobile-break" /> Applying resilience standards to
+              planning and design
             </strong>{" "}
             <br />
             Integrating design standards and climate considerations from the
@@ -307,31 +311,31 @@ export default function ResilientDesignAndOperation() {
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>
-              Adaptation –
+              Adaptation – 
               <br className="mobile-break" />
-              Integrating Nature-Based Solutions and Digital Technology into
-              Design and Operations:
+               Integrating nature-based solutions and digital technology into
+              design and operations
             </strong>{" "}
+            <br />
             Embedding technology, routine monitoring, maintenance protocols, and
             contingency planning within operations underpins reliable
             performance. These practices enable rapid restoration after natural
             and man-made shocks and sustain service levels under evolving
-            environmental and operational pressures.
-            <br />
-            <br />
-            More specifically, both nature-based solutions and advanced digital
-            technologies are two effective mechanisms by which to enhance
-            systemic resilience, system flexibility, and cost-effectiveness in
-            both design and operations of infrastructure assets and systems.
-            Moreover, these mechanisms deliver environmental, social, and
-            economic co-benefits throughout the infrastructure lifespan.
-            <br />
-            <br />
+            environmental and operational pressures.  
           </NumSteps>
+          <br /><br />
           {/* <h4 className="sub-section-title">
             Nature-based Solutions for Resilience
           </h4> */}
-
+           <p className="link-text">
+              More specifically, both nature-based solutions and advanced
+              digital technologies are two effective mechanisms by which to
+              enhance systemic resilience, system flexibility, and
+              cost-effectiveness in both design and operations of infrastructure
+              assets and systems. Moreover, these mechanisms deliver
+              environmental, social, and economic co-benefits throughout the
+              infrastructure lifespan.
+            </p>
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png"
@@ -452,15 +456,16 @@ export default function ResilientDesignAndOperation() {
             *For more on digital resilience, visit our{" "}
             <Link to="/Managing-cyber-security-risks" className="cyber-link">
               cybersecurity
-            </Link> sub-page.
+            </Link>{" "}
+            sub-page.
           </p>
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>
               Responsiveness – <br className="mobile-break" />
-              Ensuring Post-Event Performance of Infrastructure Assets and
-              Systems:
-            </strong>{" "}
+              Ensuring post-event performance of infrastructure assets and
+              systems
+            </strong>{" "} <br />
             Infrastructure practitioners and planners are increasingly
             recognizing the importance of integrating key resilience strategies
             such as <strong>redundancy</strong>, which involves alternate
@@ -480,7 +485,9 @@ export default function ResilientDesignAndOperation() {
                   <strong>
                     Incorporating Resilience into Infrastructure Prioritization:{" "}
                     Application to Japan's Road Transport Sector{" "}
-                  </strong><br />World Bank
+                  </strong>
+                  <br />
+                  World Bank
                 </p>
               }
               buttonText="Report"
@@ -504,7 +511,9 @@ export default function ResilientDesignAndOperation() {
               image="images/qii4/ResilientDesignAndOperation/Building Back Better.png"
               title={
                 <p>
-                  <strong>Building Back Better </strong><br />GFDRR
+                  <strong>Building Back Better </strong>
+                  <br />
+                  GFDRR
                 </p>
               }
               buttonText="Report"
@@ -535,7 +544,8 @@ export default function ResilientDesignAndOperation() {
                     Functional Recovery of Lifeline Infrastructure System
                     Services{" "}
                   </strong>{" "}
-                  <br />National Institute of Standards and Technology
+                  <br />
+                  National Institute of Standards and Technology
                 </p>
               }
               buttonText="Publication"
@@ -560,7 +570,9 @@ export default function ResilientDesignAndOperation() {
                   <strong>
                     Infrastructure Toolkit: Strengthening Critical
                     Infrastructure Resilience
-                  </strong><br />Organisation for Economic Co-operation and Development
+                  </strong>
+                  <br />
+                  Organisation for Economic Co-operation and Development
                 </p>
               }
               buttonText="Tool"
@@ -581,7 +593,9 @@ export default function ResilientDesignAndOperation() {
                   <strong>
                     Building Resilience: New Strategies for Strengthening
                     Infrastructure Resilience and Maintenance{" "}
-                  </strong><br />Organisation for Economic Co-operation and Development
+                  </strong>
+                  <br />
+                  Organisation for Economic Co-operation and Development
                 </p>
               }
               buttonText="Policy Paper"

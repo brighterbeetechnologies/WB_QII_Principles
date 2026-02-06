@@ -1,0 +1,144 @@
+.Govtech_For_Infrastructure .list-title {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.Govtech_For_Infrastructure .icon-text-cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+  gap: 2rem;
+}
+
+.Govtech_For_Infrastructure .icon-text-cards {
+	display: flex;
+	/* flex-wrap: wrap; */
+	gap: 2rem;
+	width: calc(50% - 2rem);
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+
+.Govtech_For_Infrastructure .icon-img {
+	align-items: center;
+	text-align: center;
+}
+
+.Govtech_For_Infrastructure .icon-img img{
+	height: 40px;
+	width: 40px;
+}
+
+.Govtech_For_Infrastructure .icon-text-cards-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 400px;
+}
+
+.icon-text-cards-title {
+  font-weight: 700;
+}
+
+.icon-text-cards-detail ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+@media (max-width: 649px) {
+  .Govtech_For_Infrastructure .Header3 .container {
+    padding-bottom: 0;
+  }
+
+  .container.noPTop {
+    padding-top: 1rem;
+  }
+  .Govtech_For_Infrastructure .hero {
+    height: 360px;
+  }
+
+  .Govtech_For_Infrastructure .hero-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .Govtech_For_Infrastructure .hero-content {
+    bottom: 2rem;
+  }
+
+  .Govtech_For_Infrastructure .hero-content p {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .Govtech_For_Infrastructure .list-title {
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .Govtech_For_Infrastructure .list-title {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Govtech_For_Infrastructure .list-title {
+    text-align: left;
+  }
+}
+
+.Govtech_For_Infrastructure .border {
+  border: 1px dashed rgba(134, 134, 134, 0.5);
+  margin: 2rem 1rem;
+}
+
+.VCard-cnt {
+  margin-bottom: 2rem;
+}
+
+.v-small-text {
+  text-align: center;
+  margin: 1rem 0 0 0;
+  font-size: 0.9375rem;
+}
+
+@media (min-width: 1024px) {
+
+  .Govtech_For_Infrastructure .mTop2 {
+    margin: 3rem 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Govtech_For_Infrastructure .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .Govtech_For_Infrastructure .mTop2 {
+    margin: 3rem 0;
+  }
+  .Govtech_For_Infrastructure .hero {
+    height: 640px;
+  }
+  .Govtech_For_Infrastructure .hero-content h3 {
+    font-size: 3.25rem;
+  }
+
+  .Govtech_For_Infrastructure .hero-content p {
+    font-size: 1.125rem;
+  }
+  .Govtech_For_Infrastructure .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 2.5rem 0;
+  }
+}
+
+@media (min-width: 1600px) {
+}

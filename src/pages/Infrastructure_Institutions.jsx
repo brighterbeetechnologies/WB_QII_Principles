@@ -14,9 +14,9 @@ export default function Infrastructure_Institutions() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/qii5", title: "QII.6 Governance" },
+          { path: "/qii6", title: "QII.6 Governance" },
           {
-            path: "/Infrastructure-Institutions.",
+            path: "/Infrastructure-Institutions",
             title: "Infrastructure Institutions",
           },
         ],
@@ -24,7 +24,7 @@ export default function Infrastructure_Institutions() {
     );
   }, []);
   return (
-    <div className="Infrastructure_Institutions.">
+    <div className="Infrastructure_Institutions">
       <section className="color-light">
         <Header3
           img="images/qii6/Infrastructure-Institutions/QII6-Infrastructure-Institutions.png"
@@ -65,7 +65,7 @@ export default function Infrastructure_Institutions() {
           </h1>
           <NumSteps num="1">
             <strong>
-              Legal and Regulatory Frameworks for Infrastructure –{" "}
+              Legal and regulatory frameworks for infrastructure {" "}
             </strong>
             <br />
             Strong legal and regulatory frameworks are essential to ensure
@@ -100,7 +100,7 @@ export default function Infrastructure_Institutions() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Coordination Across Government – </strong>
+            <strong>Coordination across government </strong>
             <br />
             Infrastructure is often complex, cutting across sector and
             institutional boundaries. Effective coordination requires structured
@@ -138,7 +138,7 @@ export default function Infrastructure_Institutions() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Transparency and Accountability – </strong>
+            <strong>Transparency and accountability  </strong>
             <br />
             Transparency and Accountability – Transparency and accountability
             are critical for integrity in infrastructure planning and execution.
@@ -200,28 +200,14 @@ export default function Infrastructure_Institutions() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="4">
-            <strong>Strategic Planning – </strong>
+            <strong>Strategic planning </strong>
             <br />
-            Strategic long-term planning aligns infrastructure investments with national development goals to ensure that the scarce public resources are used where needed most.
+            Strategic long-term planning aligns infrastructure investments with
+            national development goals to ensure that the scarce public
+            resources are used where needed most.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
           <div className="VCard-cnt col-2">
-            <VCard
-              image="images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png"
-              title={
-                <p>
-                  <strong>
-                    OECD /IMF Reference Note
-                  </strong>
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf"
-            >
-              <p>
-                This note provides principles for developing strategic infrastructure planning frameworks that integrate long-term national priorities with project selection.
-              </p>
-            </VCard>
             <VCard
               image="images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png"
               title={
@@ -233,10 +219,32 @@ export default function Infrastructure_Institutions() {
               link="https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf"
             >
               <p>
-                This showcases integrated approaches to infrastructure planning in small island developing states, highlighting how countries can align infrastructure investments with climate resilience and sustainable development goals.
+                This showcases integrated approaches to infrastructure planning
+                in small island developing states, highlighting how countries
+                can align infrastructure investments with climate resilience and
+                sustainable development goals.
                 <br />
                 <br />
-                Saint Lucia's National Infrastructure Assessment demonstrates integrated long-term planning through cross-sectoral analysis and stakeholder engagement to strategically prioritize climate-resilient investments supporting national development.
+                Saint Lucia's National Infrastructure Assessment demonstrates
+                integrated long-term planning through cross-sectoral analysis
+                and stakeholder engagement to strategically prioritize
+                climate-resilient investments supporting national development.
+              </p>
+            </VCard>
+            <VCard
+              image="images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png"
+              title={
+                <p>
+                  <strong>OECD /IMF Reference Note</strong>
+                </p>
+              }
+              buttonText="Guidance"
+              link="https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf"
+            >
+              <p>
+                This note provides principles for developing strategic
+                infrastructure planning frameworks that integrate long-term
+                national priorities with project selection.
               </p>
             </VCard>
           </div>

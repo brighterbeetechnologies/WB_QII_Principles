@@ -71,8 +71,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </Header3>
         <div className="container internal-pages-container">
           <NumSteps num="1">
-            <strong>Green Design </strong>
-            <br />
+            <strong>Green design </strong>
             <br />
             Green design aims to create environmentally responsible and
             resource-efficient infrastructure throughout its lifecycle – from
@@ -147,8 +146,6 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                 sustainability.{" "}
               </p>
             </VCard>
-          </div>
-          <div className="VCard-cnt col2">
             <VCard
               // image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Resilient Infrastructure and Buildings Hub.png"
               image="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png"
@@ -194,11 +191,11 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
               </p>
             </VCard>
           </div>
+
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Nature-Based Infrastructure Solutions </strong>
+            <strong>Nature-based infrastructure solutions </strong>
             <br />
-            <br></br>
             Nature-based solutions (NbS) are a key subset of green
             infrastructure, leveraging ecosystems to enhance climate resilience,
             reduce disaster risk, and restore environmental health, often
@@ -210,7 +207,10 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           <div className="ico-text-card-1-container">
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/clean-water.svg" alt="" />
+                <img
+                  src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/clean-water.svg"
+                  alt=""
+                />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">CLEAN WATER:</p>
@@ -225,7 +225,10 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/EROSION-CONTROL.svg" alt="" />
+                <img
+                  src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/EROSION-CONTROL.svg"
+                  alt=""
+                />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">EROSION CONTROL:</p>
@@ -241,7 +244,10 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/FLOOD-MANAGEMENT.svg" alt="" />
+                <img
+                  src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/FLOOD-MANAGEMENT.svg"
+                  alt=""
+                />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">FLOOD MANAGEMENT:</p>
@@ -259,7 +265,10 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/COASTAL-PROTECTION.svg" alt="" />
+                <img
+                  src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/COASTAL-PROTECTION.svg"
+                  alt=""
+                />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">COASTAL PROTECTION:</p>
@@ -277,7 +286,10 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
-                <img src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/WATER-SECURTY.svg" alt="" />
+                <img
+                  src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/WATER-SECURTY.svg"
+                  alt=""
+                />
               </div>
               <div className="ico-text-card-1-description">
                 <p className="ico-text-card-1-title">WATER SECURTY:</p>

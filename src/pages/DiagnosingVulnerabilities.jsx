@@ -89,16 +89,16 @@ export default function DiagnosingVulnerabilities() {
             reliable services.
           </p>
           <NumSteps num="1">
-            <strong>Hazards and Exposure Assessments</strong> –
+            <strong>Hazards and exposure assessments</strong>
             <br /> <br className="mobile-break" />
             This involves mapping the full range of natural and man-made threats
             or hazards that could affect infrastructure—such as floods,
-            droughts, earthquakes, cyberattacks—and understanding where these
+            droughts, earthquakes, cyberattacks and understanding where these
             assets are geographically and how impacted or exposed they are to
             these threats.
           </NumSteps>
           <div className="VCard-cnt col3">
-             <VCard
+            <VCard
               image="images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png"
               title={
                 <p>
@@ -162,7 +162,9 @@ export default function DiagnosingVulnerabilities() {
               image="images/qii4/updated/GDFR_Thinkhazard.png"
               title={
                 <p>
-                  <strong>ThinkHazard!</strong><br />GFDRR 
+                  <strong>ThinkHazard!</strong>
+                  <br />
+                  GFDRR
                 </p>
               }
               buttonText="Tool"
@@ -179,7 +181,7 @@ export default function DiagnosingVulnerabilities() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Asset and System Vulnerability Assessments </strong> –
+            <strong>Asset and system vulnerability assessments </strong>
             <br /> <br className="mobile-break" />
             This involves examining the physical condition, design standards,
             and interdependencies of infrastructure systems to determine how
@@ -194,7 +196,7 @@ export default function DiagnosingVulnerabilities() {
                 <p>
                   <strong>Vanuatu Post-Disaster Needs Assessment </strong>{" "}
                   <br />
-                 GFDRR
+                  GFDRR
                 </p>
               }
               buttonText="Case study"
@@ -229,12 +231,14 @@ export default function DiagnosingVulnerabilities() {
               </p>
             </VCard> */}
 
-               <VCard
+            <VCard
               image="images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png"
               title={
                 <p>
-                  
-                  <strong>Enhancing the Climate Resilience of Africa's Infrastructure</strong> <br />
+                  <strong>
+                    Enhancing the Climate Resilience of Africa's Infrastructure
+                  </strong>{" "}
+                  <br />
                   ​World Bank
                 </p>
               }
@@ -272,7 +276,7 @@ export default function DiagnosingVulnerabilities() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Risk-Informed Decision-Making​</strong> 
+            <strong>Risk-informed decision-making​</strong>
             <br /> <br className="mobile-break" />
             This involves translating hazard and vulnerability assessments into
             actionable choices. By quantifying risks in terms of probability and
@@ -308,7 +312,8 @@ export default function DiagnosingVulnerabilities() {
               title={
                 <p>
                   <strong>
-                    Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1){" "}
+                    Initial Sea Level Rise Risk Assessment for Nauru (Chapter
+                    5.6.1){" "}
                   </strong>{" "}
                   <br />
                   Pacific Regional Infrastructure Facility
@@ -364,10 +369,11 @@ export default function DiagnosingVulnerabilities() {
               title={
                 <p>
                   <strong>
-                    Global Infrastructure Risk Model and Resilience Index (GIRI){" "}
+                    Global Infrastructure Risk Model and Resilience Index
+                    (GIRI){" "}
                   </strong>{" "}
                   <br />
-                   Coalition for Disaster Resilient Infrastructure
+                  Coalition for Disaster Resilient Infrastructure
                 </p>
               }
               buttonText="Tools"

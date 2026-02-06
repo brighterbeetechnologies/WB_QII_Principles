@@ -72,9 +72,9 @@ export default function GreenFinancingforInfrastructure() {
             the nature of the project, but also the availability of green
             finance instruments in the specific country or region.
           </p>
+          <br />
           <NumSteps num="1">
-            <strong>Define and Meet Eligibility for Green Finance</strong>
-            <br />
+            <strong>Define and meet eligibility for green finance</strong>
             <br />
             Sustainable finance taxonomies set common definitions for what
             counts as green or sustainable investments. They help prioritize
@@ -157,9 +157,8 @@ export default function GreenFinancingforInfrastructure() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Identify Green Financing Instruments</strong>
+            <strong>Identify green financing instruments</strong>
             <br />
-            <br></br>
             Green bonds, sustainability-linked loans, and carbon credit schemes
             are just some examples of financing instruments which direct capital
             towards projects with clear environmental benefits. Such instruments

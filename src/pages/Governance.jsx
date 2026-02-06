@@ -135,7 +135,7 @@ export default function Governance() {
             step="1"
             title={
               <p>
-                <strong>Clear Institutional Roles​</strong>
+                <strong>Clear institutional roles​</strong>
                 <br /> <br className="mobile-break" />
                 This means assigning responsibility for LCC at each stage of the
                 infrastructure life cycle - from planning and budgeting, to
@@ -189,7 +189,7 @@ export default function Governance() {
             title={
               <p>
                 <strong>
-                  Requirement for LCC at Every Step in Procedures and Standards
+                  Requirement for LCC at every step in procedures and standards
                 </strong>{" "}
                 <br /> <br className="mobile-break" />
                 This includes mandating life-cycle cost analysis in project
@@ -245,7 +245,7 @@ export default function Governance() {
             title={
               <p>
                 <strong>
-                  Strengthened Transparency and Reporting Mechanisms
+                  Strengthened transparency and reporting mechanisms
                 </strong>{" "}
                 <br /> <br className="mobile-break" />
                 Regular audits, open data on costs and performance, and clear
@@ -293,7 +293,7 @@ export default function Governance() {
             step="4"
             title={
               <p>
-                <strong>Effective Capacity Building</strong>
+                <strong>Effective capacity building</strong>
                 <br /> <br className="mobile-break" />
                 Staff and stakeholders must be trained to use LCC tools,
                 interpret cost and performance data, and apply LCC best
@@ -351,7 +351,7 @@ export default function Governance() {
             title={
               <p>
                 <strong>
-                  Long-term Performance Rewarded with Incentives in Contracts 
+                  Long-term performance rewarded with incentives in contracts 
                 </strong>{" "}
                 <br /> <br className="mobile-break" />
                 By updating regulatory frameworks to allow for innovative

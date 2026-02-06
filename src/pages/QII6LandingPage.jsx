@@ -481,8 +481,8 @@ export default function QII2LandingPage() {
                   {
                     show: true,
                     category: "QII Principle",
-                    title: "QII.2 Economic Efficiency",
-                    id: 1,
+                    title: "QII.6 Governance",
+                    id: 5,
                   },
                   {
                     show: true,
