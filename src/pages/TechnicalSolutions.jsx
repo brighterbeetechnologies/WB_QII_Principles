@@ -145,7 +145,7 @@ export default function TechnicalSolutions() {
             </p>
           </div>
           <NumSteps num="1">
-            <strong>Reducing construction costs</strong>
+            <strong>Reducing Construction Costs</strong>
             <br /> <br className="mobile-break" />
             Using innovative materials, modern construction methods, and green
             alternatives to conventional ‘gray’ infrastructure, such as
@@ -237,7 +237,7 @@ export default function TechnicalSolutions() {
           <div className="border-dash"></div>
 
           <NumSteps num="2">
-            <strong>Reducing operational costs</strong>
+            <strong>Reducing Operational Costs</strong>
             <br /> <br className="mobile-break" />
             Real-time reporting, data analytics, and visualization tools can
             transform large volumes of sensor and monitoring data into
@@ -304,7 +304,7 @@ export default function TechnicalSolutions() {
           <div className="border-dash"></div>
 
           <NumSteps num="3">
-            <strong>Increasing the life of assets </strong>
+            <strong>Increasing the Life of Assets </strong>
             <br /> <br className="mobile-break" />
             Predictive maintenance technologies, smart monitoring systems, and
             automated inspection tools can help identify wear and degradation

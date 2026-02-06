@@ -71,7 +71,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </Header3>
         <div className="container internal-pages-container">
           <NumSteps num="1">
-            <strong>Green design </strong>
+            <strong>Green Design </strong>
             <br />
             Green design aims to create environmentally responsible and
             resource-efficient infrastructure throughout its lifecycle – from
@@ -194,7 +194,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
 
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Nature-based infrastructure solutions </strong>
+            <strong>Nature-based Infrastructure Solutions </strong>
             <br />
             Nature-based solutions (NbS) are a key subset of green
             infrastructure, leveraging ecosystems to enhance climate resilience,

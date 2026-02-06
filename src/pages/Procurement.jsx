@@ -169,7 +169,7 @@ export default function Procurement() {
           </div>
           <div className="link-text mTop"></div>
           <NumSteps num="1">
-            <strong>Incentive structures</strong>
+            <strong>Incentive Structures</strong>
             <br /> <br className="mobile-break" />
             Performance-Based Contracts (PBCs) can be used to link contractors’
             payments to long-term performance and efficiency.
@@ -238,7 +238,7 @@ export default function Procurement() {
           </div>
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Innovative technologies</strong>
+            <strong>Innovative Technologies</strong>
             <br /> <br className="mobile-break" />
             Procurement processes can incentivize the adoption of innovative
             technologies to enable cost saving during construction and O&M.

@@ -524,8 +524,8 @@ export default function ResilientDesignAndOperation() {
           <NumSteps num="1">
             <strong>
               Prevention -
-              <br className="mobile-break" /> Applying resilience standards to
-              planning and design
+              <br className="mobile-break" /> Applying Resilience Standards to
+              Planning and Design
             </strong>{" "}
             <br />
             Integrating design standards and climate considerations from the
@@ -733,8 +733,8 @@ export default function ResilientDesignAndOperation() {
           <NumSteps num="2">
             <strong>
               Adaptation –
-              <br className="mobile-break" /> Integrating nature-based solutions
-              and digital technology into design and operations
+              <br className="mobile-break" /> Integrating Nature-based Solutions
+              and Digital Technology into Design and Operations
             </strong>{" "}
             <br />
             Embedding technology, routine monitoring, maintenance protocols, and
@@ -888,8 +888,8 @@ export default function ResilientDesignAndOperation() {
           <NumSteps num="3">
             <strong>
               Responsiveness – <br className="mobile-break" />
-              Ensuring post-event performance of infrastructure assets and
-              systems
+              Ensuring Post-event Performance of Infrastructure Assets and
+              Systems
             </strong>{" "}
             <br />
             Infrastructure practitioners and planners are increasingly

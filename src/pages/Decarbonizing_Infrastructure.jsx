@@ -90,7 +90,7 @@ export default function Decarbonizing_Infrastructure() {
         </section>
         <div className="container internal-pages-container color-dark">
           <NumSteps num="1">
-            <strong>Decarbonization strategies</strong>
+            <strong>Decarbonization Strategies</strong>
             <br />
             At a national level, decarbonization begins with understanding where
             emissions are concentrated. The World Bank’s Climate Change and
@@ -156,7 +156,7 @@ export default function Decarbonizing_Infrastructure() {
           </div>
           <div className="container internal-pages-container color-light">
           <NumSteps num="2">
-            <strong>Decarbonization solutions</strong>
+            <strong>Decarbonization Solutions</strong>
             <br />
             Decarbonization will take on very different forms across different
             sectors, and technology will play a key role.
