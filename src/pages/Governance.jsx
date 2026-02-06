@@ -152,8 +152,8 @@ export default function Governance() {
             link="https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html"
           >
             <div className="description">
-              Japan <br />
-              <strong>Resilience in Infrastructure Prioritization: Japan’s Road Transport Sector</strong>
+              Hungary  <br />
+              <strong>DuboCalc and CO<sub>2</sub> Performance Ladder</strong>
             </div>
             <p>
               Demonstrates how dedicated governance structures support long-term

@@ -22,7 +22,15 @@ export default function VCard({
         <div className="v-btn-cnt">
           {/* <strong></strong> */}
           <span>{buttonText}</span>
-          <a href={link} target="_blank" className="VCard-btn ">
+          {/* <a href={link} target="_blank" className="VCard-btn ">
+            <span className="icon-arrow">&#xe900;</span>
+          </a> */}
+          <a
+            href={link || undefined}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`VCard-btn ${!link ? "disabled" : ""}`}
+          >
             <span className="icon-arrow">&#xe900;</span>
           </a>
         </div>
@@ -30,7 +38,15 @@ export default function VCard({
           <div className="v-btn-cnt">
             <span>{buttonText2}</span>
             {/* <strong>{buttonText2}</strong> */}
-            <a href={link2} target="_blank" className="VCard-btn ">
+            {/* <a href={link2} target="_blank" className="VCard-btn ">
+              <span className="icon-arrow">&#xe900;</span>
+            </a> */}
+            <a
+              href={link2 || undefined}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`VCard-btn ${!link2 ? "disabled" : ""}`}
+            >
               <span className="icon-arrow">&#xe900;</span>
             </a>
           </div>

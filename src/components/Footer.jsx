@@ -17,13 +17,16 @@ const Footer = () => {
               infrastructure development worldwide.
             </p> */}
             <p>
-              The Quality Infrastructure Investment
-              principles adopted by the G20 at the 2019 Osaka Summit. These
-              principles guide sustainable, resilient, and inclusive
-              infrastructure development worldwide.
+              The Quality Infrastructure Investment principles were adopted by
+              the G20 at the 2019 Osaka Summit. These principles guide
+              sustainable, resilient, and inclusive infrastructure development
+              worldwide.
             </p>
             <div className="footer-partnership">
               <span>A World Bank and Government of Japan Partnership</span>
+            </div>
+            <div className="footer-japan-logo">
+              <img className="footer-logo-2" src="images/jcoflag.svg" />
             </div>
           </div>
 

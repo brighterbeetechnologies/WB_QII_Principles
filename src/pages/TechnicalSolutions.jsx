@@ -139,7 +139,8 @@ export default function TechnicalSolutions() {
               </a>
               .{" "}
             </p>
-            <p className="mTop2">
+            <div className="border-dash"></div>
+            <p className="">
               <strong>Some examples of common uses include:</strong>
             </p>
           </div>

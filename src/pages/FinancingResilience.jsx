@@ -131,13 +131,14 @@ export default function FinancingResilience() {
         </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container internal-pages-container">
-          <p className="list-title">
+          <p className="link-text">
             Overcoming these barriers requires embedding resilience into
             infrastructure financing frameworks and deploying innovative
             financing instruments. Systematic risk screening and appraisal can
             also ensure resilience benefits are captured, quantified, and used
             to prioritize investments.
           </p>
+          <div className="border-dash"></div>
           <NumSteps num="1">
             <strong>Screening projects with sustainability standards </strong>{" "}
             <br />

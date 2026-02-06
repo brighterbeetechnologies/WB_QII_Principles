@@ -118,7 +118,7 @@ export default function QII2CaseStudy1() {
                 )
               }
             >
-              View detailed case study
+              View the full publication​
               <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
             {/* <div

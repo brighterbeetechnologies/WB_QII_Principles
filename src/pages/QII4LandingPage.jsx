@@ -358,7 +358,7 @@ export default function QII4LandingPage() {
               <div className="landingpage-description">
                 <p className="light-font">
                   Resilience in infrastructure refers to the capacity to
-                  withstand, adapt to, and recover from disruptions—whether
+                  withstand, adapt to, and recover from disruptions - whether
                   caused by natural disasters, climate change, or human-made
                   risks. Resilience ensures reliable infrastructure service
                   delivery and reduces the economic disruptions caused by
@@ -379,7 +379,7 @@ export default function QII4LandingPage() {
             <div className="center-header">
               <h3 className="light-font mBottom sub-text ">
                 To turn the principle of 'Resilience' into practice, we focus on
-                four key areas :
+                four key areas:
               </h3>
             </div>
             <div className="sub-pages">

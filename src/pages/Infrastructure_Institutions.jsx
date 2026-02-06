@@ -63,6 +63,7 @@ export default function Infrastructure_Institutions() {
           <h1 className="link-text">
             The Foundations for Excellence in Governance
           </h1>
+          <div className="border-dash"></div>
           <NumSteps num="1">
             <strong>
               Legal and regulatory frameworks for infrastructure {" "}

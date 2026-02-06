@@ -207,7 +207,7 @@ export const appDataSlice = createSlice({
           "https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html",
         type: "Case Study",
         title:
-          "Resilience in Infrastructure Prioritization: Japan’s Road Transport Sector",
+          "Hungary DuboCalc and CO2 Performance Ladder ",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -822,7 +822,7 @@ export const appDataSlice = createSlice({
           "https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf",
         type: "Guidance",
         title:
-          "Investment in Infrastructure City Resilience Program, Global Facility for Disaster Reduction and Recovery",
+          "Investment in Infrastructure GFDRR",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -873,7 +873,7 @@ export const appDataSlice = createSlice({
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2020-02/World Bank_Municipal PPP_Module 16_Content.pdf",
         type: "Resources",
         title:
-          "Harnessing Land Value Capture Municipal Public-Private Partnership Framework Global Platform for Sustainable Cities",
+          "Harnessing Land Value Capture: Municipal Public-Private Partnership Framework Global Platform for Sustainable Cities",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -1684,7 +1684,7 @@ export const appDataSlice = createSlice({
         stage: 2,
         region: 1,
         industry: 2,
-        image: "images/qii4/updated/Solomon-Island-cover.png",
+        image: "images/qii4/updated/QII-4-in-Action.png",
       },
       {
         id: 1,
@@ -1837,7 +1837,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean",
         type: "Case study",
-        title: "IADB: AI and deep learning for identifying pavement failures",
+        title: "IADB: AI and Deep Learning for Identifying Pavement Failures",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2300,7 +2300,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725",
         type: "Report",
-        title: "A Catalogue of Nature-Based Solutions for Urban Resilience",
+        title: "Catalogue of Nature-Based Solutions for Urban Resilience",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2318,7 +2318,7 @@ export const appDataSlice = createSlice({
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/04/digital-security-and-resilience-in-critical-infrastructure-and-essential-services_5593c149/a7097901-en.pdf",
         type: "Report",
         title:
-          "Digital Security and Resilience in Critical Infrastructure and Essential Services",
+          "Digital Security and Resilience in Critical Infrastructure and Essential Services Organisation for Economic Co-operation and Development​",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2335,7 +2335,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/12/digital-public-infrastructure-for-digital-governments_11fe17d9/ff525dc8-en.pdf",
         type: "Report",
-        title: "Digital Public Infrastructure for Digital Governments",
+        title: "Digital Public Infrastructure for Digital Governments Organisation for Economic Co-operation and Development​",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3167,7 +3167,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/to-have-and-have-not-how-to-bridge-the-gap-in-opportunities_f642138a/dec143ad-en.pdf",
-        type: "Tools",
+        type: "Tool",
         title: "To Have and Have Not – How to Bridge the Gap in Opportunities",
         highlight: 0,
         target: "_blank",
@@ -3183,7 +3183,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source",
-        type: "Tools",
+        type: "Tool",
         title:
           "Asian Development Bank (ADB) — Gender Equality and Social Inclusion (GESI) Guidance for Infrastructure",
         highlight: 0,
@@ -3253,7 +3253,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/383011492423734099/the-world-bank-environmental-and-social-framework",
-        type: "Tools",
+        type: "Tool",
         title: "Environmental and Social Framework",
         highlight: 0,
         target: "_blank",
@@ -3270,7 +3270,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
-        type: "Tools",
+        type: "Tool",
         title: "Inclusive Infrastructure – Policy, Regulation & Standards",
         highlight: 0,
         target: "_blank",
@@ -3470,7 +3470,7 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths: "https://www.responsiblecontracting.org/",
-        type: "Tools",
+        type: "Tool",
         title: "Responsible Contracting Project (RCP) Toolkit",
         highlight: 0,
         target: "_blank",
@@ -3570,7 +3570,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
-        type: "Tools",
+        type: "Tool",
         title:
           "OECD Infrastructure Toolkit: Ensuring Transparent, Systematic and Effective Stakeholder Participation",
         highlight: 0,

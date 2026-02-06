@@ -31,7 +31,7 @@ export default function CostRecovery() {
     {
       id: 2,
       title:
-        "Harnessing Land Value Capture Municipal Public-Private Partnership Framework : ",
+        "Harnessing Land Value Capture: Municipal Public-Private Partnership Framework",
       org: "Global Platform for Sustainable Cities",
       description:
         "This report introduces concepts of land value capture and describes different instruments for climate-related funding and financing of projects. It provides brief examples of solutions developed in specific energy and agricultural sub-sectors.",
@@ -60,7 +60,7 @@ export default function CostRecovery() {
     {
       id: 4,
       title:
-        "Banking on Cities : Investing in Resilient and Low-Carbon Urbanization",
+        "Banking on Cities: Investing in Resilient and Low-Carbon Urbanization",
       description:
         "This report provides a stock take of various cost recovery mechanisms for low carbon cities.",
       org: "World Bank",
@@ -313,8 +313,7 @@ export default function CostRecovery() {
                 <p>
                   <strong>Investment in Infrastructure</strong>
                   <br />
-                  City Resilience Program, Global Facility for Disaster
-                  Reduction and Recovery
+                  GFDRR
                 </p>
               }
               buttonText="Guidance"

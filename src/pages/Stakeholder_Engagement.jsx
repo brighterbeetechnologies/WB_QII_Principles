@@ -184,7 +184,7 @@ export default function Stakeholder_Engagement() {
                   </strong>
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/"
             >
               <p>

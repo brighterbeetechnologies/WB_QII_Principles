@@ -89,11 +89,12 @@ export default function ManagingCyberSecurityRisks() {
         </Header3>
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container internal-pages-container">
-          <p className="list-title">
+          <p className="link-text">
             The following resources provide more details on the key
             interventions needed to systematically build cybersecurity into
             infrastructure planning, design and operations:
           </p>
+          <div className="border-dash"></div>
           <NumSteps num="1">
             <strong>Building a foundation for cybersecurity </strong> <br />
             This includes assessing cybersecurity maturity, developing
@@ -135,7 +136,8 @@ export default function ManagingCyberSecurityRisks() {
                 </p>
               }
               buttonText="Guidance"
-              link="pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf"
+              // link="pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf"
+              link={null}
             >
               <p>
                 The Cybersecurity Assessment Toolkit guides countries and

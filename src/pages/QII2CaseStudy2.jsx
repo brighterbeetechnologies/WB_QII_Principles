@@ -67,12 +67,12 @@ export default function QII2CaseStudy2() {
                     <ul>
                       <li>
                         Over US <strong>$ 4 billion</strong> is being invested
-                        in the Clean Ganga program1 to clean the Ganga River.
+                        in the Clean Ganga program to clean the Ganga River.
                       </li>
                       <li>
                         Includes US <strong>$ 1.5 billion</strong> in investment
                         through PPP projects, of which US$ 650 million will come
-                        from private sector sources2.
+                        from private sector sources.
                       </li>
                     </ul>
                   </div>
@@ -122,7 +122,7 @@ export default function QII2CaseStudy2() {
                 )
               }
             >
-              View detailed case study
+              View the full publication​
               <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
             {/* <div

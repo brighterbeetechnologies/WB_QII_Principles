@@ -205,7 +205,7 @@ export default function Project_Planning_And_Design() {
                   </strong>{" "}
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://www.responsiblecontracting.org/"
             >
               <p>

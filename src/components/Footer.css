@@ -107,6 +107,19 @@
   color: #ffffff;
 }
 
+.footer-japan-logo {
+  
+}
+
+.footer-logo-2 {
+  width: 100px;
+  height: 59px;
+  margin: 1rem 1rem 1rem 0;
+  padding: 1rem;
+  background-color: #ffff;
+  border-radius: 17px;
+}
+
 @media (max-width: 900px) {
   .footer-container {
     grid-template-columns: 1fr 1fr;
@@ -114,6 +127,12 @@
 
   .footer-about {
     grid-column: span 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-logo-2 {
+    width: auto;
   }
 }
 

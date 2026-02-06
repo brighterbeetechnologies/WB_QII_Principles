@@ -56,6 +56,7 @@ export default function Policies_Standards_Regulation() {
             and the adaptation of policies to emerging needs and technologies,
             ensuring genuine equitable access and opportunity at every stage.
           </p>
+          <div className="border-dash"></div>
           <NumSteps num="1">
             <strong>Setting clear inclusivity strategies and goals </strong>
             <br />
@@ -75,7 +76,7 @@ export default function Policies_Standards_Regulation() {
                   </strong>{" "}
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/to-have-and-have-not-how-to-bridge-the-gap-in-opportunities_f642138a/dec143ad-en.pdf"
             >
               <p>
@@ -101,7 +102,7 @@ export default function Policies_Standards_Regulation() {
                   Asian Development Bank (ADB)
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source"
             >
               <p>
@@ -204,7 +205,7 @@ export default function Policies_Standards_Regulation() {
                   <strong>Environmental and Social Framework</strong>
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/383011492423734099/the-world-bank-environmental-and-social-framework"
             >
               <p>
@@ -224,7 +225,7 @@ export default function Policies_Standards_Regulation() {
                   <br />
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/"
             >
               <p>

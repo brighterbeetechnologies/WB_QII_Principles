@@ -80,7 +80,7 @@ export default function DiagnosingVulnerabilities() {
 
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container internal-pages-container">
-          <p className="list-title">
+          <p className="link-text">
             There are three main components to vulnerability assessment: (i)
             identifying hazards and exposures, (ii) evaluating asset and system
             vulnerabilities and (iii) applying risk-informed decision making.
@@ -88,6 +88,7 @@ export default function DiagnosingVulnerabilities() {
             guides investment priorities to strengthen resilience and ensure
             reliable services.
           </p>
+          <div className="border-dash"></div>
           <NumSteps num="1">
             <strong>Hazards and exposure assessments</strong>
             <br /> <br className="mobile-break" />
@@ -123,7 +124,7 @@ export default function DiagnosingVulnerabilities() {
               title={
                 <p>
                   Japan <br />
-                  <strong>Learning from Mega-disasters: </strong> <br />
+                  <strong>Learning from Megadisasters </strong> <br />
                   World Bank
                 </p>
               }
@@ -376,7 +377,7 @@ export default function DiagnosingVulnerabilities() {
                   Coalition for Disaster Resilient Infrastructure
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://giri.unepgrid.ch/  "
             >
               <p>
@@ -394,7 +395,7 @@ export default function DiagnosingVulnerabilities() {
                   European Commission
                 </p>
               }
-              buttonText="Tools"
+              buttonText="Tool"
               link="https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Climate-Change/INFORM-Climate-Change-Tool"
             >
               <p>

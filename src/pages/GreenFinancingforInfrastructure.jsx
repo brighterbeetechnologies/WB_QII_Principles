@@ -72,7 +72,7 @@ export default function GreenFinancingforInfrastructure() {
             the nature of the project, but also the availability of green
             finance instruments in the specific country or region.
           </p>
-          <br />
+          <div className="border-dash"></div>
           <NumSteps num="1">
             <strong>Define and meet eligibility for green finance</strong>
             <br />
