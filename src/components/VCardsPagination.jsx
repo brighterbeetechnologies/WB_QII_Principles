@@ -18,6 +18,8 @@ const VCardsPagination = ({ cardsData }) => {
             title={card.title}
             buttonText={card.buttonText}
             link={card.link}
+            highlight={card.highlight}
+            link2={card.link2}
           >
             {card.content}
           </VCard>

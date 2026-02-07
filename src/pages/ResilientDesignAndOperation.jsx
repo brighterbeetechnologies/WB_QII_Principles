@@ -8,7 +8,6 @@ import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Link } from "react-router-dom";
-import { Pagination, ConfigProvider } from "antd";
 import { useState } from "react";
 import VCardsPagination from "../components/VCardsPagination";
 

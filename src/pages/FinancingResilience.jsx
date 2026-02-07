@@ -9,6 +9,7 @@ import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Link } from "react-router-dom";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function FinancingResilience() {
   const slidesData = [
@@ -36,12 +37,12 @@ export default function FinancingResilience() {
     {
       id: 0,
       country: false,
-      title:
-        "Climate Toolkits for Infrastructure PPPs",
+      title: "Climate Toolkits for Infrastructure PPPs",
       org: "World Bank",
       description:
         "This toolkit aims to guide practitioners on incorporating a climate lens into PPPs to enhance climate resilience.",
-      img_path: "images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png",
+      img_path:
+        "images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png",
       path: "https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps",
       target: "_blank",
     },
@@ -53,7 +54,8 @@ export default function FinancingResilience() {
       org: "World Bank",
       description:
         "Mobilizing support for resilient transport projects also requires a compelling investment case grounded in measurable targets, cost-benefit analyses, and clearly defined performance indicators. Private sector participation can significantly contribute to this agenda by offering technical expertise,  financing, and lifecycle efficiency, especially when resilience is built into project design and contracts from the outset.  Selecting the right PSP models and funding mechanisms, including green bonds and concessional finance, is key to making projects financially viable and scalable.",
-      img_path: "images/qii4/FinancingResilience/Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience Roads, Railways, and Urban Transport.png",
+      img_path:
+        "images/qii4/FinancingResilience/Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience Roads, Railways, and Urban Transport.png",
       path: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150011892",
       target: "_blank",
     },
@@ -65,7 +67,8 @@ export default function FinancingResilience() {
       org: false,
       description:
         "This report was prepared to inform G20 policy makers about approaches that can be taken to advance financing for climate-resilient infrastructure and was welcomed at the G20 Finance Ministers and Central Bank Governors meeting in July 2024. Organisation for Economic Co-operation and Development",
-      img_path: "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
+      img_path:
+        "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
       path: "https://www.oecd.org/en/publications/g20-oecd-report-on-approaches-for-financing-and-investing-in-climate-resilient-infrastructure_8f6d436a-en.html",
       target: "_blank",
     },
@@ -77,9 +80,153 @@ export default function FinancingResilience() {
       org: false,
       description:
         "This report explores the mechanisms that can provide greater incentives for both public and private sector for investment in strengthening resilience.",
-      img_path: "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
+      img_path:
+        "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
       path: "https://cdri.world/upload/biennial/CH4.1-CCRI.pdf",
       target: "_blank",
+    },
+  ];
+
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image: "images/qii4/FinancingResilience/Climate Bonds Initiative.png",
+      title: (
+        <p>
+          <strong>Climate Bonds Initiative</strong>
+        </p>
+      ),
+      buttonText: "Tool",
+      link: "https://www.climatebonds.net/files/documents/supporting-documents/Climate-Bonds_CBRT-v1-Final-003-User-View_Protected-version2-2-1.xlsx",
+      content: (
+        <p>
+          This spreadsheet provides an extensive list of investments and interim
+          screening criteria for resilient investments across a range of
+          sectors.
+        </p>
+      ),
+    },
+    {
+      image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
+      title: (
+        <p>
+          <strong>EU Taxonomy Compass</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass",
+      content: (
+        <p>
+          The EU's Taxonomy Regulation establishes six climate and environmental
+          objectives in order for an economic activity to qualify as
+          environmentally sustainable, and this includes objectives related to
+          resilience and adaptation. The EU’s Taxonomy Compass helps users
+          better understand the EU Taxonomy in a simple and practical manner.
+        </p>
+      ),
+    },
+    {
+      image: "images/qii4/FinancingResilience/FAST-Infra Label.png",
+      title: (
+        <p>
+          <strong>FAST-Infra Label</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://cdn.prod.website-files.com/64869a932dab4d8c36a88774/68a44d2347380f7f25d23d24_ST01_V2_05.12.2024.pdf",
+      content: (
+        <p>
+          The FAST-Infra Label Framework ensures uniformity and comparability in
+          evaluating sustainability performance of infrastructure across the
+          global infrastructure finance market. The label aggregates
+          international best practices on sustainable infrastructure financing
+          from around the world. The criteria for resilience and adaptation can
+          be found in page 46.
+        </p>
+      ),
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image: "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
+      title: (
+        <p>
+          <strong>Philippines Water Revolving Fund</strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case study",
+      link: "https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf",
+      content: (
+        <p>
+          The PWRF blends Official Development Assistance (ODA) and domestic
+          public funds with commercial financing to lower borrowing rates, and
+          to market water and sanitation projects to private finance
+          institutions (PFIs).
+        </p>
+      ),
+    },
+    {
+      image: "",
+      title: (
+        <p>
+          <strong></strong>
+          <br />
+        </p>
+      ),
+      buttonText: "",
+      link: "",
+      content: <p></p>,
+    },
+    {
+      image: "",
+      title: (
+        <p>
+          <strong></strong>
+          <br />
+        </p>
+      ),
+      buttonText: "",
+      link: "",
+      content: <p></p>,
+    },
+    {
+      image: "",
+      title: (
+        <p>
+          <strong></strong>
+          <br />
+        </p>
+      ),
+      buttonText: "",
+      link: "",
+      content: <p></p>,
+    },
+    {
+      image: "",
+      title: (
+        <p>
+          <strong></strong>
+          <br />
+        </p>
+      ),
+      buttonText: "",
+      link: "",
+      content: <p></p>,
+    },
+    {
+      image: "",
+      title: (
+        <p>
+          <strong></strong>
+          <br />
+        </p>
+      ),
+      buttonText: "",
+      link: "",
+      content: <p></p>,
     },
   ];
 
@@ -161,7 +308,8 @@ export default function FinancingResilience() {
               ‘Resilient Design and Operations’
             </Link> sub-page.
           </p> */}
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/FinancingResilience/Climate Bonds Initiative.png"
               title={
@@ -218,7 +366,7 @@ export default function FinancingResilience() {
                 resilience and adaptation can be found in page 46.
               </p>
             </VCard>
-          </div>
+          </div> */}
 
           {/* <div className="border-dash"></div>
           <NumSteps num="2">
@@ -386,7 +534,6 @@ export default function FinancingResilience() {
               </p>
             </VCard>
           </div> */}
-
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>Innovative financing instruments </strong>
@@ -399,6 +546,7 @@ export default function FinancingResilience() {
             risks between investors and increase the likelihood of achieving
             target returns.
           </NumSteps>
+          <VCardsPagination cardsData={step2Cards} />
           <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/FinancingResilience/Philippine Water Revolving Fund.png"
@@ -522,7 +670,7 @@ export default function FinancingResilience() {
             Further Reading On Financing Resilience
           </h4> */}
           {/* <div className="VCard-cnt col3"> */}
-            {/* <VCard
+          {/* <VCard
               image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
               title={
                 <p>
@@ -541,7 +689,7 @@ export default function FinancingResilience() {
               </p>
             </VCard> */}
 
-            {/* <VCard
+          {/* <VCard
               image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
               title={
                 <p>
@@ -564,7 +712,9 @@ export default function FinancingResilience() {
       </section>
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">Further Reading On Financing Resilience</h2>
+          <h2 className="section-title light-font">
+            Further Reading On Financing Resilience
+          </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => {
               return (

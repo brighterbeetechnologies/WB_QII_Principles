@@ -52,7 +52,7 @@ export default function VCard({
           </div>
         )}
       </div>
-      {highlight && (
+      {highlight && ( 
         <div
           className="highlighted-badge"
           style={{

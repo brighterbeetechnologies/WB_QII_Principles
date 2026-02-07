@@ -4,7 +4,7 @@ import "./InternalPages.css";
 import Header3 from "../components/Header3";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
-
+import VCardsPagination from "../components/VCardsPagination";
 import HeaderCarousal from "../components/HeaderCarousal";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
@@ -62,35 +62,133 @@ export default function Procurement() {
       img_path: "images/procurement/resources/05.png",
       path: "https://www.iisd.org/publications/report/life-cycle-costing-sustainable-public-procurement-question-value",
     },
-    // {
-    //   id: 5,
-    //   title: "Life-Cycle Costing Guidance Note",
-    //   subTitle: "World Bank",
-    //   description: "Forthcoming",
-    //   img_path: "images/procurement/resources/06.png",
-    //   path: "",
-    // },
   ];
-  const slidesData = [
+  // const slidesData = [
+  //   {
+  //     img: "images/procurement/header_bg_1.png",
+  //     description:
+  //       "The procurement process sets the foundation for the economic efficiency of an infrastructure project. Procurement processes that create incentives to minimize life- cycle costs can lead to better value for money and reduce long-term expenses. Conversely, weak procurement practices, such as focusing solely on initial purchase price, can result in higher operational and maintenance costs over the asset's lifespan. ",
+  //     title: "Procurement",
+  //   },
+  //   {
+  //     img: "images/procurement/header_bg_2.png",
+  //     description:
+  //       "The procurement of infrastructure under Public- Private Partnerships (PPPs) can be an effective way to align incentives for cost efficiency over the course of the project. This alignment will be strongest under PPPs that include an extended Operations and Maintenance (O&M) phase and where the revenues of the private sector partner are linked directly to long-term performance.",
+  //     title: "Procurement",
+  //   },
+  //   {
+  //     img: "images/procurement/header_bg_3.png",
+  //     description:
+  //       "Such incentives may not be as strong for infrastructure projects using public procurement. However, in such cases, the evaluation criteria for construction contracts can still be structured to encourage bidders to factor life- cycle costing into the infrastructure design. More detailed guidance on this topic can be found in the Life- Cycle Costing Guidance Note.",
+  //     title: "Procurement",
+  //   },
+  // ];
+
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
     {
-      img: "images/procurement/header_bg_1.png",
-      description:
-        "The procurement process sets the foundation for the economic efficiency of an infrastructure project. Procurement processes that create incentives to minimize life- cycle costs can lead to better value for money and reduce long-term expenses. Conversely, weak procurement practices, such as focusing solely on initial purchase price, can result in higher operational and maintenance costs over the asset's lifespan. ",
-      title: "Procurement",
+      image: "images/procurement/IndiaGanga.png",
+      title: (
+        <p>
+          India <br />
+          <strong>Ganga River Wastewater Program</strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "pdf/Ganga_case_study.pdf",
+      highlight: 2,
+      content: (
+        <p>
+          Summarizes a procurement approach for a real-life project where
+          annuity payments were linked to long-term O&M performance.
+        </p>
+      ),
+    },
+
+    {
+      image: "images/procurement/Vietnam.png",
+      title: (
+        <p>
+          Vietnam <br />
+          <strong>Ho Chi Minh City PBCs</strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://www.ppiaf.org/documents/5629",
+      content: (
+        <p>
+          Demonstrates the use of Performance-Based Contracts (PBC) to
+          incentivize non-revenue water reduction.
+        </p>
+      ),
     },
     {
-      img: "images/procurement/header_bg_2.png",
-      description:
-        "The procurement of infrastructure under Public- Private Partnerships (PPPs) can be an effective way to align incentives for cost efficiency over the course of the project. This alignment will be strongest under PPPs that include an extended Operations and Maintenance (O&M) phase and where the revenues of the private sector partner are linked directly to long-term performance.",
-      title: "Procurement",
-    },
-    {
-      img: "images/procurement/header_bg_3.png",
-      description:
-        "Such incentives may not be as strong for infrastructure projects using public procurement. However, in such cases, the evaluation criteria for construction contracts can still be structured to encourage bidders to factor life- cycle costing into the infrastructure design. More detailed guidance on this topic can be found in the Life- Cycle Costing Guidance Note.",
-      title: "Procurement",
+      image: "images/procurement/ReferenceGuide.png",
+      title: (
+        <p>
+          <strong>
+            Reference Guide on Output Specifications for Quality Infrastructure
+          </strong>
+          <br />
+          Global Infrastructure Hub
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.gihub.org/infrastructure-output-specifications/",
+      content: (
+        <p>
+          Provides guidance on how quality infrastructure is incorporated in
+          output specifications of long-term infrastructure contracts.
+        </p>
+      ),
     },
   ];
+
+  const step2Cards = [
+    {
+      image: "images/procurement/Pre-Fabrication.png",
+      title: (
+        <p>
+          <strong>Pre-Fabrication Technology for Modular Construction</strong>
+          <br />
+          Global Infrastructure Hub
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://www.gihub.org/infrastructure-technology-use-cases/case-studies/pre-fabrication-technology-for-modular-construction/",
+      content: (
+        <p>
+          Reduces the cost and time taken to construct infrastructure projects
+          by using pre-fabricated and modular components of railways and road
+          bridges.
+        </p>
+      ),
+    },
+    {
+      image: "images/procurement/Disruptive.png",
+      title: (
+        <p>
+          <strong>Disruptive Technologies in Public Procurement</strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/522181612428427520/disruptive-technologies-in-public-procurement",
+      content: (
+        <p>
+          Provides guidance on how to integrate the use of technologies in
+          public procurement to enhance value-for-money and reduce total cost of
+          ownership.
+        </p>
+      ),
+    },
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -149,8 +247,8 @@ export default function Procurement() {
               Partnerships (PPPs) can be an effective way to align incentives
               for cost efficiency over the course of the project. This alignment
               will be strongest under PPPs that include an extended Operations
-              and Maintenance phase and where the revenues of the private
-              sector partner are linked directly to long-term performance.
+              and Maintenance phase and where the revenues of the private sector
+              partner are linked directly to long-term performance.
             </p>
             <p className="mTop">
               Such incentives may not be as strong for infrastructure projects
@@ -174,7 +272,8 @@ export default function Procurement() {
             Performance-Based Contracts (PBCs) can be used to link contractors’
             payments to long-term performance and efficiency.
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/procurement/IndiaGanga.png"
               title={
@@ -235,7 +334,7 @@ export default function Procurement() {
                 in output specifications of long-term infrastructure contracts.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>Innovative Technologies</strong>
@@ -246,7 +345,8 @@ export default function Procurement() {
               to link the operator’s payments to efficient long-term
             </span>
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/procurement/Pre-Fabrication.png"
               title={
@@ -286,7 +386,7 @@ export default function Procurement() {
                 cost of ownership.
               </p>
             </VCard>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="color-dark">

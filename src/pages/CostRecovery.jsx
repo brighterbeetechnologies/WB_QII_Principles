@@ -7,6 +7,7 @@ import { setBradcrump } from "../slices/appDataSlice";
 import { useDispatch } from "react-redux";
 import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function CostRecovery() {
   const resourceArray = [
@@ -69,6 +70,181 @@ export default function CostRecovery() {
       path: "https://openknowledge.worldbank.org/entities/publication/aa15661f-9c0b-4b64-9836-76a712411742",
     },
   ];
+
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image: "images/costRecovery/Timor-Leste.png",
+      title: (
+        <p>
+          Timor-Leste <br />
+          <strong>Tibar Bay Port PPP</strong>
+          <br />
+          International Finance Corporation
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://documents1.worldbank.org/curated/en/470341542225495367/pdf/132059-BRI-PUBLIC-PPP-Stories-Tibar-Bay-Port.pdf",
+      content: (
+        <p>
+          Demonstrates the use of a combined user-pays and government-pays model
+          for the delivery of a port PPP in Timor-Leste.
+        </p>
+      ),
+    },
+    {
+      image: "images/costRecovery/Maldives.png",
+      title: (
+        <p>
+          Maldives
+          <br />
+          <strong>
+            Facilitating Private Investment in Clean and Affordable Energy
+          </strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://documents1.worldbank.org/curated/en/942711467994666687/pdf/103935-REVISED-LW61-fin-logo-OKR.pdf",
+      content: (
+        <p>
+          Describes a program for tariff-based revenues secured through
+          long-term power-purchase agreements with utilities supported by a
+          World Bank guarantee.
+        </p>
+      ),
+    },
+    {
+      image: "images/costRecovery/TroubledTariffs.png",
+      title: (
+        <p>
+          <strong>
+            Revisiting Water Pricing for Affordable and Sustainable Water
+            Services
+          </strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf",
+      content: (
+        <p>
+          Synthesizes the literature to articulate a step-by-step process for
+          designing effective water tariffs.
+        </p>
+      ),
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image: "images/costRecovery/India.png",
+      title: (
+        <p>
+          India
+          <br />
+          <strong>Hyderabad Metro Rail</strong>
+          <br />
+          Global Infrastructure Hub
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://infrastructuredeliverymodels.gihub.org/case-studies/hyderabad-metro-rail/",
+      content: (
+        <p>
+          Demonstrates the use of ancillary revenue sources from rentals of
+          commercial real estate at the metro station.
+        </p>
+      ),
+    },
+    {
+      image: "images/costRecovery/InnovativeRevenues.png",
+      title: (
+        <p>
+          <strong>Innovative Revenues for Infrastructure Guidelines</strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://ppp.worldbank.org/public-private-partnership/Innovative_Revenues_Infrastructure/Table_of_Contents",
+      content: (
+        <p>
+          Provides guidance on analyzing key requirements to implement
+          Commercial Value Capture (CVC) for a project or portfolio of projects.
+        </p>
+      ),
+    },
+  ];
+
+  const step3Cards = [
+    {
+      image: "images/qii4/updated/Shibaura_Wastewater_Management.png",
+      title: (
+        <p>
+          Japan
+          <br />
+          <strong>
+            Shibaura Wastewater Treatment Facility: Financing Resilience through
+            Land Value Capture
+          </strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://documents1.worldbank.org/curated/en/099325009052225715/pdf/P1773160bfd9f30ed0977607550f60b2651.pdf",
+      content: (
+        <p>
+          Demonstrates how underground stormwater detention protects a
+          high-density urban area from flooding while a PPP that monetized
+          surface development rights ensures long-term financial sustainability
+          for operations and maintenance.
+        </p>
+      ),
+    },
+    {
+      image: "images/costRecovery/Argentina.png",
+      title: (
+        <p>
+          Argentina
+          <br />
+          <strong>Land Value Capture: Investment in Infrastructure</strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://documents1.worldbank.org/curated/en/099325009052225715/pdf/P1773160bfd9f30ed0977607550f60b2651.pdf",
+      content: (
+        <p>
+          Assesses the potential for land value capture for urban infrastructure
+          financing in the Buenos Aires Metropolitan Area.
+        </p>
+      ),
+    },
+    {
+      image: "images/costRecovery/lvc.png",
+      title: (
+        <p>
+          <strong>Investment in Infrastructure</strong>
+          <br />
+          GFDRR
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf",
+      content: (
+        <p>
+          Identifies the different types of land value capture mechanisms and
+          how they were applied in certain locations.
+        </p>
+      ),
+    },
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -134,7 +310,8 @@ export default function CostRecovery() {
             transport, it can be possible to recover all or partial costs
             through tariffs and user fees.
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/costRecovery/Timor-Leste.png"
               title={
@@ -194,7 +371,7 @@ export default function CostRecovery() {
                 for designing effective water tariffs.
               </p>
             </VCard>
-          </div>
+          </div> */}
           {/* <div className="border-dash"></div>
           <NumSteps num="2" className="no-margin">
             <strong>Public Budgets</strong>
@@ -214,7 +391,8 @@ export default function CostRecovery() {
             able to tap into climate-related funding streams, such as carbon
             markets.
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/costRecovery/India.png"
               title={
@@ -252,7 +430,7 @@ export default function CostRecovery() {
                 projects.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>Land Value Capture</strong> <br />{" "}
@@ -263,7 +441,8 @@ export default function CostRecovery() {
             taxes, levies, or betterment charges on beneficiaries within
             designated zones.
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step3Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/updated/Shibaura_Wastewater_Management.png"
               title={
@@ -287,7 +466,7 @@ export default function CostRecovery() {
                 sustainability for operations and maintenance.
               </p>
             </VCard>
-             <VCard
+            <VCard
               image="images/costRecovery/Argentina.png"
               title={
                 <p>
@@ -324,7 +503,7 @@ export default function CostRecovery() {
                 and how they were applied in certain locations.
               </p>
             </VCard>
-          </div>
+          </div> */}
           {/* <p className="cost-recovery-last-para">
             Different projects may involve a mix of these solutions. The
             critical factor is to plan for, and implement, a cost recovery

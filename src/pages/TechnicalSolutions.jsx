@@ -3,6 +3,7 @@ import "./TechnicalSolutions.css";
 import Header3 from "../components/Header3";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
+import VCardsPagination from "../components/VCardsPagination";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
@@ -54,6 +55,177 @@ export default function TechnicalSolutions() {
         "This publication offers a series of roadmaps for some of the most important energy technologies, and provide analytical footing that enables policy makers and industry to develop and adopt specific technologies.",
       img_path: "images/technicalSolutions/resources/IEATechnology.png",
       path: "https://www.oecd.org/en/publications/iea-technology-roadmaps_22182837.html",
+    },
+  ];
+
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image: "images/procurement/Pre-Fabrication.png",
+      title: (
+        <p>
+          <strong>Pre-Fabrication Technology for Modular Construction</strong>
+          <br />
+          Global Infrastructure Hub
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://www.gihub.org/infrastructure-technology-use-cases/case-studies/pre-fabrication-technology-for-modular-construction/",
+      content: (
+        <p>
+          Reduces the cost and time taken to construct infrastructure projects
+          by using pre-fabricated and modular components of railways and road
+          bridges.
+        </p>
+      ),
+    },
+    {
+      image: "images/technicalSolutions/SolomonIslands.png",
+      title: (
+        <p>
+          Solomon Islands <br />
+          <strong>
+            Climate-Resilient Solution for Small Bridges in the Pacific
+          </strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://blogs.worldbank.org/en/ppps/modular-bridges-climate-resilient-solution-small-bridges-pacific",
+      content: (
+        <p>
+          Illustrates how modular bridge systems significantly shortened design
+          and construction timelines during the replacement of a deteriorating
+          bridge in the Solomon Islands. Faster construction reduced the
+          duration of road closures, lowered safety risks for workers, and
+          minimized disturbances to local communities and the surrounding
+          environment.
+        </p>
+      ),
+    },
+    {
+      image: "images/technicalSolutions/SouthAfrica.png",
+      title: (
+        <p>
+          South Africa <br />
+          <strong>Nature-based Infrastructure to Enhance Water Security</strong>
+          <br />
+          The Nature Conservancy
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://www.nature.org/content/dam/tnc/nature/en/documents/GCTWF-Business-Case-April-2019.pdf",
+      content: (
+        <p>
+          Demonstrates how nature-based solutions, through ecological
+          restoration in the watershed, can strengthen water security for
+          domestic and commercial water users of the Western Cape Water Supply
+          System (WCWSS).
+        </p>
+      ),
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image: "images/technicalSolutions/Peru.png",
+      title: (
+        <p>
+          Peru <br />
+          <strong>
+            Technologies to Increase Observability and Controllability in
+            Real-Time System Operations
+          </strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://documents1.worldbank.org/curated/en/099032924175510017/pdf/P1760001ef88ab00a18d18167fe0293af27.pdf",
+      content: (
+        <p>
+          Examines the experience of the Peruvian power operator, COES, in
+          deploying digital tools to optimize real-time system operations. A
+          life-cycle cost analysis justified investing over $100,000 in an
+          Online Security Assessment Tool by demonstrating its ability to reduce
+          reliance on thermal generation, defer major transmission
+          infrastructure investments, and prevent costly outages.
+        </p>
+      ),
+    },
+    {
+      image: "images/technicalSolutions/Vietnam.png",
+      title: (
+        <p>
+          Vietnam <br />
+          <strong>
+            National Power Transmission Corporation’s Digitalization Journey
+          </strong>
+          <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://openknowledge.worldbank.org/entities/publication/bbfb9200-de1a-489e-a360-fac68c72d81f",
+      content: (
+        <p>
+          Highlights how the Vietnam National Power Transmission Corporation
+          (EVN NPT) applied artificial intelligence (AI) to improve the
+          operations and maintenance of electricity transmission infrastructure.
+          Life-cycle cost modelling showed that, despite higher upfront costs,
+          these technologies would result in a lower total cost of ownership
+          over the assets’ lifespan.
+        </p>
+      ),
+    },
+  ];
+
+  const step3Cards = [
+    {
+      image: "images/technicalSolutions/AIanddeep.png",
+      title: (
+        <p>
+          <strong>
+            AI and Deep Learning for Identifying Pavement Failures
+          </strong>
+          <br />
+          Global Infrastructure Hub
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean/",
+      content: (
+        <p>
+          Describes how AI technologies were used to improve road network
+          assessment and planning, reducing critical road failures and reducing
+          maintenance costs for government agencies by replacing costly and
+          time-consuming manual processes.
+        </p>
+      ),
+    },
+    {
+      image: "images/technicalSolutions/SensorsAndMachine.png",
+      title: (
+        <p>
+          <strong>
+            Sensors and Machine Learning for Predictive Maintenance
+          </strong>
+          <br />
+          Global Infrastructure Hub
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://www.gihub.org/infrastructure-technology-use-cases/case-studies/sensors-and-machine-learning-for-predictive-maintenance/",
+      content: (
+        <p>
+          Describes sensors and software solutions that build models to provide
+          early warnings of potential failures in physical and mechanical
+          assets, such as pipes, pumps, and motors. These tools help prevent
+          costly rehabilitation and replacement by keeping assets operating in
+          optimal condition.
+        </p>
+      ),
     },
   ];
 
@@ -154,7 +326,8 @@ export default function TechnicalSolutions() {
             materials, minimize installation expenses, and accelerate
             construction timelines.{" "}
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/procurement/Pre-Fabrication.png"
               title={
@@ -221,7 +394,7 @@ export default function TechnicalSolutions() {
                 Supply System (WCWSS).
               </p>
             </VCard>
-          </div>
+          </div> */}
           {/* <p className="v-small-text">
             Global Infrastructure Hub (2023). InfraTech.{" "}
             <a
@@ -233,9 +406,7 @@ export default function TechnicalSolutions() {
             </a>
             .
           </p> */}
-
-          <div className="border-dash"></div>
-
+          <div className="border-dash"></div>=
           <NumSteps num="2">
             <strong>Reducing Operational Costs</strong>
             <br /> <br className="mobile-break" />
@@ -245,7 +416,8 @@ export default function TechnicalSolutions() {
             consumption and make more informed, data-driven O&M decisions,
             ultimately lowering routine operational expenses.
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/Peru.png"
               title={
@@ -299,10 +471,8 @@ export default function TechnicalSolutions() {
                 lifespan.
               </p>
             </VCard>
-          </div>
-
+          </div> */}
           <div className="border-dash"></div>
-
           <NumSteps num="3">
             <strong>Increasing the Life of Assets </strong>
             <br /> <br className="mobile-break" />
@@ -313,7 +483,8 @@ export default function TechnicalSolutions() {
             asset life, and minimize the frequency and cost of major
             rehabilitations over the asset’s life cycle.
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step3Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/AIanddeep.png"
               title={
@@ -358,7 +529,7 @@ export default function TechnicalSolutions() {
                 assets operating in optimal condition.
               </p>
             </VCard>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="color-dark">
