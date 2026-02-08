@@ -26,7 +26,7 @@
 
 .v-title strong{
   margin-bottom: 0.85rem;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
 } 
 
 /* .VCard-footer {
@@ -217,8 +217,13 @@
   }
 
   .v-title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin-bottom: 1.3rem;
+  }
+
+   .v-title strong{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
   }
 
   .vCardBody {

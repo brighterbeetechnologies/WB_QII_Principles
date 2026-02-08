@@ -149,7 +149,8 @@ export default function FinancingResilience() {
 
   const step2Cards = [
     {
-      image: "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
+      image:
+        "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
       title: (
         <p>
           <strong>Philippines Water Revolving Fund</strong>
@@ -169,64 +170,96 @@ export default function FinancingResilience() {
       ),
     },
     {
-      image: "",
+      image:
+        "images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png",
       title: (
         <p>
-          <strong></strong>
-          <br />
+          <strong>
+            Philippines Energy Development Corporation (EDC) Green Bond
+          </strong>
         </p>
       ),
-      buttonText: "",
-      link: "",
-      content: <p></p>,
+      buttonText: "Case study",
+      link: "https://sustainability-coalition.org/case-study/philippines-energy-development-corporation/",
+      content: (
+        <p>
+          In 2018, IFC issued the first AAA peso-denominated green bond for $90
+          million with a fifteen-year maturity. The bond was intended to support
+          EDC with restoration and resilience efforts at the Malitbog plant.
+        </p>
+      ),
     },
     {
-      image: "",
+      image: "images/qii4/updated/Vida-Manglar-Colombia.png",
       title: (
         <p>
-          <strong></strong>
-          <br />
+          <strong>Vida Manglar Carbon Project in Colombia</strong>
         </p>
       ),
-      buttonText: "",
-      link: "",
-      content: <p></p>,
+      buttonText: "Case study",
+      link: "https://www.conservation.org/projects/vida-manglar-carbon-project",
+      content: (
+        <p>
+          Coastal protection project that uses blue carbon credits to finance
+          the cost of restoring mangrove forests to protect local communities.
+        </p>
+      ),
     },
     {
-      image: "",
+      image:
+        "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
       title: (
         <p>
-          <strong></strong>
+          <strong>
+            Financing Climate Adaptation and Nature-Based Infrastructure
+          </strong>
           <br />
+          World Bank
         </p>
       ),
-      buttonText: "",
-      link: "",
-      content: <p></p>,
+      buttonText: "Report",
+      link: "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
+      content: (
+        <p>
+          This report presents information on 42 global financing facilities, 33
+          public funds, and 29 tax measures, offering valuable insights into
+          financing transport resilience in developing countries.
+        </p>
+      ),
     },
     {
-      image: "",
+      image:
+        "images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png",
       title: (
         <p>
-          <strong></strong>
+          <strong>
+            Transport Resilience Financing, Resources and Opportunities
+          </strong>
           <br />
+          World Bank
         </p>
       ),
-      buttonText: "",
-      link: "",
-      content: <p></p>,
+      buttonText: "Report",
+      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/09905052515003218",
+      content: (
+        <p>
+          This report presents information on 42 global financing facilities, 33
+          public funds, and 29 tax measures, offering valuable insights into
+          financing transport resilience in developing countries.
+        </p>
+      ),
     },
     {
-      image: "",
+      image: "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       title: (
         <p>
-          <strong></strong>
-          <br />
+          <strong>Disaster Risk Finance</strong>
+          <br />GFDRR
         </p>
       ),
-      buttonText: "",
-      link: "",
-      content: <p></p>,
+      buttonText: "Resource",
+      link: "https://www.gfdrr.org/en/disaster-risk-finance",
+      content: <p>GFDRR supports governments in designing financial protection strategies and instruments to respond to natural disasters. The Disaster Risk Financing and Insurance thematic area provides a compendium of case studies and resources in financing solutions for better management of disasters and climate shocks.</p>,
     },
   ];
 
@@ -547,8 +580,8 @@ export default function FinancingResilience() {
             target returns.
           </NumSteps>
           <VCardsPagination cardsData={step2Cards} />
-          <div className="VCard-cnt col3">
-            <VCard
+          {/* <div className="VCard-cnt col3"> */}
+            {/* <VCard
               image="images/qii4/FinancingResilience/Philippine Water Revolving Fund.png"
               title={
                 <p>
@@ -601,8 +634,8 @@ export default function FinancingResilience() {
                 finance the cost of restoring mangrove forests to protect local
                 communities.
               </p>
-            </VCard>
-            <VCard
+            </VCard> */}
+            {/* <VCard
               image="images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png"
               title={
                 <p>
@@ -664,8 +697,8 @@ export default function FinancingResilience() {
                 compendium of case studies and resources in financing solutions
                 for better management of disasters and climate shocks.
               </p>
-            </VCard>
-          </div>
+            </VCard>*/}
+          {/* </div>  */}
           {/* <h4 className="sub-section-title">
             Further Reading On Financing Resilience
           </h4> */}
