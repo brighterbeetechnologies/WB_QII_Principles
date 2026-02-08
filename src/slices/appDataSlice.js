@@ -3099,23 +3099,6 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths:
-          "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
-        type: "Guidance",
-        title: "Gender Equality, Infrastructure and PPPs",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "This is a resource explaining how PPP contracts should include clear, measurable indicators, making clauses binding, with reporting and performance obligations linked to outcomes. PPP Project Stages Three and Four: Drafting the Contract and Managing the Transaction, pg 37",
-        format: 2,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
-      },
-      {
-        id: 4,
-        paths:
           "https://finance.go.ug/sites/default/files/reports/Stakeholder-Engagement-Plan-SEP-PIMs-P511206-June-11-2025.pdf",
         type: "Case Study",
         title: "Uganda Stakeholder Engagement Plan",
@@ -3162,6 +3145,23 @@ export const appDataSlice = createSlice({
         industry: 1,
         image:
           "images/qii5/StakeholderEngagement/Gender-Dimensions-of-Cross-Border-Trade-in-Tajikistan.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
+        type: "Guidance",
+        title: "Gender Equality, Infrastructure and PPPs",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "This is a resource explaining how PPP contracts should include clear, measurable indicators, making clauses binding, with reporting and performance obligations linked to outcomes. PPP Project Stages Three and Four: Drafting the Contract and Managing the Transaction, pg 37",
+        format: 2,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image:
+          "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
       },
       {
         id: 4,

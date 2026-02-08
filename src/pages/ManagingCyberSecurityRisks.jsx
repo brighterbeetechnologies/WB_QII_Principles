@@ -8,28 +8,107 @@ import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function ManagingCyberSecurityRisks() {
-  const slidesData = [
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
     {
-      img: "images/qii4/ManagingCyberSecurityRisks/header_bg_1.png",
-      description:
-        "The procurement process sets the foundation for the economic efficiency of an infrastructure project. Procurement processes that create incentives to minimize life cycle costs can lead to better value for money and reduce long-term expenses. Conversely, weak procurement practices, such as focusing solely on initial purchase price, can result in higher operational and maintenance costs over the asset's lifespan.",
-      title: "Managing Cybersecurity Risks",
+      image: "images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png",
+      title: (
+        <p>Ghana <br />
+          <strong>A Case Study in Strengthening Cyber Resilience ​</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Case study",
+      link: "https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf",
+      content: <p>The case of Ghana demonstrates that forward-looking investments and policy initiatives based on international best-practices can go a long way in boosting cybersecurity capacity in developing countries.</p>,
     },
     {
-      img: "images/qii4/ManagingCyberSecurityRisks/header_bg_2.png",
-      description:
-        "The procurement of infrastructure under Public-Private Partnerships (PPPs) can be an effective way to align incentives for cost efficiency over the course of the project. This alignment will be strongest under PPPs that include an extended Operations and Maintenance (O&M) phase and where the revenues of the private sector partner are linked directly to long-term performance.",
-      title: "Managing Cybersecurity Risks",
+      image: "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
+      title: (
+        <p>
+          <strong>Cybersecurity Assessment Toolkit for Smart Cities</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: null,
+      content: <p>The Cybersecurity Assessment Toolkit guides countries and sectors to assess, strengthen, and mainstream cyber resilience in critical infrastructure.</p>,
     },
     {
-      img: "images/qii4/ManagingCyberSecurityRisks/header_bg_3.png",
-      description:
-        "As economies and societies become increasingly digital, cybersecurity risks are rising in tandem. Essential infrastructure services—such as energy and transport networks—now rely on interconnected digital systems and technologies that increase their exposure to cyber threats.",
-      description1:
-        "Strengthening cybersecurity is therefore fundamental to infrastructure resilience. The QII Partnership is at the forefront of integrating cybersecurity into infrastructure design and investment, working with governments and partners to assess risks, build capacity, and mainstream cyber resilience to ensure that critical infrastructure systems remain safe, trusted, and future-ready.",
-      title: "Managing Cybersecurity Risks",
+      image: "images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png",
+      title: (
+        <p>UK <br />
+          <strong>The Cyber Assessment Framework</strong> <br /> National Cyber Security Center
+        </p>
+      ),
+      buttonText: "Guidances",
+      link: "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/introduction-to-caf#section_1",
+      content: <p>This Cyber Assessment Framework (CAF) provides a systematic approach to assessing cyber risks and how they are being managed by the UK National Cyber Security Center.</p>,
+    },
+    {
+      image: "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).png",
+      title: (
+        <p>
+          <strong>Sectoral Cybersecurity Maturity Model</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://documentsinternal.worldbank.org/Search/34392134",
+      content: <p>The Sectoral Cybersecurity Maturity Model evaluates cybersecurity maturity and provides actionable recommendations to strengthen cyber resilience, address vulnerabilities, and guide investment and policy decisions.</p>,
+    },
+    {
+      image: "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png",
+      title: (
+        <p>
+          <strong>Cybersecurity Economics for Emerging Markets</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Report",
+      link: "https://documentsinternal.worldbank.org/Search/34392134",
+      content: <p>This report explores global cybersecurity threats and their impacts; the market failures that hinder responses; and proposes strategies, policies, and governance efforts to foster innovation and sustainability amid change and uncertainty. See page 87 onwards for a specific discussion on infrastructure.</p>,
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image:
+        "images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png",
+      title: (
+        <p>
+          <strong>Cybersecurity Best Practice for Smart Cities ​</strong> <br />
+          CISA
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
+      content: (
+        <p>
+          This document provides a useful introduction to the nature of
+          cybersecurity threats and the motivations and strategies of malicious
+          actors.
+        </p>
+      ),
+    },
+    {
+      image: "images/qii4/updated/The-cyber-threat-environment.png",
+      title: (
+        <p>
+          Canada <br />
+          <strong>The Cyber Threat Environment</strong>
+          <br />
+          Government of Canada
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment",
+      content: (
+        <p>
+          This document provides a useful introduction to the nature of
+          cybersecurity threats and the motivations and strategies of malicious
+          actors.
+        </p>
+      ),
     },
   ];
 
@@ -102,8 +181,8 @@ export default function ManagingCyberSecurityRisks() {
             governance structures, and strengthening institutions for
             implementation.
           </NumSteps>
-
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png"
               title={
@@ -203,7 +282,7 @@ export default function ManagingCyberSecurityRisks() {
                 page 87 onwards for a specific discussion on infrastructure.
               </p>
             </VCard>
-          </div>
+          </div> */}
 
           <div className="border-dash"></div>
           <NumSteps num="2">
@@ -211,13 +290,15 @@ export default function ManagingCyberSecurityRisks() {
             This involves evaluating critical cybersecurity risks and putting
             practical measures in place to manage and lower these risks.
           </NumSteps>
-
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png"
               title={
                 <p>
-                  <strong>Cybersecurity Best Practice for Smart Cities ​</strong>{" "}
+                  <strong>
+                    Cybersecurity Best Practice for Smart Cities ​
+                  </strong>{" "}
                   <br />
                   CISA
                 </p>
@@ -239,7 +320,9 @@ export default function ManagingCyberSecurityRisks() {
               title={
                 <p>
                   Canada <br />
-                  <strong>The Cyber Threat Environment</strong><br />Government of Canada
+                  <strong>The Cyber Threat Environment</strong>
+                  <br />
+                  Government of Canada
                 </p>
               }
               buttonText="Guidance"
@@ -251,7 +334,7 @@ export default function ManagingCyberSecurityRisks() {
                 malicious actors.
               </p>
             </VCard>
-          </div>
+          </div> */}
         </div>
       </section>
       {/* <section className="color-dark z-2" id="resourcesSection">

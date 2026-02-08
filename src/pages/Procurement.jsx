@@ -96,8 +96,10 @@ export default function Procurement() {
           World Bank
         </p>
       ),
-      buttonText: "Case Study",
-      link: "pdf/Ganga_case_study.pdf",
+      buttonText:"View the full publication​",
+      link:"pdf/Ganga_case_study.pdf",
+      buttonText2: "Case Study",
+      link2:"https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/",
       highlight: 2,
       content: (
         <p>

@@ -6,8 +6,144 @@ import HeaderCarousal from "../components/HeaderCarousal";
 import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function Project_Planning_And_Design() {
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
+      title: (
+        <p>
+          <strong>Procurement Rated Criteria</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.worldbank.org/en/programs/project-procurement/framework/rated-criteria",
+      content: <p>The “Rated Criteria” approach ensures that procurement goes beyond price alone, making it mandatory to consider factors like value, quality, sustainability, and social outcomes—such as inclusion.</p>,
+    },
+    {
+      image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
+      title: (
+        <p>
+          <strong>Mainstreaming Gender in Public Procurement</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://blogs.worldbank.org/en/governance/mainstreaming-gender-public-procurement",
+      content: <p>This is an account of how traditional approaches are transformed by actively addressing systemic barriers faced by women and women-led enterprises throughout the supply chain.</p>,
+    },
+    {
+      image: "images/qii5/ProjectPlanningandDesign/UK-Green-Cities-Infrastructure-(ICED)-facility.png",
+      title: (
+        <p>
+          <strong>UK Green Cities & Infrastructure (ICED) facility</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://ukgreencitiesandinfrastructure.org/resource/inclusivity-in-procurement/",
+      content: <p>This guidance note outlines how inclusivity can be embedded into procurement strategies and processes throughout the project cycle of multilateral development bank initiatives.</p>,
+    },
+    {
+      image: "images/qii5/ProjectPlanningandDesign/albania.png",
+      title: (
+        <p>
+          <strong>Albania</strong>
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://projects.worldbank.org/en/projects-operations/project-detail/P160594",
+      content: <p>In the Albania Gender Equality in Access to Economic Opportunities project, standard bidding documents for tenders above a certain threshold were updated to require firms to explicitly declare their adherence to principles of non-discrimination and equal pay for equal work.</p>,
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image: "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
+      title: (
+        <p>
+          <strong>Gender Equality, Infrastructure and PPPs</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
+      content: <p>
+        This is a resource explaining how PPP contracts should include clear, measurable indicators, making clauses binding, with reporting and performance obligations linked to outcomes.
+        <br /><br />
+        PPP Project Stages Three and Four: Drafting the Contract and Managing the Transaction, pg 37
+      </p>,
+    },
+    {
+      image: "images/qii5/ProjectPlanningandDesign/World-Bank-Bidding-Documents-Contractual-Provisions-for-Inclusion.png",
+      title: (
+        <p>
+          <strong>Bidding Documents and Contractual Provisions for Inclusion</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://ppp.worldbank.org/sub-national-ppp/bidding-documents-and-contractual-provisions-regarding-inclusion-smes-ppps?utm",
+      content: <p>This resource demonstrates how inclusivity can be explicitly embedded into public-private partnership contracts and bidding documents.</p>,
+    },
+    {
+      image: "images/qii5/ProjectPlanningandDesign/Responsible-Contracting-Project-(RCP)-Toolkit.png",
+      title: (
+        <p>
+          <strong>Responsible Contracting Project (RCP) Toolkit</strong>
+        </p>
+      ),
+      buttonText: "Tool",
+      link: "https://www.responsiblecontracting.org/",
+      content: <p>The RCP provides a comprehensive toolkit for embedding social and environmental responsibility into infrastructure contracts. It offers model contract clauses and implementation resources to operationalize a shared-responsibility approach.</p>,
+    },
+  ];
+
+  const step3Cards = [
+    {
+      image: "images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png",
+      title: (
+        <p>
+          <strong>ISO 21542:2021 – Building Construction: Accessibility and Usability of the Built Environment</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.iso.org/obp/ui/en/#iso:std:iso:21542:ed-2:v1:en",
+      content: <p>The ISO 21542 standard serves as a critical benchmark for applying inclusive design standards in infrastructure projects. It is the leading international technical standard for accessibility and universal design in buildings and infrastructure.</p>,
+    },
+    {
+      image: "images/qii5/ProjectPlanningandDesign/Silver-Hues.png",
+      title: (
+        <p>
+          <strong>Silver Hues</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.bluedot-network.org/",
+      content: <p>This report has cross-sectoral policy guidance and practical strategies for cities aiming to create urban environments that are accessible, safe, and inclusive for older populations as the world’s cities face rapid demographic aging.</p>,
+    },
+    {
+      image: "images/qii5/ProjectPlanningandDesign/Incorporating-Universal-Accessibility-into-Infrastructure-Planning-and-Design-in-Vietnam.png",
+      title: (
+        <p>
+          <strong>Incorporating Universal Accessibility into Infrastructure Planning and Design in Vietnam</strong>
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
+      content: <p>This case from Vietnam highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the project embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.</p>,
+    },
+    {
+      image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Universal-Accessibility.png",
+      title: (
+        <p>
+          <strong>Mainstreaming Universal Accessibility in the built environment projects in Senegal</strong>
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
+      content: <p>This engagement brief offers a practical stakeholder training and capacity-building framework.</p>,
+    },
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -56,7 +192,7 @@ export default function Project_Planning_And_Design() {
           {/* <p className="link-text">
           </p> */}
           <NumSteps num="1">
-            <strong>Enhance procurement strategies and processes  </strong>
+            <strong>Enhance procurement strategies and processes </strong>
             <br />
             Design procurement documents that mandate contractors and
             consultants to show proven experience with inclusion, and weight
@@ -68,7 +204,8 @@ export default function Project_Planning_And_Design() {
             commitment and capacity to deliver equitable solutions.{" "}
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png"
               title={
@@ -139,7 +276,7 @@ export default function Project_Planning_And_Design() {
                 non-discrimination and equal pay for equal work.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>Embed inclusivity into contracts </strong>
@@ -153,7 +290,8 @@ export default function Project_Planning_And_Design() {
             benefits, who accesses).
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png"
               title={
@@ -215,7 +353,7 @@ export default function Project_Planning_And_Design() {
                 operationalize a shared-responsibility approach.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>Apply inclusive design standards </strong>
@@ -228,7 +366,8 @@ export default function Project_Planning_And_Design() {
             planning documents.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step3Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png"
               title={
@@ -296,7 +435,8 @@ export default function Project_Planning_And_Design() {
               title={
                 <p>
                   <strong>
-                    Mainstreaming Universal Accessibility in the built environment projects in Senegal
+                    Mainstreaming Universal Accessibility in the built
+                    environment projects in Senegal
                   </strong>{" "}
                 </p>
               }
@@ -308,7 +448,7 @@ export default function Project_Planning_And_Design() {
                 and capacity-building framework.
               </p>
             </VCard>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

@@ -6,8 +6,109 @@ import HeaderCarousal from "../components/HeaderCarousal";
 import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function Govtech_For_Infrastructure() {
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image: "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
+      title: (
+        <p>
+          <strong>Public Transport Demand Forecasting Regional Platform: New Technology for Better Investment Decision-making</strong>
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "/not-given",
+      content: <p>TBD</p>,
+    },
+    {
+      image: "images/qii6/Govtech_For_Infrastructure/Global-Infrastructure-Indicators-Dashboard.png",
+      title: (
+        <p>
+          <strong>Global Infrastructure Indicators Dashboard</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Tool",
+      link: "https://data.worldbank.org/",
+      content: <p>Open access portal providing internationally comparable development indicators across transport, energy, water, digital connectivity, etc. You can explore data by country, visualize trends, and benchmark infrastructure performance using the DataBank analysis tool.</p>,
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image: "images/qii6/Govtech_For_Infrastructure/IndonesiaOneMapPolicy.png",
+      title: (
+        <p>
+          <strong>Indonesia: One Map Policy</strong>
+        </p>
+      ),
+      buttonText: "Case study",
+      link: "https://www.opengovpartnership.org/wp-content/uploads/2017/05/case-study_Indonesia_One-Map-Policy_0.pdf",
+      content: <p>National geospatial platform consolidating land-use data from 19 government agencies across all 34 provinces into a single unified database. Launched in 2018 to resolve overlapping claims and fragmented information that had long impeded sustainable development, infrastructure planning, and land governance.</p>,
+    },
+    {
+      image: "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
+      title: (
+        <p>
+          <strong>Japan-Association-for-Smart-Cities-in ASEAN</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.jasca2021.jp/",
+      content: <p>Platform facilitating public-private cooperation between Japan and ASEAN countries on smart city development. Provides access to Japanese smart city technologies across infrastructure maintenance, disaster prevention, and urban planning, alongside the Smart JAMP cooperative framework and ASEAN Smart City Planning Guidebook.</p>,
+    },
+    {
+      image: "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
+      title: (
+        <p>
+          <strong>GovTech Maturity Index (GTMI) Data Dashboard</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Tool",
+      link: "https://www.worldbank.org/en/data/interactive/2022/10/21/govtech-maturity-index-gtmi-data-dashboard",
+      content: <p>Interactive dashboard presenting digital governance data for 198 economies, enabling users to explore GovTech maturity across countries, track progress, and inform next steps on GovTech agendas. Also provides access to the World Bank's database of 1,450+ digital governance projects funded since 1995.</p>,
+    },
+  ];
+
+  const step3Cards = [
+    {
+      image: "images/qii6/Govtech_For_Infrastructure/OECD-Digital-Public-Infrastructure-for-Digital-Governments.png",
+      title: (
+        <p>
+          <strong>OECD: Digital Public Infrastructure for Digital Governments (2024)</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
+      content: <p>Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.</p>,
+    },
+    {
+      image: "images/qii6/Govtech_For_Infrastructure/QIIGrantSupportingSustainable.png",
+      title: (
+        <p>
+          <strong>QII Grant: Supporting Sustainable Digital Infrastructure through Innovation in Kosovo</strong>
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://kryeministri.rks-gov.net/en/news/launch-of-the-digital-governance-strengthening-project-for-service-delivery/",
+      content: <p>TBD</p>,
+    },
+    {
+      image: "images/qii6/Govtech_For_Infrastructure/Albania.png",
+      title: (
+        <p>
+          <strong>Albania: GovTech Program (Phases 1 and 2)</strong>
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "/not-given",
+      content: <p>TBD</p>,
+    },
+  ];
+
+
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -66,7 +167,8 @@ export default function Govtech_For_Infrastructure() {
             impact.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png"
               title={
@@ -103,11 +205,12 @@ export default function Govtech_For_Infrastructure() {
                 DataBank analysis tool.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>
-              Digital platforms for data management, monitoring, and transparency {" "}
+              Digital platforms for data management, monitoring, and
+              transparency{" "}
             </strong>
             <br />
             Integrated digital platforms consolidate infrastructure information
@@ -116,7 +219,8 @@ export default function Govtech_For_Infrastructure() {
             accountability.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii6/Govtech_For_Infrastructure/IndonesiaOneMapPolicy.png"
               title={
@@ -174,12 +278,12 @@ export default function Govtech_For_Infrastructure() {
                 1,450+ digital governance projects funded since 1995.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>
-              Ensuring interoperability across governance levels and sectors
-              {" "}
+              Ensuring interoperability across governance levels and
+              sectors{" "}
             </strong>
             <br />
             Effective digital governance requires systems that communicate
@@ -188,34 +292,41 @@ export default function Govtech_For_Infrastructure() {
             and oversight functions.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col3">
-           <VCard
+          <VCardsPagination cardsData={step3Cards} />
+          {/* <div className="VCard-cnt col3">
+            <VCard
               image="images/qii6/Govtech_For_Infrastructure/OECD-Digital-Public-Infrastructure-for-Digital-Governments.png"
               title={
                 <p>
-                  <strong>OECD: Digital Public Infrastructure for Digital Governments (2024)</strong>
+                  <strong>
+                    OECD: Digital Public Infrastructure for Digital Governments
+                    (2024)
+                  </strong>
                 </p>
               }
               buttonText="Guidance"
               link="https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html"
             >
               <p>
-                Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.
+                Policy paper defining digital public infrastructure as shared
+                digital systems that are secure and interoperable, supporting
+                inclusive delivery of public and private services.
               </p>
             </VCard>
             <VCard
               image="images/qii6/Govtech_For_Infrastructure/QIIGrantSupportingSustainable.png"
               title={
                 <p>
-                  <strong>QII Grant: Supporting Sustainable Digital Infrastructure through Innovation in Kosovo</strong>
+                  <strong>
+                    QII Grant: Supporting Sustainable Digital Infrastructure
+                    through Innovation in Kosovo
+                  </strong>
                 </p>
               }
               buttonText="Case Study"
               link="https://kryeministri.rks-gov.net/en/news/launch-of-the-digital-governance-strengthening-project-for-service-delivery/"
             >
-              <p>
-                TBD
-              </p>
+              <p>TBD</p>
             </VCard>
             <VCard
               image="images/qii6/Govtech_For_Infrastructure/Albania.png"
@@ -227,11 +338,9 @@ export default function Govtech_For_Infrastructure() {
               buttonText="Case Study"
               link="/not-given"
             >
-              <p>
-                TBD
-              </p>
+              <p>TBD</p>
             </VCard>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

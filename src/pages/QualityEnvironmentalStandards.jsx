@@ -9,8 +9,175 @@ import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function QualityEnvironmentalStandards() {
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image:
+        "images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png",
+      title: (
+        <p>
+          <strong>​Timor-Leste: Tibar Bay Port</strong>
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "pdf/QII_3_CaseStudy_TibarBay.pdf",
+      content: (
+        <p>
+          This project demonstrates application of the IFC Performance
+          Standards, which gained recognition for rigorous environmental and
+          social scoping that led to key operational improvements such as
+          reducing congestion and enhancing trade efficiency.
+        </p>
+      ),
+    },
+    {
+      image: "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png",
+      title: (
+        <p>
+          <strong>Environmental and Social Framework (ESF)​</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
+      content: <p>This framework guides project level environmental and social management. The ESF helps to identify what risks must be managed (e.g., pollution, biodiversity loss, community health and safety, climate hazards) and provides an approach for addressing these risks through ten standards that integrate E&S considerations into infrastructure projects.</p>,
+    },
+    {
+      image: "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png",
+      title: (
+        <p>
+          <strong>IFC Performance Standards on Environmental and Social Sustainability​</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+      content: <p>The eight IFC Performance Standards establish minimum requirements that project developers must meet to be eligible for financing and provide reference information on technical limits, design approaches, monitoring metrics, and mitigation practices to do so. These standards are used by development finance institutions and private investors worldwide, ensuring that finance is only channeled to projects with strong environmental fundamentals.</p>,
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image: "images/qii3/Quality-Environmental-Standards/Infrastructure_Standards.png",
+      title: (
+        <p>
+          <strong>Infrastructure Standards​</strong> <br />International Organization for Standardization (ISO)
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.iso.org/popular-standards.html",
+      content: <p>
+                These engineering standards are widely referenced in sustainable
+                infrastructure guidance provided by organizations such as the
+                World Bank, IFC, and OECD for and are recognized internationally
+                as good practice for environmental, social, and
+                climate-resilient design. Below are examples of codes relevant
+                to quality infrastructure.
+                <ul>
+                  <li>
+                    <strong>ISO 14001 </strong> – Environmental management
+                    systems
+                  </li>
+                  <li>
+                    <strong>ISO 37101 / 37120 </strong> –Sustainable cities and
+                    communities / indicators for city services and quality of
+                    life
+                  </li>
+                  <li>
+                    <strong>ISO 21930 / 21931 </strong> – Sustainability of
+                    construction works and building products 
+                  </li>
+                  <li>
+                    <strong>ISO 14064 </strong> – Greenhouse gas accounting 
+                  </li>
+                </ul>
+              </p>,
+    },
+    {
+      image: "images/qii3/Quality-Environmental-Standards/Equator Principles.png",
+      title: (
+        <p>
+          <strong>​Equator Principles</strong></p>
+      ),
+      buttonText: "Guidance",
+      link: "https://equator-principles.com/",
+      content: <p>A risk management framework adopted by financial institutions for environmental and social risks in project finance globally. The framework includes ten major principles, providing a minimum standard for due diligence and monitoring. Financial institutions that have adopted the Equator Principles cover most international project finance debt.</p>,
+    },
+    {
+      image: "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png",
+      title: (
+        <p>
+          <strong>LEED for Buildings LEED for Cities and Communities​</strong> <br />
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.usgbc.org/leed/rating-systems/leed-for-cities",
+      content: <p>LEED provides certification standards for sustainable building design. LEED for Cities and Communities extends this framework beyond buildings to advance sustainable development at city and community scale, providing local leaders, developers and practitioners with a sustainability framework aligned with the UN Sustainable Development Goals.</p>,
+    },
+    {
+      image: "images/newresource/BREEAM-Infrastructure.png",
+      title: (
+        <p>
+          <strong>​BREEAM Infrastructure</strong> </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://breeam.com/breeam-infrastructure",
+      content: <p>BREEAM evaluates infrastructure projects against sustainability criteria, including energy, water, materials, biodiversity, resilience, and social value, and provides a rating (Pass, Good, Very Good, Excellent, Outstanding). It draws on existing standards, regulations, and best practices to define its criteria.</p>,
+    },
+  ];
+
+  const step3Cards = [
+    {
+      image:
+        "images/qii3/Quality-Environmental-Standards/FrameworkforSDG-AlignedFinanceOECD&UNDP.png",
+      title: (
+        <p>
+          <strong>Framework for SDG-Aligned Finance</strong> <br />OECD & UNDP
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://sdgfinance.undp.org/resource-library/framework-sdg-aligned-finance",
+      content: (
+        <p>
+          Explains how sustainability and risk management standards increase capital access. Demonstrates that incorporating environmental, social, and governance considerations into investment decisions enhances project bankability and attractiveness to investors while aligning finance with Sustainable Development Goals.
+        </p>
+      ),
+    },
+    {
+      image:
+        "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
+      title: (
+        <p>
+          <strong>Infrastructure Standards – Building Blocks for a Resilient Future</strong> <br />CDRI
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.cdri.world/upload/pages/1726999413696320_202203111036infrastructure_standards-building_blocks_for_a_resilient_future_technical_note.pdf?utm_source",
+      content: (
+        <p>
+          The Coalition for Disaster Resilient Infrastructure has developed a technical note, which maps out the need for resilience oriented standards across the infrastructure lifecycle, and identifies the principles that infrastructure standards should embed (robustness, redundancy, flexibility, recovery capacity, good governance, etc.).
+        </p>
+      ),
+    },
+    {
+      image:
+        "images/qii3/Quality-Environmental-Standards/Global-Environment-Outlook.png",
+      title: (
+        <p>
+          <strong>Global Environment Outlook (GEO-7)</strong> <br />UNEP
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.unep.org/geo/global-environment-outlook-7",
+      content: (
+        <p>
+          To provide global evidence on natural capital losses and policy pathways for mitigation through better standards.
+        </p>
+      ),
+    },
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -77,8 +244,8 @@ export default function QualityEnvironmentalStandards() {
             applying international environmental and social best practices to
             infrastructure design and delivery.
           </div>
-
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png"
               title={
@@ -140,7 +307,7 @@ export default function QualityEnvironmentalStandards() {
                 environmental fundamentals.{" "}
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <div className="link-text">
             <p>
@@ -150,7 +317,8 @@ export default function QualityEnvironmentalStandards() {
               these standards and systems.
             </p>
           </div>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii3/Quality-Environmental-Standards/Infrastructure_Standards.png"
               title={
@@ -250,7 +418,7 @@ export default function QualityEnvironmentalStandards() {
                 criteria.{" "}
               </p>
             </VCard>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -291,7 +459,8 @@ export default function QualityEnvironmentalStandards() {
             Standards
           </strong>
         </div>
-        <div className="VCard-cnt col3">
+        <VCardsPagination cardsData={step3Cards} />
+        {/* <div className="VCard-cnt col3">
           <VCard
             image="images/qii3/Quality-Environmental-Standards/FrameworkforSDG-AlignedFinanceOECD&UNDP.png"
             title={
@@ -351,7 +520,7 @@ export default function QualityEnvironmentalStandards() {
               pathways for mitigation through better standards.
             </p>
           </VCard>
-        </div>
+        </div> */}
         <div className="link-text mTop2 noPBottom">
           The incorporation of environmental standards requires a robust
           <strong> governance framework</strong> that mandates these standards

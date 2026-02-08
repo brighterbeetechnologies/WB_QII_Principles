@@ -33,7 +33,7 @@ export default function VCard({
           >
             <span className="icon-arrow">&#xe900;</span>
           </a>
-        </div>
+        </div> 
         {buttonText2 && (
           <div className="v-btn-cnt">
             <span>{buttonText2}</span>

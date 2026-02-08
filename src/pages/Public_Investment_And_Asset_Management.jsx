@@ -6,8 +6,96 @@ import HeaderCarousal from "../components/HeaderCarousal";
 import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function Public_Investment_And_Asset_Management() {
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+      title: (
+        <p>
+          <strong>Well Spent</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
+      content: <p>
+        This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets.
+        <br /><br />
+        This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets.
+      </p>,
+    },
+    {
+      image: "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
+      title: (
+        <p>
+          <strong>IMF PIMA</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
+      content: <p>The IMF’s Public Investment Management Assessment (PIMA) provides a comprehensive framework to evaluate the strength of public investment management institutions, helping governments identify weaknesses and prioritize reforms.</p>,
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png",
+      title: (
+        <p>
+          <strong>OECD Implementation Handbook for Quality Infrastructure Investment</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/07/oecd-implementation-handbook-for-quality-infrastructure-investment_b9131199/479131b2-en.pdf",
+      content: <p>This handbook provides practical guidance on implementing quality infrastructure principles throughout the project lifecycle, emphasizing integrated planning, stakeholder engagement, environmental and social considerations, and governance mechanisms that support sustainable infrastructure outcomes.</p>,
+    },
+    {
+      image: "images/qii6/Public_Investment_And_Asset_Management/InfraGov-Assessment-Framework.png",
+      title: (
+        <p>
+          <strong>InfraGov Assessment Framework</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
+      content: <p>
+        InfraGov is a diagnostic framework developed by the World Bank to help countries optimize infrastructure investments by assessing governance across the project lifecycle, cross-cutting principles, and service delivery.
+        <br /><br />
+        Dimension 6 (Infrastructure procurement and contract management systems) assesses the effectiveness of procurement frameworks and contract management practices, examining transparency, competition, risk allocation, and monitoring systems that ensure infrastructure projects are delivered efficiently and contractors meet performance obligations.
+      </p>,
+    },
+    {
+      image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
+      title: (
+        <p>
+          <strong>OECD Getting Infrastructure Right</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
+      content: <p>This 2017 report, based on a survey of 27 countries, provides an overview of current practices in infrastructure governance and presents practical tools to help policy makers better manage infrastructure across its full lifecycle. It addresses challenges from technical and budgetary concerns to delivery and governance issues.
+        <br /><br />
+        “Infrastructure procurement and the choice of the delivery modality” – page 52 and “Performance throughout the life cycle” pages – 76-77 analyze procurement strategy selection based on project characteristics and capacity, and emphasize the importance of performance monitoring, maintenance planning, and asset management systems to maximize infrastructure value over its operational lifespan.
+      </p>,
+    },
+    {
+      image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+      title: (
+        <p>
+          <strong>Well Spent</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
+      content: <p>This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance, with dedicated chapters on maintenance and asset management.
+        <br /><br />
+        Chapter 14 (Maintaining and Managing Public Infrastructure Assets) addresses the critical need for systematic asset management and maintenance planning, highlighting how neglect of routine maintenance accelerates asset deterioration, increases long-term costs, and undermines the benefits of infrastructure investments.
+      </p>,
+    },
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -68,7 +156,8 @@ export default function Public_Investment_And_Asset_Management() {
             investment decision-making process.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/qii6/Public_Investment_And_Asset_Management/WellSpent.png"
               title={
@@ -114,7 +203,7 @@ export default function Public_Investment_And_Asset_Management() {
                 identify weaknesses and prioritize reforms.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>Public asset management (PAM) </strong>
@@ -125,7 +214,8 @@ export default function Public_Investment_And_Asset_Management() {
             management, and preventive maintenance strategies.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png"
               title={
@@ -211,12 +301,22 @@ export default function Public_Investment_And_Asset_Management() {
               buttonText="Guidance"
               link="https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf"
             >
-              <p>This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance, with dedicated chapters on maintenance and asset management.
-                <br /><br />
-                Chapter 14 (Maintaining and Managing Public Infrastructure Assets) addresses the critical need for systematic asset management and maintenance planning, highlighting how neglect of routine maintenance accelerates asset deterioration, increases long-term costs, and undermines the benefits of infrastructure investments.
+              <p>
+                This 2020 IMF book draws on PIMAs conducted in more than 60
+                countries to address how countries can attain quality
+                infrastructure outcomes through better governance, with
+                dedicated chapters on maintenance and asset management.
+                <br />
+                <br />
+                Chapter 14 (Maintaining and Managing Public Infrastructure
+                Assets) addresses the critical need for systematic asset
+                management and maintenance planning, highlighting how neglect of
+                routine maintenance accelerates asset deterioration, increases
+                long-term costs, and undermines the benefits of infrastructure
+                investments.
               </p>
             </VCard>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

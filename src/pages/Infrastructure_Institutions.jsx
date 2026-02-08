@@ -6,8 +6,163 @@ import HeaderCarousal from "../components/HeaderCarousal";
 import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function Infrastructure_Institutions() {
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image:
+        "images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png",
+      title: (
+        <p>
+          <strong>InfraGov Assessment Framework</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://infrastructuregovern.imf.org/",
+      content: (
+        <p>
+          This resource provides a comprehensive framework to help governments
+          at all levels work together more effectively on public investment. It
+          covers 12 principles organized around three pillars: coordination,
+          capacities, and framework conditions, addressing the challenges of
+          fragmented responsibilities and the need for coherent investment
+          strategies.
+          <br />
+          <br />
+          The OECD Infrastructure Toolkit provides practical guidance for
+          designing stakeholder engagement plans that are inclusive and
+          systematic.
+        </p>
+      ),
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image:
+        "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
+      title: (
+        <p>
+          <strong>OECD Recommendation on Public Investment</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/08/effective-multi-level-public-investment_4bcedf6d/c3bc625b-en.pdf",
+      content: (
+        <p>
+          This resource provides a comprehensive framework to help governments
+          at all levels work together more effectively on public investment. It
+          covers 12 principles organized around three pillars: coordination,
+          capacities, and framework conditions, addressing the challenges of
+          fragmented responsibilities and the need for coherent investment
+          strategies.
+          <br />
+          <br />
+          Chapter 2 details practical mechanisms for reinforcing coordination
+          across government levels, emphasizing joint investment strategies,
+          intergovernmental dialogue, and capacity-building to unify standards
+          and promote accountability in public infrastructure investment
+          decisions.
+        </p>
+      ),
+    },
+  ];
+
+  const step3Cards = [
+    {
+      image:
+        "images/qii6/Infrastructure-Institutions/CoST-Infrastructure-Transparency-Initiative.png",
+      title: (
+        <p>
+          <strong>
+            CoST Infrastructure Transparency Initiative - “A Framework for
+            Integrity in Infrastructure Planning”
+          </strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
+      content: (
+        <p>
+          This is a practical resource for embedding transparency throughout the
+          infrastructure planning phase, to tackle corruption and strengthen
+          public confidence in infrastructure decision-making processes.
+        </p>
+      ),
+    },
+    {
+      image: "images/qii6/Infrastructure-Institutions/WellSpent.png",
+      title: (
+        <p>
+          <strong>Well Spent</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.elibrary.imf.org/display/book/9781513511818/9781513511818.xml",
+      content: (
+        <p>
+          This 2020 IMF book draws on PIMAs conducted in more than 60 countries
+          to address how countries can attain quality infrastructure outcomes
+          through better governance. It covers controlling corruption, managing
+          fiscal risks, integrating planning and budgeting, and best practices
+          in project appraisal and selection.
+          <br />
+          <br />
+          Table 10.3 (Measures and Indicators to Prevent and Detect Corruption
+          in Public Infrastructure) provides a comprehensive list of measures
+          and indicators designed to identify vulnerabilities and detect
+          corruption across the infrastructure investment cycle.
+        </p>
+      ),
+    },
+  ];
+
+  const step4Cards = [
+    {
+      image: "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
+      title: (
+        <p>
+          <strong>UNEP Integrated Approaches in Action</strong>
+        </p>
+      ),
+      buttonText: "Case study",
+      link: "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
+      content: (
+        <p>
+          This showcases integrated approaches to infrastructure planning in
+          small island developing states, highlighting how countries can align
+          infrastructure investments with climate resilience and sustainable
+          development goals.
+          <br />
+          <br />
+          Saint Lucia's National Infrastructure Assessment demonstrates
+          integrated long-term planning through cross-sectoral analysis and
+          stakeholder engagement to strategically prioritize climate-resilient
+          investments supporting national development.
+        </p>
+      ),
+    },
+    {
+      image: "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
+      title: (
+        <p>
+          <strong>OECD /IMF Reference Note</strong>
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
+      content: (
+        <p>
+          This note provides principles for developing strategic infrastructure
+          planning frameworks that integrate long-term national priorities with
+          project selection.
+        </p>
+      ),
+    },
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -65,9 +220,7 @@ export default function Infrastructure_Institutions() {
           </h1>
           <div className="border-dash"></div>
           <NumSteps num="1">
-            <strong>
-              Legal and regulatory frameworks for infrastructure {" "}
-            </strong>
+            <strong>Legal and regulatory frameworks for infrastructure </strong>
             <br />
             Strong legal and regulatory frameworks are essential to ensure
             public infrastructure investments follow clear standards and rules
@@ -76,7 +229,8 @@ export default function Infrastructure_Institutions() {
             best practices, evolving risks, and national development needs.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col1">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col1">
             <VCard
               image="images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png"
               title={
@@ -98,7 +252,7 @@ export default function Infrastructure_Institutions() {
                 systematic.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>Coordination across government </strong>
@@ -108,7 +262,8 @@ export default function Infrastructure_Institutions() {
             cooperation mechanisms and shared investment priorities.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col1">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col1">
             <VCard
               image="images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png"
               title={
@@ -136,10 +291,10 @@ export default function Infrastructure_Institutions() {
                 in public infrastructure investment decisions.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Transparency and accountability  </strong>
+            <strong>Transparency and accountability </strong>
             <br />
             Transparency and Accountability – Transparency and accountability
             are critical for integrity in infrastructure planning and execution.
@@ -151,7 +306,8 @@ export default function Infrastructure_Institutions() {
             subject to continuous external review.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step3Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/qii6/Infrastructure-Institutions/CoST-Infrastructure-Transparency-Initiative.png"
               title={
@@ -198,7 +354,7 @@ export default function Infrastructure_Institutions() {
                 investment cycle.
               </p>
             </VCard>
-          </div>
+          </div> */}
           <div className="border-dash"></div>
           <NumSteps num="4">
             <strong>Strategic planning </strong>
@@ -208,7 +364,8 @@ export default function Infrastructure_Institutions() {
             resources are used where needed most.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col-2">
+          <VCardsPagination cardsData={step4Cards} />
+          {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png"
               title={
@@ -248,7 +405,7 @@ export default function Infrastructure_Institutions() {
                 national priorities with project selection.
               </p>
             </VCard>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

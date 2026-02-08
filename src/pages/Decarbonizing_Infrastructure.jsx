@@ -9,8 +9,210 @@ import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import VCardsPagination from "../components/VCardsPagination";
 
 export default function Decarbonizing_Infrastructure() {
+  const STEP1_PAGE_SIZE = 3;
+  const step1Cards = [
+    {
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Change_Development.png",
+      title: (
+        <p>
+          <strong>Climate Change and Development Reports</strong> <br />
+          World Bank
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.worldbank.org/en/publication/country-climate-development-reports#:~:text=The%20World%20Bank%20Group's%20Country,contributions%20and%20long%2Dterm%20strategies.",
+      content: (
+        <p>
+          Country level diagnostics that identify the development pathways to
+          achieve NDCs and Long-Term Strategies.
+        </p>
+      ),
+    },
+    {
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png",
+      title: (
+        <p>
+          <strong>Net Zero by 2050</strong> <br />
+          International Energy Agency (IEA)
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.iea.org/reports/net-zero-by-2050#overview",
+      content: (
+        <p>
+          Pathways to net zero by 2050 for several infrastructure sectors,
+          including the transport, electricity, buildings, and industry sectors.
+        </p>
+      ),
+    },
+    {
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Infrastructure_Transition_Pathways.png",
+      title: (
+        <p>
+          <strong>Infrastructure Transition Pathways</strong> <br />
+          Global Infrastructure Hub
+        </p>
+      ),
+      buttonText: "Data",
+      link: "https://infrastructure-transition.gihub.org/data/",
+      content: (
+        <p>
+          The GI Hub has analysed more than 250 infrastructure plans across the
+          G20 to understand how countries are investing in infrastructure to
+          address climate change.
+        </p>
+      ),
+    },
+  ];
+
+  const step2Cards = [
+    {
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Rewa_Ultra_Mega_Solar_Project.png",
+      title: (
+        <p>
+          <strong>Rewa Ultra Mega Solar Project, India</strong>
+        </p>
+      ),
+      buttonText: "Case Study",
+      link: "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdfs",
+      buttonText2: "Watch Video",
+      link2: "https://www.youtube.com/watch?v=nTDXDHXwwT0",
+      highlight: 2,
+      content: (
+        <p>
+          One of the world's largest single-site solar projects, demonstrating
+          how innovative payment security mechanisms can de-risk investment
+          while achieving record-low tariffs. A model for scaling renewable
+          energy through well-structured PPPs.
+        </p>
+      ),
+    },
+    {
+      image: "images/qii3/QII3/Decarbonizing_Infrastructure/New_Technologies_Powering_The_Energy_Transition.png",
+      title: (
+        <p>
+          <strong>New Technologies Powering the Energy Transition in Asia and the Pacific</strong>
+        </p>
+      ),
+      buttonText: "Case Study – Energy",
+      link: "https://www.ifc.org/en/stories/2024/new-technologies-powering-the-energy-transition-in-eap",
+      content: <p>Emerging technologies, especially battery energy storage systems and green hydrogen, are accelerating the energy transition across Asia and the Pacific. This article looks at the Philippines’ first hybrid 120MW solar farm co-located with a 40MW battery system that powers about 40,000 homes and avoids ~110,000 tons of CO₂ annually.</p>,
+    },
+    {
+      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Cairo_Alexandria_Trade_Logistics_Development.png",
+      title: (
+        <p>
+          <strong>Cairo Alexandria Trade Logistics Development Project, Egypt</strong> <br />Asian Development Bank (ADB)
+        </p>
+      ),
+      buttonText: "Case Study – Transport",
+      link: "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
+      content: <p>A $1 billion project to decarbonize freight transport between Alexandria's ports and Cairo through a new rail bypass and upgraded signaling, electrification, and track.</p>,
+    },
+    {
+      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
+      title: (
+        <p>
+          <strong>Climate Toolkits for Infrastructure PPPs</strong> <br />World Bank
+        </p>
+      ),
+      buttonText: "Guidance – Project level",
+      link: "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
+      content: <p>This toolkit provides guidance on the integration of GHG emissions analysis and decarbonization options into the design of Public Private Partnerships (PPPs) across a range of infrastructure sectors.</p>,
+    },
+    {
+      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png",
+      title: (
+        <p>
+          <strong>Net Zero by 2050</strong> <br />International Energy Agency (IEA)
+        </p>
+      ),
+      buttonText: "Guidance – Energy",
+      link: "https://www.iea.org/reports/net-zero-by-2050#overview",
+      content: <p>Pathways to net zero by 2050 for several infrastructure sectors, including the transport, electricity, buildings, and industry sectors.</p>,
+    },
+    {
+      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Investigating_Life_Cycle.png",
+      title: (
+        <p>
+          <strong>Investigating Life Cycle Carbon Emission Impact of Road Investments</strong>
+          <br />Asian Development Bank (ADB)
+        </p>
+      ),
+      buttonText: "Guidance",
+      link: "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
+      content: <p>A tool that can inform Avoid–Shift–Improve (ASI) measures to reduce emissions and can be used to support the planning and design of road projects and programs – from construction to rehabilitation and with consideration of raw material and supply chain activities.</p>,
+    },
+    {
+      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Building_Green_Sustainable_Construction.png",
+      title: (
+        <p>
+          <strong>Building Green: Sustainable Construction in Emerging Markets</strong> <br />IFC
+        </p>
+      ),
+      buttonText: "Guidance – Buildings",
+      link: "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
+      content: <p>Guide to decarbonizing construction value chains.</p>,
+    },
+  ];
+
+  const step3Cards = [
+    {
+      image:
+        "images/qii3/Decarbonizing-Infrastructure/Greenhouse-Gas-Protocol.png",
+      title: (
+        <p>
+          <strong>Greenhouse Gas Protocol</strong></p>
+      ),
+      buttonText: "Tool",
+      link: "https://ghgprotocol.org/",
+      content: (
+        <p>
+          A widely used international accounting standard for greenhouse gas emissions, developed by WRI and WBCSD. Provides comprehensive global standardized frameworks to measure and manage GHG emissions, with sector-specific and country-specific calculation tools for private and public sector operations, value chains, and mitigation actions.
+        </p>
+      ),
+    },
+    {
+      image:
+        "images/qii3/Decarbonizing-Infrastructure/RICS-Whole-Life-Carbon-Assessment-Standard.png",
+      title: (
+        <p>
+          <strong>RICS Whole Life Carbon Assessment Standard</strong></p>
+      ),
+      buttonText: "Tool",
+      link: "https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/whole-life-carbon-assessment/whole-life-carbon-assessment-implementation-guides-and-supporting-documents",
+      content: (
+        <p>
+          Professional standard from the Royal Institution of Chartered Surveyors for measuring carbon emissions across the entire lifecycle of built assets, from raw material extraction through construction, operation, and end of life.
+        </p>
+      ),
+    },
+    {
+      image:
+        "images/qii3/Decarbonizing-Infrastructure/Reducing-Infrastructure-Climate-Risk-Through-Technology-Measures.png",
+      title: (
+        <p>
+          <strong>Reducing Infrastructure Climate Risk Through Technology Measures</strong> <br />
+          EDHEC Climate Institute
+        </p>
+      ),
+      buttonText: "Guidance – Multi-sector",
+      link: "https://climateinstitute.edhec.edu/climatech-project",
+      content: (
+        <p>
+          Guidance on developing decarbonization roadmaps for infrastructure owners and investors. The initiative identifies and evaluates over 100 decarbonization and climate resilience strategies across 101 infrastructure asset subclasses, resulting in more than 1,800 unique asset-strategy applications. Each strategy is assessed for effectiveness and hazard protection level (for physical risks).
+        </p>
+      ),
+    },
+  ];
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -99,7 +301,8 @@ export default function Decarbonizing_Infrastructure() {
             reduction alongside broader development goals.{" "}
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step1Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Change_Development.png"
               title={
@@ -152,9 +355,9 @@ export default function Decarbonizing_Infrastructure() {
                 infrastructure to address climate change.{" "}
               </p>
             </VCard>
-          </div>
-          </div>
-          <div className="container internal-pages-container color-light">
+          </div> */}
+        </div>
+        <div className="container internal-pages-container color-light">
           <NumSteps num="2">
             <strong>Decarbonization Solutions</strong>
             <br />
@@ -217,7 +420,8 @@ export default function Decarbonizing_Infrastructure() {
               Improve efficiency of remaining systems
             </p>
           </div>
-          <div className="VCard-cnt col3">
+          <VCardsPagination cardsData={step2Cards} />
+          {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii3/QII3/Decarbonizing_Infrastructure/Rewa_Ultra_Mega_Solar_Project.png"
               title={
@@ -354,7 +558,7 @@ export default function Decarbonizing_Infrastructure() {
             >
               <p>Guide to decarbonizing construction value chains.</p>
             </VCard>
-          </div>
+          </div> */}
         </div>
         <section className="color-dark noPTop">
           <div className="container internal-pages-container">
@@ -364,7 +568,8 @@ export default function Decarbonizing_Infrastructure() {
               methodologies, frameworks, and tracking tools relevant to
               infrastructure decarbonization.
             </div>
-            <div className="VCard-cnt col3">
+            <VCardsPagination cardsData={step3Cards} />
+            {/* <div className="VCard-cnt col3">
               <VCard
                 image="images/qii3/Decarbonizing-Infrastructure/Greenhouse-Gas-Protocol.png"
                 title={
@@ -428,7 +633,7 @@ export default function Decarbonizing_Infrastructure() {
                   hazard protection level (for physical risks).
                 </p>
               </VCard>
-            </div>
+            </div> */}
           </div>
         </section>
       </section>
