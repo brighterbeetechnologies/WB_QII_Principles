@@ -158,7 +158,7 @@ export default function Govtech_For_Infrastructure() {
           {/* <p className="link-text"></p> */}
           {/* <h1 className="link-text"></h1> */}
           <NumSteps num="1">
-            <strong>Data collection for informed decision making </strong>
+            <strong>Data Collection for Informed Decision Making </strong>
             <br />
             Quality infrastructure investment starts with quality data. Digital
             tools for collecting, standardizing, and analyzing infrastructure
@@ -209,8 +209,8 @@ export default function Govtech_For_Infrastructure() {
           <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>
-              Digital platforms for data management, monitoring, and
-              transparency{" "}
+              Digital Platforms for Data Management, Monitoring, and
+              Transparency{" "}
             </strong>
             <br />
             Integrated digital platforms consolidate infrastructure information
@@ -282,8 +282,8 @@ export default function Govtech_For_Infrastructure() {
           <div className="border-dash"></div>
           <NumSteps num="3">
             <strong>
-              Ensuring interoperability across governance levels and
-              sectors{" "}
+              Ensuring Interoperability Across Governance Levels and
+              Sectors{" "}
             </strong>
             <br />
             Effective digital governance requires systems that communicate

@@ -185,7 +185,7 @@ export default function Stakeholder_Engagement() {
           </div> */}
           <div className="border-dash"></div>
           <NumSteps num="1">
-            <strong>Characterize stakeholders using data </strong>
+            <strong>Characterize Stakeholders Using Data </strong>
             <br />
             Identify which stakeholders may be at risk of exclusion by: <br />
             <ul>
@@ -272,7 +272,7 @@ export default function Stakeholder_Engagement() {
           </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Develop stakeholder engagement plans </strong>
+            <strong>Develop Stakeholder Engagement Plans </strong>
             <br />
             It has long been recognized that good stakeholder engagement is
             fundamental to generating support for, and ultimately usage of,

@@ -347,6 +347,13 @@ ul {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.25);
 }
 
+/* added */
+.page-resource-arrow.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 .page-resource-btn-cnt {
   display: flex;
   /* justify-content: flex-end; */

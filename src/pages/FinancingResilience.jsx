@@ -320,7 +320,7 @@ export default function FinancingResilience() {
           </p>
           <div className="border-dash"></div>
           <NumSteps num="1">
-            <strong>Screening projects with sustainability standards </strong>{" "}
+            <strong>Screening Projects with Sustainability standards </strong>{" "}
             <br />
             Alongside the vulnerability and risk assessments (outlined within
             the{" "}
@@ -569,7 +569,7 @@ export default function FinancingResilience() {
           </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Innovative financing instruments </strong>
+            <strong>Innovative Financing Instruments </strong>
             <br /> Innovative financing instruments attract private investors by
             lowering risk exposure and improving the predictability and
             stability of cash flows. Instruments can cover the financing needs

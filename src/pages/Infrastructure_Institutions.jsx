@@ -220,7 +220,7 @@ export default function Infrastructure_Institutions() {
           </h1>
           <div className="border-dash"></div>
           <NumSteps num="1">
-            <strong>Legal and regulatory frameworks for infrastructure </strong>
+            <strong>Legal and Regulatory Frameworks for Infrastructure </strong>
             <br />
             Strong legal and regulatory frameworks are essential to ensure
             public infrastructure investments follow clear standards and rules
@@ -255,7 +255,7 @@ export default function Infrastructure_Institutions() {
           </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Coordination across government </strong>
+            <strong>Coordination Across Government </strong>
             <br />
             Infrastructure is often complex, cutting across sector and
             institutional boundaries. Effective coordination requires structured
@@ -294,7 +294,7 @@ export default function Infrastructure_Institutions() {
           </div> */}
           <div className="border-dash"></div>
           <NumSteps num="3">
-            <strong>Transparency and accountability </strong>
+            <strong>Transparency and Accountability </strong>
             <br />
             Transparency and Accountability – Transparency and accountability
             are critical for integrity in infrastructure planning and execution.
@@ -357,7 +357,7 @@ export default function Infrastructure_Institutions() {
           </div> */}
           <div className="border-dash"></div>
           <NumSteps num="4">
-            <strong>Strategic planning </strong>
+            <strong>Strategic Planning </strong>
             <br />
             Strategic long-term planning aligns infrastructure investments with
             national development goals to ensure that the scarce public

@@ -47,35 +47,33 @@ export default function QII5LandingPage() {
     {
       id: 0,
       title:
-        "Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9",
-      country: false,
-      org: false,
+        "Incorporating Universal Accessibility into Infrastructure Planning and Design ",
+      country: "Vietnam Senegal",
+      org: "World Bank",
       description:
-        "Foundation for international accessibility standards referenced throughout World Bank global policy and operational documents. Its mandates shape the development, adoption, and monitoring of accessibility norms and standards worldwide.",
-      img_path: "images/qii2/Ganga_case_study.png",
-      path: "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
-      target: "_self",
+        "This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
+      img_path: "",
+      path: "",
+      target: "_blank",
     },
     {
       id: 1,
-      title: "PPP Gender Toolkit",
-      country: false,
+      title: "She Drives Change",
+      country: "Multi-country",
       org: "World Bank",
-      description:
-        "A comprehensive resource designed to guide the mainstreaming of gender considerations throughout the lifecycle of infrastructure projects delivered via Public-Private Partnerships (PPPs).",
-      img_path: "images/governance/list/01.jpg",
-      path: "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
+      description: "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
+      img_path: "",
+      path: "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07​",
       target: "_blank",
     },
     {
       id: 2,
-      title: "Inclusive Infrastructure Toolkit",
-      country: false,
-      org: "World Bank / GI Hub ",
-      description:
-        "A practical, evidence-based framework for developing infrastructure that advances social inclusivity. It outlines six key action areas and detailed practices to maximize infrastructure’s impact on reducing inequality and promoting shared prosperity, illustrated by real-life international examples. ",
-      img_path: "images/governance/list/01.jpg",
-      path: "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
+      title: "Gender Dimensions of Cross-Border Trade",
+      country: "Tajikistan",
+      org: "World Bank",
+      description: "This report examines the trade facilitation challenges faced by men- and women-led firms in Tajikistan, identifying gender-specific barriers such as lower participation in public consultations, reduced access to trade finance, and inadequate border infrastructure for women traders, with recommendations for more inclusive trade policies.​",
+      img_path: "",
+      path: "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
       target: "_blank",
     },
   ];
@@ -218,10 +216,10 @@ export default function QII5LandingPage() {
               starting with policies and regulations, then through planning and
               design. Stakeholder engagement throughout these early stages, as
               well as during project delivery, ensures diverse needs are met.{" "}
-              <br />
-              <br />
-              Making infrastructure inclusive does not need to be expensive.
-              Studies indicate that{" "}
+              {/* <br />
+              <br /> */}
+              {/* Making infrastructure inclusive does not need to be expensive.
+              Studies indicate that{" "} */}
               <a
                 href="https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/#Inclusive_Standards_and_Universal_Design"
                 target="_blank"
@@ -412,6 +410,29 @@ export default function QII5LandingPage() {
                           </div>
                         </Popover> */}
                         <div className="page-resource-btn-cnt">
+                          {p.path ? (
+                            p.target === "_blank" ? (
+                              <a
+                                className="page-resource-arrow"
+                                href={p.path}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                <span className="icon-arrow">&#xe900;</span>
+                              </a>
+                            ) : (
+                              <Link className="page-resource-arrow" to={p.path}>
+                                <span className="icon-arrow">&#xe900;</span>
+                              </Link>
+                            )
+                          ) : (
+                            <span className="page-resource-arrow disabled">
+                              <span className="icon-arrow">&#xe900;</span>
+                            </span>
+                          )}
+                        </div>
+
+                        {/* <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a
                               className="page-resource-arrow"
@@ -429,7 +450,7 @@ export default function QII5LandingPage() {
                               <span className="icon-arrow">&#xe900;</span>
                             </Link>
                           )}
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>

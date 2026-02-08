@@ -147,7 +147,7 @@ export default function Public_Investment_And_Asset_Management() {
           {/* <p className="link-text"></p> */}
           {/* <h1 className="link-text"></h1> */}
           <NumSteps num="1">
-            <strong>Public investment management (PIM) </strong>
+            <strong>Public Investment Management (PIM) </strong>
             <br />
             Effective public investment management requires systematic
             application of financial and fiscal sustainability tools to assess
@@ -206,7 +206,7 @@ export default function Public_Investment_And_Asset_Management() {
           </div> */}
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Public asset management (PAM) </strong>
+            <strong>Public Asset Management (PAM) </strong>
             <br />
             Comprehensive lifecycle management ensures infrastructure assets
             deliver sustained performance, optimize whole-life costs, and

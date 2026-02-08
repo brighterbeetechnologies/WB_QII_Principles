@@ -175,7 +175,7 @@ export default function ManagingCyberSecurityRisks() {
           </p>
           <div className="border-dash"></div>
           <NumSteps num="1">
-            <strong>Building a foundation for cybersecurity </strong> <br />
+            <strong>Building a Foundation for Cybersecurity </strong> <br />
             This includes assessing cybersecurity maturity, developing
             strategies and legal frameworks, establishing cybersecurity
             governance structures, and strengthening institutions for
@@ -286,7 +286,7 @@ export default function ManagingCyberSecurityRisks() {
 
           <div className="border-dash"></div>
           <NumSteps num="2">
-            <strong>Implementing cyber security in practice </strong> <br />
+            <strong>Implementing Cyber Security in Practice </strong> <br />
             This involves evaluating critical cybersecurity risks and putting
             practical measures in place to manage and lower these risks.
           </NumSteps>
