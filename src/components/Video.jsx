@@ -14,7 +14,7 @@ const Video = () => {
       <div className="video-card">
         <div className="thumbnail">
           <img
-            src="images/qii2/QII_2_Video_Image.jpg"
+            src="images/qii2/Landing-QII-2.gif" 
             alt="Construction site"
           />
           <div
