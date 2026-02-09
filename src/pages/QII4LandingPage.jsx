@@ -159,7 +159,7 @@ export default function QII4LandingPage() {
       org: "World Bank",
       description:
         "Demonstrates how systematic hazard mapping and asset vulnerability diagnostics can prioritize resilient infrastructure investments.",
-      img_path: "images/newresource/Diagnosing-Road-Network.png",
+      img_path: "images/qii4/updated/Diagnosing-Road-Network.jpg",
       path: "/qii4casestudy3",
       target: "_self",
     },

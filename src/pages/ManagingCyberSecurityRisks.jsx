@@ -47,7 +47,7 @@ export default function ManagingCyberSecurityRisks() {
       content: <p>This Cyber Assessment Framework (CAF) provides a systematic approach to assessing cyber risks and how they are being managed by the UK National Cyber Security Center.</p>,
     },
     {
-      image: "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).png",
+      image: "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).jpg",
       title: (
         <p>
           <strong>Sectoral Cybersecurity Maturity Model</strong> <br />World Bank

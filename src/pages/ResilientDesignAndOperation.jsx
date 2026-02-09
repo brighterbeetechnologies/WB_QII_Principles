@@ -245,7 +245,7 @@ export default function ResilientDesignAndOperation() {
     },
     {
       image:
-        "images/qii4/ResilientDesignAndOperation/IFC Catalogue of Nature Based Solutions for Infrastructure Projects.png",
+        "images/qii4/ResilientDesignAndOperation/IFC Catalogue of Nature Based Solutions for Infrastructure Projects.jpg",
       title: (
         <p>
           <strong>
@@ -428,7 +428,7 @@ export default function ResilientDesignAndOperation() {
     },
     {
       image:
-        "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.png",
+        "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.jpg",
       title: (
         <p>
           <strong>

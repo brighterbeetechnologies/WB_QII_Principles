@@ -31,6 +31,20 @@ export default function QII2CaseStudy1() {
               <span>Fukuoka City:</span> Pioneering Life Cycle Costing for
               Efficient Water Management
             </h2>
+            <div className="case-study-play-btn"><button
+            className="video-play-btn icon-play"
+            onClick={() => {
+              openVideo(
+                "./video/FukuokaCaseStudy.mp4",
+                "QII.2 in Action",
+                1920,
+                1080,
+              );
+            }}
+          >
+            &#xe91e;
+          </button>
+          </div>
             <div className="sub-title">
               <h2>CASE SNAPSHOT</h2>
             </div>

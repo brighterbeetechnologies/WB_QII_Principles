@@ -24,7 +24,7 @@ export default function QII4CaseStudy3() {
       <section className="color-light">
         <div className="container">
           <div className="single-case-study-wrapper"style={{
-              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/newresource/Diagnosing-Road-Network.png")`,
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii4/updated/Diagnosing-Road-Network.jpg")`,
             }}>
             <h2 className="main-title">
               <p>Cabo Verde</p>

@@ -1731,7 +1731,7 @@ export const appDataSlice = createSlice({
         stage: 2,
         region: 1,
         industry: 2,
-        image: "images/newresource/Diagnosing-Road-Network.png",
+        image: "images/qii4/updated/Diagnosing-Road-Network.jpg",
       },
       {
         id: 4,
@@ -2433,7 +2433,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.png",
+          "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.jpg",
       },
       {
         id: 4,
@@ -2754,7 +2754,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).png",
+          "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).jpg",
       },
 
       {
