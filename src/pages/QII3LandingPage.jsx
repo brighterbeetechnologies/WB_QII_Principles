@@ -72,7 +72,8 @@ export default function QII3LandingPage() {
 </svg>
 `,
       title: "Quality Environmental Standards",
-      description: "",
+      description:
+        "Applies global safeguards to minimize environmental and social risks throughout project lifecycles.",
       path: "/QualityEnvironmentalStandards",
     },
     {
@@ -98,7 +99,8 @@ export default function QII3LandingPage() {
 </svg>
 `,
       title: "Decarbonizing Infrastructure",
-      description: "",
+      description:
+        "Transforms infrastructure from emissions source to driver of climate solutions. ",
       path: "/DecarbonizingInfrastructure",
     },
     {
@@ -131,7 +133,8 @@ export default function QII3LandingPage() {
 </svg>
 `,
       title: "Green Designs and Nature-Based Infrastructure",
-      description: "",
+      description:
+        "Integrates natural systems with resilient design to strengthen environmental outcomes.",
       path: "/GreenDesigns&Nature-BasedInfrastructure",
     },
     {
@@ -142,7 +145,8 @@ export default function QII3LandingPage() {
 </svg>
 `,
       title: "Green Financing for Infrastructure",
-      description: "",
+      description:
+        "Channels capital toward projects delivering measurable environmental benefits.",
       path: "/GreenFinancingforInfrastructure",
     },
   ];
@@ -150,17 +154,21 @@ export default function QII3LandingPage() {
   const resourceArray = [
     {
       id: 0,
-      title: "Environmental and Social Framework World Bank (2017)",
+      title: "Environmental and Social Framework",
+      country: false,
+      org: "World Bank (2017)",
       description:
         "This framework provides a replicable approach for integrating E&S considerations into infrastructure projects through ten standards, ensuring sustainable and responsible infrastructure development across the project lifecycle. ",
       img_path:
         "images/qii3/Environmental and Social Framework World Bank (2017).png",
       path: "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
-      target: "_self",
+      target: "_blank",
     },
     {
       id: 1,
       title: "Climate Toolkits for Infrastructure PPPs World Bank",
+      country: false,
+      org: "World Bank",
       description:
         "This toolkit offers practical, step-by-step guidance to integrate climate mitigation and adaptation measures into infrastructure PPPs, helping structure bankable projects that align with climate policies, assess climate risks, and incorporate climate solutions that are technically and financially feasible.",
       img_path:
@@ -172,6 +180,8 @@ export default function QII3LandingPage() {
       id: 2,
       title:
         "IFC Performance Standards on Environmental and Social Sustainability",
+      country: false,
+      org: false,
       description:
         "These standards provide a globally recognized framework to identify and manage E&S risks in infrastructure investments, covering a range of key environmental topics including resource efficiency, pollution prevention, and biodiversity conservation.",
       img_path:
@@ -181,7 +191,9 @@ export default function QII3LandingPage() {
     },
     {
       id: 3,
-      title: "Infrastructure for a Climate-Resilient Future OECD (2024)",
+      title: "Infrastructure for a Climate-Resilient Future",
+      country: false,
+      org: "OECD (2024)",
       description:
         "This report provides evidence-based strategies for building climate-resilient infrastructure systems, covering adaptation planning, financing mechanisms, nature-based solutions, and governance frameworks.",
       img_path:
@@ -299,9 +311,9 @@ export default function QII3LandingPage() {
               </div>
             </div>
             <div className="text-cnt">
-              {/* <h1 className="light-font mBottom">
+              <h1 className="light-font mBottom">
                 Infrastructure's Environmental Footprint
-              </h1> */}
+              </h1>
               <h3 className="light-font sub-text">
                 Infrastructure shapes environmental outcomes for generations.
                 Without intentional action, projects can:

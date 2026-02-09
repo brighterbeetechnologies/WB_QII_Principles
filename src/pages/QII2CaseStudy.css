@@ -178,6 +178,28 @@
   color: #ffffff;
 }
 
+/* @media (max-width: 1400px) {
+  .single-case-study-wrapper .main-title {
+    color: #ffffff;
+    width: 65%;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding: 3rem 3rem 10rem 3rem;
+}
+}
+
+@media (max-width: 1300px) {
+  .single-case-study-wrapper .main-title {
+    color: #ffffff;
+    width: 64%;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    padding: 3rem 3rem 10rem 3rem;
+}
+} */
+
 @media (max-width: 1200px) {
   .single-case-study-wrapper .main-title {
     width: 90%;

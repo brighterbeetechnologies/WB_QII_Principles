@@ -12,6 +12,41 @@ import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
 
 export default function Decarbonizing_Infrastructure() {
+  const resourceArray = [
+    {
+      id: 0,
+      title: "Greenhouse Gas Protocol",
+      subTitle:
+        false,
+      description:
+        "A widely used international accounting standard for greenhouse gas emissions, developed by WRI and WBCSD. Provides comprehensive global standardized frameworks to measure and manage GHG emissions, with sector-specific and country-specific calculation tools for private and public sector operations, value chains, and mitigation actions.",
+      img_path: "images/qii3/Decarbonizing-Infrastructure/Greenhouse-Gas-Protocol.png",
+      path: "https://ghgprotocol.org/",
+    },
+
+    {
+      id: 1,
+      title: "RICS Whole Life Carbon Assessment Standard",
+      subTitle:
+        false,
+      description:
+        "Professional standard from the Royal Institution of Chartered Surveyors for measuring carbon emissions across the entire lifecycle of built assets, from raw material extraction through construction, operation, and end of life.",
+      img_path: "images/qii3/Decarbonizing-Infrastructure/RICS-Whole-Life-Carbon-Assessment-Standard.png",
+      path: "https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/whole-life-carbon-assessment/whole-life-carbon-assessment-implementation-guides-and-supporting-documents",
+    },
+
+    {
+      id: 2,
+      title: "Reducing Infrastructure Climate Risk Through Technology Measures",
+      subTitle:
+        "EDHEC Climate Institute",
+      description:
+        "Guidance on developing decarbonization roadmaps for infrastructure owners and investors. The initiative identifies and evaluates over 100 decarbonization and climate resilience strategies across 101 infrastructure asset subclasses, resulting in more than 1,800 unique asset-strategy applications. Each strategy is assessed for effectiveness and hazard protection level (for physical risks).",
+      img_path: "images/qii3/Decarbonizing-Infrastructure/Reducing-Infrastructure-Climate-Risk-Through-Technology-Measures.png",
+      path: "https://climateinstitute.edhec.edu/climatech-project",
+    },
+  ];
+
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
@@ -95,66 +130,120 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
-      image: "images/qii3/QII3/Decarbonizing_Infrastructure/New_Technologies_Powering_The_Energy_Transition.png",
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/New_Technologies_Powering_The_Energy_Transition.png",
       title: (
         <p>
-          <strong>New Technologies Powering the Energy Transition in Asia and the Pacific</strong>
+          <strong>
+            New Technologies Powering the Energy Transition in Asia and the
+            Pacific
+          </strong>
         </p>
       ),
       buttonText: "Case Study – Energy",
       link: "https://www.ifc.org/en/stories/2024/new-technologies-powering-the-energy-transition-in-eap",
-      content: <p>Emerging technologies, especially battery energy storage systems and green hydrogen, are accelerating the energy transition across Asia and the Pacific. This article looks at the Philippines’ first hybrid 120MW solar farm co-located with a 40MW battery system that powers about 40,000 homes and avoids ~110,000 tons of CO₂ annually.</p>,
+      content: (
+        <p>
+          Emerging technologies, especially battery energy storage systems and
+          green hydrogen, are accelerating the energy transition across Asia and
+          the Pacific. This article looks at the Philippines’ first hybrid 120MW
+          solar farm co-located with a 40MW battery system that powers about
+          40,000 homes and avoids ~110,000 tons of CO₂ annually.
+        </p>
+      ),
     },
     {
-      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Cairo_Alexandria_Trade_Logistics_Development.png",
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Cairo_Alexandria_Trade_Logistics_Development.png",
       title: (
         <p>
-          <strong>Cairo Alexandria Trade Logistics Development Project, Egypt</strong> <br />Asian Development Bank (ADB)
+          <strong>
+            Cairo Alexandria Trade Logistics Development Project, Egypt
+          </strong>{" "}
+          <br />
+          Asian Development Bank (ADB)
         </p>
       ),
       buttonText: "Case Study – Transport",
       link: "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
-      content: <p>A $1 billion project to decarbonize freight transport between Alexandria's ports and Cairo through a new rail bypass and upgraded signaling, electrification, and track.</p>,
+      content: (
+        <p>
+          A $1 billion project to decarbonize freight transport between
+          Alexandria's ports and Cairo through a new rail bypass and upgraded
+          signaling, electrification, and track.
+        </p>
+      ),
     },
     {
-      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
       title: (
         <p>
-          <strong>Climate Toolkits for Infrastructure PPPs</strong> <br />World Bank
+          <strong>Climate Toolkits for Infrastructure PPPs</strong> <br />
+          World Bank
         </p>
       ),
       buttonText: "Guidance – Project level",
       link: "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
-      content: <p>This toolkit provides guidance on the integration of GHG emissions analysis and decarbonization options into the design of Public Private Partnerships (PPPs) across a range of infrastructure sectors.</p>,
+      content: (
+        <p>
+          This toolkit provides guidance on the integration of GHG emissions
+          analysis and decarbonization options into the design of Public Private
+          Partnerships (PPPs) across a range of infrastructure sectors.
+        </p>
+      ),
     },
     {
-      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png",
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png",
       title: (
         <p>
-          <strong>Net Zero by 2050</strong> <br />International Energy Agency (IEA)
+          <strong>Net Zero by 2050</strong> <br />
+          International Energy Agency (IEA)
         </p>
       ),
       buttonText: "Guidance – Energy",
       link: "https://www.iea.org/reports/net-zero-by-2050#overview",
-      content: <p>Pathways to net zero by 2050 for several infrastructure sectors, including the transport, electricity, buildings, and industry sectors.</p>,
+      content: (
+        <p>
+          Pathways to net zero by 2050 for several infrastructure sectors,
+          including the transport, electricity, buildings, and industry sectors.
+        </p>
+      ),
     },
     {
-      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Investigating_Life_Cycle.png",
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Investigating_Life_Cycle.png",
       title: (
         <p>
-          <strong>Investigating Life Cycle Carbon Emission Impact of Road Investments</strong>
-          <br />Asian Development Bank (ADB)
+          <strong>
+            Investigating Life Cycle Carbon Emission Impact of Road Investments
+          </strong>
+          <br />
+          Asian Development Bank (ADB)
         </p>
       ),
       buttonText: "Guidance",
       link: "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
-      content: <p>A tool that can inform Avoid–Shift–Improve (ASI) measures to reduce emissions and can be used to support the planning and design of road projects and programs – from construction to rehabilitation and with consideration of raw material and supply chain activities.</p>,
+      content: (
+        <p>
+          A tool that can inform Avoid–Shift–Improve (ASI) measures to reduce
+          emissions and can be used to support the planning and design of road
+          projects and programs – from construction to rehabilitation and with
+          consideration of raw material and supply chain activities.
+        </p>
+      ),
     },
     {
-      image: "images/qii3/QII3/Decarbonizing_Infrastructure/Building_Green_Sustainable_Construction.png",
+      image:
+        "images/qii3/QII3/Decarbonizing_Infrastructure/Building_Green_Sustainable_Construction.png",
       title: (
         <p>
-          <strong>Building Green: Sustainable Construction in Emerging Markets</strong> <br />IFC
+          <strong>
+            Building Green: Sustainable Construction in Emerging Markets
+          </strong>{" "}
+          <br />
+          IFC
         </p>
       ),
       buttonText: "Guidance – Buildings",
@@ -163,55 +252,72 @@ export default function Decarbonizing_Infrastructure() {
     },
   ];
 
-  const step3Cards = [
-    {
-      image:
-        "images/qii3/Decarbonizing-Infrastructure/Greenhouse-Gas-Protocol.png",
-      title: (
-        <p>
-          <strong>Greenhouse Gas Protocol</strong></p>
-      ),
-      buttonText: "Tool",
-      link: "https://ghgprotocol.org/",
-      content: (
-        <p>
-          A widely used international accounting standard for greenhouse gas emissions, developed by WRI and WBCSD. Provides comprehensive global standardized frameworks to measure and manage GHG emissions, with sector-specific and country-specific calculation tools for private and public sector operations, value chains, and mitigation actions.
-        </p>
-      ),
-    },
-    {
-      image:
-        "images/qii3/Decarbonizing-Infrastructure/RICS-Whole-Life-Carbon-Assessment-Standard.png",
-      title: (
-        <p>
-          <strong>RICS Whole Life Carbon Assessment Standard</strong></p>
-      ),
-      buttonText: "Tool",
-      link: "https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/whole-life-carbon-assessment/whole-life-carbon-assessment-implementation-guides-and-supporting-documents",
-      content: (
-        <p>
-          Professional standard from the Royal Institution of Chartered Surveyors for measuring carbon emissions across the entire lifecycle of built assets, from raw material extraction through construction, operation, and end of life.
-        </p>
-      ),
-    },
-    {
-      image:
-        "images/qii3/Decarbonizing-Infrastructure/Reducing-Infrastructure-Climate-Risk-Through-Technology-Measures.png",
-      title: (
-        <p>
-          <strong>Reducing Infrastructure Climate Risk Through Technology Measures</strong> <br />
-          EDHEC Climate Institute
-        </p>
-      ),
-      buttonText: "Guidance – Multi-sector",
-      link: "https://climateinstitute.edhec.edu/climatech-project",
-      content: (
-        <p>
-          Guidance on developing decarbonization roadmaps for infrastructure owners and investors. The initiative identifies and evaluates over 100 decarbonization and climate resilience strategies across 101 infrastructure asset subclasses, resulting in more than 1,800 unique asset-strategy applications. Each strategy is assessed for effectiveness and hazard protection level (for physical risks).
-        </p>
-      ),
-    },
-  ];
+  // const step3Cards = [
+  //   {
+  //     image:
+  //       "images/qii3/Decarbonizing-Infrastructure/Greenhouse-Gas-Protocol.png",
+  //     title: (
+  //       <p>
+  //         <strong>Greenhouse Gas Protocol</strong>
+  //       </p>
+  //     ),
+  //     buttonText: "Tool",
+  //     link: "https://ghgprotocol.org/",
+  //     content: (
+  //       <p>
+  //         A widely used international accounting standard for greenhouse gas
+  //         emissions, developed by WRI and WBCSD. Provides comprehensive global
+  //         standardized frameworks to measure and manage GHG emissions, with
+  //         sector-specific and country-specific calculation tools for private and
+  //         public sector operations, value chains, and mitigation actions.
+  //       </p>
+  //     ),
+  //   },
+  //   {
+  //     image:
+  //       "images/qii3/Decarbonizing-Infrastructure/RICS-Whole-Life-Carbon-Assessment-Standard.png",
+  //     title: (
+  //       <p>
+  //         <strong>RICS Whole Life Carbon Assessment Standard</strong>
+  //       </p>
+  //     ),
+  //     buttonText: "Tool",
+  //     link: "https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/whole-life-carbon-assessment/whole-life-carbon-assessment-implementation-guides-and-supporting-documents",
+  //     content: (
+  //       <p>
+  //         Professional standard from the Royal Institution of Chartered
+  //         Surveyors for measuring carbon emissions across the entire lifecycle
+  //         of built assets, from raw material extraction through construction,
+  //         operation, and end of life.
+  //       </p>
+  //     ),
+  //   },
+  //   {
+  //     image:
+  //       "images/qii3/Decarbonizing-Infrastructure/Reducing-Infrastructure-Climate-Risk-Through-Technology-Measures.png",
+  //     title: (
+  //       <p>
+  //         <strong>
+  //           Reducing Infrastructure Climate Risk Through Technology Measures
+  //         </strong>{" "}
+  //         <br />
+  //         EDHEC Climate Institute
+  //       </p>
+  //     ),
+  //     buttonText: "Guidance – Multi-sector",
+  //     link: "https://climateinstitute.edhec.edu/climatech-project",
+  //     content: (
+  //       <p>
+  //         Guidance on developing decarbonization roadmaps for infrastructure
+  //         owners and investors. The initiative identifies and evaluates over 100
+  //         decarbonization and climate resilience strategies across 101
+  //         infrastructure asset subclasses, resulting in more than 1,800 unique
+  //         asset-strategy applications. Each strategy is assessed for
+  //         effectiveness and hazard protection level (for physical risks).
+  //       </p>
+  //     ),
+  //   },
+  // ];
 
   const dispatch = useDispatch();
   useEffect(() => {
@@ -560,16 +666,16 @@ export default function Decarbonizing_Infrastructure() {
             </VCard>
           </div> */}
         </div>
-        <section className="color-dark noPTop">
+        {/* <section className="color-dark noPTop">
           <div className="container internal-pages-container">
-            <h2 className="section-title">Resources</h2>
+            <h2 className="section-title">Further Reading on Decarbonizing Infrastructure</h2>
             <div className="section-title noPTop">
               If you’d like to dive deeper, these resources provide detailed
               methodologies, frameworks, and tracking tools relevant to
               infrastructure decarbonization.
             </div>
-            <VCardsPagination cardsData={step3Cards} />
-            {/* <div className="VCard-cnt col3">
+            <VCardsPagination cardsData={step3Cards} /> */}
+        {/* <div className="VCard-cnt col3">
               <VCard
                 image="images/qii3/Decarbonizing-Infrastructure/Greenhouse-Gas-Protocol.png"
                 title={
@@ -634,6 +740,82 @@ export default function Decarbonizing_Infrastructure() {
                 </p>
               </VCard>
             </div> */}
+        {/* </div>
+        </section> */}
+        <section className="color-dark">
+          <div className="container internal-pages-container">
+            <h2 className="section-title light-font">
+              Further Reading on Decarbonizing Infrastructure
+            </h2>
+            <div className="section-title noPTop">
+              If you’d like to dive deeper, these resources provide detailed
+              methodologies, frameworks, and tracking tools relevant to
+              infrastructure decarbonization.
+            </div>
+            <div className="page-resource-grid" role="list">
+              {resourceArray.map((p, index) => (
+                <article
+                  className="page-resource-card"
+                  key={index}
+                  role="listitem"
+                  style={{ backgroundImage: `url(${p.img})` }}
+                >
+                  <div className="page-resource-link">
+                    <div className="page-resource-body">
+                      <div className="page-resource-title title-small">
+                        <strong>{p.title}</strong>
+                        {p.subTitle && (
+                          <>
+                            <br />
+                            <span>{p.subTitle}</span>
+                          </>
+                        )}
+                      </div>
+                      <div className="page-resource-overlay" />
+                      <img
+                        className="page-resource-img"
+                        src={p.img_path}
+                        alt={p.title}
+                      />
+                      {/* <div className="page-resource-img-cnt">
+                    </div> */}
+                      <div className="page-resource-data">
+                        <div className="page-resource-title title-big">
+                          <strong>{p.title}</strong>
+                          {p.subTitle && (
+                            <>
+                              <br />
+                              <span>{p.subTitle}</span>
+                            </>
+                          )}
+                        </div>
+                        <div className="page-resource-description">
+                          {p.description}
+                        </div>
+                        {/* <Popover
+                        content={p.description}
+                        title={p.title}
+                        trigger="click"
+                      >
+                        <div className="page-resource-description">
+                          Read More...
+                        </div>
+                      </Popover> */}
+                        <div className="page-resource-btn-cnt">
+                          <a
+                            className="page-resource-arrow"
+                            href={p.path}
+                            target="_blank"
+                          >
+                            <span className="icon-arrow">&#xe900;</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
           </div>
         </section>
       </section>

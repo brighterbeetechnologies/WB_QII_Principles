@@ -39,7 +39,7 @@ export default function QII2LandingPage() {
         "Summarizes a procurement approach for a life project where annuity payments were linked to long-term O&M performance.",
       img_path: "images/qii2/Ganga_case_study.png",
       path: "/qii2casestudy2",
-      target: "_self",
+      target: "_blank",
     },
     {
       id: 1,
