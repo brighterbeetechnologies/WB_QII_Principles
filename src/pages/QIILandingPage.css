@@ -92,7 +92,7 @@
 }
 
 .qii2 .video-text-box img {
-  border-radius: 15px;
+  /* border-radius: 15px; */
   width: 100%;
   height: 100%;
 }
@@ -348,7 +348,7 @@ cursor: pointer;
   }
 
   .qii2 .video-text-box img {
-    border-radius: 15px;
+    /* border-radius: 15px; */
     width: 100%;
 }
 
@@ -431,8 +431,7 @@ cursor: pointer;
 }
 
 @media (min-width: 1600px) {
-  .qii2 .vid-cnt,
-  .qii2 .video-text-box img {
+  .qii2 .vid-cnt{
     border-radius: 34px;
   }
 }
