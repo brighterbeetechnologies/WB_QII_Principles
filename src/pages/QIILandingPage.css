@@ -93,6 +93,8 @@
 
 .qii2 .video-text-box img {
   border-radius: 15px;
+  width: 100%;
+  height: 100%;
 }
 
 .qii2 .vid-cnt {
@@ -344,6 +346,11 @@ cursor: pointer;
   .video-text-box img{
    position: relative;
   }
+
+  .qii2 .video-text-box img {
+    border-radius: 15px;
+    width: 100%;
+}
 
   .qii2 .sub-text {
     margin: 1rem 0;

@@ -16,6 +16,7 @@ import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
 import QII2CaseStudy1 from "./QII2CaseStudy1";
 import "./QII2CaseStudy.css";
+import Video from "../components/Video";
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
@@ -278,7 +279,7 @@ export default function QII2LandingPage() {
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              <img src="images/qii2/Landing-QII-2.gif" alt="" />
+              {/* <img src="images/qii2/Landing-QII-2.gif" alt="" />
               <div className="vid-cnt">
                 <button
                   className="video-play-btn icon-play"
@@ -296,7 +297,8 @@ export default function QII2LandingPage() {
                 <p className="video-title">
                   <strong>Unlocking the Potential of Life Cycle Costing</strong>
                 </p>
-              </div>
+              </div> */}
+            <Video/>
             </div>
             <div className="text-cnt">
               {/* <h1 className="light-font mBottom">

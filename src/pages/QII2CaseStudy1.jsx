@@ -4,10 +4,18 @@ import ListImageText from "../components/ListImageText";
 import "./QII2CaseStudy.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { setBradcrump } from "../slices/appDataSlice";
+import {
+  setBradcrump,
+  setShowVideo,
+  setVideoData,
+} from "../slices/appDataSlice";
 
 export default function QII2CaseStudy1() {
   const dispatch = useDispatch();
+  const openVideo = (url, title, width, height) => {
+    dispatch(setVideoData({ url, title, width, height }));
+    dispatch(setShowVideo(true));
+  };
   useEffect(() => {
     dispatch(
       setBradcrump({
@@ -23,28 +31,34 @@ export default function QII2CaseStudy1() {
     <div className="single-case-study-page">
       <section className="color-light">
         <div className="container">
-          <div className="single-case-study-wrapper" style={{
+          <div
+            className="single-case-study-wrapper"
+            style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii2/Fukuoka_Case_study.png")`,
               margin: "1rem 0 0 0",
-            }}>
+            }}
+          >
             <h2 className="main-title">
               <span>Fukuoka City:</span> Pioneering Life Cycle Costing for
               Efficient Water Management
             </h2>
-            <div className="case-study-play-btn"><button
-            className="video-play-btn icon-play"
-            onClick={() => {
-              openVideo(
-                "./video/FukuokaCaseStudy.mp4",
-                "QII.2 in Action",
-                1920,
-                1080,
-              );
-            }}
-          >
-            &#xe91e;
-          </button>
-          </div>
+            <div className="qii-video-cnt">
+              <div className="case-study-play-btn">
+                <button
+                  className="video-play-btn icon-play"
+                  onClick={() => {
+                    openVideo(
+                      "./video/FukuokaCaseStudy.mp4",
+                      "QII.2 in Action",
+                      1920,
+                      1080,
+                    );
+                  }}
+                >
+                  &#xe91e;
+                </button>
+              </div>
+            </div>
             <div className="sub-title">
               <h2>CASE SNAPSHOT</h2>
             </div>
