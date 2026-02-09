@@ -31,8 +31,8 @@ const Video = () => {
           <div className="badge">Video</div>
         </div>
         <div className="content">
-          <div className="title">The Real Cost of Infrastructure</div>
-          <div className="description">Life cycle costing explained.</div>
+          <div className="title">Unlocking the Potential of <br />Life Cycle Costing</div>
+          {/* <div className="description">Life cycle costing explained.</div> */}
           <div className="meta">
             <div className="meta-item">
               <svg

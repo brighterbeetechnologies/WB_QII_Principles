@@ -39,8 +39,10 @@ export default function QII2CaseStudy1() {
             }}
           >
             <h2 className="main-title">
-              <span>Fukuoka City:</span> Pioneering Life Cycle Costing for
-              Efficient Water Management
+              <span>QII.2 in Action</span> 
+              <br />Fukuoka City's water management success
+              story showcases the transformative power of LCC, aligning economic
+              efficiency with sustainability.
             </h2>
             <div className="qii-video-cnt">
               <div className="case-study-play-btn">
