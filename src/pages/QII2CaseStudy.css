@@ -5,7 +5,7 @@
 }
 
 .single-case-study-wrapper {
-  margin: 1rem 0 0 0;
+  margin: 4rem 0 0 0;
   background-image:
     linear-gradient(
       0deg,
@@ -31,9 +31,9 @@
 
 .single-case-study-wrapper .main-title {
   color: #ffffff;
-  width: 79%;
+  width: 57%;
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   padding: 3rem 3rem 10rem 3rem;
 }
@@ -44,7 +44,7 @@
 
 .single-case-study-wrapper .case-study-play-btn {
   position: absolute;
-  top: 36%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 5;
@@ -203,7 +203,7 @@
 @media (max-width: 1200px) {
   .single-case-study-wrapper .main-title {
     width: 90%;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 2rem;
   }
   .single-case-study-wrapper .sub-title h2 {
@@ -252,7 +252,7 @@
 
   .single-case-study-wrapper .case-study-play-btn {
     position: absolute;
-    top: 28%;
+    top: 26%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 5;

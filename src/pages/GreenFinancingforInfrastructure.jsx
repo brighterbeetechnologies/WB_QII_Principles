@@ -15,7 +15,7 @@ export default function GreenFinancingforInfrastructure() {
       image: "images/qii3/GreenFinancingforInfrastructure/World of Taxonomies.png",
       title: (
         <p>
-          <strong>World of Taxonomies Climate Bonds Initiative</strong>
+          <strong>World of Taxonomies</strong>
           <br />Climate Bonds Initiative
         </p>
       ),

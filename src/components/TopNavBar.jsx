@@ -15,7 +15,7 @@ export default function TopNavBar() {
     { title: "QII.2 Economic Efficiency", path: "/qii2" },
     { title: "QII.3 Environment", path: "/qii3" },
     { title: "QII.4 Resilience", path: "/qii4" },
-    { title: "QII.5 Social", path: "/qii5" },
+    { title: "QII.5 Inclusion", path: "/qii5" },
     { title: "QII.6 Governance", path: "/qii5" },
   ];
   const referenceGuid = [

@@ -119,7 +119,7 @@ export default function Stakeholder_Engagement() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/qii5", title: "QII.5 Social" },
+          { path: "/qii5", title: "QII.5 Inclusion" },
           {
             path: "/Project_Planning_And_Design",
             title: "Inclusive Stakeholder Engagement",

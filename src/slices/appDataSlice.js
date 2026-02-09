@@ -64,7 +64,7 @@ export const appDataSlice = createSlice({
       { id: 1, title: "QII.2 Economic Efficiency" },
       { id: 2, title: "QII.3 Environment" },
       { id: 3, title: "QII.4 Resilience" },
-      { id: 4, title: "QII.5 Social" },
+      { id: 4, title: "QII.5 Inclusion" },
       { id: 5, title: "QII.6 Governance" },
     ],
 
@@ -1487,7 +1487,7 @@ export const appDataSlice = createSlice({
           "https://www.climatebonds.net/expertise/taxonomy/world-taxonomies",
         type: "Tool",
         title:
-          "World of TaxonomiesClimate Bonds Initiative Climate Bonds Initiative",
+          "World of Taxonomies Climate Bonds Initiative Climate Bonds Initiative",
         principles: 2,
         highlight: 0,
         target: "_blank",

@@ -196,7 +196,7 @@ export default function Policies_Standards_Regulation() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/qii5", title: "QII.5 Social" },
+          { path: "/qii5", title: "QII.5 Inclusion" },
           {
             path: "/Policies_Standards_Regulation",
             title: "Inclusion through Policies, Standards and Regulation",

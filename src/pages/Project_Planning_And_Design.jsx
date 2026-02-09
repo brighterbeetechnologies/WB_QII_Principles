@@ -150,7 +150,7 @@ export default function Project_Planning_And_Design() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/qii5", title: "QII.5 Social" },
+          { path: "/qii5", title: "QII.5 Inclusion" },
           {
             path: "/Project_Planning_And_Design",
             title: "Inclusion in Project Planning and Design",

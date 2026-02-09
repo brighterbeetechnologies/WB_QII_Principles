@@ -115,8 +115,8 @@ export default function Decarbonizing_Infrastructure() {
           <strong>Rewa Ultra Mega Solar Project, India</strong>
         </p>
       ),
-      buttonText: "Case Study",
-      link: "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdfs",
+      buttonText: "Case Study – Energy",
+      link: "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdf ",
       buttonText2: "Watch Video",
       link2: "https://www.youtube.com/watch?v=nTDXDHXwwT0",
       highlight: 2,
@@ -160,12 +160,10 @@ export default function Decarbonizing_Infrastructure() {
           <strong>
             Cairo Alexandria Trade Logistics Development Project, Egypt
           </strong>{" "}
-          <br />
-          Asian Development Bank (ADB)
         </p>
       ),
       buttonText: "Case Study – Transport",
-      link: "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
+      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099325009122236722 ",
       content: (
         <p>
           A $1 billion project to decarbonize freight transport between
@@ -223,7 +221,7 @@ export default function Decarbonizing_Infrastructure() {
           Asian Development Bank (ADB)
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance – Transport",
       link: "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
       content: (
         <p>

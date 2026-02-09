@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Header3 from "../../components/Header3";
 import ListImageText from "../../components/ListImageText";
-import "./QII4CaseStudy.css";
+import "../QII2CaseStudy.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../../slices/appDataSlice";

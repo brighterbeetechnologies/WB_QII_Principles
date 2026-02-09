@@ -32,7 +32,7 @@ export default function QII2LandingPage() {
     {
       id: 0,
       title: "Public Investment Management Assessment (PIMA)",
-      country: false,
+      country: "Multi-country",
       org: "IMF",
       description: "This assessment framework offers a macro-fiscal lens for evaluating governance across the public investment cycle, with dedicated pillars for investment planning, multi-year budgeting, and fiscal/debt analysis.",
       img_path: "images/qii6/QII6-Landing/PIMA.png",
@@ -42,7 +42,7 @@ export default function QII2LandingPage() {
     {
       id: 0,
       title: "Getting Infrastructure Right : A Framework for Better Governance",
-      country: false,
+      country: "Multi-country",
       org: "OECD",
       description: "This document provides a comprehensive framework with ten key governance dimensions for prioritizing, planning, budgeting, delivering, regulating, and evaluating infrastructure investment across government levels.",
       img_path: "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
@@ -52,7 +52,7 @@ export default function QII2LandingPage() {
     {
       id: 0,
       title: "Infrastructure Governance Assessment Framework",
-      country: false,
+      country: "Multi-country",
       org: "World Bank",
       description: "This document offers a diagnostic framework to assess, benchmark, and improve infrastructure governance by addressing legal, financial, environmental, and institutional dimensions throughout the project lifecycle. ",
       img_path: "images/qii6/QII6-Landing/Infrastructure-Governance-Assessment-Framework.png",
@@ -62,7 +62,7 @@ export default function QII2LandingPage() {
     {
       id: 0,
       title: "Well Spent",
-      country: false,
+      country: "Multi-country",
       org: false,
       description: "This publication provides evidence, analysis, and policy recommendations on how strong infrastructure governance can reduce inefficiency and waste in public investment for sustainable development and fiscal performance. ",
       img_path: "images/qii6/QII6-Landing/WellSpent.png",

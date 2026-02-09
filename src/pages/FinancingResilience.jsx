@@ -36,7 +36,7 @@ export default function FinancingResilience() {
   const resourceArray = [
     {
       id: 0,
-      country: false,
+      country: "Multi-country",
       title: "Climate Toolkits for Infrastructure PPPs",
       org: "World Bank",
       description:
@@ -48,7 +48,7 @@ export default function FinancingResilience() {
     },
     {
       id: 1,
-      country: false,
+      country: "Multi-country",
       title:
         "Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport",
       org: "World Bank",
@@ -61,7 +61,7 @@ export default function FinancingResilience() {
     },
     {
       id: 2,
-      country: false,
+      country: "Multi-country",
       title:
         "G20/OECD Report on Approaches for Financing and Investing in Climate-resilient Infrastructure",
       org: false,
@@ -74,7 +74,7 @@ export default function FinancingResilience() {
     },
     {
       id: 3,
-      country: false,
+      country: "Multi-country",
       title:
         "Financing for Disaster and Resilient Infrastructure Coalition for Disaster Resilient Infrastructure",
       org: false,

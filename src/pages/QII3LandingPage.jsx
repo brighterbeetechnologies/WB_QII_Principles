@@ -155,7 +155,7 @@ export default function QII3LandingPage() {
     {
       id: 0,
       title: "Environmental and Social Framework",
-      country: false,
+      country: "Multi-country",
       org: "World Bank (2017)",
       description:
         "This framework provides a replicable approach for integrating E&S considerations into infrastructure projects through ten standards, ensuring sustainable and responsible infrastructure development across the project lifecycle. ",
@@ -167,7 +167,7 @@ export default function QII3LandingPage() {
     {
       id: 1,
       title: "Climate Toolkits for Infrastructure PPPs World Bank",
-      country: false,
+      country: "Multi-country",
       org: "World Bank",
       description:
         "This toolkit offers practical, step-by-step guidance to integrate climate mitigation and adaptation measures into infrastructure PPPs, helping structure bankable projects that align with climate policies, assess climate risks, and incorporate climate solutions that are technically and financially feasible.",
@@ -180,7 +180,7 @@ export default function QII3LandingPage() {
       id: 2,
       title:
         "IFC Performance Standards on Environmental and Social Sustainability",
-      country: false,
+      country: "Multi-country",
       org: false,
       description:
         "These standards provide a globally recognized framework to identify and manage E&S risks in infrastructure investments, covering a range of key environmental topics including resource efficiency, pollution prevention, and biodiversity conservation.",
@@ -192,7 +192,7 @@ export default function QII3LandingPage() {
     {
       id: 3,
       title: "Infrastructure for a Climate-Resilient Future",
-      country: false,
+      country: "Multi-country",
       org: "OECD (2024)",
       description:
         "This report provides evidence-based strategies for building climate-resilient infrastructure systems, covering adaptation planning, financing mechanisms, nature-based solutions, and governance frameworks.",

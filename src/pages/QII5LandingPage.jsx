@@ -21,7 +21,7 @@ export default function QII5LandingPage() {
     {
       show: true,
       category: "QII Principle",
-      title: "QII.5 Social",
+      title: "QII.5 Inclusion",
       id: 4,
     },
   ]);
@@ -178,7 +178,7 @@ export default function QII5LandingPage() {
     dispatch(
       setBradcrump({
         show: true,
-        dir: [{ path: "/qii5", title: "QII.5 Social" }],
+        dir: [{ path: "/qii5", title: "QII.5 Inclusion" }],
       }),
     );
   }, []);
@@ -468,7 +468,7 @@ export default function QII5LandingPage() {
                   {
                     show: true,
                     category: "QII Principle",
-                    title: "QII.5 Social",
+                    title: "QII.5 Inclusion",
                     id: 4,
                   },
                   {
