@@ -130,8 +130,8 @@
   position: absolute;
   top: 15px;
   left: 15px;
-  background: #3b82f6;
-  color: #fff;
+  background: #e5f5fb;
+  color: #000000;
   padding: 6px 12px;
   border-radius: 20px;
   font-size: 12px;
@@ -167,7 +167,7 @@
 
 .content {
   position: relative;
-  padding: 249px 20px 20px 20px;
+  padding: 349px 20px 20px 20px;
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.7) 0%,
@@ -178,12 +178,18 @@
 }
 
 .title {
-  font-size: 17px;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #fff;
   line-height: 1.4;
   margin-bottom: 10px;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.title span{
+  font-weight: 400;
 }
 
 .description {

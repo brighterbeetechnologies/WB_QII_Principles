@@ -13,10 +13,7 @@ const Video = () => {
     <>
       <div className="video-card">
         <div className="thumbnail">
-          <img
-            src="images/qii2/Landing-QII-2.gif" 
-            alt="Construction site"
-          />
+          <img src="images/qii2/Landing-QII-2.gif" alt="Construction site" />
           <div
             className="play-button"
             onClick={() => {
@@ -31,7 +28,10 @@ const Video = () => {
           <div className="badge">Video</div>
         </div>
         <div className="content">
-          <div className="title">Unlocking the Potential of <br />Life Cycle Costing</div>
+          <div className="title">
+            <span>Unlocking the Potential of </span> <br />
+            Life Cycle Costing
+          </div>
           {/* <div className="description">Life cycle costing explained.</div> */}
           <div className="meta">
             <div className="meta-item">
