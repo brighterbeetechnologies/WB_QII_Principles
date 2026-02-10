@@ -463,7 +463,7 @@ export default function QII4LandingPage() {
           "Resilience is more than a safeguard—it's a foundational principle for infrastructure that must withstand, adapt to, and recover from shocks to ensure uninterrupted service, especially in rapidly changing and vulnerable environments."
         }
       /> 
-      <section className="color-light">
+      <section className="color-dark">
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">

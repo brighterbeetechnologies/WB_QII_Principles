@@ -4,10 +4,18 @@ import ListImageText from "../../components/ListImageText";
 import "../QII2CaseStudy.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { setBradcrump } from "../../slices/appDataSlice";
+import {
+  setBradcrump,
+  setShowVideo,
+  setVideoData,
+} from "../../slices/appDataSlice";
 
 export default function QII4CaseStudy4() {
   const dispatch = useDispatch();
+  const openVideo = (url, title, width, height) => {
+    dispatch(setVideoData({ url, title, width, height }));
+    dispatch(setShowVideo(true));
+  };
   useEffect(() => {
     dispatch(
       setBradcrump({
@@ -23,13 +31,42 @@ export default function QII4CaseStudy4() {
     <div className="single-case-study-page">
       <section className="color-light">
         <div className="container">
-          <div className="single-case-study-wrapper" style={{
+          <div
+            className="single-case-study-wrapper"
+            style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii4/updated/QII-4-in-Action.png")`,
-            }}>
+              margin: "1rem 0 0 0",
+            }}
+          >
             <h2 className="main-title">
-              <p>Solomon Islands</p>
-              <span>Modular Bridges for Resilient Transport </span> 
+              {/* <p>Solomon Islands</p>
+              <span>Modular Bridges for Resilient Transport </span>  */}
+              <span>QII.4 in Action</span>
+              <br />
+              <br />
+              <p>
+                The Solomon Islands’ adoption of prefabricated modular bridges
+                demonstrates an efficient, climate-resilient solution for
+                strengthening vital transport infrastructure in the Pacific.
+              </p>
             </h2>
+            <div className="qii-video-cnt">
+              <div className="case-study-play-btn">
+                <button
+                  className="video-play-btn icon-play"
+                  onClick={() => {
+                    openVideo(
+                      "./video/LandingPageVideo.mp4",
+                      "Lessons from Success Stories",
+                      1920,
+                      1080,
+                    );
+                  }}
+                >
+                  &#xe91e;
+                </button>
+              </div>
+            </div>
             <div className="sub-title">
               <h2>CASE SNAPSHOT</h2>
             </div>
@@ -45,8 +82,10 @@ export default function QII4CaseStudy4() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/country_icon.svg" alt="" />
                   <h3>COUNTRY</h3>
-                  <p>Solomon Islands
-                    <br /><br />
+                  <p>
+                    Solomon Islands
+                    <br />
+                    <br />
                   </p>
                 </div>
               </div>
@@ -54,8 +93,11 @@ export default function QII4CaseStudy4() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/timeline.svg" alt="" />
                   <h3>TIMELINE</h3>
-                  <p>2019-2023
-                    <br /><br /><br />
+                  <p>
+                    2019-2023
+                    <br />
+                    <br />
+                    <br />
                   </p>
                 </div>
               </div>
@@ -65,7 +107,9 @@ export default function QII4CaseStudy4() {
                   <h3>COST</h3>
                   <p>
                     US$30 million (World Bank project)
-                    <br /><br /><br />
+                    <br />
+                    <br />
+                    <br />
                   </p>
                 </div>
               </div>
@@ -79,11 +123,10 @@ export default function QII4CaseStudy4() {
                         100,000+ beneficiaries reached via safer crossings
                       </li>
                       <li>
-                       Bridge installation times reduced from months to weeks - 30% cost savings vs. traditional builds
+                        Bridge installation times reduced from months to weeks -
+                        30% cost savings vs. traditional builds
                       </li>
-                      <li>
-                        Post-disaster isolation days cut by 75%
-                      </li>
+                      <li>Post-disaster isolation days cut by 75%</li>
                     </ul>
                   </div>
                 </div>
