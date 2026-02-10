@@ -207,7 +207,7 @@ export const appDataSlice = createSlice({
           "https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html",
         type: "Case Study",
         title:
-          "Hungary DuboCalc and CO2 Performance Ladder ",
+          "Hungary DuboCalc and CO² Performance Ladder ",
         principles: 1,
         highlight: 0,
         target: "_blank",
