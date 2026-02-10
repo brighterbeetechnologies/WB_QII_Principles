@@ -17,9 +17,11 @@ export default function DiagnosingVulnerabilities() {
         "images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png",
       title: (
         <p>
+          Philippines
+          <br />
           <strong>
             Geospatial Information Management and Analysis Project for Hazards
-            and Risk Assessment in the Philippines
+            and Risk Assessment
           </strong>
           <br />
         </p>
@@ -128,6 +130,7 @@ export default function DiagnosingVulnerabilities() {
         "images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png",
       title: (
         <p>
+          Africa <br />
           <strong>
             Enhancing the Climate Resilience of Africa's Infrastructure
           </strong>
