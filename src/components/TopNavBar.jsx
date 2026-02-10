@@ -45,31 +45,34 @@ export default function TopNavBar() {
     navigate("/"); // Navigate to home page
   };
 
-
   return (
     <nav className={scrolled ? "nav scrolled" : "nav"}>
       <div className="nav-cnt">
         {pageBreadCrump.show && (
-          <div className="breadcrump">
-            {pageBreadCrump.dir.map((page, i) => {
-              return (
-                <>
-                  {i <= pageBreadCrump.dir.length - 2 && (
-                    <>
-                      <button key={i} onClick={() => navigate(page.path)}>
-                        {page.title}
-                      </button>
-                      <img src="images/right-arrow.png" alt="" />
-                    </>
-                  )}
-                  {i == pageBreadCrump.dir.length - 1 && (
-                    <>
-                      <p>{page.title}</p>
-                    </>
-                  )}
-                </>
-              );
-            })}
+          <div className="breadcrump-container">
+            <div className="breadcrump">
+              <img src="images/Breadcrumb_left.png" className="breadcrump-bg-left" alt="" />
+              <img src="images/Breadcrumb_right.png" className="breadcrump-bg-right" alt="" />
+              {pageBreadCrump.dir.map((page, i) => {
+                return (
+                  <>
+                    {i <= pageBreadCrump.dir.length - 2 && (
+                      <>
+                        <button key={i} onClick={() => navigate(page.path)}>
+                          {page.title}
+                        </button>
+                        <img src="images/right-arrow-white.png" className="breadcrump-arrow" alt="" />
+                      </>
+                    )}
+                    {i == pageBreadCrump.dir.length - 1 && (
+                      <>
+                        <p>{page.title}</p>
+                      </>
+                    )}
+                  </>
+                );
+              })}
+            </div>
           </div>
         )}
         <div className="nav-cnt-left">
@@ -81,13 +84,15 @@ export default function TopNavBar() {
         </div>
         <div className={`right-panel ${isMenuOpen ? "open" : ""}`}>
           <button className="nav-btn btn primary">
-            <span className="icon-home" onClick={goHome}> 
+            <span className="icon-home" onClick={goHome}>
               &#xe920;
             </span>
           </button>
           <div className={`nav-sub-menu ${isMenuOpen ? "open" : ""}`}>
             <div className="nav-sub-menu-cnt">
-              <button className="nav-btn-link" onClick={goHome}>What is QII</button>
+              <button className="nav-btn-link" onClick={goHome}>
+                What is QII
+              </button>
               <div className="menu-splitter"></div>
               <NavDropDownMenu
                 menuItems={menuItems}

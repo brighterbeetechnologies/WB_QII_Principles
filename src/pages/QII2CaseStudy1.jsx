@@ -39,11 +39,29 @@ export default function QII2CaseStudy1() {
             }}
           >
             <h2 className="main-title">
-              <span>QII.2 in Action</span> 
-              <br /><br />Fukuoka City's water management success
-              story showcases the transformative power of LCC, aligning economic
-              efficiency with sustainability.
+              <span className="video-tag">VIDEO</span>
+              <br />
+              <br />
+              <span>QII.2 in Action</span>
+              <br />
+              <br />
+              Fukuoka City's water management success story showcases the
+              transformative power of LCC, aligning economic efficiency with
+              sustainability.
+              <br />
+              <br />
+              <span className="snapshot-video-duration">
+                <svg width="14" height="14" viewBox="0 0 20 20">
+                  <path
+                    fillRule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                3 min watch
+              </span>
             </h2>
+
             <div className="qii-video-cnt">
               <div className="case-study-play-btn">
                 <button
