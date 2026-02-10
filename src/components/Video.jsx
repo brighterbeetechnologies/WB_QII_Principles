@@ -9,13 +9,13 @@ const Video = () => {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
   };
-  return (
+  return ( 
     <>
-      <div className="video-card">
+      <div className="video-gif-card">
         <div className="thumbnail">
           <img src="images/qii2/Landing-QII-2.gif" alt="Construction site" />
           <div
-            className="play-button"
+            className="video-gif-play-button"
             onClick={() => {
               openVideo(
                 "./video/LandingPageVideo.mp4",

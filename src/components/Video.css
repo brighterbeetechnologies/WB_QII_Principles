@@ -7,7 +7,7 @@
   flex-wrap: wrap;
 } */
 
-.video-card {
+.video-gif-card {
   width: 100%;
   background: #fff;
   border-radius: 12px;
@@ -20,7 +20,7 @@
   position: relative;
 }
 
-.video-card:hover {
+.video-gif-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
   outline: 2px solid #3b82f6;
@@ -47,12 +47,12 @@
     filter 0.4s ease;
 }
 
-.video-card:hover .thumbnail img {
+.video-gif-card:hover .thumbnail img {
   transform: scale(1.08);
   filter: brightness(1.1);
 }
 
-.play-button {
+.video-gif-play-button {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -71,12 +71,12 @@
   z-index: 2;
 }
 
-.video-card:hover .play-button {
+.video-gif-card:hover .video-gif-play-button {
   transform: translate(-50%, -50%) scale(1.1);
   background: #fff;
 }
 
-.play-button::after {
+.video-gif-play-button::after {
   content: "";
   width: 0;
   height: 0;
@@ -87,7 +87,7 @@
 }
 
 /* Pulsing animation */
-.play-button::before {
+.video-gif-play-button::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -118,11 +118,11 @@
   }
 }
 
-.play-button {
+.video-gif-play-button {
   animation: buttonPulse 2.5s ease-in-out infinite;
 }
 
-.video-card:hover .play-button {
+.video-gif-card:hover .video-gif-play-button {
   animation: none;
 }
 
@@ -253,11 +253,11 @@
 }
 
 /* Alternative Card Style */
-.video-card.dark .thumbnail {
+.video-gif-card.dark .thumbnail {
   background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
 }
 
-.video-card.dark .play-button::after {
+.video-gif-card.dark .video-gif-play-button::after {
   border-left-color: #3b82f6;
 }
 
