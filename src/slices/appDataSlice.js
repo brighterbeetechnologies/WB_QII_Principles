@@ -2275,7 +2275,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii4/ResilientDesignAndOperation/World Bank A Catalogue of Nature-Based Solutions for Urban Resilience.png",
+          "images/qii4/ResilientDesignAndOperation/Catalogue-of-Nature-Based-Solutions-for-Urban-Resilience.jpg",
       },
       {
         id: 4,

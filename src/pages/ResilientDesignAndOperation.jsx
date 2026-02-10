@@ -222,7 +222,7 @@ export default function ResilientDesignAndOperation() {
     },
     {
       image:
-        "images/qii4/ResilientDesignAndOperation/World Bank A Catalogue of Nature-Based Solutions for Urban Resilience.png",
+        "images/qii4/ResilientDesignAndOperation/Catalogue-of-Nature-Based-Solutions-for-Urban-Resilience.jpg",
       title: (
         <p>Multi-country <br />
           <strong>
