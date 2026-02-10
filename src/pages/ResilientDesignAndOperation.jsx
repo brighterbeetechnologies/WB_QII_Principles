@@ -321,7 +321,7 @@ export default function ResilientDesignAndOperation() {
   const step3Cards = [
     {
       image:
-        "images/qii4/ResilientDesignAndOperation/Incorporating Resilience into Infrastructure Prioritization Application to Japan’s Road Transport Sector.png",
+        "images/qii4/ResilientDesignAndOperation/Resilience-in-Infrastructure-Prioritization-Japan-Road-Transport-Sector.jpg",
       title: (
         <p>Multi-country <br />
           <strong>
@@ -348,7 +348,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
-      image: "images/qii4/ResilientDesignAndOperation/Building Back Better.png",
+      image: "images/qii4/ResilientDesignAndOperation/Building-Back-Better.jpg",
       title: (
         <p>Multi-country <br />
           <strong>Building Back Better</strong>
@@ -376,7 +376,7 @@ export default function ResilientDesignAndOperation() {
     },
     {
       image:
-        "images/qii4/ResilientDesignAndOperation/Functional Recovery of Lifeline Infrastructure System Services.png",
+        "images/qii4/ResilientDesignAndOperation/Functional-Recovery-of-Lifeline-Infrastructure-System-Services.jpg",
       title: (
         <p>Multi-country <br />
           <strong>

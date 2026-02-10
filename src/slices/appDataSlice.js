@@ -2363,7 +2363,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii4/ResilientDesignAndOperation/Incorporating Resilience into Infrastructure Prioritization Application to Japan’s Road Transport Sector.png",
+          "images/qii4/ResilientDesignAndOperation/Resilience-in-Infrastructure-Prioritization-Japan-Road-Transport-Sector.jpg",
       },
       {
         id: 4,
@@ -2379,7 +2379,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii4/ResilientDesignAndOperation/Building Back Better.png",
+          "images/qii4/ResilientDesignAndOperation/Building-Back-Better.jpg",
       },
       {
         id: 4,
@@ -2397,7 +2397,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii4/ResilientDesignAndOperation/Functional Recovery of Lifeline Infrastructure System Services.png",
+          "images/qii4/ResilientDesignAndOperation/Functional-Recovery-of-Lifeline-Infrastructure-System-Services.jpg",
       },
       {
         id: 4,
