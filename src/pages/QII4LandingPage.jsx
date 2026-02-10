@@ -15,7 +15,8 @@ import {
 import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
-// import textCrData_tab from "images/qii4/QII2_Landing_main.png"
+import QII4CaseStudy4 from "./CaseStudy/QII4CaseStudy4";
+import "./QII2CaseStudy.css";
 export default function QII4LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -461,7 +462,7 @@ export default function QII4LandingPage() {
         text={
           "Resilience is more than a safeguard—it's a foundational principle for infrastructure that must withstand, adapt to, and recover from shocks to ensure uninterrupted service, especially in rapidly changing and vulnerable environments."
         }
-      />
+      /> 
       <section className="color-light">
         <div className="container ">
           <div className="video-text-cnt">
@@ -558,7 +559,7 @@ export default function QII4LandingPage() {
         </div>
       </section> */}
 
-      <section className="qii_video_landing_page color-light">
+      {/* <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
           src="images/qii4/updated/QII-4-in-Action.png"
@@ -593,7 +594,9 @@ export default function QII4LandingPage() {
             </button>
           </Link>
         </div>
-      </section>
+      </section> */}
+
+      <QII4CaseStudy4 />
 
       <section className="color-dark">
         <div className="container">

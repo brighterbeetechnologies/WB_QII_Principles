@@ -312,7 +312,7 @@ export default function TechnicalSolutions() {
               .{" "}
             </p>
             <div className="border-dash"></div>
-            <p className="">
+            <p>
               <strong>Some examples of common uses include:</strong>
             </p>
           </div>
@@ -406,7 +406,7 @@ export default function TechnicalSolutions() {
             </a>
             .
           </p> */}
-          <div className="border-dash"></div>=
+          <div className="border-dash"></div>
           <NumSteps num="2">
             <strong>Reducing Operational Costs</strong>
             <br /> <br className="mobile-break" />
