@@ -16,6 +16,7 @@ import {
 import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
+import Video from "../components/Video";
 
 export default function QII3LandingPage() {
   const dispatch = useDispatch();
@@ -290,7 +291,7 @@ export default function QII3LandingPage() {
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              <img src="images/qii3/Video1_thumbnail.png" alt="" />
+              {/* <img src="images/qii3/Video1_thumbnail.png" alt="" />
               <div className="vid-cnt">
                 <button
                   className="video-play-btn icon-play"
@@ -308,7 +309,20 @@ export default function QII3LandingPage() {
                 <p className="video-title">
                   <strong>The Environmental Challenge and Opportunity</strong>
                 </p>
-              </div>
+              </div> */}
+              <Video
+                thumbnail="images/qii3/Video1_thumbnail.png"
+                videoUrl="./video/LandingPageVideo.mp4"
+                videoTitle="The Environmental Challenge and Opportunity"
+                cardTitle={
+                  <>
+                    <span>Unlocking the Potential of</span> <br />
+                    Life Cycle Costing
+                  </>
+                }
+                description=""
+                duration="3 min watch"
+              />
             </div>
             <div className="text-cnt">
               <h1 className="light-font mBottom">

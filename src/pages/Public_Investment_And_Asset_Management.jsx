@@ -14,7 +14,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Well Spent</strong>
         </p>
       ),
@@ -29,7 +29,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>IMF PIMA</strong>
         </p>
       ),
@@ -43,7 +43,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>OECD Implementation Handbook for Quality Infrastructure Investment</strong>
         </p>
       ),
@@ -54,7 +54,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/Public_Investment_And_Asset_Management/InfraGov-Assessment-Framework.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>InfraGov Assessment Framework</strong>
         </p>
       ),
@@ -69,7 +69,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>OECD Getting Infrastructure Right</strong>
         </p>
       ),
@@ -83,7 +83,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Well Spent</strong>
         </p>
       ),

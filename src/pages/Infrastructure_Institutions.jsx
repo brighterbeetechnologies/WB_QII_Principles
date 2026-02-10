@@ -15,7 +15,7 @@ export default function Infrastructure_Institutions() {
       image:
         "images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>InfraGov Assessment Framework</strong>
         </p>
       ),
@@ -44,7 +44,7 @@ export default function Infrastructure_Institutions() {
       image:
         "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>OECD Recommendation on Public Investment</strong>
         </p>
       ),
@@ -75,7 +75,7 @@ export default function Infrastructure_Institutions() {
       image:
         "images/qii6/Infrastructure-Institutions/CoST-Infrastructure-Transparency-Initiative.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>
             CoST Infrastructure Transparency Initiative - “A Framework for
             Integrity in Infrastructure Planning”
@@ -95,7 +95,7 @@ export default function Infrastructure_Institutions() {
     {
       image: "images/qii6/Infrastructure-Institutions/WellSpent.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Well Spent</strong>
         </p>
       ),
@@ -123,7 +123,7 @@ export default function Infrastructure_Institutions() {
     {
       image: "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>UNEP Integrated Approaches in Action</strong>
         </p>
       ),
@@ -147,7 +147,7 @@ export default function Infrastructure_Institutions() {
     {
       image: "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>OECD /IMF Reference Note</strong>
         </p>
       ),

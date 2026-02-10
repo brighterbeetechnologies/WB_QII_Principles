@@ -17,6 +17,7 @@ import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
 import QII4CaseStudy4 from "./CaseStudy/QII4CaseStudy4";
 import "./QII2CaseStudy.css";
+import Video from "../components/Video";
 export default function QII4LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -467,7 +468,7 @@ export default function QII4LandingPage() {
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              <img src="images/qii4/QII_4_video_thumbnail.png" alt="" />
+              {/* <img src="images/qii4/QII_4_video_thumbnail.png" alt="" />
               <div className="vid-cnt">
                 <button
                   className="video-play-btn icon-play"
@@ -487,7 +488,20 @@ export default function QII4LandingPage() {
                     Unlocking The Urgent Need for Resilient Infrastructure
                   </strong>
                 </p>
-              </div>
+              </div> */}
+              <Video
+                thumbnail="images/qii4/QII_4_video_thumbnail.png"
+                videoUrl="./video/LandingPageVideo.mp4"
+                videoTitle="Unlocking the Potential of Life Cycle Costing"
+                cardTitle={
+                  <>
+                    <span>Unlocking The Urgent Need for</span> <br />
+                    Resilient Infrastructure
+                  </>
+                }
+                description=""
+                duration="3 min watch"
+              />
             </div>
             <div className="text-cnt">
               {/* <h1 className="light-font mBottom">

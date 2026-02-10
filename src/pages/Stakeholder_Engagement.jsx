@@ -14,7 +14,7 @@ export default function Stakeholder_Engagement() {
     {
       image: "images/qii5/StakeholderEngagement/Maputo.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Maputo</strong>
         </p>
       ),
@@ -28,7 +28,7 @@ export default function Stakeholder_Engagement() {
     {
       image: "images/qii5/StakeholderEngagement/Mainstreaming-Gender-in-Infrastructure.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Mainstreaming Gender in Infrastructure</strong>
         </p>
       ),
@@ -42,7 +42,7 @@ export default function Stakeholder_Engagement() {
     {
       image: "images/qii5/StakeholderEngagement/Inclusive-Infrastructure-Data-Collection-and-Stakeholder-Identification.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Inclusive Infrastructure “Data Collection and Stakeholder Identification”</strong>
         </p>
       ),
@@ -53,7 +53,7 @@ export default function Stakeholder_Engagement() {
     {
       image: "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
         </p>
       ),
@@ -70,7 +70,7 @@ export default function Stakeholder_Engagement() {
     {
       image: "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>OECD Infrastructure Toolkit: Ensuring Transparent, Systematic and Effective Stakeholder Participation</strong>
         </p>
       ),

@@ -14,7 +14,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Procurement Rated Criteria</strong> <br />World Bank
         </p>
       ),
@@ -25,7 +25,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Mainstreaming Gender in Public Procurement</strong>
         </p>
       ),
@@ -36,7 +36,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/UK-Green-Cities-Infrastructure-(ICED)-facility.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>UK Green Cities & Infrastructure (ICED) facility</strong>
         </p>
       ),
@@ -47,7 +47,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/albania.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Albania</strong>
         </p>
       ),
@@ -61,7 +61,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
         </p>
       ),
@@ -76,7 +76,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/World-Bank-Bidding-Documents-Contractual-Provisions-for-Inclusion.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Bidding Documents and Contractual Provisions for Inclusion</strong> <br />World Bank
         </p>
       ),
@@ -87,7 +87,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/Responsible-Contracting-Project-(RCP)-Toolkit.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Responsible Contracting Project (RCP) Toolkit</strong>
         </p>
       ),
@@ -101,7 +101,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>ISO 21542:2021 – Building Construction: Accessibility and Usability of the Built Environment</strong>
         </p>
       ),
@@ -112,7 +112,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/Silver-Hues.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Silver Hues</strong>
         </p>
       ),
@@ -123,7 +123,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/Incorporating-Universal-Accessibility-into-Infrastructure-Planning-and-Design-in-Vietnam.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Incorporating Universal Accessibility into Infrastructure Planning and Design in Vietnam</strong>
         </p>
       ),
@@ -134,7 +134,7 @@ export default function Project_Planning_And_Design() {
     {
       image: "images/qii5/ProjectPlanningandDesign/Mainstreaming-Universal-Accessibility.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Mainstreaming Universal Accessibility in the built environment projects in Senegal</strong>
         </p>
       ),

@@ -14,7 +14,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Integrating Green and Gray Creating Next Generation Infrastructure.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Integrating Green and Gray: Creating Next Generation Infrastructure</strong>
           <br />World Bank and World Resources Institute
         </p>
@@ -26,7 +26,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Infrastructure - Guide for Water Management.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Green Infrastructure - Guide for Water Management</strong>
           <br />UNEP
         </p>
@@ -38,7 +38,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Green Roads for Water</strong>
           <br />World Bank
         </p>
@@ -50,7 +50,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Resilient Infrastructure and Buildings Hub</strong>
           <br />World Bank
         </p>
@@ -62,7 +62,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/UN Principles for Responsible Investment Integrating Biodiversity Considerations into Infrastructure.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>UN Principles for Responsible Investment: Integrating Biodiversity Considerations into Infrastructure</strong>
         </p>
       ),
@@ -76,7 +76,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Pakistan: Zephyr Wind Farm</strong>
         </p>
       ),
@@ -87,7 +87,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Japan: Futakotamagawa</strong>
         </p>
       ),
@@ -98,7 +98,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/GFDRR Mapping of Nature-Based Solutions Projects.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>GFDRR Mapping of Nature-Based Solutions Projects</strong>
         </p>
       ),
@@ -109,7 +109,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/IFC-Catalogue-of-Nature-based-Solutions-for-Infrastructure-Projects.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>IFC Catalogue of Nature-based Solutions for Infrastructure Projects</strong>
         </p>
       ),
@@ -120,7 +120,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/World-Bank-Global-Program-for-Nature-Based-Solutions.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>World Bank Global Program for Nature-Based Solutions</strong>
         </p>
       ),
@@ -131,7 +131,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/The-Nature-Based-Solutions-Opportunity-Scan.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>The Nature-Based Solutions Opportunity Scan</strong>
         </p>
       ),
@@ -142,7 +142,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Financing-Climate-AdaptationandNature-Based-Infrastructure.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Financing Climate Adaptation and Nature Based Infrastructure</strong>
         </p>
       ),
@@ -153,7 +153,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Finding Solutions to Development Challenges in Nature</strong>
         </p>
       ),

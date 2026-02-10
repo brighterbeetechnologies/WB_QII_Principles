@@ -131,7 +131,7 @@ export default function Procurement() {
     {
       image: "images/procurement/ReferenceGuide.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>
             Reference Guide on Output Specifications for Quality Infrastructure
           </strong>
@@ -154,7 +154,7 @@ export default function Procurement() {
     {
       image: "images/procurement/Pre-Fabrication.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Pre-Fabrication Technology for Modular Construction</strong>
           <br />
           Global Infrastructure Hub
@@ -173,7 +173,7 @@ export default function Procurement() {
     {
       image: "images/procurement/Disruptive.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>Disruptive Technologies in Public Procurement</strong>
           <br />
           World Bank
