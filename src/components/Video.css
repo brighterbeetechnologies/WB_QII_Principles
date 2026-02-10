@@ -199,7 +199,7 @@
   margin-bottom: 15px;
 }
 
-.meta {
+.video-gif-meta {
   display: flex;
   align-items: center;
   gap: 15px;
@@ -207,23 +207,23 @@
   color: rgba(255, 255, 255, 0.7);
 }
 
-.meta-item {
+.video-gif-meta-item {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.meta-item svg {
+.video-gif-meta-item svg {
   fill: rgba(255, 255, 255, 0.7);
 }
 
-.why-watch {
+.video-gif-why-watch {
   background: #f7fafc;
   padding: 15px;
   border-top: 1px solid #e2e8f0;
 }
 
-.why-watch-title {
+.video-gif-why-watch-title {
   font-size: 12px;
   font-weight: 700;
   color: #718096;
@@ -232,19 +232,19 @@
   margin-bottom: 10px;
 }
 
-.why-watch ul {
+.video-gif-why-watch ul {
   list-style: none;
   font-size: 13px;
   color: #4a5568;
 }
 
-.why-watch li {
+.video-gif-why-watch li {
   padding: 4px 0;
   padding-left: 20px;
   position: relative;
 }
 
-.why-watch li::before {
+.video-gif-why-watch li::before {
   content: "✓";
   position: absolute;
   left: 0;
@@ -261,7 +261,7 @@
   border-left-color: #3b82f6;
 }
 
-.comparison-bar {
+.video-gif-comparison-bar {
   position: absolute;
   bottom: 50px;
   left: 15px;
@@ -271,35 +271,35 @@
   padding: 10px 12px;
 }
 
-.comparison-bar span {
+.video-gifcomparison-bar span {
   display: block;
   font-size: 11px;
   color: #fff;
   margin-bottom: 6px;
 }
 
-.bar-container {
+.video-gif-bar-container {
   display: flex;
   gap: 8px;
   align-items: center;
 }
 
-.bar {
+.video-gif-bar {
   height: 8px;
   border-radius: 4px;
 }
 
-.bar.old {
+.video-gif-bar.old {
   width: 100px;
   background: #e53e3e;
 }
 
-.bar.new {
+.video-gif-bar.new {
   width: 60px;
   background: #38a169;
 }
 
-.bar-label {
+.video-gif-bar-label {
   font-size: 10px;
   color: #cbd5e0;
 }

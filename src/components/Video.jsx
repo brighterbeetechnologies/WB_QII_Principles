@@ -33,8 +33,8 @@ const Video = () => {
             Life Cycle Costing
           </div>
           <div className="video-gif-description">Life cycle costing explained.</div>
-          <div className="meta">
-            <div className="meta-item">
+          <div className="video-gif-meta">
+            <div className="video-gif-meta-item">
               <svg
                 width="14"
                 height="14"
