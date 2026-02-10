@@ -26,8 +26,10 @@ nav .nav-cnt {
 .breadcrump-container {
   position: absolute;
   top: 0;
-  left: 500px;
+  left: 50%;
+  transform: translateX(-50%);
 }
+
 .breadcrump {
   position: relative;
   width: 100%;
@@ -35,6 +37,7 @@ nav .nav-cnt {
   display: flex;
   gap: 0.6rem;
   align-items: center;
+  justify-content: center;
   background: none;
   padding: 0.3rem 5px;
   width: auto;
@@ -81,7 +84,7 @@ nav .nav-cnt {
 
 @media (max-width: 1200px) {
   .breadcrump-container {
-    left: 380px;
+    /* left: 380px; */
   }
 }
 
