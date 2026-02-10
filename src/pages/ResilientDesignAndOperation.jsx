@@ -271,7 +271,7 @@ export default function ResilientDesignAndOperation() {
     },
     {
       image:
-        "images/qii4/ResilientDesignAndOperation/Digital Security and Resilience in Critical Infrastructure and Essential Services1.png",
+        "images/qii4/ResilientDesignAndOperation/Digital-Security-and-Resilience-in-Critical-Infrastructure-and-Essential-Services.jpg",
       title: (
         <p>Multi-country <br />
           <strong>
