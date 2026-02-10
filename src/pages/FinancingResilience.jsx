@@ -152,8 +152,8 @@ export default function FinancingResilience() {
       image:
         "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
       title: (
-        <p>
-          <strong>Philippines Water Revolving Fund</strong>
+        <p>Philippines <br />
+          <strong>Water Revolving Fund</strong>
           <br />
           World Bank
         </p>
@@ -173,9 +173,9 @@ export default function FinancingResilience() {
       image:
         "images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png",
       title: (
-        <p>
+        <p>Philippines <br />
           <strong>
-            Philippines Energy Development Corporation (EDC) Green Bond
+            Energy Development Corporation (EDC) Green Bond
           </strong>
         </p>
       ),
@@ -192,8 +192,8 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/updated/Vida-Manglar-Colombia.png",
       title: (
-        <p>
-          <strong>Vida Manglar Carbon Project in Colombia</strong>
+        <p>Colombia <br />
+          <strong>Vida Manglar Carbon Project</strong>
         </p>
       ),
       buttonText: "Case study",
@@ -320,7 +320,7 @@ export default function FinancingResilience() {
           </p>
           <div className="border-dash"></div>
           <NumSteps num="1">
-            <strong>Screening Projects with Sustainability standards </strong>{" "}
+            <strong>Screening Projects with Sustainability Standards </strong>{" "}
             <br />
             Alongside the vulnerability and risk assessments (outlined within
             the{" "}

@@ -245,6 +245,9 @@ export default function Procurement() {
         <div className="container internal-pages-container">
           <div className="link-text">
             <p>
+             <strong>Spotlight on PPPs</strong>
+            </p>
+            <p className="mTop">
               The procurement of infrastructure under Public- Private
               Partnerships (PPPs) can be an effective way to align incentives
               for cost efficiency over the course of the project. This alignment
@@ -343,9 +346,6 @@ export default function Procurement() {
             <br /> <br className="mobile-break" />
             Procurement processes can incentivize the adoption of innovative
             technologies to enable cost saving during construction and O&M.
-            <span style={{ opacity: "0" }}>
-              to link the operator’s payments to efficient long-term
-            </span>
           </NumSteps>
           <VCardsPagination cardsData={step2Cards} />
           {/* <div className="VCard-cnt col-2">

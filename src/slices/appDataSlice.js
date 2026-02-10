@@ -541,7 +541,7 @@ export const appDataSlice = createSlice({
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
         type: "Resources",
         title:
-          "Well Maintained: - Economic Benefits from More Reliable and Resilient Infrastructure ",
+          "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure ",
         principles: 1,
         highlight: 0,
         target: "_blank",

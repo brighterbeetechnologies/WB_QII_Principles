@@ -14,18 +14,29 @@ export default function ManagingCyberSecurityRisks() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
-      image: "images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png",
+      image:
+        "images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png",
       title: (
-        <p>Ghana <br />
-          <strong>A Case Study in Strengthening Cyber Resilience ​</strong> <br />World Bank
+        <p>
+          Ghana <br />
+          <strong>A Case Study in Strengthening Cyber Resilience ​</strong>{" "}
+          <br />
+          World Bank
         </p>
       ),
       buttonText: "Case study",
       link: "https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf",
-      content: <p>The case of Ghana demonstrates that forward-looking investments and policy initiatives based on international best-practices can go a long way in boosting cybersecurity capacity in developing countries.</p>,
+      content: (
+        <p>
+          The case of Ghana demonstrates that forward-looking investments and
+          policy initiatives based on international best-practices can go a long
+          way in boosting cybersecurity capacity in developing countries.
+        </p>
+      ),
     },
     {
-      image: "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
+      image:
+        "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
       title: (
         <p>
           <strong>Cybersecurity Assessment Toolkit for Smart Cities</strong>
@@ -33,40 +44,74 @@ export default function ManagingCyberSecurityRisks() {
       ),
       buttonText: "Guidance",
       link: null,
-      content: <p>The Cybersecurity Assessment Toolkit guides countries and sectors to assess, strengthen, and mainstream cyber resilience in critical infrastructure.</p>,
+      content: (
+        <p>
+          The Cybersecurity Assessment Toolkit guides countries and sectors to
+          assess, strengthen, and mainstream cyber resilience in critical
+          infrastructure.
+        </p>
+      ),
     },
     {
-      image: "images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png",
+      image:
+        "images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png",
       title: (
-        <p>UK <br />
-          <strong>The Cyber Assessment Framework</strong> <br /> National Cyber Security Center
+        <p>
+          UK <br />
+          <strong>The Cyber Assessment Framework</strong> <br /> National Cyber
+          Security Center
         </p>
       ),
       buttonText: "Guidance",
       link: "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/introduction-to-caf#section_1",
-      content: <p>This Cyber Assessment Framework (CAF) provides a systematic approach to assessing cyber risks and how they are being managed by the UK National Cyber Security Center.</p>,
+      content: (
+        <p>
+          This Cyber Assessment Framework (CAF) provides a systematic approach
+          to assessing cyber risks and how they are being managed by the UK
+          National Cyber Security Center.
+        </p>
+      ),
     },
     {
-      image: "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).jpg",
+      image:
+        "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).jpg",
       title: (
         <p>
-          <strong>Sectoral Cybersecurity Maturity Model</strong> <br />World Bank
+          <strong>Sectoral Cybersecurity Maturity Model</strong> <br />
+          World Bank
         </p>
       ),
       buttonText: "Guidance",
       link: "https://documentsinternal.worldbank.org/Search/34392134",
-      content: <p>The Sectoral Cybersecurity Maturity Model evaluates cybersecurity maturity and provides actionable recommendations to strengthen cyber resilience, address vulnerabilities, and guide investment and policy decisions.</p>,
+      content: (
+        <p>
+          The Sectoral Cybersecurity Maturity Model evaluates cybersecurity
+          maturity and provides actionable recommendations to strengthen cyber
+          resilience, address vulnerabilities, and guide investment and policy
+          decisions.
+        </p>
+      ),
     },
     {
-      image: "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png",
+      image:
+        "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png",
       title: (
         <p>
-          <strong>Cybersecurity Economics for Emerging Markets</strong> <br />World Bank
+          <strong>Cybersecurity Economics for Emerging Markets</strong> <br />
+          World Bank
         </p>
       ),
       buttonText: "Report",
       link: "https://documentsinternal.worldbank.org/Search/34392134",
-      content: <p>This report explores global cybersecurity threats and their impacts; the market failures that hinder responses; and proposes strategies, policies, and governance efforts to foster innovation and sustainability amid change and uncertainty. See page 87 onwards for a specific discussion on infrastructure.</p>,
+      content: (
+        <p>
+          This report explores global cybersecurity threats and their impacts;
+          the market failures that hinder responses; and proposes strategies,
+          policies, and governance efforts to foster innovation and
+          sustainability amid change and uncertainty. See page 87 onwards for a
+          specific discussion on infrastructure.
+        </p>
+      ),
     },
   ];
 
@@ -169,11 +214,13 @@ export default function ManagingCyberSecurityRisks() {
         {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container internal-pages-container">
           <p className="link-text">
-            The following resources provide more details on the key
-            interventions needed to systematically build cybersecurity into
-            infrastructure planning, design and operations:
+            <strong>
+              {" "}
+              The following resources provide more details on the key
+              interventions needed to systematically build cybersecurity into
+              infrastructure planning, design and operations:
+            </strong>
           </p>
-          <div className="border-dash"></div>
           <NumSteps num="1">
             <strong>Building a Foundation for Cybersecurity </strong> <br />
             This includes assessing cybersecurity maturity, developing

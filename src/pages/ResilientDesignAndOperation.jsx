@@ -325,8 +325,7 @@ export default function ResilientDesignAndOperation() {
       title: (
         <p>
           <strong>
-            Incorporating Resilience into Infrastructure Prioritization:
-            Application to Japan's Road Transport Sector
+            Resilience in Infrastructure Prioritization: Japan’s Road Transport Sector
           </strong>
           <br />
           World Bank
@@ -876,7 +875,7 @@ export default function ResilientDesignAndOperation() {
           {/* <h4 className="sub-section-title">
             Digital Solutions for Resilience
           </h4> */}
-          <p className="qii4-note">
+          <p className="qii4-note mTop">
             *For more on digital resilience, visit our{" "}
             <Link to="/Managing-cyber-security-risks" className="cyber-link">
               cybersecurity

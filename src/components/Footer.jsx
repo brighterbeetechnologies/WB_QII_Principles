@@ -26,7 +26,7 @@ const Footer = () => {
               <span>A World Bank and Government of Japan Partnership</span>
             </div>
             <div className="footer-japan-logo">
-              <img className="footer-logo-2" src="images/jcoflag.svg" />
+              <img className="footer-logo-2" src="images/partner-2.png" />
             </div>
           </div>
 
