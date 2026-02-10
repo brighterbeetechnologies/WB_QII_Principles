@@ -64,7 +64,7 @@ export default function QII2CaseStudy2() {
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
                   <div>
-                    <ul>
+                    <ul> 
                       <li>
                         Over US <strong>$ 4 billion</strong> is being invested
                         in the Clean Ganga program to clean the Ganga River.
