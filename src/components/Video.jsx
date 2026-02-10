@@ -25,14 +25,14 @@ const Video = () => {
               );
             }}
           ></div>
-          <div className="badge">Video</div>
+          <div className="video-gif-badge">Video</div>
         </div>
-        <div className="content">
-          <div className="title">
+        <div className="video-gif-content">
+          <div className="video-gif-title">
             <span>Unlocking the Potential of </span> <br />
             Life Cycle Costing
           </div>
-          {/* <div className="description">Life cycle costing explained.</div> */}
+          <div className="video-gif-description">Life cycle costing explained.</div>
           <div className="meta">
             <div className="meta-item">
               <svg

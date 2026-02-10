@@ -126,7 +126,7 @@
   animation: none;
 }
 
-.badge {
+.video-gif-badge {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -165,7 +165,7 @@
   font-weight: 700;
 }
 
-.content {
+.video-gif-content {
   position: relative;
   padding: 349px 20px 20px 20px;
   background: linear-gradient(
@@ -177,7 +177,7 @@
   z-index: 1;
 }
 
-.title {
+.video-gif-title {
   font-size: 1.2rem;
   font-weight: 700;
   color: #fff;
@@ -188,11 +188,11 @@
 
 
 
-.title span{
+.video-gif-title span{
   font-weight: 400;
 }
 
-.description {
+.video-gif-description {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.85);
   line-height: 1.5;
