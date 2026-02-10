@@ -35,7 +35,7 @@ export default function Policies_Standards_Regulation() {
       ),
       buttonText: "Tool",
       link: "https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source",
-      content: <p>The JICA Thematic Guidelines on Disability and Development provide a comprehensive framework for mainstreaming disability inclusion across all development activities and sectors.
+      content: <p>This guidance note contains a detailed methodology for integrating robust GESI strategies and objectives into country policies, standards, and regulatory frameworks.  
         <br /><br />
         Most relevant are chapters II to IV, focusing on actionable frameworks, diagnostic processes, and evaluation procedures.
       </p>,
@@ -62,14 +62,14 @@ export default function Policies_Standards_Regulation() {
       link: "https://openknowledge.worldbank.org/entities/publication/63c07ff8-cd1e-52c0-9441-005b9aa22bcf",
       content: <p>This World Bank handbook provides a comprehensive framework for integrating gender considerations into urban planning and design processes. It covers the full spectrum from policy development to implementation.
         <br /><br />
-        Page 37 offers a snapshot of the challenges in collecting primary data for gender gap analysis, including how women's perspectives may be sidelined due to household responsibilities or patriarchal norms.
+        Page 57 outlines core principles that guide gender-inclusive planning, providing a foundation for institutionalizing inclusion into every aspect of urban planning, making projects equitable and responsive to the full range of community needs. 
       </p>
     },
     {
       image: "images/qii5/PoliciesandRegulation/Mainstreaming-Gender-in-Infrastructure–Gender-Action-Plan.png",
       title: (
         <p>Multi-country <br />
-          <strong>Mainstreaming Gender in Infrastructure – Gender Action Plan</strong>
+          <strong>Gender Action Plan</strong>
         </p>
       ),
       buttonText: "Guidance",
@@ -90,7 +90,7 @@ export default function Policies_Standards_Regulation() {
           <strong>She Drives Change</strong>
         </p>
       ),
-      buttonText: "Case study",
+      buttonText: "Case Study",
       link: "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
       content: <p>This World Bank publication compiles case studies demonstrating how transport sector interventions can advance gender equality.
         <br /><br />Case study 16 is an example of how employment restrictions in Azerbaijan were overcome by policy and regulatory adjustments, conducting awareness campaigns, and including employer engagement to create enabling conditions for women drivers.
@@ -145,7 +145,7 @@ export default function Policies_Standards_Regulation() {
       image: "images/qii5/PoliciesandRegulation/Advancing-universal-design-in-urban-planning.png",
       title: (
         <p>Multi-country <br />
-          <strong>Japan and the World Bank: Advancing universal design in urban planning</strong>
+          <strong>Advancing universal design in urban planning</strong> <br /> Japan and the World Bank 
         </p>
       ),
       buttonText: "Guidance",

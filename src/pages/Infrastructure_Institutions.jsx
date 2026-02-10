@@ -77,7 +77,7 @@ export default function Infrastructure_Institutions() {
       title: (
         <p>Multi-country <br />
           <strong>
-            CoST Infrastructure Transparency Initiative - “A Framework for
+            Cost Infrastructure Transparency Initiative - “A Framework for
             Integrity in Infrastructure Planning”
           </strong>
         </p>

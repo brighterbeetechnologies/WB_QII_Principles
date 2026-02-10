@@ -71,7 +71,7 @@ export default function Stakeholder_Engagement() {
       image: "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
       title: (
         <p>Multi-country <br />
-          <strong>OECD Infrastructure Toolkit: Ensuring Transparent, Systematic and Effective Stakeholder Participation</strong>
+          <strong>OECD Infrastructure Toolkit</strong>
         </p>
       ),
       buttonText: "Tool",

@@ -3150,18 +3150,18 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
-        type: "Guidance",
+        type: "Case Study",
         title: "Gender Equality, Infrastructure and PPPs",
         highlight: 0,
         target: "_blank",
         principles: 4,
-        desc: "This is a resource explaining how PPP contracts should include clear, measurable indicators, making clauses binding, with reporting and performance obligations linked to outcomes. PPP Project Stages Three and Four: Drafting the Contract and Managing the Transaction, pg 37",
-        format: 2,
+        desc: "This report provides comprehensive guidance on integrating gender considerations into public-private partnerships across the project lifecycle. The Kumasi Toilet PPP Project in Ghana (box 16, page 35) used a willingness-to-pay survey as part of its pre-feasibility study to evaluate the financial viability of delivering public toilets through a PPP model.",
+        format: 1,
         stage: 4,
         region: 1,
         industry: 1,
         image:
-          "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
+          "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
       },
       {
         id: 4,
@@ -3552,27 +3552,10 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths:
-          "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
-        type: "Case Study",
-        title: "Gender Equality, Infrastructure and PPPs",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "This report provides comprehensive guidance on integrating gender considerations into public-private partnerships across the project lifecycle. The Kumasi Toilet PPP Project in Ghana (box 16, page 35) used a willingness-to-pay survey as part of its pre-feasibility study to evaluate the financial viability of delivering public toilets through a PPP model.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
-      },
-      {
-        id: 4,
-        paths:
           "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
         type: "Tool",
         title:
-          "OECD Infrastructure Toolkit: Ensuring Transparent, Systematic and Effective Stakeholder Participation",
+          "OECD Infrastructure Toolkit",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3776,7 +3759,7 @@ export const appDataSlice = createSlice({
           "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
         type: "Guidance",
         title:
-          "CoST Infrastructure Transparency Initiative - “A Framework for Integrity in Infrastructure Planning”",
+          "Cost Infrastructure Transparency Initiative - “A Framework for Integrity in Infrastructure Planning”",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -3810,7 +3793,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
         type: "Guidance",
-        title: "OECD /IMF Reference Note",
+        title: "OECD/IMF Reference Note",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -3859,7 +3842,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.worldbank.org/en/data/interactive/2022/10/21/govtech-maturity-index-gtmi-data-dashboard",
         type: "Tool",
-        title: "GovTech Maturity Index (GTMI) Data Dashboard World BanK",
+        title: "GovTech Maturity Index (GTMI) Data Dashboard World Bank",
         highlight: 0,
         target: "_blank",
         principles: 5,

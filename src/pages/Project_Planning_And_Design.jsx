@@ -117,7 +117,7 @@ export default function Project_Planning_And_Design() {
         </p>
       ),
       buttonText: "Guidance",
-      link: "https://www.bluedot-network.org/",
+      link: "https://openknowledge.worldbank.org/handle/10986/37259",
       content: <p>This report has cross-sectoral policy guidance and practical strategies for cities aiming to create urban environments that are accessible, safe, and inclusive for older populations as the world’s cities face rapid demographic aging.</p>,
     },
     {

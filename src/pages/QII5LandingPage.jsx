@@ -389,7 +389,7 @@ export default function QII5LandingPage() {
             onClick={() => {
               openVideo(
                 "./video/FukuokaCaseStudy.mp4",
-                "QII.2 in Action",
+                "QII.5 in Action",
                 1920,
                 1080,
               );
