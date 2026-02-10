@@ -83,6 +83,10 @@
   font-weight: 800;
 }
 
+/* .v-btn-cnt p{
+  width: max-content;
+} */
+
 .VCard-btn.disabled {
   pointer-events: none;    
   opacity: 0.4;
