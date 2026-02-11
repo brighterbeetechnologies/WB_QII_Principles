@@ -23,17 +23,15 @@ export default function Infrastructure_Institutions() {
       link: "https://infrastructuregovern.imf.org/",
       content: (
         <p>
-          This resource provides a comprehensive framework to help governments
-          at all levels work together more effectively on public investment. It
-          covers 12 principles organized around three pillars: coordination,
-          capacities, and framework conditions, addressing the challenges of
-          fragmented responsibilities and the need for coherent investment
-          strategies.
-          <br />
+          The Infrastructure Governance framework provides frameworks and tools
+          to help countries strengthen legal and regulatory structures, ensuring
+          transparent, efficient, and accountable public infrastructure
+          investment management.
+          {/* <br />
           <br />
           The OECD Infrastructure Toolkit provides practical guidance for
           designing stakeholder engagement plans that are inclusive and
-          systematic.
+          systematic. */}
         </p>
       ),
     },
@@ -77,8 +75,7 @@ export default function Infrastructure_Institutions() {
       title: (
         <p>
           <strong>
-            Cost Infrastructure Transparency Initiative - “A Framework for
-            Integrity in Infrastructure Planning”
+            Cost Infrastructure Transparency Initiative
           </strong>
         </p>
       ),
@@ -121,13 +118,14 @@ export default function Infrastructure_Institutions() {
 
   const step4Cards = [
     {
-      image: "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
+      image:
+        "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
       title: (
         <p>
           <strong>UNEP Integrated Approaches in Action</strong>
         </p>
       ),
-      buttonText: "Case study",
+      buttonText: "Case Study",
       link: "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
       content: (
         <p>
@@ -145,7 +143,8 @@ export default function Infrastructure_Institutions() {
       ),
     },
     {
-      image: "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
+      image:
+        "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
       title: (
         <p>
           <strong>OECD/IMF Reference Note</strong>

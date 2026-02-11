@@ -69,7 +69,7 @@ export default function QII5LandingPage() {
   </g>
 </svg>
 `,
-      text: "Enhances recovery speed after disasters, sustaining reliable access to essential services.",
+      text: "Underutilization of infrastructure",
     },
     {
       id: 0,
@@ -92,7 +92,7 @@ export default function QII5LandingPage() {
   </g>
 </svg>
 `,
-      text: "Lowers long-term maintenance and replacement expenses through better design and risk management.",
+      text: "Erosion of community trust and social stability ",
     },
   ];
 
