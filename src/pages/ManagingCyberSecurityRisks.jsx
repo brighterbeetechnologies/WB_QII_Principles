@@ -38,7 +38,7 @@ export default function ManagingCyberSecurityRisks() {
       image:
         "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Cybersecurity Assessment Toolkit for Smart Cities</strong>
         </p>
       ),
@@ -76,7 +76,7 @@ export default function ManagingCyberSecurityRisks() {
       image:
         "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Sectoral Cybersecurity Maturity Model</strong> <br />
           World Bank
         </p>
@@ -96,7 +96,7 @@ export default function ManagingCyberSecurityRisks() {
       image:
         "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Cybersecurity Economics for Emerging Markets</strong> <br />
           World Bank
         </p>
@@ -120,7 +120,7 @@ export default function ManagingCyberSecurityRisks() {
       image:
         "images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Cybersecurity Best Practice for Smart Cities ​</strong> <br />
           CISA
         </p>

@@ -41,7 +41,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Building Code Checklist for Structural Resilience.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Building Code Checklist for Structural Resilience</strong>
         </p>
       ),
@@ -61,7 +61,7 @@ export default function ResilientDesignAndOperation() {
     {
       image: "images/qii4/ResilientDesignAndOperation/EU Taxonomy Compass.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>EU Taxonomy Compass</strong>
         </p>
       ),
@@ -80,7 +80,7 @@ export default function ResilientDesignAndOperation() {
     {
       image: "images/qii4/ResilientDesignAndOperation/FAST-Infra Label.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>FAST-Infra Label</strong>
         </p>
       ),
@@ -101,7 +101,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/A Global Assessment of Building Codes.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             A Global Assessment of Building Codes: Current Status and Evolving
             Needs to Promote Resilient, Green and Inclusive Buildings
@@ -126,7 +126,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Building regulations in Sub-Saharan Africa: A status review of the
             building regulatory environment
@@ -152,7 +152,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Stronger Building Codes for a Safer, More Resilient Future.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Stronger Building Codes for a Safer, More Resilient Future
           </strong>
@@ -176,7 +176,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Building Regulatory Capacity Assessment.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Building Regulatory Capacity Assessment</strong>
           <br />
           GFDRR
@@ -201,7 +201,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             AI and Deep Learning for Identifying Pavement Failures
           </strong>
@@ -224,7 +224,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Catalogue-of-Nature-Based-Solutions-for-Urban-Resilience.jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Catalogue of Nature-Based Solutions for Urban Resilience
           </strong>
@@ -247,7 +247,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/IFC Catalogue of Nature Based Solutions for Infrastructure Projects.jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Catalogue of Nature-Based Solutions for Infrastructure Projects
           </strong>
@@ -273,7 +273,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Digital-Security-and-Resilience-in-Critical-Infrastructure-and-Essential-Services.jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Digital Security and Resilience in Critical Infrastructure and
             Essential Services
@@ -298,7 +298,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Digital-Public-Infrastructure-for-Digital-Governments.jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Digital Public Infrastructure for Digital Governments</strong>
           <br />
           Organisation for Economic Co-operation and Development​
@@ -323,7 +323,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Resilience-in-Infrastructure-Prioritization-Japan-Road-Transport-Sector.jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Resilience in Infrastructure Prioritization: Japan’s Road Transport Sector
           </strong>
@@ -350,7 +350,7 @@ export default function ResilientDesignAndOperation() {
     {
       image: "images/qii4/ResilientDesignAndOperation/Building-Back-Better.jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Building Back Better</strong>
           <br />
           GFDRR
@@ -378,7 +378,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Functional-Recovery-of-Lifeline-Infrastructure-System-Services.jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Functional Recovery of Lifeline Infrastructure System Services
           </strong>
@@ -405,7 +405,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/OECD Infrastructure Toolkit Strengthening Critical Infrastructure Resilience.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Infrastructure Toolkit: Strengthening Critical Infrastructure
             Resilience
@@ -429,7 +429,7 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.jpg",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Building Resilience: New Strategies for Strengthening Infrastructure
             Resilience and Maintenance

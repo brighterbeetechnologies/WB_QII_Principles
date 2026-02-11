@@ -14,7 +14,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/To-Have-and-Have-Not.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>To Have and Have Not – How to Bridge the Gap in Opportunities</strong>
         </p>
       ),
@@ -28,7 +28,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Asian-Development-Bank(ADB)—Gender-Equality-and-Social-Inclusion.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Gender Equality and Social Inclusion (GESI) Guidance for Infrastructure</strong>
           <br />Asian Development Bank (ADB)
         </p>
@@ -43,7 +43,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/JICA-Thematic-Guidelines-for-Inclusive-Development-including-Universal-Design.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>JICA Thematic Guidelines for Inclusive Development, including Universal Design</strong>
         </p>
       ),
@@ -54,7 +54,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Gender-Inclusive-Urban-Planning-Design.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Gender-Inclusive Urban Planning Design</strong>
         </p>
       ),
@@ -68,7 +68,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Mainstreaming-Gender-in-Infrastructure–Gender-Action-Plan.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Gender Action Plan</strong>
         </p>
       ),
@@ -86,7 +86,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/She-Drives-Change.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>She Drives Change</strong>
         </p>
       ),
@@ -99,7 +99,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Environmental-and-Social-Framework.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Environmental and Social Framework</strong>
         </p>
       ),
@@ -110,7 +110,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Inclusive-Infrastructure –Policy-Regulation&Standards.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Inclusive Infrastructure – Policy, Regulation & Standards</strong>
         </p>
       ),
@@ -121,7 +121,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/EU-Accessibility-Act(2019).png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>EU Accessibility Act (2019)</strong>
         </p>
       ),
@@ -132,7 +132,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Americans-with-Disabilities.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Americans with Disabilities Act (ADA) Standards for Accessible Design</strong>
           <br />
         </p>
@@ -144,7 +144,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Advancing-universal-design-in-urban-planning.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Advancing universal design in urban planning</strong> <br /> Japan and the World Bank 
         </p>
       ),
@@ -158,7 +158,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/FAST-Infra-Label.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>FAST-Infra Sustainable Infrastructure Label</strong>
         </p>
       ),
@@ -169,7 +169,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Blue Dot Network</strong>
         </p>
       ),
@@ -180,7 +180,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/OECD-Principles.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>OECD Principles for Private Sector Participation in Infrastructure</strong>
         </p>
       ),

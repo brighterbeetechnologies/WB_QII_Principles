@@ -16,7 +16,6 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
       title: (
         <p>
-          Multi-country <br />
           <strong>
             Public Transport Demand Forecasting Regional Platform: New
             Technology for Better Investment Decision-making
@@ -32,7 +31,6 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/Global-Infrastructure-Indicators-Dashboard.png",
       title: (
         <p>
-          Multi-country <br />
           <strong>Global Infrastructure Indicators Dashboard</strong> <br />
           World Bank
         </p>
@@ -55,7 +53,6 @@ export default function Govtech_For_Infrastructure() {
       image: "images/qii6/Govtech_For_Infrastructure/IndonesiaOneMapPolicy.png",
       title: (
         <p>
-          Multi-country <br />
           <strong>Indonesia: One Map Policy</strong>
         </p>
       ),
@@ -76,7 +73,6 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       title: (
         <p>
-          Multi-country <br />
           <strong>Japan-Association-for-Smart-Cities-in ASEAN</strong>
         </p>
       ),
@@ -97,7 +93,6 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
       title: (
         <p>
-          Multi-country <br />
           <strong>GovTech Maturity Index (GTMI) Data Dashboard</strong> <br />
           World Bank
         </p>
@@ -122,7 +117,6 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/QIIGrantSupportingSustainable.png",
       title: (
         <p>
-          Multi-country <br />
           <strong>
             QII Grant: Supporting Sustainable Digital Infrastructure through
             Innovation in Kosovo
@@ -137,7 +131,6 @@ export default function Govtech_For_Infrastructure() {
       image: "images/qii6/Govtech_For_Infrastructure/Albania.png",
       title: (
         <p>
-          Multi-country <br />
           <strong>Albania: GovTech Program (Phases 1 and 2)</strong>
         </p>
       ),
@@ -150,7 +143,6 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/OECD-Digital-Public-Infrastructure-for-Digital-Governments.png",
       title: (
         <p>
-          Multi-country <br />
           <strong>
             OECD: Digital Public Infrastructure for Digital Governments (2024)
           </strong>

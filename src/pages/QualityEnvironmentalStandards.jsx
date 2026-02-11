@@ -42,7 +42,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>​Timor-Leste: Tibar Bay Port</strong>
         </p>
       ),
@@ -61,7 +61,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Environmental and Social Framework (ESF)​</strong> <br />
           World Bank
         </p>
@@ -83,7 +83,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             IFC Performance Standards on Environmental and Social
             Sustainability​
@@ -111,7 +111,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Infrastructure_Standards.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Infrastructure Standards​</strong> <br />
           International Organization for Standardization (ISO)
         </p>
@@ -191,7 +191,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Equator Principles.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>​Equator Principles</strong>
         </p>
       ),
@@ -212,7 +212,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>LEED for Buildings LEED for Cities and Communities​</strong>{" "}
           <br />
         </p>
@@ -233,7 +233,7 @@ export default function QualityEnvironmentalStandards() {
     {
       image: "images/newresource/BREEAM-Infrastructure.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>​BREEAM Infrastructure</strong>{" "}
         </p>
       ),
@@ -256,7 +256,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/FrameworkforSDG-AlignedFinanceOECD&UNDP.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Framework for SDG-Aligned Finance</strong> <br />
           OECD & UNDP
         </p>
@@ -277,7 +277,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Infrastructure Standards – Building Blocks for a Resilient Future
           </strong>{" "}
@@ -301,7 +301,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Global-Environment-Outlook.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Global Environment Outlook (GEO-7)</strong> <br />
           UNEP
         </p>

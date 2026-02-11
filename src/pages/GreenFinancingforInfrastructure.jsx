@@ -14,7 +14,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/World of Taxonomies.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>World of Taxonomies</strong>
           <br />Climate Bonds Initiative
         </p>
@@ -26,7 +26,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/EU Taxonomy for Sustainable Activities.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>EU Taxonomy for Sustainable Activities</strong>
         </p>
       ),
@@ -37,7 +37,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>FAST-Infra</strong>
           <br />
         </p>
@@ -49,7 +49,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/Sector-Specific Criteria.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Sector-Specific Criteria</strong>
           <br />Climate Bonds Initiative
         </p>
@@ -64,7 +64,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>South Africa: Cape Town Green Bond</strong>
         </p>
       ),
@@ -75,7 +75,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Brazil: Corsan Water Sustainability-Linked Loan</strong>
         </p>
       ),
@@ -86,7 +86,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Belgrade Waste-to-Energy PPP Carbon Credit Certification</strong>
         </p>
       ),
@@ -97,7 +97,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Green Bond Principles</strong>
           <br />ICMA
         </p>
@@ -109,7 +109,7 @@ export default function GreenFinancingforInfrastructure() {
     {
       image: "images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Green Eligibility Checker tool</strong>
           <br />European Investment Bank
         </p>

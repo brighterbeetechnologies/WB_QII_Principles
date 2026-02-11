@@ -53,7 +53,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Change_Development.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Climate Change and Development Reports</strong> <br />
           World Bank
         </p>
@@ -71,7 +71,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Net Zero by 2050</strong> <br />
           International Energy Agency (IEA)
         </p>
@@ -89,7 +89,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Infrastructure_Transition_Pathways.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Infrastructure Transition Pathways</strong> <br />
           Global Infrastructure Hub
         </p>
@@ -111,7 +111,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Rewa_Ultra_Mega_Solar_Project.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Rewa Ultra Mega Solar Project, India</strong>
         </p>
       ),
@@ -133,7 +133,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/New_Technologies_Powering_The_Energy_Transition.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             New Technologies Powering the Energy Transition in Asia and the
             Pacific
@@ -156,7 +156,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Cairo_Alexandria_Trade_Logistics_Development.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Cairo Alexandria Trade Logistics Development Project, Egypt
           </strong>{" "}
@@ -176,7 +176,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Climate Toolkits for Infrastructure PPPs</strong> <br />
           World Bank
         </p>
@@ -195,7 +195,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Net Zero by 2050</strong> <br />
           International Energy Agency (IEA)
         </p>
@@ -213,7 +213,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Investigating_Life_Cycle.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Investigating Life Cycle Carbon Emission Impact of Road Investments
           </strong>
@@ -236,7 +236,7 @@ export default function Decarbonizing_Infrastructure() {
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Building_Green_Sustainable_Construction.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Building Green: Sustainable Construction in Emerging Markets
           </strong>{" "}

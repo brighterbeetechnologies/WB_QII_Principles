@@ -1309,6 +1309,222 @@ export const appDataSlice = createSlice({
       {
         id: 3,
         paths:
+          "https://www.worldbank.org/en/publication/country-climate-development-reports#:~:text=The%20World%20Bank%20Group's%20Country,contributions%20and%20long%2Dterm%20strategies.",
+        type: "Guidance",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
+          "",
+        type: "",
+        title:
+          "",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "",
+        format: 2,
+        stage: 2,
+        region: 1,
+        industry: 3,
+        image:
+          "",
+      },
+      {
+        id: 3,
+        paths:
           "https://openknowledge.worldbank.org/entities/publication/ddda3ed0-096e-59dd-a25d-3de884254eba",
         type: "Guidance",
         title:

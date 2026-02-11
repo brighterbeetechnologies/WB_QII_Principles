@@ -63,7 +63,7 @@ export default function TechnicalSolutions() {
     {
       image: "images/procurement/Pre-Fabrication.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>Pre-Fabrication Technology for Modular Construction</strong>
           <br />
           Global Infrastructure Hub
@@ -185,7 +185,7 @@ export default function TechnicalSolutions() {
     {
       image: "images/technicalSolutions/AIanddeep.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             AI and Deep Learning for Identifying Pavement Failures
           </strong>
@@ -207,7 +207,7 @@ export default function TechnicalSolutions() {
     {
       image: "images/technicalSolutions/SensorsAndMachine.png",
       title: (
-        <p>Multi-country <br />
+        <p>
           <strong>
             Sensors and Machine Learning for Predictive Maintenance
           </strong>
