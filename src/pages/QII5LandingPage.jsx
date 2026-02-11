@@ -105,7 +105,7 @@ export default function QII5LandingPage() {
       org: "World Bank",
       description:
         "This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
-      img_path: "",
+      img_path: "images/qii5/ProjectPlanningandDesign/shutterstock_2665469265.jpg",
       path: "",
       target: "_blank",
     },

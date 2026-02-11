@@ -3210,14 +3210,14 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/governance/list/01.jpg",
+        image: "images/qii5/ProjectPlanningandDesign/shutterstock_2248195609.jpg",
       },
       {
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
-        type: "Case Study",
-        title: "Inclusive Infrastructure Toolkit World Bank / GI Hub ",
+        type: "Guidance ",
+        title: "Inclusive Infrastructure Toolkit",
         highlight: 2,
         target: "_blank",
         principles: 4,
@@ -3226,7 +3226,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/governance/list/01.jpg",
+        image: "images/qii5/ProjectPlanningandDesign/shutterstock_2543199469.jpg",
       },
       {
         id: 4,
@@ -3249,7 +3249,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://projects.worldbank.org/en/projects-operations/project-detail/P160594",
         type: "Case Study ",
-        title: "Albania",
+        title: "Gender Equality in Access to Economic Opportunities DPF",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3276,7 +3276,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/ProjectPlanningandDesign/Incorporating-Universal-Accessibility-into-Infrastructure-Planning-and-Design-in-Vietnam.png",
+          "images/qii5/ProjectPlanningandDesign/shutterstock_2665469265.jpg",
       },
       {
         id: 4,
