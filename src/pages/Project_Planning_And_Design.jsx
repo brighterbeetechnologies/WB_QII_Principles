@@ -15,7 +15,12 @@ export default function Project_Planning_And_Design() {
       image: "images/qii5/ProjectPlanningandDesign/albania.png",
       title: (
         <p>
-          <strong>Albania</strong>
+          Albania <br />
+          <strong>
+            Gender Equality in Access to Economic Opportunities DPF
+          </strong>
+          <br />
+          World Bank
         </p>
       ),
       buttonText: "Case Study",
@@ -176,7 +181,7 @@ export default function Project_Planning_And_Design() {
     },
     {
       image:
-        "images/qii5/ProjectPlanningandDesign/Incorporating-Universal-Accessibility-into-Infrastructure-Planning-and-Design-in-Vietnam.png",
+        "images/qii5/ProjectPlanningandDesign/shutterstock_2665469265.jpg",
       title: (
         <p>
           <strong>

@@ -3264,7 +3264,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://projects.worldbank.org/en/projects-operations/project-detail/P160594",
         type: "Case Study ",
-        title: "Albania",
+        title: "Gender Equality in Access to Economic Opportunities DPF",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3291,7 +3291,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/ProjectPlanningandDesign/Incorporating-Universal-Accessibility-into-Infrastructure-Planning-and-Design-in-Vietnam.png",
+          "images/qii5/ProjectPlanningandDesign/shutterstock_2665469265.jpg",
       },
       {
         id: 4,
