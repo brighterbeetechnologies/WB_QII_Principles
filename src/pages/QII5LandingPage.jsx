@@ -14,6 +14,8 @@ import {
 } from "../slices/appDataSlice";
 import ImagewithStatement from "../components/ImagewithStatement";
 import Video from "../components/Video";
+import QII5CaseStudy1 from "./QII5CaseStudy/QII5CaseStudy1";
+import "./QII2CaseStudy.css";
 
 export default function QII5LandingPage() {
   const dispatch = useDispatch();
@@ -105,7 +107,7 @@ export default function QII5LandingPage() {
       org: "World Bank",
       description:
         "This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
-      img_path: "",
+      img_path: "images/qii5/shutterstock_2309884753.jpg",
       path: "",
       target: "_blank",
     },
@@ -115,7 +117,7 @@ export default function QII5LandingPage() {
       country: "Multi-country",
       org: "World Bank",
       description: "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
-      img_path: "",
+      img_path: "images/qii5/shutterstock_2337776975.jpg",
       path: "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07​",
       target: "_blank",
     },
@@ -125,7 +127,7 @@ export default function QII5LandingPage() {
       country: "Tajikistan",
       org: "World Bank",
       description: "This report examines the trade facilitation challenges faced by men- and women-led firms in Tajikistan, identifying gender-specific barriers such as lower participation in public consultations, reduced access to trade finance, and inadequate border infrastructure for women traders, with recommendations for more inclusive trade policies.​",
-      img_path: "",
+      img_path: "images/qii5/shutterstock_2543651931.jpg",
       path: "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
       target: "_blank",
     },
@@ -269,19 +271,6 @@ export default function QII5LandingPage() {
               starting with policies and regulations, then through planning and
               design. Stakeholder engagement throughout these early stages, as
               well as during project delivery, ensures diverse needs are met.{" "}
-              {/* <br />
-              <br /> */}
-              {/* Making infrastructure inclusive does not need to be expensive.
-              Studies indicate that{" "} */}
-              <a
-                href="https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/#Inclusive_Standards_and_Universal_Design"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="blue-link"
-              >
-                inclusive design adds only 1–2% to upfront costs
-              </a>{" "}
-              - much less than the cost of future retrofits.
             </h3>
           </div>
           <div className="qii5-sub-pages">
@@ -312,13 +301,25 @@ export default function QII5LandingPage() {
           </div>
         </div>
       </section>
-      {/* <ImagewithStatement
-        backgroundImage={"images/qii2/qii2_img2.png"}
+      <ImagewithStatement
+        backgroundImage={"images/qii5/shutterstock_1588752748.jpg"}
         text={
-          "When the building blocks are missing, infrastructure falls into a familiar and costly trap."
+          <h3>
+          Making infrastructure inclusive does not need to be expensive.
+              Studies indicate that{" "}
+              <a
+                href="https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/#Inclusive_Standards_and_Universal_Design"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="blue-link"
+              >
+                inclusive design adds only 1–2% to upfront costs
+              </a>{" "}
+              - much less than the cost of future retrofits.
+            </h3>
         }
-      /> */}
-      <section className="color-light">
+      />
+      <section className="color-dark">
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
@@ -376,7 +377,7 @@ export default function QII5LandingPage() {
         </h3>
         <h1 className="light-font "></h1>
       </section> */}
-      <section className="qii_video_landing_page color-light">
+      {/* <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
           src="images/qii4/QII 2 in Action poster.png"
@@ -410,7 +411,8 @@ export default function QII5LandingPage() {
             </button>
           </Link>
         </div>
-      </section>
+      </section> */}
+      <QII5CaseStudy1 />
       <section className="color-dark">
         <div className="container">
           <h2 className="section-title light-font">QII.5 Case Studies</h2>

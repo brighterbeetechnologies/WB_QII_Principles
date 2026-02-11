@@ -35,7 +35,7 @@ export default function Stakeholder_Engagement() {
       image:
         "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
       title: (
-        <p>
+        <p>Ghana ​ <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
         </p>
       ),
@@ -149,7 +149,7 @@ export default function Stakeholder_Engagement() {
       title: (
         <p>
           Tajikistan <br />
-          <strong>Gender Dimensions of Cross-Border Trade</strong>
+          <strong>Gender Dimensions of Cross-Border Trade</strong><br /> World Bank 
         </p>
       ),
       buttonText: "Case Study",
@@ -167,7 +167,7 @@ export default function Stakeholder_Engagement() {
         "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
       title: (
         <p>
-          <strong>OECD Infrastructure Toolkit</strong>
+          <strong>OECD Infrastructure Toolkit</strong> <br />Organisation for Economic Co-operation and Development​
         </p>
       ),
       buttonText: "Tool",

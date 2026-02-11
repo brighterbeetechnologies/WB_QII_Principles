@@ -48,7 +48,7 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         title: "SOCIAL",
-        img_path: "images/QII/Qii5.png",
+        img_path: "images/UpdatedAssets/Qii5.png",
         path: "/qii5",
       },
       {
@@ -3195,56 +3195,53 @@ export const appDataSlice = createSlice({
       },
 
       //principle 5 resources
-
       {
         id: 4,
         paths:
-          "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
+          "",
         type: "Case Study",
-        title:
-          "Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9 ",
+        title: "Vietnam Senegal Incorporating Universal Accessibility into Infrastructure Planning and Design World Bank",
         highlight: 2,
         target: "_blank",
         principles: 4,
-        desc: "Foundation for international accessibility standards referenced throughout World Bank global policy and operational documents. Its mandates shape the development, adoption, and monitoring of accessibility norms and standards worldwide.",
+        desc: "This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
         format: 1,
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii2/Ganga_case_study.png",
-      },
-
-      {
-        id: 4,
-        paths:
-          "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
-        type: "Case Study",
-        title: "PPP Gender Toolkit World Bank",
-        highlight: 2,
-        target: "_blank",
-        principles: 4,
-        desc: "A comprehensive resource designed to guide the mainstreaming of gender considerations throughout the lifecycle of infrastructure projects delivered via Public-Private Partnerships (PPPs).",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/governance/list/01.jpg",
+        image: "images/qii5/shutterstock_2309884753.jpg",
       },
       {
         id: 4,
         paths:
-          "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
+          "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
         type: "Case Study",
-        title: "Inclusive Infrastructure Toolkit World Bank / GI Hub ",
+        title: "She Drives Change World Bank",
         highlight: 2,
         target: "_blank",
         principles: 4,
-        desc: "A practical, evidence-based framework for developing infrastructure that advances social inclusivity. It outlines six key action areas and detailed practices to maximize infrastructure’s impact on reducing inequality and promoting shared prosperity, illustrated by real-life international examples. ",
+        desc: "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
         format: 1,
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/governance/list/01.jpg",
+        image: "images/qii5/shutterstock_2337776975.jpg",
+      },
+      {
+        id: 4,
+        paths:
+          "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
+        type: "Case Study",
+        title: "Tajikistan Gender Dimensions of Cross-Border Trade World Bank",
+        highlight: 2,
+        target: "_blank",
+        principles: 4,
+        desc: "This report examines the trade facilitation challenges faced by men- and women-led firms in Tajikistan, identifying gender-specific barriers such as lower participation in public consultations, reduced access to trade finance, and inadequate border infrastructure for women traders, with recommendations for more inclusive trade policies.​",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii5/shutterstock_2543651931.jpg",
       },
       {
         id: 4,
@@ -3400,6 +3397,38 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths:
+          "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
+        type: "Case Study",
+        title: "PPP Gender Toolkit World Bank",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "A comprehensive resource designed to guide the mainstreaming of gender considerations throughout the lifecycle of infrastructure projects delivered via Public-Private Partnerships (PPPs).",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/governance/list/01.jpg",
+      },
+      {
+        id: 4,
+        paths:
+          "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
+        type: "Case Study",
+        title: "Inclusive Infrastructure Toolkit World Bank / GI Hub ",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "A practical, evidence-based framework for developing infrastructure that advances social inclusivity. It outlines six key action areas and detailed practices to maximize infrastructure’s impact on reducing inequality and promoting shared prosperity, illustrated by real-life international examples. ",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/governance/list/01.jpg",
+      },
+      {
+        id: 4,
+        paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/to-have-and-have-not-how-to-bridge-the-gap-in-opportunities_f642138a/dec143ad-en.pdf",
         type: "Tool",
         title: "To Have and Have Not – How to Bridge the Gap in Opportunities",
@@ -3412,6 +3441,23 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image: "images/qii5/PoliciesandRegulation/To-Have-and-Have-Not.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
+        type: "Guidence",
+        title:
+          "Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9 ",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "Foundation for international accessibility standards referenced throughout World Bank global policy and operational documents. Its mandates shape the development, adoption, and monitoring of accessibility norms and standards worldwide.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii5/shutterstock_2660299639.jpg",
       },
       {
         id: 4,
@@ -3556,7 +3602,7 @@ export const appDataSlice = createSlice({
           "https://blogs.worldbank.org/en/ppps/japan-and-world-bank-advancing-universal-design-urban-planning",
         type: "Guidance",
         title:
-          "Advancing universal design in urban planning Japan and the World Bank ",
+          "Advancing Universal Design in Urban Planning Japan and the World Bank ",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3618,7 +3664,7 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths:
-          "https://www.worldbank.org/en/programs/project-procurement/framework/rated-criteria",
+          " https://www.worldbank.org/en/about/rated-criteria​",
         type: "Guidance",
         title: "Procurement Rated Criteria World Bank",
         highlight: 0,
@@ -3630,7 +3676,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
+          "images/qii5/shutterstock_2698330999.jpg",
       },
       {
         id: 4,

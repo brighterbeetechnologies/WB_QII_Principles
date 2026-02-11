@@ -15,7 +15,8 @@ export default function Policies_Standards_Regulation() {
       image: "images/qii5/PoliciesandRegulation/To-Have-and-Have-Not.png",
       title: (
         <p>
-          <strong>To Have and Have Not – How to Bridge the Gap in Opportunities</strong>
+          <strong>To Have and Have Not – How to Bridge the Gap in Opportunities</strong> <br />
+          Organisation for Economic Co-operation and Development​
         </p>
       ),
       buttonText: "Tool",
@@ -30,7 +31,7 @@ export default function Policies_Standards_Regulation() {
       title: (
         <p>
           <strong>Gender Equality and Social Inclusion (GESI) Guidance for Infrastructure</strong>
-          <br />Asian Development Bank (ADB)
+          <br />Asian Development Bank
         </p>
       ),
       buttonText: "Tool",
@@ -55,7 +56,7 @@ export default function Policies_Standards_Regulation() {
       image: "images/qii5/PoliciesandRegulation/Gender-Inclusive-Urban-Planning-Design.png",
       title: (
         <p>
-          <strong>Gender-Inclusive Urban Planning Design</strong>
+          <strong>Gender-Inclusive Urban Planning Design</strong> <br /> World Bank ​
         </p>
       ),
       buttonText: "Guidance",
@@ -87,7 +88,7 @@ export default function Policies_Standards_Regulation() {
       image: "images/qii5/PoliciesandRegulation/She-Drives-Change.png",
       title: (
         <p>
-          <strong>She Drives Change</strong>
+          <strong>She Drives Change</strong> <br />World Bank ​
         </p>
       ),
       buttonText: "Case Study",
@@ -100,7 +101,7 @@ export default function Policies_Standards_Regulation() {
       image: "images/qii5/PoliciesandRegulation/Environmental-and-Social-Framework.png",
       title: (
         <p>
-          <strong>Environmental and Social Framework</strong>
+          <strong>Environmental and Social Framework</strong> <br />World Bank ​
         </p>
       ),
       buttonText: "Tool",
@@ -111,7 +112,7 @@ export default function Policies_Standards_Regulation() {
       image: "images/qii5/PoliciesandRegulation/Inclusive-Infrastructure –Policy-Regulation&Standards.png",
       title: (
         <p>
-          <strong>Inclusive Infrastructure – Policy, Regulation & Standards</strong>
+          <strong>Inclusive Infrastructure – Policy, Regulation & Standards</strong> <br />GI Hub​
         </p>
       ),
       buttonText: "Tool",
@@ -132,7 +133,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Americans-with-Disabilities.png",
       title: (
-        <p>
+        <p>United States <br />
           <strong>Americans with Disabilities Act (ADA) Standards for Accessible Design</strong>
           <br />
         </p>
@@ -144,8 +145,8 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Advancing-universal-design-in-urban-planning.png",
       title: (
-        <p>
-          <strong>Advancing universal design in urban planning</strong> <br /> Japan and the World Bank 
+        <p>Japan <br />
+          <strong>Advancing Universal Design in Urban Planning</strong> <br /> World Bank 
         </p>
       ),
       buttonText: "Guidance",
@@ -181,7 +182,7 @@ export default function Policies_Standards_Regulation() {
       image: "images/qii5/PoliciesandRegulation/OECD-Principles.png",
       title: (
         <p>
-          <strong>OECD Principles for Private Sector Participation in Infrastructure</strong>
+          <strong>OECD Principles for Private Sector Participation in Infrastructure</strong> <br />Organisation for Economic Co-operation and Development​
         </p>
       ),
       buttonText: "Guidance",

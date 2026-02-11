@@ -32,7 +32,7 @@ export default function Project_Planning_And_Design() {
     },
     {
       image:
-        "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
+        "images/qii5/images/qii5/shutterstock_2698330999.jpg.jpg",
       title: (
         <p>
           <strong>Procurement Rated Criteria</strong> <br />
@@ -40,7 +40,7 @@ export default function Project_Planning_And_Design() {
         </p>
       ),
       buttonText: "Guidance",
-      link: "https://www.worldbank.org/en/programs/project-procurement/framework/rated-criteria",
+      link: " https://www.worldbank.org/en/about/rated-criteria​",
       content: (
         <p>
           The “Rated Criteria” approach ensures that procurement goes beyond
@@ -54,7 +54,8 @@ export default function Project_Planning_And_Design() {
         "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
       title: (
         <p>
-          <strong>Mainstreaming Gender in Public Procurement</strong>
+          <strong>Mainstreaming Gender in Public Procurement</strong> <br />
+          World Bank 
         </p>
       ),
       buttonText: "Guidance",
