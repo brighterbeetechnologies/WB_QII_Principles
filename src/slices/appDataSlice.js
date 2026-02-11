@@ -3280,7 +3280,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://projects.worldbank.org/en/projects-operations/project-detail/P160594",
         type: "Case Study ",
-        title: "Gender Equality in Access to Economic Opportunities DPF",
+        title: "Albania Gender Equality in Access to Economic Opportunities DPF World Bank",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3289,7 +3289,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/ProjectPlanningandDesign/albania.png",
+        image: "images/qii5/shutterstock_2401273073.jpg",
       },
       {
         id: 4,
@@ -3409,7 +3409,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/governance/list/01.jpg",
+        image: "images/qii5/shutterstock_2248195609.jpg",
       },
       {
         id: 4,
@@ -3425,7 +3425,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/governance/list/01.jpg",
+        image: "images/qii5/shutterstock_2543199469.jpg",
       },
       {
         id: 4,

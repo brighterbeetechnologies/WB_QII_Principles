@@ -12,7 +12,7 @@ export default function Project_Planning_And_Design() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
-      image: "images/qii5/ProjectPlanningandDesign/albania.png",
+      image: "images/qii5/shutterstock_2401273073.jpg",
       title: (
         <p>
           Albania <br />

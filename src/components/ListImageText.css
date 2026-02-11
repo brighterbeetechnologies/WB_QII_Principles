@@ -74,6 +74,22 @@
   color: var(--color-primary);
 }
 
+.case-card .video-gif-meta {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  z-index: 9;
+  color: #fff;
+  text-shadow:
+    0px 1px 2px #000000,
+    0px 3px 2px #000000,
+    0px 4px 8px #000000;
+}
+
+.case-card .video-gif-meta .video-gif-meta-item svg {
+  fill: rgba(255, 255, 255, 1);
+}
+
 @media (max-width: 767px) {
   /* .case-card .case-content,
   .step-title p {
