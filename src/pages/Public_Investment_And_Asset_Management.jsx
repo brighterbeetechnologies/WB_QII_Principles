@@ -23,7 +23,9 @@ export default function Public_Investment_And_Asset_Management() {
       content: <p>
         This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets.
         <br /><br />
+        <span className="secound-desc">
         Chapters 11 (Fiscal Risks in Infrastructure) and 12 (Integrating Infrastructure Planning and Budgeting) examine fiscal risk identification and mitigation strategies for infrastructure projects, and outline methods for integrating infrastructure planning with budgetary processes to ensure fiscal sustainability and alignment between investment decisions and available resources. 
+        </span>
       </p>,
     },
     {
@@ -62,9 +64,9 @@ export default function Public_Investment_And_Asset_Management() {
       link: "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
       content: <p>
         InfraGov is a diagnostic framework developed by the World Bank to help countries optimize infrastructure investments by assessing governance across the project lifecycle, cross-cutting principles, and service delivery.
-        <br /><br />
+        <br /><br /><span className="secound-desc">
         Dimension 6 (Infrastructure procurement and contract management systems) assesses the effectiveness of procurement frameworks and contract management practices, examining transparency, competition, risk allocation, and monitoring systems that ensure infrastructure projects are delivered efficiently and contractors meet performance obligations.
-      </p>,
+      </span></p>,
     },
     {
       image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
@@ -77,6 +79,7 @@ export default function Public_Investment_And_Asset_Management() {
       link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
       content: <p>This 2017 report, based on a survey of 27 countries, provides an overview of current practices in infrastructure governance and presents practical tools to help policy makers better manage infrastructure across its full lifecycle. It addresses challenges from technical and budgetary concerns to delivery and governance issues.
         <br /><br />
+        
         “Infrastructure procurement and the choice of the delivery modality” – page 52 and “Performance throughout the life cycle” pages – 76-77 analyze procurement strategy selection based on project characteristics and capacity, and emphasize the importance of performance monitoring, maintenance planning, and asset management systems to maximize infrastructure value over its operational lifespan.
       </p>,
     },
