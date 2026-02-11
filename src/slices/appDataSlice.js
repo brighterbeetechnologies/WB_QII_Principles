@@ -3399,7 +3399,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
-        type: "Case Study",
+        type: "Guidance",
         title: "PPP Gender Toolkit World Bank",
         highlight: 0,
         target: "_blank",
@@ -3415,7 +3415,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
-        type: "Case Study",
+        type: "Guidance",
         title: "Inclusive Infrastructure Toolkit World Bank / GI Hub ",
         highlight: 0,
         target: "_blank",
