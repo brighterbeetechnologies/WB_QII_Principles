@@ -49,7 +49,7 @@ export default function Decarbonizing_Infrastructure() {
 
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
-    {
+    { 
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Change_Development.png",
       title: (
