@@ -116,7 +116,7 @@ export default function Decarbonizing_Infrastructure() {
         </p>
       ),
       buttonText: "Case Study – Energy",
-      link: "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdf ",
+      link: "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdf",
       buttonText2: "Watch Video",
       link2: "https://www.youtube.com/watch?v=nTDXDHXwwT0",
       highlight: 2,
@@ -163,7 +163,7 @@ export default function Decarbonizing_Infrastructure() {
         </p>
       ),
       buttonText: "Case Study – Transport",
-      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099325009122236722 ",
+      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099325009122236722",
       content: (
         <p>
           A $1 billion project to decarbonize freight transport between

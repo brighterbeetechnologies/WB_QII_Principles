@@ -56,7 +56,7 @@ export default function Govtech_For_Infrastructure() {
           <strong>Indonesia: One Map Policy</strong>
         </p>
       ),
-      buttonText: "Case study",
+      buttonText: "Case Study",
       link: "https://www.opengovpartnership.org/wp-content/uploads/2017/05/case-study_Indonesia_One-Map-Policy_0.pdf",
       content: (
         <p>
@@ -73,7 +73,7 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       title: (
         <p>
-          <strong>Japan-Association-for-Smart-Cities-in ASEAN</strong>
+          <strong>Japan-Association-for-Smart-Cities-in ASEAN (EN/JP)</strong>
         </p>
       ),
       buttonText: "Guidance",
@@ -93,8 +93,7 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
       title: (
         <p>
-          <strong>GovTech Maturity Index (GTMI) Data Dashboard</strong> <br />
-          World Bank
+          <strong>World Bank: GovTech Maturity Index (GTMI) Data Dashboard</strong>
         </p>
       ),
       buttonText: "Tool",
@@ -169,7 +168,7 @@ export default function Govtech_For_Infrastructure() {
           { path: "/qii6", title: "QII.6 Governance" },
           {
             path: "/govtech-for-infrastructure",
-            title: "Govtech For Infrastructure",
+            title: "Govtech for Infrastructure",
           },
         ],
       }),

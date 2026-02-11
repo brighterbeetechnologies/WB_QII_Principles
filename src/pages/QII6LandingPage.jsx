@@ -34,7 +34,8 @@ export default function QII2LandingPage() {
       title: "Public Investment Management Assessment (PIMA)",
       country: "Multi-country",
       org: "IMF",
-      description: "This assessment framework offers a macro-fiscal lens for evaluating governance across the public investment cycle, with dedicated pillars for investment planning, multi-year budgeting, and fiscal/debt analysis.",
+      description:
+        "This assessment framework offers a macro-fiscal lens for evaluating governance across the public investment cycle, with dedicated pillars for investment planning, multi-year budgeting, and fiscal/debt analysis.",
       img_path: "images/qii6/QII6-Landing/PIMA.png",
       path: "https://www.elibrary.imf.org/display/book/9781513571829/9781513571829.xml",
       target: "_self",
@@ -44,8 +45,10 @@ export default function QII2LandingPage() {
       title: "Getting Infrastructure Right : A Framework for Better Governance",
       country: "Multi-country",
       org: "OECD",
-      description: "This document provides a comprehensive framework with ten key governance dimensions for prioritizing, planning, budgeting, delivering, regulating, and evaluating infrastructure investment across government levels.",
-      img_path: "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
+      description:
+        "This document provides a comprehensive framework with ten key governance dimensions for prioritizing, planning, budgeting, delivering, regulating, and evaluating infrastructure investment across government levels.",
+      img_path:
+        "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
       path: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
       target: "_self",
     },
@@ -54,8 +57,10 @@ export default function QII2LandingPage() {
       title: "Infrastructure Governance Assessment Framework",
       country: "Multi-country",
       org: "World Bank",
-      description: "This document offers a diagnostic framework to assess, benchmark, and improve infrastructure governance by addressing legal, financial, environmental, and institutional dimensions throughout the project lifecycle. ",
-      img_path: "images/qii6/QII6-Landing/Infrastructure-Governance-Assessment-Framework.png",
+      description:
+        "This document offers a diagnostic framework to assess, benchmark, and improve infrastructure governance by addressing legal, financial, environmental, and institutional dimensions throughout the project lifecycle. ",
+      img_path:
+        "images/qii6/QII6-Landing/Infrastructure-Governance-Assessment-Framework.png",
       path: "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
       target: "_self",
     },
@@ -64,7 +69,8 @@ export default function QII2LandingPage() {
       title: "Well Spent",
       country: "Multi-country",
       org: false,
-      description: "This publication provides evidence, analysis, and policy recommendations on how strong infrastructure governance can reduce inefficiency and waste in public investment for sustainable development and fiscal performance. ",
+      description:
+        "This publication provides evidence, analysis, and policy recommendations on how strong infrastructure governance can reduce inefficiency and waste in public investment for sustainable development and fiscal performance. ",
       img_path: "images/qii6/QII6-Landing/WellSpent.png",
       path: "https://www.imf.org/en/Publications/Books/Issues/2020/09/03/Well-Spent-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment-48603",
       target: "_self",
@@ -79,7 +85,7 @@ export default function QII2LandingPage() {
     {
       id: 0,
       icon: `
-<svg xmlns="http://www.w3.org/2000/svg" width="145.345" height="145.344" viewBox="0 0 145.345 145.344">
+<svg xmlns="http://www.w3.org/2000/svg" width="100.345" height="145.344" viewBox="0 0 145.345 145.344">
   <g id="Spending" transform="translate(-518.896 -326.246)">
     <g id="Group_2379" data-name="Group 2379" transform="translate(518.896 326.246)">
       <path id="Path_5396" data-name="Path 5396" d="M551.111,400.207a.787.787,0,0,0,0-1.574h-28.84l13.889-11.961a.772.772,0,0,0,.275-.551.734.734,0,0,0-.2-.551.766.766,0,0,0-.551-.275.74.74,0,0,0-.551.2l-15.384,13.22q-.085.092-.2.2a.765.765,0,0,0-.157.433.61.61,0,0,0,0,.118v.079a.746.746,0,0,0,.275.472l14.833,12.551a.687.687,0,0,0,.551.2.809.809,0,0,0,.748-.866.852.852,0,0,0-.275-.551L522.35,400.207h28.761m28.21,54.336a.77.77,0,0,0-.551-.275.813.813,0,0,0-.826.708.793.793,0,0,0,.2.59l13.22,15.305a.645.645,0,0,0,.2.236.664.664,0,0,0,.433.2q.05,0,.079,0h.039a.182.182,0,0,0,.118-.039.629.629,0,0,0,.433-.236l12.551-14.833a.744.744,0,0,0,.2-.59.847.847,0,0,0-.275-.551.822.822,0,0,0-.59-.157.85.85,0,0,0-.551.275l-11.135,13.181V439.591a.787.787,0,0,0-1.574,0v28.8l-11.961-13.849m-15.5-26.007a.779.779,0,1,0-1.1-1.1l-20.381,20.341,1.377-18.217a.734.734,0,0,0-.2-.551.766.766,0,0,0-.551-.275.813.813,0,0,0-.826.708l-1.534,20.3v.039a.857.857,0,0,0,0,.118.7.7,0,0,1,0,.118.8.8,0,0,0,.275.433.664.664,0,0,0,.433.2.857.857,0,0,0,.118,0h.039l19.358-1.613a.809.809,0,0,0,.748-.866.847.847,0,0,0-.275-.551.822.822,0,0,0-.59-.157l-17.273,1.416,20.381-20.341m50.283-51.5a31.726,31.726,0,1,0,9.285,22.427,30.554,30.554,0,0,0-9.285-22.427m-22.427-7.712a30.091,30.091,0,1,1-21.325,8.813,29.05,29.05,0,0,1,21.325-8.813m1.5,17.823v-3.108a.787.787,0,0,0-1.574,0V387.1q-6.221.421-6.964,5.862a5.209,5.209,0,0,0,1.574,4.879q1.865,1.742,5.98,2.361a.5.5,0,0,0,.079,0h.039a7.931,7.931,0,0,1,4.839,2.164,5.263,5.263,0,0,1,.944,4.446q-.711,4.186-5.705,4.328h-.118a7.7,7.7,0,0,1-7.712-4.446.673.673,0,0,0-.433-.354.787.787,0,0,0-.59.039.833.833,0,0,0-.393.472.783.783,0,0,0,.039.59,9.019,9.019,0,0,0,8.42,5.272v3.266a.787.787,0,0,0,1.574,0v-3.3q5.683-.479,6.453-5.626a6.563,6.563,0,0,0-1.259-5.705q-1.757-2.091-5.862-2.715a.5.5,0,0,0-.079,0,9.716,9.716,0,0,1-5.115-1.967,3.7,3.7,0,0,1-1.1-3.462q.705-4.45,6.177-4.564h.039a6.894,6.894,0,0,1,6.059,4.171.656.656,0,0,0,.433.393.68.68,0,0,0,.59,0,.651.651,0,0,0,.393-.433.77.77,0,0,0,0-.63,8.233,8.233,0,0,0-6.728-5m12.04-45.286L592.66,327.025a.746.746,0,0,0-.472-.275h-.079a.615.615,0,0,0-.118,0,.758.758,0,0,0-.433.157q-.1.112-.2.2l-13.22,15.384a.74.74,0,0,0-.2.551.77.77,0,0,0,.275.551.734.734,0,0,0,.551.2.77.77,0,0,0,.551-.275l11.961-13.889v28.84a.787.787,0,0,0,1.574,0V329.7l11.135,13.181a.852.852,0,0,0,.551.275.809.809,0,0,0,.866-.748.687.687,0,0,0-.2-.551m-64.329,6.1h-.039q-.029,0-.079,0a.713.713,0,0,0-.433.2c-.014.013-.027.026-.039.039a.352.352,0,0,0-.039.039.744.744,0,0,0-.2.433v.079a.235.235,0,0,0,0,.039v.039l1.613,19.358a.768.768,0,0,0,.275.551.736.736,0,0,0,.551.2.768.768,0,0,0,.551-.275.79.79,0,0,0,.2-.59l-1.456-17.272,20.381,20.381a.779.779,0,1,0,1.1-1.1l-20.381-20.381,18.217,1.377a.788.788,0,0,0,.59-.2.766.766,0,0,0,.275-.551.735.735,0,0,0-.2-.551.77.77,0,0,0-.551-.275l-20.3-1.534h-.039m98.953,81.012a.733.733,0,0,0-.2.551l1.338,18.217-20.341-20.341a.779.779,0,1,0-1.1,1.1l20.341,20.341L622.6,447.421a.762.762,0,0,0-.551.157.847.847,0,0,0-.275.551.82.82,0,0,0,.157.59.852.852,0,0,0,.551.275l19.4,1.613h0a.615.615,0,0,0,.118,0,.7.7,0,0,0,.472-.2.628.628,0,0,0,.236-.433.187.187,0,0,0,.039-.118.621.621,0,0,0,0-.118q0-.012,0-.039l-1.534-20.3a.735.735,0,0,0-.275-.512.788.788,0,0,0-.59-.2.735.735,0,0,0-.511.275m24.079-29.391a.182.182,0,0,0,.039-.118.118.118,0,0,0,0-.039v-.079a.661.661,0,0,0-.2-.433.643.643,0,0,0-.236-.2l-15.305-13.22a.792.792,0,0,0-.59-.2.812.812,0,0,0-.708.826.77.77,0,0,0,.275.551l13.85,11.961h-28.8a.787.787,0,0,0,0,1.574H661l-13.181,11.135a.85.85,0,0,0-.275.551.821.821,0,0,0,.157.59.847.847,0,0,0,.551.275.743.743,0,0,0,.59-.2l14.833-12.551a.629.629,0,0,0,.236-.433M643.1,348.232a.744.744,0,0,0-.551-.275h-.039q-.029,0-.079,0h-.039l-20.3,1.534a.812.812,0,0,0-.708.826.766.766,0,0,0,.275.551.734.734,0,0,0,.551.2l18.256-1.377-20.381,20.381a.779.779,0,1,0,1.1,1.1l20.341-20.381-1.416,17.272a.822.822,0,0,0,.157.59.847.847,0,0,0,.551.275.809.809,0,0,0,.866-.748l1.613-19.4a.118.118,0,0,0,0-.039q0-.029,0-.079A.664.664,0,0,0,643.1,348.232Z" transform="translate(-519.003 -326.353)"/>
@@ -242,6 +248,14 @@ export default function QII2LandingPage() {
         subtext={"Ajay Banga"}
         subtext2={"April 2025"}
       />
+      {/* <section className="container color-light">
+        <p>
+          Robust infrastructure governance, grounded in clear rules,
+          transparency, and effective management, ensures value for money and
+          creates the confidence and stability needed for private sector
+          investment.{" "}
+        </p>
+      </section> */}
       <section className="color-dark">
         <div className="container ">
           <div className="video-text-cnt">
@@ -321,7 +335,7 @@ export default function QII2LandingPage() {
             Tajikistan, and Uzbekistan provide practical roadmaps for
             strengthening infrastructure governance systems.
           </p>
-          <Link to="/qii2casestudy1">
+          <Link to="">
             <button className="btn-primary qii2-video-cta">
               Explore Case Study <span className="icon-arrow">&#xe900;</span>
             </button>

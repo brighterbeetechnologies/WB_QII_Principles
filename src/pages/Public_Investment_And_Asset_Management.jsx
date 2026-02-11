@@ -23,7 +23,7 @@ export default function Public_Investment_And_Asset_Management() {
       content: <p>
         This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets.
         <br /><br />
-        This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets.
+        Chapters 11 (Fiscal Risks in Infrastructure) and 12 (Integrating Infrastructure Planning and Budgeting) examine fiscal risk identification and mitigation strategies for infrastructure projects, and outline methods for integrating infrastructure planning with budgetary processes to ensure fiscal sustainability and alignment between investment decisions and available resources. 
       </p>,
     },
     {
@@ -105,7 +105,7 @@ export default function Public_Investment_And_Asset_Management() {
           { path: "/qii6", title: "QII.6 Governance" },
           {
             path: "/Public-Investment-And-Asset-Management",
-            title: "Public Investment And Asset Management",
+            title: "Public Investment and Asset Management",
           },
         ],
       }),
@@ -116,7 +116,7 @@ export default function Public_Investment_And_Asset_Management() {
       <section className="color-light">
         <Header3
           img="images/qii6/Public_Investment_And_Asset_Management/Public_Investment_And_Asset_Management.png"
-          title={"Public Investment And Asset Management"}
+          title={"Public Investment and Asset Management"}
           hideDeskTitle={true}
         >
           <div className="hero-content">
@@ -127,7 +127,7 @@ export default function Public_Investment_And_Asset_Management() {
                 className="qii-badge"
               />
               <h1 className="header-title desk-title">
-                Public Investment And Asset Management
+                Public Investment and Asset Management
               </h1>
             </div>
           </div>
