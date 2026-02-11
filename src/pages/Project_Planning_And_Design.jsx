@@ -190,15 +190,13 @@ export default function Project_Planning_And_Design() {
           </strong> <br />World Bank​
         </p>
       ),
+      highlight: 2,
       buttonText: "Case Study",
-      link: "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
+      // link: "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
+      link:"",
       content: (
         <p>
-          This case from Vietnam highlights the integration of universal
-          accessibility and inclusive design in urban infrastructure. With
-          support from the World Bank and Japanese experts, the project embedded
-          accessibility measures from the outset, providing technical input,
-          localized guidelines, and capacity-building for city officials.
+          This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.
         </p>
       ),
     },
