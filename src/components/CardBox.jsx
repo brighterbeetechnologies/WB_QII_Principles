@@ -94,12 +94,12 @@ export default function CardBox({ card }) {
         <div
           className="highlighted-badge"
           style={{
-            background: `${card.highlight === 1 ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
+            background: `${card.highlight ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
             backgroundSize: "100% 100%",
           }}
         >
           <img src="images/Star_for_spotligh.svg" alt="" />
-          {card.highlight === 1 && <>Spotlight Case Study</>}
+          {card.highlight && <>Spotlight Case Study</>}
         </div>
       ) : (
         <></>
