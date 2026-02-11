@@ -103,7 +103,7 @@ export default function QII5LandingPage() {
       id: 0,
       title:
         "Incorporating Universal Accessibility into Infrastructure Planning and Design ",
-      country: "Vietnam Senegal",
+      country: "Vietnam and Senegal",
       org: "World Bank",
       description:
         "This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
@@ -304,7 +304,7 @@ export default function QII5LandingPage() {
       <ImagewithStatement
         backgroundImage={"images/qii5/shutterstock_1588752748.jpg"}
         text={
-          <h3>
+          <>
           Making infrastructure inclusive does not need to be expensive.
               Studies indicate that{" "}
               <a
@@ -316,7 +316,7 @@ export default function QII5LandingPage() {
                 inclusive design adds only 1–2% to upfront costs
               </a>{" "}
               - much less than the cost of future retrofits.
-            </h3>
+           </> 
         }
       />
       <section className="color-dark">
@@ -343,7 +343,7 @@ export default function QII5LandingPage() {
                 </p>
               </div> */}
               <Video
-                thumbnail="images/qii2/videoCover.png"
+                thumbnail="images/qii5/shutterstock_2616910319.jpg"
                 videoUrl="./video/LandingPageVideo.mp4"
                 videoTitle="The Importance of Inclusion in Infrastructure"
                 cardTitle={

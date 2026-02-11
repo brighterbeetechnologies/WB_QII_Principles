@@ -7,35 +7,37 @@ import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
+import ListImageText from "../components/ListImageText";
 
 export default function Stakeholder_Engagement() {
   const STEP1_PAGE_SIZE = 3;
-  const step1Cards = [
-    {
-      image: "images/qii5/StakeholderEngagement/Maputo.png",
-      title: (
-        <p>
-          <strong>Maputo</strong>
-        </p>
-      ),
-      buttonText: "Case Study",
-      link: "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
-      content: (
-        <p>
-          The use of big data to map mobility patterns helped to ensure a new
-          bus rapid transit system in Maputo was designed to maximize
-          accessibility for all socio-economic groups.
-        </p>
-      ),
-    },
-  ];
+  // const step1Cards = [
+  //   {
+  //     image: "images/qii5/StakeholderEngagement/Maputo.png",
+  //     title: (
+  //       <p>
+  //         <strong>Maputo</strong>
+  //       </p>
+  //     ),
+  //     buttonText: "Case Study",
+  //     link: "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
+  //     content: (
+  //       <p>
+  //         The use of big data to map mobility patterns helped to ensure a new
+  //         bus rapid transit system in Maputo was designed to maximize
+  //         accessibility for all socio-economic groups.
+  //       </p>
+  //     ),
+  //   },
+  // ];
 
   const step2Cards = [
     {
       image:
         "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
       title: (
-        <p>Ghana ​ <br />
+        <p>
+          Ghana ​ <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
         </p>
       ),
@@ -48,10 +50,12 @@ export default function Stakeholder_Engagement() {
           lifecycle.
           <br />
           <br />
+          <span className="secound-desc">
           The Kumasi Toilet PPP Project in Ghana (box 16, page 35) used a
           willingness-to-pay survey as part of its pre-feasibility study to
           evaluate the financial viability of delivering public toilets through
           a PPP model.
+          </span>
         </p>
       ),
     },
@@ -71,11 +75,12 @@ export default function Stakeholder_Engagement() {
           considerations throughout infrastructure project cycles. It covers
           diagnostics, design, implementation, and monitoring.
           <br />
-          <br />
+          <br /><span className="secound-desc">
           Figure 7.1 on page 56 maps how different stakeholders (government
           authorities, MDBs, private sector, gender specialists, civil society,
           and affected communities) each hold data-driven responsibilities for
           ensuring gender inclusion at every stage.
+          </span>
         </p>
       ),
     },
@@ -149,7 +154,8 @@ export default function Stakeholder_Engagement() {
       title: (
         <p>
           Tajikistan <br />
-          <strong>Gender Dimensions of Cross-Border Trade</strong><br /> World Bank 
+          <strong>Gender Dimensions of Cross-Border Trade</strong>
+          <br /> World Bank
         </p>
       ),
       buttonText: "Case Study",
@@ -167,7 +173,8 @@ export default function Stakeholder_Engagement() {
         "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
       title: (
         <p>
-          <strong>OECD Infrastructure Toolkit</strong> <br />Organisation for Economic Co-operation and Development​
+          <strong>OECD Infrastructure Toolkit</strong> <br />
+          Organisation for Economic Co-operation and Development​
         </p>
       ),
       buttonText: "Tool",
@@ -233,7 +240,29 @@ export default function Stakeholder_Engagement() {
             engagement plans that involve these groups in the planning and
             design process.
           </p>
-          <VCardsPagination cardsData={step1Cards} />
+          {/* <VCardsPagination cardsData={step1Cards} /> */}
+          <ListImageText
+            disableStep={true}
+            highlight={1}
+            // description={"Netherlands DuboCalc and CO₂ Performance Ladder"}
+            disableDescription={true}
+            description={""}
+            image="images/qii5/Qii5CaseStudy.jpg"
+            buttonText="View case study summary"
+            link="https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf"
+            buttonText2="View the full publication​"
+            link2=""
+          >
+            <div className="description">
+              Maputo <br />
+              <strong>
+                Investing in Mozambique's Connectivity
+              </strong> <br />World Bank
+            </div>
+            <p>
+              The use of big data to map mobility patterns helped to ensure a new bus rapid transit system in Maputo was designed to maximize accessibility for all socio-economic groups.{" "}
+            </p>
+          </ListImageText>
           {/* <div className="container internal-pages-container">
             <VCard
               image="images/qii5/StakeholderEngagement/Maputo.png"

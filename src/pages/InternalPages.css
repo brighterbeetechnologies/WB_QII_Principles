@@ -150,6 +150,11 @@
   text-align: center;
 }
 
+.secound-desc{
+  font-size: 1rem;
+  font-style: italic;
+}
+
 @media (max-width: 1399px) {
   .ico-text-card-1-container {
     margin: 2rem 2rem 0 calc(60px + 1.8rem);

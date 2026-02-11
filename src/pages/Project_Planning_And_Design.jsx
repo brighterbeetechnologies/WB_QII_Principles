@@ -37,7 +37,7 @@ export default function Project_Planning_And_Design() {
     },
     {
       image:
-        "images/qii5/images/qii5/shutterstock_2698330999.jpg.jpg",
+        "images/qii5/shutterstock_2698330999.jpg",
       title: (
         <p>
           <strong>Procurement Rated Criteria</strong> <br />
@@ -111,8 +111,10 @@ export default function Project_Planning_And_Design() {
           performance obligations linked to outcomes.
           <br />
           <br />
+          <span className="secound-desc">
           PPP Project Stages Three and Four: Drafting the Contract and Managing
           the Transaction, pg 37
+          </span>
         </p>
       ),
     },
@@ -163,11 +165,10 @@ export default function Project_Planning_And_Design() {
       image:
         "images/qii5/ProjectPlanningandDesign/Mainstreaming-Universal-Accessibility.png",
       title: (
-        <p>
+        <p>Senegal​ <br />
           <strong>
-            Mainstreaming Universal Accessibility in the built environment
-            projects in Senegal
-          </strong>
+           Mainstreaming Universal Accessibility in the Built Environment Projects​ 
+          </strong><br />World Bank​
         </p>
       ),
       buttonText: "Case Study",
@@ -181,13 +182,12 @@ export default function Project_Planning_And_Design() {
     },
     {
       image:
-        "images/qii5/ProjectPlanningandDesign/shutterstock_2665469265.jpg",
+        "images/qii5/shutterstock_2665469265.jpg",
       title: (
-        <p>
+        <p>Vietnam <br />
           <strong>
-            Incorporating Universal Accessibility into Infrastructure Planning
-            and Design in Vietnam
-          </strong>
+            Incorporating Universal Accessibility into Infrastructure Planning and Design​
+          </strong> <br />World Bank​
         </p>
       ),
       buttonText: "Case Study",
