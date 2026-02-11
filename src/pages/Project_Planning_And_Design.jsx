@@ -96,7 +96,7 @@ export default function Project_Planning_And_Design() {
   const step2Cards = [
     {
       image:
-        "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
+        "images/qii5/shutterstock_2535975537.jpg",
       title: (
         <p>
           <strong>Gender Equality, Infrastructure and PPPs</strong>
@@ -141,7 +141,7 @@ export default function Project_Planning_And_Design() {
     },
     {
       image:
-        "images/qii5/ProjectPlanningandDesign/Responsible-Contracting-Project-(RCP)-Toolkit.png",
+        "images/qii5/shutterstock_2476215753.jpg",
       title: (
         <p>
           <strong>Responsible Contracting Project (RCP) Toolkit</strong>
@@ -163,7 +163,7 @@ export default function Project_Planning_And_Design() {
   const step3Cards = [
     {
       image:
-        "images/qii5/ProjectPlanningandDesign/Mainstreaming-Universal-Accessibility.png",
+        "images/qii5/shutterstock_2346783481.jpg",
       title: (
         <p>Senegal​ <br />
           <strong>

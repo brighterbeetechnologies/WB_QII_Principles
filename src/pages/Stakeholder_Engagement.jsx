@@ -34,7 +34,7 @@ export default function Stakeholder_Engagement() {
   const step2Cards = [
     {
       image:
-        "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
+        "images/qii5/shutterstock_2535975537.jpg",
       title: (
         <p>
           Ghana ​ <br />
@@ -86,7 +86,7 @@ export default function Stakeholder_Engagement() {
     },
     {
       image:
-        "images/qii5/StakeholderEngagement/Inclusive-Infrastructure-Data-Collection-and-Stakeholder-Identification.png",
+        "images/qii5/shutterstock_2528541047.jpg",
       title: (
         <p>
           <strong>
@@ -110,7 +110,7 @@ export default function Stakeholder_Engagement() {
   const step3Cards = [
     {
       image:
-        "images/qii5/StakeholderEngagement/Uganda-Stakeholder-Engagement-Plan.png",
+        "images/qii5/shutterstock_623620481.jpg",
       title: (
         <p>
           Uganda <br />
@@ -150,7 +150,7 @@ export default function Stakeholder_Engagement() {
     },
     {
       image:
-        "images/qii5/StakeholderEngagement/Gender-Dimensions-of-Cross-Border-Trade-in-Tajikistan.png",
+        "images/qii5/shutterstock_1725363121.jpg",
       title: (
         <p>
           Tajikistan <br />

@@ -67,7 +67,7 @@ export default function Policies_Standards_Regulation() {
     },
     {
       image:
-        "images/qii5/PoliciesandRegulation/JICA-Thematic-Guidelines-for-Inclusive-Development-including-Universal-Design.png",
+        "images/qii5/shutterstock_2528902161.jpg",
       title: (
         <p>
           <strong>
@@ -144,7 +144,7 @@ export default function Policies_Standards_Regulation() {
 
   const step2Cards = [
     {
-      image: "images/qii5/PoliciesandRegulation/She-Drives-Change.png",
+      image: "images/qii5/shutterstock_2337776975.jpg",
       title: (
         <p>
           <strong>She Drives Change</strong> <br />
@@ -313,7 +313,7 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
-      image: "images/qii5/PoliciesandRegulation/OECD-Principles.png",
+      image: "images/qii5/shutterstock_2478900781.jpg",
       title: (
         <p>
           <strong>

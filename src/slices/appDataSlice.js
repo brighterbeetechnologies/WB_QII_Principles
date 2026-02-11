@@ -3200,7 +3200,7 @@ export const appDataSlice = createSlice({
         paths:
           "",
         type: "Case Study",
-        title: "Vietnam Senegal Incorporating Universal Accessibility into Infrastructure Planning and Design World Bank",
+        title: "Vietnam and Senegal Incorporating Universal Accessibility into Infrastructure Planning and Design World Bank",
         highlight: 2,
         target: "_blank",
         principles: 4,
@@ -3214,10 +3214,26 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths:
+          "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
+        type: "Case Study",
+        title: "Maputo Investing in Mozambique's Connectivity World Bank",
+        highlight: 2,
+        target: "_blank",
+        principles: 4,
+        desc: "The use of big data to map mobility patterns helped to ensure a new bus rapid transit system in Maputo was designed to maximize accessibility for all socio-economic groups.",
+        format: 1,
+        stage: 4,
+        region: 1,
+        industry: 1,
+        image: "images/qii5/StakeholderEngagement/Maputo.png",
+      },
+      {
+        id: 4,
+        paths:
           "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
         type: "Case Study",
         title: "She Drives Change World Bank",
-        highlight: 2,
+        highlight: 0,
         target: "_blank",
         principles: 4,
         desc: "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
@@ -3233,7 +3249,7 @@ export const appDataSlice = createSlice({
           "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
         type: "Case Study",
         title: "Tajikistan Gender Dimensions of Cross-Border Trade World Bank",
-        highlight: 2,
+        highlight: 0,
         target: "_blank",
         principles: 4,
         desc: "This report examines the trade facilitation challenges faced by men- and women-led firms in Tajikistan, identifying gender-specific barriers such as lower participation in public consultations, reduced access to trade finance, and inadequate border infrastructure for women traders, with recommendations for more inclusive trade policies.​",
@@ -3257,7 +3273,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/PoliciesandRegulation/She-Drives-Change.png",
+        image: "images/qii5/shutterstock_2337776975.jpg",
       },
       {
         id: 4,
@@ -3309,24 +3325,9 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/ProjectPlanningandDesign/Mainstreaming-Universal-Accessibility.png",
+          "images/qii5/shutterstock_2346783481.jpg",
       },
-      {
-        id: 4,
-        paths:
-          "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
-        type: "Case Study",
-        title: "Maputo",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "The use of big data to map mobility patterns helped to ensure a new bus rapid transit system in Maputo was designed to maximize accessibility for all socio-economic groups.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii5/StakeholderEngagement/Maputo.png",
-      },
+      
       {
         id: 4,
         paths:
@@ -3342,7 +3343,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/StakeholderEngagement/Uganda-Stakeholder-Engagement-Plan.png",
+          "images/qii5/shutterstock_623620481.jpg",
       },
       {
         id: 4,
@@ -3375,7 +3376,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/StakeholderEngagement/Gender-Dimensions-of-Cross-Border-Trade-in-Tajikistan.png",
+          "images/qii5/shutterstock_1725363121.jpg",
       },
       {
         id: 4,
@@ -3392,7 +3393,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/StakeholderEngagement/Gender-Equality-Infrastructure-and-PPPs.png",
+          "images/qii5/shutterstock_2535975537.jpg",
       },
       {
         id: 4,
@@ -3446,7 +3447,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
-        type: "Guidence",
+        type: "Guidance",
         title:
           "Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9 ",
         highlight: 0,
@@ -3493,7 +3494,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/PoliciesandRegulation/JICA-Thematic-Guidelines-for-Inclusive-Development-including-Universal-Design.png",
+          "images/qii5/shutterstock_2528902161.jpg",
       },
       {
         id: 4,
@@ -3619,7 +3620,7 @@ export const appDataSlice = createSlice({
         paths: "https://www.fastinfralabel.org/",
         type: "Tool",
         title: "FAST-Infra Sustainable Infrastructure Label",
-        highlight: 2,
+        highlight: 0,
         target: "_blank",
         principles: 4,
         desc: "A globally applicable certification for infrastructure projects demonstrating significant positive sustainability performance across environmental, social, governance, and resilience dimensions. The label helps project developers communicate sustainability credentials to investors and supports due diligence processes.",
@@ -3634,7 +3635,7 @@ export const appDataSlice = createSlice({
         paths: "https://www.bluedot-network.org/",
         type: "Tool",
         title: "Blue Dot Network",
-        highlight: 2,
+        highlight: 0,
         target: "_blank",
         principles: 4,
         desc: "A multilateral certification framework for quality infrastructure projects which consolidates over 80 international standards including the G20 Principles for Quality Infrastructure Investment and IFC Performance Standards.",
@@ -3651,7 +3652,7 @@ export const appDataSlice = createSlice({
         type: "Guidance",
         title:
           "OECD Principles for Private Sector Participation in Infrastructure",
-        highlight: 2,
+        highlight: 0,
         target: "_blank",
         principles: 4,
         desc: "These OECD principles help governments work with private-sector partners to finance and deliver infrastructure projects in transport, water, power, and telecommunications. The principles address the public interest, and provide guidance on regulatory frameworks, transparency, and stakeholder engagement that support inclusive outcomes.",
@@ -3659,7 +3660,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii5/PoliciesandRegulation/OECD-Principles.png",
+        image: "images/qii5/shutterstock_2478900781.jpg",
       },
       {
         id: 4,
@@ -3727,7 +3728,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/ProjectPlanningandDesign/Gender-Equality-Infrastructure-and-PPPs.png",
+          "images/qii5/shutterstock_2535975537.jpg",
       },
       {
         id: 4,
@@ -3761,7 +3762,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/ProjectPlanningandDesign/Responsible-Contracting-Project-(RCP)-Toolkit.png",
+          "images/qii5/shutterstock_2476215753.jpg",
       },
       {
         id: 4,
@@ -3827,7 +3828,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii5/StakeholderEngagement/Inclusive-Infrastructure-Data-Collection-and-Stakeholder-Identification.png",
+          "images/qii5/shutterstock_2528541047.jpg",
       },
       {
         id: 4,
