@@ -18,8 +18,8 @@ export default function ResilientDesignAndOperation() {
       image:
         "images/qii4/ResilientDesignAndOperation/Modular Bridges in Madagascar.png",
       title: (
-        <p>Multi-country <br />
-          <strong>Modular Bridges in Madagascar</strong>
+        <p>Madagascar<br />
+          <strong>Modular Bridges</strong>
           <br />
           World Bank
         </p>
