@@ -52,8 +52,8 @@ export default function Govtech_For_Infrastructure() {
     {
       image: "images/qii6/Govtech_For_Infrastructure/IndonesiaOneMapPolicy.png",
       title: (
-        <p>
-          <strong>Indonesia: One Map Policy</strong>
+        <p>Indonesia<br />
+          <strong>One Map Policy</strong> 
         </p>
       ),
       buttonText: "Case Study",
@@ -72,8 +72,8 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       title: (
-        <p>
-          <strong>Japan-Association-for-Smart-Cities-in ASEAN (EN/JP)</strong>
+        <p>Japan <br />
+          <strong>Association-for-Smart-Cities-in ASEAN</strong>
         </p>
       ),
       buttonText: "Guidance",
@@ -129,12 +129,12 @@ export default function Govtech_For_Infrastructure() {
     {
       image: "images/qii6/Govtech_For_Infrastructure/Albania.png",
       title: (
-        <p>
-          <strong>Albania: GovTech Program (Phases 1 and 2)</strong>
+        <p>Albania <br />
+          <strong>GovTech Program (Phases 1 and 2)</strong>
         </p>
       ),
       buttonText: "Case Study",
-      link: "/not-given",
+      link: "",
       content: <p>TBD</p>,
     },
     {
@@ -144,7 +144,8 @@ export default function Govtech_For_Infrastructure() {
         <p>
           <strong>
             OECD: Digital Public Infrastructure for Digital Governments (2024)
-          </strong>
+          </strong> <br />
+          Organisation for Economic Co-operation and Development 
         </p>
       ),
       buttonText: "Guidance",

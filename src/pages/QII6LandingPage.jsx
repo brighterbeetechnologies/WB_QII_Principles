@@ -16,6 +16,7 @@ import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
 // import ImagewithStatement from "../components/ImagewithStatement";
 import Qii6ImagewithStatement from "../components/Qii6ImagewithStatement";
+import Video from "../components/Video";
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
@@ -80,7 +81,13 @@ export default function QII2LandingPage() {
     {
       id: 0,
       icon: "&#xe919;",
-      text: "Inadequate government budgets that fail to account for O&M costs, or a lack of funding for operations due to weak tariff/pricing.",
+      text: (
+        <>
+          <strong>Reprioritize existing public spending , </strong>Reprioritize
+          existing public spending, so that investment targets the
+          highest-priority projects
+        </>
+      ),
     },
     {
       id: 0,
@@ -96,16 +103,27 @@ export default function QII2LandingPage() {
 `,
       text: (
         <>
-          <strong>Reprioritize existing public spending , </strong>Reprioritize
-          existing public spending, so that investment targets the
-          highest-priority projects
+          <strong>
+            {" "}
+            Strengthen transparency and efficiency in public investment
+            processes,{" "}
+          </strong>
+          minimizing waste and delays
         </>
       ),
     },
     {
       id: 0,
       icon: "&#xe921;",
-      text: "The political attractiveness of building new rather than maintaining existing infrastructure. In emerging markets and developing economies (EMDEs), development assistance can also incentivize new projects regimes.",
+      text: (
+        <>
+          <strong>
+            {" "}
+            Build a predictable, accountable regulatory environment{" "}
+          </strong>
+          to lower risk and attract private-sector participation
+        </>
+      ),
     },
   ];
 
@@ -200,6 +218,30 @@ export default function QII2LandingPage() {
             </div>
           </Header3>
         </section>
+        {/* <section className="container color-light">
+          <div className="header-items-cnt">
+            <div className="header-item">
+              <div className="icon-item">&#xe91c;</div>
+              <label className="item-label">
+                <strong>Efficient investment</strong>
+              </label>
+            </div>
+            <div className="devider"></div>
+            <div className="header-item">
+              <div className="icon-item">&#xe917;</div>
+              <label className="item-label">
+                <strong>Transparent processes</strong>
+              </label>
+            </div>
+            <div className="devider"></div>
+            <div className="header-item">
+              <div className="icon-item">&#xe91a;</div>
+              <label className="item-label">
+                <strong>Sustainable growth</strong>
+              </label>
+            </div>
+          </div>
+        </section> */}
         <div className="container internal-pages-cards">
           <div className="center-header">
             {/* <h1 className="light-font mBottom">
@@ -248,26 +290,25 @@ export default function QII2LandingPage() {
         subtext={"Ajay Banga"}
         subtext2={"April 2025"}
       />
-      {/* <section className="container color-light">
+      <section className="container color-light">
         <p>
           Robust infrastructure governance, grounded in clear rules,
           transparency, and effective management, ensures value for money and
           creates the confidence and stability needed for private sector
           investment.{" "}
         </p>
-      </section> */}
+      </section>
       <section className="color-dark">
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              {/* <img src="images/qii2/Landing-QII-2.gif" alt="" /> */}
-              <img src="images/qii2/videoCover.png" alt="" />
+              {/* <img src="images/qii2/videoCover.png" alt="" />
               <div className="vid-cnt">
                 <button
                   className="video-play-btn icon-play"
                   onClick={() => {
                     openVideo(
-                      "./video/LandingPageVideo.mp4",
+                      "",
                       "Why Infrastructure Governance Matters",
                       1920,
                       1080,
@@ -279,7 +320,19 @@ export default function QII2LandingPage() {
                 <p className="video-title">
                   <strong>Why Infrastructure Governance Matters</strong>
                 </p>
-              </div>
+              </div> */}
+              <Video
+                thumbnail="images/qii2/videoCover.png"
+                videoUrl=""
+                videoTitle="Why Infrastructure Governance Matters"
+                cardTitle={
+                  <>
+                    <span>Why Infrastructure Governance Matters</span> 
+                  </>
+                }
+                description=""
+                duration="3 min watch"
+              />
             </div>
             <div className="text-cnt">
               <h1 className="light-font mBottom">Quality Over Quantity</h1>
@@ -318,8 +371,8 @@ export default function QII2LandingPage() {
             className="video-play-btn icon-play"
             onClick={() => {
               openVideo(
-                "./video/FukuokaCaseStudy.mp4",
-                "QII.2 in Action",
+                "",
+                "QII.6 in Action",
                 1920,
                 1080,
               );
@@ -336,7 +389,7 @@ export default function QII2LandingPage() {
             strengthening infrastructure governance systems.
           </p>
           <Link to="">
-            <button className="btn-primary qii2-video-cta">
+            <button className="btn-primary qii2-video-cta disable-link">
               Explore Case Study <span className="icon-arrow">&#xe900;</span>
             </button>
           </Link>

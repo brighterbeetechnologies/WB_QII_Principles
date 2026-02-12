@@ -46,7 +46,8 @@ export default function Public_Investment_And_Asset_Management() {
       image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png",
       title: (
         <p>
-          <strong>OECD Implementation Handbook for Quality Infrastructure Investment</strong>
+          <strong>OECD Implementation Handbook for Quality Infrastructure Investment</strong> <br />
+           Organisation for Economic Co-operation and Development 
         </p>
       ),
       buttonText: "Guidance",
@@ -57,7 +58,7 @@ export default function Public_Investment_And_Asset_Management() {
       image: "images/qii6/Public_Investment_And_Asset_Management/InfraGov-Assessment-Framework.png",
       title: (
         <p>
-          <strong>InfraGov Assessment Framework</strong>
+          <strong>InfraGov Assessment Framework</strong> <br />World Bank
         </p>
       ),
       buttonText: "Guidance",
@@ -72,7 +73,8 @@ export default function Public_Investment_And_Asset_Management() {
       image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
       title: (
         <p>
-          <strong>OECD Getting Infrastructure Right</strong>
+          <strong>OECD Getting Infrastructure Right</strong> <br />
+           Organisation for Economic Co-operation and Development 
         </p>
       ),
       buttonText: "Guidance",

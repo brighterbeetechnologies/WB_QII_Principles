@@ -16,7 +16,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png",
       title: (
         <p>
-          <strong>InfraGov Assessment Framework</strong>
+          <strong>InfraGov Assessment Framework</strong> <br />Organisation for Economic Co-operation and Development 
         </p>
       ),
       buttonText: "Guidance",
@@ -43,7 +43,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
       title: (
         <p>
-          <strong>OECD Recommendation on Public Investment</strong>
+          <strong>OECD Recommendation on Public Investment</strong> <br />Organisation for Economic Co-operation and Development 
         </p>
       ),
       buttonText: "Guidance",
@@ -59,11 +59,11 @@ export default function Infrastructure_Institutions() {
           <br />
           <br />
           <span className="secound-desc">
-          Chapter 2 details practical mechanisms for reinforcing coordination
-          across government levels, emphasizing joint investment strategies,
-          intergovernmental dialogue, and capacity-building to unify standards
-          and promote accountability in public infrastructure investment
-          decisions.
+            Chapter 2 details practical mechanisms for reinforcing coordination
+            across government levels, emphasizing joint investment strategies,
+            intergovernmental dialogue, and capacity-building to unify standards
+            and promote accountability in public infrastructure investment
+            decisions.
           </span>
         </p>
       ),
@@ -76,9 +76,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/CoST-Infrastructure-Transparency-Initiative.png",
       title: (
         <p>
-          <strong>
-            Cost Infrastructure Transparency Initiative
-          </strong>
+          <strong>Cost Infrastructure Transparency Initiative</strong>
         </p>
       ),
       buttonText: "Guidance",
@@ -110,10 +108,10 @@ export default function Infrastructure_Institutions() {
           <br />
           <br />
           <span className="secound-desc">
-          Table 10.3 (Measures and Indicators to Prevent and Detect Corruption
-          in Public Infrastructure) provides a comprehensive list of measures
-          and indicators designed to identify vulnerabilities and detect
-          corruption across the infrastructure investment cycle.
+            Table 10.3 (Measures and Indicators to Prevent and Detect Corruption
+            in Public Infrastructure) provides a comprehensive list of measures
+            and indicators designed to identify vulnerabilities and detect
+            corruption across the infrastructure investment cycle.
           </span>
         </p>
       ),
@@ -140,10 +138,10 @@ export default function Infrastructure_Institutions() {
           <br />
           <br />
           <span className="secound-desc">
-          Saint Lucia's National Infrastructure Assessment demonstrates
-          integrated long-term planning through cross-sectoral analysis and
-          stakeholder engagement to strategically prioritize climate-resilient
-          investments supporting national development.
+            Saint Lucia's National Infrastructure Assessment demonstrates
+            integrated long-term planning through cross-sectoral analysis and
+            stakeholder engagement to strategically prioritize climate-resilient
+            investments supporting national development.
           </span>
         </p>
       ),
@@ -153,7 +151,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
       title: (
         <p>
-          <strong>OECD/IMF Reference Note</strong>
+          <strong>OECD/IMF Reference Note</strong> <br />Organisation for Economic Co-operation and Development 
         </p>
       ),
       buttonText: "Guidance",
@@ -301,14 +299,14 @@ export default function Infrastructure_Institutions() {
           <NumSteps num="3">
             <strong>Transparency and Accountability </strong>
             <br />
-            Transparency and Accountability – Transparency and accountability
-            are critical for integrity in infrastructure planning and execution.
-            Clear disclosure of project information, open processes for public
-            scrutiny, and systematic monitoring allow stakeholders to detect and
-            address irregularities early, reducing opportunities for
-            mismanagement and corruption. Independent oversight mechanisms
-            further strengthen trust by ensuring decisions and expenditures are
-            subject to continuous external review.
+            Transparency and accountability are critical for integrity in
+            infrastructure planning and execution. Clear disclosure of project
+            information, open processes for public scrutiny, and systematic
+            monitoring allow stakeholders to detect and address irregularities
+            early, reducing opportunities for mismanagement and corruption.
+            Independent oversight mechanisms further strengthen trust by
+            ensuring decisions and expenditures are subject to continuous
+            external review.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
           <VCardsPagination cardsData={step3Cards} />

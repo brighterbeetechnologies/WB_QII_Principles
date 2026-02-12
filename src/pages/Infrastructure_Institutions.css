@@ -3,6 +3,21 @@
   margin-bottom: 1.2rem;
 }
 
+.Infrastructure_Institutions .link-text{
+  margin-bottom: 0;
+}
+/* 
+.Infrastructure_Institutions .border-dash-1 {
+  border: 1px dashed rgba(134, 134, 134, 0.5);
+  margin: 2rem 1rem;
+  max-width: 80%;
+}
+
+
+.Infrastructure_Institutions .border-dash-1 {
+    margin: 2rem auto;
+  } */
+
 .Infrastructure_Institutions .icon-text-cards-container {
 	display: flex;
 	flex-wrap: wrap;
