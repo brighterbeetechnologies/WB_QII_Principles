@@ -218,10 +218,10 @@ export default function Infrastructure_Institutions() {
             Building effective governance requires targeted changes in
             institutional infrastructure practices.
           </p>
-          <h1 className="link-text">
+          <h1 className="link-text ">
             The Foundations for Excellence in Governance
           </h1>
-          <div className="border-dash"></div>
+          <div className="border-dash border-dash-no-top "></div>
           <NumSteps num="1">
             <strong>Legal and Regulatory Frameworks for Infrastructure </strong>
             <br />

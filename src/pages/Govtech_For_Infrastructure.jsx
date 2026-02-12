@@ -73,7 +73,7 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       title: (
         <p>Japan <br />
-          <strong>Association-for-Smart-Cities-in ASEAN</strong>
+          <strong>Association-for-Smart-Cities-in ASEAN (EN/JP)</strong>
         </p>
       ),
       buttonText: "Guidance",

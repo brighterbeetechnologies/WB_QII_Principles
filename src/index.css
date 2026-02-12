@@ -691,6 +691,10 @@ ul {
     margin: 4rem auto;
   }
 
+  .border-dash-no-top {
+    margin: 3rem auto 4rem auto;
+  }
+
   .container {
     padding: 2rem;
   }

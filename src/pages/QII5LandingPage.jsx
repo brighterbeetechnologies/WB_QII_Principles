@@ -302,7 +302,8 @@ export default function QII5LandingPage() {
         </div>
       </section>
       <ImagewithStatement
-        backgroundImage={"images/qii5/shutterstock_1588752748.jpg"}
+        backgroundImage={"images/qii5/LandingPage.jpg"}
+        backgroundPosition={"10% 50%"}
         text={
           <>
           Making infrastructure inclusive does not need to be expensive.

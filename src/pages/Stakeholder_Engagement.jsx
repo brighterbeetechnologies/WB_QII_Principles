@@ -289,18 +289,16 @@ export default function Stakeholder_Engagement() {
             <strong>Characterize Stakeholders Using Data </strong>
             <br />
             Identify which stakeholders may be at risk of exclusion by: <br />
-            <ul>
-              <ol type="a">
-                <li>
-                  Collecting and analyzing demographic and usage data to segment
-                  user groups.
-                </li>
-                <li>
-                  Understanding and mapping the specific needs, perspectives,
-                  and barriers faced by vulnerable and underrepresented groups.
-                </li>
-              </ol>
-            </ul>
+            <ol type="a">
+              <li>
+                Collecting and analyzing demographic and usage data to segment
+                user groups.
+              </li>
+              <li>
+                Understanding and mapping the specific needs, perspectives, and
+                barriers faced by vulnerable and underrepresented groups.
+              </li>
+            </ol>
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
           <VCardsPagination cardsData={step2Cards} />
