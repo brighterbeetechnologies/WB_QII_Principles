@@ -23,7 +23,7 @@ export default function Govtech_For_Infrastructure() {
         </p>
       ),
       buttonText: "Case Study",
-      link: "/not-given",
+      link: "",
       content: <p>TBD</p>,
     },
     {
@@ -93,7 +93,7 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
       title: (
         <p>
-          <strong>World Bank: GovTech Maturity Index (GTMI) Data Dashboard</strong>
+          <strong>GovTech Maturity Index (GTMI) Data Dashboard</strong> <br />World Bank
         </p>
       ),
       buttonText: "Tool",
@@ -135,7 +135,7 @@ export default function Govtech_For_Infrastructure() {
       ),
       buttonText: "Case Study",
       link: "",
-      content: <p>TBD</p>,
+      content: <p>TBD <span style={{opacity: 0}}>Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.</span></p>,
     },
     {
       image:

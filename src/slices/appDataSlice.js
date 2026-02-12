@@ -3936,7 +3936,7 @@ export const appDataSlice = createSlice({
       },
       {
         id: 5,
-        paths: "/not-given",
+        paths: "",
         type: "Case Study",
         title:
           "Public Transport Demand Forecasting Regional Platform: New Technology for Better Investment Decision-making",

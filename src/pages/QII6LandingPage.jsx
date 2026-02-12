@@ -17,6 +17,8 @@ import { Popover, Tooltip } from "antd";
 // import ImagewithStatement from "../components/ImagewithStatement";
 import Qii6ImagewithStatement from "../components/Qii6ImagewithStatement";
 import Video from "../components/Video";
+import QII6CaseStudy1 from "./QII6CaseStudy/QII6CaseStudy1";
+import "./QII2CaseStudy.css";
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
@@ -345,7 +347,7 @@ export default function QII2LandingPage() {
                 Governments need to:
               </h3>
               <TextIconCarousal data={textCrData} />
-            </div>
+            </div> 
           </div>
         </div>
       </section>
@@ -359,7 +361,7 @@ export default function QII2LandingPage() {
         </h3>
         <h1 className="light-font "></h1>
       </section> */}
-      <section className="qii_video_landing_page color-light">
+      {/* <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
           src="images/qii4/QII 2 in Action poster.png"
@@ -394,9 +396,9 @@ export default function QII2LandingPage() {
             </button>
           </Link>
         </div>
-      </section>
+      </section> */}
 
-      {/* <QII2CaseStudy1 /> */}
+      <QII6CaseStudy1 />
 
       {/* <section className="color-dark top_resource_page">
         <div className="container">
