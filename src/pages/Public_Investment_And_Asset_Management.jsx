@@ -15,7 +15,7 @@ export default function Public_Investment_And_Asset_Management() {
       image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
       title: (
         <p>
-          <strong>Well Spent</strong>
+          <strong>Well Spent</strong> <br />International Monetary Fund
         </p>
       ),
       buttonText: "Guidance",
@@ -44,7 +44,7 @@ export default function Public_Investment_And_Asset_Management() {
       image: "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
       title: (
         <p>
-          <strong>IMF PIMA</strong>
+          <strong>Public Investment Management Assessment​</strong> <br />International Monetary Fund
         </p>
       ),
       buttonText: "Guidance",
@@ -67,7 +67,7 @@ export default function Public_Investment_And_Asset_Management() {
       title: (
         <p>
           <strong>
-            OECD Implementation Handbook for Quality Infrastructure Investment
+            Implementation Handbook for Quality Infrastructure Investment
           </strong>{" "}
           <br />
           Organisation for Economic Co-operation and Development
@@ -120,7 +120,7 @@ export default function Public_Investment_And_Asset_Management() {
         "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
       title: (
         <p>
-          <strong>OECD Getting Infrastructure Right</strong> <br />
+          <strong>Getting Infrastructure Right</strong> <br />
           Organisation for Economic Co-operation and Development
         </p>
       ),
@@ -151,7 +151,7 @@ export default function Public_Investment_And_Asset_Management() {
       image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
       title: (
         <p>
-          <strong>Well Spent</strong>
+          <strong>Well Spent</strong> <br />International Monetary Fund 
         </p>
       ),
       buttonText: "Guidance",
@@ -215,7 +215,7 @@ export default function Public_Investment_And_Asset_Management() {
             <p className="light-font">
               Public Investment Management (PIM) refers to the systems and
               processes governments use to plan, select, and oversee public
-              infrastructure projects. Public asset management (PAM) refers to
+              infrastructure projects. Public Asset Management​ (PAM) refers to
               the strategic and systematic process by which governments oversee,
               maintain, and optimize the use of public assets. Strengthening PIM
               and PAM leads to greater efficiency in resource allocation, asset

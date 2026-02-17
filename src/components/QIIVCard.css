@@ -1,0 +1,272 @@
+.QIIVCard {
+  background-color: #fff;
+  box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 25px;
+  margin: 0 auto 1.8rem;
+  max-width: 380px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.QIIVCardImg {
+  border-radius: 20px;
+  height: 13rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.QIIvCardBody {
+  padding: 1rem;
+  height: 16rem
+}
+
+.QIIv-title {
+  margin-bottom: 0.85rem;
+  font-size: 1rem;
+}
+
+.QIIv-title strong {
+  margin-bottom: 0.85rem;
+  font-size: 1.2rem;
+}
+
+/* .VCard-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0 2rem 1.8rem;
+  text-align: left;
+} */
+
+.QIIVCard-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  gap: 1rem;
+  padding: 0 6rem 2rem 2rem;
+  text-align: center;
+}
+
+.QIIVCard-footer strong {
+  text-align: left;
+}
+
+.QIIVCard-btn {
+  width: 8rem;
+  height: 2rem;
+  background-color: var(--color-primary);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.QIIVCard-btn:hover {
+  background-color: #fff;
+  color: var(--color-primary);
+}
+
+/* .QIIVCard-btn a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+} */
+
+.QIIv-btn-cnt {
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  /* max-width: 140px; */
+  text-align: left;
+  width: 100%;
+  font-weight: 800;
+}
+
+.QIIv-btn-cnt p {
+  max-width: 60%;
+}
+
+.QIIVCard-btn.disabled {
+  pointer-events: none;
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.QII-video-gif-badge {
+  position: absolute;
+  bottom: 19%;
+  left: 20%;
+  background: #e5f5fb;
+  color: #000000;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 2;
+}
+
+@media (min-width: 600px) {
+  .QIIv-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .QIIv-title strong {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  /* .v-btn-cnt {
+    max-width: 170px; 
+  } */
+}
+
+@media (max-width: 767px) {
+  .QIIVCard-footer {
+    padding: 0 10px 1.2rem 1rem;
+  }
+  .QIIVCard-cnt {
+    margin: 1.5rem auto 1.25rem auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .QIIVCard-cnt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    justify-content: start;
+    max-width: 1270px;
+    margin: 3rem auto 1.25rem auto;
+  }
+
+  .col-2 .QIIVCard {
+    max-width: 90%;
+  }
+
+  /* .col-2 .VCard:nth-child(odd) {
+    margin-left: 25%;
+  }
+
+  .col-2 .VCard:nth-child(even) {
+    margin-right: 25%;
+  } */
+
+  .QIIVCard {
+    max-width: 450px;
+    margin: 0 auto 0;
+    padding-bottom: 60px;
+    position: relative;
+  }
+
+  .QIIvCardBody {
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
+    height: 16rem
+  }
+
+  .QIIVCard-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .QIIv-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .QIIv-title strong {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .QIIVCard {
+    max-width: 590px;
+  }
+
+  .col-2 .QIIVCard {
+    max-width: 85%;
+  }
+
+  .col-2 .QIIVCard:nth-child(odd) {
+    margin-left: 15%;
+  }
+
+  .col-2 .QIIVCard:nth-child(even) {
+    margin-right: 15%;
+  }
+
+  .QIIvCardBody {
+    padding: 1.8rem;
+    height: 16rem
+  }
+
+  .QIIVCard-footer {
+    font-size: 1.2rem;
+    padding: 0 1rem 1rem 2rem;
+  }
+
+  .QIIVCard-btn {
+    width: 8rem;
+    height: 2rem;
+  }
+
+  .QIIVCard-cnt.col3 {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .QIIVCard-footer strong {
+    font-size: 1.375rem;
+  }
+
+  /* .v-btn-cnt {
+    max-width: 230px;
+  } */
+
+  .QIIVCard-btn {
+    width: 8rem;
+    height: 2rem;
+  }
+
+  .QIIv-title {
+    font-size: 1.1rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .QIIv-title strong {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .QIIvCardBody {
+    padding: 2rem;
+    height: 16rem
+  }
+}
+
+@media (min-width: 1600px) {
+  .QIIVCard-footer strong {
+    font-size: 1.6rem;
+  }
+
+  .QIIVCardImg,
+  .QIIVCard {
+    border-radius: 25px;
+  }
+}

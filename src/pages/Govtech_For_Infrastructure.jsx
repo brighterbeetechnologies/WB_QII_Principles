@@ -15,16 +15,16 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
       title: (
-        <p>
+        <p>Multi-country <br />
           <strong>
-            Public Transport Demand Forecasting Regional Platform: New
-            Technology for Better Investment Decision-making
-          </strong>
+            Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era
+          </strong> <br />World Bank
         </p>
       ),
       buttonText: "Case Study",
       link: "",
-      content: <p>TBD</p>,
+      // highlight: 2,
+      content: <p>With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. </p>,
     },
     {
       image:
@@ -72,8 +72,8 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       title: (
-        <p>Japan <br />
-          <strong>Association-for-Smart-Cities-in ASEAN (EN/JP)</strong>
+        <p>
+          <strong>Japan Association for Smart Cities in ASEAN</strong>
         </p>
       ),
       buttonText: "Guidance",
@@ -115,27 +115,26 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/Govtech_For_Infrastructure/QIIGrantSupportingSustainable.png",
       title: (
-        <p>
+        <p>Albania <br />
           <strong>
-            QII Grant: Supporting Sustainable Digital Infrastructure through
-            Innovation in Kosovo
-          </strong>
+            ​Innovations to Accelerate Inclusive and High Impact Public Services
+          </strong> <br /> World Bank
         </p>
       ),
       buttonText: "Case Study",
-      link: "https://kryeministri.rks-gov.net/en/news/launch-of-the-digital-governance-strengthening-project-for-service-delivery/",
-      content: <p>TBD</p>,
+      link: "pdf/Albania Innovations_Results Story_March 2024.pdf",
+      content: <p>With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.​</p>,
     },
     {
       image: "images/qii6/Govtech_For_Infrastructure/Albania.png",
       title: (
-        <p>Albania <br />
-          <strong>GovTech Program (Phases 1 and 2)</strong>
+        <p>Kosovo<br />
+          <strong>Supporting Sustainable Digital Infrastructure through Innovation</strong>
         </p>
       ),
       buttonText: "Case Study",
-      link: "",
-      content: <p>TBD <span style={{opacity: 0}}>Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.</span></p>,
+      link: "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
+      content: <p>This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​</p>,
     },
     {
       image:
@@ -143,7 +142,7 @@ export default function Govtech_For_Infrastructure() {
       title: (
         <p>
           <strong>
-            OECD: Digital Public Infrastructure for Digital Governments (2024)
+           Digital Public Infrastructure for Digital Governments​
           </strong> <br />
           Organisation for Economic Co-operation and Development 
         </p>

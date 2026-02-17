@@ -34,49 +34,52 @@ export default function QII2LandingPage() {
   const resourceArray = [
     {
       id: 0,
-      title: "Public Investment Management Assessment (PIMA)",
-      country: "Multi-country",
-      org: "IMF",
+      title:
+        "​Innovations to Accelerate Inclusive and High Impact Public Services",
+      country: "Albania",
+      org: "World Bank",
       description:
-        "This assessment framework offers a macro-fiscal lens for evaluating governance across the public investment cycle, with dedicated pillars for investment planning, multi-year budgeting, and fiscal/debt analysis.",
+        "​With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.",
       img_path: "images/qii6/QII6-Landing/PIMA.png",
-      path: "https://www.elibrary.imf.org/display/book/9781513571829/9781513571829.xml",
-      target: "_self",
+      path: "pdf/Albania Innovations_Results Story_March 2024.pdf",
+      pdf: true,
+      target: "_blank",
     },
     {
       id: 0,
-      title: "Getting Infrastructure Right : A Framework for Better Governance",
-      country: "Multi-country",
-      org: "OECD",
-      description:
-        "This document provides a comprehensive framework with ten key governance dimensions for prioritizing, planning, budgeting, delivering, regulating, and evaluating infrastructure investment across government levels.",
-      img_path:
-        "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
-      path: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
-      target: "_self",
-    },
-    {
-      id: 0,
-      title: "Infrastructure Governance Assessment Framework",
+      title:
+        "Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era",
       country: "Multi-country",
       org: "World Bank",
       description:
-        "This document offers a diagnostic framework to assess, benchmark, and improve infrastructure governance by addressing legal, financial, environmental, and institutional dimensions throughout the project lifecycle. ",
+        "With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​",
+      img_path:
+        "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
+      path: "",
+      target: "_blank",
+    },
+    {
+      id: 0,
+      title: "Supporting Sustainable Digital Infrastructure through Innovation",
+      country: "Kosovo",
+      org: "World Bank",
+      description:
+        "This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​",
       img_path:
         "images/qii6/QII6-Landing/Infrastructure-Governance-Assessment-Framework.png",
-      path: "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
-      target: "_self",
+      path: "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
+      target: "_blank",
     },
     {
       id: 0,
       title: "Well Spent",
       country: "Multi-country",
-      org: false,
+      org: "International Monetary Fund",
       description:
         "This publication provides evidence, analysis, and policy recommendations on how strong infrastructure governance can reduce inefficiency and waste in public investment for sustainable development and fiscal performance. ",
       img_path: "images/qii6/QII6-Landing/WellSpent.png",
       path: "https://www.imf.org/en/Publications/Books/Issues/2020/09/03/Well-Spent-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment-48603",
-      target: "_self",
+      target: "_blank",
     },
   ];
   const textCrData = [
@@ -93,8 +96,8 @@ export default function QII2LandingPage() {
 `,
       text: (
         <>
-          <strong>Reprioritize existing public spending , </strong>so that investment targets the
-          highest-priority projects
+          <strong>Reprioritize existing public spending , </strong>so that
+          investment targets the highest-priority projects
         </>
       ),
     },
@@ -302,9 +305,7 @@ export default function QII2LandingPage() {
       </section>
       <Qii6ImagewithStatement
         backgroundImage={"images/qii6/QII6-Landing/Ajay-Banga.png"}
-        text={
-          `"Private investment flows only where the right conditions exist and where there’s a clear probability of return. And for that, two things are essential: a strong infrastructure foundation and a predictable regulatory environment. Without these, private capital stays on the sidelines."`
-        }
+        text={`"Private investment flows only where the right conditions exist and where there’s a clear probability of return. And for that, two things are essential: a strong infrastructure foundation and a predictable regulatory environment. Without these, private capital stays on the sidelines."`}
         subtext={"Ajay Banga"}
         subtext2={"April 2025"}
       />
@@ -530,8 +531,50 @@ export default function QII2LandingPage() {
                             Read More...
                           </div>
                         </Popover> */}
-                        <div className="page-resource-btn-cnt">
+                        {/* <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : p.pdf? (
+                            
+                            <a 
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : (
+                            
+                            <Link 
+                              className="page-resource-arrow"
+                              to={p.path}
+                              target={p.target}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </Link>
+                          )}
+                        </div> */}
+                        <div className="page-resource-btn-cnt">
+                          {!p.path ? (
+                            <span className="page-resource-arrow disable-link">
+                              <span className="icon-arrow">&#xe900;</span>
+                            </span>
+                          ) : p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                              rel="noopener noreferrer"
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : p.pdf ? (
                             <a
                               className="page-resource-arrow"
                               href={p.path}

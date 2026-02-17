@@ -16,7 +16,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png",
       title: (
         <p>
-          <strong>InfraGov Assessment Framework</strong> <br />Organisation for Economic Co-operation and Development 
+          <strong>Infrastructure Governance​</strong> <br />Infrastructure Governance Facility​
         </p>
       ),
       buttonText: "Guidance",
@@ -43,7 +43,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
       title: (
         <p>
-          <strong>OECD Recommendation on Public Investment</strong> <br />Organisation for Economic Co-operation and Development 
+          <strong>Effective Multi-Level Public Investment​</strong> <br />Organisation for Economic Co-operation and Development 
         </p>
       ),
       buttonText: "Guidance",
@@ -76,7 +76,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/CoST-Infrastructure-Transparency-Initiative.png",
       title: (
         <p>
-          <strong>Cost Infrastructure Transparency Initiative</strong>
+          <strong>Infrastructure Transparency Initiative (Cost)</strong>
         </p>
       ),
       buttonText: "Guidance",
@@ -93,7 +93,7 @@ export default function Infrastructure_Institutions() {
       image: "images/qii6/Infrastructure-Institutions/WellSpent.png",
       title: (
         <p>
-          <strong>Well Spent</strong>
+          <strong>Well Spent</strong> <br />International Monetary Fund
         </p>
       ),
       buttonText: "Guidance",
@@ -124,7 +124,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
       title: (
         <p>
-          <strong>UNEP Integrated Approaches in Action</strong>
+          <strong>Integrated Approaches in Action</strong> <br /> United Nations Environment Programme
         </p>
       ),
       buttonText: "Case Study",
@@ -151,7 +151,7 @@ export default function Infrastructure_Institutions() {
         "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
       title: (
         <p>
-          <strong>OECD/IMF Reference Note</strong> <br />Organisation for Economic Co-operation and Development 
+          <strong>Governance of Quality Infrastructure Investment​</strong> <br />Organisation for Economic Co-operation and Development and International Monetary Fund 
         </p>
       ),
       buttonText: "Guidance",
@@ -214,14 +214,14 @@ export default function Infrastructure_Institutions() {
           </div>
         </Header3>
         <div className="container internal-pages-container">
-          <p className="link-text">
+          {/* <p className="link-text">
             Building effective governance requires targeted changes in
             institutional infrastructure practices.
           </p>
           <h1 className="link-text ">
             The Foundations for Excellence in Governance
           </h1>
-          <div className="border-dash border-dash-no-top "></div>
+          <div className="border-dash border-dash-no-top "></div> */}
           <NumSteps num="1">
             <strong>Legal and Regulatory Frameworks for Infrastructure </strong>
             <br />

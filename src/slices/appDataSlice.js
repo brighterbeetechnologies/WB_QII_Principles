@@ -206,8 +206,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html",
         type: "Case Study",
-        title:
-          "Hungary DuboCalc and CO₂ Performance Ladder ",
+        title: "Hungary DuboCalc and CO₂ Performance Ladder ",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -821,8 +820,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf",
         type: "Guidance",
-        title:
-          "Investment in Infrastructure GFDRR",
+        title: "Investment in Infrastructure GFDRR",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -1311,8 +1309,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.worldbank.org/en/publication/country-climate-development-reports#:~:text=The%20World%20Bank%20Group's%20Country,contributions%20and%20long%2Dterm%20strategies.",
         type: "Guidance",
-        title:
-          "Climate Change and Development Reports World Bank",
+        title: "Climate Change and Development Reports World Bank",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1326,11 +1323,9 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths:
-          "https://www.iea.org/reports/net-zero-by-2050#overview",
+        paths: "https://www.iea.org/reports/net-zero-by-2050#overview",
         type: "Guidance",
-        title:
-          "Net Zero by 2050 International Energy Agency (IEA)",
+        title: "Net Zero by 2050 International Energy Agency (IEA)",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1344,11 +1339,9 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths:
-          "https://infrastructure-transition.gihub.org/data/",
+        paths: "https://infrastructure-transition.gihub.org/data/",
         type: "Data",
-        title:
-          "Infrastructure Transition Pathways Global Infrastructure Hub",
+        title: "Infrastructure Transition Pathways Global Infrastructure Hub",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1365,8 +1358,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdf",
         type: "Case Study – Energy",
-        title:
-          "Rewa Ultra Mega Solar Project, India",
+        title: "Rewa Ultra Mega Solar Project, India",
         principles: 2,
         highlight: 2,
         target: "_blank",
@@ -1401,8 +1393,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099325009122236722",
         type: "Case Study – Transport",
-        title:
-          "Cairo Alexandria Trade Logistics Development Project, Egypt",
+        title: "Cairo Alexandria Trade Logistics Development Project, Egypt",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1419,8 +1410,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
         type: "Guidance – Project level",
-        title:
-          "Climate Toolkits for Infrastructure PPPs World Bank",
+        title: "Climate Toolkits for Infrastructure PPPs World Bank",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1437,8 +1427,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
         type: "Guidance – Energy",
-        title:
-          "Net Zero by 2050 International Energy Agency (IEA)",
+        title: "Net Zero by 2050 International Energy Agency (IEA)",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1488,11 +1477,9 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths:
-          "https://ghgprotocol.org/",
+        paths: "https://ghgprotocol.org/",
         type: "Reading",
-        title:
-          "Greenhouse Gas Protocol",
+        title: "Greenhouse Gas Protocol",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1509,8 +1496,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/whole-life-carbon-assessment/whole-life-carbon-assessment-implementation-guides-and-supporting-documents",
         type: "Reading",
-        title:
-          "RICS Whole Life Carbon Assessment Standard",
+        title: "RICS Whole Life Carbon Assessment Standard",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1524,8 +1510,7 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths:
-          "https://climateinstitute.edhec.edu/climatech-project",
+        paths: "https://climateinstitute.edhec.edu/climatech-project",
         type: "Reading",
         title:
           "Reducing Infrastructure Climate Risk Through Technology Measures EDHEC Climate Institute",
@@ -2569,7 +2554,8 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/12/digital-public-infrastructure-for-digital-governments_11fe17d9/ff525dc8-en.pdf",
         type: "Report",
-        title: "Digital Public Infrastructure for Digital Governments Organisation for Economic Co-operation and Development​",
+        title:
+          "Digital Public Infrastructure for Digital Governments Organisation for Economic Co-operation and Development​",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3197,10 +3183,10 @@ export const appDataSlice = createSlice({
       //principle 5 resources
       {
         id: 4,
-        paths:
-          "",
+        paths: "",
         type: "Case Study",
-        title: "Vietnam and Senegal Incorporating Universal Accessibility into Infrastructure Planning and Design World Bank",
+        title:
+          "Vietnam and Senegal Incorporating Universal Accessibility into Infrastructure Planning and Design World Bank",
         highlight: 2,
         target: "_blank",
         principles: 4,
@@ -3280,7 +3266,8 @@ export const appDataSlice = createSlice({
         paths:
           "https://projects.worldbank.org/en/projects-operations/project-detail/P160594",
         type: "Case Study ",
-        title: "Albania Gender Equality in Access to Economic Opportunities DPF World Bank",
+        title:
+          "Albania Gender Equality in Access to Economic Opportunities DPF World Bank",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3324,10 +3311,9 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_2346783481.jpg",
+        image: "images/qii5/shutterstock_2346783481.jpg",
       },
-      
+
       {
         id: 4,
         paths:
@@ -3342,8 +3328,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_623620481.jpg",
+        image: "images/qii5/shutterstock_623620481.jpg",
       },
       {
         id: 4,
@@ -3375,8 +3360,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_1725363121.jpg",
+        image: "images/qii5/shutterstock_1725363121.jpg",
       },
       {
         id: 4,
@@ -3392,8 +3376,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_2535975537.jpg",
+        image: "images/qii5/shutterstock_2535975537.jpg",
       },
       {
         id: 4,
@@ -3493,8 +3476,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_2528902161.jpg",
+        image: "images/qii5/shutterstock_2528902161.jpg",
       },
       {
         id: 4,
@@ -3664,8 +3646,7 @@ export const appDataSlice = createSlice({
       },
       {
         id: 4,
-        paths:
-          " https://www.worldbank.org/en/about/rated-criteria​",
+        paths: " https://www.worldbank.org/en/about/rated-criteria​",
         type: "Guidance",
         title: "Procurement Rated Criteria World Bank",
         highlight: 0,
@@ -3676,8 +3657,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_2698330999.jpg",
+        image: "images/qii5/shutterstock_2698330999.jpg",
       },
       {
         id: 4,
@@ -3727,8 +3707,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_2535975537.jpg",
+        image: "images/qii5/shutterstock_2535975537.jpg",
       },
       {
         id: 4,
@@ -3761,8 +3740,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_2476215753.jpg",
+        image: "images/qii5/shutterstock_2476215753.jpg",
       },
       {
         id: 4,
@@ -3827,16 +3805,14 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image:
-          "images/qii5/shutterstock_2528541047.jpg",
+        image: "images/qii5/shutterstock_2528541047.jpg",
       },
       {
         id: 4,
         paths:
           "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
         type: "Tool",
-        title:
-          "OECD Infrastructure Toolkit",
+        title: "OECD Infrastructure Toolkit",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3852,14 +3828,15 @@ export const appDataSlice = createSlice({
       //principle 6 resources
       {
         id: 5,
-        paths:
-          "https://www.elibrary.imf.org/display/book/9781513571829/9781513571829.xml",
+        paths: "pdf/Albania Innovations_Results Story_March 2024.pdf",
         type: "Case Study",
-        title: "Public Investment Management Assessment (PIMA) IMF",
-        highlight: 0,
+        title:
+          "Albania ​Innovations to Accelerate Inclusive and High Impact Public Services World Bank",
+        pdf: true,
+        highlight: 2,
         target: "_blank",
         principles: 5,
-        desc: "This assessment framework offers a macro-fiscal lens for evaluating governance across the public investment cycle, with dedicated pillars for investment planning, multi-year budgeting, and fiscal/debt analysis.",
+        desc: "​With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.",
         format: 1,
         stage: 4,
         region: 1,
@@ -3869,14 +3846,14 @@ export const appDataSlice = createSlice({
       {
         id: 5,
         paths:
-          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
+          "/not-given",
         type: "Case Study",
         title:
-          "Getting Infrastructure Right : A Framework for Better Governance OECD",
-        highlight: 0,
+          "Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era World Bank",
+        highlight: 2,
         target: "_blank",
         principles: 5,
-        desc: "This document provides a comprehensive framework with ten key governance dimensions for prioritizing, planning, budgeting, delivering, regulating, and evaluating infrastructure investment across government levels.",
+        desc: "With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​",
         format: 1,
         stage: 4,
         region: 1,
@@ -3887,13 +3864,13 @@ export const appDataSlice = createSlice({
       {
         id: 5,
         paths:
-          "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
+          "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
         type: "Case Study",
-        title: "Infrastructure Governance Assessment Framework World Bank",
+        title: "Kosovo Supporting Sustainable Digital Infrastructure through Innovation World Bank",
         highlight: 0,
         target: "_blank",
         principles: 5,
-        desc: "This document offers a diagnostic framework to assess, benchmark, and improve infrastructure governance by addressing legal, financial, environmental, and institutional dimensions throughout the project lifecycle.",
+        desc: "This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​",
         format: 1,
         stage: 4,
         region: 1,
@@ -3906,7 +3883,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.imf.org/en/Publications/Books/Issues/2020/09/03/Well-Spent-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment-48603",
         type: "Case Study",
-        title: "Well Spent",
+        title: "Well Spent International Monetary Fund",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -3922,7 +3899,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
         type: "Case Study",
-        title: "UNEP Integrated Approaches in Action",
+        title: "Integrated Approaches in Action United Nations Environment Programme",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4005,7 +3982,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths: "https://infrastructuregovern.imf.org/",
         type: "Guidance",
-        title: "InfraGov Assessment Framework",
+        title: "Infrastructure Governance​",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4022,7 +3999,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/08/effective-multi-level-public-investment_4bcedf6d/c3bc625b-en.pdf",
         type: "Guidance",
-        title: "OECD Recommendation on Public Investment",
+        title: "Effective Multi-Level Public Investment​",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4039,8 +4016,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
         type: "Guidance",
-        title:
-          "Cost Infrastructure Transparency Initiative",
+        title: "Cost Infrastructure Transparency Initiative",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4057,7 +4033,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.elibrary.imf.org/display/book/9781513511818/9781513511818.xml",
         type: "Guidance",
-        title: "Well Spent",
+        title: "Well Spent International Monetary Fund",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4074,7 +4050,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
         type: "Guidance",
-        title: "OECD/IMF Reference Note",
+        title: "Governance of Quality Infrastructure Investment​ Organisation for Economic Co-operation and Development and International Monetary Fund",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4106,7 +4082,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths: "https://www.jasca2021.jp/",
         type: "Guidance",
-        title: "Japan Association for Smart Cities in ASEAN (EN/JP)",
+        title: "Japan Association for Smart Cities in ASEAN",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4141,7 +4117,7 @@ export const appDataSlice = createSlice({
           "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
         type: "Guidance",
         title:
-          "OECD: Digital Public Infrastructure for Digital Governments (2024)",
+          "Digital Public Infrastructure for Digital Governments Organisation for Economic Co-operation and Development",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4155,9 +4131,10 @@ export const appDataSlice = createSlice({
       },
       {
         id: 5,
-        paths: "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
+        paths:
+          "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
         type: "Guidance",
-        title: "Well Spent",
+        title: "Well Spent International Monetary Fund",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4166,13 +4143,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+        image:
+          "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
       },
       {
         id: 5,
-        paths: "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
+        paths:
+          "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
         type: "Guidance",
-        title: "IMF PIMA",
+        title: "Public Investment Management Assessment​ International Monetary Fund",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4181,13 +4160,16 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
+        image:
+          "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
       },
       {
         id: 5,
-        paths: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/07/oecd-implementation-handbook-for-quality-infrastructure-investment_b9131199/479131b2-en.pdf",
+        paths:
+          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/07/oecd-implementation-handbook-for-quality-infrastructure-investment_b9131199/479131b2-en.pdf",
         type: "Guidance",
-        title: "OECD Implementation Handbook for Quality Infrastructure Investment",
+        title:
+          "Implementation Handbook for Quality Infrastructure Investment Organisation for Economic Co-operation and Development",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4196,11 +4178,13 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png",
+        image:
+          "images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png",
       },
       {
         id: 5,
-        paths: "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
+        paths:
+          "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
         type: "Guidance",
         title: "InfraGov Assessment Framework",
         highlight: 0,
@@ -4211,13 +4195,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/Public_Investment_And_Asset_Management/InfraGov-Assessment-Framework.png",
+        image:
+          "images/qii6/Public_Investment_And_Asset_Management/InfraGov-Assessment-Framework.png",
       },
       {
         id: 5,
-        paths: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
+        paths:
+          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
         type: "Guidance",
-        title: "OECD Getting Infrastructure Right",
+        title: "Getting Infrastructure Right Organisation for Economic Co-operation and Development",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4226,13 +4212,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
+        image:
+          "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
       },
       {
         id: 5,
-        paths: "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
+        paths:
+          "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
         type: "Guidance",
-        title: "Well Spent",
+        title: "Well Spent International Monetary Fund ",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4241,7 +4229,8 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+        image:
+          "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
       },
       // {
       //   id: 5,
