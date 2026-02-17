@@ -10,7 +10,7 @@ import {
   setVideoData,
 } from "../../slices/appDataSlice";
 
-export default function QII6CaseStudy1() {
+export default function QII1CaseStudy1() {
   const dispatch = useDispatch();
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
@@ -21,8 +21,8 @@ export default function QII6CaseStudy1() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/qii6", title: "QII.5 Governance" },
-          { path: "/qii6", title: "Case Study" },
+          { path: "/qii1", title: "QII.1 Sustainable Growth" },
+          { path: "/qii1", title: "Case Study" },
         ],
       }),
     );
@@ -34,7 +34,7 @@ export default function QII6CaseStudy1() {
           <div
             className="single-case-study-wrapper"
             style={{
-              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii6/QII6-Landing/shutterstock_2293340555.jpg")`,
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii2/Fukuoka_Case_study.png")`,
               margin: "1rem 0 0 0",
             }}
           >
@@ -42,13 +42,12 @@ export default function QII6CaseStudy1() {
               <span className="video-tag">VIDEO</span>
               <br />
               <br />
-              <span>QII.6 in Action</span>
+              <span>QII.1 in Action</span>
               <br />
               <br />
               <p>
-                InfraGov assessments under the QII Partnership in Kyrgyz
-                Republic, Tajikistan, and Uzbekistan provide practical roadmaps
-                for strengthening infrastructure governance systems.
+                Four projects, four regions, one approach: infrastructure that
+                creates jobs, builds resilience, and protects the environment.
               </p>
               <br />
               <br />
@@ -66,9 +65,9 @@ export default function QII6CaseStudy1() {
             <div className="qii-video-cnt">
               <div className="case-study-play-btn">
                 <button
-                  className="video-play-btn icon-play"
+                  className="video-play-btn icon-play disable-link"
                   onClick={() => {
-                    openVideo("", "Lessons from Success Stories", 1920, 1080);
+                    openVideo("", "", 1920, 1080);
                   }}
                 >
                   &#xe91e;
@@ -83,7 +82,7 @@ export default function QII6CaseStudy1() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/sector_icon.svg" alt="" />
                   <h3>SECTOR</h3>
-                  <p>All Infrastructure​</p>
+                  <p>lorem​</p>
                 </div>
               </div>
               <div className="case-study-details-card">
@@ -91,8 +90,7 @@ export default function QII6CaseStudy1() {
                   <img src="images/qii2/case-study/country_icon.svg" alt="" />
                   <h3>COUNTRY</h3>
                   <p>
-                    Uzbekistan <br />Tajikistan <br /> Kyrgyz Republic​
-                  
+                   Lorem ipsum dolor sit.
                   </p>
                 </div>
               </div>
@@ -101,10 +99,9 @@ export default function QII6CaseStudy1() {
                   <img src="images/qii2/case-study/timeline.svg" alt="" />
                   <h3>TIMELINE</h3>
                   <p>
-                    2012-Present​
+                    Lorem, ipsum.
                     <br />
-                    <br />
-                    <br />
+                    
                   </p>
                 </div>
               </div>
@@ -116,7 +113,7 @@ export default function QII6CaseStudy1() {
                     lorem
                     <br />
                     <br />
-                    <br />
+                    
                   </p>
                 </div>
               </div>

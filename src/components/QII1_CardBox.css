@@ -1,0 +1,231 @@
+.qii1-box-card {
+  position: relative;
+  border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+  max-height: 250px;
+  max-width: 603px;
+  box-shadow: 0 6px 20px rgba(8, 30, 45, 0.08);
+  transition:
+    transform 0.28s ease,
+    box-shadow 0.28s ease;
+}
+
+.resource_page .qii1-box-card {
+  width: 100%;
+  max-width: 420px;      
+  height: 280px;        
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.qii1-box-card.highlighted {
+  border: 6px solid #fdb714;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.qii1-box-card .qii1-card-data {
+  position: absolute;
+  z-index: 8;
+  inset: 0;
+  padding: 1.8rem;
+}
+
+.qii1-card-link {
+  height: 100%;
+}
+
+.qii1-box-card .qii1-card-body img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.qii1-box-card .qii1-card-type {
+  font-size: 0.7rem;
+  margin-bottom: 8px;
+  background: #cde6ff;
+  display: inline-block;
+  border-radius: 10rem;
+  padding: 0.1rem 0.6rem;
+  color: #000;
+}
+
+.qii1-box-card .qii1-card-title {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.resource_page .qii1-box-card .qii1-card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  width: 70%;
+}
+
+.qii1-card-subtext {
+  color: #fff;
+  font-size: 0.9rem;
+  opacity: 1;
+  margin-top: 6px;
+}
+
+.qii1-box-card .qii1-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: background 0.3s;
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.qii1-box-card .qii1-card-body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.qii1-box-card .btn {
+  position: absolute;
+  left: 1.8rem;
+  bottom: 12px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  transition:
+    transform 0.18s,
+    background 0.18s;
+  min-height: 34px;
+  font-size: 0.9rem;
+}
+
+.qii1-box-card .btn.video_btn {
+  left: auto;
+  right: 1.8rem;
+}
+
+.qii1-box-card:hover,
+.qii1-box-card:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 36px rgba(8, 30, 45, 0.16);
+}
+
+.qii1-card-btn-cnt.twoBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qii1-box-card .icon-video {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  padding: 0.7rem;
+}
+
+.video_btn:hover .icon-video {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (min-width: 600px) {
+  .qii1-box-card .qii1-card-type {
+    font-size: 0.9rem;
+  }
+
+  .qii1-box-card .qii1-card-title {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .qii1-box-card .qii1-card-title {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .qii1-box-card .qii1-card-title {
+    font-size: 1.1rem;
+  }
+
+  .resource_page .qii1-box-card {
+  width: 100%;
+  max-width: 420px;      
+  height: 200px;        
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+}
+}
+
+@media (min-width: 1200px) {
+  .qii1-box-card {
+    border-radius: 35px;
+  }
+
+  .qii1-box-card .qii1-card-body img {
+    border-radius: 30px;
+  }
+
+  .qii1-box-card .qii1-card-overlay {
+    border-radius: 30px;
+  }
+
+  .qii1-box-card .qii1-card-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .qii1-box-card .qii1-card-title {
+    font-size: 1.3rem;
+  }
+
+  .qii1-box-card .qii1-card-data {
+    padding: 2.3rem;
+  }
+
+  .qii1-box-card .qii1-card-type {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .qii1-box-card .btn {
+    left: 38px;
+    bottom: 38px;
+    border-radius: 34px;
+  }
+
+  .qii1-box-card .btn.video_btn {
+    right: 38px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .resource_page .qii1-box-card {
+    height: 300px;
+  }
+}
