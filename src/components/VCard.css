@@ -240,7 +240,10 @@
     font-size: 1.6rem;
   }
 
-  .VCardImg,
+  .VCardImg {
+    border-radius: 20px;
+  }
+
   .VCard {
     border-radius: 25px;
   }
