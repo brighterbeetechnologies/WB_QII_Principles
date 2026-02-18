@@ -87,7 +87,7 @@ export default function Public_Investment_And_Asset_Management() {
     },
     {
       image:
-        "images/qii6/Public_Investment_And_Asset_Management/InfraGov-Assessment-Framework.png",
+        "images/qii6/shutterstock_2653389623.jpg",
       title: (
         <p>
           <strong>InfraGov Assessment Framework</strong> <br />

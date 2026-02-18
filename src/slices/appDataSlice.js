@@ -3841,7 +3841,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/QII6-Landing/PIMA.png",
+        image: "images/qii6/shutterstock_2668786185.jpg",
       },
       {
         id: 5,
@@ -3859,7 +3859,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
+          "images/qii6/shutterstock_2660000293.jpg",
       },
       {
         id: 5,
@@ -3876,24 +3876,24 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/QII6-Landing/Infrastructure-Governance-Assessment-Framework.png",
+          "images/qii6/shutterstock_2653389623.jpg",
       },
-      {
-        id: 5,
-        paths:
-          "https://www.imf.org/en/Publications/Books/Issues/2020/09/03/Well-Spent-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment-48603",
-        type: "Case Study",
-        title: "Well Spent International Monetary Fund",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "This publication provides evidence, analysis, and policy recommendations on how strong infrastructure governance can reduce inefficiency and waste in public investment for sustainable development and fiscal performance.",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image: "images/qii6/QII6-Landing/WellSpent.png",
-      },
+      // {
+      //   id: 5,
+      //   paths:
+      //     "https://www.imf.org/en/Publications/Books/Issues/2020/09/03/Well-Spent-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment-48603",
+      //   type: "Case Study",
+      //   title: "Well Spent International Monetary Fund",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 5,
+      //   desc: "This publication provides evidence, analysis, and policy recommendations on how strong infrastructure governance can reduce inefficiency and waste in public investment for sustainable development and fiscal performance.",
+      //   format: 1,
+      //   stage: 4,
+      //   region: 1,
+      //   industry: 1,
+      //   image: "images/qii6/QII6-Landing/WellSpent.png",
+      // },
       {
         id: 5,
         paths:
@@ -3926,7 +3926,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
+          "images/qii6/shutterstock_2660000293.jpg",
       },
       {
         id: 5,
@@ -3945,24 +3945,24 @@ export const appDataSlice = createSlice({
         image:
           "images/qii6/shutterstock_1268023399.jpg",
       },
-      {
-        id: 5,
-        paths:
-          "https://kryeministri.rks-gov.net/en/news/launch-of-the-digital-governance-strengthening-project-for-service-delivery/",
-        type: "Case Study",
-        title:
-          "QII Grant: Supporting Sustainable Digital Infrastructure through Innovation in Kosovo",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "TBD",
-        format: 1,
-        stage: 4,
-        region: 1,
-        industry: 1,
-        image:
-          "images/qii6/Govtech_For_Infrastructure/QIIGrantSupportingSustainable.png",
-      },
+      // {
+      //   id: 5,
+      //   paths:
+      //     "https://kryeministri.rks-gov.net/en/news/launch-of-the-digital-governance-strengthening-project-for-service-delivery/",
+      //   type: "Case Study",
+      //   title:
+      //     "QII Grant: Supporting Sustainable Digital Infrastructure through Innovation in Kosovo",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 5,
+      //   desc: "TBD",
+      //   format: 1,
+      //   stage: 4,
+      //   region: 1,
+      //   industry: 1,
+      //   image:
+      //     "images/qii6/shutterstock_2653389623.jpg",
+      // },
       {
         id: 5,
         paths: "/not-given",
@@ -4196,7 +4196,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Public_Investment_And_Asset_Management/InfraGov-Assessment-Framework.png",
+          "images/qii6/shutterstock_2653389623.jpg",
       },
       {
         id: 5,

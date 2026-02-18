@@ -13,7 +13,7 @@ export default function Govtech_For_Infrastructure() {
   const step1Cards = [
     {
       image:
-        "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
+        "images/qii6/shutterstock_2660000293.jpg",
       title: (
         <p>Multi-country <br />
           <strong>
@@ -113,7 +113,7 @@ export default function Govtech_For_Infrastructure() {
   const step3Cards = [
     {
       image:
-        "images/qii6/Govtech_For_Infrastructure/QIIGrantSupportingSustainable.png",
+        "images/qii6/shutterstock_2668786185.jpg",
       title: (
         <p>Albania <br />
           <strong>
@@ -127,7 +127,7 @@ export default function Govtech_For_Infrastructure() {
       content: <p>With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.​</p>,
     },
     {
-      image: "images/qii6/Govtech_For_Infrastructure/Albania.png",
+      image: "images/qii6/shutterstock_2653389623.jpg",
       title: (
         <p>Kosovo<br />
           <strong>Supporting Sustainable Digital Infrastructure through Innovation</strong>
