@@ -22,17 +22,22 @@ export default function QIIVCard({
       </div>
       <div className="QIIVCard-footer">
         {link && (
-        <div className="QIIv-btn-cnt">
-          <a
-            href={link || undefined}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`QIIVCard-btn ${!link ? "disabled" : ""}`}
-          >
-            Learn More
-            <span className="icon-arrow">&#xe900;</span>
-          </a>
-        </div> 
+          <div className="QIIv-btn-cnt">
+            <a
+              href={link || undefined}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`QIIVCard-btn ${!link ? "disabled" : ""}`}
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "0.2rem",
+              }}
+            >
+              Learn More
+              <span className="icon-arrow">&#xe900;</span>
+            </a>
+          </div>
         )}
         {/* {buttonText2 && (
           <div className="QIIv-btn-cnt">
@@ -48,7 +53,7 @@ export default function QIIVCard({
           </div>
         )} */}
       </div>
-      {highlight && ( 
+      {highlight && (
         <div
           className="highlighted-badge"
           style={{

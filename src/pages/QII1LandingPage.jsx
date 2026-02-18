@@ -507,23 +507,7 @@ export default function QII1LandingPage() {
             </p>
           </QIIVCard>
           <QIIVCard
-            image="images/qii1/Eurasia_Tunnel.png"
-            title={
-              <p>
-                Türkiye <br />
-                <strong>Eurasia Tunnel</strong>
-              </p>
-            }
-            principles="QII.2 | QII.3 | QII.4 | QII.5 | QII.6"
-            link=""
-          >
-            <p>
-              $2 billion in economic benefits over 8 years, with 53,000+ jobs
-              expected by 2042, by connecting two continents in 5 minutes.
-            </p>
-          </QIIVCard>
-          <QIIVCard
-            image="images/qii1/Eurasia_Tunnel.png"
+            image="images/qii1/Delhi-Mass-Rapid-Transport-System-Phase-2.png"
             title={
               <p>
                 India <br />
@@ -531,13 +515,71 @@ export default function QII1LandingPage() {
               </p>
             }
             principles="QII.2 | QII.3 | QII.5 "
-            link=""
+            link="/not-given"
           >
             <p>
               83 km of new metro serving 17 million residents, designed for
               accessibility, safety, and cleaner air.
             </p>
           </QIIVCard>
+          <QIIVCard
+            image="images/qii1/Port-Moresby-Sewerage-System-Upgrading-Project.png"
+            title={
+              <p>
+                Papua New Guinea <br />
+                <strong>Port Moresby Sewerage System Upgrading Project</strong>
+              </p>
+            }
+            principles="QII.1 | QII.2 | QII.3 | QII.5 | QII.6"
+            link="/not-given"
+          >
+            <p>
+              Protecting coastal livelihoods and marine ecosystems while
+              building local technical capacity through Japanese partnership
+            </p>
+          </QIIVCard>
+        </div>
+        <div className="card-5">
+          <div className="card-5-btn-container">
+            <button className="card-5-btn">
+              Sustainable Development Objectives
+            </button>
+            <button className="card-5-btn">Jobs and Growth</button>
+            <button className="card-5-btn">
+              Co-Benefits of Multiple QII Principles
+            </button>
+            <button className="card-5-btn">
+              Partnering With the Private Sector
+            </button>
+            <button className="card-5-btn">
+              Digitalization and Technology
+            </button>
+            <button className="card-5-btn">
+              Partnering With the Private Sector
+            </button>
+            <button className="card-5-btn">References</button>
+          </div>
+          <div className="card-5-content">
+            <div className="card-5-content-circle">
+              <p><strong>210M</strong></p>
+              <p>Hours of travel time saved</p>
+            </div>
+            <div className="card-5-content-desc">
+              <p className="card-5-content-country">Eurasia Tunnel, Türkiye</p>
+              <p className="card-5-content-title">
+                Sustainable Development Objectives
+              </p>
+              <p className="card-5-content-description">
+                The Eurasia Tunnel, one of the first projects globally to
+                achieve Blue Dot Network certification, is an engineering
+                landmark that connects two continents in just 5 minutes. Over
+                its first 8 years of operation (2016-2024), the tunnel has saved
+                commuters 210 million hours of travel time while improving road
+                safety. The project aims to cut fuel consumption by 129,000 tons
+                and CO2 emissions by 50,000 tons over its operational lifetime.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section className="container internal-pages-container color-dark">
