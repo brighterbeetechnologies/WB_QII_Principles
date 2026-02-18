@@ -25,6 +25,7 @@ export default function QII1LandingPage() {
 
   const PAGE_SIZE = 1;
   const [page, setPage] = useState(1);
+  const [currentCard, setCurrentCard] = useState(0);
 
   const start = (page - 1) * PAGE_SIZE;
   const end = start + PAGE_SIZE;
@@ -164,7 +165,311 @@ export default function QII1LandingPage() {
     </div>,
   ];
 
-  const tabData = {
+  const tabs = [
+    "Sustainable Development Objectives",
+    "Jobs and Growth",
+    "Co-Benefits of Multiple QII Principles",
+    "Digitalization and Technology",
+    "Partnering With the Private Sector",
+    "References",
+  ];
+
+  const cardsTabsData = {
+    0: [
+      {
+        value: "210M",
+        desc: "Hours of travel time saved",
+        country: "Eurasia Tunnel, Türkiye",
+        title: "Sustainable Development Objectives",
+        description:
+          "The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Jobs and Growth",
+        description: (
+          <>
+            The tunnel has had a major positive impact on jobs and economic
+            growth in Türkiye, creating thousands of jobs during construction
+            and operations while generating significant annual savings in time,
+            fuel, and accident costs. By drastically reducing travel times
+            across Istanbul, the tunnel has improved urban mobility, supported
+            productivity, and contributed hundreds of millions of dollars in
+            economic benefits each year.
+            <br /> <br />
+            Construction was completed in 14 million man-hours, employing over
+            12,000 workers, of whom 84% were hired locally. Over the first 8
+            years of operation, the project has delivered $2 billion in economic
+            benefits. It is expected to contribute $1.7 billion to Gross Value
+            Added, generate $364 million in additional tax revenues, and create
+            53,734 jobs between 2013 and 2042. Of the total economic impact,
+            $4.1 billion comes from productivity savings and $1.6 billion from
+            externalities.
+          </>
+        ),
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Co-Benefits of Multiple QII Principles",
+        description: (
+          <>
+            <strong>QII.2 Economic Efficiency</strong>
+            <br />
+            Life Cycle Cost estimates were developed at the preparation stage
+            and incorporated into the financial model to enhance long-term
+            economic efficiency. Predictive maintenance is applied using
+            mathematical modelling to detect and diagnose faults in electric
+            motors for ventilation and connected equipment, improving control
+            over equipment performance and reducing breakdowns.
+            <br />
+            <br />
+            <strong>QII.3 Environment</strong>
+            <br />
+            By reducing travel times, the project reduces fuel consumption by
+            30,000 tons and emissions by 13,000 tons. An Environmental and
+            Social Management Plan, prepared in November 2012, describes
+            mitigation measures to minimize possible negative impacts on the
+            climate and surrounding environment. For example, a detailed tree
+            survey documented the species, age, height, and condition of all
+            trees, with at least one-to-one replacement where felling was
+            required.
+            <br />
+            <br />
+            <strong>QII.4 Resilience</strong>
+            <br />
+            The tunnel features seismic-resistant engineering suited to
+            Istanbul's earthquake risk. Two seismic joints provide 3-dimensional
+            flexibility in case of an earthquake. The tunnel entrance was
+            elevated to E.L.+ 6m, and discharge pumps were installed at the
+            entrance and exit with total capacity sized for tsunami risk.
+          </>
+        ),
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Digitalization and Technology",
+        description: (
+          <>
+            The tunnel features advanced engineering technologies.
+            Seismic-resistant design incorporates two seismic rings into the
+            tunnel structure, ensuring durability and safety in high-seismic
+            activity zones and establishing a global benchmark for deep-sea
+            tunnel engineering.
+            <br />
+            <br />
+            Smart ventilation fans adjust based on real-time air quality sensor
+            data, achieving up to 80% daily energy savings while maintaining
+            optimal air conditions. This innovation was recognized with the
+            "Maintenance and Renewal Method" award by New Civil Engineers in
+            2018.
+            <br />
+            <br />
+            The Pacemaker Lighting system improves traffic efficiency by 8.5%,
+            reduces congestion by 53%, and decreases exhaust emissions by 12%.
+            This feature, patented in Türkiye, earned the "Innovation in Tunnel
+            Systems" award from New Civil Engineers in 2021.
+          </>
+        ),
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Partnering With the Private Sector",
+        description:
+          "The project is privately financed, with a Minimum Revenue Guarantee (MRG) mechanism ensuring stable revenues for investors. Since opening in December 2016, the tunnel has demonstrated strong traffic demand, with toll revenues exceeding the MRG level as of Q4 2023. The tunnel was developed under a PPP Build-Operate-Transfer (BOT) model, financed and operated by a private consortium. The $1.245 billion financing package comprised approximately $285 million in equity from a Turkish-Korean joint venture and $960 million in senior debt from multilateral development banks, export credit agencies, and commercial lenders from Europe, Asia, and Turkey.",
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "",
+        title: "References",
+        description: (
+          <>
+            <li>
+              <ul>
+                <a
+                  href="https://www.bluedot-network.org/case-studies/BDN-ZX1J8I-21LT"
+                  target="_blank"
+                  className="link"
+                >
+                  Blue Dot Network (n.d.). Eurasia Tunnel.
+                </a>
+              </ul>
+              <ul>
+                <a
+                  href="https://www.gihub.org/quality-infrastructure-database/case-studies/istanbul-strait-road-tunnel-project-eurasia-tunnel-project/"
+                  target="_blank"
+                  className="link"
+                >
+                  Global Infrastructure Hub (2021) Istanbul Strait Road Tunnel
+                  Project (“Eurasia Tunnel Project”).
+                </a>
+              </ul>
+            </li>
+          </>
+        ),
+      },
+    ],
+    1: [
+      {
+        value: "210M",
+        desc: "Hours of travel time saved",
+        country: "Eurasia Tunnel, Türkiye",
+        title: "Sustainable Development Objectives",
+        description:
+          "Card 2 - The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Jobs and Growth",
+        description: (
+          <>
+            The tunnel has had a major positive impact on jobs and economic
+            growth in Türkiye, creating thousands of jobs during construction
+            and operations while generating significant annual savings in time,
+            fuel, and accident costs. By drastically reducing travel times
+            across Istanbul, the tunnel has improved urban mobility, supported
+            productivity, and contributed hundreds of millions of dollars in
+            economic benefits each year.
+            <br /> <br />
+            Construction was completed in 14 million man-hours, employing over
+            12,000 workers, of whom 84% were hired locally. Over the first 8
+            years of operation, the project has delivered $2 billion in economic
+            benefits. It is expected to contribute $1.7 billion to Gross Value
+            Added, generate $364 million in additional tax revenues, and create
+            53,734 jobs between 2013 and 2042. Of the total economic impact,
+            $4.1 billion comes from productivity savings and $1.6 billion from
+            externalities.
+          </>
+        ),
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Co-Benefits of Multiple QII Principles",
+        description: (
+          <>
+            <strong>QII.2 Economic Efficiency</strong>
+            <br />
+            Life Cycle Cost estimates were developed at the preparation stage
+            and incorporated into the financial model to enhance long-term
+            economic efficiency. Predictive maintenance is applied using
+            mathematical modelling to detect and diagnose faults in electric
+            motors for ventilation and connected equipment, improving control
+            over equipment performance and reducing breakdowns.
+            <br />
+            <br />
+            <strong>QII.3 Environment</strong>
+            <br />
+            By reducing travel times, the project reduces fuel consumption by
+            30,000 tons and emissions by 13,000 tons. An Environmental and
+            Social Management Plan, prepared in November 2012, describes
+            mitigation measures to minimize possible negative impacts on the
+            climate and surrounding environment. For example, a detailed tree
+            survey documented the species, age, height, and condition of all
+            trees, with at least one-to-one replacement where felling was
+            required.
+            <br />
+            <br />
+            <strong>QII.4 Resilience</strong>
+            <br />
+            The tunnel features seismic-resistant engineering suited to
+            Istanbul's earthquake risk. Two seismic joints provide 3-dimensional
+            flexibility in case of an earthquake. The tunnel entrance was
+            elevated to E.L.+ 6m, and discharge pumps were installed at the
+            entrance and exit with total capacity sized for tsunami risk.
+          </>
+        ),
+      },
+    ],
+    2: [
+      {
+        value: "210M",
+        desc: "Hours of travel time saved",
+        country: "Eurasia Tunnel, Türkiye",
+        title: "Sustainable Development Objectives",
+        description:
+          "Card 3 - The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Jobs and Growth",
+        description: (
+          <>
+            The tunnel has had a major positive impact on jobs and economic
+            growth in Türkiye, creating thousands of jobs during construction
+            and operations while generating significant annual savings in time,
+            fuel, and accident costs. By drastically reducing travel times
+            across Istanbul, the tunnel has improved urban mobility, supported
+            productivity, and contributed hundreds of millions of dollars in
+            economic benefits each year.
+            <br /> <br />
+            Construction was completed in 14 million man-hours, employing over
+            12,000 workers, of whom 84% were hired locally. Over the first 8
+            years of operation, the project has delivered $2 billion in economic
+            benefits. It is expected to contribute $1.7 billion to Gross Value
+            Added, generate $364 million in additional tax revenues, and create
+            53,734 jobs between 2013 and 2042. Of the total economic impact,
+            $4.1 billion comes from productivity savings and $1.6 billion from
+            externalities.
+          </>
+        ),
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Co-Benefits of Multiple QII Principles",
+        description: (
+          <>
+            <strong>QII.2 Economic Efficiency</strong>
+            <br />
+            Life Cycle Cost estimates were developed at the preparation stage
+            and incorporated into the financial model to enhance long-term
+            economic efficiency. Predictive maintenance is applied using
+            mathematical modelling to detect and diagnose faults in electric
+            motors for ventilation and connected equipment, improving control
+            over equipment performance and reducing breakdowns.
+            <br />
+            <br />
+            <strong>QII.3 Environment</strong>
+            <br />
+            By reducing travel times, the project reduces fuel consumption by
+            30,000 tons and emissions by 13,000 tons. An Environmental and
+            Social Management Plan, prepared in November 2012, describes
+            mitigation measures to minimize possible negative impacts on the
+            climate and surrounding environment. For example, a detailed tree
+            survey documented the species, age, height, and condition of all
+            trees, with at least one-to-one replacement where felling was
+            required.
+            <br />
+            <br />
+            <strong>QII.4 Resilience</strong>
+            <br />
+            The tunnel features seismic-resistant engineering suited to
+            Istanbul's earthquake risk. Two seismic joints provide 3-dimensional
+            flexibility in case of an earthquake. The tunnel entrance was
+            elevated to E.L.+ 6m, and discharge pumps were installed at the
+            entrance and exit with total capacity sized for tsunami risk.
+          </>
+        ),
+      },
+    ],
+  };
+
+  const tabData1 = {
     "Sustainable Development Objectives": {
       value: "210M",
       desc: "Hours of travel time saved",
@@ -229,11 +534,11 @@ export default function QII1LandingPage() {
           <br />
           <strong>QII.4 Resilience</strong>
           <br />
-          The tunnel features seismic-resistant engineering
-          suited to Istanbul's earthquake risk. Two seismic joints provide
-          3-dimensional flexibility in case of an earthquake. The tunnel
-          entrance was elevated to E.L.+ 6m, and discharge pumps were installed
-          at the entrance and exit with total capacity sized for tsunami risk.
+          The tunnel features seismic-resistant engineering suited to Istanbul's
+          earthquake risk. Two seismic joints provide 3-dimensional flexibility
+          in case of an earthquake. The tunnel entrance was elevated to E.L.+
+          6m, and discharge pumps were installed at the entrance and exit with
+          total capacity sized for tsunami risk.
         </>
       ),
     },
@@ -245,41 +550,42 @@ export default function QII1LandingPage() {
       description: "Recognized by multiple international organizations.",
     },
   };
+  const tabData2 = {
+    "Sustainable Development Objectives": {
+      value: "210M",
+      desc: "Hours of travel time saved",
+      country: "Eurasia Tunnel, Türkiye",
+      title: "Sustainable Development Objectives",
+      description:
+        "The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+    },
+  };
+  const tabData3 = {
+    "Sustainable Development Objectives": {
+      value: "210M",
+      desc: "Hours of travel time saved",
+      country: "Eurasia Tunnel, Türkiye",
+      title: "Sustainable Development Objectives",
+      description:
+        "The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+    },
+  };
 
-  const [activeTab, setActiveTab] = useState(
-    "Sustainable Development Objectives",
-  );
+  const allData = [tabData1, tabData2, tabData3];
+
+  const [activeTab, setActiveTab] = useState(0);
   const [fade, setFade] = useState(true);
 
   const handleTabClick = (tab) => {
-    if (tab === activeTab) return;
-
-    setFade(false);
-    setTimeout(() => {
-      setActiveTab(tab);
-      setFade(true);
-    }, 300);
+    setActiveTab(tab);
+    // if (tab === activeTab) return;
+    // setFade(false);
+    // setTimeout(() => {
+    //   setFade(true);
+    // }, 300);
   };
 
-  const content = tabData[activeTab];
-
-  const textCrData = [
-    {
-      id: 0,
-      icon: "&#xe919;",
-      text: "Reduces costly service interruptions, protecting households and businesses from economic losses.",
-    },
-    {
-      id: 0,
-      icon: "&#xe922;",
-      text: "Enhances recovery speed after disasters, sustaining reliable access to essential services.",
-    },
-    {
-      id: 0,
-      icon: "&#xe921;",
-      text: "Lowers long-term maintenance and replacement expenses through better design and risk management.",
-    },
-  ];
+  const content = allData[currentCard][activeTab];
 
   const step1Cards = [
     {
@@ -599,6 +905,9 @@ export default function QII1LandingPage() {
             }
             principles="QII.2 | QII.3 | QII.4 | QII.5 | QII.6"
             link=""
+            index={0}
+            setCurrentCard={setCurrentCard}
+            currentCard={currentCard}
           >
             <p>
               $2 billion in economic benefits over 8 years, with 53,000+ jobs
@@ -615,6 +924,9 @@ export default function QII1LandingPage() {
             }
             principles="QII.2 | QII.3 | QII.5 "
             link="/not-given"
+            index={1}
+            setCurrentCard={setCurrentCard}
+            currentCard={currentCard}
           >
             <p>
               83 km of new metro serving 17 million residents, designed for
@@ -631,6 +943,9 @@ export default function QII1LandingPage() {
             }
             principles="QII.1 | QII.2 | QII.3 | QII.5 | QII.6"
             link="/not-given"
+            index={2}
+            setCurrentCard={setCurrentCard}
+            currentCard={currentCard}
           >
             <p>
               Protecting coastal livelihoods and marine ecosystems while
@@ -684,30 +999,41 @@ export default function QII1LandingPage() {
         </div> */}
         <div className="card-5">
           <div className="card-5-btn-container">
-            {Object.keys(tabData).map((tab) => (
-              <button
-                key={tab}
-                className={`card-5-btn ${activeTab === tab ? "active" : ""}`}
-                onClick={() => handleTabClick(tab)}
-              >
-                {tab}
-              </button>
-            ))}
+            {/* {Object.keys(allData[currentCard]).map((tab, i) => (
+              
+            ))} */}
+            {tabs.map((tab, i) => {
+              console.log("activeTab", activeTab);
+
+              return (
+                <button
+                  key={tab}
+                  className={`card-5-btn ${activeTab == i ? "card-5-btn-active" : ""}`}
+                  onClick={() => handleTabClick(i)}
+                >
+                  {tab}
+                </button>
+              );
+            })}
           </div>
 
           <div className={`card-5-content ${fade ? "fade-in" : "fade-out"}`}>
             <div className="card-5-content-circle">
               <p>
-                <strong>{content.value}</strong>
+                <strong>{cardsTabsData[currentCard][activeTab].value}</strong>
               </p>
-              <p>{content.desc}</p>
+              <p>{cardsTabsData[currentCard][activeTab].desc}</p>
             </div>
 
             <div className="card-5-content-desc">
-              <p className="card-5-content-country">{content.country}</p>
-              <p className="card-5-content-title">{content.title}</p>
+              <p className="card-5-content-country">
+                {cardsTabsData[currentCard][activeTab].country}
+              </p>
+              <p className="card-5-content-title">
+                {cardsTabsData[currentCard][activeTab].title}
+              </p>
               <p className="card-5-content-description">
-                {content.description}
+                {cardsTabsData[currentCard][activeTab].description}
               </p>
             </div>
           </div>

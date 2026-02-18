@@ -116,19 +116,18 @@
     width: 100%;
   }
 
-  
-.ico-text-card-3-title {
-  font-weight: bold;
-  font-size: 1rem;
-}
+  .ico-text-card-3-title {
+    font-weight: bold;
+    font-size: 1rem;
+  }
 
-.ico-text-card-3-desc {
-  font-size: 0.9rem;
-}
+  .ico-text-card-3-desc {
+    font-size: 0.9rem;
+  }
 
-.ico-text-card-3-link {
-  font-size: 0.9rem;
-}
+  .ico-text-card-3-link {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 690px) {
@@ -192,10 +191,12 @@
   border: 1px solid rgb(199, 197, 197);
 }
 
-.card-5 .card-5-btn:hover {
+.card-5 .card-5-btn:hover,
+.card-5 .card-5-btn-container .card-5-btn-active {
   background-color: #00a996;
   color: #fff;
-  border: none;
+  /* border: none; */
+  border: 1px solid #00a996;
   transition: 0.4s ease-in-out;
 }
 
