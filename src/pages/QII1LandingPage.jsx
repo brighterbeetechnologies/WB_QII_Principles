@@ -403,7 +403,7 @@ export default function QII1LandingPage() {
 
   const otherRefernceCards = [
     {
-      id: 1,
+      id: 0,
       image: "images/qii1/Japan-Quality-Infrastructure.png",
       org: false,
       title: `"Quality Infrastructure” Around the World: Compendium of Good Practices`,
@@ -415,7 +415,7 @@ export default function QII1LandingPage() {
       paths: "https://www.mlit.go.jp/kokusai/content/001397310.pdf",
     },
     {
-      id: 2,
+      id: 1,
       image: "images/qii1/Compendium-of-Quality-Infrastructure-in-Africa.png",
       org: false,
       title: "Compendium of Quality Infrastructure",

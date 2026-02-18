@@ -12,7 +12,7 @@ export default function Public_Investment_And_Asset_Management() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
-      image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+      image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
         <p>
           <strong>Well Spent</strong> <br />International Monetary Fund
@@ -63,7 +63,7 @@ export default function Public_Investment_And_Asset_Management() {
   const step2Cards = [
     {
       image:
-        "images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png",
+        "images/qii6/shutterstock_2498436507.jpg",
       title: (
         <p>
           <strong>
@@ -117,7 +117,7 @@ export default function Public_Investment_And_Asset_Management() {
     },
     {
       image:
-        "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
+        "images/qii6/shutterstock_1832080000.jpg",
       title: (
         <p>
           <strong>Getting Infrastructure Right</strong> <br />
@@ -148,7 +148,7 @@ export default function Public_Investment_And_Asset_Management() {
       ),
     },
     {
-      image: "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+      image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
         <p>
           <strong>Well Spent</strong> <br />International Monetary Fund 

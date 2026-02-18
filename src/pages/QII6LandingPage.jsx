@@ -54,7 +54,7 @@ export default function QII2LandingPage() {
       description:
         "With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​",
       img_path:
-        "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
+        "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
       path: "",
       target: "_blank",
     },
@@ -77,7 +77,7 @@ export default function QII2LandingPage() {
       org: "International Monetary Fund",
       description:
         "This publication provides evidence, analysis, and policy recommendations on how strong infrastructure governance can reduce inefficiency and waste in public investment for sustainable development and fiscal performance. ",
-      img_path: "images/qii6/QII6-Landing/WellSpent.png",
+      img_path: "images/qii6/shutterstock_2661513413.jpg",
       path: "https://www.imf.org/en/Publications/Books/Issues/2020/09/03/Well-Spent-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment-48603",
       target: "_blank",
     },

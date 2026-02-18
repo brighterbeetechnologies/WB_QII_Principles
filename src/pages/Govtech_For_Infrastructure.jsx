@@ -23,7 +23,7 @@ export default function Govtech_For_Infrastructure() {
       ),
       buttonText: "Case Study",
       link: "",
-      // highlight: 2,
+      highlight: 2,
       content: <p>With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. </p>,
     },
     {
@@ -50,7 +50,7 @@ export default function Govtech_For_Infrastructure() {
 
   const step2Cards = [
     {
-      image: "images/qii6/Govtech_For_Infrastructure/IndonesiaOneMapPolicy.png",
+      image: "images/qii6/shutterstock_1268023399.jpg",
       title: (
         <p>Indonesia<br />
           <strong>One Map Policy</strong> 
@@ -93,7 +93,7 @@ export default function Govtech_For_Infrastructure() {
         "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
       title: (
         <p>
-          <strong>GovTech Maturity Index (GTMI) Data Dashboard</strong> <br />World Bank
+          <strong>GovTech Maturity Index Data Dashboard</strong> <br />World Bank
         </p>
       ),
       buttonText: "Tool",
@@ -122,6 +122,7 @@ export default function Govtech_For_Infrastructure() {
         </p>
       ),
       buttonText: "Case Study",
+      highlight: 2,
       link: "pdf/Albania Innovations_Results Story_March 2024.pdf",
       content: <p>With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.​</p>,
     },
@@ -133,6 +134,7 @@ export default function Govtech_For_Infrastructure() {
         </p>
       ),
       buttonText: "Case Study",
+      highlight: 2,
       link: "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
       content: <p>This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​</p>,
     },

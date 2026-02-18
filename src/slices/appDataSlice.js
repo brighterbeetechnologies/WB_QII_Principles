@@ -3859,7 +3859,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/QII6-Landing/Getting-Infrastructure-Right-A-Framework-for-Better-Governance.png",
+          "images/qii6/Govtech_For_Infrastructure/Public-Transport-Demand.png",
       },
       {
         id: 5,
@@ -3943,7 +3943,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Govtech_For_Infrastructure/IndonesiaOneMapPolicy.png",
+          "images/qii6/shutterstock_1268023399.jpg",
       },
       {
         id: 5,
@@ -4026,7 +4026,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Infrastructure-Institutions/CoST-Infrastructure-Transparency-Initiative.png",
+          "images/qii6/shutterstock_2704307853.jpg",
       },
       {
         id: 5,
@@ -4042,7 +4042,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         region: 1,
         industry: 1,
-        image: "images/qii6/Infrastructure-Institutions/WellSpent.png",
+        image: "images/qii6/shutterstock_2661513413.jpg",
       },
 
       {
@@ -4099,7 +4099,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.worldbank.org/en/data/interactive/2022/10/21/govtech-maturity-index-gtmi-data-dashboard",
         type: "Tool",
-        title: "GovTech Maturity Index (GTMI) Data Dashboard World Bank",
+        title: "GovTech Maturity Index Data Dashboard World Bank",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4144,7 +4144,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+          "images/qii6/shutterstock_2661513413.jpg",
       },
       {
         id: 5,
@@ -4179,7 +4179,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Public_Investment_And_Asset_Management/OECD-Implementation-Handbook-for-Quality-Infrastructure-Investment.png",
+          "images/qii6/shutterstock_2498436507.jpg",
       },
       {
         id: 5,
@@ -4213,7 +4213,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Public_Investment_And_Asset_Management/OECD-Getting-Infrastructure-Right.png",
+          "images/qii6/shutterstock_1832080000.jpg",
       },
       {
         id: 5,
@@ -4230,7 +4230,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Public_Investment_And_Asset_Management/WellSpent.png",
+          "images/qii6/shutterstock_2661513413.jpg",
       },
       // {
       //   id: 5,

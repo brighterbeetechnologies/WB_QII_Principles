@@ -73,10 +73,10 @@ export default function Infrastructure_Institutions() {
   const step3Cards = [
     {
       image:
-        "images/qii6/Infrastructure-Institutions/CoST-Infrastructure-Transparency-Initiative.png",
+        "images/qii6/shutterstock_2704307853.jpg",
       title: (
         <p>
-          <strong>Infrastructure Transparency Initiative (Cost)</strong>
+          <strong>Cost Infrastructure Transparency Initiative</strong> <br />Infrastructure Transparency Initiative (CoST)
         </p>
       ),
       buttonText: "Guidance",
@@ -90,7 +90,7 @@ export default function Infrastructure_Institutions() {
       ),
     },
     {
-      image: "images/qii6/Infrastructure-Institutions/WellSpent.png",
+      image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
         <p>
           <strong>Well Spent</strong> <br />International Monetary Fund
