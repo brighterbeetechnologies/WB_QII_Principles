@@ -389,7 +389,7 @@ export default function QII1LandingPage() {
     },
     {
       id: 3,
-      image: "images/qii1/Indonesia-Transforming.png",
+      image: "images/qii1/Maputo-Data-Driven-Urban-Mobility.png",
       country: "Maputo",
       title: "Data-Driven Urban Mobility",
       subtext1: "Blog: Modernizing Public Transport",
