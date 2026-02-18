@@ -4076,7 +4076,7 @@ export const appDataSlice = createSlice({
         region: 1,
         industry: 1,
         image:
-          "images/qii6/Govtech_For_Infrastructure/Global-Infrastructure-Indicators-Dashboard.png",
+          "images/qii6/image.png",
       },
       {
         id: 5,

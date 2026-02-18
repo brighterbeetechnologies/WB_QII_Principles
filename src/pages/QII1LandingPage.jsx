@@ -292,8 +292,8 @@ export default function QII1LandingPage() {
         title: "References",
         description: (
           <>
-            <li>
-              <ul>
+            <ul>
+              <li>
                 <a
                   href="https://www.bluedot-network.org/case-studies/BDN-ZX1J8I-21LT"
                   target="_blank"
@@ -301,8 +301,8 @@ export default function QII1LandingPage() {
                 >
                   Blue Dot Network (n.d.). Eurasia Tunnel.
                 </a>
-              </ul>
-              <ul>
+              </li>
+              <li>
                 <a
                   href="https://www.gihub.org/quality-infrastructure-database/case-studies/istanbul-strait-road-tunnel-project-eurasia-tunnel-project/"
                   target="_blank"
@@ -311,8 +311,8 @@ export default function QII1LandingPage() {
                   Global Infrastructure Hub (2021) Istanbul Strait Road Tunnel
                   Project (“Eurasia Tunnel Project”).
                 </a>
-              </ul>
-            </li>
+              </li>
+            </ul>
           </>
         ),
       },
@@ -324,7 +324,11 @@ export default function QII1LandingPage() {
         country: "Eurasia Tunnel, Türkiye",
         title: "Sustainable Development Objectives",
         description:
-          "Card 2 - The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+          <>
+          Phase 2 of the Delhi Mass Rapid Transport System extended six metro lines, more than doubling the total length of the system by adding 83 km of track and 734 coaches to address growing traffic congestion in India's capital. The project was delivered through a partnership between the Government of India, the Government of NCT Delhi, the Government of Haryana State, and the Delhi Metro Rail Corporation (DMRC), with 55% of the project cost financed through a Japanese ODA loan.
+          <br /><br />
+          The project contributes to regional economic development and improves the urban environment by alleviating congestion and reducing vehicle-related air pollution. By providing Delhi’s 17 million residents with convenient, reliable, and safe public transportation, it increases accessibility across the city, boosting property values and business activity while reducing private vehicle use. 
+          </>
       },
       {
         value: "14M",
@@ -333,22 +337,11 @@ export default function QII1LandingPage() {
         title: "Jobs and Growth",
         description: (
           <>
-            The tunnel has had a major positive impact on jobs and economic
-            growth in Türkiye, creating thousands of jobs during construction
-            and operations while generating significant annual savings in time,
-            fuel, and accident costs. By drastically reducing travel times
-            across Istanbul, the tunnel has improved urban mobility, supported
-            productivity, and contributed hundreds of millions of dollars in
-            economic benefits each year.
+            The Delhi Metro has created substantial employment across construction and operations. At the time of JICA's 2015 ex-post evaluation, DMRC employed 8,628 people directly, with a staffing ratio of approximately 40 employees per operational kilometer. Today, DMRC employs ~13,000 people.
             <br /> <br />
-            Construction was completed in 14 million man-hours, employing over
-            12,000 workers, of whom 84% were hired locally. Over the first 8
-            years of operation, the project has delivered $2 billion in economic
-            benefits. It is expected to contribute $1.7 billion to Gross Value
-            Added, generate $364 million in additional tax revenues, and create
-            53,734 jobs between 2013 and 2042. Of the total economic impact,
-            $4.1 billion comes from productivity savings and $1.6 billion from
-            externalities.
+            Property values within 500 meters of metro corridors have increased by 11% annually for residential properties and 18% for commercial properties. The project's Economic Internal Rate of Return stands at 25%. 
+            <br /><br />
+            DMRC has also become a center for institutional capacity building, establishing India's first metro training institute in 2002, which now trains ~8,000 people annually. DMRC provides consulting services to other metros including Mumbai, Patna, Dhaka, and Jakarta. 
           </>
         ),
       },
@@ -361,33 +354,87 @@ export default function QII1LandingPage() {
           <>
             <strong>QII.2 Economic Efficiency</strong>
             <br />
-            Life Cycle Cost estimates were developed at the preparation stage
-            and incorporated into the financial model to enhance long-term
-            economic efficiency. Predictive maintenance is applied using
-            mathematical modelling to detect and diagnose faults in electric
-            motors for ventilation and connected equipment, improving control
-            over equipment performance and reducing breakdowns.
+            The project incorporated Life Cycle Cost considerations from the outset and ensures adequate maintenance and operation by well-qualified employees throughout the system's lifecycle. DMRC has developed a diversified revenue model that extends well beyond fare box revenue. Total revenue in FY 2014 reached INR 35.6 billion, with fare revenue contributing INR 15 billion and other revenue sources (advertising, property development, station naming rights, and external consulting projects) contributing INR 20.5 billion. Revenue from external projects became DMRC's second-largest income source, comprising 32% of FY 2014 revenue. 
+            <br /><br />The Financial Internal Rate of Return was recalculated at 3.84% at the time of ex-post evaluation, with potential for improvement as fare revisions are implemented. 
             <br />
             <br />
             <strong>QII.3 Environment</strong>
             <br />
-            By reducing travel times, the project reduces fuel consumption by
-            30,000 tons and emissions by 13,000 tons. An Environmental and
-            Social Management Plan, prepared in November 2012, describes
-            mitigation measures to minimize possible negative impacts on the
-            climate and surrounding environment. For example, a detailed tree
-            survey documented the species, age, height, and condition of all
-            trees, with at least one-to-one replacement where felling was
-            required.
+           An Environmental Impact Assessment (EIA) Report was prepared following JICA Guidelines for Environmental and Social Considerations (Category A project). Environmental measures include sprinklers, wastewater treatment, excavated earth treatment, and noise barriers to conform with India's emissions and environmental standards. 
+           <br /><br />
+           During operation, measures address air quality, water quality, waste, soil contamination, noise, and vibration through septic tank installation, compliance with waste management laws (including hazardous waste regulations), and grinding of wheels and rails. 
+           <br /><br />
+           The Department of Forest and Wildlife, Government of Delhi, will plant 158,560 replacement trees in accordance with the Delhi Preservation of Trees Act (1994) and Government of India guidelines. 
             <br />
             <br />
-            <strong>QII.4 Resilience</strong>
+            <strong>QII.5 Inclusion</strong>
             <br />
-            The tunnel features seismic-resistant engineering suited to
-            Istanbul's earthquake risk. Two seismic joints provide 3-dimensional
-            flexibility in case of an earthquake. The tunnel entrance was
-            elevated to E.L.+ 6m, and discharge pumps were installed at the
-            entrance and exit with total capacity sized for tsunami risk.
+            Station buildings and passenger cars are designed for elderly and disabled users, featuring elevators, toilets, internal broadcasting, Braille blocks, and wheelchair spaces. All front-line staff, including station personnel and crew members, receive customer care training. 
+            <br /><br />
+            The project required no acquisition of private land and no resettlement of residents. Safety features for women include women-only cars, priority seating for passengers requiring assistance (including women), and CCTV cameras in station buildings and trains. 
+          </>
+        ),
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Digitalization and Technology",
+        description: (
+          <>
+            Every aspect of the Delhi Metro system is monitored: timetables, speed, security, traction and electricity, trains, auxiliary equipment (air-conditioning and ventilation in underground tunnels), and crowd levels at stations. 
+            <br /> <br />
+            Three integrated systems keep the network running: ATP (Automatic Train Protection), ATO (Automatic Train Operation), and ATS (Automatic Train Supervision). Sensors track train movement through track circuits. 
+          </>
+        ),
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "Partnering With the Private Sector",
+        description: (
+          <>
+            Delhi Metro Rail Corporation Ltd. (DMRC) served as project sponsor. 55% of the project cost was financed through a Japanese ODA loan to DMRC, with the remainder provided by the Government of India, the Government of NCT Delhi, the Government of Haryana State, and DMRC. 
+          </>
+        ),
+      },
+      {
+        value: "14M",
+        desc: "Man-hours",
+        country: "Türkiye",
+        title: "References",
+        description: (
+          <>
+            <ul>
+              <li>
+                <a
+                  href="pdf/QII Indicators Pilot for G20 IWG_2023.pdf"
+                  target="_blank"
+                  className="link"
+                >
+                  IFC (2023). QII Indicators: Results from Pilot Projects and Emerging Lessons.
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www2.jica.go.jp/en/evaluation/pdf/2024_ID-P329_1_s.pdf"
+                  target="_blank"
+                  className="link"
+                >
+                  JICA (2025). Ex-Ante Evaluation: Delhi Mass Rapid Transport System Project.
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://economictimes.indiatimes.com/defaultinterstitial.cms"
+                  target="_blank"
+                  className="link"
+                >
+                  Banerjee, R. (2013). How Delhi Metro manages to be a model of efficiency every day. The Economic Times.
+                </a>
+              </li>
+            </ul>
           </>
         ),
       },
@@ -399,7 +446,13 @@ export default function QII1LandingPage() {
         country: "Eurasia Tunnel, Türkiye",
         title: "Sustainable Development Objectives",
         description:
-          "Card 3 - The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+          <>
+          Port Moresby's 67,000 coastal residents had no sewage treatment. Untreated waste discharged directly into the sea, destroying coral reefs, contaminating fisheries, and driving waterborne disease rates to six times the city average. 
+          <br /><br />
+          The Port Moresby Sewerage System Upgrading Project, completed in January 2020, delivered Papua New Guinea's first coastal sewage treatment facility. The project includes a Sewage Treatment Plant in Kila Kila capable of treating 18,400 cubic meters of water per day, a 13 km trunk sewer, a 15 km branch sewer, and the construction or rehabilitation of 13 pumping stations. 
+          <br /><br />
+          The project won first prize at the 4th Japan Construction International Award, organized by Japan's MLIT to recognize Japanese companies demonstrating excellence in quality infrastructure investments overseas. 
+          </>
       },
       {
         value: "14M",
@@ -408,22 +461,11 @@ export default function QII1LandingPage() {
         title: "Jobs and Growth",
         description: (
           <>
-            The tunnel has had a major positive impact on jobs and economic
-            growth in Türkiye, creating thousands of jobs during construction
-            and operations while generating significant annual savings in time,
-            fuel, and accident costs. By drastically reducing travel times
-            across Istanbul, the tunnel has improved urban mobility, supported
-            productivity, and contributed hundreds of millions of dollars in
-            economic benefits each year.
+            The project's most significant economic impact lies in the livelihoods it has restored. Before this project, pollution had effectively ended coastal fishing for nearby communities. Today, residents near the Joyce Bay treatment plant catch fish and shellfish for consumption and sale. Women from low-income villages have returned to selling shellfish at local markets, recovering a traditional income source that pollution had eliminated. 
             <br /> <br />
-            Construction was completed in 14 million man-hours, employing over
-            12,000 workers, of whom 84% were hired locally. Over the first 8
-            years of operation, the project has delivered $2 billion in economic
-            benefits. It is expected to contribute $1.7 billion to Gross Value
-            Added, generate $364 million in additional tax revenues, and create
-            53,734 jobs between 2013 and 2042. Of the total economic impact,
-            $4.1 billion comes from productivity savings and $1.6 billion from
-            externalities.
+            The ripple effects extend to tourism and industry. According to Papua New Guinea's Investment Promotion Authority, Ela Beach has attracted new hotels, restaurants, and apartments since water quality improved. Manufacturing and food processing plants have also been established near the treatment facility now that odor problems have been resolved. 
+            <br /><br />
+            Beyond immediate employment during construction, the project invested heavily in building local technical capacity. JICA provided comprehensive training to utility staff on treatment plant operations and network maintenance. Construction contractor Dai Nippon proactively hired young civil engineering trainees, creating a pipeline of skilled workers for Papua New Guinea's water sector. These staff continue to operate the facility today, supported by operational manuals and maintenance systems developed through the project. 
           </>
         ),
       },
@@ -434,37 +476,92 @@ export default function QII1LandingPage() {
         title: "Co-Benefits of Multiple QII Principles",
         description: (
           <>
-            <strong>QII.2 Economic Efficiency</strong>
-            <br />
-            Life Cycle Cost estimates were developed at the preparation stage
-            and incorporated into the financial model to enhance long-term
-            economic efficiency. Predictive maintenance is applied using
-            mathematical modelling to detect and diagnose faults in electric
-            motors for ventilation and connected equipment, improving control
-            over equipment performance and reducing breakdowns.
-            <br />
-            <br />
             <strong>QII.3 Environment</strong>
             <br />
-            By reducing travel times, the project reduces fuel consumption by
-            30,000 tons and emissions by 13,000 tons. An Environmental and
-            Social Management Plan, prepared in November 2012, describes
-            mitigation measures to minimize possible negative impacts on the
-            climate and surrounding environment. For example, a detailed tree
-            survey documented the species, age, height, and condition of all
-            trees, with at least one-to-one replacement where felling was
-            required.
+           Water quality improvements have been transformative. E. coli levels dropped from 23-2,400 MPN/100mL before the project to zero by 2021. The treatment plant uses ultraviolet disinfection rather than chlorine to minimize chemical impact on the marine environment. Given the sensitive coral reef ecosystem, the project was classified as Category A under JICA's Environmental and Social Consideration Guidelines. Ocean outfall installation included coral transplantation and one-year settlement monitoring. 
             <br />
             <br />
-            <strong>QII.4 Resilience</strong>
+            <strong>QII.5 Inclusion</strong>
             <br />
-            The tunnel features seismic-resistant engineering suited to
-            Istanbul's earthquake risk. Two seismic joints provide 3-dimensional
-            flexibility in case of an earthquake. The tunnel entrance was
-            elevated to E.L.+ 6m, and discharge pumps were installed at the
-            entrance and exit with total capacity sized for tsunami risk.
+           The health benefits are measurable: households connected to the sewerage system report diarrhea incidence of 27%, compared to 45% among unconnected households. A follow-up technical cooperation project conducted community education on the importance of household connections, hand washing, and proper waste disposal through focus group discussions, community meetings, and educational seminars. 
+            <br />
+            <br />
+            <strong>QII.6 Governance</strong>
+            <br />
+            JICA's technical assistance strengthened Water PNG's institutional capacity for long-term sustainability. The project developed business operation plans, a tariff collection system, and standardized operating procedures. Water PNG now submits regular environmental monitoring reports to the Conservation and Environment Protection Authority under a permit valid through 2043. 
           </>
         ),
+      },
+      {
+        value: "210M",
+        desc: "Hours of travel time saved",
+        country: "Eurasia Tunnel, Türkiye",
+        title: "Digitalization and Technology",
+        description:
+          <>
+          Sewage water is treated using technologies for monitoring and maintenance of the sewer network, along with equipment for the activated sludge process and ultraviolet disinfection systems. 
+          <br /><br />
+          Advanced Japanese construction methodologies and sludge processing technologies keep both construction and maintenance costs low, aligned with economic efficiency goals. 
+          </>
+      },
+      {
+        value: "210M",
+        desc: "Hours of travel time saved",
+        country: "Eurasia Tunnel, Türkiye",
+        title: "Partnering With the Private Sector ",
+        description:
+          <>
+          Local staff training and capacity building was undertaken in partnership with private sector technology suppliers. 
+          <br /><br />
+          Japanese technology companies provided monitoring and treatment equipment for the facility. 
+          </>
+      },
+      {
+        value: "210M",
+        desc: "Hours of travel time saved",
+        country: "Eurasia Tunnel, Türkiye",
+        title: "References",
+        description:
+          <>
+            <ul>
+              <li>
+                <a
+                  href="https://www.jica.go.jp/english/overseas/png/activities/activity15.html"
+                  target="_blank"
+                  className="link"
+                >
+                  JICA (2018). Port Moresby Sewerage System Upgrading Project. 
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.mlit.go.jp/JCIA/content/Japacon_brochure_4th_202306.pdf"
+                  target="_blank"
+                  className="link"
+                >
+                  MLIT (2021). Port Moresby Sewerage System Upgrading Project. 
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://libopac.jica.go.jp/images/report/1000042973.pdf"
+                  target="_blank"
+                  className="link"
+                >
+                  JICA (2020). Port Moresby Wastewater Management Improvement Project: Project Completion Report. 
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://openjicareport.jica.go.jp/pdf/12047692_01.pdf"
+                  target="_blank"
+                  className="link"
+                >
+                  IPBC (2011). Detailed Design (Phase 2) on Port Moresby Sewerage System Upgrading Project in the Independent State of Papua New Guinea: Final Report: Part I Design Report. 
+                </a>
+              </li>
+            </ul>
+          </>
       },
     ],
   };

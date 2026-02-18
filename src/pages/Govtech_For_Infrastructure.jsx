@@ -28,7 +28,7 @@ export default function Govtech_For_Infrastructure() {
     },
     {
       image:
-        "images/qii6/Govtech_For_Infrastructure/Global-Infrastructure-Indicators-Dashboard.png",
+        "images/qii6/image.png",
       title: (
         <p>
           <strong>Global Infrastructure Indicators Dashboard</strong> <br />
@@ -130,11 +130,12 @@ export default function Govtech_For_Infrastructure() {
       image: "images/qii6/shutterstock_2653389623.jpg",
       title: (
         <p>Kosovo<br />
-          <strong>Supporting Sustainable Digital Infrastructure through Innovation</strong>
+          <strong>Supporting Sustainable Digital Infrastructure through Innovation</strong> <br />
+          World Bank
         </p>
       ),
       buttonText: "Case Study",
-      highlight: 2,
+      // highlight: 2,
       link: "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
       content: <p>This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​</p>,
     },
@@ -170,7 +171,7 @@ export default function Govtech_For_Infrastructure() {
           { path: "/qii6", title: "QII.6 Governance" },
           {
             path: "/govtech-for-infrastructure",
-            title: "Govtech for Infrastructure",
+            title: "GovTech for Infrastructure",
           },
         ],
       }),
