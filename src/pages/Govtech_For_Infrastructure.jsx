@@ -138,7 +138,7 @@ export default function Govtech_For_Infrastructure() {
     },
     {
       image:
-        "images/qii6/Govtech_For_Infrastructure/OECD-Digital-Public-Infrastructure-for-Digital-Governments.png",
+        "images/qii6/shutterstock_2370519757.jpg",
       title: (
         <p>
           <strong>
