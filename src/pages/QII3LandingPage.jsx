@@ -8,6 +8,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
+import QII3CaseStudy1 from "../pages/QII3CaseStudy/QII3CaseStudy1";
 import {
   setBradcrump,
   setShowVideo,
@@ -53,12 +54,16 @@ export default function QII3LandingPage() {
     {
       id: 0,
       icon: "&#xe922;",
-      text: "Enhances recovery speed after disasters, sustaining reliable access to essential services.",
+      text: <>
+      <strong>Bypass critical environmental safeguards</strong>, resulting in irreversible damage to ecosystems, water systems, and air quality. 
+      </>
     },
     {
       id: 0,
       icon: "&#xe921;",
-      text: "Lowers long-term maintenance and replacement expenses through better design and risk management.",
+      text: <>
+      <strong>Overlook nature-based alternatives</strong> that could deliver services while regenerating natural capital and benefiting local communities. 
+      </>
     },
   ];
 
@@ -155,53 +160,53 @@ export default function QII3LandingPage() {
   const resourceArray = [
     {
       id: 0,
-      title: "Environmental and Social Framework",
-      country: "Multi-country",
-      org: "World Bank (2017)",
+      title: "Tibar Bay Port: Applying Quality Environmental and Social Standards",
+      country: "Timor-Leste",
+      org: "World Bank",
       description:
-        "This framework provides a replicable approach for integrating E&S considerations into infrastructure projects through ten standards, ensuring sustainable and responsible infrastructure development across the project lifecycle. ",
+        "This project demonstrates application of the IFC Performance Standards, which gained recognition for rigorous environmental and social scoping that led to key operational improvements such as reducing congestion and enhancing trade efficiency.",
       img_path:
-        "images/qii3/Environmental and Social Framework World Bank (2017).png",
-      path: "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
+        "images/qii3/shutterstock_2607341901.jpg",
+      path: "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
       target: "_blank",
     },
     {
       id: 1,
-      title: "Climate Toolkits for Infrastructure PPPs World Bank",
-      country: "Multi-country",
+      country: "Japan",
+      title: "Futakotamagawa: Integrating Flood Protection and Urban Renewal",
       org: "World Bank",
       description:
-        "This toolkit offers practical, step-by-step guidance to integrate climate mitigation and adaptation measures into infrastructure PPPs, helping structure bankable projects that align with climate policies, assess climate risks, and incorporate climate solutions that are technically and financially feasible.",
+        "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
       img_path:
-        "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
-      path: "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
-      target: "_blank",
+        "images/qii4/updated/Futakotamagawa.png",
+      path: "/qii4casestudy1",
+      target: "_self",
     },
     {
       id: 2,
       title:
-        "IFC Performance Standards on Environmental and Social Sustainability",
-      country: "Multi-country",
-      org: false,
+        "Cape Town Green Bond",
+      country: "South Africa",
+      org: "World Bank",
       description:
-        "These standards provide a globally recognized framework to identify and manage E&S risks in infrastructure investments, covering a range of key environmental topics including resource efficiency, pollution prevention, and biodiversity conservation.",
+        "This project illustrates how green bond certification builds investor confidence in climate-aligned municipal infrastructure.",
       img_path:
-        "images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png",
-      path: "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+        "images/qii3/Cape-Town-Green-Bond.jpg",
+      path: "https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/",
       target: "_blank",
     },
-    {
-      id: 3,
-      title: "Infrastructure for a Climate-Resilient Future",
-      country: "Multi-country",
-      org: "OECD (2024)",
-      description:
-        "This report provides evidence-based strategies for building climate-resilient infrastructure systems, covering adaptation planning, financing mechanisms, nature-based solutions, and governance frameworks.",
-      img_path:
-        "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
-      path: "https://doi.org/10.1787/a74a45b0-en",
-      target: "_blank",
-    },
+    // {
+    //   id: 3,
+    //   title: "Infrastructure for a Climate-Resilient Future",
+    //   country: "Multi-country",
+    //   org: "OECD (2024)",
+    //   description:
+    //     "This report provides evidence-based strategies for building climate-resilient infrastructure systems, covering adaptation planning, financing mechanisms, nature-based solutions, and governance frameworks.",
+    //   img_path:
+    //     "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
+    //   path: "https://doi.org/10.1787/a74a45b0-en",
+    //   target: "_blank",
+    // },
   ];
 
   const openVideo = (url, title, width, height) => {
@@ -229,10 +234,16 @@ export default function QII3LandingPage() {
               />
               <div className="landingpage-description">
                 <p className="light-font">
-                  Infrastructure accounts for ~79% of global greenhouse gas
-                  emissions, but can also be a driver of environmental solutions
-                  through renewable energy, climate-smart transport, and designs
-                  that work with nature. <br />
+                  Infrastructure accounts for <strong>~79%</strong> of global
+                  greenhouse gas emissions, but can also be a{" "}
+                  <strong>driver of environmental solutions </strong>
+                  through{" "}
+                  <strong>
+                    renewable energy, climate-smart transport,
+                  </strong>{" "}
+                  and <strong>designs that work with nature. </strong>
+                  <br />
+                  <br />
                   QII 3 supports efforts to move beyond "do-no-harm" to actively
                   promoting positive environmental outcomes throughout a
                   project's lifecycle.
@@ -287,7 +298,7 @@ export default function QII3LandingPage() {
           "By accounting for climate impacts, biodiversity risks, and ecosystem services from project conception through delivery, infrastructure becomes a driver of environmental regeneration rather than degradation."
         }
       />
-      <section className="color-light">
+      <section className="color-dark">
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
@@ -343,7 +354,7 @@ export default function QII3LandingPage() {
         </h3>
         <h1 className="light-font "></h1>
       </section> */}
-      <section className="qii_video_landing_page color-light">
+      {/* <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
           src="images/qii3/Highlight_video_thumbnail.png"
@@ -378,7 +389,10 @@ export default function QII3LandingPage() {
             </button>
           </Link>
         </div>
-      </section>
+      </section> */}
+
+       <QII3CaseStudy1 />
+
       {/* <section className="q4_landing_page color-dark">
         <div className="container">
           <div className="qii4-video-card">

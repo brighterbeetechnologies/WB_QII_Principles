@@ -16,7 +16,7 @@ export default function QIIVCard({
   currentCard,
 }) {
   return (
-    <div className={`QIIVCard ${highlight && "highlighted"}`}>
+    <div className={`QIIVCard ${highlight && "highlighted"} ${currentCard === index && "card-active"}`}>
       <img className="QIIVCardImg" src={image} alt={title} style={imageStyle} />
       <div className="QIIvCardBody">
         <div className="QIIv-title">{title}</div>

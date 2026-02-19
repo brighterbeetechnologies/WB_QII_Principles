@@ -6,6 +6,7 @@
   max-width: 380px;
   position: relative;
   /* overflow: hidden; */
+  transition: 0.3s;
 }
 
 .QIIVCardImg {
@@ -102,10 +103,12 @@
 }
 
 .QII-video-gif-badge {
-  position: absolute;
+  /* position: absolute;
   bottom: 16%;
   transform: translateX(-50% -50%);
-  left: 7%;
+  left: 7%; */
+  width: fit-content;
+  margin: 1rem auto;
   background: #e5f5fb;
   color: #000000;
   padding: 6px 12px;

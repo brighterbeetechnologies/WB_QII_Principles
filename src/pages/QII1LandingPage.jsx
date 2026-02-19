@@ -25,7 +25,7 @@ export default function QII1LandingPage() {
 
   const PAGE_SIZE = 1;
   const [page, setPage] = useState(1);
-  const [currentCard, setCurrentCard] = useState(0);
+  const [currentCard, setCurrentCard] = useState(4);
 
   const start = (page - 1) * PAGE_SIZE;
   const end = start + PAGE_SIZE;
@@ -34,7 +34,7 @@ export default function QII1LandingPage() {
     <div className="ico-text-card-3-container">
       <div className="ico-text-card-3">
         <div className="ico-text-card-3-ico">
-          <img src="images/qii1/Icon1.svg" alt="" />
+          <img src="images/qii1/Vector.svg" alt="" />
         </div>
         <div className="ico-text-card-3-description">
           <div className="ico-text-card-3-title">
@@ -323,12 +323,27 @@ export default function QII1LandingPage() {
         desc: "Hours of travel time saved",
         country: "Eurasia Tunnel, Türkiye",
         title: "Sustainable Development Objectives",
-        description:
+        description: (
           <>
-          Phase 2 of the Delhi Mass Rapid Transport System extended six metro lines, more than doubling the total length of the system by adding 83 km of track and 734 coaches to address growing traffic congestion in India's capital. The project was delivered through a partnership between the Government of India, the Government of NCT Delhi, the Government of Haryana State, and the Delhi Metro Rail Corporation (DMRC), with 55% of the project cost financed through a Japanese ODA loan.
-          <br /><br />
-          The project contributes to regional economic development and improves the urban environment by alleviating congestion and reducing vehicle-related air pollution. By providing Delhi’s 17 million residents with convenient, reliable, and safe public transportation, it increases accessibility across the city, boosting property values and business activity while reducing private vehicle use. 
+            Phase 2 of the Delhi Mass Rapid Transport System extended six metro
+            lines, more than doubling the total length of the system by adding
+            83 km of track and 734 coaches to address growing traffic congestion
+            in India's capital. The project was delivered through a partnership
+            between the Government of India, the Government of NCT Delhi, the
+            Government of Haryana State, and the Delhi Metro Rail Corporation
+            (DMRC), with 55% of the project cost financed through a Japanese ODA
+            loan.
+            <br />
+            <br />
+            The project contributes to regional economic development and
+            improves the urban environment by alleviating congestion and
+            reducing vehicle-related air pollution. By providing Delhi’s 17
+            million residents with convenient, reliable, and safe public
+            transportation, it increases accessibility across the city, boosting
+            property values and business activity while reducing private vehicle
+            use.
           </>
+        ),
       },
       {
         value: "14M",
@@ -337,11 +352,22 @@ export default function QII1LandingPage() {
         title: "Jobs and Growth",
         description: (
           <>
-            The Delhi Metro has created substantial employment across construction and operations. At the time of JICA's 2015 ex-post evaluation, DMRC employed 8,628 people directly, with a staffing ratio of approximately 40 employees per operational kilometer. Today, DMRC employs ~13,000 people.
+            The Delhi Metro has created substantial employment across
+            construction and operations. At the time of JICA's 2015 ex-post
+            evaluation, DMRC employed 8,628 people directly, with a staffing
+            ratio of approximately 40 employees per operational kilometer.
+            Today, DMRC employs ~13,000 people.
             <br /> <br />
-            Property values within 500 meters of metro corridors have increased by 11% annually for residential properties and 18% for commercial properties. The project's Economic Internal Rate of Return stands at 25%. 
-            <br /><br />
-            DMRC has also become a center for institutional capacity building, establishing India's first metro training institute in 2002, which now trains ~8,000 people annually. DMRC provides consulting services to other metros including Mumbai, Patna, Dhaka, and Jakarta. 
+            Property values within 500 meters of metro corridors have increased
+            by 11% annually for residential properties and 18% for commercial
+            properties. The project's Economic Internal Rate of Return stands at
+            25%.
+            <br />
+            <br />
+            DMRC has also become a center for institutional capacity building,
+            establishing India's first metro training institute in 2002, which
+            now trains ~8,000 people annually. DMRC provides consulting services
+            to other metros including Mumbai, Patna, Dhaka, and Jakarta.
           </>
         ),
       },
@@ -354,24 +380,58 @@ export default function QII1LandingPage() {
           <>
             <strong>QII.2 Economic Efficiency</strong>
             <br />
-            The project incorporated Life Cycle Cost considerations from the outset and ensures adequate maintenance and operation by well-qualified employees throughout the system's lifecycle. DMRC has developed a diversified revenue model that extends well beyond fare box revenue. Total revenue in FY 2014 reached INR 35.6 billion, with fare revenue contributing INR 15 billion and other revenue sources (advertising, property development, station naming rights, and external consulting projects) contributing INR 20.5 billion. Revenue from external projects became DMRC's second-largest income source, comprising 32% of FY 2014 revenue. 
-            <br /><br />The Financial Internal Rate of Return was recalculated at 3.84% at the time of ex-post evaluation, with potential for improvement as fare revisions are implemented. 
+            The project incorporated Life Cycle Cost considerations from the
+            outset and ensures adequate maintenance and operation by
+            well-qualified employees throughout the system's lifecycle. DMRC has
+            developed a diversified revenue model that extends well beyond fare
+            box revenue. Total revenue in FY 2014 reached INR 35.6 billion, with
+            fare revenue contributing INR 15 billion and other revenue sources
+            (advertising, property development, station naming rights, and
+            external consulting projects) contributing INR 20.5 billion. Revenue
+            from external projects became DMRC's second-largest income source,
+            comprising 32% of FY 2014 revenue.
+            <br />
+            <br />
+            The Financial Internal Rate of Return was recalculated at 3.84% at
+            the time of ex-post evaluation, with potential for improvement as
+            fare revisions are implemented.
             <br />
             <br />
             <strong>QII.3 Environment</strong>
             <br />
-           An Environmental Impact Assessment (EIA) Report was prepared following JICA Guidelines for Environmental and Social Considerations (Category A project). Environmental measures include sprinklers, wastewater treatment, excavated earth treatment, and noise barriers to conform with India's emissions and environmental standards. 
-           <br /><br />
-           During operation, measures address air quality, water quality, waste, soil contamination, noise, and vibration through septic tank installation, compliance with waste management laws (including hazardous waste regulations), and grinding of wheels and rails. 
-           <br /><br />
-           The Department of Forest and Wildlife, Government of Delhi, will plant 158,560 replacement trees in accordance with the Delhi Preservation of Trees Act (1994) and Government of India guidelines. 
+            An Environmental Impact Assessment (EIA) Report was prepared
+            following JICA Guidelines for Environmental and Social
+            Considerations (Category A project). Environmental measures include
+            sprinklers, wastewater treatment, excavated earth treatment, and
+            noise barriers to conform with India's emissions and environmental
+            standards.
+            <br />
+            <br />
+            During operation, measures address air quality, water quality,
+            waste, soil contamination, noise, and vibration through septic tank
+            installation, compliance with waste management laws (including
+            hazardous waste regulations), and grinding of wheels and rails.
+            <br />
+            <br />
+            The Department of Forest and Wildlife, Government of Delhi, will
+            plant 158,560 replacement trees in accordance with the Delhi
+            Preservation of Trees Act (1994) and Government of India guidelines.
             <br />
             <br />
             <strong>QII.5 Inclusion</strong>
             <br />
-            Station buildings and passenger cars are designed for elderly and disabled users, featuring elevators, toilets, internal broadcasting, Braille blocks, and wheelchair spaces. All front-line staff, including station personnel and crew members, receive customer care training. 
-            <br /><br />
-            The project required no acquisition of private land and no resettlement of residents. Safety features for women include women-only cars, priority seating for passengers requiring assistance (including women), and CCTV cameras in station buildings and trains. 
+            Station buildings and passenger cars are designed for elderly and
+            disabled users, featuring elevators, toilets, internal broadcasting,
+            Braille blocks, and wheelchair spaces. All front-line staff,
+            including station personnel and crew members, receive customer care
+            training.
+            <br />
+            <br />
+            The project required no acquisition of private land and no
+            resettlement of residents. Safety features for women include
+            women-only cars, priority seating for passengers requiring
+            assistance (including women), and CCTV cameras in station buildings
+            and trains.
           </>
         ),
       },
@@ -382,9 +442,15 @@ export default function QII1LandingPage() {
         title: "Digitalization and Technology",
         description: (
           <>
-            Every aspect of the Delhi Metro system is monitored: timetables, speed, security, traction and electricity, trains, auxiliary equipment (air-conditioning and ventilation in underground tunnels), and crowd levels at stations. 
+            Every aspect of the Delhi Metro system is monitored: timetables,
+            speed, security, traction and electricity, trains, auxiliary
+            equipment (air-conditioning and ventilation in underground tunnels),
+            and crowd levels at stations.
             <br /> <br />
-            Three integrated systems keep the network running: ATP (Automatic Train Protection), ATO (Automatic Train Operation), and ATS (Automatic Train Supervision). Sensors track train movement through track circuits. 
+            Three integrated systems keep the network running: ATP (Automatic
+            Train Protection), ATO (Automatic Train Operation), and ATS
+            (Automatic Train Supervision). Sensors track train movement through
+            track circuits.
           </>
         ),
       },
@@ -395,7 +461,10 @@ export default function QII1LandingPage() {
         title: "Partnering With the Private Sector",
         description: (
           <>
-            Delhi Metro Rail Corporation Ltd. (DMRC) served as project sponsor. 55% of the project cost was financed through a Japanese ODA loan to DMRC, with the remainder provided by the Government of India, the Government of NCT Delhi, the Government of Haryana State, and DMRC. 
+            Delhi Metro Rail Corporation Ltd. (DMRC) served as project sponsor.
+            55% of the project cost was financed through a Japanese ODA loan to
+            DMRC, with the remainder provided by the Government of India, the
+            Government of NCT Delhi, the Government of Haryana State, and DMRC.
           </>
         ),
       },
@@ -413,7 +482,8 @@ export default function QII1LandingPage() {
                   target="_blank"
                   className="link"
                 >
-                  IFC (2023). QII Indicators: Results from Pilot Projects and Emerging Lessons.
+                  IFC (2023). QII Indicators: Results from Pilot Projects and
+                  Emerging Lessons.
                 </a>
               </li>
               <li>
@@ -422,7 +492,8 @@ export default function QII1LandingPage() {
                   target="_blank"
                   className="link"
                 >
-                  JICA (2025). Ex-Ante Evaluation: Delhi Mass Rapid Transport System Project.
+                  JICA (2025). Ex-Ante Evaluation: Delhi Mass Rapid Transport
+                  System Project.
                 </a>
               </li>
               <li>
@@ -431,7 +502,8 @@ export default function QII1LandingPage() {
                   target="_blank"
                   className="link"
                 >
-                  Banerjee, R. (2013). How Delhi Metro manages to be a model of efficiency every day. The Economic Times.
+                  Banerjee, R. (2013). How Delhi Metro manages to be a model of
+                  efficiency every day. The Economic Times.
                 </a>
               </li>
             </ul>
@@ -445,14 +517,28 @@ export default function QII1LandingPage() {
         desc: "Hours of travel time saved",
         country: "Eurasia Tunnel, Türkiye",
         title: "Sustainable Development Objectives",
-        description:
+        description: (
           <>
-          Port Moresby's 67,000 coastal residents had no sewage treatment. Untreated waste discharged directly into the sea, destroying coral reefs, contaminating fisheries, and driving waterborne disease rates to six times the city average. 
-          <br /><br />
-          The Port Moresby Sewerage System Upgrading Project, completed in January 2020, delivered Papua New Guinea's first coastal sewage treatment facility. The project includes a Sewage Treatment Plant in Kila Kila capable of treating 18,400 cubic meters of water per day, a 13 km trunk sewer, a 15 km branch sewer, and the construction or rehabilitation of 13 pumping stations. 
-          <br /><br />
-          The project won first prize at the 4th Japan Construction International Award, organized by Japan's MLIT to recognize Japanese companies demonstrating excellence in quality infrastructure investments overseas. 
+            Port Moresby's 67,000 coastal residents had no sewage treatment.
+            Untreated waste discharged directly into the sea, destroying coral
+            reefs, contaminating fisheries, and driving waterborne disease rates
+            to six times the city average.
+            <br />
+            <br />
+            The Port Moresby Sewerage System Upgrading Project, completed in
+            January 2020, delivered Papua New Guinea's first coastal sewage
+            treatment facility. The project includes a Sewage Treatment Plant in
+            Kila Kila capable of treating 18,400 cubic meters of water per day,
+            a 13 km trunk sewer, a 15 km branch sewer, and the construction or
+            rehabilitation of 13 pumping stations.
+            <br />
+            <br />
+            The project won first prize at the 4th Japan Construction
+            International Award, organized by Japan's MLIT to recognize Japanese
+            companies demonstrating excellence in quality infrastructure
+            investments overseas.
           </>
+        ),
       },
       {
         value: "14M",
@@ -461,11 +547,31 @@ export default function QII1LandingPage() {
         title: "Jobs and Growth",
         description: (
           <>
-            The project's most significant economic impact lies in the livelihoods it has restored. Before this project, pollution had effectively ended coastal fishing for nearby communities. Today, residents near the Joyce Bay treatment plant catch fish and shellfish for consumption and sale. Women from low-income villages have returned to selling shellfish at local markets, recovering a traditional income source that pollution had eliminated. 
+            The project's most significant economic impact lies in the
+            livelihoods it has restored. Before this project, pollution had
+            effectively ended coastal fishing for nearby communities. Today,
+            residents near the Joyce Bay treatment plant catch fish and
+            shellfish for consumption and sale. Women from low-income villages
+            have returned to selling shellfish at local markets, recovering a
+            traditional income source that pollution had eliminated.
             <br /> <br />
-            The ripple effects extend to tourism and industry. According to Papua New Guinea's Investment Promotion Authority, Ela Beach has attracted new hotels, restaurants, and apartments since water quality improved. Manufacturing and food processing plants have also been established near the treatment facility now that odor problems have been resolved. 
-            <br /><br />
-            Beyond immediate employment during construction, the project invested heavily in building local technical capacity. JICA provided comprehensive training to utility staff on treatment plant operations and network maintenance. Construction contractor Dai Nippon proactively hired young civil engineering trainees, creating a pipeline of skilled workers for Papua New Guinea's water sector. These staff continue to operate the facility today, supported by operational manuals and maintenance systems developed through the project. 
+            The ripple effects extend to tourism and industry. According to
+            Papua New Guinea's Investment Promotion Authority, Ela Beach has
+            attracted new hotels, restaurants, and apartments since water
+            quality improved. Manufacturing and food processing plants have also
+            been established near the treatment facility now that odor problems
+            have been resolved.
+            <br />
+            <br />
+            Beyond immediate employment during construction, the project
+            invested heavily in building local technical capacity. JICA provided
+            comprehensive training to utility staff on treatment plant
+            operations and network maintenance. Construction contractor Dai
+            Nippon proactively hired young civil engineering trainees, creating
+            a pipeline of skilled workers for Papua New Guinea's water sector.
+            These staff continue to operate the facility today, supported by
+            operational manuals and maintenance systems developed through the
+            project.
           </>
         ),
       },
@@ -478,17 +584,34 @@ export default function QII1LandingPage() {
           <>
             <strong>QII.3 Environment</strong>
             <br />
-           Water quality improvements have been transformative. E. coli levels dropped from 23-2,400 MPN/100mL before the project to zero by 2021. The treatment plant uses ultraviolet disinfection rather than chlorine to minimize chemical impact on the marine environment. Given the sensitive coral reef ecosystem, the project was classified as Category A under JICA's Environmental and Social Consideration Guidelines. Ocean outfall installation included coral transplantation and one-year settlement monitoring. 
+            Water quality improvements have been transformative. E. coli levels
+            dropped from 23-2,400 MPN/100mL before the project to zero by 2021.
+            The treatment plant uses ultraviolet disinfection rather than
+            chlorine to minimize chemical impact on the marine environment.
+            Given the sensitive coral reef ecosystem, the project was classified
+            as Category A under JICA's Environmental and Social Consideration
+            Guidelines. Ocean outfall installation included coral
+            transplantation and one-year settlement monitoring.
             <br />
             <br />
             <strong>QII.5 Inclusion</strong>
             <br />
-           The health benefits are measurable: households connected to the sewerage system report diarrhea incidence of 27%, compared to 45% among unconnected households. A follow-up technical cooperation project conducted community education on the importance of household connections, hand washing, and proper waste disposal through focus group discussions, community meetings, and educational seminars. 
+            The health benefits are measurable: households connected to the
+            sewerage system report diarrhea incidence of 27%, compared to 45%
+            among unconnected households. A follow-up technical cooperation
+            project conducted community education on the importance of household
+            connections, hand washing, and proper waste disposal through focus
+            group discussions, community meetings, and educational seminars.
             <br />
             <br />
             <strong>QII.6 Governance</strong>
             <br />
-            JICA's technical assistance strengthened Water PNG's institutional capacity for long-term sustainability. The project developed business operation plans, a tariff collection system, and standardized operating procedures. Water PNG now submits regular environmental monitoring reports to the Conservation and Environment Protection Authority under a permit valid through 2043. 
+            JICA's technical assistance strengthened Water PNG's institutional
+            capacity for long-term sustainability. The project developed
+            business operation plans, a tariff collection system, and
+            standardized operating procedures. Water PNG now submits regular
+            environmental monitoring reports to the Conservation and Environment
+            Protection Authority under a permit valid through 2043.
           </>
         ),
       },
@@ -497,31 +620,41 @@ export default function QII1LandingPage() {
         desc: "Hours of travel time saved",
         country: "Eurasia Tunnel, Türkiye",
         title: "Digitalization and Technology",
-        description:
+        description: (
           <>
-          Sewage water is treated using technologies for monitoring and maintenance of the sewer network, along with equipment for the activated sludge process and ultraviolet disinfection systems. 
-          <br /><br />
-          Advanced Japanese construction methodologies and sludge processing technologies keep both construction and maintenance costs low, aligned with economic efficiency goals. 
+            Sewage water is treated using technologies for monitoring and
+            maintenance of the sewer network, along with equipment for the
+            activated sludge process and ultraviolet disinfection systems.
+            <br />
+            <br />
+            Advanced Japanese construction methodologies and sludge processing
+            technologies keep both construction and maintenance costs low,
+            aligned with economic efficiency goals.
           </>
+        ),
       },
       {
         value: "210M",
         desc: "Hours of travel time saved",
         country: "Eurasia Tunnel, Türkiye",
         title: "Partnering With the Private Sector ",
-        description:
+        description: (
           <>
-          Local staff training and capacity building was undertaken in partnership with private sector technology suppliers. 
-          <br /><br />
-          Japanese technology companies provided monitoring and treatment equipment for the facility. 
+            Local staff training and capacity building was undertaken in
+            partnership with private sector technology suppliers.
+            <br />
+            <br />
+            Japanese technology companies provided monitoring and treatment
+            equipment for the facility.
           </>
+        ),
       },
       {
         value: "210M",
         desc: "Hours of travel time saved",
         country: "Eurasia Tunnel, Türkiye",
         title: "References",
-        description:
+        description: (
           <>
             <ul>
               <li>
@@ -530,7 +663,7 @@ export default function QII1LandingPage() {
                   target="_blank"
                   className="link"
                 >
-                  JICA (2018). Port Moresby Sewerage System Upgrading Project. 
+                  JICA (2018). Port Moresby Sewerage System Upgrading Project.
                 </a>
               </li>
               <li>
@@ -539,7 +672,7 @@ export default function QII1LandingPage() {
                   target="_blank"
                   className="link"
                 >
-                  MLIT (2021). Port Moresby Sewerage System Upgrading Project. 
+                  MLIT (2021). Port Moresby Sewerage System Upgrading Project.
                 </a>
               </li>
               <li>
@@ -548,7 +681,8 @@ export default function QII1LandingPage() {
                   target="_blank"
                   className="link"
                 >
-                  JICA (2020). Port Moresby Wastewater Management Improvement Project: Project Completion Report. 
+                  JICA (2020). Port Moresby Wastewater Management Improvement
+                  Project: Project Completion Report.
                 </a>
               </li>
               <li>
@@ -557,11 +691,14 @@ export default function QII1LandingPage() {
                   target="_blank"
                   className="link"
                 >
-                  IPBC (2011). Detailed Design (Phase 2) on Port Moresby Sewerage System Upgrading Project in the Independent State of Papua New Guinea: Final Report: Part I Design Report. 
+                  IPBC (2011). Detailed Design (Phase 2) on Port Moresby
+                  Sewerage System Upgrading Project in the Independent State of
+                  Papua New Guinea: Final Report: Part I Design Report.
                 </a>
               </li>
             </ul>
           </>
+        ),
       },
     ],
   };
@@ -682,7 +819,7 @@ export default function QII1LandingPage() {
     // }, 300);
   };
 
-  const content = allData[currentCard][activeTab];
+  const content = allData[currentCard]?.[activeTab];
 
   const step1Cards = [
     {
@@ -1094,47 +1231,49 @@ export default function QII1LandingPage() {
             </div>
           </div>
         </div> */}
-        <div className="card-5">
-          <div className="card-5-btn-container">
-            {/* {Object.keys(allData[currentCard]).map((tab, i) => (
+        {currentCard !== 4 && (
+          <div className="card-5">
+            <div className="card-5-btn-container">
+              {/* {Object.keys(allData[currentCard]).map((tab, i) => (
               
             ))} */}
-            {tabs.map((tab, i) => {
-              console.log("activeTab", activeTab);
+              {tabs.map((tab, i) => {
+                // console.log("activeTab", activeTab);
 
-              return (
-                <button
-                  key={tab}
-                  className={`card-5-btn ${activeTab == i ? "card-5-btn-active" : ""}`}
-                  onClick={() => handleTabClick(i)}
-                >
-                  {tab}
-                </button>
-              );
-            })}
-          </div>
-
-          <div className={`card-5-content ${fade ? "fade-in" : "fade-out"}`}>
-            <div className="card-5-content-circle">
-              <p>
-                <strong>{cardsTabsData[currentCard][activeTab].value}</strong>
-              </p>
-              <p>{cardsTabsData[currentCard][activeTab].desc}</p>
+                return (
+                  <button
+                    key={tab}
+                    className={`card-5-btn ${activeTab == i ? "card-5-btn-active" : ""}`}
+                    onClick={() => handleTabClick(i)}
+                  >
+                    {tab}
+                  </button>
+                );
+              })}
             </div>
 
-            <div className="card-5-content-desc">
-              <p className="card-5-content-country">
-                {cardsTabsData[currentCard][activeTab].country}
-              </p>
-              <p className="card-5-content-title">
-                {cardsTabsData[currentCard][activeTab].title}
-              </p>
-              <p className="card-5-content-description">
-                {cardsTabsData[currentCard][activeTab].description}
-              </p>
+            <div className={`card-5-content ${fade ? "fade-in" : "fade-out"}`}>
+              <div className="card-5-content-circle">
+                <p>
+                  <strong>{cardsTabsData[currentCard]?.[activeTab].value}</strong>
+                </p>
+                <p>{cardsTabsData[currentCard]?.[activeTab].desc}</p>
+              </div>
+
+              <div className="card-5-content-desc">
+                <p className="card-5-content-country">
+                  {cardsTabsData[currentCard]?.[activeTab].country}
+                </p>
+                <p className="card-5-content-title">
+                  {cardsTabsData[currentCard]?.[activeTab].title}
+                </p>
+                <p className="card-5-content-description">
+                  {cardsTabsData[currentCard]?.[activeTab].description}
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        )}
       </section>
       <section className="container internal-pages-container color-dark">
         <h2 className="section-title light-font">Key References</h2>

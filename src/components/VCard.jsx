@@ -21,7 +21,7 @@ export default function VCard({
       <div className="VCard-footer">
         <div className="v-btn-cnt">
           {/* <strong></strong> */}
-          <p>{buttonText}</p>
+          {buttonText && <p>{buttonText}</p>}
           {/* <a href={link} target="_blank" className="VCard-btn ">
             <span className="icon-arrow">&#xe900;</span>
           </a> */}
@@ -33,7 +33,8 @@ export default function VCard({
           >
             <span className="icon-arrow">&#xe900;</span>
           </a>
-        </div> 
+        </div>
+
         {buttonText2 && (
           <div className="v-btn-cnt">
             <p>{buttonText2}</p>
@@ -52,7 +53,7 @@ export default function VCard({
           </div>
         )}
       </div>
-      {highlight && ( 
+      {highlight && (
         <div
           className="highlighted-badge"
           style={{

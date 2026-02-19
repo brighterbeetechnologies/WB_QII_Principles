@@ -20,7 +20,7 @@ export default function QualityEnvironmentalStandards() {
       org: false,
       description:
         "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk. ",
-      img_path: "",
+      img_path: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
       path: "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
       target: "_blank",
     },
@@ -29,8 +29,10 @@ export default function QualityEnvironmentalStandards() {
       title: "FAST Infra",
       country: "Multi-country",
       org: false,
-      description: "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing.",
-      img_path: "",
+      description:
+        "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing.",
+      img_path:
+        "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
       path: "https://www.fastinfralabel.org/",
       target: "_blank",
     },
@@ -38,16 +40,43 @@ export default function QualityEnvironmentalStandards() {
 
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
+    // {
+    //   image:
+    //     "images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png",
+    //   title: (
+    //     <p>
+    //       <strong>​Timor-Leste: Tibar Bay Port</strong>
+    //     </p>
+    //   ),
+    //   buttonText: "Case Study",
+    //   link: "pdf/QII_3_CaseStudy_TibarBay.pdf",
+    //   content: (
+    //     <p>
+    //       This project demonstrates application of the IFC Performance
+    //       Standards, which gained recognition for rigorous environmental and
+    //       social scoping that led to key operational improvements such as
+    //       reducing congestion and enhancing trade efficiency.
+    //     </p>
+    //   ),
+    // },
     {
       image:
-        "images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png",
+        "images/qii3/shutterstock_2607341901.jpg",
       title: (
         <p>
-          <strong>​Timor-Leste: Tibar Bay Port</strong>
+          Timor-Leste <br />
+          <strong>
+            Tibar Bay Port: Applying Quality Environmental and Social Standards
+          </strong>
+          <br />
+          World Bank
         </p>
       ),
-      buttonText: "Case Study",
+      highlight: 2,
+      buttonText: "View the full publication",
       link: "pdf/QII_3_CaseStudy_TibarBay.pdf",
+      buttonText2: "Case Study",
+      link2: "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
       content: (
         <p>
           This project demonstrates application of the IFC Performance
@@ -113,7 +142,7 @@ export default function QualityEnvironmentalStandards() {
       title: (
         <p>
           <strong>Infrastructure Standards​</strong> <br />
-          International Organization for Standardization (ISO)
+          International Organization for Standardization
         </p>
       ),
       buttonText: "Guidance",
@@ -213,12 +242,13 @@ export default function QualityEnvironmentalStandards() {
         "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png",
       title: (
         <p>
-          <strong>LEED for Buildings LEED for Cities and Communities​</strong>{" "}
-          <br />
+          <strong>LEED​</strong> <br />
         </p>
       ),
-      buttonText: "Guidance",
-      link: "https://www.usgbc.org/leed/rating-systems/leed-for-cities",
+      buttonText: "For Buildings",
+      link: "https://www.usgbc.org/leed",
+      buttonText2: " For Cities and Communities",
+      link2: "https://www.usgbc.org/leed/rating-systems/leed-for-cities",
       content: (
         <p>
           LEED provides certification standards for sustainable building design.
@@ -254,7 +284,7 @@ export default function QualityEnvironmentalStandards() {
   const step3Cards = [
     {
       image:
-        "images/qii3/Quality-Environmental-Standards/FrameworkforSDG-AlignedFinanceOECD&UNDP.png",
+        "images/qii3/shutterstock_2667061147.jpg",
       title: (
         <p>
           <strong>Framework for SDG-Aligned Finance</strong> <br />
@@ -375,13 +405,13 @@ export default function QualityEnvironmentalStandards() {
             <br />
             The{" "}
             <strong>
-              World Bank Environmental and Social Framework (ESF) and the IFC
-              Performance Standards (PS)
-            </strong>{" "}
-            exemplify such standards and provide a strong Standards (PS)
-            exemplify such standards and provide a strong foundation for
-            applying international environmental and social best practices to
-            infrastructure design and delivery.
+              World Bank Environmental and Social Framework (ESF){" "}
+            </strong>
+            and the <strong> IFC Performance Standards (PS)</strong> exemplify
+            such standards and provide a strong Standards (PS) exemplify such
+            standards and provide a strong foundation for applying international
+            environmental and social best practices to infrastructure design and
+            delivery.
           </div>
           <VCardsPagination cardsData={step1Cards} />
           {/* <div className="VCard-cnt col3">
@@ -574,42 +604,20 @@ export default function QualityEnvironmentalStandards() {
             <strong>Blue Dot Network</strong>
             and <strong>Fast Infra</strong>, making them more attractive to
             investors.
-          </div><div className="container notop">
-          <div className="page-resource-grid" role="list">
-            {resourceArray.map((p, index) => {
-              return (
-                <article
-                  className="page-resource-card"
-                  key={index}
-                  role="listitem"
-                  style={{ backgroundImage: `url(${p.img})` }}
-                >
-                  <div className="page-resource-link">
-                    <div className="page-resource-body">
-                      <div className="page-resource-title title-small">
-                        {p.country && (
-                          <>
-                            <span>{p.country}</span> <br />
-                          </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
-                          <>
-                            <br />
-                            <span>{p.org}</span>
-                          </>
-                        )}
-                      </div>
-                      <div className="page-resource-overlay" />
-                      <img
-                        className="page-resource-img"
-                        src={p.img_path}
-                        alt={p.title}
-                      />
-                      {/* <div className="page-resource-img-cnt">
-                                </div> */}
-                      <div className="page-resource-data">
-                        <div className="page-resource-title title-big">
+          </div>
+          <div className="container notop">
+            <div className="page-resource-grid" role="list">
+              {resourceArray.map((p, index) => {
+                return (
+                  <article
+                    className="page-resource-card"
+                    key={index}
+                    role="listitem"
+                    style={{ backgroundImage: `url(${p.img})` }}
+                  >
+                    <div className="page-resource-link">
+                      <div className="page-resource-body">
+                        <div className="page-resource-title title-small">
                           {p.country && (
                             <>
                               <span>{p.country}</span> <br />
@@ -623,35 +631,58 @@ export default function QualityEnvironmentalStandards() {
                             </>
                           )}
                         </div>
-                        <div className="page-resource-description">
-                          {p.description}
-                        </div>
-                        <div className="page-resource-btn-cnt">
-                          {p.target === "_blank" ? (
-                            <a
-                              className="page-resource-arrow"
-                              href={p.path}
-                              target={p.target}
-                            >
-                              <span className="icon-arrow">&#xe900;</span>
-                            </a>
-                          ) : (
-                            <Link
-                              className="page-resource-arrow"
-                              to={p.path}
-                              target={p.target}
-                            >
-                              <span className="icon-arrow">&#xe900;</span>
-                            </Link>
-                          )}
+                        <div className="page-resource-overlay" />
+                        <img
+                          className="page-resource-img"
+                          src={p.img_path}
+                          alt={p.title}
+                        />
+                        {/* <div className="page-resource-img-cnt">
+                                </div> */}
+                        <div className="page-resource-data">
+                          <div className="page-resource-title title-big">
+                            {p.country && (
+                              <>
+                                <span>{p.country}</span> <br />
+                              </>
+                            )}
+                            <strong>{p.title}</strong>
+                            {p.org && (
+                              <>
+                                <br />
+                                <span>{p.org}</span>
+                              </>
+                            )}
+                          </div>
+                          <div className="page-resource-description">
+                            {p.description}
+                          </div>
+                          <div className="page-resource-btn-cnt">
+                            {p.target === "_blank" ? (
+                              <a
+                                className="page-resource-arrow"
+                                href={p.path}
+                                target={p.target}
+                              >
+                                <span className="icon-arrow">&#xe900;</span>
+                              </a>
+                            ) : (
+                              <Link
+                                className="page-resource-arrow"
+                                to={p.path}
+                                target={p.target}
+                              >
+                                <span className="icon-arrow">&#xe900;</span>
+                              </Link>
+                            )}
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                </article>
-              );
-            })}
-          </div>
+                  </article>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>

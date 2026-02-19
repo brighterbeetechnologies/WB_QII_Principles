@@ -257,6 +257,10 @@
   font-size: 1.2rem;
 }
 
+.card-active {
+  transform: translateY(1rem);
+}
+
 @media (max-width: 1100px) {
   .card-5 .card-5-btn-container {
     flex-wrap: wrap;
