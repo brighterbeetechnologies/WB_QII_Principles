@@ -217,7 +217,6 @@ export const appDataSlice = createSlice({
         format: 1,
         income: 3,
         stage: 2,
-        income: 0,
         industry: 2,
         image: "images/governance/list/Slide_29.jpg",
       },
