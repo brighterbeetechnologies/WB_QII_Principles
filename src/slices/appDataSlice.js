@@ -113,8 +113,9 @@ export const appDataSlice = createSlice({
       { id: 6, title: "Policy Paper" },
       { id: 7, title: "Publication" },
       { id: 8, title: "Blog" },
-        // { id: 9, title: "Presentation" },
-      //   { id: 10, title: "Scenarios/Decision Tree" },
+      // { id: 9, title: "Framework" },
+      // { id: 10, title: "Reading" },
+      // { id: 11, title: "Resource" },
     ],
 
     learningPath: [
@@ -542,8 +543,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/Argentina.png",
       },
 
-
-    //Resources
+      //Resources
       {
         id: 1,
         paths:
@@ -942,14 +942,14 @@ export const appDataSlice = createSlice({
 
       //principle 3 resources
 
-
       //Case Study-qii3
       {
         id: 3,
         paths:
           "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
         type: "Case Study",
-        title: "Timor-Leste Tibar Bay Port: Applying Quality Environmental and Social Standards",
+        title:
+          "Timor-Leste Tibar Bay Port: Applying Quality Environmental and Social Standards",
         principles: 2,
         highlight: 2,
         target: "_blank",
@@ -959,8 +959,7 @@ export const appDataSlice = createSlice({
         region: 0,
         income: 1,
         industry: 9,
-        image:
-          "images/qii3/shutterstock_2607341901.jpg",
+        image: "images/qii3/shutterstock_2607341901.jpg",
       },
       {
         id: 1,
@@ -991,8 +990,7 @@ export const appDataSlice = createSlice({
         stage: 2,
         income: 0,
         industry: 3,
-        image:
-          "images/qii3/Cape-Town-Green-Bond.jpg",
+        image: "images/qii3/Cape-Town-Green-Bond.jpg",
       },
 
       {
@@ -1216,7 +1214,8 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths: "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
+        paths:
+          "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
         type: "Case Study",
         title: "Blue Dot Network",
         principles: 2,
@@ -1227,8 +1226,7 @@ export const appDataSlice = createSlice({
         stage: 2,
         income: 0,
         industry: 3,
-        image:
-          "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
+        image: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
       },
       {
         id: 3,
@@ -1414,8 +1412,7 @@ export const appDataSlice = createSlice({
         stage: 2,
         income: 0,
         industry: 3,
-        image:
-          "images/qii3/shutterstock_2667061147.jpg",
+        image: "images/qii3/shutterstock_2667061147.jpg",
       },
       {
         id: 3,
@@ -1713,7 +1710,7 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Financing-Climate-AdaptationandNature-Based-Infrastructure.png",
       },
-      
+
       {
         id: 3,
         paths:
@@ -1818,7 +1815,7 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/Decarbonizing-Infrastructure/Reducing-Infrastructure-Climate-Risk-Through-Technology-Measures.png",
       },
-      
+
       //video-qii3
       {
         id: 3,
@@ -1918,7 +1915,6 @@ export const appDataSlice = createSlice({
       // 	"industry": 3,
       // 	"image": ""
       // },
-
 
       //principle 4 resources
       {
@@ -3876,8 +3872,7 @@ export const appDataSlice = createSlice({
       },
       {
         id: 5,
-        paths:
-          "/not-given",
+        paths: "/not-given",
         type: "Case Study",
         title:
           "Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era World Bank",
@@ -3889,15 +3884,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2660000293.jpg",
+        image: "images/qii6/shutterstock_2660000293.jpg",
       },
       {
         id: 5,
         paths:
           "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
         type: "Case Study",
-        title: "Kosovo Supporting Sustainable Digital Infrastructure through Innovation World Bank",
+        title:
+          "Kosovo Supporting Sustainable Digital Infrastructure through Innovation World Bank",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -3906,8 +3901,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2653389623.jpg",
+        image: "images/qii6/shutterstock_2653389623.jpg",
       },
       // {
       //   id: 5,
@@ -3930,7 +3924,8 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
         type: "Case Study",
-        title: "Integrated Approaches in Action United Nations Environment Programme",
+        title:
+          "Integrated Approaches in Action United Nations Environment Programme",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -3956,8 +3951,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2660000293.jpg",
+        image: "images/qii6/shutterstock_2660000293.jpg",
       },
       {
         id: 5,
@@ -3973,8 +3967,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_1268023399.jpg",
+        image: "images/qii6/shutterstock_1268023399.jpg",
       },
       // {
       //   id: 5,
@@ -4056,8 +4049,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2704307853.jpg",
+        image: "images/qii6/shutterstock_2704307853.jpg",
       },
       {
         id: 5,
@@ -4081,7 +4073,8 @@ export const appDataSlice = createSlice({
         paths:
           "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
         type: "Guidance",
-        title: "Governance of Quality Infrastructure Investment​ Organisation for Economic Co-operation and Development and International Monetary Fund",
+        title:
+          "Governance of Quality Infrastructure Investment​ Organisation for Economic Co-operation and Development and International Monetary Fund",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4106,8 +4099,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/image.png",
+        image: "images/qii6/image.png",
       },
       {
         id: 5,
@@ -4157,8 +4149,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2370519757.jpg",
+        image: "images/qii6/shutterstock_2370519757.jpg",
       },
       {
         id: 5,
@@ -4174,15 +4165,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2661513413.jpg",
+        image: "images/qii6/shutterstock_2661513413.jpg",
       },
       {
         id: 5,
         paths:
           "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
         type: "Guidance",
-        title: "Public Investment Management Assessment​ International Monetary Fund",
+        title:
+          "Public Investment Management Assessment​ International Monetary Fund",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4209,8 +4200,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2498436507.jpg",
+        image: "images/qii6/shutterstock_2498436507.jpg",
       },
       {
         id: 5,
@@ -4226,15 +4216,15 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2653389623.jpg",
+        image: "images/qii6/shutterstock_2653389623.jpg",
       },
       {
         id: 5,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
         type: "Guidance",
-        title: "Getting Infrastructure Right Organisation for Economic Co-operation and Development",
+        title:
+          "Getting Infrastructure Right Organisation for Economic Co-operation and Development",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4243,8 +4233,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_1832080000.jpg",
+        image: "images/qii6/shutterstock_1832080000.jpg",
       },
       {
         id: 5,
@@ -4260,8 +4249,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 0,
         industry: 1,
-        image:
-          "images/qii6/shutterstock_2661513413.jpg",
+        image: "images/qii6/shutterstock_2661513413.jpg",
       },
       // {
       //   id: 5,
