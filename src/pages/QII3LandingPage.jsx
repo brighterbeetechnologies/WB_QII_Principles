@@ -54,16 +54,23 @@ export default function QII3LandingPage() {
     {
       id: 0,
       icon: "&#xe922;",
-      text: <>
-      <strong>Bypass critical environmental safeguards</strong>, resulting in irreversible damage to ecosystems, water systems, and air quality. 
-      </>
+      text: (
+        <>
+          <strong>Bypass critical environmental safeguards</strong>, resulting
+          in irreversible damage to ecosystems, water systems, and air quality.
+        </>
+      ),
     },
     {
       id: 0,
       icon: "&#xe921;",
-      text: <>
-      <strong>Overlook nature-based alternatives</strong> that could deliver services while regenerating natural capital and benefiting local communities. 
-      </>
+      text: (
+        <>
+          <strong>Overlook nature-based alternatives</strong> that could deliver
+          services while regenerating natural capital and benefiting local
+          communities.
+        </>
+      ),
     },
   ];
 
@@ -160,13 +167,14 @@ export default function QII3LandingPage() {
   const resourceArray = [
     {
       id: 0,
-      title: "Tibar Bay Port: Applying Quality Environmental and Social Standards",
+      title:
+        "Tibar Bay Port: Applying Quality Environmental and Social Standards",
       country: "Timor-Leste",
       org: "World Bank",
       description:
         "This project demonstrates application of the IFC Performance Standards, which gained recognition for rigorous environmental and social scoping that led to key operational improvements such as reducing congestion and enhancing trade efficiency.",
-      img_path:
-        "images/qii3/shutterstock_2607341901.jpg",
+      img_path: "images/qii3/shutterstock_2607341901.jpg",
+      highlight: 1,
       path: "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
       target: "_blank",
     },
@@ -177,21 +185,19 @@ export default function QII3LandingPage() {
       org: "World Bank",
       description:
         "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
-      img_path:
-        "images/qii4/updated/Futakotamagawa.png",
+      img_path: "images/qii4/updated/Futakotamagawa.png",
+      highlight: 1,
       path: "/qii4casestudy1",
       target: "_self",
     },
     {
       id: 2,
-      title:
-        "Cape Town Green Bond",
+      title: "Cape Town Green Bond",
       country: "South Africa",
       org: "World Bank",
       description:
         "This project illustrates how green bond certification builds investor confidence in climate-aligned municipal infrastructure.",
-      img_path:
-        "images/qii3/Cape-Town-Green-Bond.jpg",
+      img_path: "images/qii3/Cape-Town-Green-Bond.jpg",
       path: "https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/",
       target: "_blank",
     },
@@ -327,7 +333,8 @@ export default function QII3LandingPage() {
                 videoTitle="The Environmental Challenge and Opportunity"
                 cardTitle={
                   <>
-                    <span>The Environmental Challenge and Opportunity</span></>
+                    <span>The Environmental Challenge and Opportunity</span>
+                  </>
                 }
                 description=""
                 duration="3 min watch"
@@ -389,7 +396,7 @@ export default function QII3LandingPage() {
         </div>
       </section> */}
 
-       <QII3CaseStudy1 />
+      <QII3CaseStudy1 />
 
       {/* <section className="q4_landing_page color-dark">
         <div className="container">
@@ -485,10 +492,11 @@ export default function QII3LandingPage() {
             {resourceArray.map((p, index) => {
               return (
                 <article
-                  className="page-resource-card"
+                  // className="page-resource-card"
                   key={index}
                   role="listitem"
                   style={{ backgroundImage: `url(${p.img})` }}
+                  className={`page-resource-card box-card ${p.highlight && "highlighted"}`}
                 >
                   <div className="page-resource-link">
                     <div className="page-resource-body">
@@ -563,6 +571,20 @@ export default function QII3LandingPage() {
                       </div>
                     </div>
                   </div>
+                  {p.highlight ? (
+                    <div
+                      className="highlighted-badge"
+                      style={{
+                        background: `${p.highlight ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
+                        backgroundSize: "100% 100%",
+                      }}
+                    >
+                      <img src="images/Star_for_spotligh.svg" alt="" />
+                      {p.highlight && <>Spotlight Case Study</>}
+                    </div>
+                  ) : (
+                    <></>
+                  )}
                 </article>
               );
             })}

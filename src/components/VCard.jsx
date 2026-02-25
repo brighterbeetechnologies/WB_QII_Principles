@@ -10,10 +10,14 @@ export default function VCard({
   link2,
   imageStyle,
   highlight,
+  badgeText,
 }) {
   return (
     <div className={`VCard ${highlight && "highlighted"}`}>
       <img className="VCardImg" src={image} alt={title} style={imageStyle} />
+       {badgeText && (
+          <div className="video-gif-badge">{badgeText}</div>
+        )}
       <div className="vCardBody">
         <div className="v-title">{title}</div>
         {children}

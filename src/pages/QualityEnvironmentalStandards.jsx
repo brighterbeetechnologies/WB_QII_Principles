@@ -16,7 +16,7 @@ export default function QualityEnvironmentalStandards() {
     {
       id: 0,
       title: "Blue Dot Network",
-      country: "Multi-country",
+      country: "Global",
       org: false,
       description:
         "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk. ",
@@ -27,7 +27,7 @@ export default function QualityEnvironmentalStandards() {
     {
       id: 1,
       title: "FAST Infra",
-      country: "Multi-country",
+      country: "Global",
       org: false,
       description:
         "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing.",
@@ -72,7 +72,7 @@ export default function QualityEnvironmentalStandards() {
           World Bank
         </p>
       ),
-      highlight: 2,
+      highlight: 1,
       buttonText: "View the full publication",
       link: "pdf/QII_3_CaseStudy_TibarBay.pdf",
       buttonText2: "Case Study",
@@ -601,7 +601,7 @@ export default function QualityEnvironmentalStandards() {
             integrate these standards demonstrate reduced risk profiles and
             improved long-term viability. Moreover, they can qualify for
             certification by initiatives such as{" "}
-            <strong>Blue Dot Network</strong>
+            <strong>Blue Dot Network </strong>
             and <strong>Fast Infra</strong>, making them more attractive to
             investors.
           </div>
@@ -689,7 +689,7 @@ export default function QualityEnvironmentalStandards() {
       <section className="container internal-pages-container color-light">
         <div className="section-title">
           <strong>
-            Additional Framing Documentation on the importance of Quality
+            Additional Framing Documentation on the Importance of Quality
             Standards
           </strong>
         </div>

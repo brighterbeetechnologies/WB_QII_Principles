@@ -42,8 +42,10 @@ export default function QII1LandingPage() {
           </div>
           <p className="ico-text-card-3-desc">
             Infrastructure can create a virtuous economic cycle, from job
-            creation during the construction and OaM phases, to boosting the
-            industries that support these activities.
+            creation during the construction and O&M phases, to boosting the
+            industries that support these activities, to ultimately increasing
+            productivity, jobs and access to markets through the infrastructure
+            services provided <sup>1</sup>.
           </p>
           <p className="ico-text-card-3-link">
             1:{" "}
@@ -52,7 +54,7 @@ export default function QII1LandingPage() {
               target="_blank"
               className="link"
             >
-              World Bank (2020) Jobs Umbrella MDTF
+               World Bank (2020) Jobs Umbrella MDTF: Annual Report 2019-2020 
             </Link>
           </p>
           {/* <span style={{ opacity: 0 }}>
@@ -84,7 +86,7 @@ export default function QII1LandingPage() {
             While each QII principle stands on its own, governments should
             consider how multiple principles can be combined within a single
             project. The result is co-benefits that no single approach can
-            achieve alone.
+            achieve alone <sup>1</sup>.
           </p>
           <p className="ico-text-card-3-link">
             1:{" "}
@@ -119,7 +121,7 @@ export default function QII1LandingPage() {
             <br />
             <br />
             This is about “making infrastructure smarter and more connected”,
-            not only about digital infrastructure itself.
+            not only about digital infrastructure itself <sup>1</sup>.
           </p>
           <p className="ico-text-card-3-link">
             {" "}
@@ -148,7 +150,7 @@ export default function QII1LandingPage() {
             <br />
             Bridging this financing gap while managing rising debt levels and
             budgetary constraints requires bringing together public and private
-            capital.
+            capital <sup>1</sup>.
           </p>
           <p className="ico-text-card-3-link">
             1:{" "}
@@ -825,8 +827,8 @@ export default function QII1LandingPage() {
     {
       image: "images/qii1/Blue-Dot-Network.png",
       title: (
-        <p>
-          <strong>The Blue Dot Network (BDN)</strong>
+        <p>Global <br /> 
+          <strong>The Blue Dot Network</strong>
         </p>
       ),
       buttonText: "",
@@ -846,11 +848,12 @@ export default function QII1LandingPage() {
       image: "images/qii1/FAST-Infra.png",
       title: (
         <p>
+          Global <br />
           <strong>FAST-Infra</strong>
         </p>
       ),
       buttonText: "",
-      link: "https://fastinfragroup.org/",
+      link: "https://www.fastinfralabel.org/",
       content: (
         <p>
           The FAST-Infra Label is a globally applicable label for projects
@@ -868,7 +871,7 @@ export default function QII1LandingPage() {
       image:
         "images/qii1/Compendium-of-Quality-Infrastructure-Investment-Indicators.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Compendium of Quality Infrastructure Investment Indicators
           </strong>{" "}
@@ -945,7 +948,7 @@ export default function QII1LandingPage() {
     {
       id: 0,
       image: "images/qii1/Japan-Quality-Infrastructure.png",
-      org: false,
+      org: "MLIT",
       title: `"Quality Infrastructure” Around the World: Compendium of Good Practices`,
       country: "Japan",
       subtext1: "(English/Japanese)",
@@ -957,7 +960,7 @@ export default function QII1LandingPage() {
     {
       id: 1,
       image: "images/qii1/Compendium-of-Quality-Infrastructure-in-Africa.png",
-      org: false,
+      org: "MLIT",
       title: "Compendium of Quality Infrastructure",
       country: "Africa",
       subtext1: "(English/Japanese)",
@@ -1255,7 +1258,9 @@ export default function QII1LandingPage() {
             <div className={`card-5-content ${fade ? "fade-in" : "fade-out"}`}>
               <div className="card-5-content-circle">
                 <p>
-                  <strong>{cardsTabsData[currentCard]?.[activeTab].value}</strong>
+                  <strong>
+                    {cardsTabsData[currentCard]?.[activeTab].value}
+                  </strong>
                 </p>
                 <p>{cardsTabsData[currentCard]?.[activeTab].desc}</p>
               </div>

@@ -29,7 +29,7 @@ export default function CardBox({ card }) {
               <br />
             </>
           )}
-          {card.title}
+          {card.title} <br />
           {card.org && (
             <>
               <span>{card.org}</span>
@@ -37,6 +37,7 @@ export default function CardBox({ card }) {
             </>
           )}
         </h2>
+        <br />
           {card.subtext1 && (
             <p>
               {card.subtext1}

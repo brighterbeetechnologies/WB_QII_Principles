@@ -1496,7 +1496,7 @@ export const appDataSlice = createSlice({
         income: 0,
         industry: 3,
         image:
-          "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
+          "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
       },
       {
         id: 3,
@@ -1658,13 +1658,13 @@ export const appDataSlice = createSlice({
         income: 0,
         industry: 3,
         image:
-          "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/IFC-Catalogue-of-Nature-based-Solutions-for-Infrastructure-Projects.png",
+          "images/qii3/shutterstock_755940463.jpg",
       },
       {
         id: 3,
         paths: "https://www.naturebasedsolutions.org/knowledge-hub",
         type: "Guidance",
-        title: "World Bank Global Program for Nature-Based Solutions",
+        title: "Global Program for Nature-Based Solutions World Bank ",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1674,7 +1674,7 @@ export const appDataSlice = createSlice({
         income: 0,
         industry: 3,
         image:
-          "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/World-Bank-Global-Program-for-Nature-Based-Solutions.png",
+          "images/qii3/shutterstock_2201000683.jpg",
       },
       {
         id: 3,
@@ -1714,7 +1714,7 @@ export const appDataSlice = createSlice({
       {
         id: 3,
         paths:
-          "https://www.climatebonds.net/expertise/taxonomy/world-taxonomies",
+          "https://www.climatebonds.net/expertise/standard-sector-criteria-certification/sector-criteria",
         type: "Guidance",
         title: "Sector-Specific Criteria Climate Bonds Initiative",
         principles: 2,
@@ -1873,7 +1873,7 @@ export const appDataSlice = createSlice({
       {
         id: 3,
         paths:
-          "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
+          "https://www.fastinfralabel.org/",
         type: "Tool",
         title: "FAST-Infra",
         principles: 2,
@@ -2872,7 +2872,7 @@ export const appDataSlice = createSlice({
         income: 0,
         industry: 1,
         image:
-          "images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png",
+          "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
       },
 
       {

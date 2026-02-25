@@ -108,7 +108,7 @@
   transform: translateX(-50% -50%);
   left: 7%; */
   width: fit-content;
-  margin: 1rem auto;
+  margin: 1rem 0;
   background: #e5f5fb;
   color: #000000;
   padding: 6px 12px;

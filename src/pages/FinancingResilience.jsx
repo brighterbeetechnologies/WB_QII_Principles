@@ -42,7 +42,7 @@ export default function FinancingResilience() {
       description:
         "This toolkit aims to guide practitioners on incorporating a climate lens into PPPs to enhance climate resilience.",
       img_path:
-        "images/qii4/FinancingResilience/World Bank - Climate Toolkits for Infrastructure PPPs.png",
+        "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
       path: "https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps",
       target: "_blank",
     },

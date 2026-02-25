@@ -4,145 +4,375 @@
 }
 
 .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-section {
-  padding: 4rem 0 4rem 4rem;
+  padding: 4rem;
+}
+
+.DecarbonizingInfrastructure
+  .Decarbonizing-Infrastructure-section
+  .center-text {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.DecarbonizingInfrastructure .center-light-text {
+  font-size: 1rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+.DecarbonizingInfrastructure .center-light-text-2 {
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-container {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
   width: 100%;
 }
 
 .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-img {
-  width: 70%;
+  width: 20%;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0.9rem;
+  position: relative;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-img .image-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.DecarbonizingInfrastructure
+  .Decarbonizing-Infrastructure-img
+  .image-content
+  h2 {
+  color: #000;
+  font-size: 2rem;
+}
+
+.DecarbonizingInfrastructure
+  .Decarbonizing-Infrastructure-img
+  .image-content
+  p {
+  color: #5f7786;
+  font-size: 1.2rem;
+}
+
+.DecarbonizingInfrastructure
+  .Decarbonizing-Infrastructure-description-container {
+  width: 38%;
+  margin-left: -1.1rem;
 }
 
 .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description {
-  width: 30%;
-  display: flex;
+  width: 40%;
+  margin-left: -0.9rem;
   flex-direction: column;
-  gap: 0.5rem;
   justify-content: center;
   align-content: center;
+  background-color: #fff;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description h2 {
   margin: 1rem 1rem 0 1rem;
-  font-size: 1.5rem;
-  color: #002244;
-  line-height: 2rem;
-}
-
-.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-details {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  gap: 1rem;
-}
-
-.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-details-subtitle {
   font-size: 1.3rem;
+  color: #002244;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description p {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  color: #000;
+}
+
+.DecarbonizingInfrastructure .Decarbonizing-Infrastructure-des-container {
+  position: absolute;
+  left: 33%;
+  top: 58%;
+  font-size: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.Decarbonizing-Infrastructure-des-container-1 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 36%;
+  gap: 0.5rem;
 }
 
 .DecarbonizingInfrastructure
-  .Decarbonizing-Infrastructure-details-subtitle-details {
-  font-size: 1rem;
+  .Decarbonizing-Infrastructure-des-container
+  .color-rectangle-dark-blue {
+  background-color: #002444;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
+.DecarbonizingInfrastructure
+  .Decarbonizing-Infrastructure-des-container
+  .color-rectangle-1 {
+  background-color: #005081;
+  width: 0.5rem;
+  height: 0.5rem;
+}
 
+.DecarbonizingInfrastructure
+  .Decarbonizing-Infrastructure-des-container
+  .color-rectangle-2 {
+  background-color: #009fd9;
+  width: 0.5rem;
+  height: 0.5rem;
+}
 
-@media (max-width: 649px) {
-  .DecarbonizingInfrastructure .Header3 .container {
-    padding-bottom: 0;
-  }
+.DecarbonizingInfrastructure
+  .Decarbonizing-Infrastructure-des-container
+  .color-rectangle-3 {
+  background-color: #46c5eb;
+  width: 0.5rem;
+  height: 0.5rem;
+}
 
-  .container.noPTop {
-    padding-top: 1rem;
+.ico-text-card-4-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ico-text-card-4-container .ico-text-card-4 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  /* gap: 2rem; */
+  border-radius: 25px;
+  border-top: 3px solid #00a996;
+}
+
+.ico-text-card-4-container .ico-text-card-4 .ico-text-card-4-ico {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ico-text-card-4-container .ico-text-card-4 .ico-text-card-4-ico img {
+  width: 10%;
+}
+
+.ico-text-card-4-container
+  .ico-text-card-4
+  .ico-text-card-4-ico
+  .ico-text-card-4-title {
+  align-items: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: #141453;
+}
+
+.ico-text-card-4-description p {
+  margin: 1rem 0.5rem;
+}
+
+.ico-text-card-5-container {
+  width: 100%;
+}
+
+.ico-text-card-5 {
+  background-color: #002244;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 25px;
+}
+
+.ico-text-card-5 p {
+  color: #fff;
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+@media (min-width: 1400px) {
+  .DecarbonizingInfrastructure .mTop2 {
+    margin: 3rem 0;
   }
   .DecarbonizingInfrastructure .hero {
-    height: 360px;
+    height: 640px;
   }
-
   .DecarbonizingInfrastructure .hero-content h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .DecarbonizingInfrastructure .hero-content {
-    bottom: 2rem;
+    font-size: 3.25rem;
   }
 
   .DecarbonizingInfrastructure .hero-content p {
-    font-size: 0.875rem;
+    font-size: 1.125rem;
   }
-}
-
-@media (max-width: 767px) {
   .DecarbonizingInfrastructure .list-title {
-    text-align: left;
-  }
-}
-
-@media (min-width: 768px) {
-  .DecarbonizingInfrastructure .border {
-    .list-title {
-      font-size: 1.1rem;
-      margin-bottom: 1rem;
-    }
-  }
-}
-
-@media (max-width: 845px) {
-  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-section {
-    padding: 1rem 1rem 1rem 1rem;
-  }
-
-  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-
-  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-img {
-    width: 100%;
-  }
-
-  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-    justify-content: left;
-    align-content: left;
-  }
-
-  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description h2 {
-    margin: 1rem 1rem 0 0;
     font-size: 1.3rem;
-    color: #002244;
+    margin: 1rem 0 2.5rem 0;
   }
+}
 
-  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-details {
-    display: flex;
-    flex-direction: column;
-    padding: 0rem;
-    gap: 0.5rem;
-  }
-
-  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-details-subtitle {
-    font-size: 1.2rem;
+@media (max-width: 1390px) {
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    h2 {
+    font-size: 1.5rem;
   }
 
   .DecarbonizingInfrastructure
-    .Decarbonizing-Infrastructure-details-subtitle-details {
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-description-container {
+    margin-left: -1.1rem;
+  }
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description {
+    margin-left: -1.9rem;
+    width: 45%;
+  }
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-des-container {
+    left: 30%;
+    top: 56%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .DecarbonizingInfrastructure .list-title {
+    font-size: 1.3rem;
+    margin: 1rem 0 1rem 0;
+  }
+}
+
+@media (max-width: 1150px) {
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-des-container {
+    position: static;
+    padding-top: 1.5rem;
+  }
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-img {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0.9rem;
+    min-width: 180px;
+  }
+
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    h2 {
+    font-size: 2rem;
+  }
+
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    p {
+    font-size: 1.2rem;
+  }
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description {
+    width: 100%;
+    margin-left: 0.9rem;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 1090px) {
+
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description {
+    margin: 0;
+  }
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    h2 {
+    font-size: 1.3rem;
+  }
+
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .DecarbonizingInfrastructure .mTop2 {
+    margin: 3rem 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    h2 {
+    font-size: 1.3rem;
+  }
+
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 890px) {
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    h2 {
     font-size: 1rem;
   }
 
-  .Decarbonizing-Infrastructure-section .color-dark {
-    background: none;
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    p {
+    font-size: 0.7rem;
   }
 }
 
@@ -166,39 +396,109 @@
   margin: 1rem 0 0 0;
   font-size: 0.9375rem;
 }
+/* 
 
-@media (min-width: 1024px) {
-  .DecarbonizingInfrastructure .mTop2 {
-    margin: 3rem 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  .DecarbonizingInfrastructure .list-title {
+@media (max-width: 829px) {
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    h2 {
     font-size: 1.3rem;
-    margin: 1rem 0 1rem 0;
+  }
+
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    p {
+    font-size: 0.9rem;
+  }
+} */
+
+@media (min-width: 768px) {
+  .DecarbonizingInfrastructure .list-title {
+    text-align: left;
+  }
+
+  .DecarbonizingInfrastructure .border {
+    .list-title {
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
   }
 }
 
-@media (min-width: 1400px) {
-  .DecarbonizingInfrastructure .mTop2 {
-    margin: 3rem 0;
+@media (max-width: 768px) {
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    h2 {
+    font-size: 1rem;
+  }
+
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    p {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 649px) {
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-section {
+    padding: 2rem;
+  }
+  .Decarbonizing-Infrastructure-des-container-1 {
+    width: 100%;
+    justify-content: left;
+  }
+  .DecarbonizingInfrastructure .Header3 .container {
+    padding-bottom: 0;
+  }
+
+  .container.noPTop {
+    padding-top: 1rem;
   }
   .DecarbonizingInfrastructure .hero {
-    height: 640px;
+    height: 360px;
   }
+
   .DecarbonizingInfrastructure .hero-content h3 {
-    font-size: 3.25rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .DecarbonizingInfrastructure .hero-content {
+    bottom: 2rem;
   }
 
   .DecarbonizingInfrastructure .hero-content p {
-    font-size: 1.125rem;
+    font-size: 0.875rem;
   }
-  .DecarbonizingInfrastructure .list-title {
-    font-size: 1.3rem;
-    margin: 1rem 0 2.5rem 0;
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-img {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0.9rem;
   }
-}
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    h2 {
+    font-size: 1rem;
+  }
 
-@media (min-width: 1600px) {
+  .DecarbonizingInfrastructure
+    .Decarbonizing-Infrastructure-img
+    .image-content
+    p {
+    font-size: 0.8rem;
+  }
+
+  .DecarbonizingInfrastructure .center-light-text {
+    margin: 1.5rem 0;
+  }
+
+  .DecarbonizingInfrastructure .center-light-text-2 {
+    font-size: 0.7rem;
+  }
 }
