@@ -327,9 +327,7 @@ export default function QII3LandingPage() {
                 videoTitle="The Environmental Challenge and Opportunity"
                 cardTitle={
                   <>
-                    <span>Unlocking the Potential of</span> <br />
-                    Life Cycle Costing
-                  </>
+                    <span>The Environmental Challenge and Opportunity</span></>
                 }
                 description=""
                 duration="3 min watch"
