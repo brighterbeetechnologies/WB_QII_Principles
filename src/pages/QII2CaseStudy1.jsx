@@ -39,8 +39,7 @@ export default function QII2CaseStudy1() {
             }}
           >
             <h2 className="main-title">
-              <span className="video-tag">VIDEO</span>
-              <br />
+              <div className="video-tag">VIDEO</div>
               <br />
               <span>QII.2 in Action</span>
               <br />
@@ -50,7 +49,7 @@ export default function QII2CaseStudy1() {
               sustainability.
               <br />
               <br />
-              <span className="snapshot-video-duration">
+              <p className="snapshot-video-duration">
                 <svg width="14" height="14" viewBox="0 0 20 20">
                   <path
                     fillRule="evenodd"
@@ -59,7 +58,7 @@ export default function QII2CaseStudy1() {
                   />
                 </svg>
                 3 min watch
-              </span>
+              </p>
             </h2>
 
             <div className="qii-video-cnt">

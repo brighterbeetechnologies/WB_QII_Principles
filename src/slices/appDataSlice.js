@@ -298,7 +298,7 @@ export const appDataSlice = createSlice({
         principles: 1,
         highlight: 0,
         target: "_blank",
-        desc: " Demonstrates the use of Performance-Based Contracts (PBC) to incentivize non-revenue water reduction.",
+        desc: " Demonstrates the use of Performance-Based Contracts to incentivize non-revenue water reduction.",
         format: 1,
         stage: 2,
         income: 0,
@@ -313,7 +313,7 @@ export const appDataSlice = createSlice({
         principles: 1,
         highlight: 0,
         target: "_blank",
-        desc: "Summarizes a procurement approach for a real-life project where annuity payments were linked to long-term O&M performance.",
+        desc: "Summarizes a procurement approach where annuity payments were linked to long-term O&M performance.",
         format: 1,
         stage: 2,
         income: 0,
@@ -327,7 +327,7 @@ export const appDataSlice = createSlice({
           "https://www.gihub.org/infrastructure-technology-use-cases/case-studies/pre-fabrication-technology-for-modular-construction/",
         type: "Case Study",
         title:
-          "Pre-Fabrication Technology for Modular Construction Global Infrastructure Hub",
+          "Global Pre-Fabrication Technology for Modular Construction Global Infrastructure Hub",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -343,7 +343,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/522181612428427520/disruptive-technologies-in-public-procurement",
         type: "Case Study",
-        title: "Disruptive Technologies in Public Procurement World Bank",
+        title: "Global Disruptive Technologies in Public Procurement World Bank",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -428,7 +428,7 @@ export const appDataSlice = createSlice({
           "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean/",
         type: "Case Study",
         title:
-          "AI and Deep Learning for Identifying Pavement Failures Global Infrastructure Hub",
+          "Global AI and Deep Learning for Identifying Pavement Failures Global Infrastructure Hub",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -497,7 +497,7 @@ export const appDataSlice = createSlice({
           "https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf",
         type: "Case Study",
         title:
-          "Report Revisiting Water Pricing for Affordable and Sustainable Water Services World Bank",
+          "Global Revisiting Water Pricing for Affordable and Sustainable Water Services World Bank",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -616,7 +616,7 @@ export const appDataSlice = createSlice({
         paths: "https://www.gihub.org/infrastructure-output-specifications/",
         type: "Guidance",
         title:
-          "Reference Guide on Output Specifications for Quality Infrastructure Global Infrastructure Hub",
+          "Global Reference Guide on Output Specifications for Quality Infrastructure Global Infrastructure Hub",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -814,7 +814,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://ppp.worldbank.org/public-private-partnership/Innovative_Revenues_Infrastructure/Table_of_Contents",
         type: "Guidance",
-        title: "Innovative Revenues for Infrastructure Guidelines World Bank",
+        title: "Global Innovative Revenues for Infrastructure Guidelines World Bank",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -830,7 +830,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf",
         type: "Guidance",
-        title: "Investment in Infrastructure GFDRR",
+        title: "Global Investment in Infrastructure GFDRR",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -998,7 +998,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
         type: "Case Study",
-        title: "Environmental and Social Framework World Bank (2017)",
+        title: "Global Environmental and Social Framework World Bank (2017)",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -2012,7 +2012,7 @@ export const appDataSlice = createSlice({
         paths: "https://georisk.gov.ph/",
         type: "Case study  ",
         title:
-          "Geospatial Information Management and Analysis Project for Hazards and Risk Assessment in the Philippines",
+          "Philippines Geospatial Information Management and Analysis Portal",
         highlight: 0,
         target: "_blank",
         principles: 3,

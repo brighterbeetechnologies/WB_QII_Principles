@@ -30,7 +30,7 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/image.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Global Infrastructure Indicators Dashboard</strong> <br />
           World Bank
         </p>
@@ -72,7 +72,7 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Japan Association for Smart Cities in ASEAN</strong>
         </p>
       ),
@@ -92,7 +92,7 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>GovTech Maturity Index Data Dashboard</strong> <br />World Bank
         </p>
       ),
@@ -143,7 +143,7 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/shutterstock_2370519757.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
            Digital Public Infrastructure for Digital Governments​
           </strong> <br />

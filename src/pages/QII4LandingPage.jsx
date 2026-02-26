@@ -489,9 +489,9 @@ export default function QII4LandingPage() {
                   </strong>
                 </p>
               </div> */}
-              <Video
+              <Video 
                 thumbnail="images/qii4/QII_4_video_thumbnail.png"
-                videoUrl="./video/LandingPageVideo.mp4"
+                videoUrl=""
                 videoTitle="Unlocking the Potential of Life Cycle Costing"
                 cardTitle={
                   <>

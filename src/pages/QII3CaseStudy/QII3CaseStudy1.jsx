@@ -37,19 +37,17 @@ export default function QII3CaseStudy1() {
             }}
           >
             <h2 className="main-title">
-              <span className="video-tag">VIDEO</span>
-              <br />
+              <div className="video-tag">VIDEO</div>
               <br />
               <span>QII.3 in Action</span>
               <br />
+              <br />
               <p>
                 Serbia <br />
-                Belgrade Waste-to-Energy PPP: Turning a Liability into a Climate
-                Asset
+                Belgrade Waste-to-Energy PPP: Turning a Liability into a Climate Asset
               </p>
               <br />
-              <br />
-              <span className="snapshot-video-duration">
+              <p className="snapshot-video-duration">
                 <svg width="14" height="14" viewBox="0 0 20 20">
                   <path
                     fillRule="evenodd"
@@ -58,7 +56,7 @@ export default function QII3CaseStudy1() {
                   />
                 </svg>
                 3 min watch
-              </span>
+              </p>
             </h2>
             <div className="qii-video-cnt">
               <div className="case-study-play-btn">

@@ -90,8 +90,8 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png",
       title: (
-        <p>
-          <strong>Environmental and Social Framework (ESF)​</strong> <br />
+        <p>Global <br />
+          <strong>Environmental and Social Framework​</strong> <br />
           World Bank
         </p>
       ),
@@ -112,7 +112,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             IFC Performance Standards on Environmental and Social
             Sustainability​
@@ -140,7 +140,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Infrastructure_Standards.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Infrastructure Standards​</strong> <br />
           International Organization for Standardization
         </p>
@@ -220,7 +220,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Equator Principles.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>​Equator Principles</strong>
         </p>
       ),
@@ -241,7 +241,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>LEED​</strong> <br />
         </p>
       ),
@@ -263,7 +263,7 @@ export default function QualityEnvironmentalStandards() {
     {
       image: "images/newresource/BREEAM-Infrastructure.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>​BREEAM Infrastructure</strong>{" "}
         </p>
       ),
@@ -286,7 +286,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/shutterstock_2667061147.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Framework for SDG-Aligned Finance</strong> <br />
           OECD & UNDP
         </p>
@@ -307,7 +307,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Infrastructure Standards – Building Blocks for a Resilient Future
           </strong>{" "}
@@ -331,7 +331,7 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Global-Environment-Outlook.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Global Environment Outlook (GEO-7)</strong> <br />
           UNEP
         </p>

@@ -39,8 +39,7 @@ export default function QII4CaseStudy4() {
             }}
           >
             <h2 className="main-title">
-              <span className="video-tag">VIDEO</span>
-              <br />
+              <div className="video-tag">VIDEO</div>
               <br />
               {/* <p>Solomon Islands</p>
               <span>Modular Bridges for Resilient Transport </span>  */}
@@ -53,8 +52,7 @@ export default function QII4CaseStudy4() {
                 strengthening vital transport infrastructure in the Pacific.
               </p>
               <br />
-              <br />
-              <span className="snapshot-video-duration">
+              <p className="snapshot-video-duration">
                 <svg width="14" height="14" viewBox="0 0 20 20">
                   <path
                     fillRule="evenodd"
@@ -63,7 +61,7 @@ export default function QII4CaseStudy4() {
                   />
                 </svg>
                 3 min watch
-              </span>
+              </p>
             </h2>
             <div className="qii-video-cnt">
               <div className="case-study-play-btn">

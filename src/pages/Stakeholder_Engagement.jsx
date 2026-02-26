@@ -62,7 +62,7 @@ export default function Stakeholder_Engagement() {
       image:
         "images/qii5/StakeholderEngagement/Mainstreaming-Gender-in-Infrastructure.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Mainstreaming Gender in Infrastructure</strong>
         </p>
       ),
@@ -87,7 +87,7 @@ export default function Stakeholder_Engagement() {
     {
       image: "images/qii5/shutterstock_2528541047.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Inclusive Infrastructure “Data Collection and Stakeholder
             Identification”
@@ -169,7 +169,7 @@ export default function Stakeholder_Engagement() {
       image:
         "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>OECD Infrastructure Toolkit</strong> <br />
           Organisation for Economic Co-operation and Development​
         </p>

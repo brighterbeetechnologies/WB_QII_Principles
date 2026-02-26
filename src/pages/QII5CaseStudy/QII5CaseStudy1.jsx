@@ -39,11 +39,8 @@ export default function QII5CaseStudy1() {
             }}
           >
             <h2 className="main-title">
-              <span className="video-tag">VIDEO</span>
+              <div className="video-tag">VIDEO</div>
               <br />
-              <br />
-              {/* <p>Solomon Islands</p>
-              <span>Modular Bridges for Resilient Transport </span>  */}
               <span>QII.5 in Action</span>
               <br />
               <br />
@@ -52,8 +49,7 @@ export default function QII5CaseStudy1() {
             transforming public transport in Mozambique's capital.
               </p>
               <br />
-              <br />
-              <span className="snapshot-video-duration">
+              <p className="snapshot-video-duration">
                 <svg width="14" height="14" viewBox="0 0 20 20">
                   <path
                     fillRule="evenodd"
@@ -62,7 +58,7 @@ export default function QII5CaseStudy1() {
                   />
                 </svg>
                 3 min watch
-              </span>
+              </p>
             </h2>
             <div className="qii-video-cnt">
               <div className="case-study-play-btn">

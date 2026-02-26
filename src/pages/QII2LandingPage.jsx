@@ -35,8 +35,9 @@ export default function QII2LandingPage() {
       title: "Ganga River Wastewater Program",
       country: "India",
       org: "World Bank",
+      highlight: 1,
       description:
-        "Summarizes a procurement approach for a life project where annuity payments were linked to long-term O&M performance.",
+        "Summarizes a procurement approach where annuity payments were linked to long-term O&M performance.",
       img_path: "images/qii2/Ganga_case_study.png",
       path: "/qii2casestudy2",
       target: "_self",
@@ -222,7 +223,7 @@ export default function QII2LandingPage() {
               Building Blocks Of Life Cycle Costing Approach
             </h1>
             <h3 className="light-font">
-              Economic Efficiency transforms infrastructure by leveraging
+              Economic efficiency transforms infrastructure by leveraging
               advanced technologies, prioritizing long-term value, and driving
               policy reforms for smarter procurement and sustainable outcomes.
             </h3>
@@ -277,7 +278,7 @@ export default function QII2LandingPage() {
       />
       <section className="color-dark">
         <div className="container ">
-          <div className="video-text-cnt"> 
+          <div className="video-text-cnt">
             <div className="video-text-box">
               {/* <img src="images/qii2/Landing-QII-2.gif" alt="" />
               <div className="vid-cnt">
@@ -433,10 +434,11 @@ export default function QII2LandingPage() {
             {resourceArray.map((p, index) => {
               return (
                 <article
-                  className="page-resource-card"
+                  // className="page-resource-card"
                   key={index}
                   role="listitem"
                   style={{ backgroundImage: `url(${p.img})` }}
+                  className={`page-resource-card box-card ${p.highlight && "highlighted"}`}
                 >
                   <div className="page-resource-link">
                     <div className="page-resource-body">
@@ -461,7 +463,7 @@ export default function QII2LandingPage() {
                         alt={p.title}
                       />
                       {/* <div className="page-resource-img-cnt">
-                    </div> */}
+                                          </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
                           {p.country && (
@@ -481,14 +483,14 @@ export default function QII2LandingPage() {
                           {p.description}
                         </div>
                         {/* <Popover
-                          content={p.description}
-                          title={p.title}
-                          trigger="click"
-                        >
-                          <div className="page-resource-description">
-                            Read More...
-                          </div>
-                        </Popover> */}
+                                                content={p.description}
+                                                title={p.title}
+                                                trigger="click"
+                                              >
+                                                <div className="page-resource-description">
+                                                  Read More...
+                                                </div>
+                                              </Popover> */}
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a
@@ -511,6 +513,20 @@ export default function QII2LandingPage() {
                       </div>
                     </div>
                   </div>
+                  {p.highlight ? (
+                    <div
+                      className="highlighted-badge"
+                      style={{
+                        background: `${p.highlight ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
+                        backgroundSize: "100% 100%",
+                      }}
+                    >
+                      <img src="images/Star_for_spotligh.svg" alt="" />
+                      {p.highlight && <>Spotlight Case Study</>}
+                    </div>
+                  ) : (
+                    <></>
+                  )}
                 </article>
               );
             })}

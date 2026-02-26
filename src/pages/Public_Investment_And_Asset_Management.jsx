@@ -14,7 +14,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Well Spent</strong> <br />International Monetary Fund
         </p>
       ),
@@ -43,7 +43,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Public Investment Management Assessment​</strong> <br />International Monetary Fund
         </p>
       ),
@@ -65,7 +65,7 @@ export default function Public_Investment_And_Asset_Management() {
       image:
         "images/qii6/shutterstock_2498436507.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Implementation Handbook for Quality Infrastructure Investment
           </strong>{" "}
@@ -89,7 +89,7 @@ export default function Public_Investment_And_Asset_Management() {
       image:
         "images/qii6/shutterstock_2653389623.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>InfraGov Assessment Framework</strong> <br />
           World Bank
         </p>
@@ -119,7 +119,7 @@ export default function Public_Investment_And_Asset_Management() {
       image:
         "images/qii6/shutterstock_1832080000.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Getting Infrastructure Right</strong> <br />
           Organisation for Economic Co-operation and Development
         </p>
@@ -150,7 +150,7 @@ export default function Public_Investment_And_Asset_Management() {
     {
       image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Well Spent</strong> <br />International Monetary Fund 
         </p>
       ),

@@ -77,7 +77,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Integrating Green and Gray Creating Next Generation Infrastructure.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Integrating Green and Gray: Creating Next Generation Infrastructure
           </strong>
@@ -101,7 +101,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Infrastructure - Guide for Water Management.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Green Infrastructure - Guide for Water Management</strong>
           <br />
           UNEP
@@ -123,7 +123,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Green Roads for Water</strong>
           <br />
           World Bank
@@ -145,7 +145,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Resilient Infrastructure and Buildings Hub</strong>
           <br />
           World Bank
@@ -168,7 +168,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/UN Principles for Responsible Investment Integrating Biodiversity Considerations into Infrastructure.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             UN Principles for Responsible Investment: Integrating Biodiversity
             Considerations into Infrastructure
@@ -267,7 +267,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
     {
       image: "images/qii3/shutterstock_755940463.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             IFC Catalogue of Nature-based Solutions for Infrastructure Projects
           </strong>

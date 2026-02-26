@@ -15,7 +15,7 @@ export default function Infrastructure_Institutions() {
       image:
         "images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Infrastructure Governance​</strong> <br />Infrastructure Governance Facility​
         </p>
       ),
@@ -42,7 +42,7 @@ export default function Infrastructure_Institutions() {
       image:
         "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Effective Multi-Level Public Investment​</strong> <br />Organisation for Economic Co-operation and Development 
         </p>
       ),
@@ -75,7 +75,7 @@ export default function Infrastructure_Institutions() {
       image:
         "images/qii6/shutterstock_2704307853.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Cost Infrastructure Transparency Initiative</strong> <br />Infrastructure Transparency Initiative (CoST)
         </p>
       ),
@@ -92,7 +92,7 @@ export default function Infrastructure_Institutions() {
     {
       image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Well Spent</strong> <br />International Monetary Fund
         </p>
       ),
@@ -123,7 +123,7 @@ export default function Infrastructure_Institutions() {
       image:
         "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Integrated Approaches in Action</strong> <br /> United Nations Environment Programme
         </p>
       ),
@@ -150,7 +150,7 @@ export default function Infrastructure_Institutions() {
       image:
         "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Governance of Quality Infrastructure Investment​</strong> <br />Organisation for Economic Co-operation and Development and International Monetary Fund 
         </p>
       ),

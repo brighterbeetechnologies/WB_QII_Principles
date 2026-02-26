@@ -38,9 +38,8 @@ export default function QII6CaseStudy1() {
               margin: "1rem 0 0 0",
             }}
           >
-            <h2 className="main-title">
-              <span className="video-tag">VIDEO</span>
-              <br />
+            <h2 className="main-title-1">
+              <div className="video-tag">VIDEO</div>
               <br />
               <span>QII.6 in Action</span>
               <br />
@@ -52,7 +51,7 @@ export default function QII6CaseStudy1() {
               </p>
               <br />
               <br />
-              <span className="snapshot-video-duration">
+              <p className="snapshot-video-duration">
                 <svg width="14" height="14" viewBox="0 0 20 20">
                   <path
                     fillRule="evenodd"
@@ -61,10 +60,10 @@ export default function QII6CaseStudy1() {
                   />
                 </svg>
                 3 min watch
-              </span>
+              </p>
             </h2>
             <div className="qii-video-cnt">
-              <div className="case-study-play-btn">
+              <div className="case-study-play-btn-1">
                 <button
                   className="video-play-btn icon-play"
                   onClick={() => {

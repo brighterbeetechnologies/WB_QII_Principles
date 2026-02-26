@@ -20,8 +20,7 @@ export default function DiagnosingVulnerabilities() {
           Philippines
           <br />
           <strong>
-            Geospatial Information Management and Analysis Project for Hazards
-            and Risk Assessment
+            Geospatial Information Management and Analysis Portal
           </strong>
           <br />
         </p>
@@ -65,7 +64,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Climate Knowledge Portal</strong>
           <br />
           World Bank
@@ -83,7 +82,7 @@ export default function DiagnosingVulnerabilities() {
     {
       image: "images/qii4/updated/GDFR_Thinkhazard.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>ThinkHazard!</strong>
           <br />
           GFDRR
@@ -108,7 +107,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Vanuatu Post-Disaster Needs Assessment</strong>
           <br />
           GFDRR
@@ -154,7 +153,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Notre Dame Global Adaptation Initiative.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Notre Dame Global Adaptation Initiative</strong>
           <br />
           University of Notre Dame
@@ -177,7 +176,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Jamaica Disaster Vulnerability Reduction Project.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Jamaica Disaster Vulnerability Reduction Project</strong>
         </p>
       ),
@@ -198,7 +197,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1).png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1)
           </strong>
@@ -219,7 +218,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Disaster Risk Profiles (GFDRR).png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Disaster Risk Profiles</strong>
           <br />
           GFDRR
@@ -241,7 +240,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Resilience Rating System</strong>
           <br />
           World Bank
@@ -261,9 +260,9 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Global Infrastructure Risk.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
-            Global Infrastructure Risk Model and Resilience Index (GIRI)
+            Global Infrastructure Risk Model and Resilience Index
           </strong>
           <br />
           Coalition for Disaster Resilient Infrastructure
@@ -282,7 +281,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/INFORM Climate Change Tool (European Commission).png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>INFORM Climate Change Tool</strong>
           <br />
           European Commission

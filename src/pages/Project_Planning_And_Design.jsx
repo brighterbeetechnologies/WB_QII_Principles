@@ -36,10 +36,10 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
-      image:
-        "images/qii5/shutterstock_2698330999.jpg",
+      image: "images/qii5/shutterstock_2698330999.jpg",
       title: (
         <p>
+          Global <br />
           <strong>Procurement Rated Criteria</strong> <br />
           World Bank
         </p>
@@ -59,8 +59,9 @@ export default function Project_Planning_And_Design() {
         "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
       title: (
         <p>
+          Global <br />
           <strong>Mainstreaming Gender in Public Procurement</strong> <br />
-          World Bank 
+          World Bank
         </p>
       ),
       buttonText: "Guidance",
@@ -78,6 +79,7 @@ export default function Project_Planning_And_Design() {
         "images/qii5/ProjectPlanningandDesign/UK-Green-Cities-Infrastructure-(ICED)-facility.png",
       title: (
         <p>
+          Global <br />
           <strong>UK Green Cities & Infrastructure (ICED) facility</strong>
         </p>
       ),
@@ -95,10 +97,10 @@ export default function Project_Planning_And_Design() {
 
   const step2Cards = [
     {
-      image:
-        "images/qii5/shutterstock_2535975537.jpg",
+      image: "images/qii5/shutterstock_2535975537.jpg",
       title: (
         <p>
+          Global <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
         </p>
       ),
@@ -112,8 +114,8 @@ export default function Project_Planning_And_Design() {
           <br />
           <br />
           <span className="secound-desc">
-          PPP Project Stages Three and Four: Drafting the Contract and Managing
-          the Transaction, pg 37
+            PPP Project Stages Three and Four: Drafting the Contract and
+            Managing the Transaction, pg 37
           </span>
         </p>
       ),
@@ -123,6 +125,7 @@ export default function Project_Planning_And_Design() {
         "images/qii5/ProjectPlanningandDesign/World-Bank-Bidding-Documents-Contractual-Provisions-for-Inclusion.png",
       title: (
         <p>
+          Global <br />
           <strong>
             Bidding Documents and Contractual Provisions for Inclusion
           </strong>{" "}
@@ -140,10 +143,10 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
-      image:
-        "images/qii5/shutterstock_2476215753.jpg",
+      image: "images/qii5/shutterstock_2476215753.jpg",
       title: (
         <p>
+          Global <br />
           <strong>Responsible Contracting Project (RCP) Toolkit</strong>
         </p>
       ),
@@ -162,13 +165,16 @@ export default function Project_Planning_And_Design() {
 
   const step3Cards = [
     {
-      image:
-        "images/qii5/shutterstock_2346783481.jpg",
+      image: "images/qii5/shutterstock_2346783481.jpg",
       title: (
-        <p>Senegal​ <br />
+        <p>
+          Senegal​ <br />
           <strong>
-           Mainstreaming Universal Accessibility in the Built Environment Projects​ 
-          </strong><br />World Bank​
+            Mainstreaming Universal Accessibility in the Built Environment
+            Projects​
+          </strong>
+          <br />
+          World Bank​
         </p>
       ),
       buttonText: "Case Study",
@@ -181,22 +187,29 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
-      image:
-        "images/qii5/shutterstock_2665469265.jpg",
+      image: "images/qii5/shutterstock_2665469265.jpg",
       title: (
-        <p>Vietnam <br />
+        <p>
+          Vietnam <br />
           <strong>
-            Incorporating Universal Accessibility into Infrastructure Planning and Design​
-          </strong> <br />World Bank​
+            Incorporating Universal Accessibility into Infrastructure Planning
+            and Design​
+          </strong>{" "}
+          <br />
+          World Bank​
         </p>
       ),
       highlight: 2,
       buttonText: "Case Study",
       // link: "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
-      link:"",
+      link: "",
       content: (
         <p>
-          This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.
+          This highlights the integration of universal accessibility and
+          inclusive design in urban infrastructure. With support from the World
+          Bank and Japanese experts, the projects embedded accessibility
+          measures from the outset, providing technical input, localized
+          guidelines, and capacity-building for city officials.
         </p>
       ),
     },
@@ -205,6 +218,7 @@ export default function Project_Planning_And_Design() {
         "images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png",
       title: (
         <p>
+          Global <br />
           <strong>
             ISO 21542:2021 – Building Construction: Accessibility and Usability
             of the Built Environment
@@ -226,6 +240,7 @@ export default function Project_Planning_And_Design() {
       image: "images/qii5/ProjectPlanningandDesign/Silver-Hues.png",
       title: (
         <p>
+          Global <br />
           <strong>Silver Hues</strong>
         </p>
       ),
@@ -251,7 +266,7 @@ export default function Project_Planning_And_Design() {
           { path: "/qii5", title: "QII.5 Inclusion" },
           {
             path: "/Project_Planning_And_Design",
-            title: "Inclusion in Project Planning and Design",
+            title: "Inclusion in Project Design",
           },
         ],
       }),
@@ -262,7 +277,7 @@ export default function Project_Planning_And_Design() {
       <section className="color-light">
         <Header3
           img="images/qii5/ProjectPlanningandDesign/Cost-recovery-internal-landing-main.png"
-          title={"Inclusion in Project Planning and Design"}
+          title={"Inclusion in Project Design"}
           hideDeskTitle={true}
         >
           <div className="hero-content">
@@ -273,7 +288,7 @@ export default function Project_Planning_And_Design() {
                 className="qii-badge"
               />
               <h1 className="header-title desk-title">
-                Inclusion in Project Planning and Design
+                Inclusion in Project Design
               </h1>
             </div>
           </div>
@@ -281,7 +296,7 @@ export default function Project_Planning_And_Design() {
             <p className="light-font">
               The project planning and design stage is where the goal of
               inclusive infrastructure is translated into practical reality.
-              This requires integrating inclusive objectives into design
+              This requires integrating inclusivity objectives into design
               specifications and procurement processes.
             </p>
           </div>

@@ -96,15 +96,16 @@ export default function Procurement() {
           World Bank
         </p>
       ),
-      buttonText:"View the full publication​",
-      link:"pdf/Ganga_case_study.pdf",
+      buttonText: "View the full publication​",
+      link: "pdf/Ganga_case_study.pdf",
       buttonText2: "Case Study",
-      link2:"https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/",
+      link2:
+        "https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/",
       highlight: 2,
       content: (
         <p>
-          Summarizes a procurement approach for a real-life project where
-          annuity payments were linked to long-term O&M performance.
+          Summarizes a procurement approach where annuity payments were linked
+          to long-term O&M performance.
         </p>
       ),
     },
@@ -123,7 +124,7 @@ export default function Procurement() {
       link: "https://www.ppiaf.org/documents/5629",
       content: (
         <p>
-          Demonstrates the use of Performance-Based Contracts (PBC) to
+          Demonstrates the use of Performance-Based Contracts to
           incentivize non-revenue water reduction.
         </p>
       ),
@@ -131,7 +132,7 @@ export default function Procurement() {
     {
       image: "images/procurement/ReferenceGuide.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Reference Guide on Output Specifications for Quality Infrastructure
           </strong>
@@ -154,7 +155,7 @@ export default function Procurement() {
     {
       image: "images/procurement/Pre-Fabrication.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Pre-Fabrication Technology for Modular Construction</strong>
           <br />
           Global Infrastructure Hub
@@ -173,7 +174,7 @@ export default function Procurement() {
     {
       image: "images/procurement/Disruptive.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Disruptive Technologies in Public Procurement</strong>
           <br />
           World Bank
@@ -245,7 +246,7 @@ export default function Procurement() {
         <div className="container internal-pages-container">
           <div className="link-text">
             <p>
-             <strong>Spotlight on PPPs</strong>
+              <strong>Spotlight on PPPs</strong>
             </p>
             <p className="mTop">
               The procurement of infrastructure under Public- Private

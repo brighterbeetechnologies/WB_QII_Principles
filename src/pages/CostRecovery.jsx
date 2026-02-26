@@ -118,7 +118,7 @@ export default function CostRecovery() {
     {
       image: "images/costRecovery/TroubledTariffs.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Revisiting Water Pricing for Affordable and Sustainable Water
             Services
@@ -162,7 +162,7 @@ export default function CostRecovery() {
     {
       image: "images/costRecovery/InnovativeRevenues.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Innovative Revenues for Infrastructure Guidelines</strong>
           <br />
           World Bank
@@ -228,7 +228,7 @@ export default function CostRecovery() {
     {
       image: "images/costRecovery/lvc.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Investment in Infrastructure</strong>
           <br />
           GFDRR

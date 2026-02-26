@@ -92,7 +92,7 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/Climate Bonds Initiative.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Climate Bonds Initiative</strong>
         </p>
       ),
@@ -109,7 +109,7 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>EU Taxonomy Compass</strong>
         </p>
       ),
@@ -128,7 +128,7 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/FAST-Infra Label.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>FAST-Infra Label</strong>
         </p>
       ),
@@ -209,7 +209,7 @@ export default function FinancingResilience() {
       image:
         "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Financing Climate Adaptation and Nature-Based Infrastructure
           </strong>
@@ -231,7 +231,7 @@ export default function FinancingResilience() {
       image:
         "images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Transport Resilience Financing, Resources and Opportunities
           </strong>
@@ -252,7 +252,7 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Disaster Risk Finance</strong>
           <br />GFDRR
         </p>

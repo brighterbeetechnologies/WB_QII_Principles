@@ -14,7 +14,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/To-Have-and-Have-Not.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             To Have and Have Not – How to Bridge the Gap in Opportunities
           </strong>{" "}
@@ -40,7 +40,7 @@ export default function Policies_Standards_Regulation() {
       image:
         "images/qii5/PoliciesandRegulation/Asian-Development-Bank(ADB)—Gender-Equality-and-Social-Inclusion.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Gender Equality and Social Inclusion (GESI) Guidance for
             Infrastructure
@@ -69,7 +69,7 @@ export default function Policies_Standards_Regulation() {
       image:
         "images/qii5/shutterstock_2528902161.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             JICA Thematic Guidelines for Inclusive Development, including
             Universal Design
@@ -90,7 +90,7 @@ export default function Policies_Standards_Regulation() {
       image:
         "images/qii5/PoliciesandRegulation/Gender-Inclusive-Urban-Planning-Design.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Gender-Inclusive Urban Planning Design</strong> <br /> World
           Bank ​
         </p>
@@ -118,7 +118,7 @@ export default function Policies_Standards_Regulation() {
       image:
         "images/qii5/PoliciesandRegulation/Mainstreaming-Gender-in-Infrastructure–Gender-Action-Plan.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Gender Action Plan</strong>
         </p>
       ),
@@ -146,7 +146,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/shutterstock_2337776975.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>She Drives Change</strong> <br />
           World Bank ​
         </p>
@@ -172,7 +172,7 @@ export default function Policies_Standards_Regulation() {
       image:
         "images/qii5/PoliciesandRegulation/Environmental-and-Social-Framework.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Environmental and Social Framework</strong> <br />
           World Bank ​
         </p>
@@ -191,7 +191,7 @@ export default function Policies_Standards_Regulation() {
       image:
         "images/qii5/PoliciesandRegulation/Inclusive-Infrastructure –Policy-Regulation&Standards.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             Inclusive Infrastructure – Policy, Regulation & Standards
           </strong>{" "}
@@ -212,7 +212,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/EU-Accessibility-Act(2019).png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>EU Accessibility Act (2019)</strong>
         </p>
       ),
@@ -278,7 +278,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/FAST-Infra-Label.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>FAST-Infra Sustainable Infrastructure Label</strong>
         </p>
       ),
@@ -297,7 +297,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
       title: (
-        <p>
+        <p>Global <br />
           <strong>Blue Dot Network</strong>
         </p>
       ),
@@ -315,7 +315,7 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/shutterstock_2478900781.jpg",
       title: (
-        <p>
+        <p>Global <br />
           <strong>
             OECD Principles for Private Sector Participation in Infrastructure
           </strong>{" "}
