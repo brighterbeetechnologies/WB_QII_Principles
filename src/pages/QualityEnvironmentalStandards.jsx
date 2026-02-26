@@ -26,13 +26,13 @@ export default function QualityEnvironmentalStandards() {
     },
     {
       id: 1,
-      title: "FAST Infra",
+      title: "FAST-Infra",
       country: "Global",
       org: false,
       description:
         "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing.",
       img_path:
-        "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
+        "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       path: "https://www.fastinfralabel.org/",
       target: "_blank",
     },

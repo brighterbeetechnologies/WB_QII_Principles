@@ -512,7 +512,7 @@ export default function Decarbonizing_Infrastructure() {
             sectors, and technology will play a key role.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <div className="ico-text-card-2-container">
+          {/* <div className="ico-text-card-2-container">
             <div className="ico-text-card-2">
               <div className="ico-text-card-2-ico">
                 <img src="images/qii3/icon/energy.svg" alt="" />
@@ -538,15 +538,15 @@ export default function Decarbonizing_Infrastructure() {
                 materials from old roadways.
               </p>
             </div>
-          </div>
-          <div className="ico-text-card-2-info">
+          </div> */}
+          {/* <div className="ico-text-card-2-info">
             <p>
               At a sector or project level, the{" "}
               <strong>Avoid-Shift-Improve (ASI) framework </strong>
               provides a useful hierarchy.
             </p>
-          </div>
-          <div className="ico-text-card-2-infographics">
+          </div> */}
+          {/* <div className="ico-text-card-2-infographics">
             <img
               className="desk-img"
               src="images/qii3/QII3/Landing/Infographic.png"
@@ -566,11 +566,16 @@ export default function Decarbonizing_Infrastructure() {
             <p className="ico-text-card-2-infographics-p3">
               Improve efficiency of remaining systems
             </p>
-          </div>
-          {/* <div className="ico-text-card-4-container">
+          </div> */}
+          <h2 className="center-text">SECTOR EXAMPLE</h2>
+          <div className="ico-text-card-4-container">
             <div className="ico-text-card-4">
               <div className="ico-text-card-4-ico">
-                <img src="images/qii3/icon/energy.svg" alt="" />
+                <img
+                  src="images/qii3/icon/energy.svg"
+                  alt=""
+                  className="energy-icon"
+                />
                 <p className="ico-text-card-4-title">Energy</p>
               </div>
               <div className="ico-text-card-4-description">
@@ -584,25 +589,78 @@ export default function Decarbonizing_Infrastructure() {
             </div>
             <div className="ico-text-card-4">
               <div className="ico-text-card-4-ico">
-                <img src="images/qii3/icon/transport.svg" alt="" />
+                <img
+                  src="images/qii3/icon/transport.svg"
+                  alt=""
+                  className="transport-icon"
+                />
                 <p className="ico-text-card-4-title">Transport</p>
               </div>
               <div className="ico-text-card-4-description">
-              <p>
-                Electric charging points and hydrogen fuelling stations are
-                critical enablers of vehicle decarbonization, while emissions
-                from road construction can be reduced in many ways, including
-                reducing materials consumption, and reuse and recycling of
-                materials from old roadways.
-              </p>
+                <p>
+                  Electric charging points and hydrogen fuelling stations are
+                  critical enablers of vehicle decarbonization, while emissions
+                  from road construction can be reduced in many ways, including
+                  reducing materials consumption, and reuse and recycling of
+                  materials from old roadways.
+                </p>
               </div>
             </div>
           </div>
           <div className="ico-text-card-5-container">
             <div className="ico-text-card-5">
-              <p>At a sector or project level, the Avoid-Shift-Improve (ASI) framework provides a useful hierarchy.</p>
+              <p>
+                At a sector or project level, the{" "}
+                <Link
+                  to={
+                    "https://www.transformative-mobility.org/wp-content/uploads/2023/03/ASI_TUMI_SUTP_iNUA_No-9_April-2019-Mykme0.pdf"
+                  }
+                  target="_blank"
+                  className="link"
+                >
+                  Avoid-Shift-Improve
+                </Link>{" "}
+                framework provides a useful hierarchy.
+              </p>
             </div>
-          </div> */}
+            <div className="ico-text-card-5-flow">
+              <div className="ico-text-card-5-infographics">
+                <div className="ico-text-card-5-infographics-letter">
+                  <p>A</p>
+                </div>
+                <div className="ico-text-card-5-infographics-letter-info">
+                  <p className="ico-text-card-5-infographics-letter-info-title">
+                    Avoid
+                  </p>
+                  <p>unnecessary emissions</p>
+                </div>
+              </div>
+              <span className="ico-text-card-5-arrow">›</span>
+              <div className="ico-text-card-5-infographics">
+                <div className="ico-text-card-5-infographics-letter">
+                  <p>S</p>
+                </div>
+                <div className="ico-text-card-5-infographics-letter-info">
+                  <p className="ico-text-card-5-infographics-letter-info-title">
+                    Shift
+                  </p>
+                  <p> to lower-carbon alternatives</p>
+                </div>
+              </div>
+              <span className="ico-text-card-5-arrow">›</span>
+              <div className="ico-text-card-5-infographics">
+                <div className="ico-text-card-5-infographics-letter">
+                  <p>I</p>
+                </div>
+                <div className="ico-text-card-5-infographics-letter-info">
+                  <p className="ico-text-card-5-infographics-letter-info-title">
+                    Improve 
+                  </p>
+                  <p> efficiency of remaining systems</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <VCardsPagination cardsData={step2Cards} />
           {/* <div className="VCard-cnt col3">
             <VCard

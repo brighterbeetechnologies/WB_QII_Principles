@@ -74,7 +74,7 @@ export default function GreenFinancingforInfrastructure() {
     },
     {
       image:
-        "images/qii3/GreenFinancingforInfrastructure/Sector-Specific Criteria.png",
+        "images/qii3/Sector_Specific.png",
       title: (
         <p>
           Global <br />
@@ -167,7 +167,7 @@ export default function GreenFinancingforInfrastructure() {
     },
     {
       image:
-        "images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png",
+        "images/qii3/GBP.png",
       title: (
         <p>Global <br />
           <strong>Green Bond Principles</strong>

@@ -1117,7 +1117,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths: "/not-given",
         type: "Case Study",
-        title: "Pakistan: Zephyr Wind Farm",
+        title: "Pakistan The Investment Value of Nature: The Case of Zephyr Power Limited Earth Security",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1126,10 +1126,8 @@ export const appDataSlice = createSlice({
         stage: 2,
         income: 0,
         industry: 3,
-        // "image": ""
-        image:
-          "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/UN Principles for Responsible Investment Integrating Biodiversity Considerations into Infrastructure.png",
-      },
+        "image": "images/qii3/pakistan.png"
+        },
       {
         id: 3,
         paths: "/qii4casestudy1",
@@ -1726,7 +1724,7 @@ export const appDataSlice = createSlice({
         income: 0,
         industry: 3,
         image:
-          "images/qii3/GreenFinancingforInfrastructure/Sector-Specific Criteria.png",
+          "images/qii3/Sector_Specific.png",
       },
       {
         id: 3,
@@ -1743,7 +1741,7 @@ export const appDataSlice = createSlice({
         income: 0,
         industry: 3,
         image:
-          "images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png",
+          "images/qii3/GBP.png",
       },
 
       //data-qii3

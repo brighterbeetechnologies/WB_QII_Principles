@@ -151,11 +151,23 @@
 }
 
 .ico-text-card-4-container {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+.ico-text-card-4-container:not(:first-child)::after {
+  content: "";
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: calc(100% - 2rem - 2rem);
+  width: 0px;
+  border: 1px dashed rgb(112, 112, 112, 0.5);
 }
 
 .ico-text-card-4-container .ico-text-card-4 {
@@ -169,7 +181,6 @@
   padding: 1rem;
   /* gap: 2rem; */
   border-radius: 25px;
-  border-top: 3px solid #00a996;
 }
 
 .ico-text-card-4-container .ico-text-card-4 .ico-text-card-4-ico {
@@ -178,7 +189,14 @@
   gap: 1rem;
 }
 
-.ico-text-card-4-container .ico-text-card-4 .ico-text-card-4-ico img {
+.ico-text-card-4-container .ico-text-card-4 .ico-text-card-4-ico .energy-icon {
+  width: 9%;
+}
+
+.ico-text-card-4-container
+  .ico-text-card-4
+  .ico-text-card-4-ico
+  .transport-icon {
   width: 10%;
 }
 
@@ -197,20 +215,74 @@
 }
 
 .ico-text-card-5-container {
-  width: 100%;
+  background-color: #002244;
+  padding: 1rem 0;
+  margin: 1rem auto;
+  border-radius: 25px;
+  width: 97%;
 }
 
 .ico-text-card-5 {
-  background-color: #002244;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 25px;
+  color: #fff;
 }
 
 .ico-text-card-5 p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  margin: 1rem 1rem 2rem 1rem;
+  text-align: center;
+}
+
+.ico-text-card-5-flow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0 4rem;
   margin: 1rem 0;
+}
+
+.ico-text-card-5-infographics {
+  display: flex;
+  gap: 1rem;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.ico-text-card-5-infographics-letter {
+  width: 2.5rem;
+  height: 2.5rem;
+  aspect-ratio: 1/1;
+  background-color: #fff;
+  color: #002244;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.ico-text-card-5-infographics-letter p {
+  font-size: 1.5rem;
+  color: #009fda;
+  font-weight: 900;
+}
+
+.ico-text-card-5-infographics-letter-info {
+  font-size: 0.9rem;
+}
+
+.ico-text-card-5-infographics-letter-info-title {
+  font-weight: bold;
+}
+
+.ico-text-card-5-arrow {
+  font-size: 2.8rem;
+  font-weight: 400;
+  color: #00a996;
+  line-height: 1;
+  flex-shrink: 0;
 }
 
 @media (min-width: 1400px) {
@@ -316,10 +388,19 @@
     background-color: #fff;
     border-radius: 25px;
   }
+  .ico-text-card-4-container .ico-text-card-4 {
+    height: 250px;
+  }
+  .ico-text-card-5-infographics-letter {
+    width: 2rem;
+    height: 2rem;
+  }
+  .ico-text-card-5-infographics-letter p {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 1090px) {
-
   .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-description {
     margin: 0;
   }
@@ -374,6 +455,16 @@
     p {
     font-size: 0.7rem;
   }
+  .ico-text-card-4-container .ico-text-card-4 {
+    height: 250px;
+  }
+  .ico-text-card-5-infographics-letter {
+    width: 1.9rem;
+    height: 1.9rem;
+  }
+  .ico-text-card-5-infographics-letter p {
+    font-size: 0.9rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -413,6 +504,34 @@
     font-size: 0.9rem;
   }
 } */
+
+@media (max-width: 800px) {
+  .ico-text-card-4-container {
+    flex-direction: column;
+    gap: 0rem;
+  }
+  .ico-text-card-4-container:not(:first-child)::after {
+    display: none;
+  }
+  .ico-text-card-4-container .ico-text-card-4 .ico-text-card-4-ico {
+    align-content: center;
+  }
+  .ico-text-card-5-container {
+    width: 50%;
+  }
+  .ico-text-card-5-flow {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem;
+    padding: 0 4rem;
+    margin: 1rem 0;
+  }
+  .ico-text-card-5-arrow {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+}
 
 @media (min-width: 768px) {
   .DecarbonizingInfrastructure .list-title {
@@ -500,5 +619,11 @@
 
   .DecarbonizingInfrastructure .center-light-text-2 {
     font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 690px) {
+  .ico-text-card-4-container .ico-text-card-4 {
+    height: 332px;
   }
 }

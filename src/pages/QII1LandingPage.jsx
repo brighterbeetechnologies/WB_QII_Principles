@@ -21,7 +21,9 @@ export default function QII1LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const STEP_PAGE_SIZE = 3;
+  const STEP_PAGE_SIZE1 = 3;
   const [stepPage, setStepPage] = useState(1);
+  const [stepPage1, setStepPage1] = useState(1);
 
   const PAGE_SIZE = 1;
   const [page, setPage] = useState(1);
@@ -54,7 +56,7 @@ export default function QII1LandingPage() {
               target="_blank"
               className="link"
             >
-               World Bank (2020) Jobs Umbrella MDTF: Annual Report 2019-2020 
+              World Bank (2020) Jobs Umbrella MDTF: Annual Report 2019-2020
             </Link>
           </p>
           {/* <span style={{ opacity: 0 }}>
@@ -167,6 +169,14 @@ export default function QII1LandingPage() {
     </div>,
   ];
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPage((prev) => (prev === cards.length ? 1 : prev + 1));
+    }, 3000); // 3 seconds
+
+    return () => clearInterval(interval);
+  }, [cards.length]);
+
   const tabs = [
     "Sustainable Development Objectives",
     "Jobs and Growth",
@@ -183,8 +193,25 @@ export default function QII1LandingPage() {
         desc: "Hours of travel time saved",
         country: "Eurasia Tunnel, Türkiye",
         title: "Sustainable Development Objectives",
-        description:
-          "The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+        description: (
+          <>
+            The Eurasia Tunnel, one of the first projects globally to achieve{" "}
+            <a
+              href="https://www.bluedot-network.org/case-studies/BDN-ZX1J8I-21LT"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              Blue Dot Network certification
+            </a>
+            , is an engineering landmark that connects two continents in just 5
+            minutes. Over its first 8 years of operation (2016-2024), the tunnel
+            has saved commuters 210 million hours of travel time while improving
+            road safety. The project aims to cut fuel consumption by 129,000
+            tons and CO<sub>2</sub> emissions by 50,000 tons over its
+            operational lifetime.
+          </>
+        ),
       },
       {
         value: "14M",
@@ -299,10 +326,11 @@ export default function QII1LandingPage() {
                 <a
                   href="https://www.bluedot-network.org/case-studies/BDN-ZX1J8I-21LT"
                   target="_blank"
-                  className="link"
+                  className="link "
                 >
-                  Blue Dot Network (n.d.). Eurasia Tunnel.
+                  Blue Dot Network (n.d.). Eurasia Tunnel
                 </a>
+                .
               </li>
               <li>
                 <a
@@ -311,8 +339,9 @@ export default function QII1LandingPage() {
                   className="link"
                 >
                   Global Infrastructure Hub (2021) Istanbul Strait Road Tunnel
-                  Project (“Eurasia Tunnel Project”).
+                  Project (“Eurasia Tunnel Project”)
                 </a>
+                .
               </li>
             </ul>
           </>
@@ -323,7 +352,7 @@ export default function QII1LandingPage() {
       {
         value: "210M",
         desc: "Hours of travel time saved",
-        country: "Eurasia Tunnel, Türkiye",
+        country: "Delhi Mass Rapid Transport System Phase 2, India​",
         title: "Sustainable Development Objectives",
         description: (
           <>
@@ -350,7 +379,7 @@ export default function QII1LandingPage() {
       {
         value: "14M",
         desc: "Man-hours",
-        country: "Türkiye",
+        country: "India​",
         title: "Jobs and Growth",
         description: (
           <>
@@ -376,7 +405,7 @@ export default function QII1LandingPage() {
       {
         value: "14M",
         desc: "Man-hours",
-        country: "Türkiye",
+        country: "India​",
         title: "Co-Benefits of Multiple QII Principles",
         description: (
           <>
@@ -401,6 +430,27 @@ export default function QII1LandingPage() {
             <br />
             <strong>QII.3 Environment</strong>
             <br />
+            The project is expected to reduce CO<sub>2</sub> emissions by
+            approximately 26,550 tons of CO<sub>2</sub> equivalent per year,
+            while also cutting air and noise pollution. In a notable
+            sustainability innovation, as of April 2019, the Delhi Metro sources
+            clean energy from the{" "}
+            <a
+              href="https://documents1.worldbank.org/curated/en/627561582530270545/pdf/Rewa-Solar-India-Removing-Barriers-to-Scale.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              Rewa Ultra Mega Solar Park
+            </a>{" "}
+            in Madhya Pradesh. Under a 25-year Power Purchase Agreement, 24% of
+            Rewa's 750 MW output goes to DMRC, meeting ~60% of the Delhi Metro's
+            daytime electricity demand. This arrangement, structured with IFC's
+            advisory support, was the first operationalization of India's Open
+            Access rules for solar power and received the World Bank Group
+            President's Award for Innovation and Excellence.
+            <br />
+            <br />
             An Environmental Impact Assessment (EIA) Report was prepared
             following JICA Guidelines for Environmental and Social
             Considerations (Category A project). Environmental measures include
@@ -420,7 +470,7 @@ export default function QII1LandingPage() {
             Preservation of Trees Act (1994) and Government of India guidelines.
             <br />
             <br />
-            <strong>QII.5 Inclusion</strong>
+            <strong>QII.5 Social </strong>
             <br />
             Station buildings and passenger cars are designed for elderly and
             disabled users, featuring elevators, toilets, internal broadcasting,
@@ -430,17 +480,19 @@ export default function QII1LandingPage() {
             <br />
             <br />
             The project required no acquisition of private land and no
-            resettlement of residents. Safety features for women include
-            women-only cars, priority seating for passengers requiring
-            assistance (including women), and CCTV cameras in station buildings
-            and trains.
+            resettlement of residents.
+            <br />
+            <br />
+            Safety features for women include women-only cars, priority seating
+            for passengers requiring assistance (including women), and CCTV
+            cameras in station buildings and trains.
           </>
         ),
       },
       {
         value: "14M",
         desc: "Man-hours",
-        country: "Türkiye",
+        country: "India​",
         title: "Digitalization and Technology",
         description: (
           <>
@@ -459,7 +511,7 @@ export default function QII1LandingPage() {
       {
         value: "14M",
         desc: "Man-hours",
-        country: "Türkiye",
+        country: "India​",
         title: "Partnering With the Private Sector",
         description: (
           <>
@@ -473,7 +525,7 @@ export default function QII1LandingPage() {
       {
         value: "14M",
         desc: "Man-hours",
-        country: "Türkiye",
+        country: "India​",
         title: "References",
         description: (
           <>
@@ -517,7 +569,8 @@ export default function QII1LandingPage() {
       {
         value: "210M",
         desc: "Hours of travel time saved",
-        country: "Eurasia Tunnel, Türkiye",
+        country:
+          "Port Moresby Sewerage System Upgrading Project, Papua New Guinea",
         title: "Sustainable Development Objectives",
         description: (
           <>
@@ -545,7 +598,7 @@ export default function QII1LandingPage() {
       {
         value: "14M",
         desc: "Man-hours",
-        country: "Türkiye",
+        country: "Papua New Guinea",
         title: "Jobs and Growth",
         description: (
           <>
@@ -580,7 +633,7 @@ export default function QII1LandingPage() {
       {
         value: "14M",
         desc: "Man-hours",
-        country: "Türkiye",
+        country: "Papua New Guinea",
         title: "Co-Benefits of Multiple QII Principles",
         description: (
           <>
@@ -596,7 +649,7 @@ export default function QII1LandingPage() {
             transplantation and one-year settlement monitoring.
             <br />
             <br />
-            <strong>QII.5 Inclusion</strong>
+            <strong>QII.5 Social </strong>
             <br />
             The health benefits are measurable: households connected to the
             sewerage system report diarrhea incidence of 27%, compared to 45%
@@ -620,7 +673,7 @@ export default function QII1LandingPage() {
       {
         value: "210M",
         desc: "Hours of travel time saved",
-        country: "Eurasia Tunnel, Türkiye",
+        country: "Papua New Guinea",
         title: "Digitalization and Technology",
         description: (
           <>
@@ -638,7 +691,7 @@ export default function QII1LandingPage() {
       {
         value: "210M",
         desc: "Hours of travel time saved",
-        country: "Eurasia Tunnel, Türkiye",
+        country: "Papua New Guinea",
         title: "Partnering With the Private Sector ",
         description: (
           <>
@@ -654,7 +707,7 @@ export default function QII1LandingPage() {
       {
         value: "210M",
         desc: "Hours of travel time saved",
-        country: "Eurasia Tunnel, Türkiye",
+        country: "Papua New Guinea",
         title: "References",
         description: (
           <>
@@ -711,8 +764,25 @@ export default function QII1LandingPage() {
       desc: "Hours of travel time saved",
       country: "Eurasia Tunnel, Türkiye",
       title: "Sustainable Development Objectives",
-      description:
-        "The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+      description: (
+        <>
+          The Eurasia Tunnel, one of the first projects globally to achieve{" "}
+          <a
+            href="https://www.bluedot-network.org/case-studies/BDN-ZX1J8I-21LT"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link"
+          >
+            Blue Dot Network certification
+          </a>
+          , is an engineering landmark that connects two continents in just 5
+          minutes. Over its first 8 years of operation (2016-2024), the tunnel
+          has saved commuters 210 million hours of travel time while improving
+          road safety. The project aims to cut fuel consumption by 129,000 tons
+          and CO<sub>2</sub> emissions by 50,000 tons over its operational
+          lifetime.
+        </>
+      ),
     },
     "Jobs and Growth": {
       value: "14M",
@@ -792,8 +862,17 @@ export default function QII1LandingPage() {
       desc: "Hours of travel time saved",
       country: "Eurasia Tunnel, Türkiye",
       title: "Sustainable Development Objectives",
-      description:
-        "The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+      description: (
+        <>
+          The Eurasia Tunnel, one of the first projects globally to achieve Blue
+          Dot Network certification, is an engineering landmark that connects
+          two continents in just 5 minutes. Over its first 8 years of operation
+          (2016-2024), the tunnel has saved commuters 210 million hours of
+          travel time while improving road safety. The project aims to cut fuel
+          consumption by 129,000 tons and CO<sub>2</sub> emissions by 50,000
+          tons over its operational lifetime.{" "}
+        </>
+      ),
     },
   };
   const tabData3 = {
@@ -827,7 +906,8 @@ export default function QII1LandingPage() {
     {
       image: "images/qii1/Blue-Dot-Network.png",
       title: (
-        <p>Global <br /> 
+        <p>
+          Global <br />
           <strong>The Blue Dot Network</strong>
         </p>
       ),
@@ -871,7 +951,8 @@ export default function QII1LandingPage() {
       image:
         "images/qii1/Compendium-of-Quality-Infrastructure-Investment-Indicators.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Compendium of Quality Infrastructure Investment Indicators
           </strong>{" "}
@@ -899,8 +980,33 @@ export default function QII1LandingPage() {
       image: "images/qii1/Iraq-Rebuilding-Communities.png",
       country: "Iraq",
       title: "Rebuilding Communities After Conflict",
-      subtext1: "Project Appraisal Document",
-      subtext2: "",
+      subtext1: (
+        <>
+          <Link
+            to={
+              "https://blogs.worldbank.org/en/arabvoices/iraq-emergency-project-rebuilding-bridges#:~:text=They%20were%20carried%20out%20by%20Iraqi%20government,Group's%20Emergency%20Operation%20for%20Development%20Project%20(EODP)"
+            }
+            className="link3"
+          >
+            Blog: Emergency Project Rebuilding Bridges, Roads, Water,
+            Wastewater, Municipal services and Livelihoods.{" "}
+          </Link>
+        </>
+      ),
+      subtext2: (
+        <>
+          <Link
+            to={
+              "https://www.worldbank.org/en/news/press-release/2017/10/31/400-million-for-the-reconstruction-of-mosul-and-newly-liberated-areas-in-iraq#:~:text=On%20October%2031%2C%202017%2C%20the%20World%20Bank,*%20Improve%20education%20quality%20*%20Increase%20employment"
+            }
+            className="link3"
+          >
+            Blog: $400 Million for the Reconstruction of Mosul and Newly
+            Liberated Areas in Iraq{" "}
+          </Link>
+        </>
+      ),
+      subtext3: false,
       type: "Resource",
       paths:
         "https://blogs.worldbank.org/en/arabvoices/iraq-emergency-project-rebuilding-bridges#:~:text=They%20were%20carried%20out%20by%20Iraqi%20government,Group's%20Emergency%20Operation%20for%20Development%20Project%20(EODP)",
@@ -911,8 +1017,41 @@ export default function QII1LandingPage() {
       image: "images/qii1/Dominica-Building-Climate-Resilience.png",
       country: "Dominica",
       title: "Building Climate Resilience Through Nature-Based Solutions",
-      subtext1: "GFDRR Country Profile",
-      subtext2: "Project Appraisal Document",
+      subtext1: (
+        <>
+          <Link to={"https://www.gfdrr.org/fr/dominique"} className="link3">
+            GFDRR Country Profile{" "}
+          </Link>
+        </>
+      ),
+      subtext2: (
+        <>
+          <Link
+            to={
+              "https://documents1.worldbank.org/curated/en/676111538364626336/pdf/PAD2765-PUBLIC.pdf"
+            }
+            target="_blank"
+            className="link3"
+          >
+            https://documents1.worldbank.org/curated/en/ <br />
+            676111538364626336/pdf/PAD2765-PUBLIC.pdf{" "}
+          </Link>
+        </>
+      ),
+      subtext3: (
+        <>
+          <Link
+            to={
+              "https://www.worldbank.org/en/news/feature/2023/09/26/dominica-s-journey-to-become-the-world-s-first-climate-resilient-country"
+            }
+            target="_blank"
+            className="link3"
+          >
+            Blog: Dominica’s Journey to become the World’s First Climate
+            Resilient Country{" "}
+          </Link>
+        </>
+      ),
       type: "Resource",
       paths:
         "https://documents1.worldbank.org/curated/en/676111538364626336/pdf/PAD2765-PUBLIC.pdf",
@@ -923,11 +1062,22 @@ export default function QII1LandingPage() {
       image: "images/qii1/Indonesia-Transforming.png",
       country: "Indonesia",
       title: "Transforming Irrigation Performance Through Technology",
-      subtext1: "Blog: Modernizing Public Transport",
-      subtext2: "Press Release: Urban Transport Support",
+      subtext1: (
+        <>
+          <Link
+            to={
+              "https://www.worldbank.org/en/news/feature/2022/07/06/-indonesia-pioneers-irrigation-service-delivery-innovation"
+            }
+            className="link3"
+          >
+            Feature: Irrigation Service Delivery Innovation{" "}
+          </Link>
+        </>
+      ),
+      subtext2: false,
+      subtext3: false,
       type: "Resource",
-      paths:
-        "https://www.worldbank.org/en/news/feature/2022/07/06/-indonesia-pioneers-irrigation-service-delivery-innovation",
+      paths: "",
       videoUrl: null,
     },
     {
@@ -935,8 +1085,21 @@ export default function QII1LandingPage() {
       image: "images/qii1/Maputo-Data-Driven-Urban-Mobility.png",
       country: "Maputo",
       title: "Data-Driven Urban Mobility",
-      subtext1: "Blog: Modernizing Public Transport",
-      subtext2: "Press Release: Urban Transport Support",
+      subtext1: (
+        <>
+          <Link
+            to={
+              "https://blogs.worldbank.org/en/transport/harnessing-technology-and-innovation-modernize-public-transport-our-experience-mozambique"
+            }
+            className="link3"
+          >
+            Blog: Modernizing Public Transport Press Release: Urban Transport
+            Support{" "}
+          </Link>
+        </>
+      ),
+      subtext2: false,
+      subtext3: false,
       type: "Resource",
       paths:
         "https://www.worldbank.org/en/news/press-release/2022/08/24/world-bank-supports-urban-transport-in-the-maputo-metropolitan-area",
@@ -951,7 +1114,14 @@ export default function QII1LandingPage() {
       org: "MLIT",
       title: `"Quality Infrastructure” Around the World: Compendium of Good Practices`,
       country: "Japan",
-      subtext1: "(English/Japanese)",
+      subtext1: (
+        <>
+          {" "}
+          <Link to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"} className="link4">
+            (English/Japanese)
+          </Link>
+        </>
+      ),
       subtext2:
         "A flagship report by MLIT, including 48 case studies of Japan-supported infrastructure projects across the world that demonstrate alignment with QII Principles.",
       type: "Resource",
@@ -963,7 +1133,14 @@ export default function QII1LandingPage() {
       org: "MLIT",
       title: "Compendium of Quality Infrastructure",
       country: "Africa",
-      subtext1: "(English/Japanese)",
+      subtext1: (
+        <>
+          {" "}
+          <Link to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"} className="link4">
+            (English/Japanese)
+          </Link>
+        </>
+      ),
       subtext2: (
         <>
           An MLIT resource presenting 26 case studies from across Africa,
@@ -982,8 +1159,8 @@ export default function QII1LandingPage() {
   );
 
   const paginatedCards2 = otherRefernceCards.slice(
-    (stepPage - 1) * STEP_PAGE_SIZE,
-    stepPage * STEP_PAGE_SIZE,
+    (stepPage1 - 1) * STEP_PAGE_SIZE1,
+    stepPage1 * STEP_PAGE_SIZE1,
   );
 
   const openVideo = (url, title, width, height) => {
@@ -1066,7 +1243,7 @@ export default function QII1LandingPage() {
           <div key={page} className="page-animate">
             {cards.slice(start, end)}
           </div>
-          <ConfigProvider
+          {/* <ConfigProvider
             theme={{
               token: {
                 colorPrimary: "#00a996",
@@ -1086,11 +1263,46 @@ export default function QII1LandingPage() {
               onChange={(p) => setPage(p)}
               className="resource-pagination"
             />
-          </ConfigProvider>
+          </ConfigProvider> */}
         </section>
       </section>
       <section>
-        <QII1CaseStudy1 />
+        {/* <QII1CaseStudy1 /> */}
+        <section className="qii_video_landing_page color-light">
+          <img
+            className="qii_video-thumbnail-image"
+            src="images/qii4/QII 2 in Action poster.png"
+            alt="video thumbnail"
+          />
+          <div className="qii-video-overlay"></div>
+          <div className="qii-video-cnt">
+            <button
+              className="video-play-btn icon-play disable-link"
+              onClick={() => {
+                openVideo(
+                  "./video/FukuokaCaseStudy.mp4",
+                  "QII.2 in Action",
+                  1920,
+                  1080,
+                );
+              }}
+            >
+              &#xe91e;
+            </button>
+          </div>
+          <div className="qii-video-text-cnt">
+            <p className="video-title">QII.1 in Action</p>
+            <p className="video-desc">
+              Four projects, four regions, one approach: infrastructure that
+              creates jobs, builds resilience, and protects the environment.
+            </p>
+            <Link to="" className="disable-link">
+              <button className="btn-primary qii1-video-cta">
+                Explore Case Study <span className="icon-arrow">&#xe900;</span>
+              </button>
+            </Link>
+          </div>
+        </section>
       </section>
       <section className="color-dark FurtherReadingSection">
         <div className="container">
@@ -1178,7 +1390,7 @@ export default function QII1LandingPage() {
                 <strong>Port Moresby Sewerage System Upgrading Project</strong>
               </p>
             }
-            principles="QII.1 | QII.2 | QII.3 | QII.5 | QII.6"
+            principles="QII.3 | QII.5 | QII.6"
             link="/not-given"
             index={2}
             setCurrentCard={setCurrentCard}
@@ -1272,9 +1484,9 @@ export default function QII1LandingPage() {
                 <p className="card-5-content-title">
                   {cardsTabsData[currentCard]?.[activeTab].title}
                 </p>
-                <p className="card-5-content-description">
+                <div className="card-5-content-description">
                   {cardsTabsData[currentCard]?.[activeTab].description}
-                </p>
+                </div>
               </div>
             </div>
           </div>
@@ -1299,7 +1511,7 @@ export default function QII1LandingPage() {
           {paginatedCards2.map((card) => (
             <QII1_CardBox key={card.id} card={card} />
           ))}
-          {otherRefernceCards.length > STEP_PAGE_SIZE && (
+          {otherRefernceCards.length > STEP_PAGE_SIZE1 && (
             <ConfigProvider
               theme={{
                 token: {

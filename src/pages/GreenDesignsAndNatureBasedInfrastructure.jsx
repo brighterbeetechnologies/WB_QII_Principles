@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./GreenDesignsAndNatureBasedInfrastructure.css";
 import NumSteps from "../components/NUmSteps";
 import VCard from "../components/VCard";
@@ -9,6 +9,68 @@ import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
 
 export default function GreenDesignsAndNatureBasedInfrastructure() {
+  const data = [
+    {
+      title: "CLEAN WATER:",
+      icon: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/clean-water.svg",
+      points: [
+        "Improve water quality by reducing chemical,",
+        "Improve water quality by removing pollutants in wastewater such as solids and pathogens",
+      ],
+    },
+    {
+      title: "EROSION CONTROL:",
+      icon: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/EROSION-CONTROL.svg",
+      points: [
+        "Stabilize steep slopes and degraded areas",
+        "Reduce number of landslides in the surrounding environment of infrastructure",
+      ],
+    },
+    {
+      title: "FLOOD MANAGEMENT:",
+      icon: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/FLOOD-MANAGEMENT.svg",
+      points: [
+        "Protect and increase the resilience of communities and assets from flooding",
+        "Reduce peak flow (the maximum rate of flow water passing a given point following rainfall)",
+      ],
+    },
+    {
+      title: "COASTAL PROTECTION:",
+      icon: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/COASTAL-PROTECTION.svg",
+      points: [
+        "Protect coastal urban areas and assets from erosion, storm surges, damage from wave energy, and sea level rise.",
+      ],
+    },
+    {
+      title: "WATER SECURTY:",
+      icon: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/WATER-SECURTY.svg",
+      points: [
+        "Improve water retention",
+        "Contribute to water supply reliability",
+      ],
+    },
+  ];
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [fade, setFade] = useState(true);
+  const total = data.length;
+
+  const handlePrev = () => {
+    setFade(false);
+    setTimeout(() => {
+      setActiveIndex(activeIndex === 0 ? total - 1 : activeIndex - 1);
+      setFade(true);
+    }, 200);
+  };
+
+  const handleNext = () => {
+    setFade(false);
+    setTimeout(() => {
+      setActiveIndex(activeIndex === total - 1 ? 0 : activeIndex + 1);
+      setFade(true);
+    }, 200);
+  };
+
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
@@ -157,14 +219,15 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
-      image:
-        "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png",
+      image: "images/qii3/pakistan.png",
       title: (
         <p>
           Pakistan <br />
           <strong>
             The Investment Value of Nature: The Case of Zephyr Power Limited
-          </strong> <br />Earth Security
+          </strong>{" "}
+          <br />
+          Earth Security
         </p>
       ),
       buttonText: "Case Study",
@@ -183,9 +246,11 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/GFDRR Mapping of Nature-Based Solutions Projects.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Mapping of Nature-Based Solutions Projects</strong>
-          <br />GFDRR
+          <br />
+          GFDRR
         </p>
       ),
       buttonText: "Case Study",
@@ -200,8 +265,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
-      image:
-        "images/qii3/shutterstock_755940463.jpg",
+      image: "images/qii3/shutterstock_755940463.jpg",
       title: (
         <p>
           <strong>
@@ -221,11 +285,12 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
-      image:
-        "images/qii3/shutterstock_2201000683.jpg",
+      image: "images/qii3/shutterstock_2201000683.jpg",
       title: (
-        <p>Global <br />
-          <strong>Global Program for Nature-Based Solutions</strong> <br />World Bank 
+        <p>
+          Global <br />
+          <strong>Global Program for Nature-Based Solutions</strong> <br />
+          World Bank
         </p>
       ),
       buttonText: "Guidance",
@@ -242,8 +307,11 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/The-Nature-Based-Solutions-Opportunity-Scan.png",
       title: (
-        <p>Global <br />
-          <strong>The Nature-Based Solutions Opportunity Scan</strong><br />World Bank 
+        <p>
+          Global <br />
+          <strong>The Nature-Based Solutions Opportunity Scan</strong>
+          <br />
+          World Bank
         </p>
       ),
       buttonText: "Guidance",
@@ -261,10 +329,13 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Financing-Climate-AdaptationandNature-Based-Infrastructure.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Financing Climate Adaptation and Nature Based Infrastructure
-          </strong> <br />World Bank Group
+          </strong>{" "}
+          <br />
+          World Bank Group
         </p>
       ),
       buttonText: "Guidance",
@@ -281,9 +352,11 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Finding Solutions to Development Challenges in Nature</strong>
-          <br />World Bank Group
+          <br />
+          World Bank Group
         </p>
       ),
       buttonText: "Video",
@@ -494,7 +567,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             <br></br>
             Nature-based infrastructure can help deliver:
           </NumSteps>
-          <div className="ico-text-card-1-container">
+          {/* <div className="ico-text-card-1-container">
             <div className="ico-text-card-1">
               <div className="ico-text-card-1-ico">
                 <img
@@ -567,10 +640,6 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                     Protect coastal urban areas and assets from erosion, storm
                     surges, damage from wave energy, and sea level rise.
                   </li>
-                  {/* <li>
-                      Improve water quality by removing pollutants in wastewater
-                      such as solids and pathogens
-                    </li> */}
                 </ul>
               </div>
             </div>
@@ -588,6 +657,43 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
                   <li>Contribute to water supply reliability</li>
                 </ul>
               </div>
+            </div>
+          </div> */}
+          <div className="ico-text-card-1-wrapper">
+            <div className="ico-text-card-1-container">
+              <div className={`ico-text-card-1 ${fade ? "fade-in" : "fade-out"}`}>
+                <div className="ico-text-card-1-ico">
+                  <img src={data[activeIndex].icon} alt="" />
+                </div>
+
+                <div className="ico-text-card-1-description">
+                  <p className="ico-text-card-1-title">
+                    {data[activeIndex].title}
+                  </p>
+                  <ul>
+                    {data[activeIndex].points.map((item, index) => (
+                      <li key={index}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="ico-text-card-1-pagination-wrapper">
+              <button className="ico-text-card-1-nav-btn" onClick={handlePrev}>
+                <span className="ico-text-card-1-arrow-2">&#xe900;</span>
+              </button>
+              <div className="ico-text-card-1-dots">
+                {data.map((_, index) => (
+                  <span
+                    key={index}
+                    className={`ico-text-card-1-dot ${activeIndex === index ? "active" : ""}`}
+                    onClick={() => setActiveIndex(index)}
+                  />
+                ))}
+              </div>
+              <button className="ico-text-card-1-nav-btn" onClick={handleNext}>
+                <span className="ico-text-card-1-arrow">&#xe900;</span>
+              </button>
             </div>
           </div>
           <VCardsPagination cardsData={step2Cards} />

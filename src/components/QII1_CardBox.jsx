@@ -48,7 +48,12 @@ export default function CardBox({ card }) {
               {card.subtext2}
             </p>
           )}
-          <div className="card-4-footer">
+          {card.subtext3 && (
+            <p>
+              {card.subtext3}
+            </p>
+          )}
+          {/* <div className="card-4-footer">
             <div className= "card-btn-cnt">
             {card.pdf ? (
               <a
@@ -70,7 +75,7 @@ export default function CardBox({ card }) {
               </Link>
             )}
           </div>
-          </div>
+          </div> */}
       </div>
     </>
   );

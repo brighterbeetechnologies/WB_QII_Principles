@@ -42,11 +42,10 @@ export default function QII3CaseStudy1() {
               <br />
               <span>QII.3 in Action</span>
               <br />
-              <br />
               <p>
-                How Belgrade transformed decades of waste into clean energy,
-                pioneering a new model for sustainable infrastructure in
-                emerging markets.
+                Serbia <br />
+                Belgrade Waste-to-Energy PPP: Turning a Liability into a Climate
+                Asset
               </p>
               <br />
               <br />
@@ -86,7 +85,7 @@ export default function QII3CaseStudy1() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/sector_icon.svg" alt="" />
                   <h3>SECTOR</h3>
-                  <p>Lorem.​</p>
+                  <p>Solid Waste Management​</p>
                 </div>
               </div>
               <div className="case-study-details-card">
@@ -94,7 +93,8 @@ export default function QII3CaseStudy1() {
                   <img src="images/qii2/case-study/country_icon.svg" alt="" />
                   <h3>COUNTRY</h3>
                   <p>
-                    Lorem, ipsum.
+                    Serbia
+                    <br />
                     <br />
                     <br />
                   </p>
@@ -105,9 +105,7 @@ export default function QII3CaseStudy1() {
                   <img src="images/qii2/case-study/timeline.svg" alt="" />
                   <h3>TIMELINE</h3>
                   <p>
-                    Lorem.
-                    <br />
-                    <br />
+                    2017: 25-year PPP contract signed
                     <br />
                   </p>
                 </div>
@@ -117,8 +115,9 @@ export default function QII3CaseStudy1() {
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
                   <p>
-                    Lorem, ipsum.
+                    <strong>EUR 400 million</strong>
                     <br />
+                    (EUR 290m from IFIs)
                     <br />
                     <br />
                   </p>
@@ -131,14 +130,20 @@ export default function QII3CaseStudy1() {
                   <div>
                     <ul>
                       <li>
-                        Lorem, ipsum.
+                        <strong>
+                          210,000 tons CO
+                          <sub>
+                            <strong>2</strong>
+                          </sub>
+                        </strong>{" "}
+                        reduced annually - equivalent to taking 46,000 cars off
+                        the road.
                       </li>
                       <li>
-                        Lorem, ipsum dolor.
+                        Mountains of accumulated trash at Vinča converted into
+                        green space while generating clean energy.
                       </li>
-                      <li>
-                        Lorem ipsum dolor sit.
-                      </li>
+                      <li><strong>30 MW electricity and 56 MW heat </strong>generated from waste, serving a large number of households. </li>
                     </ul>
                   </div>
                 </div>
@@ -148,29 +153,23 @@ export default function QII3CaseStudy1() {
           <div className="single-case-study-buttons">
             <div
               className="single-case-study-button"
-              // onClick={() =>
-              //   window.open(
-              //     "https://documents1.worldbank.org/curated/en/132321643990931297/pdf/Quality-Infrastructure-Investment-Partnership-2021-QII-Annual-Report.pdf",
-              //     "_blank",
-              //     "noopener,noreferrer",
-              //   )
-              // }
-            >
-              View case study summary
-              <div className="arrow-btn icon-arrow disable-link">&#xe900;</div>
-            </div>
-            <div
-              className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "",
+                  "pdf/QII_3_SpotlightCaseStudy_Belgrade.pdf",
                   "_blank",
                   "noopener,noreferrer",
                 )
               }
             >
+              View case study summary
+              <div className="arrow-btn icon-arrow">&#xe900;</div>
+            </div>
+            <div
+              className="single-case-study-button"
+              onClick={() => window.open("pdf/QII_3_SpotlightCaseStudy_Belgrade_v2.docx", "_blank", "noopener,noreferrer")}
+            >
               View the full publication
-              <div className="arrow-btn icon-arrow disable-link">&#xe900;</div>
+              <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
           </div>
         </div>

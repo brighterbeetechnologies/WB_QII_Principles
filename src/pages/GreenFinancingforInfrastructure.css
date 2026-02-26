@@ -3,6 +3,13 @@
   margin-bottom: 1.2rem;
 }
 
+/* .GreenFinancingforInfrastructure .ico-text-card-1-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+} */
+
 .GreenFinancingforInfrastructure .icon-text-cards-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -36,10 +43,85 @@
   width: 400px;
 }
 
-.icon-text-cards-detail ul {
+.GreenFinancingforInfrastructure .icon-text-cards-detail ul {
   margin: 0;
   padding-left: 1rem;
 }
+
+
+
+/* 
+.ico-text-card-1-pagination-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+  margin: 24px auto 0;
+
+  padding: 10px 16px;
+  background: #eef7fb;
+  border-radius: 30px;
+
+  max-width: 100%;
+  width: max-content;
+} */
+
+/* .ico-text-card-1-nav-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+} */
+
+/* .ico-text-card-1-dots {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+} */
+/* 
+.ico-text-card-1-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #cfd8dc;
+  cursor: pointer;
+}
+
+.ico-text-card-1-dot.active {
+  background: #2bb3b1;
+  transform: scale(1.2);
+}
+
+.ico-text-card-1-dot:hover {
+  transform: scale(1.3);
+} */
+
+/* @media (max-width: 768px) {
+  .ico-text-card-1-pagination-wrapper {
+    margin-top: 16px;
+    padding: 8px 12px;
+  }
+
+  .ico-text-card-1-nav-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .ico-text-card-1-dot {
+    width: 7px;
+    height: 7px;
+  }
+} */
 
 @media (max-width: 649px) {
   .GreenFinancingforInfrastructure .Header3 .container {

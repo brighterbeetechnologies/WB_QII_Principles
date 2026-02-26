@@ -92,10 +92,28 @@ img {
   color: #009fda;
 }
 
+.link3 {
+  color: #fff;
+  /* text-decoration: underline; */
+}
+
+.link4 {
+  color: #fff;
+  text-decoration: underline;
+}
+
 .link:hover,
 .link2:hover {
   text-decoration: underline;
 }
+
+.link3:hover,
+.link4:hover {
+  color: #009fda;
+  text-decoration: underline;
+}
+
+
 
 /* ======================
    Layout

@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 70%;
+  width: 75%;
   /* font-size: 1.3rem; */
 }
 
@@ -55,6 +55,30 @@
 
 .page-animate {
   animation: fadeSlideIn 0.4s ease-in-out;
+}
+
+.qii1-video-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition:
+    transform 0.4s,
+    background 0.18s;
+  cursor: pointer;
+}
+
+.qii1-video-cta:hover {
+  background: #00a996;
+  border: none;
+  color: #fff;
 }
 
 @keyframes fadeSlideIn {
@@ -93,7 +117,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin: 2rem 4rem 2rem 4rem;
+    margin: 4rem;
     padding: 1rem;
   }
 
@@ -102,7 +126,7 @@
   }
 
   .ico-text-card-3-ico {
-    width: 6rem;
+    width: 4rem;
     align-items: center;
   }
 
@@ -112,19 +136,22 @@
 
   .ico-text-card-3-title {
     font-weight: bold;
-    font-size: 1rem;
-  }
-
-  .ico-text-card-3-desc {
     font-size: 0.9rem;
   }
 
-  .ico-text-card-3-link {
+  .ico-text-card-3-desc {
     font-size: 0.8rem;
+  }
+
+  .ico-text-card-3-link {
+    font-size: 0.7rem;
   }
 }
 
 @media (max-width: 690px) {
+  .ico-text-card-3 {
+    width: 100%;
+  }
   .qii1-card-grid {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
@@ -239,17 +266,24 @@
 }
 
 .card-5 .card-5-content-country {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .card-5 .card-5-content-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 900;
 }
 
 .card-5 .card-5-content-description {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
+/* 
+.card-5 .card-5-content-description a {
+  pointer-events: auto;
+  color: blue;
+  text-decoration: underline;
+  font-weight: 600;
+} */
 
 .card-active {
   transform: translateY(1rem);
@@ -281,7 +315,7 @@
   font-size: 1.5rem;
 }
 .card-5 .card-5-content-country {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .card-5 .card-5-content-title {
@@ -290,7 +324,7 @@
 }
 
 .card-5 .card-5-content-description {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 }
 
