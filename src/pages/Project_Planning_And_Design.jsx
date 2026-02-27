@@ -40,12 +40,12 @@ export default function Project_Planning_And_Design() {
       title: (
         <p>
           Global <br />
-          <strong>Procurement Rated Criteria</strong> <br />
+          <strong>Project Procurement: Rated Criteria</strong> <br />
           World Bank
         </p>
       ),
       buttonText: "Guidance",
-      link: " https://www.worldbank.org/en/about/rated-criteria​",
+      link: "https://www.worldbank.org/en/about/rated-criteria​",
       content: (
         <p>
           The “Rated Criteria” approach ensures that procurement goes beyond
@@ -64,7 +64,7 @@ export default function Project_Planning_And_Design() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Blog",
       link: "https://blogs.worldbank.org/en/governance/mainstreaming-gender-public-procurement",
       content: (
         <p>
@@ -199,7 +199,7 @@ export default function Project_Planning_And_Design() {
           World Bank​
         </p>
       ),
-      highlight: 2,
+      highlight: 1,
       buttonText: "Case Study",
       // link: "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
       link: "",
@@ -307,11 +307,7 @@ export default function Project_Planning_And_Design() {
           <NumSteps num="1">
             <strong>Enhance Procurement Strategies and Processes </strong>
             <br />
-            Design procurement documents that mandate contractors and
-            consultants to show proven experience with inclusion, and weight
-            evaluation criteria towards bidders offering credible plans for
-            gender balance, accessibility, or service to vulnerable groups. By
-            integrating social and gender requirements into technical and
+            By integrating social and gender requirements into technical and
             financial proposals, and conducting bidder briefings on inclusivity
             expectations, project owners ensure selection favors those with
             commitment and capacity to deliver equitable solutions.{" "}

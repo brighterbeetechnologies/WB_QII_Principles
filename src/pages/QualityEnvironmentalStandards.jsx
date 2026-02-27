@@ -19,7 +19,7 @@ export default function QualityEnvironmentalStandards() {
       country: "Global",
       org: false,
       description:
-        "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk. ",
+        "The Blue Dot Network is a voluntary, private-sector-focused and government-supported certification scheme for infrastructure projects. Led by Australia, Japan, Spain, Switzerland, Türkiye, the United Kingdom and the United States, the certification system assesses infrastructure projects against high standards of transparency, sustainability, and developmental impact.",
       img_path: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
       path: "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
       target: "_blank",
@@ -30,7 +30,7 @@ export default function QualityEnvironmentalStandards() {
       country: "Global",
       org: false,
       description:
-        "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing.",
+        "The FAST-Infra Label is a globally applicable label for projects demonstrating significant positive sustainability performance. The FAST-Infra initiative was originally conceived collectively by the Climate Policy Initiative (CPI), HSBC, the OECD, the International Finance Corporation (IFC) and the World Bank Group’s Global Infrastructure Facility (GIF), and integrates QII-aligned criteria into its Label to attract private capital to sustainable assets by providing consistent evaluation metrics.",
       img_path:
         "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       path: "https://www.fastinfralabel.org/",

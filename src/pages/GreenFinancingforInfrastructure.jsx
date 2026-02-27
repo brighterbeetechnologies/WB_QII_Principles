@@ -187,7 +187,7 @@ export default function GreenFinancingforInfrastructure() {
     },
     {
       image:
-        "images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png",
+        "images/qii3/shutterstock_2433336173.jpg",
       title: (
         <p>Global <br />
           <strong>Green Eligibility Checker tool</strong>

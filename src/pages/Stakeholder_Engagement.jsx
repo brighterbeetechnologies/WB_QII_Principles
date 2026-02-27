@@ -33,6 +33,36 @@ export default function Stakeholder_Engagement() {
 
   const step2Cards = [
     {
+      image:
+        "images/qii5/Qii5CaseStudy.jpg",
+      title: (
+        <p>
+          Maputo <br />
+          <strong>Investing in Mozambique's Connectivity</strong> <br />
+          World Bank
+        </p>
+      ),
+      badgeText: "video",
+      buttonText: "View case study summary",
+      link: "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
+      isVideo: true,
+      videoUrl: "",
+      videoTitle: "Maputo Investing in Mozambique's Connectivity World Bank",
+      duration: "3 min watch",
+      width: 1920,
+      height: 1080,
+      buttonText2: "View the full publication",
+      link2:"",
+      highlight: 1,
+      content: (
+        <p>
+          The use of big data to map mobility patterns helped to ensure a new
+          bus rapid transit system in Maputo was designed to maximize
+          accessibility for all socio-economic groups.{" "}
+        </p>
+      ),
+    },
+    {
       image: "images/qii5/shutterstock_2535975537.jpg",
       title: (
         <p>
@@ -62,7 +92,8 @@ export default function Stakeholder_Engagement() {
       image:
         "images/qii5/StakeholderEngagement/Mainstreaming-Gender-in-Infrastructure.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Mainstreaming Gender in Infrastructure</strong>
         </p>
       ),
@@ -87,7 +118,8 @@ export default function Stakeholder_Engagement() {
     {
       image: "images/qii5/shutterstock_2528541047.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Inclusive Infrastructure “Data Collection and Stakeholder
             Identification”
@@ -169,7 +201,8 @@ export default function Stakeholder_Engagement() {
       image:
         "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>OECD Infrastructure Toolkit</strong> <br />
           Organisation for Economic Co-operation and Development​
         </p>
@@ -238,7 +271,7 @@ export default function Stakeholder_Engagement() {
             design process.
           </p>
           {/* <VCardsPagination cardsData={step1Cards} /> */}
-          <ListImageText
+          {/* <ListImageText
             disableStep={true}
             highlight={1}
             // description={"Netherlands DuboCalc and CO₂ Performance Ladder"}
@@ -265,7 +298,7 @@ export default function Stakeholder_Engagement() {
               new bus rapid transit system in Maputo was designed to maximize
               accessibility for all socio-economic groups.{" "}
             </p>
-          </ListImageText>
+          </ListImageText> */}
           {/* <div className="container internal-pages-container">
             <VCard
               image="images/qii5/StakeholderEngagement/Maputo.png"

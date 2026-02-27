@@ -354,7 +354,7 @@ export default function QII2LandingPage() {
               />
             </div>
             <div className="text-cnt">
-              <h1 className="light-font mBottom">Quality Over Quantity</h1>
+              <h1 className="light-font mBottom">Enabling Impact Through Strong Governance</h1>
               <h3 className="light-font sub-text">
                 Delivering quality infrastructure is about more than just
                 spending. Without good governance, increased spending will not

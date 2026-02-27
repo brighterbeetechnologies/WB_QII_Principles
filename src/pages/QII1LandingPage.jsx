@@ -47,7 +47,7 @@ export default function QII1LandingPage() {
             creation during the construction and O&M phases, to boosting the
             industries that support these activities, to ultimately increasing
             productivity, jobs and access to markets through the infrastructure
-            services provided <sup>1</sup>.
+            services provided.
           </p>
           <p className="ico-text-card-3-link">
             1:{" "}
@@ -88,7 +88,7 @@ export default function QII1LandingPage() {
             While each QII principle stands on its own, governments should
             consider how multiple principles can be combined within a single
             project. The result is co-benefits that no single approach can
-            achieve alone <sup>1</sup>.
+            achieve alone.
           </p>
           <p className="ico-text-card-3-link">
             1:{" "}
@@ -123,7 +123,7 @@ export default function QII1LandingPage() {
             <br />
             <br />
             This is about “making infrastructure smarter and more connected”,
-            not only about digital infrastructure itself <sup>1</sup>.
+            not only about digital infrastructure itself.
           </p>
           <p className="ico-text-card-3-link">
             {" "}
@@ -152,7 +152,7 @@ export default function QII1LandingPage() {
             <br />
             Bridging this financing gap while managing rising debt levels and
             budgetary constraints requires bringing together public and private
-            capital <sup>1</sup>.
+            capital.
           </p>
           <p className="ico-text-card-3-link">
             1:{" "}
@@ -925,7 +925,7 @@ export default function QII1LandingPage() {
       ),
     },
     {
-      image: "images/qii1/FAST-Infra.png",
+      image: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       title: (
         <p>
           Global <br />
@@ -1201,11 +1201,11 @@ export default function QII1LandingPage() {
           </Header3>
         </section>
         <section className="container internal-pages-container">
-          <p className="light-font sub-text center-text title-text">
+          {/* <p className="light-font sub-text center-text title-text">
             <strong>
               How Quality Infrastructure Drives Sustainable Growth
             </strong>
-          </p>
+          </p> */}
 
           {/* <div className="ico-text-card-3-container">
             <div className="ico-text-card-3">
@@ -1468,22 +1468,22 @@ export default function QII1LandingPage() {
             </div>
 
             <div className={`card-5-content ${fade ? "fade-in" : "fade-out"}`}>
-              <div className="card-5-content-circle">
+              {/* <div className="card-5-content-circle">
                 <p>
                   <strong>
                     {cardsTabsData[currentCard]?.[activeTab].value}
                   </strong>
                 </p>
                 <p>{cardsTabsData[currentCard]?.[activeTab].desc}</p>
-              </div>
+              </div> */}
 
               <div className="card-5-content-desc">
-                <p className="card-5-content-country">
+                {/* <p className="card-5-content-country">
                   {cardsTabsData[currentCard]?.[activeTab].country}
                 </p>
                 <p className="card-5-content-title">
                   {cardsTabsData[currentCard]?.[activeTab].title}
-                </p>
+                </p> */}
                 <div className="card-5-content-description">
                   {cardsTabsData[currentCard]?.[activeTab].description}
                 </div>

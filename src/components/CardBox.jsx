@@ -24,15 +24,35 @@ export default function CardBox({ card }) {
         </div>
         <div className="card-data">
           <p className="card-type">{card.type}</p>
+          {card.country && (
+            <>
+              <br />
+              <span className="card-org">{card.country}</span>
+            </>
+          )}
           <h3 className="card-title">
             <Tooltip placement="right" color={"white"} title={card.title}>
               {card.title}
             </Tooltip>
+            {card.org && (
+              <>
+                <br />
+                <span className="card-org">{card.org}</span>
+              </>
+            )}
             <img
               src={`images/principles/Qii_${card.principles + 1}.png`}
               alt=""
               className="card-pinciple-badge"
             />
+            {card.principles2 === 0 ||
+              (card.principles2 && (
+                <img
+                  src={`images/principles/Qii_${card.principles2 + 1}.png`}
+                  alt=""
+                  className="card-pinciple-badge card-pinciple-badge2"
+                />
+              ))}
           </h3>
           <p className="card-desc">
             <Popover

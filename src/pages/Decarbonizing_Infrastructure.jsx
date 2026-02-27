@@ -125,7 +125,6 @@ export default function Decarbonizing_Infrastructure() {
       link: "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdf",
       buttonText2: "Watch Video",
       link2: "https://www.youtube.com/watch?v=nTDXDHXwwT0",
-      highlight: 1,
       content: (
         <p>
           One of the world's largest single-site solar projects, demonstrating
@@ -372,9 +371,9 @@ export default function Decarbonizing_Infrastructure() {
           </div>
           <div className="subpage-description">
             <p className="light-font">
-              {/* Quality environmental standards are the foundation of good
-            infrastructure project development. They are also a requirement for
-            project developers seeking to attract credible investors. */}
+              Renewable energy that powers metro systems. Waste facilities that
+              generate clean electricity. Buildings designed for net-zero
+              operations.
             </p>
           </div>
         </Header3>
@@ -432,7 +431,7 @@ export default function Decarbonizing_Infrastructure() {
           </p>
           <p className="center-light-text-2">
             Source:{" "}
-            <Link to={""} className="link">
+            <Link to={"https://www.wri.org/data/world-greenhouse-gas-emissions-sector-2021-sunburst-chart"} target="_blank" className="link">
               Climate Watch, World Resources Institute (2021)
             </Link>
           </p>
@@ -654,7 +653,7 @@ export default function Decarbonizing_Infrastructure() {
                 </div>
                 <div className="ico-text-card-5-infographics-letter-info">
                   <p className="ico-text-card-5-infographics-letter-info-title">
-                    Improve 
+                    Improve
                   </p>
                   <p> efficiency of remaining systems</p>
                 </div>

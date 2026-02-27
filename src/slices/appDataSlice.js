@@ -126,8 +126,12 @@ export const appDataSlice = createSlice({
         id: 0,
         paths: "/qii2casestudy1",
         type: "Case Study",
+        country: "Fukuoka",
+        org: "World Bank",
+        // title:
+        //   "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
         title:
-          "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
+          "Pioneering Life Cycle Costing For Efficient Water Management",
         principles: 1,
         highlight: 1,
         target: "_blank",
@@ -145,7 +149,9 @@ export const appDataSlice = createSlice({
         id: 1,
         paths: "/qii2casestudy2",
         type: "Case Study",
-        title: "Ganga River Wastewater Program ​World Bank",
+        country: "India",
+        org: "World Bank",
+        title: "Ganga River Wastewater Program",
         principles: 1,
         highlight: 2,
         target: "_blank",
@@ -161,8 +167,10 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents1.worldbank.org/curated/en/099235011182219257/pdf/P1679330af035007e0829505bcfd724025b.pdf",
         type: "Case Study",
+        country: "Global",
+        org: "World Bank",
         title:
-          "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies ​World Bank",
+          "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies",
         principles: 1,
         highlight: 2,
         target: "_blank",
@@ -963,10 +971,11 @@ export const appDataSlice = createSlice({
       },
       {
         id: 1,
-        paths: "/qii4casestudy1",
+        paths: "/qii3casestudy2",
         type: "Case Study",
         title: "Futakotamagawa: Integrating Flood Protection and Urban Renewal",
         principles: 2,
+        principles2: 3,
         highlight: 2,
         target: "_blank",
         desc: "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
@@ -1115,7 +1124,7 @@ export const appDataSlice = createSlice({
       },
       {
         id: 3,
-        paths: "/not-given",
+        paths: "https://www.earthsecurity.org/news/nature-infrastructure-in-the-balance-sheet-the-case-of-zephyr-power​",
         type: "Case Study",
         title: "Pakistan The Investment Value of Nature: The Case of Zephyr Power Limited Earth Security",
         principles: 2,
@@ -1126,7 +1135,7 @@ export const appDataSlice = createSlice({
         stage: 2,
         income: 0,
         industry: 3,
-        "image": "images/qii3/pakistan.png"
+        image: "images/qii3/pakistan.png",
         },
       {
         id: 3,
@@ -1249,7 +1258,7 @@ export const appDataSlice = createSlice({
         type: "Case Study – Energy",
         title: "Rewa Ultra Mega Solar Project, India",
         principles: 2,
-        highlight: 2,
+        highlight: 0,
         target: "_blank",
         desc: "One of the world's largest single-site solar projects, demonstrating how innovative payment security mechanisms can de-risk investment while achieving record-low tariffs. A model for scaling renewable energy through well-structured PPPs.",
         format: 2,
@@ -1898,7 +1907,7 @@ export const appDataSlice = createSlice({
         income: 0,
         industry: 3,
         image:
-          "images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png",
+          "images/qii3/shutterstock_2433336173.jpg",
       },
 
       // {
@@ -2064,7 +2073,7 @@ export const appDataSlice = createSlice({
           "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
         type: "Case study",
         title:
-          "Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1)",
+          "Initial Sea Level Rise Risk Assessment for Nauru",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3508,7 +3517,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://openknowledge.worldbank.org/entities/publication/63c07ff8-cd1e-52c0-9441-005b9aa22bcf",
         type: "Guidance",
-        title: "Gender-Inclusive Urban Planning Design",
+        title: "Handbook for Gender-Inclusive Urban Planning and Design",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3525,7 +3534,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
         type: "Guidance",
-        title: "Mainstreaming Gender in Infrastructure – Gender Action Plan",
+        title: "Mainstreaming Gender in Infrastructure: Desk Review",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3671,9 +3680,9 @@ export const appDataSlice = createSlice({
       },
       {
         id: 4,
-        paths: " https://www.worldbank.org/en/about/rated-criteria​",
+        paths: "https://www.worldbank.org/en/about/rated-criteria​",
         type: "Guidance",
-        title: "Procurement Rated Criteria World Bank",
+        title: "Project Procurement: Rated Criteria",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3688,7 +3697,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://blogs.worldbank.org/en/governance/mainstreaming-gender-public-procurement",
-        type: "Guidance",
+        type: "Blog",
         title: "Mainstreaming Gender in Public Procurement",
         highlight: 0,
         target: "_blank",

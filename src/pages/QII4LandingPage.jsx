@@ -136,8 +136,8 @@ export default function QII4LandingPage() {
       org: "World Bank",
       description:
         "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
-      img_path:
-        "images/qii4/updated/Futakotamagawa.png",
+      img_path: "images/qii4/updated/Futakotamagawa.png",
+      highlight: 1,
       path: "/qii4casestudy1",
       target: "_self",
     },
@@ -463,7 +463,7 @@ export default function QII4LandingPage() {
         text={
           "Resilience is more than a safeguard—it's a foundational principle for infrastructure that must withstand, adapt to, and recover from shocks to ensure uninterrupted service, especially in rapidly changing and vulnerable environments."
         }
-      /> 
+      />
       <section className="color-dark">
         <div className="container ">
           <div className="video-text-cnt">
@@ -489,7 +489,7 @@ export default function QII4LandingPage() {
                   </strong>
                 </p>
               </div> */}
-              <Video 
+              <Video
                 thumbnail="images/qii4/QII_4_video_thumbnail.png"
                 videoUrl=""
                 videoTitle="Unlocking the Potential of Life Cycle Costing"

@@ -91,7 +91,7 @@ export default function Policies_Standards_Regulation() {
         "images/qii5/PoliciesandRegulation/Gender-Inclusive-Urban-Planning-Design.png",
       title: (
         <p>Global <br />
-          <strong>Gender-Inclusive Urban Planning Design</strong> <br /> World
+          <strong>Handbook for Gender-Inclusive Urban Planning and Design</strong> <br /> World
           Bank ​
         </p>
       ),
@@ -119,7 +119,7 @@ export default function Policies_Standards_Regulation() {
         "images/qii5/PoliciesandRegulation/Mainstreaming-Gender-in-Infrastructure–Gender-Action-Plan.png",
       title: (
         <p>Global <br />
-          <strong>Gender Action Plan</strong>
+          <strong>Mainstreaming Gender in Infrastructure: Desk Review</strong>
         </p>
       ),
       buttonText: "Guidance",

@@ -22,6 +22,12 @@ const VCardsPagination = ({ cardsData }) => {
             link2={card.link2}
             buttonText2={card.buttonText2}
             badgeText={card.badgeText}
+            isVideo={card.isVideo}
+            videoUrl={card.videoUrl}
+            videoTitle={card.videoTitle}
+            duration={card.duration}
+            width={card.width}
+            height={card.height}
           >
             {card.content}
           </VCard>

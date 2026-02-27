@@ -23,7 +23,7 @@ export default function Govtech_For_Infrastructure() {
       ),
       buttonText: "Case Study",
       link: "",
-      highlight: 2,
+      highlight: 1,
       content: <p>With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. </p>,
     },
     {
@@ -72,7 +72,7 @@ export default function Govtech_For_Infrastructure() {
       image:
         "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       title: (
-        <p>Global <br />
+        <p>Japan <br />
           <strong>Japan Association for Smart Cities in ASEAN</strong>
         </p>
       ),

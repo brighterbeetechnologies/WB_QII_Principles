@@ -303,7 +303,7 @@ export default function QII3LandingPage() {
         "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
       img_path: "images/qii4/updated/Futakotamagawa.png",
       highlight: 1,
-      path: "/qii4casestudy1",
+      path: "/qii3casestudy2",
       target: "_self",
     },
     {

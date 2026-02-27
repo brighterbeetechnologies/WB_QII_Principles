@@ -199,7 +199,7 @@ export default function DiagnosingVulnerabilities() {
       title: (
         <p>Global <br />
           <strong>
-            Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1)
+            Initial Sea Level Rise Risk Assessment for Nauru
           </strong>
           <br />
           Pacific Regional Infrastructure Facility

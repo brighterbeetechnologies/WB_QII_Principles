@@ -63,13 +63,19 @@
 
 .box-card .card-type {
   color: #fff;
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
+  font-size: 0.6rem;
   margin-bottom: 8px;
   background: #cde6ff;
   display: inline-block;
   border-radius: 10rem;
   padding: 0.1rem 0.6rem;
   color: #000000;
+}
+
+.box-card .card-org {
+  font-size: 0.8rem;
+  color: #fff;
 }
 
 .box-card .card-title {
@@ -81,9 +87,9 @@
 .resource_page .box-card .card-title {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2; /* number of lines */
+  -webkit-line-clamp: 4; /* number of lines */
   overflow: hidden;
-  width: 70%;
+  width: 75%;
 }
 
 .card-desc {
@@ -186,32 +192,51 @@
   z-index: 666;
 }
 
+.card-pinciple-badge2 {
+  top: 9rem;
+}
+
 /* Rounded corners larger on large screens */
 @media (min-width: 600px) {
   .box-card .card-type {
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
+    font-size: 0.7rem;
   }
 
-  .box-card .card-title {
+  /* .box-card .card-title {
     font-size: 1.25rem;
+  } */
+
+  .box-card .card-title {
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 640px) {
-  .box-card .card-title {
+  /* .box-card .card-title {
     font-size: 1.2rem;
+  } */
+   .box-card .card-title {
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 992px) {
-  .box-card .card-title {
+  /* .box-card .card-title {
     font-size: 1.1rem;
+  } */
+   .box-card .card-title {
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .box-card .card-title {
+  /* .box-card .card-title {
     font-size: 1.25rem;
+  } */
+
+   .box-card .card-title {
+    font-size: 1rem;
   }
 
   .box-card {
@@ -228,17 +253,21 @@
 }
 
 @media (min-width: 1600px) {
-  .box-card .card-title {
+  /* .box-card .card-title {
     font-size: 1.5625rem;
+  } */
+
+   .box-card .card-title {
+    font-size: 1rem;
   }
 
   .box-card .card-data {
     padding: 2.3rem;
   }
 
-  .box-card .card-type {
+  /* .box-card .card-type {
     font-size: 1rem;
-  }
+  } */
 
   .box-card .card-type {
     margin-bottom: 20px;

@@ -11,7 +11,7 @@ import VCardsPagination from "../components/VCardsPagination";
 export default function Infrastructure_Institutions() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
-    {
+    { 
       image:
         "images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png",
       title: (

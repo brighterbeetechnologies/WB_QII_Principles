@@ -231,7 +231,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </p>
       ),
       buttonText: "Case Study",
-      link: "",
+      link: "https://www.earthsecurity.org/news/nature-infrastructure-in-the-balance-sheet-the-case-of-zephyr-power​",
       content: (
         <p>
           Demonstrates how mangrove restoration replaced conventional
@@ -269,8 +269,8 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       title: (
         <p>Global <br />
           <strong>
-            IFC Catalogue of Nature-based Solutions for Infrastructure Projects
-          </strong>
+            Catalogue of Nature-based Solutions for Infrastructure Projects
+          </strong><br />IFC
         </p>
       ),
       buttonText: "Guidance",
@@ -315,7 +315,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </p>
       ),
       buttonText: "Guidance",
-      link: "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/The-Nature-Based-Solutions-Opportunity-Scan.png",
+      link: "https://openknowledge.worldbank.org/entities/publication/f350c5c0-b17b-4f35-ad29-cb3ddc101958",
       content: (
         <p>
           This report categorizes different families of nature-based solutions

@@ -45,7 +45,8 @@
   justify-content: space-between;
   align-items: left;
   gap: 1rem;
-  padding: 0 1rem 1.5rem 2rem;
+  margin-top: 1rem;
+  padding: 1rem 1rem 1.5rem 2rem;
   text-align: center;
 }
 
@@ -138,7 +139,7 @@
 
 @media (max-width: 767px) {
   .QIIVCard-footer {
-    padding: 0 10px 1.2rem 1rem;
+    padding: 1rem 10px 1.2rem 1rem;
   }
   .QIIVCard-cnt {
     margin: 1.5rem auto 1.25rem auto;
@@ -221,7 +222,8 @@
 
   .QIIVCard-footer {
     font-size: 1.2rem;
-    padding: 0 1rem 1.5rem 2rem;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1.5rem 2rem;
   }
 
   .QIIVCard-btn {

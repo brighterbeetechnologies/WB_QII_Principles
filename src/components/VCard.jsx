@@ -1,5 +1,8 @@
 import React from "react";
 import "./VCard.css";
+import { setShowVideo, setVideoData } from "../slices/appDataSlice";
+import { useDispatch } from "react-redux";
+
 export default function VCard({
   image,
   title,
@@ -11,15 +14,81 @@ export default function VCard({
   imageStyle,
   highlight,
   badgeText,
+  isVideo = false,
+  videoUrl,
+  videoTitle,
+  duration = "3 min watch",
+  width = 1920,
+  height = 1080,
 }) {
+  const dispatch = useDispatch();
+  const openVideo = () => {
+    dispatch(
+      setVideoData({
+        url: videoUrl,
+        title: videoTitle,
+        width,
+        height,
+      }),
+    );
+    dispatch(setShowVideo(true));
+  };
+
   return (
     <div className={`VCard ${highlight && "highlighted"}`}>
-      <img className="VCardImg" src={image} alt={title} style={imageStyle} />
-       {badgeText && (
-          <div className="video-gif-badge">{badgeText}</div>
-        )}
+      {/* <img className="VCardImg" src={image} alt={title} style={imageStyle} />
+      {badgeText && <div className="video-gif-badge">{badgeText}</div>} */}
+      {isVideo ? (
+        <div className="VCard-video-gif-thumbnail">
+          <img
+            className="VCardImg"
+            src={image}
+            alt={videoTitle}
+            style={imageStyle}
+          />
+          <div
+            className="VCard-video-gif-play-button"
+            onClick={openVideo}
+          ></div>
+          <div className="video-gif-badge">Video</div>
+          <div className="VCard-video-duration">
+            <svg width="14" height="14" viewBox="0 0 20 20">
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                clipRule="evenodd"
+              />
+            </svg>
+            {duration}
+          </div>
+        </div>
+      ) : (
+        <>
+          <img
+            className="VCardImg"
+            src={image}
+            alt={title}
+            style={imageStyle}
+          />
+          {badgeText && <div className="video-gif-badge">{badgeText}</div>}
+        </>
+      )}
       <div className="vCardBody">
         <div className="v-title">{title}</div>
+        {/* {isVideo && (
+          <div className="VCard-video-gif-meta">
+            <div className="VCard-video-gif-meta-item">
+              <svg width="14" height="14" viewBox="0 0 20 20">
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              {duration}
+            </div>
+          </div>
+        )} */}
         {children}
       </div>
       <div className="VCard-footer">

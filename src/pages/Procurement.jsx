@@ -101,7 +101,7 @@ export default function Procurement() {
       buttonText2: "Case Study",
       link2:
         "https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/",
-      highlight: 2,
+      highlight: 1,
       content: (
         <p>
           Summarizes a procurement approach where annuity payments were linked

@@ -43,8 +43,9 @@ export default function QII3CaseStudy1() {
               <br />
               <br />
               <p>
-                Serbia <br />
-                Belgrade Waste-to-Energy PPP: Turning a Liability into a Climate Asset
+                How Belgrade transformed decades of waste into clean energy,
+                pioneering a new model for sustainable infrastructure in
+                emerging markets.
               </p>
               <br />
               <p className="snapshot-video-duration">
@@ -141,7 +142,11 @@ export default function QII3CaseStudy1() {
                         Mountains of accumulated trash at Vinča converted into
                         green space while generating clean energy.
                       </li>
-                      <li><strong>30 MW electricity and 56 MW heat </strong>generated from waste, serving a large number of households. </li>
+                      <li>
+                        <strong>30 MW electricity </strong>and <strong>56 MW heat </strong>
+                        generated from waste, serving a large number of
+                        households.{" "}
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -164,7 +169,13 @@ export default function QII3CaseStudy1() {
             </div>
             <div
               className="single-case-study-button"
-              onClick={() => window.open("pdf/QII_3_SpotlightCaseStudy_Belgrade_v2.docx", "_blank", "noopener,noreferrer")}
+              onClick={() =>
+                window.open(
+                  "pdf/QII_3_SpotlightCaseStudy_Belgrade_v2.docx",
+                  "_blank",
+                  "noopener,noreferrer",
+                )
+              }
             >
               View the full publication
               <div className="arrow-btn icon-arrow">&#xe900;</div>
