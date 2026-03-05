@@ -22,7 +22,7 @@ export default function Policies_Standards_Regulation() {
           Organisation for Economic Co-operation and Development​
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Report",
       link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/to-have-and-have-not-how-to-bridge-the-gap-in-opportunities_f642138a/dec143ad-en.pdf",
       content: (
         <p>
@@ -40,7 +40,7 @@ export default function Policies_Standards_Regulation() {
       image:
         "images/qii5/PoliciesandRegulation/Asian-Development-Bank(ADB)—Gender-Equality-and-Social-Inclusion.png",
       title: (
-        <p>Global <br />
+        <p>Cross-Regional <br />
           <strong>
             Gender Equality and Social Inclusion (GESI) Guidance for
             Infrastructure
@@ -151,7 +151,7 @@ export default function Policies_Standards_Regulation() {
           World Bank ​
         </p>
       ),
-      buttonText: "Case Study",
+      buttonText: "Report",
       link: "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
       content: (
         <p>
@@ -177,7 +177,7 @@ export default function Policies_Standards_Regulation() {
           World Bank ​
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/383011492423734099/the-world-bank-environmental-and-social-framework",
       content: (
         <p>
@@ -199,7 +199,7 @@ export default function Policies_Standards_Regulation() {
           GI Hub​
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Guidance",
       link: "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
       content: (
         <p>
@@ -212,11 +212,11 @@ export default function Policies_Standards_Regulation() {
     {
       image: "images/qii5/PoliciesandRegulation/EU-Accessibility-Act(2019).png",
       title: (
-        <p>Global <br />
+        <p>Cross-Regional <br />
           <strong>EU Accessibility Act (2019)</strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Case study",
       link: "https://www.legislation.gov.uk/eudr/2019/882",
       content: (
         <p>
@@ -230,7 +230,7 @@ export default function Policies_Standards_Regulation() {
         "images/qii5/PoliciesandRegulation/Americans-with-Disabilities.png",
       title: (
         <p>
-          United States <br />
+          Global <br />
           <strong>
             Americans with Disabilities Act (ADA) Standards for Accessible
             Design
@@ -238,7 +238,7 @@ export default function Policies_Standards_Regulation() {
           <br />
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
       content: (
         <p>
@@ -261,7 +261,7 @@ export default function Policies_Standards_Regulation() {
           </strong> <br /> World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Blog",
       link: "https://blogs.worldbank.org/en/ppps/japan-and-world-bank-advancing-universal-design-urban-planning",
       content: (
         <p>
@@ -282,7 +282,7 @@ export default function Policies_Standards_Regulation() {
           <strong>FAST-Infra Sustainable Infrastructure Label</strong>
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://www.fastinfralabel.org/",
       content: (
         <p>
@@ -301,7 +301,7 @@ export default function Policies_Standards_Regulation() {
           <strong>Blue Dot Network</strong>
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://www.bluedot-network.org/",
       content: (
         <p>

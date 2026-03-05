@@ -95,7 +95,7 @@ export default function QualityEnvironmentalStandards() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
       content: (
         <p>
@@ -119,7 +119,7 @@ export default function QualityEnvironmentalStandards() {
           </strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
       content: (
         <p>
@@ -145,7 +145,7 @@ export default function QualityEnvironmentalStandards() {
           International Organization for Standardization
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.iso.org/popular-standards.html",
       content: (
         <p>
@@ -224,7 +224,7 @@ export default function QualityEnvironmentalStandards() {
           <strong>​Equator Principles</strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://equator-principles.com/",
       content: (
         <p>
@@ -267,7 +267,7 @@ export default function QualityEnvironmentalStandards() {
           <strong>​BREEAM Infrastructure</strong>{" "}
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://breeam.com/breeam-infrastructure",
       content: (
         <p>

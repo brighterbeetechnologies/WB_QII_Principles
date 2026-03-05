@@ -12,6 +12,7 @@ export default function Governance() {
   const resourceArray = [
     {
       id: 0,
+      country: "Global",
       title:
         "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
       subTitle: "World Bank​",
@@ -22,6 +23,7 @@ export default function Governance() {
     },
     {
       id: 1,
+      country: "Global",
       title: "PPP Reference Guide",
       subTitle: false,
       description:
@@ -31,6 +33,7 @@ export default function Governance() {
     },
     {
       id: 2,
+      country: "Cross-Regional",
       title: "Infrastructure Maintenance in the Pacific",
       subTitle: "Pacific Region Infrastructure Facility​",
       description:
@@ -40,6 +43,7 @@ export default function Governance() {
     },
     {
       id: 3,
+      country: "Global",
       title: "Bringing PPPs into the Sunlight",
       subTitle: "Inter-American Development Bank",
       description:
@@ -152,8 +156,10 @@ export default function Governance() {
             link="https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html"
           >
             <div className="description">
-              Hungary  <br />
-              <strong>DuboCalc and CO<sub>2</sub> Performance Ladder</strong>
+              Hungary <br />
+              <strong>
+                DuboCalc and CO<sub>2</sub> Performance Ladder
+              </strong>
             </div>
             <p>
               Demonstrates how dedicated governance structures support long-term
@@ -351,7 +357,7 @@ export default function Governance() {
             title={
               <p>
                 <strong>
-                  Long-term Performance Rewarded with Incentives in Contracts 
+                  Long-term Performance Rewarded with Incentives in Contracts
                 </strong>{" "}
                 <br /> <br className="mobile-break" />
                 By updating regulatory frameworks to allow for innovative
@@ -414,7 +420,18 @@ export default function Governance() {
                 <div className="page-resource-link">
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
+                      {p.country && (
+                        <>
+                          <span>{p.country}</span> <br />
+                        </>
+                      )}
                       <strong>{p.title}</strong>
+                      {p.org && (
+                        <>
+                          <br />
+                          <span>{p.org}</span>
+                        </>
+                      )}
                       {p.subTitle && (
                         <>
                           <br />
@@ -432,7 +449,18 @@ export default function Governance() {
                     </div> */}
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
+                        {p.country && (
+                          <>
+                            <span>{p.country}</span> <br />
+                          </>
+                        )}
                         <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
                         {p.subTitle && (
                           <>
                             <br />

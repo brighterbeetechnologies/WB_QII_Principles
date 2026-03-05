@@ -57,12 +57,12 @@ export default function ManagingCyberSecurityRisks() {
         "images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png",
       title: (
         <p>
-          UK <br />
+          United Kingdom <br />
           <strong>The Cyber Assessment Framework</strong> <br /> National Cyber
           Security Center
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/introduction-to-caf#section_1",
       content: (
         <p>

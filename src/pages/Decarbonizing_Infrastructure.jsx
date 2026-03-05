@@ -15,6 +15,7 @@ export default function Decarbonizing_Infrastructure() {
   const resourceArray = [
     {
       id: 0,
+      country: "Global",
       title: "Greenhouse Gas Protocol",
       subTitle: false,
       description:
@@ -26,6 +27,7 @@ export default function Decarbonizing_Infrastructure() {
 
     {
       id: 1,
+      country: "Global",
       title: "RICS Whole Life Carbon Assessment Standard",
       subTitle: false,
       description:
@@ -37,6 +39,7 @@ export default function Decarbonizing_Infrastructure() {
 
     {
       id: 2,
+      country: "Global",
       title: "Reducing Infrastructure Climate Risk Through Technology Measures",
       subTitle: "EDHEC Climate Institute",
       description:
@@ -59,7 +62,7 @@ export default function Decarbonizing_Infrastructure() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://www.worldbank.org/en/publication/country-climate-development-reports#:~:text=The%20World%20Bank%20Group's%20Country,contributions%20and%20long%2Dterm%20strategies.",
       content: (
         <p>
@@ -78,7 +81,7 @@ export default function Decarbonizing_Infrastructure() {
           International Energy Agency
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://www.iea.org/reports/net-zero-by-2050#overview",
       content: (
         <p>
@@ -139,8 +142,8 @@ export default function Decarbonizing_Infrastructure() {
         "images/qii3/QII3/Decarbonizing_Infrastructure/New_Technologies_Powering_The_Energy_Transition.png",
       title: (
         <p>
-          Asia and the Pacific <br />
-          <strong>New Technologies Powering the Energy Transition</strong>
+          Philippines <br />
+          <strong>New Technologies Powering the Energy Transition in Asia and the Pacific</strong>
           <br />
           IFC
         </p>
@@ -193,7 +196,7 @@ export default function Decarbonizing_Infrastructure() {
         </p>
       ),
       badgeText: "Project level",
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
       content: (
         <p>
@@ -214,7 +217,7 @@ export default function Decarbonizing_Infrastructure() {
         </p>
       ),
       badgeText: "Energy",
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://www.iea.org/reports/net-zero-by-2050#overview",
       content: (
         <p>
@@ -261,7 +264,7 @@ export default function Decarbonizing_Infrastructure() {
           IFC
         </p>
       ),
-      buttonText: "Guidance – Buildings",
+      buttonText: "Guidance",
       link: "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
       content: <p>Guide to decarbonizing construction value chains.</p>,
     },
@@ -897,7 +900,19 @@ export default function Decarbonizing_Infrastructure() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
+                        {p.country && (
+                          <>
+                            <br />
+                            <span>{p.country}</span>
+                          </>
+                        )}
                         <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
                         {p.subTitle && (
                           <>
                             <br />
@@ -915,7 +930,19 @@ export default function Decarbonizing_Infrastructure() {
                     </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
+                          {p.country && (
+                          <>
+                            <span>{p.country}</span>
+                            <br />
+                          </>
+                        )}
                           <strong>{p.title}</strong>
+                          {p.org && (
+                          <>
+                            <span>{p.org}</span>
+                            <br />
+                          </>
+                        )}
                           {p.subTitle && (
                             <>
                               <br />

@@ -13,6 +13,7 @@ export default function CostRecovery() {
   const resourceArray = [
     {
       id: 0,
+      country: "Global",
       title: "Financing Climate Adaptation and Nature-Based Infrastructure",
       org: "World Bank",
       description:
@@ -22,6 +23,7 @@ export default function CostRecovery() {
     },
     {
       id: 1,
+      country: "Global",
       title: "Life-Cycle Cost Analysis for Management of Highway Assets",
       org: "World Bank",
       description:
@@ -31,6 +33,7 @@ export default function CostRecovery() {
     },
     {
       id: 2,
+      country: "Global",
       title:
         "Harnessing Land Value Capture: Municipal Public-Private Partnership Framework",
       org: "Global Platform for Sustainable Cities",
@@ -41,6 +44,7 @@ export default function CostRecovery() {
     },
     {
       id: 3,
+      country: "Cross-Regional",
       title: "Monetization of Carbon Credits Energy and Agriculture Sectors",
       org: "World Bank",
       description:
@@ -50,6 +54,7 @@ export default function CostRecovery() {
     },
     {
       id: 4,
+      country: "Global",
       title: "Revenue Levers to Fund Infrastructure",
       subTitle: "Global Infrastructure Hub",
       org: "Global Infrastructure Hub",
@@ -60,6 +65,7 @@ export default function CostRecovery() {
     },
     {
       id: 4,
+      country: "Global",
       title:
         "Banking on Cities: Investing in Resilient and Low-Carbon Urbanization",
       description:
@@ -127,7 +133,7 @@ export default function CostRecovery() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf",
       content: (
         <p>

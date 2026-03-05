@@ -85,7 +85,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           World Bank and World Resources Institute
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://openknowledge.worldbank.org/entities/publication/ddda3ed0-096e-59dd-a25d-3de884254eba",
       content: (
         <p>
@@ -107,7 +107,8 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           UNEP
         </p>
       ),
-      buttonText: "Guidance - Water",
+      badgeText: "Water",
+      buttonText: "Guidance",
       link: "https://wedocs.unep.org/rest/api/core/bitstreams/979a0cdb-3d3e-4f4a-b899-96c97f412d0d/content",
       content: (
         <p>
@@ -129,7 +130,8 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance - Transport",
+      // badgeText: "Transport",
+      buttonText: "Report",
       link: "https://documents1.worldbank.org/curated/en/102951623742853259/pdf/Green-Roads-for-Water-Guidelines-for-Road-Infrastructure-in-Support-of-Water-Management-and-Climate-Resilience.pdf",
       content: (
         <p>
@@ -151,7 +153,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://worldbankgroup.sharepoint.com/sites/WBSUR/SitePages/PublishingPages/Resilient%20Infrastruc-1746476033225.aspx",
       content: (
         <p>
@@ -253,7 +255,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           GFDRR
         </p>
       ),
-      buttonText: "Case Study",
+      buttonText: "Report",
       link: "https://www.naturebasedsolutions.org/",
       content: (
         <p>
@@ -273,7 +275,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           </strong><br />IFC
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf",
       content: (
         <p>
@@ -293,7 +295,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://www.naturebasedsolutions.org/knowledge-hub",
       content: (
         <p>
@@ -314,7 +316,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://openknowledge.worldbank.org/entities/publication/f350c5c0-b17b-4f35-ad29-cb3ddc101958",
       content: (
         <p>
@@ -338,7 +340,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           World Bank Group
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://documents1.worldbank.org/curated/en/099050725135521570/pdf/P501013-299da78d-86cc-4f74-a095-cde17655875a.pdfs",
       content: (
         <p>

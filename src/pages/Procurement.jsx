@@ -15,6 +15,7 @@ export default function Procurement() {
   const resourceArray = [
     {
       id: 0,
+      country: "Global",
       title: "Life-Cycle Cost Analysis Primer",
       subTitle:
         "U.S. Department of Transportation - Federal Highway Administration",
@@ -26,6 +27,7 @@ export default function Procurement() {
 
     {
       id: 1,
+      country: "Global",
       title:
         "New Strategies for Strengthening Infrastructure Resilience and Maintenance ",
       subTitle: "Organization for Economic Co-operation and Development",
@@ -36,6 +38,7 @@ export default function Procurement() {
     },
     {
       id: 2,
+      country: "Global",
       title: "Bringing PPPs into the Sunlight Inter-American Development Bank",
       subTitle: "Inter-American Development Bank",
       description:
@@ -45,6 +48,7 @@ export default function Procurement() {
     },
     {
       id: 3,
+      country: "Global",
       title:
         "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
       subTitle: "World Bank",
@@ -55,6 +59,7 @@ export default function Procurement() {
     },
     {
       id: 4,
+      country: "Global",
       title: "Life-Cycle Costing in Sustainable Public Procurement",
       subTitle: "International Institute for Sustainable Development",
       description:
@@ -124,15 +129,16 @@ export default function Procurement() {
       link: "https://www.ppiaf.org/documents/5629",
       content: (
         <p>
-          Demonstrates the use of Performance-Based Contracts to
-          incentivize non-revenue water reduction.
+          Demonstrates the use of Performance-Based Contracts to incentivize
+          non-revenue water reduction.
         </p>
       ),
     },
     {
       image: "images/procurement/ReferenceGuide.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Reference Guide on Output Specifications for Quality Infrastructure
           </strong>
@@ -155,7 +161,8 @@ export default function Procurement() {
     {
       image: "images/procurement/Pre-Fabrication.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Pre-Fabrication Technology for Modular Construction</strong>
           <br />
           Global Infrastructure Hub
@@ -174,13 +181,14 @@ export default function Procurement() {
     {
       image: "images/procurement/Disruptive.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Disruptive Technologies in Public Procurement</strong>
           <br />
           World Bank
         </p>
       ),
-      buttonText: "Case Study",
+      buttonText: "Report",
       link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/522181612428427520/disruptive-technologies-in-public-procurement",
       content: (
         <p>
@@ -408,7 +416,18 @@ export default function Procurement() {
                 <div className="page-resource-link">
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
+                      {p.country && (
+                        <>
+                          <span>{p.country}</span> <br />
+                        </>
+                      )}
                       <strong>{p.title}</strong>
+                      {p.org && (
+                        <>
+                          <br />
+                          <span>{p.org}</span>
+                        </>
+                      )}
                       {p.subTitle && (
                         <>
                           <br />
@@ -426,7 +445,18 @@ export default function Procurement() {
                     </div> */}
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
+                        {p.country && (
+                          <>
+                            <span>{p.country}</span> <br />
+                          </>
+                        )}
                         <strong>{p.title}</strong>
+                        {p.org && (
+                          <>
+                            <br />
+                            <span>{p.org}</span>
+                          </>
+                        )}
                         {p.subTitle && (
                           <>
                             <br />

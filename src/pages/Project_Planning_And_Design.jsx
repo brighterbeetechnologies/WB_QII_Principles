@@ -44,7 +44,7 @@ export default function Project_Planning_And_Design() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.worldbank.org/en/about/rated-criteria​",
       content: (
         <p>
@@ -79,7 +79,7 @@ export default function Project_Planning_And_Design() {
         "images/qii5/ProjectPlanningandDesign/UK-Green-Cities-Infrastructure-(ICED)-facility.png",
       title: (
         <p>
-          Global <br />
+          United Kingdom <br />
           <strong>UK Green Cities & Infrastructure (ICED) facility</strong>
         </p>
       ),
@@ -104,7 +104,7 @@ export default function Project_Planning_And_Design() {
           <strong>Gender Equality, Infrastructure and PPPs</strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
       content: (
         <p>
@@ -150,7 +150,7 @@ export default function Project_Planning_And_Design() {
           <strong>Responsible Contracting Project (RCP) Toolkit</strong>
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://www.responsiblecontracting.org/",
       content: (
         <p>
@@ -225,7 +225,7 @@ export default function Project_Planning_And_Design() {
           </strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.iso.org/obp/ui/en/#iso:std:iso:21542:ed-2:v1:en",
       content: (
         <p>

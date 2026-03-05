@@ -35,7 +35,7 @@ export default function Govtech_For_Infrastructure() {
           World Bank
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Data",
       link: "https://data.worldbank.org/",
       content: (
         <p>
@@ -76,7 +76,7 @@ export default function Govtech_For_Infrastructure() {
           <strong>Japan Association for Smart Cities in ASEAN</strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Case Study",
       link: "https://www.jasca2021.jp/",
       content: (
         <p>
@@ -96,7 +96,7 @@ export default function Govtech_For_Infrastructure() {
           <strong>GovTech Maturity Index Data Dashboard</strong> <br />World Bank
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Data",
       link: "https://www.worldbank.org/en/data/interactive/2022/10/21/govtech-maturity-index-gtmi-data-dashboard",
       content: (
         <p>

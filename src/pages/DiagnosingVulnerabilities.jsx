@@ -48,7 +48,7 @@ export default function DiagnosingVulnerabilities() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Case Study",
       link: "https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4",
       content: (
         <p>
@@ -70,7 +70,7 @@ export default function DiagnosingVulnerabilities() {
           World Bank
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Data",
       link: "https://climateknowledgeportal.worldbank.org/",
       content: (
         <p>
@@ -88,7 +88,7 @@ export default function DiagnosingVulnerabilities() {
           GFDRR
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Data",
       link: "https://thinkhazard.org/en/",
       content: (
         <p>
@@ -107,8 +107,8 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png",
       title: (
-        <p>Global <br />
-          <strong>Vanuatu Post-Disaster Needs Assessment</strong>
+        <p>Vanuatu <br />
+          <strong>Post-Disaster Needs Assessment</strong>
           <br />
           GFDRR
         </p>
@@ -129,7 +129,7 @@ export default function DiagnosingVulnerabilities() {
         "images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png",
       title: (
         <p>
-          Africa <br />
+          Cross-Regional <br />
           <strong>
             Enhancing the Climate Resilience of Africa's Infrastructure
           </strong>
@@ -137,7 +137,7 @@ export default function DiagnosingVulnerabilities() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://openknowledge.worldbank.org/handle/10986/21875",
       content: (
         <p>
@@ -159,7 +159,7 @@ export default function DiagnosingVulnerabilities() {
           University of Notre Dame
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Data",
       link: "https://gain.nd.edu/our-work/country-index/rankings/",
       content: (
         <p>
@@ -176,8 +176,8 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Jamaica Disaster Vulnerability Reduction Project.png",
       title: (
-        <p>Global <br />
-          <strong>Jamaica Disaster Vulnerability Reduction Project</strong>
+        <p>Jamaica <br />
+          <strong>Disaster Vulnerability Reduction Project</strong>
         </p>
       ),
       buttonText: "Case study",
@@ -197,7 +197,7 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1).png",
       title: (
-        <p>Global <br />
+        <p>Cross-Regional <br />
           <strong>
             Initial Sea Level Rise Risk Assessment for Nauru
           </strong>
@@ -224,7 +224,7 @@ export default function DiagnosingVulnerabilities() {
           GFDRR
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://www.gfdrr.org/en/disaster-risk-profiles",
       content: (
         <p>
@@ -240,13 +240,13 @@ export default function DiagnosingVulnerabilities() {
       image:
         "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
       title: (
-        <p>Global <br />
+        <p>Nepal <br />
           <strong>Resilience Rating System</strong>
           <br />
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Blog",
       link: "https://blogs.worldbank.org/en/climatechange/building-resilience-in-investment-projects--the-power-of-resilie",
       content: (
         <p>
@@ -268,7 +268,7 @@ export default function DiagnosingVulnerabilities() {
           Coalition for Disaster Resilient Infrastructure
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Data",
       link: "https://giri.unepgrid.ch/",
       content: (
         <p>
@@ -287,7 +287,7 @@ export default function DiagnosingVulnerabilities() {
           European Commission
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Data",
       link: "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Climate-Change/INFORM-Climate-Change-Tool",
       content: (
         <p>

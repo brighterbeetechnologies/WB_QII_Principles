@@ -12,6 +12,7 @@ export default function TechnicalSolutions() {
   const resourceArray = [
     {
       id: 0,
+      country: "Global",
       title: "InfraTech Portal ",
       org: "Asian Infrastructure Investment Bank",
       description:
@@ -21,6 +22,7 @@ export default function TechnicalSolutions() {
     },
     {
       id: 1,
+      country: "Global",
       title: "InfraTech Policy Toolkit",
       org: "World Bank",
       description:
@@ -31,6 +33,7 @@ export default function TechnicalSolutions() {
     },
     {
       id: 2,
+      country: "Global",
       title: "Nature-Based Solutions for Infrastructure Projects ",
       org: "International Finance Corporation",
       description:
@@ -40,6 +43,7 @@ export default function TechnicalSolutions() {
     },
     {
       id: 3,
+      country: "Global",
       title: "Global BIM Network ",
       org: "UK Foreign, Commonwealth and Development Office",
       description:
@@ -49,7 +53,9 @@ export default function TechnicalSolutions() {
     },
     {
       id: 4,
-      title: "IEA Technology Roadmaps ",
+      country: "Global",
+      title: "IEA Technology Roadmaps",
+      org: "International Energy Agency",
       subTitle: "Organisation for Economic Co-operation and Development",
       description:
         "This publication offers a series of roadmaps for some of the most important energy technologies, and provide analytical footing that enables policy makers and industry to develop and adopt specific technologies.",
@@ -63,7 +69,8 @@ export default function TechnicalSolutions() {
     {
       image: "images/procurement/Pre-Fabrication.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Pre-Fabrication Technology for Modular Construction</strong>
           <br />
           Global Infrastructure Hub
@@ -83,7 +90,7 @@ export default function TechnicalSolutions() {
       image: "images/technicalSolutions/SolomonIslands.png",
       title: (
         <p>
-          Solomon Islands <br />
+          Cross-Regional <br />
           <strong>
             Climate-Resilient Solution for Small Bridges in the Pacific
           </strong>
@@ -185,7 +192,8 @@ export default function TechnicalSolutions() {
     {
       image: "images/technicalSolutions/AIanddeep.png",
       title: (
-        <p>Global <br />
+        <p>
+          Cross-Regional <br />
           <strong>
             AI and Deep Learning for Identifying Pavement Failures
           </strong>
@@ -207,7 +215,8 @@ export default function TechnicalSolutions() {
     {
       image: "images/technicalSolutions/SensorsAndMachine.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Sensors and Machine Learning for Predictive Maintenance
           </strong>

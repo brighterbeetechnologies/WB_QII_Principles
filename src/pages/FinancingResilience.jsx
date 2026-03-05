@@ -36,7 +36,7 @@ export default function FinancingResilience() {
   const resourceArray = [
     {
       id: 0,
-      country: "Multi-country",
+      country: "Global",
       title: "Climate Toolkits for Infrastructure PPPs",
       org: "World Bank",
       description:
@@ -48,7 +48,7 @@ export default function FinancingResilience() {
     },
     {
       id: 1,
-      country: "Multi-country",
+      country: "Global",
       title:
         "Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport",
       org: "World Bank",
@@ -61,7 +61,7 @@ export default function FinancingResilience() {
     },
     {
       id: 2,
-      country: "Multi-country",
+      country: "Global",
       title:
         "G20/OECD Report on Approaches for Financing and Investing in Climate-resilient Infrastructure",
       org: false,
@@ -74,7 +74,7 @@ export default function FinancingResilience() {
     },
     {
       id: 3,
-      country: "Multi-country",
+      country: "Global",
       title:
         "Financing for Disaster and Resilient Infrastructure Coalition for Disaster Resilient Infrastructure",
       org: false,
@@ -96,7 +96,7 @@ export default function FinancingResilience() {
           <strong>Climate Bonds Initiative</strong>
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://www.climatebonds.net/files/documents/supporting-documents/Climate-Bonds_CBRT-v1-Final-003-User-View_Protected-version2-2-1.xlsx",
       content: (
         <p>
@@ -109,11 +109,11 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
       title: (
-        <p>Global <br />
+        <p>Cross-Regional <br />
           <strong>EU Taxonomy Compass</strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass",
       content: (
         <p>
@@ -132,7 +132,7 @@ export default function FinancingResilience() {
           <strong>FAST-Infra Label</strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://cdn.prod.website-files.com/64869a932dab4d8c36a88774/68a44d2347380f7f25d23d24_ST01_V2_05.12.2024.pdf",
       content: (
         <p>
@@ -257,7 +257,7 @@ export default function FinancingResilience() {
           <br />GFDRR
         </p>
       ),
-      buttonText: "Resource",
+      buttonText: "Report",
       link: "https://www.gfdrr.org/en/disaster-risk-finance",
       content: <p>GFDRR supports governments in designing financial protection strategies and instruments to respond to natural disasters. The Disaster Risk Financing and Insurance thematic area provides a compendium of case studies and resources in financing solutions for better management of disasters and climate shocks.</p>,
     },

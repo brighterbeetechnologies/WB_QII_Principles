@@ -749,12 +749,12 @@ export default function QII4LandingPage() {
               title: "QII.4 Resilience",
               id: 3,
             },
-            {
-              show: true,
-              category: "Media Type",
-              title: "Case Study",
-              id: 1,
-            },
+            // {
+            //   show: true,
+            //   category: "Media Type",
+            //   title: "Case Study",
+            //   id: 1,
+            // },
           ]}
         ></ResourceLibrary>
       </section>

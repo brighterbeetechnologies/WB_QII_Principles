@@ -94,7 +94,7 @@ export default function Public_Investment_And_Asset_Management() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
       content: (
         <p>
@@ -124,7 +124,7 @@ export default function Public_Investment_And_Asset_Management() {
           Organisation for Economic Co-operation and Development
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
       content: (
         <p>

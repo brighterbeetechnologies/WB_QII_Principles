@@ -19,7 +19,7 @@ export default function Infrastructure_Institutions() {
           <strong>Infrastructure Governance​</strong> <br />Infrastructure Governance Facility​
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://infrastructuregovern.imf.org/",
       content: (
         <p>
@@ -127,7 +127,7 @@ export default function Infrastructure_Institutions() {
           <strong>Integrated Approaches in Action</strong> <br /> United Nations Environment Programme
         </p>
       ),
-      buttonText: "Case Study",
+      buttonText: "Guidance",
       link: "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
       content: (
         <p>

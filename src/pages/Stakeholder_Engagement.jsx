@@ -66,11 +66,11 @@ export default function Stakeholder_Engagement() {
       image: "images/qii5/shutterstock_2535975537.jpg",
       title: (
         <p>
-          Ghana ​ <br />
+          Global ​ <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
         </p>
       ),
-      buttonText: "Case Study",
+      buttonText: "Report",
       link: "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
       content: (
         <p>
@@ -97,7 +97,7 @@ export default function Stakeholder_Engagement() {
           <strong>Mainstreaming Gender in Infrastructure</strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
       content: (
         <p>
@@ -207,7 +207,7 @@ export default function Stakeholder_Engagement() {
           Organisation for Economic Co-operation and Development​
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Guidance",
       link: "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
       content: (
         <p>

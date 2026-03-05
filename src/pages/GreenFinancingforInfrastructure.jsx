@@ -22,7 +22,7 @@ export default function GreenFinancingforInfrastructure() {
           Climate Bonds Initiative
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://www.climatebonds.net/expertise/taxonomy/world-taxonomies",
       content: (
         <p>
@@ -38,12 +38,12 @@ export default function GreenFinancingforInfrastructure() {
         "images/qii3/GreenFinancingforInfrastructure/EU Taxonomy for Sustainable Activities.png",
       title: (
         <p>
-          Global <br />
+          Cross-Regional <br />
           <strong>EU Taxonomy for Sustainable Activities</strong> <br />
           European Commission​
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
       content: (
         <p>
@@ -62,7 +62,7 @@ export default function GreenFinancingforInfrastructure() {
           <br />
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://www.fastinfralabel.org/",
       content: (
         <p>
@@ -83,7 +83,7 @@ export default function GreenFinancingforInfrastructure() {
           Climate Bonds Initiative
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.climatebonds.net/expertise/standard-sector-criteria-certification/sector-criteria",
       content: (
         <p>
@@ -175,7 +175,7 @@ export default function GreenFinancingforInfrastructure() {
           ICMA
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Framework",
       link: "https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/green-bond-principles-gbp/",
       content: (
         <p>
@@ -195,7 +195,7 @@ export default function GreenFinancingforInfrastructure() {
           European Investment Bank
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Framework",
       link: "https://greenchecker.eib.org/",
       content: (
         <p>
