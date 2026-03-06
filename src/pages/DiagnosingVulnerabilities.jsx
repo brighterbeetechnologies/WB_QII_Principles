@@ -209,7 +209,7 @@ export default function DiagnosingVulnerabilities() {
       link: "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
       content: (
         <p>
-          A conceptual sea level rise assessment has been completed for Nauru to
+          Chapter 5.6.1- A conceptual sea level rise assessment has been completed for Nauru to
           assess potential infrastructure risk and vulnerability.
         </p>
       ),

@@ -171,7 +171,7 @@ export default function QII3CaseStudy1() {
               className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "pdf/QII_3_SpotlightCaseStudy_Belgrade_v2.docx",
+                  "https://www.bcenergy.rs/belgrade-waste-management-ppp-project-becomes-the-first-serbian-project-certified-by-the-gold-standard-organization/",
                   "_blank",
                   "noopener,noreferrer",
                 )

@@ -96,7 +96,7 @@
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 2rem 1rem;
 }
 
 .single-case-study-wrapper .case-study-details .icon-title img {
@@ -160,13 +160,13 @@
 .single-case-study-wrapper
   .case-study-details
   .case-study-details-card:nth-child(4) {
-  width: 29%;
+  width: 24%;
 }
 
 .single-case-study-wrapper
   .case-study-details
   .case-study-details-card:nth-child(5) {
-  width: 29%;
+  width: 34%;
 }
 
 .single-case-study-wrapper .video-tag {

@@ -98,8 +98,8 @@
 
 .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-des-container {
   position: absolute;
-  left: 33%;
-  top: 58%;
+  left: 34%;
+  top: 57%;
   font-size: 0.9rem;
   display: flex;
   flex-wrap: wrap;
@@ -228,7 +228,7 @@
 
 .ico-text-card-5 p {
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin: 1rem 1rem 2rem 1rem;
   text-align: center;
 }
@@ -238,7 +238,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0 4rem;
+  padding: 0 6rem;
   margin: 1rem 0;
 }
 
@@ -270,7 +270,8 @@
 }
 
 .ico-text-card-5-infographics-letter-info {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .ico-text-card-5-infographics-letter-info-title {
@@ -332,7 +333,7 @@
     width: 45%;
   }
   .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-des-container {
-    left: 30%;
+    left: 33%;
     top: 56%;
   }
 }
@@ -524,7 +525,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 0rem;
-    padding: 0 4rem;
+    padding: 0 6rem;
     margin: 1rem 0;
   }
   .ico-text-card-5-arrow {

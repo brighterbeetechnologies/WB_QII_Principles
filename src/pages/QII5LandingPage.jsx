@@ -183,7 +183,7 @@ export default function QII5LandingPage() {
   </g>
 </svg>
 `,
-      title: "Inclusion in Project Planning and Design",
+      title: "Inclusion in Project Design",
       description:
         "Applying universal design principles to address the diverse needs of all user groups and promote equitable participation",
       path: "/Project_Planning_And_Design",

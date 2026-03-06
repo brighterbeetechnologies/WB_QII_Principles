@@ -8,6 +8,7 @@ import { Pagination, ConfigProvider } from "antd";
 import TopResourceCard from "../components/TopResourceCard";
 import VCardsPagination from "../components/VCardsPagination";
 import { useDispatch } from "react-redux";
+import Video from "../components/Video";
 import {
   setBradcrump,
   setShowVideo,
@@ -32,150 +33,142 @@ export default function QII1LandingPage() {
   const start = (page - 1) * PAGE_SIZE;
   const end = start + PAGE_SIZE;
 
-  const cards = [
-    <div className="ico-text-card-3-container">
-      <div className="ico-text-card-3">
-        <div className="ico-text-card-3-ico">
-          <img src="images/qii1/Vector.svg" alt="" />
-        </div>
-        <div className="ico-text-card-3-description">
-          <div className="ico-text-card-3-title">
-            <p>Infrastructure as the Backbone of Jobs and Livelihoods</p>
-          </div>
-          <p className="ico-text-card-3-desc">
-            Infrastructure can create a virtuous economic cycle, from job
-            creation during the construction and O&M phases, to boosting the
-            industries that support these activities, to ultimately increasing
-            productivity, jobs and access to markets through the infrastructure
-            services provided.
-          </p>
-          <p className="ico-text-card-3-link">
-            1:{" "}
-            <Link
-              to="https://documents1.worldbank.org/curated/en/924891596641466361/pdf/Jobs-Umbrella-Multidonor-Trust-Fund-Annual-Report-2019-2020.pdf"
-              target="_blank"
-              className="link"
-            >
-              World Bank (2020) Jobs Umbrella MDTF: Annual Report 2019-2020
-            </Link>
-          </p>
-          {/* <span style={{ opacity: 0 }}>
-            While each QII principle stands on its own, governments should
-            consider how multiple principles can be combined within a single
-            project. The result is co-benefits that no single approach can
-            achieve alone.While each QII principle stands on its own,
-            governments should consider how multiple principles can be combined
-            within a single project.
-          </span> */}
-        </div>
-      </div>
-    </div>,
+  // const cards = [
+  //   <div className="ico-text-card-3-container">
+  //     <div className="ico-text-card-3">
+  //       <div className="ico-text-card-3-ico">
+  //         <img src="images/qii1/Vector.svg" alt="" />
+  //       </div>
+  //       <div className="ico-text-card-3-description">
+  //         <div className="ico-text-card-3-title">
+  //           <p>Infrastructure as the Backbone of Jobs and Livelihoods</p>
+  //         </div>
+  //         <p className="ico-text-card-3-desc">
+  //           Infrastructure can create a virtuous economic cycle, from job
+  //           creation during the construction and O&M phases, to boosting the
+  //           industries that support these activities, to ultimately increasing
+  //           productivity, jobs and access to markets through the infrastructure
+  //           services provided.
+  //         </p>
+  //         <p className="ico-text-card-3-link">
+  //           1:{" "}
+  //           <Link
+  //             to="https://documents1.worldbank.org/curated/en/924891596641466361/pdf/Jobs-Umbrella-Multidonor-Trust-Fund-Annual-Report-2019-2020.pdf"
+  //             target="_blank"
+  //             className="link"
+  //           >
+  //             World Bank (2020) Jobs Umbrella MDTF: Annual Report 2019-2020
+  //           </Link>
+  //         </p>
+  //       </div>
+  //     </div>
+  //   </div>,
 
-    <div className="ico-text-card-3-container">
-      <div className="ico-text-card-3">
-        <div className="ico-text-card-3-ico">
-          <img src="images/qii1/Icon4.svg" alt="" />
-        </div>
-        <div className="ico-text-card-3-description">
-          <div className="ico-text-card-3-title">
-            <p>Co-Benefits of Integrating QII Principles</p>
-          </div>
-          <p className="ico-text-card-3-desc">
-            Beyond its role as an economic driver, infrastructure must align
-            with environmental and social objectives.
-            <br />
-            <br />
-            While each QII principle stands on its own, governments should
-            consider how multiple principles can be combined within a single
-            project. The result is co-benefits that no single approach can
-            achieve alone.
-          </p>
-          <p className="ico-text-card-3-link">
-            1:{" "}
-            <Link
-              to="https://openknowledge.worldbank.org/server/api/core/bitstreams/7239ed0b-4cee-43c3-9a87-2470806454d8/content"
-              target="_blank"
-              className="link"
-            >
-              Vagliasindi and Gorgulu (2025). Disentangling the Key Economic
-              Channels through Which Infrastructure Affects Jobs
-            </Link>
-          </p>
-        </div>
-      </div>
-    </div>,
+  //   <div className="ico-text-card-3-container">
+  //     <div className="ico-text-card-3">
+  //       <div className="ico-text-card-3-ico">
+  //         <img src="images/qii1/Icon4.svg" alt="" />
+  //       </div>
+  //       <div className="ico-text-card-3-description">
+  //         <div className="ico-text-card-3-title">
+  //           <p>Co-Benefits of Integrating QII Principles</p>
+  //         </div>
+  //         <p className="ico-text-card-3-desc">
+  //           Beyond its role as an economic driver, infrastructure must align
+  //           with environmental and social objectives.
+  //           <br />
+  //           <br />
+  //           While each QII principle stands on its own, governments should
+  //           consider how multiple principles can be combined within a single
+  //           project. The result is co-benefits that no single approach can
+  //           achieve alone.
+  //         </p>
+  //         <p className="ico-text-card-3-link">
+  //           1:{" "}
+  //           <Link
+  //             to="https://openknowledge.worldbank.org/server/api/core/bitstreams/7239ed0b-4cee-43c3-9a87-2470806454d8/content"
+  //             target="_blank"
+  //             className="link"
+  //           >
+  //             Vagliasindi and Gorgulu (2025). Disentangling the Key Economic
+  //             Channels through Which Infrastructure Affects Jobs
+  //           </Link>
+  //         </p>
+  //       </div>
+  //     </div>
+  //   </div>,
 
-    <div className="ico-text-card-3-container">
-      <div className="ico-text-card-3">
-        <div className="ico-text-card-3-ico">
-          <img src="images/qii1/Icon3.svg" alt="" />
-        </div>
-        <div className="ico-text-card-3-description">
-          <div className="ico-text-card-3-title">
-            <p>Digitalization and Technology in Infrastructure </p>
-          </div>
-          <p className="ico-text-card-3-desc">
-            Digitizing infrastructure services and introducing innovative
-            technologies are cross-cutting interventions that amplify QII
-            impacts. They enable step-change benefits in governance and planning
-            processes, enhance designs and operational efficiency, reduce whole
-            of life costs, and attract skilled labor to the sector.
-            <br />
-            <br />
-            This is about “making infrastructure smarter and more connected”,
-            not only about digital infrastructure itself.
-          </p>
-          <p className="ico-text-card-3-link">
-            {" "}
-            <Link to="" target="_blank" className="link"></Link>
-          </p>
-          {/* <span style={{ opacity: 0 }}>
-            While each QII principle stands on its own, governments should{" "}</span> */}
-        </div>
-      </div>
-    </div>,
+  //   <div className="ico-text-card-3-container">
+  //     <div className="ico-text-card-3">
+  //       <div className="ico-text-card-3-ico">
+  //         <img src="images/qii1/Icon3.svg" alt="" />
+  //       </div>
+  //       <div className="ico-text-card-3-description">
+  //         <div className="ico-text-card-3-title">
+  //           <p>Digitalization and Technology in Infrastructure </p>
+  //         </div>
+  //         <p className="ico-text-card-3-desc">
+  //           Digitizing infrastructure services and introducing innovative
+  //           technologies are cross-cutting interventions that amplify QII
+  //           impacts. They enable step-change benefits in governance and planning
+  //           processes, enhance designs and operational efficiency, reduce whole
+  //           of life costs, and attract skilled labor to the sector.
+  //           <br />
+  //           <br />
+  //           This is about “making infrastructure smarter and more connected”,
+  //           not only about digital infrastructure itself.
+  //         </p>
+  //         <p className="ico-text-card-3-link">
+  //           {" "}
+  //           <Link to="" target="_blank" className="link"></Link>
+  //         </p>
+  //         {/* <span style={{ opacity: 0 }}>
+  //           While each QII principle stands on its own, governments should{" "}</span> */}
+  //       </div>
+  //     </div>
+  //   </div>,
 
-    <div className="ico-text-card-3-container">
-      <div className="ico-text-card-3">
-        <div className="ico-text-card-3-ico">
-          <img src="images/qii1/Icon2.svg" alt="" />
-        </div>
-        <div className="ico-text-card-3-description">
-          <div className="ico-text-card-3-title">
-            <p>Partnering with the Private Sector </p>
-          </div>
-          <p className="ico-text-card-3-desc">
-            Investment needs for physical infrastructure alone require around
-            4.5% of GDP, or $1.5 trillion annually, in developing countries. For
-            many nations, this represents a significant hurdle.
-            <br />
-            <br />
-            Bridging this financing gap while managing rising debt levels and
-            budgetary constraints requires bringing together public and private
-            capital.
-          </p>
-          <p className="ico-text-card-3-link">
-            1:{" "}
-            <Link
-              to="https://www.devcommittee.org/content/dam/sites/devcommittee/doc/documents/2025/Final_DC2025-0004.pdf?deliveryName=DM266142"
-              target="_blank"
-              className="link"
-            >
-              World Bank (2025) Foundations for Growth and Jobs
-            </Link>
-          </p>
-        </div>
-      </div>
-    </div>,
-  ];
+  //   <div className="ico-text-card-3-container">
+  //     <div className="ico-text-card-3">
+  //       <div className="ico-text-card-3-ico">
+  //         <img src="images/qii1/Icon2.svg" alt="" />
+  //       </div>
+  //       <div className="ico-text-card-3-description">
+  //         <div className="ico-text-card-3-title">
+  //           <p>Partnering with the Private Sector </p>
+  //         </div>
+  //         <p className="ico-text-card-3-desc">
+  //           Investment needs for physical infrastructure alone require around
+  //           4.5% of GDP, or $1.5 trillion annually, in developing countries. For
+  //           many nations, this represents a significant hurdle.
+  //           <br />
+  //           <br />
+  //           Bridging this financing gap while managing rising debt levels and
+  //           budgetary constraints requires bringing together public and private
+  //           capital.
+  //         </p>
+  //         <p className="ico-text-card-3-link">
+  //           1:{" "}
+  //           <Link
+  //             to="https://www.devcommittee.org/content/dam/sites/devcommittee/doc/documents/2025/Final_DC2025-0004.pdf?deliveryName=DM266142"
+  //             target="_blank"
+  //             className="link"
+  //           >
+  //             World Bank (2025) Foundations for Growth and Jobs
+  //           </Link>
+  //         </p>
+  //       </div>
+  //     </div>
+  //   </div>,
+  // ];
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setPage((prev) => (prev === cards.length ? 1 : prev + 1));
-    }, 3000); // 3 seconds
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setPage((prev) => (prev === cards.length ? 1 : prev + 1));
+  //   }, 3000); // 3 seconds
 
-    return () => clearInterval(interval);
-  }, [cards.length]);
+  //   return () => clearInterval(interval);
+  // }, [cards.length]);
 
   const tabs = [
     "Sustainable Development Objectives",
@@ -1117,7 +1110,10 @@ export default function QII1LandingPage() {
       subtext1: (
         <>
           {" "}
-          <Link to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"} className="link4">
+          <Link
+            to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"}
+            className="link4"
+          >
             (English/Japanese)
           </Link>
         </>
@@ -1136,7 +1132,10 @@ export default function QII1LandingPage() {
       subtext1: (
         <>
           {" "}
-          <Link to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"} className="link4">
+          <Link
+            to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"}
+            className="link4"
+          >
             (English/Japanese)
           </Link>
         </>
@@ -1207,42 +1206,140 @@ export default function QII1LandingPage() {
             </strong>
           </p> */}
 
-          {/* <div className="ico-text-card-3-container">
+          <div className="ico-text-card-3-container">
             <div className="ico-text-card-3">
               <div className="ico-text-card-3-ico">
                 <img src="images/qii1/Icon1.svg" alt="" />
               </div>
               <div className="ico-text-card-3-description">
                 <div className="ico-text-card-3-title">
-                  <p>
-                    Infrastructure as the Backbone of Jobs and Livelihoods
-                  </p>
+                  <p>Infrastructure as the Backbone of Jobs and Livelihoods</p>
                 </div>
                 <p className="ico-text-card-3-desc">
                   Infrastructure can create a virtuous economic cycle, from job
                   creation during the construction and OaM phases, to boosting
                   the industries that support these activities, to ultimately
                   increasing productivity, jobs and access to markets through
-                  the infrastructure services provided.1
-                </p>
-                <p className="ico-text-card-3-link">
-                  1:{" "}
-                  <Link
-                    to="https://documents1.worldbank.org/curated/en/924891596641466361/pdf/Jobs-Umbrella-Multidonor-Trust-Fund-Annual-Report-2019-2020.pdf"
-                    target="_blank"
-                    className="link"
-                  >
-                    World Bank (2020) Jobs Umbrella MDTF: Annual Report
-                    2019-2020{" "}
-                  </Link>
+                  the infrastructure services provided.
                 </p>
               </div>
             </div>
-            
-          </div> */}
-          <div key={page} className="page-animate">
-            {cards.slice(start, end)}
+            <div className="ico-text-card-3">
+              <div className="ico-text-card-3-ico">
+                <img src="images/qii1/Icon4.svg" alt="" />
+              </div>
+              <div className="ico-text-card-3-description">
+                <div className="ico-text-card-3-title">
+                  <p>Co-Benefits of Integrating QII Principles</p>
+                </div>
+                <p className="ico-text-card-3-desc">
+                  Beyond its role as an economic driver, infrastructure must
+                  align with environmental and social objectives.
+                  <br />
+                  <br />
+                  While each QII principle stands on its own, governments should
+                  consider how multiple principles can be combined within a
+                  single project. The result is co-benefits that no single
+                  approach can achieve alone.
+                </p>
+              </div>
+            </div>
+            <div className="ico-text-card-3">
+              <div className="ico-text-card-3-ico">
+                <img src="images/qii1/Icon3.svg" alt="" />
+              </div>
+              <div className="ico-text-card-3-description">
+                <div className="ico-text-card-3-title">
+                  <p>Digitalization and Technology in Infrastructure </p>
+                </div>
+                <p className="ico-text-card-3-desc">
+                  Digitizing infrastructure services and introducing innovative
+                  technologies are cross-cutting interventions that amplify QII
+                  impacts. They enable step-change benefits in governance and
+                  planning processes, enhance designs and operational
+                  efficiency, reduce whole of life costs, and attract skilled
+                  labor to the sector.
+                  <br />
+                  <br />
+                  This is about “making infrastructure smarter and more
+                  connected”, not only about digital infrastructure itself.
+                </p>
+                {/* <p className="ico-text-card-3-link">
+                  {" "}
+                  <Link to="" target="_blank" className="link"></Link>
+                </p> */}
+              </div>
+            </div>
+
+            <div className="ico-text-card-3">
+              <div className="ico-text-card-3-ico">
+                <img src="images/qii1/Icon2.svg" alt="" />
+              </div>
+              <div className="ico-text-card-3-description">
+                <div className="ico-text-card-3-title">
+                  <p>Partnering with the Private Sector </p>
+                </div>
+                <p className="ico-text-card-3-desc">
+                  Investment needs for physical infrastructure alone require
+                  around 4.5% of GDP, or $1.5 trillion annually, in developing
+                  countries. For many nations, this represents a significant
+                  hurdle.
+                  <br />
+                  <br />
+                  Bridging this financing gap while managing rising debt levels
+                  and budgetary constraints requires bringing together public
+                  and private capital.
+                </p>
+                {/* <p className="ico-text-card-3-link">
+                  1:{" "}
+                  <Link
+                    to="https://www.devcommittee.org/content/dam/sites/devcommittee/doc/documents/2025/Final_DC2025-0004.pdf?deliveryName=DM266142"
+                    target="_blank"
+                    className="link"
+                  >
+                    World Bank (2025) Foundations for Growth and Jobs
+                  </Link>
+                </p> */}
+              </div>
+            </div>
           </div>
+          <div className="ico-text-card-3-link-container">
+            <p className="ico-text-card-3-link">
+              1:{" "}
+              <Link
+                to="https://documents1.worldbank.org/curated/en/924891596641466361/pdf/Jobs-Umbrella-Multidonor-Trust-Fund-Annual-Report-2019-2020.pdf"
+                target="_blank"
+                className="link"
+              >
+                World Bank (2020) Jobs Umbrella MDTF: Annual Report
+                2019-2020{" "}
+              </Link>
+            </p>
+            <p className="ico-text-card-3-link">
+              2:{" "}
+              <Link
+                to="https://openknowledge.worldbank.org/server/api/core/bitstreams/7239ed0b-4cee-43c3-9a87-2470806454d8/content"
+                target="_blank"
+                className="link"
+              >
+                Vagliasindi and Gorgulu (2025). Disentangling the Key Economic
+                Channels through Which Infrastructure Affects Jobs
+              </Link>
+            </p>
+            <p className="ico-text-card-3-link">
+              3:{" "}
+              <Link
+                to="https://www.devcommittee.org/content/dam/sites/devcommittee/doc/documents/2025/Final_DC2025-0004.pdf?deliveryName=DM266142"
+                target="_blank"
+                className="link"
+              >
+                World Bank (2025) Foundations for Growth and Jobs
+              </Link>
+            </p>
+          </div>
+          {/* <div key={page} className="page-animate">
+            {cards.slice(start, end)}
+          </div> */}
           {/* <ConfigProvider
             theme={{
               token: {
@@ -1268,7 +1365,7 @@ export default function QII1LandingPage() {
       </section>
       <section>
         {/* <QII1CaseStudy1 /> */}
-        <section className="qii_video_landing_page color-light">
+        {/* <section className="qii_video_landing_page color-light">
           <img
             className="qii_video-thumbnail-image"
             src="images/qii4/QII 2 in Action poster.png"
@@ -1302,9 +1399,141 @@ export default function QII1LandingPage() {
               </button>
             </Link>
           </div>
+        </section> */}
+        <section className="color-light">
+          <div className="container-qii1">
+            <div className="qii1-video-text-cnt">
+              <div className="video-text-box">
+                <Video
+                  thumbnail="images/qii1/Indonesia-Transforming.png"
+                  videoUrl=""
+                  videoTitle="QII.1 in Action"
+                  cardTitle={
+                    <>
+                      <span>QII.1 in Action</span> <br />
+                    </>
+                  }
+                  description=""
+                  duration="3 min watch"
+                />
+              </div>
+              <div className="qii1-text-cnt">
+                {/* <h1 className="light-font mBottom">
+                        Further Reading
+                      </h1> */}
+                <h3 className="light-font qii1-sub-text">
+                  <strong>Further Reading</strong>
+                </h3>
+                <div className="qii1-further-reading-container">
+                  <p>
+                    <strong>Iraq: Rebuilding Communities After Conflict</strong>
+                  </p>
+                  <div className="qii1-further-reading-link-container">
+                    <p className="qii1-further-reading-link">
+                      <Link
+                        to={
+                          "https://blogs.worldbank.org/en/arabvoices/iraq-emergency-project-rebuilding-bridges#:~:text=They%20were%20carried%20out%20by%20Iraqi%20government,Group%27s%20Emergency%20Operation%20for%20Development%20Project%20(EODP)"
+                        }
+                        className="link5"
+                        target="_blank"
+                      >
+                        Blog: Emergency Project Rebuilding Bridges, Roads,
+                        Water, Wastewater Municipal services and Livelihoods
+                      </Link>
+                    </p>
+                    <p className="qii1-further-reading-link">
+                      <Link
+                        to={
+                          "https://www.worldbank.org/en/news/press-release/2017/10/31/400-million-for-the-reconstruction-of-mosul-and-newly-liberated-areas-in-iraq#:~:text=On%20October%2031%2C%202017%2C%20the%20World%20Bank,*%20Improve%20education%20quality%20*%20Increase%20employment"
+                        }
+                        className="link5"
+                        target="_blank"
+                      >
+                        Blog: $400 Million for the Reconstruction of Mosul and
+                        Newly Liberated Areas in Irag
+                      </Link>
+                    </p>
+                  </div>
+                  <p className="qii1-further-reading">
+                    <strong>
+                      Dominica: Building Climate Resilience Through Nature-Based
+                      Solutions{" "}
+                    </strong>
+                  </p>
+                  <div className="qii1-further-reading-link-container">
+                    <p className="qii1-further-reading-link">
+                      <Link
+                        to={"https://www.gfdrr.org/fr/dominique"}
+                        className="link5"
+                        target="_blank"
+                      >
+                        GFDRR Country Profile
+                      </Link>
+                    </p>
+                    <p className="qii1-further-reading-link">
+                      <Link
+                        to={
+                          "https://www.worldbank.org/en/news/feature/2023/09/26/dominica-s-journey-to-become-the-world-s-first-climate-resilient-country"
+                        }
+                        className="link5"
+                        target="_blank"
+                      >
+                        Blog: Dominica’s Journey to become the World’s First
+                        Climate Resilient Country
+                      </Link>
+                    </p>
+                  </div>
+                  <p className="qii1-further-reading">
+                    <strong>
+                      Indonesia: Transforming Irrigation Performance Through
+                      Technology{" "}
+                    </strong>
+                  </p>
+                  <p className="qii1-further-reading-link">
+                    <Link
+                      to={
+                        "https://www.worldbank.org/en/news/feature/2022/07/06/-indonesia-pioneers-irrigation-service-delivery-innovation"
+                      }
+                      className="link5"
+                      target="_blank"
+                    >
+                      Feature: Irrigation Service Delivery Innovation
+                    </Link>
+                  </p>
+                  <p className="qii1-further-reading">
+                    <strong>Maputo: Data-Driven Urban Mobility </strong>
+                  </p>
+                  <div className="qii1-further-reading-link-container">
+                    <p className="qii1-further-reading-link">
+                      <Link
+                        to={
+                          "https://blogs.worldbank.org/en/transport/harnessing-technology-and-innovation-modernize-public-transport-our-experience-mozambique"
+                        }
+                        className="link5"
+                        target="_blank"
+                      >
+                        Blog: Modernizing Public Transport
+                      </Link>
+                    </p>
+                    <p className="qii1-further-reading-link">
+                      <Link
+                        to={
+                          "https://www.worldbank.org/en/news/press-release/2022/08/24/world-bank-supports-urban-transport-in-the-maputo-metropolitan-area"
+                        }
+                        className="link5"
+                        target="_blank"
+                      >
+                        Press Release: Urban Transport Support
+                      </Link>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </section>
-      <section className="color-dark FurtherReadingSection">
+      {/* <section className="color-dark FurtherReadingSection">
         <div className="container">
           <h2 className="section-title light-font">Further Reading </h2>
           <div className="card-4-grid" role="list">
@@ -1336,8 +1565,8 @@ export default function QII1LandingPage() {
             </ConfigProvider>
           )}
         </div>
-      </section>
-      <section className="container internal-pages-container color-light">
+      </section> */}
+      <section className="container internal-pages-container color-dark">
         <p className="center-text">
           <strong>
             The Multiplier Effect: How QII Principles Work Together
@@ -1492,7 +1721,7 @@ export default function QII1LandingPage() {
           </div>
         )}
       </section>
-      <section className="container internal-pages-container color-dark">
+      <section className="container internal-pages-container color-light">
         <h2 className="section-title light-font">Key References</h2>
         <p className="center-text">
           Several international initiatives have incorporated the QII Principles
@@ -1505,7 +1734,7 @@ export default function QII1LandingPage() {
           resilience, and sustainability in infrastructure investment.
         </p>
       </section>
-      <section className="container internal-pages-container color-light">
+      <section className="container internal-pages-container color-dark">
         <h2 className="section-title light-font">Other References</h2>
         <div className="card-4-grid" role="list">
           {paginatedCards2.map((card) => (

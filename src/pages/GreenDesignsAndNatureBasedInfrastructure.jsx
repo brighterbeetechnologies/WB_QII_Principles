@@ -271,7 +271,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       title: (
         <p>Global <br />
           <strong>
-            Catalogue of Nature-based Solutions for Infrastructure Projects
+            Catalogue of Nature-Based Solutions for Infrastructure Projects
           </strong><br />IFC
         </p>
       ),

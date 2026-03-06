@@ -620,9 +620,9 @@ export default function Decarbonizing_Infrastructure() {
                   target="_blank"
                   className="link"
                 >
-                  Avoid-Shift-Improve
+                  Avoid-Shift-Improve (ASI) framework 
                 </Link>{" "}
-                framework provides a useful hierarchy.
+                provides a useful hierarchy.
               </p>
             </div>
             <div className="ico-text-card-5-flow">

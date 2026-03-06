@@ -102,6 +102,11 @@ img {
   text-decoration: underline;
 }
 
+.link5 {
+  color: #009fda;
+  text-decoration: underline;
+}
+
 .link:hover,
 .link2:hover {
   text-decoration: underline;
@@ -113,7 +118,10 @@ img {
   text-decoration: underline;
 }
 
-
+.link5:hover {
+  color: #009fda;
+  text-decoration: none;
+}
 
 /* ======================
    Layout
@@ -216,7 +224,7 @@ p.mTop2 {
 }
 
 .center-text {
-  font-size: 1.1rem;
+  font-size: 1.32rem;
   text-align: center;
   margin-bottom: 1rem;
 }

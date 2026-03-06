@@ -41,6 +41,7 @@ export default function QII2LandingPage() {
       description:
         "​With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.",
       img_path: "images/qii6/shutterstock_2668786185.jpg",
+      highlight: 1,
       path: "pdf/Albania Innovations_Results Story_March 2024.pdf",
       pdf: true,
       target: "_blank",
@@ -53,8 +54,8 @@ export default function QII2LandingPage() {
       org: "World Bank",
       description:
         "With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​",
-      img_path:
-        "images/qii6/shutterstock_2660000293.jpg",
+      img_path: "images/qii6/shutterstock_2660000293.jpg",
+      highlight: 1,
       path: "",
       target: "_blank",
     },
@@ -65,8 +66,7 @@ export default function QII2LandingPage() {
       org: "World Bank",
       description:
         "This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​",
-      img_path:
-        "images/qii6/shutterstock_2653389623.jpg",
+      img_path: "images/qii6/shutterstock_2653389623.jpg",
       path: "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
       target: "_blank",
     },
@@ -304,10 +304,10 @@ export default function QII2LandingPage() {
         </div>
       </section>
       <Qii6ImagewithStatement
-        backgroundImage={"images/qii6/QII6-Landing/Ajay-Banga.png"}
-        text={`"Private investment flows only where the right conditions exist and where there’s a clear probability of return. And for that, two things are essential: a strong infrastructure foundation and a predictable regulatory environment. Without these, private capital stays on the sidelines."`}
-        subtext={"Ajay Banga"}
-        subtext2={"April 2025"}
+        backgroundImage={"images/qii6/shutterstock_1954705864.jpg"}
+        text={"Infrastructure investment is not the constraint. In many cases, governance is."}
+        // subtext={"Ajay Banga"}
+        // subtext2={"April 2025"}
       />
       {/* <section className="container color-light">
         <p>
@@ -354,7 +354,9 @@ export default function QII2LandingPage() {
               />
             </div>
             <div className="text-cnt">
-              <h1 className="light-font mBottom">Enabling Impact Through Strong Governance</h1>
+              <h1 className="light-font mBottom">
+                Enabling Impact Through Strong Governance
+              </h1>
               <h3 className="light-font sub-text">
                 Delivering quality infrastructure is about more than just
                 spending. Without good governance, increased spending will not
@@ -475,10 +477,11 @@ export default function QII2LandingPage() {
             {resourceArray.map((p, index) => {
               return (
                 <article
-                  className="page-resource-card"
+                  // className="page-resource-card"
                   key={index}
                   role="listitem"
                   style={{ backgroundImage: `url(${p.img})` }}
+                  className={`page-resource-card box-card ${p.highlight && "highlighted"}`}
                 >
                   <div className="page-resource-link">
                     <div className="page-resource-body">
@@ -595,6 +598,20 @@ export default function QII2LandingPage() {
                       </div>
                     </div>
                   </div>
+                  {p.highlight ? (
+                    <div
+                      className="highlighted-badge"
+                      style={{
+                        background: `${p.highlight ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
+                        backgroundSize: "100% 100%",
+                      }}
+                    >
+                      <img src="images/Star_for_spotligh.svg" alt="" />
+                      {p.highlight && <>Spotlight Case Study</>}
+                    </div>
+                  ) : (
+                    <></>
+                  )}
                 </article>
               );
             })}
