@@ -37,7 +37,7 @@ export default function Stakeholder_Engagement() {
         "images/qii5/Qii5CaseStudy.jpg",
       title: (
         <p>
-          Maputo <br />
+          Mozambique <br />
           <strong>Investing in Mozambique's Connectivity</strong> <br />
           World Bank
         </p>
@@ -68,6 +68,7 @@ export default function Stakeholder_Engagement() {
         <p>
           Global ​ <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
+          <br />World Bank​
         </p>
       ),
       buttonText: "Report",
@@ -95,6 +96,7 @@ export default function Stakeholder_Engagement() {
         <p>
           Global <br />
           <strong>Mainstreaming Gender in Infrastructure</strong>
+          <br />World Bank​
         </p>
       ),
       buttonText: "Report",
@@ -124,9 +126,10 @@ export default function Stakeholder_Engagement() {
             Inclusive Infrastructure “Data Collection and Stakeholder
             Identification”
           </strong>
+          <br />Global Infrastructure Hub
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://inclusiveinfra.gihub.org/action-areas/stakeholder-identification-engagement-and-empowerment",
       content: (
         <p>
@@ -145,6 +148,7 @@ export default function Stakeholder_Engagement() {
         <p>
           Uganda <br />
           <strong>Stakeholder Engagement Plan</strong>
+          <br />Republic of Uganda
         </p>
       ),
       buttonText: "Case Study",
@@ -165,6 +169,7 @@ export default function Stakeholder_Engagement() {
         <p>
           Japan <br />
           <strong>Hachioji City</strong>
+          <br />Organization for Economic Co-operation and Development
         </p>
       ),
       buttonText: "Case Study",
@@ -207,7 +212,7 @@ export default function Stakeholder_Engagement() {
           Organisation for Economic Co-operation and Development​
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
       content: (
         <p>

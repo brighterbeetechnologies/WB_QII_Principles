@@ -81,9 +81,10 @@ export default function Project_Planning_And_Design() {
         <p>
           United Kingdom <br />
           <strong>UK Green Cities & Infrastructure (ICED) facility</strong>
+          <br /> The Centre of Expertise
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://ukgreencitiesandinfrastructure.org/resource/inclusivity-in-procurement/",
       content: (
         <p>
@@ -102,6 +103,7 @@ export default function Project_Planning_And_Design() {
         <p>
           Global <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
+          <br />World Bank​
         </p>
       ),
       buttonText: "Report",
@@ -133,7 +135,7 @@ export default function Project_Planning_And_Design() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://ppp.worldbank.org/sub-national-ppp/bidding-documents-and-contractual-provisions-regarding-inclusion-smes-ppps?utm",
       content: (
         <p>
@@ -147,7 +149,7 @@ export default function Project_Planning_And_Design() {
       title: (
         <p>
           Global <br />
-          <strong>Responsible Contracting Project (RCP) Toolkit</strong>
+          <strong>Responsible Contracting Project Toolkit</strong>
         </p>
       ),
       buttonText: "Framework",
@@ -164,28 +166,6 @@ export default function Project_Planning_And_Design() {
   ];
 
   const step3Cards = [
-    {
-      image: "images/qii5/shutterstock_2346783481.jpg",
-      title: (
-        <p>
-          Senegal​ <br />
-          <strong>
-            Mainstreaming Universal Accessibility in the Built Environment
-            Projects​
-          </strong>
-          <br />
-          World Bank​
-        </p>
-      ),
-      buttonText: "Case Study",
-      link: "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
-      content: (
-        <p>
-          This engagement brief offers a practical stakeholder training and
-          capacity-building framework.
-        </p>
-      ),
-    },
     {
       image: "images/qii5/shutterstock_2665469265.jpg",
       title: (
@@ -214,6 +194,29 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      image: "images/qii5/shutterstock_2346783481.jpg",
+      title: (
+        <p>
+          Senegal​ <br />
+          <strong>
+            Mainstreaming Universal Accessibility in the Built Environment
+            Projects​
+          </strong>
+          <br />
+          World Bank​
+        </p>
+      ),
+      buttonText: "Case Study",
+      highlight: 1,
+      link: "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
+      content: (
+        <p>
+          This engagement brief offers a practical stakeholder training and
+          capacity-building framework.
+        </p>
+      ),
+    },
+    {
       image:
         "images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png",
       title: (
@@ -223,6 +226,7 @@ export default function Project_Planning_And_Design() {
             ISO 21542:2021 – Building Construction: Accessibility and Usability
             of the Built Environment
           </strong>
+          <br />International Organization for Standardization
         </p>
       ),
       buttonText: "Framework",
@@ -242,9 +246,10 @@ export default function Project_Planning_And_Design() {
         <p>
           Global <br />
           <strong>Silver Hues</strong>
+          <br />World Bank​
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://openknowledge.worldbank.org/handle/10986/37259",
       content: (
         <p>

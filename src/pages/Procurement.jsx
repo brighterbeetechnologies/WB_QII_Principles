@@ -39,7 +39,7 @@ export default function Procurement() {
     {
       id: 2,
       country: "Global",
-      title: "Bringing PPPs into the Sunlight Inter-American Development Bank",
+      title: "Bringing PPPs into the Sunlight",
       subTitle: "Inter-American Development Bank",
       description:
         "This report critically examines Public-Private Partnerships (PPPs), considering their benefits and drawbacks. It provides guidance on institutional frameworks, fiscal implications, government support, and unsolicited proposals, emphasizing rigorous value-for-money analysis and risk management to avoid common pitfalls and maximize public benefit.",
@@ -146,7 +146,7 @@ export default function Procurement() {
           Global Infrastructure Hub
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.gihub.org/infrastructure-output-specifications/",
       content: (
         <p>

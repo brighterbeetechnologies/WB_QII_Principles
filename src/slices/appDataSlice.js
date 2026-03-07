@@ -112,16 +112,16 @@ export const appDataSlice = createSlice({
     format: [
       { id: 0, title: "Video" },
       { id: 1, title: "Case Study" },
-      { id: 2, title: "Guidance" },
-      { id: 3, title: "Tool" },
+      { id: 2, title: "Guidance note" },
+      // { id: 3, title: "Tool" },
       { id: 4, title: "Data" },
       { id: 5, title: "Report" },
-      { id: 6, title: "Policy Paper" },
-      { id: 7, title: "Publication" },
+      // { id: 6, title: "Policy Paper" },
+      // { id: 7, title: "Publication" },
       { id: 8, title: "Blog" },
       { id: 9, title: "Framework" },
       { id: 10, title: "Reading" },
-      { id: 11, title: "Resource" },
+      // { id: 11, title: "Resource" },
     ],
 
     learningPath: [
@@ -132,8 +132,8 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "pdf/Revised_Draft_Practice_Manual_LCC_with_sector_specific_guidance_15_Oct_2022.pdf",
-        type: "Guidance",
-        title: "Bangladesh: Combined Cycle Power Plant",
+        type: "Guidance note",
+        title: "Global: Combined Cycle Power Plant",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -150,7 +150,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://ppp.worldbank.org/sites/default/files/2024-08/PPP Reference Guide Version 3.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: PPP Reference Guide",
         principles: 1,
         highlight: 0,
@@ -201,7 +201,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/library/life-cycle-cost-analysis-management-highway-assets",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Life-Cycle Cost Analysis for Management of Highway Assets",
         principles: 1,
@@ -219,14 +219,13 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2020-02/World Bank_Municipal PPP_Module 16_Content.pdf",
-        type: "Guidance",
-        title:
-          "Global: Harnessing Land Value Capture: Municipal Public-Private Partnership Framework",
+        type: "Report",
+        title: "Global: Municipal Public-Private Partnership Framework",
         principles: 1,
         highlight: 0,
         target: "_blank",
         desc: "This report introduces concepts of land value capture and describes different instruments for climate-related funding and financing of projects. It provides brief examples of solutions developed in specific energy and agricultural sub-sectors.",
-        format: 2,
+        format: 5,
         stage: 2,
         income: 0,
         region: 7,
@@ -448,7 +447,7 @@ export const appDataSlice = createSlice({
           "https://www.nature.org/content/dam/tnc/nature/en/documents/GCTWF-Business-Case-April-2019.pdf",
         type: "Case Study",
         title:
-          "South Africa: Nature-based Infrastructure to Enhance Water Security",
+          "South Africa: Nature-Based Infrastructure to Enhance Water Security",
         principles: 1,
         highlight: 0,
         target: "_blank",
@@ -709,24 +708,24 @@ export const appDataSlice = createSlice({
         industry: 11,
         image: "images/procurement/resources/03.png",
       },
-      {
-        id: 1,
-        paths:
-          "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
-        type: "Report",
-        title:
-          "Global: Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report demonstrates that regular maintenance is essential for reliable and resilient infrastructure, quantifies the high economic and social costs of unreliable services, and provides evidence-based recommendations for improving maintenance practices, governance, and investment planning to maximize infrastructure’s economic benefits and resilience to shocks.",
-        format: 5,
-        stage: 2,
-        income: 0,
-        industry: 11,
-        region: 7,
-        image: "images/procurement/resources/04.png",
-      },
+      // {
+      //   id: 1,
+      //   paths:
+      //     "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
+      //   type: "Report",
+      //   title:
+      //     "Global: Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
+      //   principles: 1,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This report demonstrates that regular maintenance is essential for reliable and resilient infrastructure, quantifies the high economic and social costs of unreliable services, and provides evidence-based recommendations for improving maintenance practices, governance, and investment planning to maximize infrastructure’s economic benefits and resilience to shocks.",
+      //   format: 5,
+      //   stage: 2,
+      //   income: 0,
+      //   industry: 11,
+      //   region: 7,
+      //   image: "images/procurement/resources/04.png",
+      // },
       {
         id: 1,
         paths:
@@ -778,22 +777,22 @@ export const appDataSlice = createSlice({
         industry: 12,
         image: "images/costRecovery/lvc.png",
       },
-      {
-        id: 1,
-        paths:
-          "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
-        type: "Report",
-        title: "Global: Bringing PPPs into the Sunlight",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report examines the fiscal, institutional, and governance challenges of Public-Private Partnerships (PPPs), providing practical guidance to improve transparency, manage fiscal risks, and ensure PPPs deliver long-term value for money.",
-        format: 5,
-        stage: 2,
-        income: 0,
-        industry: 2,
-        image: "images/governance/resources/04.jpg",
-      },
+      // {
+      //   id: 1,
+      //   paths:
+      //     "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
+      //   type: "Report",
+      //   title: "Global: Bringing PPPs into the Sunlight",
+      //   principles: 1,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This report examines the fiscal, institutional, and governance challenges of Public-Private Partnerships (PPPs), providing practical guidance to improve transparency, manage fiscal risks, and ensure PPPs deliver long-term value for money.",
+      //   format: 5,
+      //   stage: 2,
+      //   income: 0,
+      //   industry: 2,
+      //   image: "images/governance/resources/04.jpg",
+      // },
       {
         id: 1,
         paths:
@@ -903,7 +902,7 @@ export const appDataSlice = createSlice({
       {
         id: 1,
         paths: "https://www.gihub.org/infrastructure-output-specifications/",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Reference Guide on Output Specifications for Quality Infrastructure",
         principles: 1,
@@ -921,7 +920,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/Innovative_Revenues_Infrastructure/Table_of_Contents",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Innovative Revenues for Infrastructure Guidelines",
         principles: 1,
         highlight: 0,
@@ -938,7 +937,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://cdn.gihub.org/umbraco/media/3061/world-bank-group-s-reference-note-on-infratech-toolkit.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: InfraTech Policy Toolkit",
         principles: 1,
         highlight: 0,
@@ -1012,7 +1011,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Investigating Life Cycle Carbon Emission Impact of Road Investments",
         principles: 2,
@@ -1049,7 +1048,7 @@ export const appDataSlice = createSlice({
           "https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf",
         type: "Report",
         title:
-          "Global: IFC Catalogue of Nature-based Solutions for Infrastructure Projects",
+          "Global: IFC Catalogue of Nature-Based Solutions for Infrastructure Projects",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1083,7 +1082,7 @@ export const appDataSlice = createSlice({
       },
       {
         id: 1,
-        paths: "/qii3casestudy2",
+        paths: "/qii4casestudy1",
         type: "Case Study",
         title: "Futakotamagawa: Integrating Flood Protection and Urban Renewal",
         principles: 2,
@@ -1130,38 +1129,38 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/Quality-Environmental-Standards/Timor-Leste Tibar Bay Port.png",
       },
-      {
-        id: 3,
-        paths:
-          "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
-        type: "Case Study",
-        title: "Blue Dot Network",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk. ",
-        format: 1,
-        stage: 2,
-        income: 0,
-        industry: 3,
-        image: "images/newresource/Blue-Dot-Network.png",
-      },
-      {
-        id: 3,
-        paths: "https://www.fastinfralabel.org/",
-        type: "Case Study",
-        title: "FAST Infra",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing. ",
-        format: 1,
-        stage: 2,
-        income: 0,
-        industry: 3,
-        image:
-          "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
-      },
+      // {
+      //   id: 3,
+      //   paths:
+      //     "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
+      //   type: "Case Study",
+      //   title: "Blue Dot Network",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk. ",
+      //   format: 1,
+      //   stage: 2,
+      //   income: 0,
+      //   industry: 3,
+      //   image: "images/newresource/Blue-Dot-Network.png",
+      // },
+      // {
+      //   id: 3,
+      //   paths: "https://www.fastinfralabel.org/",
+      //   type: "Case Study",
+      //   title: "FAST Infra",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing. ",
+      //   format: 1,
+      //   stage: 2,
+      //   income: 0,
+      //   industry: 3,
+      //   image:
+      //     "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
+      // },
       {
         id: 3,
         paths:
@@ -1198,39 +1197,39 @@ export const appDataSlice = createSlice({
         industry: 2,
         image: "images/qii3/pakistan.png",
       },
-      {
-        id: 3,
-        paths: "/qii4casestudy1",
-        type: "Case Study",
-        title: "Japan: Futakotamagawa",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "Demonstrates how green infrastructure can be integrated with urban flood protection to deliver multiple benefits. Futakotamagawa Park serves as a natural buffer between Tokyo's Tama River and the city, absorbing floodwater while reconnecting the community to the river, creating wildlife habitat, and cooling the urban district.",
-        format: 1,
-        stage: 2,
-        income: 0,
-        industry: 3,
-        image: "images/qii4/updated/Futakotamagawa.png",
-      },
-      {
-        id: 3,
-        paths:
-          "https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/",
-        type: "Case Study",
-        title: "South Africa: Cape Town Green Bond",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "Illustrates how green bond certification builds investor confidence in climate-aligned municipal infrastructure. In 2017, amid severe drought, Cape Town issued a ZAR 1 billion (~US$75 million) Green Bond, the first in South Africa to receive CBI accreditation and the first to earn an “Excellent” rating from the rating agency Moody’s. Proceeds funded electric buses, energy-efficient buildings, water resilience initiatives, and coastal protection.",
-        format: 1,
-        stage: 2,
-        income: 3,
-        region: 8,
-        industry: 12,
-        image:
-          "images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png",
-      },
+      // {
+      //   id: 3,
+      //   paths: "/qii4casestudy1",
+      //   type: "Case Study",
+      //   title: "Japan: Futakotamagawa",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "Demonstrates how green infrastructure can be integrated with urban flood protection to deliver multiple benefits. Futakotamagawa Park serves as a natural buffer between Tokyo's Tama River and the city, absorbing floodwater while reconnecting the community to the river, creating wildlife habitat, and cooling the urban district.",
+      //   format: 1,
+      //   stage: 2,
+      //   income: 0,
+      //   industry: 3,
+      //   image: "images/qii4/updated/Futakotamagawa.png",
+      // },
+      // {
+      //   id: 3,
+      //   paths:
+      //     "https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/",
+      //   type: "Case Study",
+      //   title: "South Africa: Cape Town Green Bond",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "Illustrates how green bond certification builds investor confidence in climate-aligned municipal infrastructure. In 2017, amid severe drought, Cape Town issued a ZAR 1 billion (~US$75 million) Green Bond, the first in South Africa to receive CBI accreditation and the first to earn an “Excellent” rating from the rating agency Moody’s. Proceeds funded electric buses, energy-efficient buildings, water resilience initiatives, and coastal protection.",
+      //   format: 1,
+      //   stage: 2,
+      //   income: 3,
+      //   region: 8,
+      //   industry: 12,
+      //   image:
+      //     "images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png",
+      // },
       {
         id: 3,
         paths:
@@ -1268,38 +1267,38 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png",
       },
-      {
-        id: 3,
-        paths:
-          "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
-        type: "Case Study",
-        title: "Blue Dot Network",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk.",
-        format: 2,
-        stage: 2,
-        income: 0,
-        industry: 3,
-        image: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
-      },
-      {
-        id: 3,
-        paths: "https://www.fastinfralabel.org/",
-        type: "Case Study",
-        title: "FAST Infra",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing.",
-        format: 2,
-        stage: 2,
-        income: 0,
-        industry: 3,
-        image:
-          "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
-      },
+      // {
+      //   id: 3,
+      //   paths:
+      //     "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
+      //   type: "Case Study",
+      //   title: "Blue Dot Network",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This initiative provides global certification and benchmarking for infrastructure projects, signaling to investors and governments that the project meets high-quality international ESG and financial standards, enhancing credibility and reducing perceived risk.",
+      //   format: 2,
+      //   stage: 2,
+      //   income: 0,
+      //   industry: 3,
+      //   image: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
+      // },
+      // {
+      //   id: 3,
+      //   paths: "https://www.fastinfralabel.org/",
+      //   type: "Case Study",
+      //   title: "FAST Infra",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This label signals that a project meets the FAST Infra Principles for sustainable, bankable infrastructure, including ESG and climate risk criteria, increasing visibility to investors and accelerating financing.",
+      //   format: 2,
+      //   stage: 2,
+      //   income: 0,
+      //   industry: 3,
+      //   image:
+      //     "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
+      // },
       {
         id: 3,
         paths:
@@ -1339,61 +1338,61 @@ export const appDataSlice = createSlice({
       },
 
       //framework-qii3
-      {
-        id: 3,
-        paths:
-          "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
-        type: "Framework",
-        title: "Global: Global Environmental and Social Framework",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This framework provides a replicable approach for integrating E&S considerations into infrastructure projects through ten standards, ensuring sustainable and responsible infrastructure development across the project lifecycle. ",
-        format: 9,
-        stage: 2,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image:
-          "images/qii3/Environmental and Social Framework World Bank (2017).png",
-      },
-      {
-        id: 3,
-        paths:
-          "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
-        type: "Framework",
-        title:
-          "Global: IFC Performance Standards on Environmental and Social Sustainability",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "These standards provide a globally recognized framework to identify and manage E&S risks in infrastructure investments, covering a range of key environmental topics including resource efficiency, pollution prevention, and biodiversity conservation. ",
-        format: 9,
-        stage: 2,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image:
-          "images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png",
-      },
-      {
-        id: 3,
-        paths:
-          "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
-        type: "Framework",
-        title: "Global: Climate Toolkits for Infrastructure PPPs",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "This toolkit offers practical, step-by-step guidance to integrate climate mitigation and adaptation measures into infrastructure PPPs, helping structure bankable projects that align with climate policies, assess climate risks, and incorporate climate solutions that are technically and financially feasible. ",
-        format: 9,
-        stage: 2,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image:
-          "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
-      },
+      // {
+      //   id: 3,
+      //   paths:
+      //     "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
+      //   type: "Framework",
+      //   title: "Global: Global Environmental and Social Framework",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This framework provides a replicable approach for integrating E&S considerations into infrastructure projects through ten standards, ensuring sustainable and responsible infrastructure development across the project lifecycle. ",
+      //   format: 9,
+      //   stage: 2,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image:
+      //     "images/qii3/Environmental and Social Framework World Bank (2017).png",
+      // },
+      // {
+      //   id: 3,
+      //   paths:
+      //     "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+      //   type: "Framework",
+      //   title:
+      //     "Global: IFC Performance Standards on Environmental and Social Sustainability",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "These standards provide a globally recognized framework to identify and manage E&S risks in infrastructure investments, covering a range of key environmental topics including resource efficiency, pollution prevention, and biodiversity conservation. ",
+      //   format: 9,
+      //   stage: 2,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image:
+      //     "images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png",
+      // },
+      // {
+      //   id: 3,
+      //   paths:
+      //     "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
+      //   type: "Framework",
+      //   title: "Global: Climate Toolkits for Infrastructure PPPs",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This toolkit offers practical, step-by-step guidance to integrate climate mitigation and adaptation measures into infrastructure PPPs, helping structure bankable projects that align with climate policies, assess climate risks, and incorporate climate solutions that are technically and financially feasible. ",
+      //   format: 9,
+      //   stage: 2,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image:
+      //     "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
+      // },
       {
         id: 3,
         paths:
@@ -1498,22 +1497,22 @@ export const appDataSlice = createSlice({
         industry: 11,
         image: "images/newresource/BREEAM-Infrastructure.png",
       },
-      {
-        id: 3,
-        paths: "https://www.fastinfralabel.org/",
-        type: "Framework",
-        title: "Global: FAST-Infra",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "The FAST-Infra Label is a globally applicable label for projects demonstrating significant positive sustainability performance. The FAST-Infra initiative was originally conceived collectively by the Climate Policy Initiative (CPI), HSBC, the OECD, the International Finance Corporation (IFC) and the World Bank Group’s Global Infrastructure Facility (GIF), and integrates QII-aligned criteria into its Label to attract private capital to sustainable assets by providing consistent evaluation metrics.",
-        format: 9,
-        stage: 2,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
-      },
+      // {
+      //   id: 3,
+      //   paths: "https://www.fastinfralabel.org/",
+      //   type: "Framework",
+      //   title: "Global: FAST-Infra",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "The FAST-Infra Label is a globally applicable label for projects demonstrating significant positive sustainability performance. The FAST-Infra initiative was originally conceived collectively by the Climate Policy Initiative (CPI), HSBC, the OECD, the International Finance Corporation (IFC) and the World Bank Group’s Global Infrastructure Facility (GIF), and integrates QII-aligned criteria into its Label to attract private capital to sustainable assets by providing consistent evaluation metrics.",
+      //   format: 9,
+      //   stage: 2,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
+      // },
       {
         id: 3,
         paths:
@@ -1640,7 +1639,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths: "https://greenchecker.eib.org/",
         type: "Framework",
-        title: "Global: Green Eligibility Checker tool",
+        title: "Global: Green Eligibility Checker Tool",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1658,7 +1657,7 @@ export const appDataSlice = createSlice({
       {
         id: 3,
         paths: "https://www.unep.org/geo/global-environment-outlook-7",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global Environment Outlook (GEO-7) UNEP",
         principles: 2,
         highlight: 0,
@@ -1675,7 +1674,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Building Green: Sustainable Construction in Emerging Markets",
         principles: 2,
@@ -1694,7 +1693,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://wedocs.unep.org/rest/api/core/bitstreams/979a0cdb-3d3e-4f4a-b899-96c97f412d0d/content",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Green Infrastructure - Guide for Water Management",
         principles: 2,
         highlight: 0,
@@ -1714,9 +1713,9 @@ export const appDataSlice = createSlice({
         //   "https://www.unpri.org/infrastructure/integrating-biodiversity-considerations-into-infrastructure/11611.article",
         paths:
           "https://public.unpri.org/integrating-biodiversity-considerations-into-infrastructure/11611.article",
-        type: "Guidance",
+        type: "Guidance note",
         title:
-          "UN Principles for Responsible Investment: Integrating Biodiversity Considerations into Infrastructure",
+          "Global: UN Principles for Responsible Investment: Integrating Biodiversity Considerations into Infrastructure",
         principles: 2,
         highlight: 0,
         target: "_blank",
@@ -1731,7 +1730,7 @@ export const appDataSlice = createSlice({
       {
         id: 3,
         paths: "https://climateinstitute.edhec.edu/climatech-project",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
         principles: 2,
@@ -1784,43 +1783,43 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
       },
-      {
-        id: 3,
-        paths:
-          "https://www.cdri.world/upload/pages/1726999413696320_202203111036infrastructure_standards-building_blocks_for_a_resilient_future_technical_note.pdf?utm_source",
-        type: "Report",
-        title:
-          "Global: Infrastructure Standards – Building Blocks for a Resilient Future",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "The Coalition for Disaster Resilient Infrastructure has developed a technical note, which maps out the need for resilience oriented standards across the infrastructure lifecycle, and identifies the principles that infrastructure standards should embed (robustness, redundancy, flexibility, recovery capacity, good governance, etc.).",
-        format: 5,
-        stage: 2,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image:
-          "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
-      },
-      {
-        id: 3,
-        paths:
-          "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
-        type: "Report",
-        title: "Global: Net Zero by 2050",
-        principles: 2,
-        highlight: 0,
-        target: "_blank",
-        desc: "Pathways to net zero by 2050 for several infrastructure sectors, including the transport, electricity, buildings, and industry sectors.",
-        format: 5,
-        stage: 2,
-        income: 0,
-        region: 7,
-        industry: 2,
-        image:
-          "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
-      },
+      // {
+      //   id: 3,
+      //   paths:
+      //     "https://www.cdri.world/upload/pages/1726999413696320_202203111036infrastructure_standards-building_blocks_for_a_resilient_future_technical_note.pdf?utm_source",
+      //   type: "Report",
+      //   title:
+      //     "Global: Infrastructure Standards – Building Blocks for a Resilient Future",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "The Coalition for Disaster Resilient Infrastructure has developed a technical note, which maps out the need for resilience oriented standards across the infrastructure lifecycle, and identifies the principles that infrastructure standards should embed (robustness, redundancy, flexibility, recovery capacity, good governance, etc.).",
+      //   format: 5,
+      //   stage: 2,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image:
+      //     "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
+      // },
+      // {
+      //   id: 3,
+      //   paths:
+      //     "https://www.iea.org/reports/net-zero-by-2050#overview",
+      //   type: "Report",
+      //   title: "Global: Net Zero by 2050",
+      //   principles: 2,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "Pathways to net zero by 2050 for several infrastructure sectors, including the transport, electricity, buildings, and industry sectors.",
+      //   format: 5,
+      //   stage: 2,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 2,
+      //   image:
+      //     "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
+      // },
       {
         id: 3,
         paths:
@@ -1992,7 +1991,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4",
         type: "Case study",
-        title: "Japan: Learning from Mega-disasters",
+        title: "Japan: Learning from Mega-Disasters",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2025,7 +2024,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099032625173042760",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Disaster and Climate-Resilient Transport",
         highlight: 0,
         target: "_blank",
@@ -2100,7 +2099,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths: "/qii4casestudy4",
         type: "Case Study",
-        title: "Solomon Islands Modular Bridges for Resilient Transport",
+        title: "Solomon Islands: Modular Bridges for Resilient Transport",
         principles: 3,
         highlight: 1,
         target: "_self",
@@ -2239,7 +2238,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://www.worldbank.org/en/news/press-release/2025/07/10/building-resilient-afe-infrastructure-protecting-access-connectivity-and-communities",
         type: "Case Study",
-        title: "Madagascar: Modular Bridges in Madagascar",
+        title: "Madagascar: Modular Bridges",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2257,7 +2256,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf",
         type: "Case study",
-        title: "Philippine: Water Revolving Fund",
+        title: "Philippines: Water Revolving Fund",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2276,7 +2275,7 @@ export const appDataSlice = createSlice({
           "https://nbi.iisd.org/report/savi-forest-restoration-brantas-river-basin-indonesia/",
         type: "Case study",
         title:
-          "Indonesia: Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia",
+          "Indonesia: Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2330,7 +2329,7 @@ export const appDataSlice = createSlice({
           "https://www.gfdrr.org/sites/default/files/publication/Learning%20from%20Megadisasters%20%20Lessons%20from%20the%20Great%20East%20Japan%20Earthquake.pdf",
         type: "Case study",
         title:
-          "Japan: Chapter 28: Measuring the Cost-Effectiveness of Various Disaster Risk Management Measures ",
+          "Japan: Measuring the Cost-Effectiveness of Various Disaster Risk Management Measures ",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2366,7 +2365,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf",
         type: "Case study",
-        title: "Ghana: A case study in strengthening cyber resilience",
+        title: "Ghana: A Case Study in Strengthening Cyber Resilience",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2383,7 +2382,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths: "https://www.worldbank.org/en/programs/tokyo-drm-hub",
         type: "Case study",
-        title: "Global: Tokyo Disaster Risk Management Hub",
+        title: "Tokyo: Disaster Risk Management Hub",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2481,23 +2480,23 @@ export const appDataSlice = createSlice({
         industry: 11,
         image: "images/qii4/FinancingResilience/Climate Bonds Initiative.png",
       },
-      {
-        id: 4,
-        paths:
-          "https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass",
-        type: "Framework",
-        title: "Cross-Regional: EU Taxonomy Compass",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "The EU's Taxonomy Regulation establishes six climate and environmental objectives in order for an economic activity to qualify as environmentally sustainable, and this includes objectives related to resilience and adaptation. The EU’s Taxonomy Compass helps users better understand the EU Taxonomy in a simple and practical manner.",
-        format: 9,
-        stage: 4,
-        income: 0,
-        region: 1,
-        industry: 11,
-        image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
-      },
+      // {
+      //   id: 4,
+      //   paths:
+      //     "https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass",
+      //   type: "Framework",
+      //   title: "Cross-Regional: EU Taxonomy Compass",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 3,
+      //   desc: "The EU's Taxonomy Regulation establishes six climate and environmental objectives in order for an economic activity to qualify as environmentally sustainable, and this includes objectives related to resilience and adaptation. The EU’s Taxonomy Compass helps users better understand the EU Taxonomy in a simple and practical manner.",
+      //   format: 9,
+      //   stage: 4,
+      //   income: 0,
+      //   region: 1,
+      //   industry: 11,
+      //   image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
+      // },
 
       {
         id: 4,
@@ -2552,13 +2551,29 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png",
       },
+      {
+        id: 4,
+        paths: "https://doi.org/10.1787/4fdf9eaf-en",
+        type: "Framework",
+        title:
+          "Global: Climate-resilient infrastructure, OECD, 2018 - OECD Environment Policy Papers, No. 14",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "Framework for climate-resilient infrastructure, outlining coordinated policy responses, investment strategies, and public–private collaboration approaches based on lessons from OECD and G20 countries ",
+        format: 9,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image: "images/newresource/Climate-resilient-infrastructure.png",
+      },
 
       //guidance-qii4
       {
         id: 4,
         paths:
           "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Cross-Regional: Initial Sea Level Rise Risk Assessment for Nauru",
         highlight: 0,
@@ -2577,7 +2592,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150011892",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport ",
         highlight: 0,
@@ -2596,8 +2611,8 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.gfdrr.org/en/publication/building-regulatory-capacity-assessment-brca-20-methodology",
-        type: "Guidance",
-        title: "Building Regulatory Capacity Assessment",
+        type: "Guidance note",
+        title: "Global: Building Regulatory Capacity Assessment",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2614,9 +2629,9 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.gfdrr.org/en/feature-story/assessing-benefits-and-costs-nature-based-solutions",
-        type: "Guidance",
+        type: "Guidance note",
         title:
-          "Assessing the Benefits and Costs of Nature-Based Solutions for Climate Resilience: A Guideline for Project Developers (GFDRR)",
+          "Global: Assessing the Benefits and Costs of Nature-Based Solutions for Climate Resilience: A Guideline for Project Developers (GFDRR)",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2633,9 +2648,8 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.iigcc.org/hubfs/2025%20resources%20upload/Physical%20Climate%20Risk%20Appraisal%20Methodology%202.0%20IIGCC%202025.pdf",
-        type: "Guidance",
-        title:
-          "Physical Climate Risk Appraisal Methodology (PCRAM) 2.0 (Institutional Investors Group on Climate Change (IIGCC) ",
+        type: "Guidance note",
+        title: "Global: Physical Climate Risk Appraisal Methodology (PCRAM)",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2652,8 +2666,8 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
-        type: "Guidance",
-        title: "Global: Cybersecurity best practice for smart cities (CISA)",
+        type: "Guidance note",
+        title: "Global: Cybersecurity Best Pactice for Smart Cities (CISA)",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2670,8 +2684,8 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment",
-        type: "Guidance",
-        title: "Canada: the cyber threat environment",
+        type: "Guidance note",
+        title: "Canada: The Cyber Threat Environment",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2686,21 +2700,38 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths:
-          "pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf",
-        type: "Guidance",
-        title: "Cybersecurity Assessment Toolkit for Smart Cities",
+          "https://www.gfdrr.org/sites/default/files/publication/Learning%20from%20Megadisasters%20%20Lessons%20from%20the%20Great%20East%20Japan%20Earthquake.pdf",
+        type: "Guidance note​",
+        title:
+          "Global: Learning from Megadisasters: Lessons from the Great East Japan Earthquake: Ranghieri, Federica, and Mikio Ishiwatari, eds. 2014",
         highlight: 0,
         target: "_blank",
         principles: 3,
-        desc: "The Cybersecurity Assessment Toolkit guides countries and sectors to assess, strengthen, and mainstream cyber resilience in critical infrastructure.",
+        desc: "Consolidated lessons from the 2011 Great East Japan Earthquake, providing guidance on disaster risk management through practical solutions like tsunami-resistant infrastructure, community-based disaster planning, emergency response coordination, and resilient urban recovery strategies for global adaptation ",
         format: 2,
         stage: 4,
         income: 0,
         industry: 1,
-        pdf: true,
-        image:
-          "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
+        image: "images/newresource/Learning-from-Megadisasters-Lessons.png",
       },
+      // {
+      //   id: 4,
+      //   paths:
+      //     "pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf",
+      //   type: "Guidance note",
+      //   title: "Cybersecurity Assessment Toolkit for Smart Cities",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 3,
+      //   desc: "The Cybersecurity Assessment Toolkit guides countries and sectors to assess, strengthen, and mainstream cyber resilience in critical infrastructure.",
+      //   format: 2,
+      //   stage: 4,
+      //   income: 0,
+      //   industry: 1,
+      //   pdf: true,
+      //   image:
+      //     "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
+      // },
 
       //data-qii4
       {
@@ -2798,7 +2829,7 @@ export const appDataSlice = createSlice({
         paths: "https://openknowledge.worldbank.org/handle/10986/21875",
         type: "Report",
         title:
-          "Cross-Regional: Enhancing the Climate Resilience of Africa's Infrastructure",
+          "Cross-Regional: Enhancing the Climate Resilience of Africa's Infrastructure: The Power and Water Sectors​",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2851,7 +2882,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths: "https://www.gfdrr.org/en/publication/building-back-better",
         type: "Report",
-        title: "Building Back Better",
+        title: "Global: Building Back Better",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -2981,8 +3012,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths: "https://cdri.world/upload/biennial/CH4.1-CCRI.pdf",
         type: "Report",
-        title:
-          "Global: Financing for Disaster and Resilient Infrastructure Coalition for Disaster Resilient Infrastructure",
+        title: "Global: Financing for Disaster and Resilient Infrastructure",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3037,7 +3067,7 @@ export const appDataSlice = createSlice({
           "https://www.oecd.org/en/publications/g20-oecd-report-on-approaches-for-financing-and-investing-in-climate-resilient-infrastructure_8f6d436a-en.html",
         type: "Report",
         title:
-          "Global: G20/OECD Report on approaches for financing and investing in climate-resilient infrastructure Organisation for Economic Co-operation and Development",
+          "Global: G20/OECD Report on approaches for financing and investing in climate-resilient infrastructure",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3055,7 +3085,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents1.worldbank.org/curated/en/099062623085028392/pdf/P17263707c36b702309f7303dbb7266e1cf.pdf",
         type: "Report",
-        title: "Global: Sectoral Cybersecurity Maturity Model (World Bank)",
+        title: "Global: Sectoral Cybersecurity Maturity Model",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3067,6 +3097,74 @@ export const appDataSlice = createSlice({
         industry: 13,
         image:
           "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).jpg",
+      },
+      {
+        id: 4,
+        paths:
+          "https://documents1.worldbank.org/curated/en/546611605298449211/pdf/The-Adaptation-Principles-A-Guide-for-Designing-Strategies-for-Climate-Change-Adaptation-and-Resilience.pdf",
+        type: "Report",
+        title:
+          "Global: Adaptation Principles: A Guide for Designing Strategies for Climate Change Adaptation and Resilience, Hallegate et al (2020), World Bank",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "Practical strategies for climate change adaptation, detailing six priority areas such as inclusive development, resilient infrastructure, risk-informed land use, disaster risk management tools, financial preparedness, and adaptive governance for effective national adaptation planning and investment ",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image: "images/newresource/Adaptation-Principles.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://openknowledge.worldbank.org/entities/publication/c3a753a6-2310-501b-a37e-5dcab3e96a0b",
+        type: "Report",
+        title:
+          "Global: Lifelines: The Resilient Infrastructure Opportunity, Hallegatte, Stephane; Rentschler, Jun; Rozenberg, Julie. 2019.",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "Evidence and case studies demonstrating that resilient infrastructure - ability to maintain services during and after shocks - supports development, minimizes economic losses, and is achievable with targeted investments and better maintenance",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image: "images/newresource/Lifelines-The-Resilient-Infrastructure.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://www.oecd.org/en/publications/climate-resilient-infrastructure_4fdf9eaf-en.html",
+        type: "Report",
+        title:
+          "Global: OECD Compendium of Good Practices on Quality Infrastructure 2024",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "Actionable frameworks and policy advice for governments to integrate climate resilience into infrastructure planning, drawing on global lessons and highlighting strategies for better risk assessment, investment, and public–private collaboration ",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image:
+          "images/newresource/OECD-Compendium-of-Good-Practices-on-Quality-Infrastructure.png",
+      },
+      {
+        id: 4,
+        paths:
+          "https://cdri.world/financing-for-disaster-andclimate-resilient-infrastructure/",
+        type: "Report",
+        title: "Global: CDRI – Resilience Dividend",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "Case for investing in resilient infrastructure, emphasizing nature-based solutions, innovative financing, standardized metrics, and the “resilience dividend” to drive sustainable, risk-informed infrastructure in low- and middle-income countries",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image: "images/newresource/CDRI-Resilience-Dividend.png",
       },
 
       //blog-qii4
@@ -3091,7 +3189,7 @@ export const appDataSlice = createSlice({
       // {
       //   id: 4,
       //   paths: "https://openknowledge.worldbank.org/handle/10986/21875",
-      //   type: "Guidance",
+      //   type: "Guidance note",
       //   title:
       //     "Climate Impact Assessment Frameworks (Africa Infrastructure Example) ",
       //   highlight: 0,
@@ -3112,7 +3210,7 @@ export const appDataSlice = createSlice({
           "https://openknowledge.worldbank.org/entities/publication/6f69f235-edf6-40b9-9a4b-5efad46630aa",
         type: "Report",
         title:
-          "A Global Assessment of Building Codes: Current Status and Evolving Needs to Promote Resilient, Green and Inclusive Buildings World Bank; GFDRR; Inter-American Development Bank",
+          "A Global Assessment of Building Codes: Current Status and Evolving Needs to Promote Resilient, Green and Inclusive Buildings",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3148,7 +3246,8 @@ export const appDataSlice = createSlice({
         paths:
           "https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725",
         type: "Report",
-        title: "Catalogue of Nature-Based Solutions for Urban Resilience",
+        title:
+          "Global: Catalogue of Nature-Based Solutions for Urban Resilience",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3163,13 +3262,13 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths: "https://www.gfdrr.org/en/disaster-risk-finance",
-        type: "Resource",
-        title: "GFDRR Disaster Risk Finance",
+        type: "Blog",
+        title: "Global: GFDRR Disaster Risk Finance",
         highlight: 0,
         target: "_blank",
         principles: 3,
         desc: "GFDRR supports governments in designing financial protection strategies and instruments to respond to natural disasters. The Disaster Risk Financing and Insurance thematic area provides a compendium of case studies and resources in financing solutions for better management of disasters and climate shocks.",
-        format: 5,
+        format: 8,
         stage: 4,
         income: 0,
         industry: 1,
@@ -3180,133 +3279,33 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://blogs.worldbank.org/en/ppps/japan-and-world-bank-working-together-build-resilient-infrastructure",
-        type: "Readings",
+        type: "Blog",
         title:
-          "Working together to build resilient infrastructure - Fakhoury et al. (2022) Japan and the World Bank (blog) ",
+          "Global: Working together to build resilient infrastructure - Fakhoury et al. (2022) Japan and the World Bank (blog) ",
         highlight: 0,
         target: "_blank",
         principles: 3,
         desc: "Examples of solutions and learnings from Japan-World Bank collaboration, including coastal flood control in Manila using Japanese master planning, nature-based flood reduction in Beira, Mozambique, resilient school and hospital retrofits in the Philippines, and urban greening in Freetown to mitigate landslide risks demonstrating practical approaches for climate-resilient infrastructure",
-        format: 5,
+        format: 8,
         stage: 4,
         income: 0,
-        industry: 1,
+        region: 7,
+        industry: 11,
         image:
           "images/newresource/Working_together_to_build_resilient_infrastructure.png",
       },
       {
         id: 4,
-        paths: "https://doi.org/10.1787/4fdf9eaf-en",
-        type: "Readings",
-        title:
-          "Climate-resilient infrastructure, OECD, 2018 - OECD Environment Policy Papers, No. 14 (Policy paper)",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Framework for climate-resilient infrastructure, outlining coordinated policy responses, investment strategies, and public–private collaboration approaches based on lessons from OECD and G20 countries ",
-        format: 5,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/newresource/Climate-resilient-infrastructure.png",
-      },
-      {
-        id: 4,
-        paths:
-          "https://www.gfdrr.org/sites/default/files/publication/Learning%20from%20Megadisasters%20%20Lessons%20from%20the%20Great%20East%20Japan%20Earthquake.pdf",
-        type: "Readings",
-        title:
-          "Learning from Megadisasters: Lessons from the Great East Japan Earthquake: Ranghieri, Federica, and Mikio Ishiwatari, eds. 2014 (Policy paper)",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Consolidated lessons from the 2011 Great East Japan Earthquake, providing guidance on disaster risk management through practical solutions like tsunami-resistant infrastructure, community-based disaster planning, emergency response coordination, and resilient urban recovery strategies for global adaptation ",
-        format: 5,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/newresource/Learning-from-Megadisasters-Lessons.png",
-      },
-      {
-        id: 4,
-        paths:
-          "https://documents1.worldbank.org/curated/en/546611605298449211/pdf/The-Adaptation-Principles-A-Guide-for-Designing-Strategies-for-Climate-Change-Adaptation-and-Resilience.pdf",
-        type: "Readings",
-        title:
-          "Adaptation Principles: A Guide for Designing Strategies for Climate Change Adaptation and Resilience, Hallegate et al (2020), World Bank (Report)",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Practical strategies for climate change adaptation, detailing six priority areas such as inclusive development, resilient infrastructure, risk-informed land use, disaster risk management tools, financial preparedness, and adaptive governance for effective national adaptation planning and investment ",
-        format: 5,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/newresource/Adaptation-Principles.png",
-      },
-      {
-        id: 4,
-        paths:
-          "https://openknowledge.worldbank.org/entities/publication/c3a753a6-2310-501b-a37e-5dcab3e96a0b",
-        type: "Readings",
-        title:
-          "Lifelines: The Resilient Infrastructure Opportunity, Hallegatte, Stephane; Rentschler, Jun; Rozenberg, Julie. 2019 (Report) ",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Evidence and case studies demonstrating that resilient infrastructure - ability to maintain services during and after shocks - supports development, minimizes economic losses, and is achievable with targeted investments and better maintenance",
-        format: 5,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/newresource/Lifelines-The-Resilient-Infrastructure.png",
-      },
-      {
-        id: 4,
-        paths:
-          "https://www.oecd.org/en/publications/climate-resilient-infrastructure_4fdf9eaf-en.html",
-        type: "Readings",
-        title:
-          "OECD Compendium of Good Practices on Quality Infrastructure 2024 (Report) ",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Actionable frameworks and policy advice for governments to integrate climate resilience into infrastructure planning, drawing on global lessons and highlighting strategies for better risk assessment, investment, and public–private collaboration ",
-        format: 5,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image:
-          "images/newresource/OECD-Compendium-of-Good-Practices-on-Quality-Infrastructure.png",
-      },
-      {
-        id: 4,
-        paths:
-          "https://cdri.world/financing-for-disaster-andclimate-resilient-infrastructure/",
-        type: "Readings",
-        title: "CDRI – Resilience Dividend (Report)",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Case for investing in resilient infrastructure, emphasizing nature-based solutions, innovative financing, standardized metrics, and the “resilience dividend” to drive sustainable, risk-informed infrastructure in low- and middle-income countries",
-        format: 5,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/newresource/CDRI-Resilience-Dividend.png",
-      },
-      {
-        id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
-        type: "Readings",
+        type: "Reading",
         title:
-          "PPIAF - Financing Climate Adaptation and Nature-Based Infrastructure (Report) ",
+          "Global: PPIAF - Financing Climate Adaptation and Nature-Based Infrastructure (Report) ",
         highlight: 0,
         target: "_blank",
         principles: 3,
         desc: "Strategies and case studies for financing climate adaptation and nature-based infrastructure, focusing on innovative funding models, scaling investments, and leveraging public and private finance for climate-resilient, sustainable infrastructure solutions",
-        format: 5,
+        format: 10,
         stage: 4,
         income: 0,
         industry: 1,
@@ -3316,13 +3315,13 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://blogs.worldbank.org/en/climatechange/the-triple-dividend--investing-in-resilience-to-boost-growth-and",
-        type: "Readings",
-        title: "Triple Dividend of Resilience (Report)",
+        type: "Reading",
+        title: "Global: Triple Dividend of Resilience (Report)",
         highlight: 0,
         target: "_blank",
         principles: 3,
         desc: "Practical steps to assess, design, and justify investments in resilience by offering metrics, cost–benefit tools, and real-world examples. These resources help identify and communicate the full range of “triple dividend” benefits—avoided losses, economic growth and investment unlocked, and wider social and environmental co-benefits—supporting smarter project planning and bolstering the case for resilient investments.",
-        format: 5,
+        format: 10,
         stage: 4,
         income: 0,
         industry: 1,
@@ -3352,7 +3351,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://ppp.worldbank.org/sub-national-ppp/bidding-documents-and-contractual-provisions-regarding-inclusion-smes-ppps?utm",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Bidding Documents and Contractual Provisions for Inclusion",
         highlight: 0,
@@ -3370,7 +3369,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.jica.go.jp/Resource/english/our_work/thematic_issues/social/c8h0vm00005znamu-att/guideline_social_01.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: JICA Thematic Guidelines for Inclusive Development, including Universal Design",
         highlight: 0,
@@ -3388,8 +3387,8 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
-        type: "Guidance",
-        title: "Inclusive Infrastructure Toolkit",
+        type: "Guidance note",
+        title: "Global: Inclusive Infrastructure Toolkit",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3405,7 +3404,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: PPP Gender Toolkit",
         highlight: 0,
         target: "_blank",
@@ -3461,7 +3460,7 @@ export const appDataSlice = createSlice({
           "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
         type: "Case Study",
         title:
-          "Senegal​: Mainstreaming Universal Accessibility in the built environment projects",
+          "Senegal​: Mainstreaming Universal Accessibility in the Built Environment Projects",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3529,7 +3528,7 @@ export const appDataSlice = createSlice({
         paths:
           "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
         type: "Case Study",
-        title: "Maputo: Investing in Mozambique's Connectivity",
+        title: "Mozambique: Investing in Mozambique's Connectivity",
         highlight: 2,
         target: "_blank",
         principles: 4,
@@ -3563,7 +3562,7 @@ export const appDataSlice = createSlice({
         paths: "",
         type: "Case Study",
         title:
-          "Vietnam and Senegal: Incorporating Universal Accessibility into Infrastructure Planning and Design World Bank",
+          "Vietnam and Senegal: Incorporating Universal Accessibility into Infrastructure Planning and Design",
         highlight: 2,
         target: "_blank",
         principles: 4,
@@ -3573,22 +3572,6 @@ export const appDataSlice = createSlice({
         income: 0,
         industry: 1,
         image: "images/qii5/shutterstock_2309884753.jpg",
-      },
-      {
-        id: 4,
-        paths:
-          "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
-        type: "Case Study",
-        title: "She Drives Change World Bank",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
-        format: 1,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/qii5/shutterstock_2337776975.jpg",
       },
       {
         id: 4,
@@ -3612,7 +3595,7 @@ export const appDataSlice = createSlice({
           "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
         type: "Case Study",
         title:
-          "Incorporating Universal Accessibility into Infrastructure Planning and Design in Vietnam",
+          "Vietnam: Incorporating Universal Accessibility into Infrastructure Planning and Design",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3630,7 +3613,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9 ",
         highlight: 0,
@@ -3648,9 +3631,9 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://ukgreencitiesandinfrastructure.org/resource/inclusivity-in-procurement/",
-        type: "Guidance",
+        type: "Guidance note",
         title:
-          "United Kingdom: UK Green Cities & Infrastructure (ICED) facility",
+          "United Kingdom: UK Green Cities & Infrastructure (ICED) Facility",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3667,7 +3650,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Mainstreaming Gender in Infrastructure: Desk Review",
         highlight: 0,
         target: "_blank",
@@ -3684,7 +3667,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Cross-Regional: Gender Equality and Social Inclusion (GESI) Guidance for Infrastructure",
         highlight: 0,
@@ -3703,7 +3686,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/63c07ff8-cd1e-52c0-9441-005b9aa22bcf",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Handbook for Gender-Inclusive Urban Planning and Design",
         highlight: 0,
@@ -3722,7 +3705,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: Inclusive Infrastructure – Policy, Regulation & Standards",
         highlight: 0,
@@ -3741,7 +3724,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.oecd.org/en/publications/oecd-principles-for-private-sector-participation-in-infrastructure_9789264034105-en.html",
-        type: "Guidance",
+        type: "Guidance note",
         title:
           "Global: OECD Principles for Private Sector Participation in Infrastructure",
         highlight: 0,
@@ -3759,7 +3742,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/stakeholder-identification-engagement-and-empowerment",
-        type: "Guidance",
+        type: "Guidance note",
         title: `Global: Inclusive Infrastructure “Data Collection and Stakeholder Identification”`,
         highlight: 0,
         target: "_blank",
@@ -3775,8 +3758,8 @@ export const appDataSlice = createSlice({
       {
         id: 4,
         paths: "https://openknowledge.worldbank.org/handle/10986/37259",
-        type: "Guidance",
-        title: "Silver Hues",
+        type: "Guidance note",
+        title: "Global: Silver Hues",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3791,7 +3774,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: OECD Infrastructure Toolkit",
         highlight: 0,
         target: "_blank",
@@ -3845,7 +3828,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths: "https://www.bluedot-network.org/",
         type: "Framework",
-        title: "Blue Dot Network",
+        title: "Global: Blue Dot Network",
         highlight: 0,
         target: "_blank",
         principles: 4,
@@ -3981,6 +3964,22 @@ export const appDataSlice = createSlice({
         image:
           "images/qii5/StakeholderEngagement/Mainstreaming-Gender-in-Infrastructure.png",
       },
+      {
+        id: 4,
+        paths:
+          "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
+        type: "Report",
+        title: "Global: She Drives Change",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image: "images/qii5/shutterstock_2337776975.jpg",
+      },
 
       //blog-qii5
       {
@@ -4077,23 +4076,6 @@ export const appDataSlice = createSlice({
       },
       {
         id: 5,
-        paths:
-          "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
-        type: "Guidance",
-        title:
-          "Digital Public Infrastructure for Digital Governments Organisation for Economic Co-operation and Development",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.",
-        format: 2,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/qii6/shutterstock_2370519757.jpg",
-      },
-      {
-        id: 5,
         paths: "https://infrastructuregovern.imf.org/",
         type: "Framework",
         title: "Global: Infrastructure Governance​",
@@ -4113,19 +4095,18 @@ export const appDataSlice = createSlice({
       //case study-qii6
       {
         id: 5,
-        paths: "",
+        paths: "/not-given",
         type: "Case Study",
         title:
-          "Global: Public Transport Demand Forecasting Regional Platform: New Technology for Better Investment Decision-making",
-        highlight: 0,
+          "Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era World Bank",
+        highlight: 2,
         target: "_blank",
         principles: 5,
-        desc: "TBD",
+        desc: "With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​",
         format: 1,
         stage: 4,
         income: 0,
-        region: 7,
-        industry: 9,
+        industry: 1,
         image: "images/qii6/shutterstock_2660000293.jpg",
       },
       {
@@ -4145,27 +4126,27 @@ export const appDataSlice = createSlice({
         industry: 12,
         image: "images/qii6/shutterstock_1268023399.jpg",
       },
+      // {
+      //   id: 5,
+      //   paths:
+      //     "https://kryeministri.rks-gov.net/en/news/launch-of-the-digital-governance-strengthening-project-for-service-delivery/",
+      //   type: "Case Study",
+      //   title:
+      //     "Kosovo: QII Grant: Supporting Sustainable Digital Infrastructure through Innovation",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 5,
+      //   desc: "This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events. ​",
+      //   format: 1,
+      //   stage: 4,
+      //   income: 3,
+      //   region: 1,
+      //   industry: 13,
+      //   image: "images/qii6/shutterstock_2653389623.jpg",
+      // },
       {
         id: 5,
-        paths:
-          "https://kryeministri.rks-gov.net/en/news/launch-of-the-digital-governance-strengthening-project-for-service-delivery/",
-        type: "Case Study",
-        title:
-          "Kosovo: QII Grant: Supporting Sustainable Digital Infrastructure through Innovation",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "TBD",
-        format: 1,
-        stage: 4,
-        income: 3,
-        region: 1,
-        industry: 13,
-        image: "images/qii6/shutterstock_2653389623.jpg",
-      },
-      {
-        id: 5,
-        paths: "/not-given",
+        paths: "pdf/Albania Results Story_FINAL_March 04 2024(2).pdf",
         type: "Case Study",
         title: "Albania: GovTech Program (Phases 1 and 2)",
         highlight: 0,
@@ -4176,6 +4157,7 @@ export const appDataSlice = createSlice({
         stage: 4,
         income: 3,
         region: 1,
+        pdf: true,
         industry: 11,
         image: "images/qii6/Govtech_For_Infrastructure/Albania.png",
       },
@@ -4184,7 +4166,7 @@ export const appDataSlice = createSlice({
         paths: "pdf/Albania Innovations_Results Story_March 2024.pdf",
         type: "Case Study",
         title:
-          "Albania ​Innovations to Accelerate Inclusive and High Impact Public Services World Bank",
+          "Albania: ​Innovations to Accelerate Inclusive and High Impact Public Services",
         pdf: true,
         highlight: 2,
         target: "_blank",
@@ -4198,35 +4180,20 @@ export const appDataSlice = createSlice({
       },
       {
         id: 5,
-        paths: "/not-given",
-        type: "Case Study",
-        title:
-          "Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era World Bank",
-        highlight: 2,
-        target: "_blank",
-        principles: 5,
-        desc: "With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​",
-        format: 1,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/qii6/shutterstock_2660000293.jpg",
-      },
-      {
-        id: 5,
         paths:
           "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
         type: "Case Study",
         title:
-          "Kosovo Supporting Sustainable Digital Infrastructure through Innovation World Bank",
+          "Kosovo: Supporting Sustainable Digital Infrastructure through Innovation",
         highlight: 0,
         target: "_blank",
         principles: 5,
         desc: "This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​",
         format: 1,
         stage: 4,
-        income: 0,
-        industry: 1,
+        income: 3,
+        region: 1,
+        industry: 13,
         image: "images/qii6/shutterstock_2653389623.jpg",
       },
 
@@ -4235,7 +4202,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/08/effective-multi-level-public-investment_4bcedf6d/c3bc625b-en.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Effective Multi-Level Public Investment​",
         highlight: 0,
         target: "_blank",
@@ -4253,7 +4220,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Cost Infrastructure Transparency Initiative",
         highlight: 0,
         target: "_blank",
@@ -4270,7 +4237,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Governance of Quality Infrastructure Investment",
         highlight: 0,
         target: "_blank",
@@ -4288,7 +4255,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Integrated Approaches in Action",
         highlight: 0,
         target: "_blank",
@@ -4302,28 +4269,28 @@ export const appDataSlice = createSlice({
         image:
           "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
       },
-      {
-        id: 5,
-        paths:
-          "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
-        type: "Guidance",
-        title: "Global: InfraGov Assessment Framework",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "InfraGov is a diagnostic framework developed by the World Bank to help countries optimize infrastructure investments by assessing governance across the project lifecycle, cross-cutting principles, and service delivery. Dimension 6 (Infrastructure procurement and contract management systems) assesses the effectiveness of procurement frameworks and contract management practices, examining transparency, competition, risk allocation, and monitoring systems that ensure infrastructure projects are delivered efficiently and contractors meet performance obligations.",
-        format: 2,
-        stage: 4,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image: "images/qii6/shutterstock_2653389623.jpg",
-      },
+      // {
+      //   id: 5,
+      //   paths:
+      //     "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
+      //   type: "Guidance note",
+      //   title: "Global: InfraGov Assessment Framework",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 5,
+      //   desc: "InfraGov is a diagnostic framework developed by the World Bank to help countries optimize infrastructure investments by assessing governance across the project lifecycle, cross-cutting principles, and service delivery. Dimension 6 (Infrastructure procurement and contract management systems) assesses the effectiveness of procurement frameworks and contract management practices, examining transparency, competition, risk allocation, and monitoring systems that ensure infrastructure projects are delivered efficiently and contractors meet performance obligations.",
+      //   format: 2,
+      //   stage: 4,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image: "images/qii6/shutterstock_2653389623.jpg",
+      // },
       {
         id: 5,
         paths:
           "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
-        type: "Guidance",
+        type: "Guidance note",
         title: "Global: Public Investment Management Assessment​",
         highlight: 0,
         target: "_blank",
@@ -4341,9 +4308,9 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/07/oecd-implementation-handbook-for-quality-infrastructure-investment_b9131199/479131b2-en.pdf",
-        type: "Guidance",
+        type: "Guidance note",
         title:
-          "Global: Implementation Handbook for Quality Infrastructure Investment Organisation for Economic Co-operation and Development",
+          "Global: Implementation Handbook for Quality Infrastructure Investment",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4355,6 +4322,22 @@ export const appDataSlice = createSlice({
         industry: 11,
         image: "images/qii6/shutterstock_2498436507.jpg",
       },
+      // {
+      //   id: 5,
+      //   paths:
+      //     "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
+      //   type: "Guidance note",
+      //   title: "Global: Well Spent",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 5,
+      //   desc: "This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets. Chapters 11 (Fiscal Risks in Infrastructure) and 12 (Integrating Infrastructure Planning and Budgeting) examine fiscal risk identification and mitigation strategies for infrastructure projects, and outline methods for integrating infrastructure planning with budgetary processes to ensure fiscal sustainability and alignment between investment decisions and available resources.",
+      //   format: 2,
+      //   stage: 4,
+      //   income: 0,
+      //   industry: 1,
+      //   image: "images/qii6/shutterstock_2661513413.jpg",
+      // },
 
       //framework-qii6
       {
@@ -4374,42 +4357,42 @@ export const appDataSlice = createSlice({
         industry: 11,
         image: "images/qii6/shutterstock_2653389623.jpg",
       },
-      {
-        id: 5,
-        paths:
-          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
-        type: "Framework",
-        title: "Global: Getting Infrastructure Right",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "This 2017 report, based on a survey of 27 countries, provides an overview of current practices in infrastructure governance and presents practical tools to help policy makers better manage infrastructure across its full lifecycle. It addresses challenges from technical and budgetary concerns to delivery and governance issues. “Infrastructure procurement and the choice of the delivery modality” – page 52 and “Performance throughout the life cycle” pages – 76-77 analyze procurement strategy selection based on project characteristics and capacity, and emphasize the importance of performance monitoring, maintenance planning, and asset management systems to maximize infrastructure value over its operational lifespan.",
-        format: 2,
-        stage: 4,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image: "images/qii6/shutterstock_1832080000.jpg",
-      },
+      // {
+      //   id: 5,
+      //   paths:
+      //     "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
+      //   type: "Framework",
+      //   title: "Global: Getting Infrastructure Right",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 5,
+      //   desc: "This 2017 report, based on a survey of 27 countries, provides an overview of current practices in infrastructure governance and presents practical tools to help policy makers better manage infrastructure across its full lifecycle. It addresses challenges from technical and budgetary concerns to delivery and governance issues. “Infrastructure procurement and the choice of the delivery modality” – page 52 and “Performance throughout the life cycle” pages – 76-77 analyze procurement strategy selection based on project characteristics and capacity, and emphasize the importance of performance monitoring, maintenance planning, and asset management systems to maximize infrastructure value over its operational lifespan.",
+      //   format: 2,
+      //   stage: 4,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image: "images/qii6/shutterstock_1832080000.jpg",
+      // },
 
       //report-qii6
-      {
-        id: 5,
-        paths:
-          "https://www.elibrary.imf.org/display/book/9781513511818/9781513511818.xml",
-        type: "Report",
-        title: "Global: Well Spent",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, and best practices in project appraisal and selection. Table 10.3 (Measures and Indicators to Prevent and Detect Corruption in Public Infrastructure) provides a comprehensive list of measures and indicators designed to identify vulnerabilities and detect corruption across the infrastructure investment cycle.",
-        format: 5,
-        stage: 4,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image: "images/qii6/shutterstock_2661513413.jpg",
-      },
+      // {
+      //   id: 5,
+      //   paths:
+      //     "https://www.elibrary.imf.org/display/book/9781513511818/9781513511818.xml",
+      //   type: "Report",
+      //   title: "Global: Well Spent",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 5,
+      //   desc: "This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, and best practices in project appraisal and selection. Table 10.3 (Measures and Indicators to Prevent and Detect Corruption in Public Infrastructure) provides a comprehensive list of measures and indicators designed to identify vulnerabilities and detect corruption across the infrastructure investment cycle.",
+      //   format: 5,
+      //   stage: 4,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image: "images/qii6/shutterstock_2661513413.jpg",
+      // },
       {
         id: 5,
         paths:
@@ -4426,6 +4409,22 @@ export const appDataSlice = createSlice({
         region: 7,
         industry: 11,
         image: "images/qii6/shutterstock_2661513413.jpg",
+      },
+      {
+        id: 5,
+        paths:
+          "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
+        type: "Report",
+        title: "Global: Digital Public Infrastructure for Digital Governments",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image: "images/qii6/shutterstock_2370519757.jpg",
       },
 
       //data-qii6
@@ -4462,22 +4461,6 @@ export const appDataSlice = createSlice({
       //   industry: 1,
       //   image: "images/qii6/QII6-Landing/WellSpent.png",
       // },
-      {
-        id: 5,
-        paths:
-          "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
-        type: "Guidance",
-        title: "Global: Well Spent",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets. Chapters 11 (Fiscal Risks in Infrastructure) and 12 (Integrating Infrastructure Planning and Budgeting) examine fiscal risk identification and mitigation strategies for infrastructure projects, and outline methods for integrating infrastructure planning with budgetary processes to ensure fiscal sustainability and alignment between investment decisions and available resources.",
-        format: 2,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/qii6/shutterstock_2661513413.jpg",
-      },
       // {
       //   id: 5,
       //   paths: "",

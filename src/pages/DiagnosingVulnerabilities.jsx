@@ -43,7 +43,7 @@ export default function DiagnosingVulnerabilities() {
         <p>
           Japan
           <br />
-          <strong>Learning from Megadisasters</strong>
+          <strong>Learning from Mega-Disasters</strong>
           <br />
           World Bank
         </p>
@@ -178,6 +178,7 @@ export default function DiagnosingVulnerabilities() {
       title: (
         <p>Jamaica <br />
           <strong>Disaster Vulnerability Reduction Project</strong>
+          <br /> World Bank​
         </p>
       ),
       buttonText: "Case study",

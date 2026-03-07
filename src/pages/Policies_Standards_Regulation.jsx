@@ -49,7 +49,7 @@ export default function Policies_Standards_Regulation() {
           Asian Development Bank
         </p>
       ),
-      buttonText: "Tool",
+      buttonText: "Guidance note",
       link: "https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source",
       content: (
         <p>
@@ -74,9 +74,10 @@ export default function Policies_Standards_Regulation() {
             JICA Thematic Guidelines for Inclusive Development, including
             Universal Design
           </strong>
+          <br />JICA
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.jica.go.jp/Resource/english/our_work/thematic_issues/social/c8h0vm00005znamu-att/guideline_social_01.pdf",
       content: (
         <p>
@@ -95,7 +96,7 @@ export default function Policies_Standards_Regulation() {
           Bank ​
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://openknowledge.worldbank.org/entities/publication/63c07ff8-cd1e-52c0-9441-005b9aa22bcf",
       content: (
         <p>
@@ -120,9 +121,10 @@ export default function Policies_Standards_Regulation() {
       title: (
         <p>Global <br />
           <strong>Mainstreaming Gender in Infrastructure: Desk Review</strong>
+          <br /> World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
       content: (
         <p>
@@ -199,7 +201,7 @@ export default function Policies_Standards_Regulation() {
           GI Hub​
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
       content: (
         <p>
@@ -214,6 +216,7 @@ export default function Policies_Standards_Regulation() {
       title: (
         <p>Cross-Regional <br />
           <strong>EU Accessibility Act (2019)</strong>
+          <br />The National Archives
         </p>
       ),
       buttonText: "Case study",
@@ -235,6 +238,7 @@ export default function Policies_Standards_Regulation() {
             Americans with Disabilities Act (ADA) Standards for Accessible
             Design
           </strong>
+          <br />U.S. Department of Justice
           <br />
         </p>
       ),
@@ -323,7 +327,7 @@ export default function Policies_Standards_Regulation() {
           Organisation for Economic Co-operation and Development​
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.oecd.org/en/publications/oecd-principles-for-private-sector-participation-in-infrastructure_9789264034105-en.html",
       content: (
         <p>

@@ -28,8 +28,8 @@ export default function Decarbonizing_Infrastructure() {
     {
       id: 1,
       country: "Global",
-      title: "RICS Whole Life Carbon Assessment Standard",
-      subTitle: false,
+      title: "Whole Life Carbon Assessment Standard",
+      subTitle: "RICS",
       description:
         "Professional standard from the Royal Institution of Chartered Surveyors for measuring carbon emissions across the entire lifecycle of built assets, from raw material extraction through construction, operation, and end of life.",
       img_path:
@@ -218,7 +218,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
       badgeText: "Energy",
       buttonText: "Report",
-      link: "https://www.iea.org/reports/net-zero-by-2050#overview",
+      limk: "https://www.iea.org/reports/net-zero-by-2050#overview",
       content: (
         <p>
           Pathways to net zero by 2050 for several infrastructure sectors,
@@ -240,7 +240,7 @@ export default function Decarbonizing_Infrastructure() {
         </p>
       ),
       badgeText: "Transport",
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
       content: (
         <p>
@@ -264,7 +264,7 @@ export default function Decarbonizing_Infrastructure() {
           IFC
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
       content: <p>Guide to decarbonizing construction value chains.</p>,
     },

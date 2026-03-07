@@ -182,7 +182,7 @@ export default function ResilientDesignAndOperation() {
           GFDRR
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.gfdrr.org/en/publication/building-regulatory-capacity-assessment-brca-20-methodology",
       content: (
         <p>

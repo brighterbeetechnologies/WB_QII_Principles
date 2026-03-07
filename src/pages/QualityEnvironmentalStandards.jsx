@@ -114,7 +114,7 @@ export default function QualityEnvironmentalStandards() {
       title: (
         <p>Global <br />
           <strong>
-            IFC Performance Standards on Environmental and Social
+            IFC's Performance Standards on Environmental and Social
             Sustainability​
           </strong>
         </p>
@@ -242,7 +242,7 @@ export default function QualityEnvironmentalStandards() {
         "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png",
       title: (
         <p>Global <br />
-          <strong>LEED​</strong> <br />
+          <strong>LEED​</strong> <br />U.S. Green Building Council
         </p>
       ),
       buttonText: "For Buildings",
@@ -291,7 +291,7 @@ export default function QualityEnvironmentalStandards() {
           OECD & UNDP
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://sdgfinance.undp.org/resource-library/framework-sdg-aligned-finance",
       content: (
         <p>
@@ -315,7 +315,7 @@ export default function QualityEnvironmentalStandards() {
           CDRI
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.cdri.world/upload/pages/1726999413696320_202203111036infrastructure_standards-building_blocks_for_a_resilient_future_technical_note.pdf?utm_source",
       content: (
         <p>
@@ -336,7 +336,7 @@ export default function QualityEnvironmentalStandards() {
           UNEP
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.unep.org/geo/global-environment-outlook-7",
       content: (
         <p>

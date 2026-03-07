@@ -42,7 +42,7 @@ export default function ManagingCyberSecurityRisks() {
           <strong>Cybersecurity Assessment Toolkit for Smart Cities</strong>
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: null,
       content: (
         <p>
@@ -81,7 +81,7 @@ export default function ManagingCyberSecurityRisks() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://documentsinternal.worldbank.org/Search/34392134",
       content: (
         <p>
@@ -125,7 +125,7 @@ export default function ManagingCyberSecurityRisks() {
           CISA
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
       content: (
         <p>
@@ -145,7 +145,7 @@ export default function ManagingCyberSecurityRisks() {
           Government of Canada
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment",
       content: (
         <p>

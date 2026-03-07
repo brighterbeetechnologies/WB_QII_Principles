@@ -35,7 +35,7 @@ export default function CostRecovery() {
       id: 2,
       country: "Global",
       title:
-        "Harnessing Land Value Capture: Municipal Public-Private Partnership Framework",
+        "Municipal Public-Private Partnership Framework",
       org: "Global Platform for Sustainable Cities",
       description:
         "This report introduces concepts of land value capture and describes different instruments for climate-related funding and financing of projects. It provides brief examples of solutions developed in specific energy and agricultural sub-sectors.",
@@ -174,7 +174,7 @@ export default function CostRecovery() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://ppp.worldbank.org/public-private-partnership/Innovative_Revenues_Infrastructure/Table_of_Contents",
       content: (
         <p>
@@ -240,7 +240,7 @@ export default function CostRecovery() {
           GFDRR
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf",
       content: (
         <p>

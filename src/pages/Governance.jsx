@@ -25,7 +25,7 @@ export default function Governance() {
       id: 1,
       country: "Global",
       title: "PPP Reference Guide",
-      subTitle: false,
+      subTitle: "World Bank",
       description:
         "This document acts as a comprehensive reference on Public-Private Partnership (PPP) structures, legal frameworks, and global case studies, designed to help governments and practitioners make informed decisions about PPPs.",
       img_path: "images/governance/resources/02.jpg",
@@ -159,7 +159,7 @@ export default function Governance() {
               Hungary <br />
               <strong>
                 DuboCalc and CO<sub>2</sub> Performance Ladder
-              </strong>
+              </strong> <br />Organization for Economic Co-operation and Development​
             </div>
             <p>
               Demonstrates how dedicated governance structures support long-term
@@ -209,11 +209,13 @@ export default function Governance() {
             description={" "}
             image="images/governance/list/02.jpg"
             buttonText="Case Study"
-            link="pdf/Revised Draft Practice Manual-LCC- with sector specific guidance-15 Oct 2022.pdf"
+            // link="pdf/Revised Draft Practice Manual-LCC- with sector specific guidance-15 Oct 2022.pdf"
+            link="https://ecornertech.com/ecup/WB_QII_Principles/v34/pdf/Revised_Draft_Practice_Manual_LCC_with_sector_specific_guidance_15_Oct_2022.pdf "
           >
             <div className="description">
-              Bangladesh <br />
+              Global <br />
               <strong>Combined Cycle Power Plant</strong>
+              <br />World Bank​
             </div>
             <p>
               Demonstrates how life-cycle costing was embedded across project
@@ -270,6 +272,7 @@ export default function Governance() {
             <div className="description">
               Malawi <br />
               <strong>Infrastructure Data Innovations</strong>
+              <br />UNEP​
             </div>
             <p>
               Highlights how digital platforms and inclusive oversight
@@ -321,6 +324,7 @@ export default function Governance() {
                 Public and Private Infrastructure Investment Management Center
                 (PIMAC)
               </strong>
+              <br />World Bank​
             </div>
             <p>
               Showcases how institutional training strengthens the practical
@@ -378,6 +382,8 @@ export default function Governance() {
             <div className="description">
               India <br />
               <strong>Tamil Nadu Road Sector Project</strong>
+              <br />
+              World Bank​
             </div>
             <p>
               Illustrates how governance reforms can align private incentives

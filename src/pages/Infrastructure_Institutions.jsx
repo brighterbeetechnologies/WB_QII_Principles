@@ -46,7 +46,7 @@ export default function Infrastructure_Institutions() {
           <strong>Effective Multi-Level Public Investment​</strong> <br />Organisation for Economic Co-operation and Development 
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/08/effective-multi-level-public-investment_4bcedf6d/c3bc625b-en.pdf",
       content: (
         <p>
@@ -79,7 +79,7 @@ export default function Infrastructure_Institutions() {
           <strong>Cost Infrastructure Transparency Initiative</strong> <br />Infrastructure Transparency Initiative (CoST)
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
       content: (
         <p>
@@ -96,7 +96,7 @@ export default function Infrastructure_Institutions() {
           <strong>Well Spent</strong> <br />International Monetary Fund
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.elibrary.imf.org/display/book/9781513511818/9781513511818.xml",
       content: (
         <p>
@@ -127,7 +127,7 @@ export default function Infrastructure_Institutions() {
           <strong>Integrated Approaches in Action</strong> <br /> United Nations Environment Programme
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
       content: (
         <p>
@@ -154,7 +154,7 @@ export default function Infrastructure_Institutions() {
           <strong>Governance of Quality Infrastructure Investment​</strong> <br />Organisation for Economic Co-operation and Development and International Monetary Fund 
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
       content: (
         <p>

@@ -18,7 +18,7 @@ export default function Public_Investment_And_Asset_Management() {
           <strong>Well Spent</strong> <br />International Monetary Fund
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
       content: (
         <p>
@@ -47,7 +47,7 @@ export default function Public_Investment_And_Asset_Management() {
           <strong>Public Investment Management Assessment​</strong> <br />International Monetary Fund
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
       content: (
         <p>
@@ -73,7 +73,7 @@ export default function Public_Investment_And_Asset_Management() {
           Organisation for Economic Co-operation and Development
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/07/oecd-implementation-handbook-for-quality-infrastructure-investment_b9131199/479131b2-en.pdf",
       content: (
         <p>
@@ -154,7 +154,7 @@ export default function Public_Investment_And_Asset_Management() {
           <strong>Well Spent</strong> <br />International Monetary Fund 
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
       content: (
         <p>

@@ -116,7 +116,7 @@ export default function TechnicalSolutions() {
       title: (
         <p>
           South Africa <br />
-          <strong>Nature-based Infrastructure to Enhance Water Security</strong>
+          <strong>Nature-Based Infrastructure to Enhance Water Security</strong>
           <br />
           The Nature Conservancy
         </p>

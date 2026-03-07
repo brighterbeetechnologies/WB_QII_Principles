@@ -56,7 +56,7 @@ export default function QII2LandingPage() {
         "With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​",
       img_path: "images/qii6/shutterstock_2660000293.jpg",
       highlight: 1,
-      path: "",
+      path: "pdf/The COVID-19 Mark on Urban Mobility.pdf",
       target: "_blank",
     },
     {

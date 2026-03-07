@@ -21,8 +21,10 @@ export default function Govtech_For_Infrastructure() {
           </strong> <br />World Bank
         </p>
       ),
-      buttonText: "Case Study",
-      link: "",
+      buttonText: "View The Full Publication",
+      link: "pdf/The COVID-19 Mark on Urban Mobility.pdf",
+      buttonText2: "Case Study",
+      link2: "pdf/A Net Cure or Curse.pdf",
       highlight: 1,
       content: <p>With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. </p>,
     },
@@ -54,6 +56,7 @@ export default function Govtech_For_Infrastructure() {
       title: (
         <p>Indonesia<br />
           <strong>One Map Policy</strong> 
+          <br />Open Government Partnership
         </p>
       ),
       buttonText: "Case Study",
@@ -150,7 +153,7 @@ export default function Govtech_For_Infrastructure() {
           Organisation for Economic Co-operation and Development 
         </p>
       ),
-      buttonText: "Guidance",
+      buttonText: "Report",
       link: "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
       content: (
         <p>

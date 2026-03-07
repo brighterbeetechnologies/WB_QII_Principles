@@ -108,7 +108,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </p>
       ),
       badgeText: "Water",
-      buttonText: "Guidance",
+      buttonText: "Guidance note",
       link: "https://wedocs.unep.org/rest/api/core/bitstreams/979a0cdb-3d3e-4f4a-b899-96c97f412d0d/content",
       content: (
         <p>
@@ -174,11 +174,11 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           <strong>
             UN Principles for Responsible Investment: Integrating Biodiversity
             Considerations into Infrastructure
-          </strong>
+          </strong><br />UN PRI 
         </p>
       ),
-      buttonText: "Guidance",
-      link: null,
+      buttonText: "Guidance note",
+      link: "https://www.unpri.org/410-page-gone",
       content: (
         <p>
           This guidance from UN PRI helps infrastructure investors and

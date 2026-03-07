@@ -64,7 +64,7 @@ export default function FinancingResilience() {
       country: "Global",
       title:
         "G20/OECD Report on Approaches for Financing and Investing in Climate-resilient Infrastructure",
-      org: false,
+      org: "Organization for Economic Co-operation and Development",
       description:
         "This report was prepared to inform G20 policy makers about approaches that can be taken to advance financing for climate-resilient infrastructure and was welcomed at the G20 Finance Ministers and Central Bank Governors meeting in July 2024. Organisation for Economic Co-operation and Development",
       img_path:
@@ -76,8 +76,8 @@ export default function FinancingResilience() {
       id: 3,
       country: "Global",
       title:
-        "Financing for Disaster and Resilient Infrastructure Coalition for Disaster Resilient Infrastructure",
-      org: false,
+        "Financing for Disaster and Resilient Infrastructure",
+      org: "Coalition for Disaster Resilient Infrastructure",
       description:
         "This report explores the mechanisms that can provide greater incentives for both public and private sector for investment in strengthening resilience.",
       img_path:
@@ -110,7 +110,8 @@ export default function FinancingResilience() {
       image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
       title: (
         <p>Cross-Regional <br />
-          <strong>EU Taxonomy Compass</strong>
+          <strong>EU Taxonomy Compass</strong> 
+          <br />European Commission
         </p>
       ),
       buttonText: "Framework",
@@ -177,6 +178,7 @@ export default function FinancingResilience() {
           <strong>
             Energy Development Corporation (EDC) Green Bond
           </strong>
+          <br /> ICSR
         </p>
       ),
       buttonText: "Case study",
@@ -194,6 +196,7 @@ export default function FinancingResilience() {
       title: (
         <p>Colombia <br />
           <strong>Vida Manglar Carbon Project</strong>
+          <br /> Conservation International
         </p>
       ),
       buttonText: "Case study",

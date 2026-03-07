@@ -190,7 +190,7 @@ export default function GreenFinancingforInfrastructure() {
         "images/qii3/shutterstock_2433336173.jpg",
       title: (
         <p>Global <br />
-          <strong>Green Eligibility Checker tool</strong>
+          <strong>Green Eligibility Checker Tool</strong>
           <br />
           European Investment Bank
         </p>
