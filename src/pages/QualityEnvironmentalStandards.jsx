@@ -117,6 +117,7 @@ export default function QualityEnvironmentalStandards() {
             IFC's Performance Standards on Environmental and Social
             Sustainability​
           </strong>
+          <br />IFC
         </p>
       ),
       buttonText: "Framework",

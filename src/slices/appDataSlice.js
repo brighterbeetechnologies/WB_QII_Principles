@@ -69,31 +69,37 @@ export const appDataSlice = createSlice({
     ],
 
     industry: [
-      { id: 0, title: "Agriculture" },
-      { id: 1, title: "Education" },
-      { id: 2, title: "Energy & Extractives" },
-      { id: 3, title: "Financial Sector" },
-      { id: 4, title: "Health" },
-      { id: 5, title: "Industry & Trade/Service" },
-      { id: 6, title: "Info & Communication" },
-      { id: 7, title: "Public Admin" },
-      { id: 8, title: "Social Protection" },
-      { id: 9, title: "Transportation" },
-      { id: 10, title: "Water/Sanitation/Waste" },
-      { id: 11, title: "Multi-Sector" },
-      { id: 12, title: "Urban Development" },
       { id: 13, title: "Digital" },
+      { id: 1, title: "Education" },
+      { id: 2, title: "Energy" },
+      { id: 11, title: "Multi-Sector" },
+      { id: 9, title: "Transport" },
+      { id: 12, title: "Urban Development" },
+      { id: 10, title: "Water And Sanitation" },
+      { id: 14, title: "Waste" },
+      // { id: 0, title: "Agriculture" },
+      // { id: 3, title: "Financial Sector" },
+      // { id: 4, title: "Health" },
+      // { id: 5, title: "Industry & Trade/Service" },
+      // { id: 6, title: "Info & Communication" },
+      // { id: 7, title: "Public Admin" },
+      // { id: 8, title: "Social Protection" },
+      
+      
     ],
     region: [
+      { id: 8, title: "Africa" },
       { id: 0, title: "East Asia & Pacific" },
       { id: 1, title: "Europe & Central Asia" },
+      { id: 7, title: "Global" },
       { id: 2, title: "Latin America & Caribbean" },
-      { id: 3, title: "Middle East, North Africa, Afghanistan and Pakistan" },
+      // { id: 3, title: "Middle East, North Africa, Afghanistan and Pakistan" },
+      { id: 3, title: "Middle East, North Africa" },
       { id: 4, title: "North America" },
       { id: 5, title: "South Asia" },
-      { id: 6, title: "Sub-Saharan Africa" },
-      { id: 7, title: "Global" },
-      { id: 8, title: "Africa" },
+      // { id: 6, title: "Sub-Saharan Africa" },
+      
+      
     ],
     stage: [
       { id: 0, title: "Initiation" },
@@ -120,7 +126,7 @@ export const appDataSlice = createSlice({
       // { id: 7, title: "Publication" },
       { id: 8, title: "Blog" },
       { id: 9, title: "Framework" },
-      { id: 10, title: "Reading" },
+      // { id: 10, title: "Reading" },
       // { id: 11, title: "Resource" },
     ],
 
@@ -1262,7 +1268,7 @@ export const appDataSlice = createSlice({
         stage: 2,
         income: 3,
         region: 1,
-        industry: 10,
+        industry: 14,
         pdf: true,
         image:
           "images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png",
@@ -3067,7 +3073,7 @@ export const appDataSlice = createSlice({
           "https://www.oecd.org/en/publications/g20-oecd-report-on-approaches-for-financing-and-investing-in-climate-resilient-infrastructure_8f6d436a-en.html",
         type: "Report",
         title:
-          "Global: G20/OECD Report on approaches for financing and investing in climate-resilient infrastructure",
+          "Global: G20/OECD Report on Approaches for Financing and Investing in Climate-Resilient Infrastructure",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3104,7 +3110,7 @@ export const appDataSlice = createSlice({
           "https://documents1.worldbank.org/curated/en/546611605298449211/pdf/The-Adaptation-Principles-A-Guide-for-Designing-Strategies-for-Climate-Change-Adaptation-and-Resilience.pdf",
         type: "Report",
         title:
-          "Global: Adaptation Principles: A Guide for Designing Strategies for Climate Change Adaptation and Resilience, Hallegate et al (2020), World Bank",
+          "Global: Adaptation Principles: A Guide for Designing Strategies for Climate Change Adaptation and Resilience, Hallegate et al (2020)",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3166,44 +3172,39 @@ export const appDataSlice = createSlice({
         industry: 1,
         image: "images/newresource/CDRI-Resilience-Dividend.png",
       },
-
-      //blog-qii4
       {
         id: 4,
         paths:
-          "https://blogs.worldbank.org/en/climatechange/building-resilience-in-investment-projects--the-power-of-resilie",
-        type: "Blog",
-        title: "Nepal: Resilience Rating System ",
+          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
+        type: "Report",
+        title:
+          "Global: PPIAF - Financing Climate Adaptation and Nature-Based Infrastructure",
         highlight: 0,
         target: "_blank",
         principles: 3,
-        desc: "This framework provides insights into projects’ economic viability against current and future climate and disaster scenarios through a climate risk stress test.",
-        format: 8,
+        desc: "Strategies and case studies for financing climate adaptation and nature-based infrastructure, focusing on innovative funding models, scaling investments, and leveraging public and private finance for climate-resilient, sustainable infrastructure solutions",
+        format: 5,
         stage: 4,
-        income: 2,
-        region: 5,
-        industry: 11,
-        image:
-          "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
+        income: 0,
+        industry: 1,
+        image: "images/newresource/PPIAF-Financing-Climate.png",
       },
-      // {
-      //   id: 4,
-      //   paths: "https://openknowledge.worldbank.org/handle/10986/21875",
-      //   type: "Guidance note",
-      //   title:
-      //     "Climate Impact Assessment Frameworks (Africa Infrastructure Example) ",
-      //   highlight: 0,
-      //   target: "_blank",
-      //   principles: 3,
-      //   desc: "This resource details consistent, state-of-the-art methods to assess the vulnerability of Africa's power and water infrastructure, analyzing physical condition, design, and operational interdependencies to identify system weaknesses under climate stress and recommending ways to strengthen resilience and adaptive planning.",
-      //   format: 2,
-      //   stage: 4,
-      //   region: 1,
-      //   industry: 1,
-      //   image:
-      //     "images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png",
-      // },
-
+      {
+        id: 4,
+        paths:
+          "https://blogs.worldbank.org/en/climatechange/the-triple-dividend--investing-in-resilience-to-boost-growth-and",
+        type: "Report",
+        title: "Global: Triple Dividend of Resilience",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "Practical steps to assess, design, and justify investments in resilience by offering metrics, cost–benefit tools, and real-world examples. These resources help identify and communicate the full range of “triple dividend” benefits—avoided losses, economic growth and investment unlocked, and wider social and environmental co-benefits—supporting smarter project planning and bolstering the case for resilient investments.",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image: "images/newresource/Triple-Dividend-of-Resilience.png",
+      },
       {
         id: 4,
         paths:
@@ -3259,6 +3260,44 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/A Catalogue of Nature-Based Solutions for Urban Resilience.png",
       },
+
+      //blog-qii4
+      {
+        id: 4,
+        paths:
+          "https://blogs.worldbank.org/en/climatechange/building-resilience-in-investment-projects--the-power-of-resilie",
+        type: "Blog",
+        title: "Nepal: Resilience Rating System ",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "This framework provides insights into projects’ economic viability against current and future climate and disaster scenarios through a climate risk stress test.",
+        format: 8,
+        stage: 4,
+        income: 2,
+        region: 5,
+        industry: 11,
+        image:
+          "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
+      },
+      // {
+      //   id: 4,
+      //   paths: "https://openknowledge.worldbank.org/handle/10986/21875",
+      //   type: "Guidance note",
+      //   title:
+      //     "Climate Impact Assessment Frameworks (Africa Infrastructure Example) ",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 3,
+      //   desc: "This resource details consistent, state-of-the-art methods to assess the vulnerability of Africa's power and water infrastructure, analyzing physical condition, design, and operational interdependencies to identify system weaknesses under climate stress and recommending ways to strengthen resilience and adaptive planning.",
+      //   format: 2,
+      //   stage: 4,
+      //   region: 1,
+      //   industry: 1,
+      //   image:
+      //     "images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png",
+      // },
+
       {
         id: 4,
         paths: "https://www.gfdrr.org/en/disaster-risk-finance",
@@ -3281,7 +3320,7 @@ export const appDataSlice = createSlice({
           "https://blogs.worldbank.org/en/ppps/japan-and-world-bank-working-together-build-resilient-infrastructure",
         type: "Blog",
         title:
-          "Global: Working together to build resilient infrastructure - Fakhoury et al. (2022) Japan and the World Bank (blog) ",
+          "Global: Working together to build resilient infrastructure - Fakhoury et al. (2022) Japan and the World Bank",
         highlight: 0,
         target: "_blank",
         principles: 3,
@@ -3294,43 +3333,44 @@ export const appDataSlice = createSlice({
         image:
           "images/newresource/Working_together_to_build_resilient_infrastructure.png",
       },
-      {
-        id: 4,
-        paths:
-          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
-        type: "Reading",
-        title:
-          "Global: PPIAF - Financing Climate Adaptation and Nature-Based Infrastructure (Report) ",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Strategies and case studies for financing climate adaptation and nature-based infrastructure, focusing on innovative funding models, scaling investments, and leveraging public and private finance for climate-resilient, sustainable infrastructure solutions",
-        format: 10,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/newresource/PPIAF-Financing-Climate.png",
-      },
-      {
-        id: 4,
-        paths:
-          "https://blogs.worldbank.org/en/climatechange/the-triple-dividend--investing-in-resilience-to-boost-growth-and",
-        type: "Reading",
-        title: "Global: Triple Dividend of Resilience (Report)",
-        highlight: 0,
-        target: "_blank",
-        principles: 3,
-        desc: "Practical steps to assess, design, and justify investments in resilience by offering metrics, cost–benefit tools, and real-world examples. These resources help identify and communicate the full range of “triple dividend” benefits—avoided losses, economic growth and investment unlocked, and wider social and environmental co-benefits—supporting smarter project planning and bolstering the case for resilient investments.",
-        format: 10,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/newresource/Triple-Dividend-of-Resilience.png",
-      },
 
       //principle 5 resources
 
       //promote-qii5
+      {
+        id: 4,
+        paths:
+          "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
+        type: "Guidance note",
+        title: "Global: PPP Gender Toolkit",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "A comprehensive resource designed to guide the mainstreaming of gender considerations throughout the lifecycle of infrastructure projects delivered via Public-Private Partnerships (PPPs).",
+        format: 2,
+        stage: 4,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image: "images/qii5/shutterstock_2248195609.jpg",
+      },
+      {
+        id: 4,
+        paths:
+          "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
+        type: "Guidance note",
+        title: "Global: Inclusive Infrastructure Toolkit",
+        highlight: 0,
+        target: "_blank",
+        principles: 4,
+        desc: "A practical, evidence-based framework for developing infrastructure that advances social inclusivity. It outlines six key action areas and detailed practices to maximize infrastructure’s impact on reducing inequality and promoting shared prosperity, illustrated by real-life international examples. ",
+        format: 2,
+        stage: 4,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image: "images/qii5/shutterstock_2543199469.jpg",
+      },
       {
         id: 4,
         paths: "https://www.worldbank.org/en/about/rated-criteria",
@@ -3382,40 +3422,6 @@ export const appDataSlice = createSlice({
         region: 7,
         industry: 12,
         image: "images/qii5/shutterstock_2528902161.jpg",
-      },
-      {
-        id: 4,
-        paths:
-          "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
-        type: "Guidance note",
-        title: "Global: Inclusive Infrastructure Toolkit",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "A practical, evidence-based framework for developing infrastructure that advances social inclusivity. It outlines six key action areas and detailed practices to maximize infrastructure’s impact on reducing inequality and promoting shared prosperity, illustrated by real-life international examples. ",
-        format: 2,
-        stage: 4,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image: "images/qii5/shutterstock_2543199469.jpg",
-      },
-      {
-        id: 4,
-        paths:
-          "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
-        type: "Guidance note",
-        title: "Global: PPP Gender Toolkit",
-        highlight: 0,
-        target: "_blank",
-        principles: 4,
-        desc: "A comprehensive resource designed to guide the mainstreaming of gender considerations throughout the lifecycle of infrastructure projects delivered via Public-Private Partnerships (PPPs).",
-        format: 2,
-        stage: 4,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image: "images/qii5/shutterstock_2248195609.jpg",
       },
       {
         id: 4,
@@ -4025,6 +4031,24 @@ export const appDataSlice = createSlice({
       {
         id: 5,
         paths:
+          "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
+        type: "Guidance note",
+        title: "Global: Public Investment Management Assessment​",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "The IMF’s Public Investment Management Assessment (PIMA) provides a comprehensive framework to evaluate the strength of public investment management institutions, helping governments identify weaknesses and prioritize reforms.",
+        format: 2,
+        stage: 4,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image:
+          "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
+      },
+      {
+        id: 5,
+        paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
         type: "Framework",
         title: "Global: Getting Infrastructure Right",
@@ -4043,7 +4067,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths: "https://www.jasca2021.jp/",
         type: "Case Study",
-        title: "Japan: Japan Association for Smart Cities in ASEAN",
+        title: "Japan: Association for Smart Cities in ASEAN",
         highlight: 0,
         target: "_blank",
         principles: 5,
@@ -4073,6 +4097,22 @@ export const appDataSlice = createSlice({
         industry: 11,
         image:
           "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
+      },
+      {
+        id: 5,
+        paths:
+          "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
+        type: "Report",
+        title: "Global: Digital Public Infrastructure for Digital Governments",
+        highlight: 0,
+        target: "_blank",
+        principles: 5,
+        desc: "Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        image: "images/qii6/shutterstock_2370519757.jpg",
       },
       {
         id: 5,
@@ -4118,7 +4158,7 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         principles: 5,
-        desc: "National geospatial platform consolidating land-use data from 19 government agencies across all 34 provinces into a single unified database. Launched in 2018 to resolve overlapping claims and fragmented information that had long impeded sustainable development, infrastructure planning, and land governance.",
+        desc: "This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.",
         format: 1,
         stage: 4,
         income: 3,
@@ -4286,24 +4326,7 @@ export const appDataSlice = createSlice({
       //   industry: 11,
       //   image: "images/qii6/shutterstock_2653389623.jpg",
       // },
-      {
-        id: 5,
-        paths:
-          "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
-        type: "Guidance note",
-        title: "Global: Public Investment Management Assessment​",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "The IMF’s Public Investment Management Assessment (PIMA) provides a comprehensive framework to evaluate the strength of public investment management institutions, helping governments identify weaknesses and prioritize reforms.",
-        format: 2,
-        stage: 4,
-        income: 0,
-        region: 7,
-        industry: 11,
-        image:
-          "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
-      },
+      
       {
         id: 5,
         paths:
@@ -4409,22 +4432,6 @@ export const appDataSlice = createSlice({
         region: 7,
         industry: 11,
         image: "images/qii6/shutterstock_2661513413.jpg",
-      },
-      {
-        id: 5,
-        paths:
-          "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
-        type: "Report",
-        title: "Global: Digital Public Infrastructure for Digital Governments",
-        highlight: 0,
-        target: "_blank",
-        principles: 5,
-        desc: "Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.",
-        format: 5,
-        stage: 4,
-        income: 0,
-        industry: 1,
-        image: "images/qii6/shutterstock_2370519757.jpg",
       },
 
       //data-qii6

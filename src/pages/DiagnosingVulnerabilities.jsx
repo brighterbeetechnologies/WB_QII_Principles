@@ -22,6 +22,7 @@ export default function DiagnosingVulnerabilities() {
           <strong>
             Geospatial Information Management and Analysis Portal
           </strong>
+          <br />GeoRiskPH
           <br />
         </p>
       ),
