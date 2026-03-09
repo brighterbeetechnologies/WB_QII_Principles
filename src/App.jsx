@@ -36,6 +36,7 @@ import Govtech_For_Infrastructure from "./pages/Govtech_For_Infrastructure.jsx";
 import Public_Investment_And_Asset_Management from "./pages/Public_Investment_And_Asset_Management.jsx";
 import QII3CaseStudy1 from "./pages/QII3CaseStudy/QII3CaseStudy1.jsx";
 import QII3CaseStudy2 from "./pages/QII3CaseStudy/QII3CaseStudy2.jsx";
+import Fundamentals_of_QII from "./pages/Fundamentals_of_QII.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -47,7 +48,14 @@ export const router = createHashRouter([
 				index: true,
 				element: <Home></Home>,
 			},
-			
+			{
+				path: "/fundamentals_of_qii",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<Fundamentals_of_QII />
+					</Suspense>
+				),
+			},
 			{
 				path: "/qii1",
 				element: (

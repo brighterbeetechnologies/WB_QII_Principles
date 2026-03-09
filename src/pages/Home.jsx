@@ -54,7 +54,9 @@ export default function Home() {
           <img src="images/circle_left.png" />
         </div>
         <div className="container">
-          <h2 className="section-title light-font">Explore The QII Principles</h2>
+          <h2 className="section-title light-font">
+            Explore The QII Principles
+          </h2>
           <div className="principles-grid" id="principles-grid" role="list">
             {principleArray.map((p, index) => (
               <article
@@ -80,8 +82,12 @@ export default function Home() {
               </article>
             ))}
           </div>
-          <button className="btn-arrow-txt" disabled>
-            Explore the Fundamentals Of QII <span className="icon-arrow"></span>
+          <button
+            className="btn-arrow-txt"
+            onClick={() => navigate("/fundamentals_of_qii")}
+          >
+            Explore the Fundamentals Of QII{" "}
+            <span className="icon-arrow"></span>
           </button>
         </div>
       </section>

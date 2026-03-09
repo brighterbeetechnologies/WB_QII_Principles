@@ -1,0 +1,153 @@
+.fundamentals_of_qii-header {
+  width: 100%;
+  position: relative;
+}
+
+.fundamentals_of_qii-header .fundamentals_of_qii-header-bg {
+  background-image: url("images/fundamentals_of_qii/QII2_Landing_main.png");
+  object-fit: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.fundamentals_of_qii-header-title {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  margin-left: 5rem;
+}
+
+.fundamentals_of_qii-header-title h1 {
+  font-size: 3rem;
+}
+
+.fundamentals_of_qii-header-title p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.what-is-qii-section {
+  padding: 4rem;
+}
+
+.what-is-qii-section .center-text {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.what-is-qii-section .what-is-qii-description {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.qii-generations {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.qii-generations .qii-timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.qii-generations .timeline-item-title-1 {
+  position: relative;
+}
+
+.qii-generations .blue-curve-img-1 {
+  height: 12rem;
+  width: 5rem;
+  transform: rotate(-90deg);
+}
+
+.qii-generations .timeline-circle {
+  background-color: #fff;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  width: 5rem;
+}
+
+.image-text-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1rem;
+  background-color: #002244;
+  background-image: url("images/qii2/video_bg.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: 50% 100%;
+}
+
+.image-text-container-desc {
+  width: 40%;
+  margin: 4rem;
+  padding: 1rem;
+  color: #fff;
+}
+
+.image-text-container-imag {
+  width: 70%;
+  display: none;
+}
+
+.image-text-container-desc p strong {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.image-text-container-desc p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .image-text-container {
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    background-image: none;
+  }
+  .image-text-container-imag {
+    display: block;
+    width: 100%;
+  }
+  .image-text-container-desc {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .fundamentals_of_qii-header {
+    position: static;
+  }
+
+  .fundamentals_of_qii-header .fundamentals_of_qii-header-bg {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .fundamentals_of_qii-header-title {
+    position: static;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 0;
+    color: #000;
+    width: 100%;
+  }
+
+  .fundamentals_of_qii-header-title h1 {
+    font-size: 1.5rem;
+  }
+
+  .fundamentals_of_qii-header-title p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+}

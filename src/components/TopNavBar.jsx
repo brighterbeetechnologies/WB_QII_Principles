@@ -90,7 +90,7 @@ export default function TopNavBar() {
           </button>
           <div className={`nav-sub-menu ${isMenuOpen ? "open" : ""}`}>
             <div className="nav-sub-menu-cnt">
-              <button className="nav-btn-link" onClick={goHome}>
+              <button className="nav-btn-link"  onClick={() => navigate("/fundamentals_of_qii")}>
                 What is QII
               </button>
               <div className="menu-splitter"></div>
