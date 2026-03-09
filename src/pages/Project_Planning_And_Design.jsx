@@ -241,7 +241,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
-      image: "images/qii5/ProjectPlanningandDesign/Silver-Hues.png",
+      image: "images/qii5/Silver-Hueesss.png",
       title: (
         <p>
           Global <br />
