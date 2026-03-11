@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298.257" height="195" viewBox="0 0 298.257 195">
+  <defs>
+    <filter id="Ellipse_451" x="53.014" y="0" width="195" height="195" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Timeline02" transform="translate(16281.026 2795.691)">
+    <g transform="matrix(1, 0, 0, 1, -16281.03, -2795.69)" filter="url(#Ellipse_451)">
+      <circle id="Ellipse_451-2" data-name="Ellipse 451" cx="64.5" cy="64.5" r="64.5" transform="translate(86.01 30)" fill="#fff"/>
+    </g>
+    <path id="Path_7073" data-name="Path 7073" d="M-8.031,2.945A2.321,2.321,0,0,0-10.363.613a2.324,2.324,0,0,0-2.3,2.332v71.01a75.885,75.885,0,0,0-73.544,75.806,75.883,75.883,0,0,0,73.544,75.8v70.974a2.324,2.324,0,0,0,2.3,2.332,2.322,2.322,0,0,0,2.332-2.332v-75.6h-2.332A71.129,71.129,0,0,1-81.54,149.761,71.163,71.163,0,0,1-10.363,78.548h2.332Zm0,0" transform="translate(-16281.64 -2711.206) rotate(-90)" fill="#024"/>
+  </g>
+</svg>

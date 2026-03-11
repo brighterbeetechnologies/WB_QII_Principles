@@ -31,8 +31,8 @@
 }
 
 .what-is-qii-section .center-text {
-  font-size: 1.5rem;
-  font-weight: 900;
+  font-size: 1.6rem;
+  font-weight: 1000;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -44,14 +44,17 @@
 
 .qii-generations {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
+  margin-bottom: 4rem;
+  padding: 9rem 4rem;
 }
 
 .qii-generations .qii-timeline {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1rem;
   position: relative;
   margin-top: 4rem;
 }
@@ -60,17 +63,140 @@
   position: relative;
 }
 
-.qii-generations .blue-curve-img-1 {
-  height: 12rem;
-  width: 5rem;
-  transform: rotate(-90deg);
+.qii-generations .timeline-item-title-1 .timeline-item-title-2-para-1,
+.qii-generations .timeline-item-title-1 .timeline-item-title-2-para-3 {
+  position: absolute;
+  width: 109%;
+  left: -7rem;
+  bottom: 10.2rem;
+  transform: translate(50%, 50%);
+  text-align: center;
+  font-size: 0.8rem;
 }
 
-.qii-generations .timeline-circle {
-  background-color: #fff;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
-  width: 5rem;
+.qii-generations .blue-curve-img-1 {
+  width: 12rem;
+  transform: rotate(-360deg);
+}
+
+.qii-generations .dark-blue-curve-img-1 {
+  width: 12rem;
+  transform: rotate(-360deg);
+}
+
+.qii-generations .timeline-circle-1,
+.qii-generations .timeline-circle-3 {
+  position: absolute;
+  left: 1.5rem;
+  top: -0.2rem;
+  transform: translate(50px, 50px);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.qii-generations .timeline-item-title-1 .timeline-item-title-2-para-2 {
+  width: 144%;
+  position: absolute;
+  right: 5.8rem;
+  top: 5.8rem;
+  transform: translate(50%, 50%);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.qii-generations .timeline-circle-2 {
+  position: absolute;
+  left: 1.6rem;
+  top: 0rem;
+  transform: translate(50px, 50px);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+/* .qii-generations .timeline-item-title-1 .timeline-item-title-2-para-3 {
+  position: absolute;
+  width: 109%;
+  left: -7rem;
+  bottom: 10.2rem;
+  transform: translate(50%, 50%);
+  text-align: center;
+  font-size: 0.8rem;
+} */
+
+/* .qii-generations .timeline-circle-3 {
+  position: absolute;
+  left: 1.6rem;
+  top: -0.2rem;
+  transform: translate(50px, 50px);
+  font-size: 1.2rem;
+  font-weight: 900;
+} */
+
+.qii-generations .timeline-item-title-1 .timeline-item-title-2-para-4 {
+  width: 100%;
+  position: absolute;
+  right: 5.2rem;
+  top: 5.6rem;
+  transform: translate(50%, 50%);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.qii-generations .timeline-circle-4 {
+  position: absolute;
+  left: 1.6rem;
+  top: 0.1rem;
+  transform: translate(50px, 50px);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.qii-generations .timeline-item-title-1 .timeline-item-title-2-para-5 {
+  width: 109%;
+  position: absolute;
+  right: 6.3rem;
+  bottom: 11rem;
+  transform: translate(50%, 50%);
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.qii-generations .timeline-circle-5 {
+  position: absolute;
+  left: 1.3rem;
+  top: -0.1rem;
+  transform: translate(50px, 50px);
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.qii-generation-footer {
+  margin: 1rem auto;
+  width: fit-content;
+}
+
+.qii-generation-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition:
+    transform 0.4s,
+    background 0.18s;
+  cursor: pointer;
+}
+
+.qii-generation-btn:hover {
+  background: #00a996;
+  border: none;
+  color: #fff;
 }
 
 .image-text-container {
@@ -79,7 +205,7 @@
   display: flex;
   gap: 1rem;
   background-color: #002244;
-  background-image: url("images/qii2/video_bg.png");
+  background-image: url("images/fundamentals_of_qii/shutterstock_2492762449.png");
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: 50% 100%;
@@ -105,6 +231,12 @@
 .image-text-container-desc p {
   font-size: 1.1rem;
   margin-top: 1rem;
+}
+
+.fundamentals_of_qii-footer-section {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 4rem;
 }
 
 @media (max-width: 1000px) {

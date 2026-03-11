@@ -16,7 +16,7 @@ export default function Fundamentals_of_QII() {
   }, []);
   return (
     <div className="fundamentals_of_qii">
-      <section className="color-light">
+      <section className="color-dark">
         <div className="fundamentals_of_qii-header">
           <div className="fundamentals_of_qii-header-bg"></div>
           <div className="fundamentals_of_qii-header-title">
@@ -26,7 +26,9 @@ export default function Fundamentals_of_QII() {
         </div>
       </section>
       <section className="what-is-qii-section color-dark">
-        <h3 className="center-text">WHAT IS QII</h3>
+        <h3 className="center-text">
+          <strong>WHAT IS QII</strong>
+        </h3>
         <p className="what-is-qii-description">
           The G20 Principles for Quality Infrastructure Investment are a set of
           voluntary, non-binding principles that reflect the G20's common
@@ -48,24 +50,78 @@ export default function Fundamentals_of_QII() {
         <div className="qii-generations">
           <div className="qii-timeline">
             <div className="timeline-item-title-1">
-              <p>Japan announces the Partnership for Quality Infrastructure.</p>
+              <p className="timeline-item-title-2-para-1">
+                Japan announces the Partnership for Quality Infrastructure,
+                establishing quality as a priority for development finance
+              </p>
               <img
                 className="blue-curve-img-1"
-                src="images/fundamentals_of_qii/Path 7066.svg"
+                src="images/fundamentals_of_qii/Timeline01.png"
                 alt=""
               />
-              <div className="timeline-circle">2015</div>
+              <div className="timeline-circle-1">2015</div>
+            </div>
+            <div className="timeline-item-title-1">
+              <p className="timeline-item-title-2-para-2">
+                G7 leaders endorse principles for quality infrastructure at the
+                Ise-Shima Summit; World Bank and Japan establish the QII
+                Partnership to put them into practice
+              </p>
+              <img
+                className="dark-blue-curve-img-1"
+                src="images/fundamentals_of_qii/Timeline02.png"
+                alt=""
+              />
+              <div className="timeline-circle-2">2016</div>
+            </div>
+            <div className="timeline-item-title-1">
+              <p className="timeline-item-title-2-para-3">
+                G20 adopts six QII Principles at the Osaka Summit, extending the
+                framework to advanced and emerging economies as a voluntary
+                global standard
+              </p>
+              <img
+                className="blue-curve-img-1"
+                src="images/fundamentals_of_qii/Timeline01.png"
+                alt=""
+              />
+              <div className="timeline-circle-3">2019</div>
+            </div>
+            <div className="timeline-item-title-1">
+              <p className="timeline-item-title-2-para-4">
+                OECD publishes implementation guidance to help governments
+                operationalize QII across the project lifecycle
+              </p>
+              <img
+                className="dark-blue-curve-img-1"
+                src="images/fundamentals_of_qii/Timeline02.png"
+                alt=""
+              />
+              <div className="timeline-circle-4">2021</div>
+            </div>
+            <div className="timeline-item-title-1">
+              <p className="timeline-item-title-2-para-5">
+                The QII Partnership is at the heart of integrating the QII
+                principles across World Bank operations and beyond, shaping
+                infrastructure investments and strengthening economies,
+                communities, and the environment for generations.
+              </p>
+              <img
+                className="blue-curve-img-1"
+                src="images/fundamentals_of_qii/Timeline01.png"
+                alt=""
+              />
+              <div className="timeline-circle-5">Today</div>
             </div>
           </div>
-
-          {/* <img className="blue-curve-img-1" src="images/fundamentals_of_qii/Path 7066.svg" alt="" />
-          <img className="dark-blue-curve-img-2" src="images/fundamentals_of_qii/Path 7069.svg" alt="" />
-          <img className="blue-curve-img-3" src="images/fundamentals_of_qii/Path 7066.svg" alt="" />
-          <img className="dark-blue-curve-img-4" src="images/fundamentals_of_qii/Path 7069.svg" alt="" />
-          <img className="blue-curve-img-5" src="images/fundamentals_of_qii/Path 7066.svg" alt="" /> */}
+        </div>
+        <div className="qii-generation-footer">
+          <button className="btn-primary qii-generation-btn">
+            Learn More About Qii's Global Reach{" "}
+            <span className="icon-arrow">&#xe900;</span>
+          </button>
         </div>
       </section>
-      <section className="container internal-pages-container color-dark"></section>
       <section className="color-light">
         <div className="image-text-container">
           <div className="image-text-container-desc">
@@ -79,8 +135,26 @@ export default function Fundamentals_of_QII() {
             </p>
           </div>
           <div className="image-text-container-imag">
-            <img src="images/qii2/video_bg.png" alt="" />
+            <img
+              src="images/fundamentals_of_qii/shutterstock_2492762449.png"
+              alt=""
+            />
           </div>
+        </div>
+      </section>
+      <section className="container internal-pages-container color-light">
+        <h3 className="center-text">
+          <strong>EXPLORE THE PRINCIPLES IN DEPTH</strong>
+        </h3>
+        <p className="fundamentals_of_qii-footer-section">
+          Learn how each principle translates into practical guidance for
+          infrastructure investment.
+        </p>
+        <div className="qii-generation-footer">
+          <button className="btn-primary qii-generation-btn">
+            Explore QII Principles{" "}
+            <span className="icon-arrow">&#xe900;</span>
+          </button>
         </div>
       </section>
     </div>
