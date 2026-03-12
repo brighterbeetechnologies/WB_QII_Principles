@@ -131,6 +131,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
       const matchSearch =
         query === "" ||
         course.title?.toLowerCase().includes(query) ||
+        course.desc?.toLowerCase().includes(query) ||
         course.country?.toLowerCase().includes(query) ||
         course.organization?.toLowerCase().includes(query) ||
         format

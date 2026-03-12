@@ -435,62 +435,72 @@ export default function Fundamentals_of_QII() {
           <div className="qii-life-cycle-container">
             <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-5">
               <img src="images/fundamentals_of_qii/11/5.png" alt="" />
-              <div className="qii-life-cycle-stage-1-title qii-life-cycle-stage-1-title-1">Maintenance</div>
+              <div className="qii-life-cycle-stage-1-title qii-life-cycle-stage-1-title-1">
+                Maintenance
+              </div>
             </div>
             <div className="qii-life-cycle-stage-1-desc">
               Are we preserving value, adapting to changing conditions, and
               extending asset life?
             </div>
           </div>
-          {/* <div className="qii-life-cycle-stage-2">
-              <img
-                className="qii-life-cycle-stage-2-img"
-                src="images/fundamentals_of_qii/11/2.png"
-                alt=""
-              />
-              <div className="qii-life-cycle-stage-2-title">Design</div>
-              <p className="qii-life-cycle-stage-2-desc">
-                Are we building in resilience, accessibility, and operational
-                efficiency?
-              </p>
-            </div> */}
-          {/* <div className="qii-life-cycle-stage-3">
-              <img
-                className="qii-life-cycle-stage-3-img"
-                src="images/fundamentals_of_qii/11/3.png"
-                alt=""
-              />
-              <div className="qii-life-cycle-stage-3-title">Construction</div>
-              <p className="qii-life-cycle-stage-3-desc">
-                Are we ensuring quality, transparency, and local capacity
-                building?
-              </p>
-            </div> */}
-          {/* <div className="qii-life-cycle-stage-4">
-              <img
-                className="qii-life-cycle-stage-4-img"
-                src="images/fundamentals_of_qii/11/4.png"
-                alt=""
-              />
-              <div className="qii-life-cycle-stage-4-title">Operation</div>
-              <p className="qii-life-cycle-stage-4-desc">
-                Are we delivering inclusive services while managing costs and
-                risks?
-              </p>
-            </div> */}
-          {/* <div className="qii-life-cycle-stage-5">
-              <img
-                className="qii-life-cycle-stage-5-img"
-                src="images/fundamentals_of_qii/11/5.png"
-                alt=""
-              />
-              <div className="qii-life-cycle-stage-5-title">Maintenance</div>
-              <p className="qii-life-cycle-stage-5-desc">
-                Are we preserving value, adapting to changing conditions, and
-                extending asset life?
-              </p>
-            </div> */}
         </div>
+
+        {/* mobile start */}
+        <div className="qii-life-cycle-container-section-mobile">
+          <div className="qii-life-cycle-container-mobile">
+            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-1-mobile">
+              <img src="images/fundamentals_of_qii/11/mobile_1.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title-mobile">
+                  Planning
+                </div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc-mobile">
+              Are we assessing long-term costs, environmental impacts, and
+              community needs from the start?
+            </div>
+          </div>
+          <div className="qii-life-cycle-container-mobile">
+            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
+              <img src="images/fundamentals_of_qii/11/mobile_2.png" alt="" />
+              <div className="qii-life-cycle-stage-2-title-mobile">Design</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc-mobile">
+              Are we building in resilience, accessibility, and operational
+              efficiency?
+            </div>
+          </div>
+          <div className="qii-life-cycle-container-mobile">
+            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
+              <img src="images/fundamentals_of_qii/11/mobile_3.png" alt="" />
+              <div className="qii-life-cycle-stage-3-title-mobile">Construction</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc-mobile">
+              Are we ensuring quality, transparency, and local capacity
+              building?
+            </div>
+          </div>
+          <div className="qii-life-cycle-container-mobile">
+            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
+              <img src="images/fundamentals_of_qii/11/mobile_4.png" alt="" />
+              <div className="qii-life-cycle-stage-4-title-mobile">Operation</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc-mobile">
+              Are we delivering inclusive services while managing costs and
+              risks?
+            </div>
+          </div>
+          <div className="qii-life-cycle-container-mobile">
+            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
+              <img src="images/fundamentals_of_qii/11/mobile_5.png" alt="" />
+              <div className="qii-life-cycle-stage-5-title-mobile">Maintenance</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc-mobile">
+              Are we preserving value, adapting to changing conditions, and extending asset life?
+            </div>
+          </div>
+        </div>
+        {/* mobile end */}
       </section>
       <section className="container internal-pages-container color-dark">
         <h3 className="center-text qii-six-principles">

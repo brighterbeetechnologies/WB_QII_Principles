@@ -126,7 +126,7 @@ export const appDataSlice = createSlice({
       // { id: 11, title: "Resource" },
     ],
 
-    learningPath: [
+    learningPath: [ 
       //principle 2 resources
 
       //promote qii2
