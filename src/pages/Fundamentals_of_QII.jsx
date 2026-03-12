@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./Fundamentals_of_QII.css";
 import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import { Link } from "react-router-dom";
 
 export default function Fundamentals_of_QII() {
   const dispatch = useDispatch();
@@ -14,6 +15,67 @@ export default function Fundamentals_of_QII() {
       }),
     );
   }, []);
+
+  const data = [
+    {
+      icon: "images/fundamentals_of_qii/QII1.svg",
+      title:
+        "Maximizing the positive impact of infrastructure to achieve sustainable growth and development.",
+      desc: " Quality infrastructure creates a virtuous circle through job creation, technology transfer, capacity building, and productivity improvement that crowds in further private investment.",
+    },
+
+    {
+      icon: "images/fundamentals_of_qii/Qii2.svg",
+      title: "Raising economic efficiency in view of life-cycle cost.  ",
+      desc: "Quality infrastructure attains value for money by accounting for total costs across planning, design, construction, operation, maintenance, and possible disposal. ",
+    },
+
+    {
+      icon: "images/fundamentals_of_qii/Qii3.svg",
+      title:
+        "Integrating environmental considerations in infrastructure investment.  ",
+      desc: "Both positive and negative impacts on ecosystems, biodiversity, and climate should be assessed throughout the project life-cycle, with transparent disclosure to all stakeholders. ",
+    },
+
+    {
+      icon: "images/fundamentals_of_qii/Qii4.svg",
+      title: "Building resilience against natural disasters and other risks.",
+      desc: "Quality infrastructure ensures long-term adaptability through sound disaster risk management in design, ongoing maintenance, and well-designed risk finance and insurance mechanisms. ",
+    },
+
+    {
+      icon: "images/fundamentals_of_qii/Qii5.svg",
+      title: "Integrating social considerations in infrastructure investment.",
+      desc: "Quality infrastructure is inclusive, enabling economic participation and social inclusion of all through non-discriminatory access, meaningful community consultation, and equal opportunity for workers. ",
+    },
+
+    {
+      icon: "images/fundamentals_of_qii/Qii6.svg",
+      title: "Strengthening infrastructure governance.",
+      desc: "Sound governance ensures accountability, transparency, and integrity through open procurement, anti-corruption efforts, debt sustainability considerations, and access to information and data for decision-making. ",
+    },
+  ];
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [fade, setFade] = useState(true);
+  const total = data.length;
+
+  const handlePrev = () => {
+    setFade(false);
+    setTimeout(() => {
+      setActiveIndex(activeIndex === 0 ? total - 1 : activeIndex - 1);
+      setFade(true);
+    }, 200);
+  };
+
+  const handleNext = () => {
+    setFade(false);
+    setTimeout(() => {
+      setActiveIndex(activeIndex === total - 1 ? 0 : activeIndex + 1);
+      setFade(true);
+    }, 200);
+  };
+
   return (
     <div className="fundamentals_of_qii">
       <section className="color-dark">
@@ -48,78 +110,254 @@ export default function Fundamentals_of_QII() {
       </section>
       <section className="container internal-pages-container color-light">
         <div className="qii-generations">
-          <div className="qii-timeline">
-            <div className="timeline-item-title-1">
-              <p className="timeline-item-title-2-para-1">
-                Japan announces the Partnership for Quality Infrastructure,
-                establishing quality as a priority for development finance
-              </p>
-              <img
-                className="blue-curve-img-1"
-                src="images/fundamentals_of_qii/Timeline01.png"
-                alt=""
-              />
+          <div className="qii-generation-upper-description-container">
+            <div className="timeline-item-text">
+              Japan announces the Partnership for Quality Infrastructure,
+              establishing quality as a priority for development finance
+            </div>
+            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              G20 adopts six QII Principles at the Osaka Summit, extending the
+              framework to advanced and emerging economies as a voluntary global
+              standard
+            </div>
+            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              The QII Partnership is at the heart of integrating the QII
+              principles across World Bank operations and beyond, shaping
+              infrastructure investments and strengthening economies,
+              communities, and the environment for generations.
+            </div>
+          </div>
+          <div className="qii-generation-timeline-image-container">
+            <div className="timeline-item-text-image">
+              <img src="images/fundamentals_of_qii/Timeline01.png" alt="" />
               <div className="timeline-circle-1">2015</div>
             </div>
-            <div className="timeline-item-title-1">
-              <p className="timeline-item-title-2-para-2">
-                G7 leaders endorse principles for quality infrastructure at the
-                Ise-Shima Summit; World Bank and Japan establish the QII
-                Partnership to put them into practice
-              </p>
-              <img
-                className="dark-blue-curve-img-1"
-                src="images/fundamentals_of_qii/Timeline02.png"
-                alt=""
-              />
-              <div className="timeline-circle-2">2016</div>
+            <div className="timeline-item-text-image">
+              <img src="images/fundamentals_of_qii/Timeline02.png" alt="" />
+              <div className="timeline-circle-1">2016</div>
             </div>
-            <div className="timeline-item-title-1">
-              <p className="timeline-item-title-2-para-3">
-                G20 adopts six QII Principles at the Osaka Summit, extending the
-                framework to advanced and emerging economies as a voluntary
-                global standard
-              </p>
-              <img
-                className="blue-curve-img-1"
-                src="images/fundamentals_of_qii/Timeline01.png"
-                alt=""
-              />
-              <div className="timeline-circle-3">2019</div>
+            <div className="timeline-item-text-image">
+              <img src="images/fundamentals_of_qii/Timeline01.png" alt="" />
+              <div className="timeline-circle-1">2019</div>
             </div>
-            <div className="timeline-item-title-1">
-              <p className="timeline-item-title-2-para-4">
-                OECD publishes implementation guidance to help governments
-                operationalize QII across the project lifecycle
-              </p>
-              <img
-                className="dark-blue-curve-img-1"
-                src="images/fundamentals_of_qii/Timeline02.png"
-                alt=""
-              />
-              <div className="timeline-circle-4">2021</div>
+            <div className="timeline-item-text-image">
+              <img src="images/fundamentals_of_qii/Timeline02.png" alt="" />
+              <div className="timeline-circle-1">2021</div>
             </div>
-            <div className="timeline-item-title-1">
-              <p className="timeline-item-title-2-para-5">
-                The QII Partnership is at the heart of integrating the QII
-                principles across World Bank operations and beyond, shaping
-                infrastructure investments and strengthening economies,
-                communities, and the environment for generations.
-              </p>
-              <img
-                className="blue-curve-img-1"
-                src="images/fundamentals_of_qii/Timeline01.png"
-                alt=""
-              />
-              <div className="timeline-circle-5">Today</div>
+            <div className="timeline-item-text-image">
+              <img src="images/fundamentals_of_qii/Timeline01.png" alt="" />
+              <div className="timeline-circle-1">Today</div>
+            </div>
+          </div>
+          <div className="qii-generation-bottom-description-container">
+            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              G7 leaders endorse principles for quality infrastructure at the
+              Ise-Shima Summit; World Bank and Japan establish the QII
+              Partnership to put them into practice
+            </div>
+            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              OECD publishes implementation guidance to help governments
+              operationalize QII across the project lifecycle
+            </div>
+            <div className="timeline-item-text"></div>
+          </div>
+        </div>
+
+        {/* mobile */}
+        <div className="qii-generations-mobile">
+          <div className="qii-generation-container-mobile">
+            <div className="qii-generation-description-mobile-left"></div>
+            <div className="qii-generation-image-mobile">
+              <img src="images/fundamentals_of_qii/Timeline01.svg" alt="" />
+              <div className="timeline-circle-1-mobile">2015</div>
+            </div>
+            <div className="qii-generation-description-mobile-right">
+              Japan announces the Partnership for Quality Infrastructure,
+              establishing quality as a priority for development finance
+            </div>
+          </div>
+          <div className="qii-generation-container-mobile">
+            <div className="qii-generation-description-mobile-left">
+              G7 leaders endorse principles for quality infrastructure at the
+              Ise-Shima Summit; World Bank and Japan establish the QII
+              Partnership to put them into practice
+            </div>
+            <div className="qii-generation-image-mobile">
+              <img src="images/fundamentals_of_qii/Timeline02.svg" alt="" />
+              <div className="timeline-circle-1-mobile">2016</div>
+            </div>
+            <div className="qii-generation-description-mobile-right"></div>
+          </div>
+          <div className="qii-generation-container-mobile">
+            <div className="qii-generation-description-mobile-left"></div>
+            <div className="qii-generation-image-mobile">
+              <img src="images/fundamentals_of_qii/Timeline01.svg" alt="" />
+              <div className="timeline-circle-1-mobile">2019</div>
+            </div>
+            <div className="qii-generation-description-mobile-right">
+              G20 adopts six QII Principles at the Osaka Summit, extending the
+              framework to advanced and emerging economies as a voluntary global
+              standard
+            </div>
+          </div>
+          <div className="qii-generation-container-mobile">
+            <div className="qii-generation-description-mobile-left">
+              OECD publishes implementation guidance to help governments
+              operationalize QII across the project lifecycle
+            </div>
+            <div className="qii-generation-image-mobile">
+              <img src="images/fundamentals_of_qii/Timeline02.svg" alt="" />
+              <div className="timeline-circle-1-mobile">2021</div>
+            </div>
+            <div className="qii-generation-description-mobile-right"></div>
+          </div>
+          <div className="qii-generation-container-mobile">
+            <div className="qii-generation-description-mobile-left"></div>
+            <div className="qii-generation-image-mobile">
+              <img src="images/fundamentals_of_qii/Timeline01.svg" alt="" />
+              <div className="timeline-circle-1-mobile">Today</div>
+            </div>
+            <div className="qii-generation-description-mobile-right">
+              The QII Partnership is at the heart of integrating the QII
+              principles across World Bank operations and beyond, shaping
+              infrastructure investments and strengthening economies,
+              communities, and the environment for generations.
             </div>
           </div>
         </div>
+
+        {/* mobile-end */}
         <div className="qii-generation-footer">
-          <button className="btn-primary qii-generation-btn">
+          <a
+            href="https://documents1.worldbank.org/curated/en/099641102192572864/pdf/IDU197aac9681a3a314073184481b0790ef3da98.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary qii-generation-btn"
+          >
             Learn More About Qii's Global Reach{" "}
             <span className="icon-arrow">&#xe900;</span>
-          </button>
+          </a>
+        </div>
+      </section>
+      <section className="container internal-pages-container color-dark">
+        <h3 className="center-text qii-life-cycle">
+          <strong>THE GLOBAL INFRASTRUCTURE CHALLENGE</strong>
+        </h3>
+        <div className="global-infrastructure-section-container">
+          <div className="global-infrastructure-section-left">
+            <div className="global-infrastructure-section-left-img">
+              <img src="images/fundamentals_of_qii/Globe.svg" alt="" />
+            </div>
+            <div className="global-infrastructure-section-left-title">
+              <p className="global-infrastructure-section-left-heading">
+                <strong>$106 trillion</strong>
+              </p>
+              <p>Infrastructure investment needed by 2040</p>
+            </div>
+            <div className="global-infrastructure-section-left-group-icons">
+              <img src="images/fundamentals_of_qii/Icongroup1.png" alt="" />
+            </div>
+            <div className="global-infrastructure-section-left-description">
+              <p>
+                <strong>Closing the Gap</strong> <br />
+                <br />
+                Addressing the global need for new and improved infrastructure
+                will require roughly $106 trillion in investment by 2040,
+                spanning transportation, energy, digital, social, and other
+                critical sectors.
+              </p>
+            </div>
+            <div className="global-infrastructure-section-left-des-link">
+              <p className="center-light-text-2">
+                Source:{" "}
+                <Link
+                  to={
+                    "https://www.mckinsey.com/industries/infrastructure/our-insights/the-infrastructure-moment"
+                  }
+                  target="_blank"
+                  className="link"
+                >
+                  McKinsey, The Infrastructure Moment, 2025
+                </Link>
+              </p>
+            </div>
+          </div>
+          <div className="global-infrastructure-section-right">
+            <div className="global-infrastructure-section-right-title">
+              <p className="global-infrastructure-section-right-sub-title">
+                Up to
+              </p>
+              <p>
+                <strong>50%</strong>
+              </p>
+              <p className="global-infrastructure-section-right-sub-title">
+                Reduction in replacement costs through proper maintenance
+              </p>
+              <p className="global-infrastructure-section-right-title-1">
+                Quality and quantity are complementary
+              </p>
+            </div>
+            <div className="global-infrastructure-section-left-group-icons-container">
+              <div className="global-infrastructure-section-left-group-icons-left">
+                <div className="global-infrastructure-section-left-group-icons-img">
+                  <img src="images/fundamentals_of_qii/Icongroup2.png" alt="" />
+                </div>
+                <div className="global-infrastructure-section-left-group-icons-title">
+                  <p>
+                    <strong>Well-planned, sustainable infrastructure</strong>
+                  </p>
+                  <p>
+                    <strong>Maximizes economic and social returns</strong>
+                  </p>
+                </div>
+              </div>
+              <div className="global-infrastructure-section-left-group-icons-right">
+                <div className="global-infrastructure-section-left-group-icons-img-right">
+                  <img src="images/fundamentals_of_qii/Icongroup3.png" alt="" />
+                </div>
+                <div className="global-infrastructure-section-left-group-icons-title-right">
+                  <p>
+                    <strong>
+                      With poor planning, assets fail early and cost more to
+                      maintain
+                    </strong>
+                  </p>
+                  <p>
+                    <strong>Exclude those who need services most</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="global-infrastructure-section-right-description">
+              <p>
+                <strong>Why Quality Matters </strong> <br />
+                <br />
+                Quality and quantity are complementary: well-planned,
+                sustainable infrastructure maximizes economic and social
+                returns, while poor planning leads to assets that fail early,
+                cost more to maintain, and exclude those who need services most.
+              </p>
+            </div>
+            <div className="global-infrastructure-section-right-des-link">
+              <p className="center-light-text-2">
+                Source:{" "}
+                <Link
+                  to={
+                    "https://www.mofa.go.jp/policy/economy/g20_summit/osaka19/pdf/documents/en/annex_01.pdf"
+                  }
+                  target="_blank"
+                  className="link"
+                >
+                  G20 Principles for Quality Infrastructure Investment,
+                  Preamble, 2019
+                </Link>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
       <section className="color-light">
@@ -143,6 +381,167 @@ export default function Fundamentals_of_QII() {
         </div>
       </section>
       <section className="container internal-pages-container color-light">
+        <h3 className="center-text qii-life-cycle">
+          <strong>THE LIFE-CYCLE PERSPECTIVE</strong>
+        </h3>
+        <p className="qii-six-principles-section">
+          Quality infrastructure requires thinking beyond construction to
+          consider impacts across an asset's entire lifespan.
+          <br />
+          <br />
+          Each of the six QII Principles applies at every stage.
+        </p>
+        <div className="qii-life-cycle-container-section">
+          <div className="qii-life-cycle-container">
+            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-1">
+              <img src="images/fundamentals_of_qii/11/1.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title">Planning</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc">
+              Are we assessing long-term costs, environmental impacts, and
+              community needs from the start?
+            </div>
+          </div>
+          <div className="qii-life-cycle-container">
+            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-2">
+              <img src="images/fundamentals_of_qii/11/2.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title">Design</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc">
+              Are we building in resilience, accessibility, and operational
+              efficiency?
+            </div>
+          </div>
+          <div className="qii-life-cycle-container">
+            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-3">
+              <img src="images/fundamentals_of_qii/11/3.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title">Construction</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc">
+              Are we ensuring quality, transparency, and local capacity
+              building?
+            </div>
+          </div>
+          <div className="qii-life-cycle-container">
+            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-4">
+              <img src="images/fundamentals_of_qii/11/4.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title">Operation</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc">
+              Are we delivering inclusive services while managing costs and
+              risks?
+            </div>
+          </div>
+          <div className="qii-life-cycle-container">
+            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-5">
+              <img src="images/fundamentals_of_qii/11/5.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title qii-life-cycle-stage-1-title-1">Maintenance</div>
+            </div>
+            <div className="qii-life-cycle-stage-1-desc">
+              Are we preserving value, adapting to changing conditions, and
+              extending asset life?
+            </div>
+          </div>
+          {/* <div className="qii-life-cycle-stage-2">
+              <img
+                className="qii-life-cycle-stage-2-img"
+                src="images/fundamentals_of_qii/11/2.png"
+                alt=""
+              />
+              <div className="qii-life-cycle-stage-2-title">Design</div>
+              <p className="qii-life-cycle-stage-2-desc">
+                Are we building in resilience, accessibility, and operational
+                efficiency?
+              </p>
+            </div> */}
+          {/* <div className="qii-life-cycle-stage-3">
+              <img
+                className="qii-life-cycle-stage-3-img"
+                src="images/fundamentals_of_qii/11/3.png"
+                alt=""
+              />
+              <div className="qii-life-cycle-stage-3-title">Construction</div>
+              <p className="qii-life-cycle-stage-3-desc">
+                Are we ensuring quality, transparency, and local capacity
+                building?
+              </p>
+            </div> */}
+          {/* <div className="qii-life-cycle-stage-4">
+              <img
+                className="qii-life-cycle-stage-4-img"
+                src="images/fundamentals_of_qii/11/4.png"
+                alt=""
+              />
+              <div className="qii-life-cycle-stage-4-title">Operation</div>
+              <p className="qii-life-cycle-stage-4-desc">
+                Are we delivering inclusive services while managing costs and
+                risks?
+              </p>
+            </div> */}
+          {/* <div className="qii-life-cycle-stage-5">
+              <img
+                className="qii-life-cycle-stage-5-img"
+                src="images/fundamentals_of_qii/11/5.png"
+                alt=""
+              />
+              <div className="qii-life-cycle-stage-5-title">Maintenance</div>
+              <p className="qii-life-cycle-stage-5-desc">
+                Are we preserving value, adapting to changing conditions, and
+                extending asset life?
+              </p>
+            </div> */}
+        </div>
+      </section>
+      <section className="container internal-pages-container color-dark">
+        <h3 className="center-text qii-six-principles">
+          <strong>THE SIX QII PRINCIPLES</strong>
+        </h3>
+        <p className="qii-six-principles-section">
+          Endorsed by G20 Finance Ministers on June 9, 2019, and by Leaders at
+          the G20 Osaka Summit on June 29, 2019. These six voluntary and
+          non-binding QII Principles reflect the G20’s common strategic
+          direction and aspiration for quality infrastructure investment.
+        </p>
+        <div
+          className={`qii-six-principles-section-curosal ${fade ? "fade-in" : "fade-out"}`}
+        >
+          <div className="qii-six-principles-section-curosal-img">
+            <img src={data[activeIndex].icon} alt="" />
+          </div>
+          <div className="qii-six-principles-section-curosal-description">
+            <p className="qii-six-principles-section-curosal-title">
+              <strong>{data[activeIndex].title}</strong>
+            </p>
+            <p className="qii-six-principles-section-curosal-desc">
+              {data[activeIndex].desc}
+            </p>
+          </div>
+        </div>
+        <div className="qii-six-principles-section-pagination-wrapper">
+          <button
+            className="qii-six-principles-section-nav-btn"
+            onClick={handlePrev}
+          >
+            <span className="qii-six-principles-section-arrow-2">&#xe900;</span>
+          </button>
+          <div className="qii-six-principles-section-dots">
+            {data.map((_, index) => (
+              <span
+                key={index}
+                className={`qii-six-principles-section-dot ${activeIndex === index ? "active" : ""}`}
+                onClick={() => setActiveIndex(index)}
+              />
+            ))}
+          </div>
+          <button
+            className="qii-six-principles-section-nav-btn"
+            onClick={handleNext}
+          >
+            <span className="qii-six-principles-section-arrow">&#xe900;</span>
+          </button>
+        </div>
+      </section>
+      <section className="container internal-pages-container color-light">
         <h3 className="center-text">
           <strong>EXPLORE THE PRINCIPLES IN DEPTH</strong>
         </h3>
@@ -152,8 +551,7 @@ export default function Fundamentals_of_QII() {
         </p>
         <div className="qii-generation-footer">
           <button className="btn-primary qii-generation-btn">
-            Explore QII Principles{" "}
-            <span className="icon-arrow">&#xe900;</span>
+            Explore QII Principles <span className="icon-arrow">&#xe900;</span>
           </button>
         </div>
       </section>

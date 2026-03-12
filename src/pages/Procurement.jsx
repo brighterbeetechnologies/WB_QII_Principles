@@ -15,10 +15,9 @@ export default function Procurement() {
   const resourceArray = [
     {
       id: 0,
-      country: "Global",
+      // country: "Global",
       title: "Life-Cycle Cost Analysis Primer",
-      subTitle:
-        "U.S. Department of Transportation - Federal Highway Administration",
+      // subTitle: "U.S. Department of Transportation - Federal Highway Administration",
       description:
         "This primer provides an introduction to LCCA as a method for comparing the total long-term costs, including agency and user costs, of alternative infrastructure project designs. It explains the step-by-step LCCA process, key concepts, and practical implementation issues.",
       img_path: "images/procurement/resources/01.png",

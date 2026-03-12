@@ -32,7 +32,7 @@ export default function QII2LandingPage() {
   const resourceArray = [
     {
       id: 0,
-      title: "Ganga River Wastewater Program",
+      title: "India: Ganga River Wastewater Program",
       country: "India",
       org: "World Bank",
       highlight: 1,
@@ -472,6 +472,7 @@ export default function QII2LandingPage() {
                             </>
                           )}
                           <strong>{p.title}</strong>
+                          {/* {p.title} */}
                           {p.org && (
                             <>
                               <br />
@@ -483,14 +484,14 @@ export default function QII2LandingPage() {
                           {p.description}
                         </div>
                         {/* <Popover
-                                                content={p.description}
-                                                title={p.title}
-                                                trigger="click"
-                                              >
-                                                <div className="page-resource-description">
-                                                  Read More...
-                                                </div>
-                                              </Popover> */}
+                          content={p.description}
+                          title={p.title}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover> */}
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

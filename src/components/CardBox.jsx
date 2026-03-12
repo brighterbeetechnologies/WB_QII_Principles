@@ -53,8 +53,16 @@ export default function CardBox({ card }) {
                   className="card-pinciple-badge card-pinciple-badge2"
                 />
               ))}
+            {card.principles3 === 0 ||
+              (card.principles3 && (
+                <img
+                  src={`images/principles/Qii_${card.principles3 + 1}.png`}
+                  alt=""
+                  className="card-pinciple-badge card-pinciple-badge3"
+                />
+              ))}
           </h3>
-          <p className="card-desc">
+          <p className="card-desc"> 
             <Popover
               content={
                 <div className="resource-popover-content">{card.desc}</div>

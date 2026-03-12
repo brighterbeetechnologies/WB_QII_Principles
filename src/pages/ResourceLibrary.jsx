@@ -25,6 +25,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
   const [selectedPrinciple, setSelectedPrinciple] = useState([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState({});
+  const [searchQuery, setSearchQuery] = useState("");
 
   const dispatch = useDispatch();
 
@@ -86,7 +87,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
   //     setSelectedPrinciple(preSelected);
   //   }
   // }, []);
-  
+
   // Apply filter logic
   useEffect(() => {
     const principleFilters = selectedFilters
@@ -123,19 +124,33 @@ export default function ResourceLibrary({ subPages, preSelected }) {
       // const matchPrinciple =
       //   selectedPrinciple.length === 0 ||
       //   selectedPrinciple.includes(course.principles);
+     
+     
+      const query = searchQuery.toLowerCase();
+
+      const matchSearch =
+        query === "" ||
+        course.title?.toLowerCase().includes(query) ||
+        course.country?.toLowerCase().includes(query) ||
+        course.organization?.toLowerCase().includes(query) ||
+        format
+          .find((f) => f.id === course.format)
+          ?.title?.toLowerCase()
+          .includes(query);
 
       return (
         matchFormat &&
         matchStage &&
         matchIndustry &&
         matchRegion &&
-        matchPrinciple
+        matchPrinciple &&
+        matchSearch 
       );
     });
 
     setFilteredCourses(filtered);
     setIndex(0);
-  }, [selectedFilters, selectedPrinciple]);
+  }, [selectedFilters, selectedPrinciple, searchQuery]);
 
   const itemsPerSlide = 6;
   const slides = [];
@@ -195,7 +210,12 @@ export default function ResourceLibrary({ subPages, preSelected }) {
           onChange={handleFilterChange}
         />
         <div className="search-box">
-          <input type="text" placeholder="Search query" />
+          <input
+            type="text"
+            placeholder="Search query"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
           <button className="icon-search">&#xe90a;</button>
         </div>
       </div>

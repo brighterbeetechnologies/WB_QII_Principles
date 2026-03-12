@@ -84,8 +84,6 @@ export const appDataSlice = createSlice({
       // { id: 6, title: "Info & Communication" },
       // { id: 7, title: "Public Admin" },
       // { id: 8, title: "Social Protection" },
-      
-      
     ],
     region: [
       { id: 8, title: "Africa" },
@@ -98,8 +96,6 @@ export const appDataSlice = createSlice({
       { id: 4, title: "North America" },
       { id: 5, title: "South Asia" },
       // { id: 6, title: "Sub-Saharan Africa" },
-      
-      
     ],
     stage: [
       { id: 0, title: "Initiation" },
@@ -967,6 +963,7 @@ export const appDataSlice = createSlice({
         type: "Framework",
         title: "Global: Blue Dot Network",
         principles: 2,
+        principles2: 4,
         highlight: 0,
         target: "_blank",
         desc: "The Blue Dot Network is a voluntary, private-sector-focused and government-supported certification scheme for infrastructure projects. Led by Australia, Japan, Spain, Switzerland, Türkiye, the United Kingdom and the United States, the certification system assesses infrastructure projects against high standards of transparency, sustainability, and developmental impact.",
@@ -1038,6 +1035,8 @@ export const appDataSlice = createSlice({
         type: "Framework",
         title: "Global: FAST-Infra",
         principles: 2,
+        principles2: 3,
+        principles3: 4,
         highlight: 0,
         target: "_blank",
         desc: "This is a harmonized framework that aggregates various sustainable finance taxonomies to create a certification label specifically for infrastructure investments.",
@@ -1406,6 +1405,7 @@ export const appDataSlice = createSlice({
         type: "Framework",
         title: "Global: Environmental and Social Framework",
         principles: 2,
+        principles2: 4,
         highlight: 0,
         target: "_blank",
         desc: "This framework guides project level environmental and social management. The ESF helps to identify what risks must be managed (e.g., pollution, biodiversity loss, community health and safety, climate hazards) and provides an approach for addressing these risks through ten standards that integrate E&S considerations into infrastructure projects.",
@@ -2123,6 +2123,7 @@ export const appDataSlice = createSlice({
         title:
           "Japan: Futakotamagawa: Integrating Flood Protection and Urban Renewal",
         principles: 3,
+        principles2: 2,
         highlight: 2,
         target: "_blank",
         desc: "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
@@ -2425,6 +2426,8 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         principles: 3,
+        principles2: 2,
+        principles3: 4,
         desc: "The FAST-Infra Label Framework ensures uniformity and comparability in evaluating sustainability performance of infrastructure across the global infrastructure finance market. The label aggregates international best practices on sustainable infrastructure financing from around the world. The criteria for resilience and adaptation can be found in page 46.",
         format: 9,
         stage: 4,
@@ -3838,6 +3841,7 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         principles: 4,
+        principles2: 2,
         desc: "A multilateral certification framework for quality infrastructure projects which consolidates over 80 international standards including the G20 Principles for Quality Infrastructure Investment and IFC Performance Standards.",
         format: 9,
         stage: 4,
@@ -3855,6 +3859,7 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         principles: 4,
+        principles2: 2,
         desc: "This framework provides essential guidance for integrating grievance procedures and relevant mechanisms in projects through a comprehensive set of standards and requirements.",
         format: 9,
         stage: 4,
@@ -3872,6 +3877,8 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         principles: 4,
+        principles2: 2,
+        principles3: 3,
         desc: "A globally applicable certification for infrastructure projects demonstrating significant positive sustainability performance across environmental, social, governance, and resilience dimensions. The label helps project developers communicate sustainability credentials to investors and supports due diligence processes.",
         format: 9,
         stage: 4,
@@ -4326,7 +4333,7 @@ export const appDataSlice = createSlice({
       //   industry: 11,
       //   image: "images/qii6/shutterstock_2653389623.jpg",
       // },
-      
+
       {
         id: 5,
         paths:
