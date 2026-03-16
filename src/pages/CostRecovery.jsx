@@ -594,8 +594,13 @@ export default function CostRecovery() {
                         {p.description}
                       </div> */}
                       <Popover
-                        content={p.description}
-                        // title={p.title}
+                        content={
+                          <div className="resource-popover-content">
+                            {p.description}
+                          </div>
+                        }
+                        placement="left"
+                        title={false}
                         trigger="click"
                       >
                         <div className="page-resource-description">
