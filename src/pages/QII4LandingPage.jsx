@@ -131,9 +131,10 @@ export default function QII4LandingPage() {
   const resourceArray = [
     {
       id: 0,
-      country: "Japan",
-      title: "Futakotamagawa: Integrating Flood Protection and Urban Renewal",
-      org: "World Bank",
+      // country: "Japan",
+      title:
+        "Japan: Futakotamagawa: Integrating Flood Protection and Urban Renewal",
+      // org: "World Bank",
       description:
         "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
       img_path: "images/qii4/updated/Futakotamagawa.png",
@@ -143,10 +144,10 @@ export default function QII4LandingPage() {
     },
     {
       id: 1,
-      country: "Japan",
+      // country: "Japan",
       title:
-        "Shibaura Wastewater Treatment Facility: Financing Resilience through Land Value Capture",
-      org: "World Bank",
+        "Japan: Shibaura Wastewater Treatment Facility: Financing Resilience through Land Value Capture",
+      // org: "World Bank",
       description:
         "Demonstrates how underground stormwater detention protects a high-density urban area from flooding while a PPP that monetized surface development rights ensures long-term financial sustainability for operations and maintenance.",
       img_path: "images/qii4/updated/Shibaura_Wastewater_Management.png",
@@ -155,10 +156,10 @@ export default function QII4LandingPage() {
     },
     {
       id: 2,
-      country: "Cabo Verde",
+      // country: "Cabo Verde",
       title:
-        "Diagnosing Road Network Vulnerabilities to Guide Resilient Investment",
-      org: "World Bank",
+        "Cabo Verde: Diagnosing Road Network Vulnerabilities to Guide Resilient Investment",
+      // org: "World Bank",
       description:
         "Demonstrates how systematic hazard mapping and asset vulnerability diagnostics can prioritize resilient infrastructure investments.",
       img_path: "images/qii4/updated/Diagnosing-Road-Network.jpg",
@@ -627,18 +628,20 @@ export default function QII4LandingPage() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -650,31 +653,33 @@ export default function QII4LandingPage() {
                                     </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.country && (
+                          {/* {p.country && (
                             <>
                               <span>{p.country}</span> <br />
                             </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
+                          )} */}
+                          {/* <strong>{p.title}</strong> */}
+                          <br />
+                          {p.title}
+                          {/* {p.org && (
                             <>
                               <br />
                               <span>{p.org}</span>
                             </>
-                          )}
+                          )} */}
                         </div>
-                        <div className="page-resource-description">
+                        {/* <div className="page-resource-description">
                           {p.description}
-                        </div>
-                        {/* <Popover
-                                          content={p.description}
-                                          title={p.title}
-                                          trigger="click"
-                                        >
-                                          <div className="page-resource-description">
-                                            Read More...
-                                          </div>
-                                        </Popover> */}
+                        </div> */}
+                        <Popover
+                          content={p.description}
+                          // title={p.title}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover>
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

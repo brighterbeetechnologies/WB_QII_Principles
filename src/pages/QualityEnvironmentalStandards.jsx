@@ -21,7 +21,7 @@ export default function QualityEnvironmentalStandards() {
       description:
         "The Blue Dot Network is a voluntary, private-sector-focused and government-supported certification scheme for infrastructure projects. Led by Australia, Japan, Spain, Switzerland, Türkiye, the United Kingdom and the United States, the certification system assesses infrastructure projects against high standards of transparency, sustainability, and developmental impact.",
       img_path: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
-      path: "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
+      path: "https://www.bluedot-network.org/about",
       target: "_blank",
     },
     {
@@ -30,9 +30,8 @@ export default function QualityEnvironmentalStandards() {
       country: "Global",
       org: false,
       description:
-        "The FAST-Infra Label is a globally applicable label for projects demonstrating significant positive sustainability performance. The FAST-Infra initiative was originally conceived collectively by the Climate Policy Initiative (CPI), HSBC, the OECD, the International Finance Corporation (IFC) and the World Bank Group’s Global Infrastructure Facility (GIF), and integrates QII-aligned criteria into its Label to attract private capital to sustainable assets by providing consistent evaluation metrics.",
-      img_path:
-        "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
+        "The FAST-Infra Label is a globally applicable label for projects demonstrating significant positive sustainability performance. The FAST-Infra initiative was originally conceived collectively by the Climate Policy Initiative, HSBC, the OECD, the International Finance Corporation and the World Bank Group’s Global Infrastructure Facility, and integrates QII-aligned criteria into its Label to attract private capital to sustainable assets by providing consistent evaluation metrics.",
+      img_path: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       path: "https://www.fastinfralabel.org/",
       target: "_blank",
     },
@@ -60,8 +59,7 @@ export default function QualityEnvironmentalStandards() {
     //   ),
     // },
     {
-      image:
-        "images/qii3/shutterstock_2607341901.jpg",
+      image: "images/qii3/shutterstock_2607341901.jpg",
       title: (
         <p>
           Timor-Leste <br />
@@ -76,7 +74,8 @@ export default function QualityEnvironmentalStandards() {
       buttonText: "View the full publication",
       link: "pdf/QII_3_CaseStudy_TibarBay.pdf",
       buttonText2: "Case Study",
-      link2: "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
+      link2:
+        "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
       content: (
         <p>
           This project demonstrates application of the IFC Performance
@@ -90,7 +89,8 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Environmental and Social Framework​</strong> <br />
           World Bank
         </p>
@@ -112,12 +112,14 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             IFC's Performance Standards on Environmental and Social
             Sustainability​
           </strong>
-          <br />IFC
+          <br />
+          IFC
         </p>
       ),
       buttonText: "Framework",
@@ -141,7 +143,8 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Infrastructure_Standards.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Infrastructure Standards​</strong> <br />
           International Organization for Standardization
         </p>
@@ -221,7 +224,8 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Equator Principles.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>​Equator Principles</strong>
         </p>
       ),
@@ -242,8 +246,10 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png",
       title: (
-        <p>Global <br />
-          <strong>LEED​</strong> <br />U.S. Green Building Council
+        <p>
+          Global <br />
+          <strong>LEED​</strong> <br />
+          U.S. Green Building Council
         </p>
       ),
       buttonText: "For Buildings",
@@ -264,7 +270,8 @@ export default function QualityEnvironmentalStandards() {
     {
       image: "images/newresource/BREEAM-Infrastructure.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>​BREEAM Infrastructure</strong>{" "}
         </p>
       ),
@@ -284,16 +291,16 @@ export default function QualityEnvironmentalStandards() {
 
   const step3Cards = [
     {
-      image:
-        "images/qii3/shutterstock_2667061147.jpg",
+      image: "images/qii3/shutterstock_2667061147.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Framework for SDG-Aligned Finance</strong> <br />
           OECD & UNDP
         </p>
       ),
       buttonText: "Guidance note",
-      link: "https://sdgfinance.undp.org/resource-library/framework-sdg-aligned-finance",
+      link: "https://sdgfinance.undp.org/resource-library/framework-sdg-aligned-finance​",
       content: (
         <p>
           Explains how sustainability and risk management standards increase
@@ -308,7 +315,8 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Infrastructure Standards – Building Blocks for a Resilient Future
           </strong>{" "}
@@ -317,7 +325,7 @@ export default function QualityEnvironmentalStandards() {
         </p>
       ),
       buttonText: "Guidance note",
-      link: "https://www.cdri.world/upload/pages/1726999413696320_202203111036infrastructure_standards-building_blocks_for_a_resilient_future_technical_note.pdf?utm_source",
+      link: "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf ​",
       content: (
         <p>
           The Coalition for Disaster Resilient Infrastructure has developed a
@@ -332,7 +340,8 @@ export default function QualityEnvironmentalStandards() {
       image:
         "images/qii3/Quality-Environmental-Standards/Global-Environment-Outlook.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Global Environment Outlook (GEO-7)</strong> <br />
           UNEP
         </p>
@@ -404,15 +413,11 @@ export default function QualityEnvironmentalStandards() {
             throughout an infrastructure investment's lifecycle.
             <br />
             <br />
-            The{" "}
-            <strong>
-              World Bank Environmental and Social Framework (ESF){" "}
-            </strong>
+            The <strong>World Bank Environmental and Social Framework </strong>
             and the <strong> IFC Performance Standards (PS)</strong> exemplify
-            such standards and provide a strong Standards (PS) exemplify such
-            standards and provide a strong foundation for applying international
-            environmental and social best practices to infrastructure design and
-            delivery.
+            such standards and provide a strong foundation for applying
+            international environmental and social best practices to
+            infrastructure design and delivery.
           </div>
           <VCardsPagination cardsData={step1Cards} />
           {/* <div className="VCard-cnt col3">
@@ -483,7 +488,7 @@ export default function QualityEnvironmentalStandards() {
             <p>
               A range of other internationally recognized frameworks and
               best-practice standards can also help guide quality design. The
-              table below presents a representative, non-exhaustive list of
+              below resources presents a representative, non-exhaustive list of
               these standards and systems.
             </p>
           </div>
@@ -607,41 +612,20 @@ export default function QualityEnvironmentalStandards() {
             investors.
           </div>
           <div className="container notop">
-            <div className="page-resource-grid" role="list">
-              {resourceArray.map((p, index) => {
-                return (
-                  <article
-                    className="page-resource-card"
-                    key={index}
-                    role="listitem"
-                    style={{ backgroundImage: `url(${p.img})` }}
-                  >
-                    <div className="page-resource-link">
-                      <div className="page-resource-body">
-                        <div className="page-resource-title title-small">
-                          {p.country && (
-                            <>
-                              <span>{p.country}</span> <br />
-                            </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
-                            <>
-                              <br />
-                              <span>{p.org}</span>
-                            </>
-                          )}
-                        </div>
-                        <div className="page-resource-overlay" />
-                        <img
-                          className="page-resource-img"
-                          src={p.img_path}
-                          alt={p.title}
-                        />
-                        {/* <div className="page-resource-img-cnt">
-                                </div> */}
-                        <div className="page-resource-data">
-                          <div className="page-resource-title title-big">
+            <div className="page-resource-flex-container">
+              <div className="page-resource-flex" role="list">
+                {resourceArray.map((p, index) => {
+                  return (
+                    <article
+                      // className="page-resource-card page-resource-card-flex"
+                      className="page-resource-card-flex"
+                      key={index}
+                      role="listitem"
+                      style={{ backgroundImage: `url(${p.img})` }}
+                    >
+                      <div className="page-resource-link">
+                        <div className="page-resource-body">
+                          <div className="page-resource-title title-small">
                             {p.country && (
                               <>
                                 <span>{p.country}</span> <br />
@@ -655,34 +639,58 @@ export default function QualityEnvironmentalStandards() {
                               </>
                             )}
                           </div>
-                          <div className="page-resource-description">
-                            {p.description}
-                          </div>
-                          <div className="page-resource-btn-cnt">
-                            {p.target === "_blank" ? (
-                              <a
-                                className="page-resource-arrow"
-                                href={p.path}
-                                target={p.target}
-                              >
-                                <span className="icon-arrow">&#xe900;</span>
-                              </a>
-                            ) : (
-                              <Link
-                                className="page-resource-arrow"
-                                to={p.path}
-                                target={p.target}
-                              >
-                                <span className="icon-arrow">&#xe900;</span>
-                              </Link>
-                            )}
+                          <div className="page-resource-overlay" />
+                          <img
+                            className="page-resource-img"
+                            src={p.img_path}
+                            alt={p.title}
+                          />
+                          {/* <div className="page-resource-img-cnt">
+                                </div> */}
+                          <div className="page-resource-data">
+                            <div className="page-resource-title title-big">
+                              {p.country && (
+                                <>
+                                  <span>{p.country}</span> <br />
+                                </>
+                              )}
+                              <strong>{p.title}</strong>
+                              {p.org && (
+                                <>
+                                  <br />
+                                  <span>{p.org}</span>
+                                </>
+                              )}
+                            </div>
+                            <div className="page-resource-description">
+                              {p.description}
+                            </div>
+                            <div className="page-resource-btn-cnt">
+                              {p.target === "_blank" ? (
+                                <a
+                                  className="page-resource-arrow"
+                                  href={p.path}
+                                  target={p.target}
+                                >
+                                  <span className="icon-arrow">&#xe900;</span>
+                                </a>
+                              ) : (
+                                <Link
+                                  className="page-resource-arrow"
+                                  to={p.path}
+                                  target={p.target}
+                                >
+                                  <span className="icon-arrow">&#xe900;</span>
+                                </Link>
+                              )}
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                  </article>
-                );
-              })}
+                    </article>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>

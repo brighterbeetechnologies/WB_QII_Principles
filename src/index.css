@@ -258,11 +258,11 @@ ul {
 }
 
 .page-resource-description {
-  font-size: 0.9rem;
+  font-size: 1rem;
   z-index: 8;
   color: #fff;
-  padding: 0 1rem 1rem 1rem;
-  /* cursor: pointer; */
+  padding: 0 1rem 6rem 1rem;
+  cursor: pointer;
   display: inline-block;
 }
 
@@ -271,6 +271,16 @@ ul {
   grid-template-columns: 3fr;
   gap: 1rem;
   justify-content: center;
+}
+
+.page-resource-flex-container {
+  width: 100%;
+}
+
+.page-resource-flex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .page-resource-card {
@@ -282,9 +292,26 @@ ul {
   /* margin-bottom: 2rem; */
 }
 
+.page-resource-card-flex {
+  flex: 1 1 20%;
+}
+
 .page-resource-title,
 .page-resource-img {
   margin-bottom: 0.8rem;
+}
+
+.page-resource-type {
+   color: #fff;
+  /* font-size: 0.7rem; */
+  font-size: 0.8rem;
+  margin: 0rem 1rem 0.8rem 0rem;
+  /* margin-bottom: 1rem; */
+  background: #cde6ff;
+  display: inline-block;
+  border-radius: 10rem;
+  padding: 0.1rem 0.6rem;
+  color: #000000;
 }
 
 .page-resource-country {
@@ -307,6 +334,8 @@ ul {
   top: 0;
   font-size: 1.1rem;
 }
+
+
 
 .page-resource-card::after {
   content: "";
@@ -508,7 +537,6 @@ ul {
   text-decoration: none;
 }
 
-
 @media (max-width: 1009px) {
   .overlay {
     position: fixed;
@@ -581,7 +609,7 @@ ul {
   }
 
   .page-resource-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
   }
 
@@ -639,14 +667,31 @@ ul {
   /* .page-resource-btn-cnt {} */
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .container {
     padding: 1.875rem;
   }
 
   .page-resource-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.25rem;
+  }
+
+  .page-resource-flex-container {
+    width: 100%;
+  }
+
+  .page-resource-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .page-resource-card-flex {
+    flex: 0 0 70%;
+    margin: 0 auto;
   }
 
   .border-dash {
@@ -778,7 +823,7 @@ ul {
     font-size: 1rem;
     z-index: 8;
     color: #fff;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 1rem 6rem 1rem;
   }
 
   .page-resource-body {
@@ -877,6 +922,9 @@ ul {
   .sub-section-title {
     padding: 1rem 2rem;
     text-align: center;
+  }
+  .page-resource-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 

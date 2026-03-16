@@ -35,9 +35,9 @@ export default function QII2LandingPage() {
     {
       id: 0,
       title:
-        "​Innovations to Accelerate Inclusive and High Impact Public Services",
-      country: "Albania",
-      org: "World Bank",
+        "Albania: ​Innovations to Accelerate Inclusive and High Impact Public Services",
+      // country: "Albania",
+      // org: "World Bank",
       description:
         "​With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.",
       img_path: "images/qii6/shutterstock_2668786185.jpg",
@@ -49,9 +49,9 @@ export default function QII2LandingPage() {
     {
       id: 0,
       title:
-        "Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era",
-      country: "Multi-country",
-      org: "World Bank",
+        "Global: Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era",
+      // country: "Multi-country",
+      // org: "World Bank",
       description:
         "With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​",
       img_path: "images/qii6/shutterstock_2660000293.jpg",
@@ -61,9 +61,9 @@ export default function QII2LandingPage() {
     },
     {
       id: 0,
-      title: "Supporting Sustainable Digital Infrastructure through Innovation",
-      country: "Kosovo",
-      org: "World Bank",
+      title: "Kosovo: Supporting Sustainable Digital Infrastructure through Innovation",
+      // country: "Kosovo",
+      // org: "World Bank",
       description:
         "This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​",
       img_path: "images/qii6/shutterstock_2653389623.jpg",
@@ -305,7 +305,9 @@ export default function QII2LandingPage() {
       </section>
       <Qii6ImagewithStatement
         backgroundImage={"images/qii6/shutterstock_1954705864.jpg"}
-        text={"Infrastructure investment is not the constraint. In many cases, governance is."}
+        text={
+          "Infrastructure investment is not the constraint. In many cases, governance is."
+        }
         // subtext={"Ajay Banga"}
         // subtext2={"April 2025"}
       />
@@ -486,18 +488,20 @@ export default function QII2LandingPage() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -509,31 +513,34 @@ export default function QII2LandingPage() {
                     </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.country && (
+
+                          {/* {p.country && (
                             <>
                               <span>{p.country}</span> <br />
                             </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
+                          )} */}
+                          {/* <strong>{p.title}</strong> */}
+                          <br />
+                          {p.title}
+                          {/* {p.org && (
                             <>
                               <br />
                               <span>{p.org}</span>
                             </>
-                          )}
+                          )} */}
                         </div>
-                        <div className="page-resource-description">
+                        {/* <div className="page-resource-description">
                           {p.description}
-                        </div>
-                        {/* <Popover
+                        </div> */}
+                        <Popover
                           content={p.description}
-                          title={p.title}
+                          // title={p.title}
                           trigger="click"
                         >
                           <div className="page-resource-description">
                             Read More...
                           </div>
-                        </Popover> */}
+                        </Popover>
                         {/* <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

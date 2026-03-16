@@ -13,9 +13,11 @@ export default function CostRecovery() {
   const resourceArray = [
     {
       id: 0,
-      country: "Global",
-      title: "Financing Climate Adaptation and Nature-Based Infrastructure",
-      org: "World Bank",
+      // country: "Global",
+      title:
+        "Global: Financing Climate Adaptation and Nature-Based Infrastructure",
+      // org: "World Bank",
+      type: "Report",
       description:
         "Drawing on infrastructure projects from across the globe, this report explores how different financing and cost recovery solutions have successfully mobilized private sector participation and investment to address the growing risks of flooding, droughts, storm surges and heatwaves.",
       img_path: "images/costRecovery/resources/01.png",
@@ -23,9 +25,11 @@ export default function CostRecovery() {
     },
     {
       id: 1,
-      country: "Global",
-      title: "Life-Cycle Cost Analysis for Management of Highway Assets",
-      org: "World Bank",
+      // country: "Global",
+      title:
+        "Global: Life-Cycle Cost Analysis for Management of Highway Assets",
+      // org: "World Bank",
+      type: "Guidance note",
       description:
         "This report contains an inventory of quantitative processes and models for predicting LCC associated with highway assets.",
       img_path: "images/costRecovery/resources/02.png",
@@ -33,10 +37,10 @@ export default function CostRecovery() {
     },
     {
       id: 2,
-      country: "Global",
-      title:
-        "Municipal Public-Private Partnership Framework",
-      org: "Global Platform for Sustainable Cities",
+      // country: "Global",
+      title: "Global: Municipal Public-Private Partnership Framework",
+      // org: "Global Platform for Sustainable Cities",
+      type: "Report",
       description:
         "This report introduces concepts of land value capture and describes different instruments for climate-related funding and financing of projects. It provides brief examples of solutions developed in specific energy and agricultural sub-sectors.",
       img_path: "images/costRecovery/resources/03.png",
@@ -44,9 +48,11 @@ export default function CostRecovery() {
     },
     {
       id: 3,
-      country: "Cross-Regional",
-      title: "Monetization of Carbon Credits Energy and Agriculture Sectors",
-      org: "World Bank",
+      // country: "Cross-Regional",
+      title:
+        "Cross-Regional: Monetization of Carbon Credits Energy and Agriculture Sectors",
+      // org: "World Bank",
+      type: "Report",
       description:
         "This presentation introduces concepts of the carbon market and describes a few of the key instruments that municipalities can use to capture land value.",
       img_path: "images/costRecovery/resources/04.png",
@@ -54,10 +60,11 @@ export default function CostRecovery() {
     },
     {
       id: 4,
-      country: "Global",
-      title: "Revenue Levers to Fund Infrastructure",
-      subTitle: "Global Infrastructure Hub",
-      org: "Global Infrastructure Hub",
+      // country: "Global",
+      title: "Global: Revenue Levers to Fund Infrastructure",
+      // subTitle: "Global Infrastructure Hub",
+      // org: "Global Infrastructure Hub",
+      type: "Case Study",
       description:
         "This library of case studies demonstrate the use of innovative revenue, risk management, and financing levers to make projects bankable.",
       img_path: "images/costRecovery/resources/05.png",
@@ -65,12 +72,13 @@ export default function CostRecovery() {
     },
     {
       id: 4,
-      country: "Global",
+      // country: "Global",
       title:
-        "Banking on Cities: Investing in Resilient and Low-Carbon Urbanization",
+        "Global: Banking on Cities: Investing in Resilient and Low-Carbon Urbanization",
+      type: "Report",
       description:
         "This report provides a stock take of various cost recovery mechanisms for low carbon cities.",
-      org: "World Bank",
+      // org: "World Bank",
       img_path: "images/newresource/Cost-Recovery.png",
       // path: "https://worldbankgroup.sharepoint.com/sites/DNRINT/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FDNRINT%2FShared%20Documents%2FP180194%2Db0d1220d%2Df566%2D4788%2D8d06%2Da61f97de6114%2Epdf&parent=%2Fsites%2FDNRINT%2FShared%20Documents",
       path: "https://openknowledge.worldbank.org/entities/publication/aa15661f-9c0b-4b64-9836-76a712411742",
@@ -124,7 +132,8 @@ export default function CostRecovery() {
     {
       image: "images/costRecovery/TroubledTariffs.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Revisiting Water Pricing for Affordable and Sustainable Water
             Services
@@ -168,7 +177,8 @@ export default function CostRecovery() {
     {
       image: "images/costRecovery/InnovativeRevenues.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Innovative Revenues for Infrastructure Guidelines</strong>
           <br />
           World Bank
@@ -234,7 +244,8 @@ export default function CostRecovery() {
     {
       image: "images/costRecovery/lvc.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Investment in Infrastructure</strong>
           <br />
           GFDRR
@@ -537,18 +548,21 @@ export default function CostRecovery() {
                 <div className="page-resource-link">
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
-                      {p.country && (
+                      {/* {p.country && (
                         <>
                           <span>{p.country}</span> <br />
                         </>
-                      )}
-                      <strong>{p.title}</strong>
-                      {p.org && (
+                      )} */}
+                      {/* <strong>{p.title}</strong> */}
+                      <p className="page-resource-type">{p.type}</p>
+                      <br />
+                      {p.title}
+                      {/* {p.org && (
                         <>
                           <br />
                           <span>{p.org}</span>
                         </>
-                      )}
+                      )} */}
                     </div>
                     <div className="page-resource-overlay" />
                     <img
@@ -560,31 +574,34 @@ export default function CostRecovery() {
                     </div> */}
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <p className="page-resource-type">{p.type}</p>
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
-                      <div className="page-resource-description">
+                      {/* <div className="page-resource-description">
                         {p.description}
-                      </div>
-                      {/* <Popover
+                      </div> */}
+                      <Popover
                         content={p.description}
-                        title={p.title}
+                        // title={p.title}
                         trigger="click"
                       >
                         <div className="page-resource-description">
                           Read More...
                         </div>
-                      </Popover> */}
+                      </Popover>
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"

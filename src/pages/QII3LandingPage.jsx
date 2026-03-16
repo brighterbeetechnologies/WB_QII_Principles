@@ -284,9 +284,9 @@ export default function QII3LandingPage() {
     {
       id: 0,
       title:
-        "Tibar Bay Port: Applying Quality Environmental and Social Standards",
-      country: "Timor-Leste",
-      org: "World Bank",
+        "Timor-Leste: Tibar Bay Port: Applying Quality Environmental and Social Standards",
+      // country: "Timor-Leste",
+      // org: "World Bank",
       description:
         "This project demonstrates application of the IFC Performance Standards, which gained recognition for rigorous environmental and social scoping that led to key operational improvements such as reducing congestion and enhancing trade efficiency.",
       img_path: "images/qii3/shutterstock_2607341901.jpg",
@@ -296,9 +296,9 @@ export default function QII3LandingPage() {
     },
     {
       id: 1,
-      country: "Japan",
-      title: "Futakotamagawa: Integrating Flood Protection and Urban Renewal",
-      org: "World Bank",
+      // country: "Japan",
+      title: "Japan: Futakotamagawa: Integrating Flood Protection and Urban Renewal",
+      // org: "World Bank",
       description:
         "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
       img_path: "images/qii4/updated/Futakotamagawa.png",
@@ -308,9 +308,9 @@ export default function QII3LandingPage() {
     },
     {
       id: 2,
-      title: "Cape Town Green Bond",
-      country: "South Africa",
-      org: "World Bank",
+      title: "South Africa: Cape Town Green Bond",
+      // country: "South Africa",
+      // org: "World Bank",
       description:
         "This project illustrates how green bond certification builds investor confidence in climate-aligned municipal infrastructure.",
       img_path: "images/qii3/Cape-Town-Green-Bond.jpg",
@@ -417,7 +417,7 @@ export default function QII3LandingPage() {
       <ImagewithStatement
         backgroundImage={"images/qii3/shutterstock_708204115.png"}
         text={
-          "By accounting for climate impacts, biodiversity risks, and ecosystem services from project conception through delivery, infrastructure becomes a driver of environmental regeneration rather than degradation."
+          "By accounting for climate impacts, biodiversity risks, and ecosystem services – from project conception through delivery – infrastructure can become a driver of environmental regeneration rather than degradation."
         }
       />
       <section className="color-dark">
@@ -617,18 +617,20 @@ export default function QII3LandingPage() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -640,31 +642,33 @@ export default function QII3LandingPage() {
                           </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.country && (
+                          {/* {p.country && (
                             <>
                               <span>{p.country}</span> <br />
                             </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
+                          )} */}
+                          {/* <strong>{p.title}</strong> */}
+                          <br />
+                        {p.title}
+                          {/* {p.org && (
                             <>
                               <br />
                               <span>{p.org}</span>
                             </>
-                          )}
+                          )} */}
                         </div>
-                        <div className="page-resource-description">
+                        {/* <div className="page-resource-description">
                           {p.description}
-                        </div>
-                        {/* <Popover
+                        </div> */}
+                        <Popover
                                 content={p.description}
-                                title={p.title}
+                                // title={p.title}
                                 trigger="click"
                               >
                                 <div className="page-resource-description">
                                   Read More...
                                 </div>
-                              </Popover> */}
+                              </Popover>
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

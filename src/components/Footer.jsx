@@ -77,28 +77,45 @@ const Footer = () => {
                   href="#"
                   onClick={(e) => {
                     e.preventDefault();
-
-                    const el = document.getElementById("all_principle_page");
-                    el?.scrollIntoView({ behavior: "smooth" });
-
-                    setPreSelectedResources([
-                      {
-                        show: true,
-                        category: "Media Type",
-                        title: "Case Study",
-                        id: 1,
+                    navigate("/", {
+                      state: {
+                        scrollTo: "all_principle_page",
+                        resourceCategory: {
+                          show: true,
+                          category: "Media Type",
+                          title: "Case Study",
+                          id: 1,
+                        },
                       },
-                    ]);
+                    });
                   }}
                 >
                   Case Studies
                 </a>
               </li>
-              <li>
-                <a href="#">Guidance</a>
+             <li>
+                <a
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigate("/", {
+                      state: {
+                        scrollTo: "all_principle_page",
+                        resourceCategory: {
+                          show: true,
+                          category: "Media Type",
+                          title: "Guidance note",
+                          id: 2,
+                        },
+                      },
+                    });
+                  }}
+                >
+                  Guidance note
+                </a>
               </li>
               <li>
-                <a href="#">Tools</a>
+                <a href="#" className="disable-link">Tools </a>
               </li>
               <li>
                 <a href="#" className="disable-link">

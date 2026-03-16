@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Fundamentals_of_QII.css";
 import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
@@ -6,6 +7,7 @@ import { setBradcrump } from "../slices/appDataSlice";
 import { Link } from "react-router-dom";
 
 export default function Fundamentals_of_QII() {
+  const navigate = useNavigate();
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -44,7 +46,7 @@ export default function Fundamentals_of_QII() {
     },
 
     {
-      icon: "images/fundamentals_of_qii/Qii5.svg",
+      icon: "images/principles/Qii_5.png",
       title: "Integrating social considerations in infrastructure investment.",
       desc: "Quality infrastructure is inclusive, enabling economic participation and social inclusion of all through non-discriminatory access, meaningful community consultation, and equal opportunity for workers. ",
     },
@@ -93,6 +95,9 @@ export default function Fundamentals_of_QII() {
         <h3 className="center-text">
           <strong>WHAT IS QII</strong>
         </h3>
+        <p className="what-is-qii-title">
+          Infrastructure is a driver of economic growth and prosperity.
+        </p>
         <p className="what-is-qii-description">
           The G20 Principles for Quality Infrastructure Investment are a set of
           voluntary, non-binding principles that reflect the G20's common
@@ -111,6 +116,9 @@ export default function Fundamentals_of_QII() {
         </p>
       </section>
       <section className="container internal-pages-container color-light">
+        <h3 className="center-text-qii-generations">
+          <strong>THE PATH TO GLOBAL ADOPTION </strong>
+        </h3>
         <div className="qii-generations">
           <div className="qii-generation-upper-description-container">
             <div className="timeline-item-text">
@@ -240,7 +248,7 @@ export default function Fundamentals_of_QII() {
             rel="noopener noreferrer"
             className="btn-primary qii-generation-btn"
           >
-            Learn More About Qii's Global Reach{" "}
+            Learn More About QII's Global Reach{" "}
             <span className="icon-arrow">&#xe900;</span>
           </a>
         </div>
@@ -263,7 +271,7 @@ export default function Fundamentals_of_QII() {
             <div className="global-infrastructure-section-left-group-icons">
               <img src="images/fundamentals_of_qii/Icongroup1.png" alt="" />
             </div>
-            <div className="global-infrastructure-section-left-description">
+            {/* <div className="global-infrastructure-section-left-description">
               <p>
                 <strong>Closing the Gap</strong> <br />
                 <br />
@@ -272,7 +280,7 @@ export default function Fundamentals_of_QII() {
                 spanning transportation, energy, digital, social, and other
                 critical sectors.
               </p>
-            </div>
+            </div> */}
             <div className="global-infrastructure-section-left-des-link">
               <p className="center-light-text-2">
                 Source:{" "}
@@ -291,11 +299,11 @@ export default function Fundamentals_of_QII() {
           <div className="global-infrastructure-section-right">
             <div className="global-infrastructure-section-right-title">
               <p className="global-infrastructure-section-right-sub-title">
-                Up to
+                Up to <strong>50%</strong>
               </p>
-              <p>
+              {/* <p>
                 <strong>50%</strong>
-              </p>
+              </p> */}
               <p className="global-infrastructure-section-right-sub-title">
                 Reduction in replacement costs through proper maintenance
               </p>
@@ -334,16 +342,15 @@ export default function Fundamentals_of_QII() {
                 </div>
               </div>
             </div>
-            <div className="global-infrastructure-section-right-description">
+            {/* <div className="global-infrastructure-section-right-description">
               <p>
                 <strong>Why Quality Matters </strong> <br />
                 <br />
-                Quality and quantity are complementary: well-planned,
-                sustainable infrastructure maximizes economic and social
+                Well-planned, sustainable infrastructure maximizes economic and social
                 returns, while poor planning leads to assets that fail early,
                 cost more to maintain, and exclude those who need services most.
               </p>
-            </div>
+            </div> */}
             <div className="global-infrastructure-section-right-des-link">
               <p className="center-light-text-2">
                 Source:{" "}
@@ -452,10 +459,10 @@ export default function Fundamentals_of_QII() {
         <div className="qii-life-cycle-container-section-mobile">
           <div className="qii-life-cycle-container-mobile">
             <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-1-mobile">
-              <img src="images/fundamentals_of_qii/11/mobile_1.png" alt="" />
+              <img src="images/fundamentals_of_qii/11/1_mobile.png" alt="" />
               <div className="qii-life-cycle-stage-1-title-mobile">
-                  Planning
-                </div>
+                Planning
+              </div>
             </div>
             <div className="qii-life-cycle-stage-1-desc-mobile">
               Are we assessing long-term costs, environmental impacts, and
@@ -464,7 +471,7 @@ export default function Fundamentals_of_QII() {
           </div>
           <div className="qii-life-cycle-container-mobile">
             <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
-              <img src="images/fundamentals_of_qii/11/mobile_2.png" alt="" />
+              <img src="images/fundamentals_of_qii/11/2_mobile.png" alt="" />
               <div className="qii-life-cycle-stage-2-title-mobile">Design</div>
             </div>
             <div className="qii-life-cycle-stage-1-desc-mobile">
@@ -474,8 +481,10 @@ export default function Fundamentals_of_QII() {
           </div>
           <div className="qii-life-cycle-container-mobile">
             <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
-              <img src="images/fundamentals_of_qii/11/mobile_3.png" alt="" />
-              <div className="qii-life-cycle-stage-3-title-mobile">Construction</div>
+              <img src="images/fundamentals_of_qii/11/3_mobile.png" alt="" />
+              <div className="qii-life-cycle-stage-3-title-mobile">
+                Construction
+              </div>
             </div>
             <div className="qii-life-cycle-stage-1-desc-mobile">
               Are we ensuring quality, transparency, and local capacity
@@ -484,8 +493,10 @@ export default function Fundamentals_of_QII() {
           </div>
           <div className="qii-life-cycle-container-mobile">
             <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
-              <img src="images/fundamentals_of_qii/11/mobile_4.png" alt="" />
-              <div className="qii-life-cycle-stage-4-title-mobile">Operation</div>
+              <img src="images/fundamentals_of_qii/11/4_mobile.png" alt="" />
+              <div className="qii-life-cycle-stage-4-title-mobile">
+                Operation
+              </div>
             </div>
             <div className="qii-life-cycle-stage-1-desc-mobile">
               Are we delivering inclusive services while managing costs and
@@ -494,11 +505,14 @@ export default function Fundamentals_of_QII() {
           </div>
           <div className="qii-life-cycle-container-mobile">
             <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
-              <img src="images/fundamentals_of_qii/11/mobile_5.png" alt="" />
-              <div className="qii-life-cycle-stage-5-title-mobile">Maintenance</div>
+              <img src="images/fundamentals_of_qii/11/5_mobile.png" alt="" />
+              <div className="qii-life-cycle-stage-5-title-mobile">
+                Maintenance
+              </div>
             </div>
             <div className="qii-life-cycle-stage-1-desc-mobile">
-              Are we preserving value, adapting to changing conditions, and extending asset life?
+              Are we preserving value, adapting to changing conditions, and
+              extending asset life?
             </div>
           </div>
         </div>
@@ -562,7 +576,18 @@ export default function Fundamentals_of_QII() {
           infrastructure investment.
         </p>
         <div className="qii-generation-footer">
-          <button className="btn-primary qii-generation-btn">
+          <button
+            className="btn-primary qii-generation-btn"
+            href="/"
+            onClick={(e) => {
+              e.preventDefault();
+              navigate("/", {
+                state: {
+                  scrollTo: "priciple-sections",
+                },
+              });
+            }}
+          >
             Explore QII Principles <span className="icon-arrow">&#xe900;</span>
           </button>
         </div>

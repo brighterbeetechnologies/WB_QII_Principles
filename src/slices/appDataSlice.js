@@ -959,7 +959,7 @@ export const appDataSlice = createSlice({
       {
         id: 3,
         paths:
-          "https://www.bluedot-network.org/case-studies/BDN-2EA3VG-66FQ?utm_sourcE",
+          "https://www.bluedot-network.org/about",
         type: "Framework",
         title: "Global: Blue Dot Network",
         principles: 2,
@@ -1849,7 +1849,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://documents1.worldbank.org/curated/en/102951623742853259/pdf/Green-Roads-for-Water-Guidelines-for-Road-Infrastructure-in-Support-of-Water-Management-and-Climate-Resilience.pdf",
-        type: "Report",
+        type: "Guidance note",
         title: "Global: Green Roads for Water",
         principles: 2,
         highlight: 0,

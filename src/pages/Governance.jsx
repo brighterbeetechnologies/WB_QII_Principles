@@ -12,10 +12,11 @@ export default function Governance() {
   const resourceArray = [
     {
       id: 0,
-      country: "Global",
+      // country: "Global",
+      type: "Report",
       title:
-        "Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
-      subTitle: "World Bank​",
+        "Global: Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
+      // subTitle: "World Bank​",
       description:
         "This resource is a foundational guide for policymakers, practitioners, and stakeholders seeking to understand and implement effective infrastructure maintenance as a driver of economic efficiency, resilience, and sustainable development.",
       img_path: "images/governance/resources/01.jpg",
@@ -23,9 +24,10 @@ export default function Governance() {
     },
     {
       id: 1,
-      country: "Global",
-      title: "PPP Reference Guide",
-      subTitle: "World Bank",
+      // country: "Global",
+      title: "Global: PPP Reference Guide",
+      type: "Guidance note",
+      // subTitle: "World Bank",
       description:
         "This document acts as a comprehensive reference on Public-Private Partnership (PPP) structures, legal frameworks, and global case studies, designed to help governments and practitioners make informed decisions about PPPs.",
       img_path: "images/governance/resources/02.jpg",
@@ -33,9 +35,10 @@ export default function Governance() {
     },
     {
       id: 2,
-      country: "Cross-Regional",
-      title: "Infrastructure Maintenance in the Pacific",
-      subTitle: "Pacific Region Infrastructure Facility​",
+      // country: "Cross-Regional",
+      type: "Report",
+      title: "Cross-Regional: Infrastructure Maintenance in the Pacific",
+      // subTitle: "Pacific Region Infrastructure Facility​",
       description:
         "This report explores the governance challenges of infrastructure maintenance in Pacific Island countries, emphasizing the need for clear institutional roles, accountability, and sustainable funding to break the “build-neglect-rebuild” cycle and ensure long-term service delivery.",
       img_path: "images/governance/resources/03.jpg",
@@ -43,9 +46,10 @@ export default function Governance() {
     },
     {
       id: 3,
-      country: "Global",
-      title: "Bringing PPPs into the Sunlight",
-      subTitle: "Inter-American Development Bank",
+      // country: "Global",
+      type: "Report",
+      title: "Global: Bringing PPPs into the Sunlight",
+      // subTitle: "Inter-American Development Bank",
       description:
         "This report examines the fiscal, institutional, and governance challenges of Public-Private Partnerships (PPPs), providing practical guidance to improve transparency, manage fiscal risks, and ensure PPPs deliver long-term value for money.",
       img_path: "images/governance/resources/04.jpg",
@@ -159,7 +163,9 @@ export default function Governance() {
               Hungary <br />
               <strong>
                 DuboCalc and CO<sub>2</sub> Performance Ladder
-              </strong> <br />Organization for Economic Co-operation and Development​
+              </strong>{" "}
+              <br />
+              Organization for Economic Co-operation and Development​
             </div>
             <p>
               Demonstrates how dedicated governance structures support long-term
@@ -215,7 +221,8 @@ export default function Governance() {
             <div className="description">
               Global <br />
               <strong>Combined Cycle Power Plant</strong>
-              <br />World Bank​
+              <br />
+              World Bank​
             </div>
             <p>
               Demonstrates how life-cycle costing was embedded across project
@@ -272,7 +279,8 @@ export default function Governance() {
             <div className="description">
               Malawi <br />
               <strong>Infrastructure Data Innovations</strong>
-              <br />UNEP​
+              <br />
+              UNEP​
             </div>
             <p>
               Highlights how digital platforms and inclusive oversight
@@ -324,7 +332,8 @@ export default function Governance() {
                 Public and Private Infrastructure Investment Management Center
                 (PIMAC)
               </strong>
-              <br />World Bank​
+              <br />
+              World Bank​
             </div>
             <p>
               Showcases how institutional training strengthens the practical
@@ -426,24 +435,27 @@ export default function Governance() {
                 <div className="page-resource-link">
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
-                      {p.country && (
+                      {/* {p.country && (
                         <>
                           <span>{p.country}</span> <br />
                         </>
-                      )}
-                      <strong>{p.title}</strong>
-                      {p.org && (
+                      )} */}
+                      {/* <strong>{p.title}</strong> */}
+                      <p className="page-resource-type">{p.type}</p>
+                      <br />
+                      {p.title}
+                      {/* {p.org && (
                         <>
                           <br />
                           <span>{p.org}</span>
                         </>
-                      )}
-                      {p.subTitle && (
+                      )} */}
+                      {/* {p.subTitle && (
                         <>
                           <br />
                           <span>{p.subTitle}</span>
                         </>
-                      )}
+                      )} */}
                     </div>
                     <div className="page-resource-overlay" />
                     <img
@@ -455,37 +467,40 @@ export default function Governance() {
                     </div> */}
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
-                        {p.subTitle && (
+                        )} */}
+                        <p className="page-resource-type">{p.type}</p>
+                        <br />
+                        {p.title}
+                        {/* {p.subTitle && (
                           <>
                             <br />
                             <span>{p.subTitle}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
-                      <div className="page-resource-description">
+                      {/* <div className="page-resource-description">
                         {p.description}
-                      </div>
-                      {/* <Popover
+                      </div> */}
+                      <Popover
                         content={p.description}
-                        title={p.title}
+                        // title={p.title}
                         trigger="click"
                       >
                         <div className="page-resource-description">
                           Read More...
                         </div>
-                      </Popover> */}
+                      </Popover>
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"

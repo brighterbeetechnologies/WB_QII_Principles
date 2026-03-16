@@ -16,12 +16,16 @@ export default function Home() {
     dispatch(setBradcrump({ show: false, dir: [] }));
   }, []);
 
-  
   const [preSelectedResources, setPreSelectedResources] = useState([]);
 
   useEffect(() => {
     setTimeout(() => {
-      if (location.state?.scrollTo) {
+      if (location.state?.resourceCategory) {
+        setPreSelectedResources([location.state?.resourceCategory]);
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate("/", { replace: true, state: null });
+      } else if (location.state?.scrollTo) {
         const el = document.getElementById(location.state.scrollTo);
         el?.scrollIntoView({ behavior: "smooth" });
         navigate("/", { replace: true, state: null });
@@ -88,6 +92,7 @@ export default function Home() {
           </div>
           <button
             className="btn-arrow-txt"
+            id="priciple-sections"
             onClick={() => navigate("/fundamentals_of_qii")}
           >
             Explore the Fundamentals Of QII{" "}
@@ -96,9 +101,7 @@ export default function Home() {
         </div>
       </section>
       <section className="color-light z-2" id="all_principle_page">
-        <ResourceLibrary
-          preSelected={preSelectedResources}
-        ></ResourceLibrary>
+        <ResourceLibrary preSelected={preSelectedResources}></ResourceLibrary>
       </section>
       <section className="color-dark faq_page" id="faq_page">
         <div className="circle-bg">

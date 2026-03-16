@@ -33,8 +33,8 @@ export default function QII2LandingPage() {
     {
       id: 0,
       title: "India: Ganga River Wastewater Program",
-      country: "India",
-      org: "World Bank",
+      country: false,
+      org: false,
       highlight: 1,
       description:
         "Summarizes a procurement approach where annuity payments were linked to long-term O&M performance.",
@@ -45,9 +45,9 @@ export default function QII2LandingPage() {
     {
       id: 1,
       title:
-        "Assessing Economic Efficiency of Long-Term Road Asset Management Strategies",
-      country: "Multi-country",
-      org: "World Bank",
+        "Global: Assessing Economic Efficiency of Long-Term Road Asset Management Strategies",
+      // country: "Multi-country",
+      // org: "World Bank",
       description:
         "Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
       img_path: "images/governance/list/05.jpg",
@@ -56,9 +56,9 @@ export default function QII2LandingPage() {
     },
     {
       id: 2,
-      title: "Life-Cycle Costing in Public Procurement in Hungary",
-      country: "Hungary",
-      org: "Organisation for Economic Co-operation and Development",
+      title: "Global: Life-Cycle Costing in Public Procurement in Hungary",
+      // country: "Hungary",
+      // org: "Organisation for Economic Co-operation and Development",
       description:
         "Analyzes Hungary's policy framework and current practices and provides recommendations for promoting LCC adoption in public procurement.",
       img_path: "images/governance/list/01.jpg",
@@ -443,18 +443,20 @@ export default function QII2LandingPage() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        <br />
+                        {/* <strong>{p.title}</strong> */}
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -466,32 +468,33 @@ export default function QII2LandingPage() {
                                           </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.country && (
+                          {/* {p.country && (
                             <>
                               <span>{p.country}</span> <br />
                             </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {/* {p.title} */}
-                          {p.org && (
+                          )} */}
+                          <br />
+                          {/* <strong>{p.title}</strong> */}
+                          {p.title}
+                          {/* {p.org && (
                             <>
                               <br />
                               <span>{p.org}</span>
                             </>
-                          )}
+                          )} */}
                         </div>
-                        <div className="page-resource-description">
+                        {/* <div className="page-resource-description">
                           {p.description}
-                        </div>
-                        {/* <Popover
+                        </div> */}
+                        <Popover
                           content={p.description}
-                          title={p.title}
+                          // title={p.title}
                           trigger="click"
                         >
                           <div className="page-resource-description">
                             Read More...
                           </div>
-                        </Popover> */}
+                        </Popover>
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

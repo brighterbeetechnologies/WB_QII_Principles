@@ -7,6 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
+import { Popover, Tooltip } from "antd";
 import {
   setBradcrump,
   setShowVideo,
@@ -55,7 +56,7 @@ export default function QII5LandingPage() {
     },
     {
       id: 0,
-      icon:  `
+      icon: `
 <svg xmlns="http://www.w3.org/2000/svg" width="128.576" height="92.471" viewBox="0 0 152.716 117.643">
   <g id="QII_5_icon05" transform="translate(-5610.063 -1208.721)">
     <path id="Path_217276" data-name="Path 217276" d="M5739.882,1231.615A75.627,75.627,0,0,0,5614.26,1307.7a2.065,2.065,0,1,0,3.94-1.234,71.478,71.478,0,1,1,136.441,0,2.065,2.065,0,1,0,3.941,1.234,75.7,75.7,0,0,0-18.7-76.083Z" fill="#212121"/>
@@ -75,7 +76,7 @@ export default function QII5LandingPage() {
     },
     {
       id: 0,
-      icon:  `
+      icon: `
 <svg xmlns="http://www.w3.org/2000/svg" width="128.576" height="92.471" viewBox="0 0 141.375 142.109">
   <g id="QII_5_icon06" transform="translate(-1295.547 -1344.461)">
     <path id="Path_217196" data-name="Path 217196" d="M293.951,503.237c4.989-.605,10.505.812,14.063,4.459,4.242,4.348,3.939,8.888,3.94,14.445v11.541l0,17.057c0,3.068.035,6.125-.051,9.195-.062,2.173-1.691,4.37-1.706,5.94-.039,4.253-.021,8.561-.021,12.816l.005,23.3c0,4.248.061,8.669-.024,12.906-1.388,2.039-3.374,1.5-5.62,1.5l-7.126-.016-13.083.009c-2.312,0-4.632.024-6.942-.023a2.606,2.606,0,0,1-2.334-2.21,13.287,13.287,0,0,1-.13-2.817c-.064-3.9,1.827-6.84,5.781-7.719l-.112-63.776q-.473.177-.947.346c-2.586.917-4.561.711-7.247.761l-8.078.174c-1.736.04-3.46.078-5.186.281a41.383,41.383,0,0,1-6.184-.053l-8.71-.214c-3.01-.057-6.135-.051-9.143-.316a4.82,4.82,0,0,1-1.751-.57l-.006,63.214c4.276,1.04,6,3.47,6.093,7.887.041,2.033.207,4.874-2.6,4.989-2.146.089-4.336.049-6.5.048l-13.217-.006-9.086.013c-1.535.005-4.552.241-4.632-2.02-.071-2.012-.032-4.073-.031-6.09l0-12.058,0-38.492c-4.754-2.24-8.412-7.823-11.984-11.525a47.64,47.64,0,0,0-3.577,9.1c-.5,1.862-.759,3.542-3.2,3.169-6.97-1.067-12.628-6.749-14.87-13.261a4.376,4.376,0,0,1-.294-1.932c.038-.469.494-1.369.948-1.485,3.949-1,8.331-1.82,11.565-4.505-1.449-1.577-2.321-1.8-3.235-4.042.582-2.8,3.465-4.97,5.733-6.447,1.951-1.272,2.712.436,3.83,1.745.606.71,1.19,1.526,1.759,2.278.675-.256,1.525-.7,2.178-1.032,1.881.964,3.656,3.167,4.916,4.847,1.738,2.318,1.733,2.527-.268,4.684a53.282,53.282,0,0,1,6.151,4.6c-.071-5.31.1-10.771.028-16.11.2-3.7-.287-7.616.069-11.3,1.029-10.635,9.116-13.844,18.322-13.094a13.9,13.9,0,0,1,10.951,6.954c.624,1.083,1.749,3.79,2.337,5.072q1.938,4.249,3.926,8.474a22.642,22.642,0,0,0,1.736,3.678c.634.627,14.92.579,16.9.627,1.307.032,2.612.226,3.92.2,3.735-.065,8.013-.23,11.728-.544a3.6,3.6,0,0,0,1.478-.34c1.344-.755,5.043-4.954,6.178-6.286-.032-5.093-.231-8.859,3.306-13.082A14.1,14.1,0,0,1,293.951,503.237Z" transform="translate(1126.37 873.617)" fill="#1e1d1d" stroke="#fff" stroke-width="0.5"/>
@@ -102,9 +103,9 @@ export default function QII5LandingPage() {
     {
       id: 0,
       title:
-        "Incorporating Universal Accessibility into Infrastructure Planning and Design ",
-      country: "Vietnam and Senegal",
-      org: "World Bank",
+        "Vietnam and Senegal: Incorporating Universal Accessibility into Infrastructure Planning and Design ",
+      // country: "Vietnam and Senegal",
+      // org: "World Bank",
       description:
         "This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
       img_path: "images/qii5/shutterstock_2309884753.jpg",
@@ -113,20 +114,22 @@ export default function QII5LandingPage() {
     },
     {
       id: 1,
-      title: "She Drives Change",
-      country: "Multi-country",
-      org: "World Bank",
-      description: "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
+      title: "Global: She Drives Change",
+      // country: "Multi-country",
+      // org: "World Bank",
+      description:
+        "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
       img_path: "images/qii5/shutterstock_2337776975.jpg",
       path: "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07​",
       target: "_blank",
     },
     {
       id: 2,
-      title: "Gender Dimensions of Cross-Border Trade",
-      country: "Tajikistan",
-      org: "World Bank",
-      description: "This report examines the trade facilitation challenges faced by men- and women-led firms in Tajikistan, identifying gender-specific barriers such as lower participation in public consultations, reduced access to trade finance, and inadequate border infrastructure for women traders, with recommendations for more inclusive trade policies.​",
+      title: "Tajikistan: Gender Dimensions of Cross-Border Trade",
+      // country: "Tajikistan",
+      // org: "World Bank",
+      description:
+        "This report examines the trade facilitation challenges faced by men- and women-led firms in Tajikistan, identifying gender-specific barriers such as lower participation in public consultations, reduced access to trade finance, and inadequate border infrastructure for women traders, with recommendations for more inclusive trade policies.​",
       img_path: "images/qii5/shutterstock_2543651931.jpg",
       path: "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
       target: "_blank",
@@ -270,7 +273,8 @@ export default function QII5LandingPage() {
               must be integrated throughout the infrastructure lifecycle
               starting with policies and regulations, then through planning and
               design. Stakeholder engagement throughout these early stages, as
-              well as during project delivery, ensures diverse needs are met.{" "}
+              well as during project delivery, ensures diverse needs are
+              met.{" "}
             </h3>
           </div>
           <div className="qii5-sub-pages">
@@ -306,18 +310,18 @@ export default function QII5LandingPage() {
         backgroundPosition={"10% 50%"}
         text={
           <>
-          Making infrastructure inclusive does not need to be expensive.
-              Studies indicate that{" "}
-              <a
-                href="https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/#Inclusive_Standards_and_Universal_Design"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="blue-link"
-              >
-                inclusive design adds only 1–2% to upfront costs
-              </a>{" "}
-              - much less than the cost of future retrofits.
-           </> 
+            Making infrastructure inclusive does not need to be expensive.
+            Studies indicate that{" "}
+            <a
+              href="https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/#Inclusive_Standards_and_Universal_Design"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="blue-link"
+            >
+              inclusive design adds only 1–2% to upfront costs
+            </a>{" "}
+            - much less than the cost of future retrofits.
+          </>
         }
       />
       <section className="color-dark">
@@ -349,7 +353,7 @@ export default function QII5LandingPage() {
                 videoTitle="The Importance of Inclusion in Infrastructure"
                 cardTitle={
                   <>
-                    <span>The Importance of Inclusion in Infrastructure</span> 
+                    <span>The Importance of Inclusion in Infrastructure</span>
                   </>
                 }
                 description=""
@@ -429,18 +433,20 @@ export default function QII5LandingPage() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -452,31 +458,33 @@ export default function QII5LandingPage() {
                     </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.country && (
+                          {/* {p.country && (
                             <>
                               <span>{p.country}</span> <br />
                             </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
+                          )} */}
+                          {/* <strong>{p.title}</strong> */}
+                          <br />
+                          {p.title}
+                          {/* {p.org && (
                             <>
                               <br />
                               <span>{p.org}</span>
                             </>
-                          )}
+                          )} */}
                         </div>
-                        <div className="page-resource-description">
+                        {/* <div className="page-resource-description">
                           {p.description}
-                        </div>
-                        {/* <Popover
+                        </div> */}
+                        <Popover
                           content={p.description}
-                          title={p.title}
+                          // title={p.title}
                           trigger="click"
                         >
                           <div className="page-resource-description">
                             Read More...
                           </div>
-                        </Popover> */}
+                        </Popover>
                         <div className="page-resource-btn-cnt">
                           {p.path ? (
                             p.target === "_blank" ? (

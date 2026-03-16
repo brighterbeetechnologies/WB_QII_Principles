@@ -38,9 +38,21 @@
   margin-bottom: 1rem;
 }
 
+.what-is-qii-section .what-is-qii-title {
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
 .what-is-qii-section .what-is-qii-description {
   padding: 1rem;
   font-size: 1.1rem;
+}
+
+.center-text-qii-generations {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .qii-generations-mobile,
@@ -299,7 +311,7 @@
 
 .qii-life-cycle {
   margin-bottom: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .qii-life-cycle-container-section {

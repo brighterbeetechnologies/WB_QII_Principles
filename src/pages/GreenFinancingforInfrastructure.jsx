@@ -266,11 +266,11 @@ export default function GreenFinancingforInfrastructure() {
             sustainability-linked loans, and climate-aligned investment funds.
             <br />
             <br />
-            To access green finance, project developers much first understand
+            To access green finance, project developers must first understand
             how their project can deliver measurable environmental benefits, and
             how these benefits can qualify the project for different forms of
             green finance. Access to such finance will be determined not just by
-            the nature of the project, but also the availability of green
+            the nature of the project, but also by the availability of green
             finance instruments in the specific country or region.
           </p>
           <div className="border-dash"></div>

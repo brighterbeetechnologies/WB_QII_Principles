@@ -12,9 +12,10 @@ export default function TechnicalSolutions() {
   const resourceArray = [
     {
       id: 0,
-      country: "Global",
-      title: "InfraTech Portal ",
-      org: "Asian Infrastructure Investment Bank",
+      // country: "Global",
+      title: "Global: InfraTech Portal ",
+      type: "Data",
+      // org: "Asian Infrastructure Investment Bank",
       description:
         "This portal was developed by the AIIB to disseminate free information on InfraTech and facilitate interaction among the InfraTech community.",
       img_path: "images/technicalSolutions/resources/InfratechPortal.png",
@@ -22,9 +23,10 @@ export default function TechnicalSolutions() {
     },
     {
       id: 1,
-      country: "Global",
-      title: "InfraTech Policy Toolkit",
-      org: "World Bank",
+      // country: "Global",
+      title: "Global: InfraTech Policy Toolkit",
+      // org: "World Bank",
+      type: "Guidance note",
       description:
         "This toolkit outlines key priority areas for policymaking and tools for policymakers wishing to integrate InfraTech across the infrastructure life cycle.",
       img_path:
@@ -33,9 +35,10 @@ export default function TechnicalSolutions() {
     },
     {
       id: 2,
-      country: "Global",
-      title: "Nature-Based Solutions for Infrastructure Projects ",
-      org: "International Finance Corporation",
+      // country: "Global",
+      title: "Global: Nature-Based Solutions for Infrastructure Projects ",
+      type: "Report",
+      // org: "International Finance Corporation",
       description:
         "This catalogue provides examples of nature-based solutions that private infrastructure companies can integrate into their core business operations and articulates the business case for doing so.",
       img_path: "images/technicalSolutions/resources/CatalogueofNature.png",
@@ -43,9 +46,10 @@ export default function TechnicalSolutions() {
     },
     {
       id: 3,
-      country: "Global",
-      title: "Global BIM Network ",
-      org: "UK Foreign, Commonwealth and Development Office",
+      // country: "Global",
+      title: "Global: Global BIM Network",
+      // org: "UK Foreign, Commonwealth and Development Office",
+      type: "Report",
       description:
         "This platform connects international public sector representatives and multi-lateral organizations with the aim of advancing the digitalization of the global built environment and sharing the resulting benefits.",
       img_path: "images/technicalSolutions/resources/GlobalBIMetwork.png",
@@ -53,10 +57,11 @@ export default function TechnicalSolutions() {
     },
     {
       id: 4,
-      country: "Global",
-      title: "IEA Technology Roadmaps",
-      org: "International Energy Agency",
-      subTitle: "Organisation for Economic Co-operation and Development",
+      // country: "Global",
+      title: "Global: IEA Technology Roadmaps",
+      // org: "International Energy Agency",
+      // subTitle: "Organisation for Economic Co-operation and Development",
+      type: "Report",
       description:
         "This publication offers a series of roadmaps for some of the most important energy technologies, and provide analytical footing that enables policy makers and industry to develop and adopt specific technologies.",
       img_path: "images/technicalSolutions/resources/IEATechnology.png",
@@ -557,18 +562,21 @@ export default function TechnicalSolutions() {
                 <div className="page-resource-link">
                   <div className="page-resource-body">
                     <div className="page-resource-title title-small">
-                      {p.country && (
+                      {/* {p.country && (
                         <>
                           <span>{p.country}</span> <br />
                         </>
-                      )}
-                      <strong>{p.title}</strong>
-                      {p.org && (
+                      )} */}
+                      {/* <strong>{p.title}</strong> */}
+                      <p className="page-resource-type">{p.type}</p>
+                      <br />
+                      {p.title}
+                      {/* {p.org && (
                         <>
                           <br />
                           <span>{p.org}</span>
                         </>
-                      )}
+                      )} */}
                     </div>
                     <div className="page-resource-overlay" />
                     <img
@@ -580,31 +588,34 @@ export default function TechnicalSolutions() {
                     </div> */}
                     <div className="page-resource-data">
                       <div className="page-resource-title title-big">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <p className="page-resource-type">{p.type}</p>
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
-                      <div className="page-resource-description">
+                      {/* <div className="page-resource-description">
                         {p.description}
-                      </div>
-                      {/* <Popover
+                      </div> */}
+                      <Popover
                         content={p.description}
-                        title={p.title}
+                        // title={p.title}
                         trigger="click"
                       >
                         <div className="page-resource-description">
                           Read More...
                         </div>
-                      </Popover> */}
+                      </Popover>
                       <div className="page-resource-btn-cnt">
                         <a
                           className="page-resource-arrow"

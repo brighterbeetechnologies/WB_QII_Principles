@@ -10,14 +10,16 @@ import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
+import { Popover, Tooltip } from "antd";
 
 export default function Decarbonizing_Infrastructure() {
   const resourceArray = [
     {
       id: 0,
-      country: "Global",
-      title: "Greenhouse Gas Protocol",
-      subTitle: false,
+      // country: "Global",
+      title: "Global: Greenhouse Gas Protocol",
+      // subTitle: false,
+      type: "Framework",
       description:
         "A widely used international accounting standard for greenhouse gas emissions, developed by WRI and WBCSD. Provides comprehensive global standardized frameworks to measure and manage GHG emissions, with sector-specific and country-specific calculation tools for private and public sector operations, value chains, and mitigation actions.",
       img_path:
@@ -27,9 +29,10 @@ export default function Decarbonizing_Infrastructure() {
 
     {
       id: 1,
-      country: "Global",
-      title: "Whole Life Carbon Assessment Standard",
-      subTitle: "RICS",
+      // country: "Global",
+      title: "Global: RICS Whole Life Carbon Assessment Standard",
+      // subTitle: "RICS",
+      type: "Framework",
       description:
         "Professional standard from the Royal Institution of Chartered Surveyors for measuring carbon emissions across the entire lifecycle of built assets, from raw material extraction through construction, operation, and end of life.",
       img_path:
@@ -39,9 +42,10 @@ export default function Decarbonizing_Infrastructure() {
 
     {
       id: 2,
-      country: "Global",
-      title: "Reducing Infrastructure Climate Risk Through Technology Measures",
-      subTitle: "EDHEC Climate Institute",
+      // country: "Global",
+      title: "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
+      type: "Guidance note",
+      // subTitle: "EDHEC Climate Institute",
       description:
         "Guidance on developing decarbonization roadmaps for infrastructure owners and investors. The initiative identifies and evaluates over 100 decarbonization and climate resilience strategies across 101 infrastructure asset subclasses, resulting in more than 1,800 unique asset-strategy applications. Each strategy is assessed for effectiveness and hazard protection level (for physical risks).",
       img_path:
@@ -143,7 +147,10 @@ export default function Decarbonizing_Infrastructure() {
       title: (
         <p>
           Philippines <br />
-          <strong>New Technologies Powering the Energy Transition in Asia and the Pacific</strong>
+          <strong>
+            New Technologies Powering the Energy Transition in Asia and the
+            Pacific
+          </strong>
           <br />
           IFC
         </p>
@@ -376,7 +383,8 @@ export default function Decarbonizing_Infrastructure() {
             <p className="light-font">
               Renewable energy that powers metro systems. Waste facilities that
               generate clean electricity. Buildings designed for net-zero
-              operations.
+              operations. Such innovations are redefining how infrastructure can
+              drive the transition to a low-carbon future.
             </p>
           </div>
         </Header3>
@@ -434,7 +442,13 @@ export default function Decarbonizing_Infrastructure() {
           </p>
           <p className="center-light-text-2">
             Source:{" "}
-            <Link to={"https://www.wri.org/data/world-greenhouse-gas-emissions-sector-2021-sunburst-chart"} target="_blank" className="link">
+            <Link
+              to={
+                "https://www.wri.org/data/world-greenhouse-gas-emissions-sector-2021-sunburst-chart"
+              }
+              target="_blank"
+              className="link"
+            >
               Climate Watch, World Resources Institute (2021)
             </Link>
           </p>
@@ -569,7 +583,7 @@ export default function Decarbonizing_Infrastructure() {
               Improve efficiency of remaining systems
             </p>
           </div> */}
-          <h2 className="center-text">SECTOR EXAMPLE</h2>
+          <h2 className="center-text">For example</h2>
           <div className="ico-text-card-4-container">
             <div className="ico-text-card-4">
               <div className="ico-text-card-4-ico">
@@ -620,7 +634,7 @@ export default function Decarbonizing_Infrastructure() {
                   target="_blank"
                   className="link"
                 >
-                  Avoid-Shift-Improve (ASI) framework 
+                  Avoid-Shift-Improve (ASI) framework
                 </Link>{" "}
                 provides a useful hierarchy.
               </p>
@@ -900,25 +914,28 @@ export default function Decarbonizing_Infrastructure() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <br />
                             <span>{p.country}</span>
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <p className="page-resource-type">{p.type}</p>
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
-                        {p.subTitle && (
+                        )} */}
+                        {/* {p.subTitle && (
                           <>
                             <br />
                             <span>{p.subTitle}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -930,38 +947,41 @@ export default function Decarbonizing_Infrastructure() {
                     </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.country && (
-                          <>
-                            <span>{p.country}</span>
-                            <br />
-                          </>
-                        )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
-                          <>
-                            <span>{p.org}</span>
-                            <br />
-                          </>
-                        )}
-                          {p.subTitle && (
+                          {/* {p.country && (
+                            <>
+                              <span>{p.country}</span>
+                              <br />
+                            </>
+                          )} */}
+                          {/* <strong>{p.title}</strong> */}
+                          <p className="page-resource-type">{p.type}</p>
+                          <br />
+                          {p.title}
+                          {/* {p.org && (
+                            <>
+                              <span>{p.org}</span>
+                              <br />
+                            </>
+                          )} */}
+                          {/* {p.subTitle && (
                             <>
                               <br />
                               <span>{p.subTitle}</span>
                             </>
-                          )}
+                          )} */}
                         </div>
-                        <div className="page-resource-description">
+                        {/* <div className="page-resource-description">
                           {p.description}
-                        </div>
-                        {/* <Popover
+                        </div> */}
+                        <Popover
                         content={p.description}
-                        title={p.title}
+                        // title={p.title}
                         trigger="click"
                       >
                         <div className="page-resource-description">
                           Read More...
                         </div>
-                      </Popover> */}
+                      </Popover>
                         <div className="page-resource-btn-cnt">
                           <a
                             className="page-resource-arrow"

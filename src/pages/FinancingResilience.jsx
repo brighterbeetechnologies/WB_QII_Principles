@@ -10,6 +10,7 @@ import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Link } from "react-router-dom";
 import VCardsPagination from "../components/VCardsPagination";
+import { Popover, Tooltip } from "antd";
 
 export default function FinancingResilience() {
   const slidesData = [
@@ -36,9 +37,10 @@ export default function FinancingResilience() {
   const resourceArray = [
     {
       id: 0,
-      country: "Global",
-      title: "Climate Toolkits for Infrastructure PPPs",
-      org: "World Bank",
+      // country: "Global",
+      type: "Framework",
+      title: "Global: Climate Toolkits for Infrastructure PPPs",
+      // org: "World Bank",
       description:
         "This toolkit aims to guide practitioners on incorporating a climate lens into PPPs to enhance climate resilience.",
       img_path:
@@ -48,10 +50,11 @@ export default function FinancingResilience() {
     },
     {
       id: 1,
-      country: "Global",
+      // country: "Global",
+      type: "Guidance note",
       title:
-        "Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport",
-      org: "World Bank",
+        "Global: Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport",
+      // org: "World Bank",
       description:
         "Mobilizing support for resilient transport projects also requires a compelling investment case grounded in measurable targets, cost-benefit analyses, and clearly defined performance indicators. Private sector participation can significantly contribute to this agenda by offering technical expertise,  financing, and lifecycle efficiency, especially when resilience is built into project design and contracts from the outset.  Selecting the right PSP models and funding mechanisms, including green bonds and concessional finance, is key to making projects financially viable and scalable.",
       img_path:
@@ -61,10 +64,11 @@ export default function FinancingResilience() {
     },
     {
       id: 2,
-      country: "Global",
+      // country: "Global",
+      type: "Report",
       title:
-        "G20/OECD Report on Approaches for Financing and Investing in Climate-resilient Infrastructure",
-      org: "Organization for Economic Co-operation and Development",
+        "Global: G20/OECD Report on Approaches for Financing and Investing in Climate-resilient Infrastructure",
+      // org: "Organization for Economic Co-operation and Development",
       description:
         "This report was prepared to inform G20 policy makers about approaches that can be taken to advance financing for climate-resilient infrastructure and was welcomed at the G20 Finance Ministers and Central Bank Governors meeting in July 2024. Organisation for Economic Co-operation and Development",
       img_path:
@@ -74,10 +78,10 @@ export default function FinancingResilience() {
     },
     {
       id: 3,
-      country: "Global",
-      title:
-        "Financing for Disaster and Resilient Infrastructure",
-      org: "Coalition for Disaster Resilient Infrastructure",
+      // country: "Global",
+      type: "Report",
+      title: "Global: Financing for Disaster and Resilient Infrastructure",
+      // org: "Coalition for Disaster Resilient Infrastructure",
       description:
         "This report explores the mechanisms that can provide greater incentives for both public and private sector for investment in strengthening resilience.",
       img_path:
@@ -92,7 +96,8 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/Climate Bonds Initiative.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Climate Bonds Initiative</strong>
         </p>
       ),
@@ -109,9 +114,11 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
       title: (
-        <p>Cross-Regional <br />
-          <strong>EU Taxonomy Compass</strong> 
-          <br />European Commission
+        <p>
+          Cross-Regional <br />
+          <strong>EU Taxonomy Compass</strong>
+          <br />
+          European Commission
         </p>
       ),
       buttonText: "Framework",
@@ -129,7 +136,8 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/FAST-Infra Label.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>FAST-Infra Label</strong>
         </p>
       ),
@@ -153,7 +161,8 @@ export default function FinancingResilience() {
       image:
         "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
       title: (
-        <p>Philippines <br />
+        <p>
+          Philippines <br />
           <strong>Water Revolving Fund</strong>
           <br />
           World Bank
@@ -174,10 +183,9 @@ export default function FinancingResilience() {
       image:
         "images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png",
       title: (
-        <p>Philippines <br />
-          <strong>
-            Energy Development Corporation (EDC) Green Bond
-          </strong>
+        <p>
+          Philippines <br />
+          <strong>Energy Development Corporation (EDC) Green Bond</strong>
           <br /> ICSR
         </p>
       ),
@@ -194,7 +202,8 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/updated/Vida-Manglar-Colombia.png",
       title: (
-        <p>Colombia <br />
+        <p>
+          Colombia <br />
           <strong>Vida Manglar Carbon Project</strong>
           <br /> Conservation International
         </p>
@@ -212,7 +221,8 @@ export default function FinancingResilience() {
       image:
         "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Financing Climate Adaptation and Nature-Based Infrastructure
           </strong>
@@ -234,7 +244,8 @@ export default function FinancingResilience() {
       image:
         "images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Transport Resilience Financing, Resources and Opportunities
           </strong>
@@ -255,14 +266,24 @@ export default function FinancingResilience() {
     {
       image: "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Disaster Risk Finance</strong>
-          <br />GFDRR
+          <br />
+          GFDRR
         </p>
       ),
       buttonText: "Report",
       link: "https://www.gfdrr.org/en/disaster-risk-finance",
-      content: <p>GFDRR supports governments in designing financial protection strategies and instruments to respond to natural disasters. The Disaster Risk Financing and Insurance thematic area provides a compendium of case studies and resources in financing solutions for better management of disasters and climate shocks.</p>,
+      content: (
+        <p>
+          GFDRR supports governments in designing financial protection
+          strategies and instruments to respond to natural disasters. The
+          Disaster Risk Financing and Insurance thematic area provides a
+          compendium of case studies and resources in financing solutions for
+          better management of disasters and climate shocks.
+        </p>
+      ),
     },
   ];
 
@@ -584,7 +605,7 @@ export default function FinancingResilience() {
           </NumSteps>
           <VCardsPagination cardsData={step2Cards} />
           {/* <div className="VCard-cnt col3"> */}
-            {/* <VCard
+          {/* <VCard
               image="images/qii4/FinancingResilience/Philippine Water Revolving Fund.png"
               title={
                 <p>
@@ -638,7 +659,7 @@ export default function FinancingResilience() {
                 communities.
               </p>
             </VCard> */}
-            {/* <VCard
+          {/* <VCard
               image="images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png"
               title={
                 <p>
@@ -763,18 +784,21 @@ export default function FinancingResilience() {
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
-                        {p.country && (
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
-                        )}
-                        <strong>{p.title}</strong>
-                        {p.org && (
+                        )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <p className="page-resource-type">{p.type}</p>
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
-                        )}
+                        )} */}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -786,31 +810,34 @@ export default function FinancingResilience() {
                                           </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-                          {p.country && (
+                          {/* {p.country && (
                             <>
                               <span>{p.country}</span> <br />
                             </>
-                          )}
-                          <strong>{p.title}</strong>
-                          {p.org && (
+                          )} */}
+                          {/* <strong>{p.title}</strong> */}
+                          <p className="page-resource-type">{p.type}</p>
+                          <br />
+                          {p.title}
+                          {/* {p.org && (
                             <>
                               <br />
                               <span>{p.org}</span>
                             </>
-                          )}
+                          )} */}
                         </div>
-                        <div className="page-resource-description">
+                        {/* <div className="page-resource-description">
                           {p.description}
-                        </div>
-                        {/* <Popover
-                                                content={p.description}
-                                                title={p.title}
-                                                trigger="click"
-                                              >
-                                                <div className="page-resource-description">
-                                                  Read More...
-                                                </div>
-                                              </Popover> */}
+                        </div> */}
+                        <Popover
+                          content={p.description}
+                          // title={p.title}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover>
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a
@@ -836,18 +863,6 @@ export default function FinancingResilience() {
                 </article>
               );
             })}
-          </div>
-          <div className="view-all-btn-container">
-            <button
-              className="btn-primary qii2-video-cta"
-              onClick={() => {
-                const el = document.getElementById("resourcesSection");
-                el?.scrollIntoView({ behavior: "smooth" });
-              }}
-              // disabled
-            >
-              View All <span className="icon-arrow">&#xe900;</span>
-            </button>
           </div>
         </div>
       </section>

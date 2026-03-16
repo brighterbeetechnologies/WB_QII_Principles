@@ -12,38 +12,45 @@
 }
 
 .qii1-text-cnt {
-  padding: 1.4rem 0;
+  width: 100%;
 }
 
 .qii1-sub-text {
+  margin: 0rem 7rem 3rem 7rem;
   font-size: 1.4rem;
   text-align: center;
+  font-weight: 500;
 }
 
 .ico-text-card-3-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  /* align-items: center; */
-  align-items: stretch;
-  gap: 2rem;
-  row-gap: 5rem;
   width: 100%;
-  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
-.ico-text-card-3 {
-  position: relative;
+/* .ico-text-card-3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  width: calc(50% - 2rem);
+  width: 100%;
+} */
+
+.ico-text-card-3 {
+  width: 100%;
+  gap: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+/* 
 .ico-text-card-3:nth-child(odd)::before {
   content: "";
   position: absolute;
@@ -51,11 +58,11 @@
   top: 50%;
   height: calc(80% - 7.5rem);
   border-right: 2px dotted #999;
-}
+} */
 
 .ico-text-card-3-ico {
   background-color: #fff;
-  width: 9rem;
+  width: 8rem;
   align-items: center;
   padding: 1rem;
   border-radius: 50%;
@@ -80,12 +87,12 @@
 .ico-text-card-3-title {
   text-align: center;
   font-weight: 900;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .ico-text-card-3-desc {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .ico-text-card-3-link-container {
@@ -94,6 +101,7 @@
 }
 
 .ico-text-card-3-link {
+  text-align: center;
   line-height: 1.5rem;
   font-size: 0.9rem;
 }
@@ -138,7 +146,7 @@
 }
 
 .qii1 .container-qii1 {
-  padding: 6rem 3rem 6rem 3rem;
+  padding: 5rem 3rem 4rem 3rem;
 }
 
 .qii1 .video-text-box {
@@ -147,26 +155,51 @@
 
 .qii1-video-text-cnt {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 2rem;
   width: 100%;
 }
 
+/* .qii1-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+} */
+
+.qii1-video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
 .qii1-text-cnt {
-  width: 50%;
+  width: 100%;
 }
 
 .qii1-further-reading-container {
-  margin: 2.5rem 1rem 1rem 1rem;
-  text-align: start;
+  margin: 2rem 1rem 1rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
   font-size: 1.2rem;
   font-weight: 950;
 }
 
-.qii1-further-reading-container .qii1-further-reading {
-  margin-top: 2rem;
+.qii1-further-reading-continer-small {
+  flex: 0 0 561px;
 }
+
+/* .qii1-further-reading-container .qii1-further-reading {
+  margin-top: 2rem;
+} */
 
 .qii1-further-reading-link-container {
   display: flex;
@@ -181,7 +214,8 @@
 
 .qii1 .video-gif-content {
   position: relative;
-  padding: 463px 20px 20px 20px;
+  /* padding: 463px 20px 20px 20px; */
+  padding: 377px 20px 20px 20px;
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.7) 0%,
@@ -199,8 +233,8 @@
     width: 100%;
   }
   .qii1-text-cnt {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -238,9 +272,9 @@
     width: calc(90% - 2rem);
   }
 
-  .ico-text-card-3:nth-child(odd)::before {
+  /* .ico-text-card-3:nth-child(odd)::before {
     display: none;
-  }
+  } */
 
   .title-text {
     font-size: 1rem;
@@ -290,7 +324,7 @@
     align-items: stretch;
   }
 
-   .ico-text-card-3-link-container {
+  .ico-text-card-3-link-container {
     width: 70%;
   }
 }
@@ -460,4 +494,7 @@
   .card-5 .card-5-content-description {
     font-size: 0.9rem;
   }
+}
+
+@media (max-width: 630px) {
 }

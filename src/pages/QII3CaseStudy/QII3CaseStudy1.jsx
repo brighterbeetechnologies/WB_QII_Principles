@@ -116,7 +116,7 @@ export default function QII3CaseStudy1() {
                   <p>
                     <strong>EUR 400 million</strong>
                     <br />
-                    (EUR 290m from IFIs)
+                    {/* (EUR 290m from IFIs) */}
                     <br />
                     <br />
                   </p>
