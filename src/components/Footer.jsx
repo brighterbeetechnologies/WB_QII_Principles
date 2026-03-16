@@ -34,7 +34,7 @@ const Footer = () => {
             <h4>The six Principles</h4>
             <ul>
               <li>
-                <a href="#/qii1" className="disable-link">
+                <a href="#/qii1">
                   QII.1 Maximizing Positive Impact of Infrastructure
                 </a>
               </li>
@@ -56,13 +56,13 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#/qii5" className="disable-link">
+                <a href="#/qii5">
                   QII.5 Integrating Social Considerations in Infrastructure
                   Investment
                 </a>
               </li>
               <li>
-                <a href="#/qii6" className="disable-link">
+                <a href="#/qii6">
                   QII.6 Strengthening Infrastructure Governance
                 </a>
               </li>
@@ -73,19 +73,32 @@ const Footer = () => {
             <h4>Resources</h4>
             <ul>
               <li>
-                <a href="#/case-studies" className="disable-link">
+                <a
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+
+                    const el = document.getElementById("all_principle_page");
+                    el?.scrollIntoView({ behavior: "smooth" });
+
+                    setPreSelectedResources([
+                      {
+                        show: true,
+                        category: "Media Type",
+                        title: "Case Study",
+                        id: 1,
+                      },
+                    ]);
+                  }}
+                >
                   Case Studies
                 </a>
               </li>
               <li>
-                <a href="#" className="disable-link">
-                  Guidance
-                </a>
+                <a href="#">Guidance</a>
               </li>
               <li>
-                <a href="#" className="disable-link">
-                  Tools
-                </a>
+                <a href="#">Tools</a>
               </li>
               <li>
                 <a href="#" className="disable-link">

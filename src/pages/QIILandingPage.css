@@ -237,6 +237,10 @@ cursor: pointer;
   scroll-margin-top: 100px;
 }
 
+#all_principle_page {
+  scroll-margin-top: 100px;
+}
+
 @media (min-width: 600px) {
   .sub-pages {
     grid-template-columns: repeat(4, 1fr);

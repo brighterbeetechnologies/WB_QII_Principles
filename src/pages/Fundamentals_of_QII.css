@@ -4,8 +4,9 @@
 }
 
 .fundamentals_of_qii-header .fundamentals_of_qii-header-bg {
-  background-image: url("images/fundamentals_of_qii/QII2_Landing_main.png");
+  background-image: url("/images/fundamentals_of_qii/QII2_Landing_main.png");
   object-fit: cover;
+  background-repeat: no-repeat;
   width: 100%;
   height: 500px;
 }
@@ -136,7 +137,7 @@
   display: flex;
   gap: 1rem;
   background-color: #002244;
-  background-image: url("images/fundamentals_of_qii/shutterstock_2492762449.png");
+  background-image: url("/images/fundamentals_of_qii/shutterstock_2492762449.png");
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: 50% 100%;
@@ -302,13 +303,18 @@
 }
 
 .qii-life-cycle-container-section {
+  position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 0rem;
+  align-items: flex-start;
+  gap: 1rem;
   width: 100%;
-  padding: 2rem;
-  margin: 1rem auto;
+  padding: 10rem 8rem;
+  margin: 4rem auto;
+  /* display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  flex-wrap:nowrap; */
 }
 
 .qii-life-cycle-container {
@@ -316,6 +322,48 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  /* width:20%; */
+  text-align: center;
+}
+
+.qii-life-cycle-container-1 {
+  position: absolute;
+  left: 24.5%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  z-index: 55555;
+}
+
+.qii-life-cycle-container-2 {
+  position: absolute;
+  left: 39.5%;
+  top: 53.2%;
+  transform: translate(-50%, -50%);
+  z-index: 4444;
+}
+
+.qii-life-cycle-container-3 {
+  position: absolute;
+  left: 54.5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 333;
+}
+
+.qii-life-cycle-container-4 {
+  position: absolute;
+  left: 69.6%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 22;
+}
+
+.qii-life-cycle-container-5 {
+  position: absolute;
+  left: 84.6%;
+  top: 53%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
 }
 
 .qii-life-cycle-stage-image {
@@ -324,11 +372,11 @@
 }
 
 .qii-life-cycle-stage-img-1 {
-  z-index: 55555;
+  z-index: 5555555;
 }
 
 .qii-life-cycle-stage-img-2 {
-  z-index: 4444;
+  z-index: 444444444444;
 }
 
 .qii-life-cycle-stage-img-3 {
@@ -344,8 +392,12 @@
   z-index: 5;
 }
 
+/* .qii-life-cycle-stage-image:not(:first-child){
+  margin-left:-10rem;
+} */
+
 .qii-life-cycle-stage-1-desc {
-  width: 83%;
+  width: 76%;
   text-align: center;
 }
 
@@ -685,6 +737,11 @@
     gap: 1rem;
     margin: 0 3rem;
   }
+
+  .qii-generation-container-mobile:not(:first-child) {
+    margin-top: 4rem;
+  }
+
   .qii-generation-description-mobile,
   .qii-generation-image-mobile,
   .qii-generation-description-mobile {

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { principles, setBradcrump } from "../slices/appDataSlice";
 import "./Home.css";
@@ -16,6 +16,9 @@ export default function Home() {
     dispatch(setBradcrump({ show: false, dir: [] }));
   }, []);
 
+  
+  const [preSelectedResources, setPreSelectedResources] = useState([]);
+
   useEffect(() => {
     setTimeout(() => {
       if (location.state?.scrollTo) {
@@ -25,6 +28,7 @@ export default function Home() {
       }
     }, 500);
   }, [location]);
+
   return (
     <div className="home color-light">
       <section className="landing_page">
@@ -91,8 +95,10 @@ export default function Home() {
           </button>
         </div>
       </section>
-      <section className="color-light z-2">
-        <ResourceLibrary></ResourceLibrary>
+      <section className="color-light z-2" id="all_principle_page">
+        <ResourceLibrary
+          preSelected={preSelectedResources}
+        ></ResourceLibrary>
       </section>
       <section className="color-dark faq_page" id="faq_page">
         <div className="circle-bg">

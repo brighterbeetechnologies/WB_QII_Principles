@@ -80,7 +80,9 @@ export default function Fundamentals_of_QII() {
     <div className="fundamentals_of_qii">
       <section className="color-dark">
         <div className="fundamentals_of_qii-header">
-          <div className="fundamentals_of_qii-header-bg"></div>
+          <div className="fundamentals_of_qii-header-bg">
+            {/* <img src="images/fundamentals_of_qii/QII2_Landing_main.png" alt="" /> */}
+          </div>
           <div className="fundamentals_of_qii-header-title">
             <h1>Quality Infrastructure Investment</h1>
             <p>Transforming how the world delivers infrastructure</p>
@@ -392,7 +394,7 @@ export default function Fundamentals_of_QII() {
           Each of the six QII Principles applies at every stage.
         </p>
         <div className="qii-life-cycle-container-section">
-          <div className="qii-life-cycle-container">
+          <div className="qii-life-cycle-container qii-life-cycle-container-1">
             <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-1">
               <img src="images/fundamentals_of_qii/11/1.png" alt="" />
               <div className="qii-life-cycle-stage-1-title">Planning</div>
@@ -402,7 +404,7 @@ export default function Fundamentals_of_QII() {
               community needs from the start?
             </div>
           </div>
-          <div className="qii-life-cycle-container">
+          <div className="qii-life-cycle-container qii-life-cycle-container-2">
             <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-2">
               <img src="images/fundamentals_of_qii/11/2.png" alt="" />
               <div className="qii-life-cycle-stage-1-title">Design</div>
@@ -412,7 +414,7 @@ export default function Fundamentals_of_QII() {
               efficiency?
             </div>
           </div>
-          <div className="qii-life-cycle-container">
+          <div className="qii-life-cycle-container qii-life-cycle-container-3">
             <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-3">
               <img src="images/fundamentals_of_qii/11/3.png" alt="" />
               <div className="qii-life-cycle-stage-1-title">Construction</div>
@@ -422,7 +424,7 @@ export default function Fundamentals_of_QII() {
               building?
             </div>
           </div>
-          <div className="qii-life-cycle-container">
+          <div className="qii-life-cycle-container qii-life-cycle-container-4">
             <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-4">
               <img src="images/fundamentals_of_qii/11/4.png" alt="" />
               <div className="qii-life-cycle-stage-1-title">Operation</div>
@@ -432,7 +434,7 @@ export default function Fundamentals_of_QII() {
               risks?
             </div>
           </div>
-          <div className="qii-life-cycle-container">
+          <div className="qii-life-cycle-container qii-life-cycle-container-5">
             <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-5">
               <img src="images/fundamentals_of_qii/11/5.png" alt="" />
               <div className="qii-life-cycle-stage-1-title qii-life-cycle-stage-1-title-1">
