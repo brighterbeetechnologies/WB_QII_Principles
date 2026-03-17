@@ -125,13 +125,21 @@ export default function Fundamentals_of_QII() {
               Japan announces the Partnership for Quality Infrastructure,
               establishing quality as a priority for development finance
             </div>
-            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              <span style={{ opacity: 0 }}>
+                Japan announces the Partnership
+              </span>
+            </div>
             <div className="timeline-item-text">
               G20 adopts six QII Principles at the Osaka Summit, extending the
               framework to advanced and emerging economies as a voluntary global
               standard
             </div>
-            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              <span style={{ opacity: 0 }}>
+                Japan announces the Partnership
+              </span>
+            </div>
             <div className="timeline-item-text">
               The QII Partnership is at the heart of integrating the QII
               principles across World Bank operations and beyond, shaping
@@ -162,18 +170,30 @@ export default function Fundamentals_of_QII() {
             </div>
           </div>
           <div className="qii-generation-bottom-description-container">
-            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              <span style={{ opacity: 0 }}>
+                Japan announces the Partnership
+              </span>
+            </div>
             <div className="timeline-item-text">
               G7 leaders endorse principles for quality infrastructure at the
               Ise-Shima Summit; World Bank and Japan establish the QII
               Partnership to put them into practice
             </div>
-            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              <span style={{ opacity: 0 }}>
+                Japan announces the Partnership
+              </span>
+            </div>
             <div className="timeline-item-text">
               OECD publishes implementation guidance to help governments
               operationalize QII across the project lifecycle
             </div>
-            <div className="timeline-item-text"></div>
+            <div className="timeline-item-text">
+              <span style={{ opacity: 0 }}>
+                Japan announces the Partnership
+              </span>
+            </div>
           </div>
         </div>
 
@@ -346,9 +366,10 @@ export default function Fundamentals_of_QII() {
               <p>
                 <strong>Why Quality Matters </strong> <br />
                 <br />
-                Well-planned, sustainable infrastructure maximizes economic and social
-                returns, while poor planning leads to assets that fail early,
-                cost more to maintain, and exclude those who need services most.
+                Well-planned, sustainable infrastructure maximizes economic and
+                social returns, while poor planning leads to assets that fail
+                early, cost more to maintain, and exclude those who need
+                services most.
               </p>
             </div>
             <div className="global-infrastructure-section-right-des-link">
@@ -497,7 +518,7 @@ export default function Fundamentals_of_QII() {
               className="mobile-qii-life-cycle-img-1"
             />
             <p className="qii-life-cycle-img-txt-1-mobile">Planning</p>
-             <p className="qii-life-cycle-description-mobile">
+            <p className="qii-life-cycle-description-mobile">
               Are we assessing long-term costs, environmental impacts, and
               community needs from the start?
             </p>
@@ -521,7 +542,7 @@ export default function Fundamentals_of_QII() {
               className="mobile-qii-life-cycle-img-4"
             />
             <p className="qii-life-cycle-img-txt-1-mobile">Construction</p>
-             <p className="qii-life-cycle-description-mobile">
+            <p className="qii-life-cycle-description-mobile">
               Are we ensuring quality, transparency, and local capacity
               building?
             </p>
@@ -533,7 +554,7 @@ export default function Fundamentals_of_QII() {
               className="mobile-qii-life-cycle-img-5"
             />
             <p className="qii-life-cycle-img-txt-1-mobile">Operation</p>
-             <p className="qii-life-cycle-description-mobile">
+            <p className="qii-life-cycle-description-mobile">
               Are we delivering inclusive services while managing costs and
               risks?
             </p>
@@ -544,8 +565,10 @@ export default function Fundamentals_of_QII() {
               alt=""
               className="mobile-qii-life-cycle-img-6"
             />
-            <p className="qii-life-cycle-img-txt-1-mobile qii-life-cycle-img-txt-1-mobile-5">Maintenance</p>
-             <p className="qii-life-cycle-description-mobile">
+            <p className="qii-life-cycle-img-txt-1-mobile qii-life-cycle-img-txt-1-mobile-5">
+              Maintenance
+            </p>
+            <p className="qii-life-cycle-description-mobile">
               Are we preserving value, adapting to changing conditions, and
               extending asset life?
             </p>

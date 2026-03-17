@@ -642,7 +642,7 @@
 
 .global-infrastructure-section-left-group-icons-img {
   width: 6rem;
-  margin: 1rem auto;
+  margin: 1rem 1rem 1rem auto;
 }
 
 .global-infrastructure-section-left-group-icons-title {
@@ -660,7 +660,7 @@
 
 .global-infrastructure-section-left-group-icons-img-right {
   width: 6rem;
-  margin: 1rem auto;
+  margin: 1rem auto 1rem 1rem;
 }
 
 .global-infrastructure-section-left-group-icons-title-right {

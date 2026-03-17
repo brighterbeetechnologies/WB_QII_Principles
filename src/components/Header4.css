@@ -84,7 +84,7 @@
 
 @media (min-width: 650px) {
   .header4-bg {
-    height: 100vh;
+    height: 65vh;
   }
 
   .Header4 .mob-title {
@@ -148,7 +148,7 @@
 
 @media (min-width: 992px) {
   .Header4 {
-    height: 100vh;
+    height: 65vh;
     max-height: 400px;
   }
 
@@ -200,7 +200,7 @@
   }
 
   .Header4 {
-    height: 100vh;
+    height: 65vh;
     max-height: none;
   }
 
@@ -211,7 +211,7 @@
 
   .Header4 .container-hearder-4 {
     padding: 8rem 3rem 4rem 3rem;
-    min-height: 630px;
+    /* min-height: 630px; */
     gap: 50px;
   }
 }
