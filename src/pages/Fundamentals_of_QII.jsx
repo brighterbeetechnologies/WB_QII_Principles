@@ -400,54 +400,87 @@ export default function Fundamentals_of_QII() {
           <br />
           Each of the six QII Principles applies at every stage.
         </p>
+        <div className="qii-life-cycle-container-images">
+          <img
+            src="images/fundamentals_of_qii/11/5.png"
+            alt=""
+            className="qii-life-cycle-img-5"
+          />
+          <img
+            src="images/fundamentals_of_qii/11/4.png"
+            alt=""
+            className="qii-life-cycle-img-4"
+          />
+          <img
+            src="images/fundamentals_of_qii/11/3.png"
+            alt=""
+            className="qii-life-cycle-img-3"
+          />
+          <img
+            src="images/fundamentals_of_qii/11/2.png"
+            alt=""
+            className="qii-life-cycle-img-2"
+          />
+          <img
+            src="images/fundamentals_of_qii/11/1.png"
+            alt=""
+            className="qii-life-cycle-img-1"
+          />
+          <img
+            src="images/fundamentals_of_qii/11/1.png"
+            alt=""
+            style={{ width: "22.4%", opacity: 0, position:"relative" }}
+          />
+          <p className="qii-life-cycle-img-txt-1">Principles</p>
+        </div>
         <div className="qii-life-cycle-container-section">
           <div className="qii-life-cycle-container qii-life-cycle-container-1">
-            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-1">
+            {/* <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-1">
               <img src="images/fundamentals_of_qii/11/1.png" alt="" />
               <div className="qii-life-cycle-stage-1-title">Planning</div>
-            </div>
+            </div> */}
             <div className="qii-life-cycle-stage-1-desc">
               Are we assessing long-term costs, environmental impacts, and
               community needs from the start?
             </div>
           </div>
-          <div className="qii-life-cycle-container qii-life-cycle-container-2">
-            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-2">
-              <img src="images/fundamentals_of_qii/11/2.png" alt="" />
-              <div className="qii-life-cycle-stage-1-title">Design</div>
-            </div>
+          <div className="qii-life-cycle-container qii-life-cycle-container-1">
+            {/* <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-1">
+              <img src="images/fundamentals_of_qii/11/1.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title">Planning</div>
+            </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we building in resilience, accessibility, and operational
-              efficiency?
+              Are we assessing long-term costs, environmental impacts, and
+              community needs from the start?
             </div>
           </div>
-          <div className="qii-life-cycle-container qii-life-cycle-container-3">
-            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-3">
-              <img src="images/fundamentals_of_qii/11/3.png" alt="" />
-              <div className="qii-life-cycle-stage-1-title">Construction</div>
-            </div>
+          <div className="qii-life-cycle-container qii-life-cycle-container-1">
+            {/* <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-1">
+              <img src="images/fundamentals_of_qii/11/1.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title">Planning</div>
+            </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we ensuring quality, transparency, and local capacity
-              building?
+              Are we assessing long-term costs, environmental impacts, and
+              community needs from the start?
             </div>
           </div>
-          <div className="qii-life-cycle-container qii-life-cycle-container-4">
-            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-4">
-              <img src="images/fundamentals_of_qii/11/4.png" alt="" />
-              <div className="qii-life-cycle-stage-1-title">Operation</div>
-            </div>
+          <div className="qii-life-cycle-container qii-life-cycle-container-1">
+            {/* <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-1">
+              <img src="images/fundamentals_of_qii/11/1.png" alt="" />
+              <div className="qii-life-cycle-stage-1-title">Planning</div>
+            </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we delivering inclusive services while managing costs and
-              risks?
+              Are we assessing long-term costs, environmental impacts, and
+              community needs from the start?
             </div>
           </div>
           <div className="qii-life-cycle-container qii-life-cycle-container-5">
-            <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-5">
+            {/* <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-5">
               <img src="images/fundamentals_of_qii/11/5.png" alt="" />
               <div className="qii-life-cycle-stage-1-title qii-life-cycle-stage-1-title-1">
                 Maintenance
               </div>
-            </div>
+            </div> */}
             <div className="qii-life-cycle-stage-1-desc">
               Are we preserving value, adapting to changing conditions, and
               extending asset life?
