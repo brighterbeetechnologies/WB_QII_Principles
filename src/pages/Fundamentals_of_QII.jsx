@@ -429,16 +429,16 @@ export default function Fundamentals_of_QII() {
           <img
             src="images/fundamentals_of_qii/11/1.png"
             alt=""
-            style={{ width: "22.4%", opacity: 0, position:"relative" }}
+            style={{ width: "22.4%", opacity: 0, position: "relative" }}
           />
-          <p className="qii-life-cycle-img-txt-1">Principles</p>
+          <p className="qii-life-cycle-img-txt-1">Planning</p>
+          <p className="qii-life-cycle-img-txt-2">Design</p>
+          <p className="qii-life-cycle-img-txt-3">Construction</p>
+          <p className="qii-life-cycle-img-txt-4">Operation</p>
+          <p className="qii-life-cycle-img-txt-5">Maintenance</p>
         </div>
         <div className="qii-life-cycle-container-section">
           <div className="qii-life-cycle-container qii-life-cycle-container-1">
-            {/* <div className="qii-life-cycle-stage-image qii-life-cycle-stage-img-1">
-              <img src="images/fundamentals_of_qii/11/1.png" alt="" />
-              <div className="qii-life-cycle-stage-1-title">Planning</div>
-            </div> */}
             <div className="qii-life-cycle-stage-1-desc">
               Are we assessing long-term costs, environmental impacts, and
               community needs from the start?
@@ -490,7 +490,74 @@ export default function Fundamentals_of_QII() {
 
         {/* mobile start */}
         <div className="qii-life-cycle-container-section-mobile">
-          <div className="qii-life-cycle-container-mobile">
+          <div className="mobile-qii-life-cycle-container mobile-qii-life-cycle-container-1">
+            <img
+              src="images/fundamentals_of_qii/11/1_mobile.png"
+              alt=""
+              className="mobile-qii-life-cycle-img-1"
+            />
+            <p className="qii-life-cycle-img-txt-1-mobile">Planning</p>
+             <p className="qii-life-cycle-description-mobile">
+              Are we assessing long-term costs, environmental impacts, and
+              community needs from the start?
+            </p>
+          </div>
+          <div className="mobile-qii-life-cycle-container mobile-qii-life-cycle-container-2">
+            <img
+              src="images/fundamentals_of_qii/11/2_mobile.png"
+              alt=""
+              className="mobile-qii-life-cycle-img-2"
+            />
+            <p className="qii-life-cycle-img-txt-1-mobile">Design</p>
+            <p className="qii-life-cycle-description-mobile">
+              Are we building in resilience, accessibility, and operational
+              efficiency?
+            </p>
+          </div>
+          <div className="mobile-qii-life-cycle-container mobile-qii-life-cycle-container-3">
+            <img
+              src="images/fundamentals_of_qii/11/3_mobile.png"
+              alt=""
+              className="mobile-qii-life-cycle-img-4"
+            />
+            <p className="qii-life-cycle-img-txt-1-mobile">Construction</p>
+             <p className="qii-life-cycle-description-mobile">
+              Are we ensuring quality, transparency, and local capacity
+              building?
+            </p>
+          </div>
+          <div className="mobile-qii-life-cycle-container mobile-qii-life-cycle-container-4">
+            <img
+              src="images/fundamentals_of_qii/11/4_mobile.png"
+              alt=""
+              className="mobile-qii-life-cycle-img-5"
+            />
+            <p className="qii-life-cycle-img-txt-1-mobile">Operation</p>
+             <p className="qii-life-cycle-description-mobile">
+              Are we delivering inclusive services while managing costs and
+              risks?
+            </p>
+          </div>
+          <div className="mobile-qii-life-cycle-container mobile-qii-life-cycle-container-5">
+            <img
+              src="images/fundamentals_of_qii/11/5_mobile.png"
+              alt=""
+              className="mobile-qii-life-cycle-img-6"
+            />
+            <p className="qii-life-cycle-img-txt-1-mobile qii-life-cycle-img-txt-1-mobile-5">Maintenance</p>
+             <p className="qii-life-cycle-description-mobile">
+              Are we preserving value, adapting to changing conditions, and
+              extending asset life?
+            </p>
+          </div>
+          {/* <p className="qii-life-cycle-img-txt-1-mobile">Planning</p>
+          <p className="qii-life-cycle-img-txt-2-mobile">Design</p>
+          <p className="qii-life-cycle-img-txt-3-mobile">Construction</p>
+          <p className="qii-life-cycle-img-txt-4-mobile">Operation</p>
+          <p className="qii-life-cycle-img-txt-5-mobile">Maintenance</p> */}
+          {/* </div> */}
+
+          {/* <div className="qii-life-cycle-container-mobile">
             <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-1-mobile">
               <img src="images/fundamentals_of_qii/11/1_mobile.png" alt="" />
               <div className="qii-life-cycle-stage-1-title-mobile">
@@ -547,7 +614,7 @@ export default function Fundamentals_of_QII() {
               Are we preserving value, adapting to changing conditions, and
               extending asset life?
             </div>
-          </div>
+          </div> */}
         </div>
         {/* mobile end */}
       </section>

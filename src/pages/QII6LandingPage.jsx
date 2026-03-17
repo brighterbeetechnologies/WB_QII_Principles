@@ -61,7 +61,8 @@ export default function QII2LandingPage() {
     },
     {
       id: 0,
-      title: "Kosovo: Supporting Sustainable Digital Infrastructure through Innovation",
+      title:
+        "Kosovo: Supporting Sustainable Digital Infrastructure through Innovation",
       // country: "Kosovo",
       // org: "World Bank",
       description:
@@ -513,7 +514,6 @@ export default function QII2LandingPage() {
                     </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
-
                           {/* {p.country && (
                             <>
                               <span>{p.country}</span> <br />
@@ -533,8 +533,13 @@ export default function QII2LandingPage() {
                           {p.description}
                         </div> */}
                         <Popover
-                          content={p.description}
-                          // title={p.title}
+                          content={
+                            <div className="resource-popover-content">
+                              {p.description}
+                            </div>
+                          }
+                          placement="left"
+                          title={false}
                           trigger="click"
                         >
                           <div className="page-resource-description">

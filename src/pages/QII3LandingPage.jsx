@@ -297,7 +297,8 @@ export default function QII3LandingPage() {
     {
       id: 1,
       // country: "Japan",
-      title: "Japan: Futakotamagawa: Integrating Flood Protection and Urban Renewal",
+      title:
+        "Japan: Futakotamagawa: Integrating Flood Protection and Urban Renewal",
       // org: "World Bank",
       description:
         "Shows how resilient design can be embedded into urban redevelopment through integrated embankment upgrades, elevated construction, and a riverside park serving as both amenity and flood buffer.",
@@ -649,7 +650,7 @@ export default function QII3LandingPage() {
                           )} */}
                           {/* <strong>{p.title}</strong> */}
                           <br />
-                        {p.title}
+                          {p.title}
                           {/* {p.org && (
                             <>
                               <br />
@@ -661,14 +662,19 @@ export default function QII3LandingPage() {
                           {p.description}
                         </div> */}
                         <Popover
-                                content={p.description}
-                                // title={p.title}
-                                trigger="click"
-                              >
-                                <div className="page-resource-description">
-                                  Read More...
-                                </div>
-                              </Popover>
+                          content={
+                            <div className="resource-popover-content">
+                              {p.description}
+                            </div>
+                          }
+                          placement="left"
+                          title={false}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover>
                         <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a

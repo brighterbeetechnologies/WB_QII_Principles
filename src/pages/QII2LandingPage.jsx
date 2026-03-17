@@ -486,9 +486,23 @@ export default function QII2LandingPage() {
                         {/* <div className="page-resource-description">
                           {p.description}
                         </div> */}
-                        <Popover
+                        {/* <Popover
                           content={p.description}
                           // title={p.title}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover> */}
+                        <Popover
+                          content={
+                            <div className="resource-popover-content">
+                              {p.description}
+                            </div>
+                          }
+                          placement="left"
+                          title={false}
                           trigger="click"
                         >
                           <div className="page-resource-description">

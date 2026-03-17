@@ -314,6 +314,10 @@
   font-size: 1.7rem;
 }
 
+.qii-life-cycle-container-section-mobile {
+  display: none;
+}
+
 .qii-life-cycle-container-section {
   position: relative;
   display: flex;
@@ -346,6 +350,9 @@
 .qii-life-cycle-container-images img,
 .qii-life-cycle-container-images p {
   position: absolute;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #fff;
   /* height: 11.8rem; */
 }
 
@@ -375,8 +382,33 @@
 }
 
 .qii-life-cycle-img-txt-1 {
-  left: 1%;
-  top: 5%;
+  left: 9%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qii-life-cycle-img-txt-2 {
+  left: 29%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qii-life-cycle-img-txt-3 {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qii-life-cycle-img-txt-4 {
+  left: 70%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qii-life-cycle-img-txt-5 {
+  left: 90.6%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* .qii-life-cycle-container-1 {
@@ -650,6 +682,18 @@
   text-align: center;
   font-size: 1rem;
   margin-left: 2.8rem;
+}
+
+@media (max-width: 1080px) {
+  .qii-life-cycle-container-images p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .qii-life-cycle-container-images p {
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -946,5 +990,77 @@
   }
   .qii-life-cycle-container-section-mobile {
     display: block;
+  }
+  .mobile-qii-life-cycle-container {
+    position: relative;
+    margin-top: -1.6rem;
+    z-index: 999;
+  }
+  .mobile-qii-life-cycle-container-2 {
+    z-index: 4;
+  }
+  .mobile-qii-life-cycle-container-3 {
+    z-index: 2;
+  }
+  .mobile-qii-life-cycle-container-4 {
+    z-index: 1;
+  }
+  .mobile-qii-life-cycle-container-5 {
+    z-index: 0;
+  }
+  .qii-life-cycle-description-mobile {
+    position: absolute;
+    left: 60%;
+    top: 31%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 50%;
+  }
+  .qii-life-cycle-img-txt-1-mobile {
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: #fff;
+    top: 34%;
+    left: 12.6%;
+    transform: translate(-50%, -50%);
+  }
+
+  .qii-life-cycle-img-txt-1-mobile-5 {
+    top: 41%;
+  }
+}
+
+@media (max-width: 680px) {
+  .qii-life-cycle-img-txt-1-mobile {
+    font-size: 1.2rem;
+    top: 34%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+  }
+
+  .qii-life-cycle-img-txt-1-mobile-5 {
+    top: 41%;
+    left: 14.8%;
+  }
+}
+
+@media (max-width: 600px) {
+  .qii-life-cycle-container-section-mobile {
+    margin: 4rem 0;
+  }
+  .qii-life-cycle-description-mobile {
+    left: 72%;
+  }
+  .qii-life-cycle-img-txt-1-mobile {
+    font-size: 1.2rem;
+    top: 35%;
+    left: 16.7%;
+    transform: translate(-50%, -50%);
+  }
+
+  .qii-life-cycle-img-txt-1-mobile-5 {
+    top: 41%;
+    left: 16.8%;
   }
 }
