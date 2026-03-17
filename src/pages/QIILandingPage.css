@@ -4,6 +4,10 @@
   width: 100%;
 }
 
+.landingpage-logo {
+  width: 9rem;
+}
+
 .qii_video_landing_page .qii_video-thumbnail-image {
   width: 100%;
   height: 100%;
@@ -318,6 +322,19 @@ cursor: pointer;
   }
 }
 
+@media (max-width: 990px) {
+  .qii1 .video-text-box {
+    width: 100% !important; 
+    margin-bottom: 3rem;
+  }
+  .video-text-cnt .text-cnt-container {
+    width: 100% !important;
+  }
+  .ico-text-card-1-pagination-wrapper {
+    margin-bottom: 4rem;
+  }
+}
+
 @media (min-width: 992px) {
   .video_landing_page .devider {
     width: 1px;
@@ -455,7 +472,7 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .landingpage-description .light-font {
@@ -638,6 +655,12 @@ cursor: pointer;
     max-width: 100%;
   }
 }
+/* 
+@media (max-width: 650px) {
+  .qii1-sub-text {
+    margin: 0rem 4rem 3rem 4rem;
+  }
+} */
 
 @media (max-width: 768px) {
   .qii-video-card {
@@ -672,6 +695,7 @@ cursor: pointer;
     font-size: 0.8rem;
     padding: 0.35rem 1rem;
   }
+  
 }
 
 @media (max-width: 600px) {

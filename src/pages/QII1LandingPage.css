@@ -42,7 +42,7 @@
 .ico-text-card-3 {
   width: 100%;
   gap: 2rem;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   text-align: center;
   display: flex;
   justify-content: center;
@@ -146,11 +146,15 @@
 }
 
 .qii1 .container-qii1 {
-  padding: 5rem 3rem 4rem 3rem;
+  padding: 5rem 3rem 2rem 3rem;
 }
 
 .qii1 .video-text-box {
   width: 50%;
+}
+
+.text-cnt-container {
+  width: 50% !important;
 }
 
 .qii1-video-text-cnt {
@@ -183,10 +187,11 @@
 }
 
 .qii1-further-reading-container {
-  margin: 2rem 1rem 1rem 1rem;
+  margin: 0rem 3rem 0rem 3rem;
+  padding: 0rem 0rem 5rem 0rem;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   gap: 3rem;
   font-size: 1.2rem;

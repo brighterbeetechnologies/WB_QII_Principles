@@ -1,0 +1,217 @@
+.Header4 {
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .Header4 {
+    margin-top: 2.6rem;
+  }
+}
+
+.header4-bg {
+  position: relative;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Header4 .desk-title {
+  display: none;
+}
+
+.Header4 .mob-title {
+  position: relative;
+  z-index: 2;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+.Header4 .header-overlay-4 {
+  width: 100%;
+  height: 100%;
+  background: transparent
+    linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, RGBA(0, 0, 0, 0.4) 100%) 0% 0%
+    no-repeat padding-box;
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.bold-text {
+  margin-top: 1rem;
+}
+
+.Header4 .footer {
+  max-width: 1350px;
+}
+
+.header-4-subpages .qii-badge {
+  height: 8rem;
+}
+
+.header-4-subpages {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 649px) {
+  .Header4 .container-hearder-4 {
+    position: relative;
+    z-index: 2;
+    color: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .Header4 .header-overlay-4 {
+    background: transparent
+      linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, RGBA(0, 0, 0, 0.8) 100%) 0%
+      0% no-repeat padding-box;
+  }
+  .header-4-subpages {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 650px) {
+  .header4-bg {
+    height: 100vh;
+  }
+
+  .Header4 .mob-title {
+    display: none;
+  }
+
+  .Header4 .header-title {
+    position: static;
+  }
+
+  .Header4 .desk-title {
+    display: inline;
+    /* text-shadow:
+      1px 1px 20px #000,
+      1px 1px 39px #000; */
+  }
+
+  .Header4 .container-hearder-4 {
+    position: absolute;
+    z-index: 3;
+    color: #ffffff;
+    padding: 6rem 1rem 1rem 1rem;
+    inset: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+
+  .Header4 .footer-header-4 {
+    font-size: 1rem;
+  }
+
+  .Header4 .header-overlay-4 {
+    background: transparent
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 0%,
+        rgba(0, 0, 0, 0.6) 53%,
+        #000000e3 100%
+      )
+      0% 0% no-repeat padding-box;
+  }
+
+  .bold-text {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .Header4 .footer-header-4 {
+    font-size: 1.1rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .Header4 .container-hearder-4 {
+    padding: 8rem 1rem 2rem 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Header4 {
+    height: 100vh;
+    max-height: 400px;
+  }
+
+  /* .Header-qii1 {
+    height: 100vh;
+    max-height: 550px;
+  } */
+
+  .header3-bg {
+    height: 100vh;
+    max-height: 800px;
+  }
+
+  .Header4 .footer-header-4 {
+    max-width: 90%;
+  }
+  .Header4 .container-hearder-4 {
+    padding: 9rem 0rem 3rem 0rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Header4 .footer-header-4 {
+    font-size: 1.25rem;
+  }
+
+  .Header4 .header-title {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Header4 .footer-header-4 {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .Header4 .footer-header-4 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .Header4 .header-title {
+    font-size: 3.5rem;
+    line-height: 5rem;
+  }
+
+  .Header4 {
+    height: 100vh;
+    max-height: none;
+  }
+
+  .header3-bg {
+    height: 100vh;
+    max-height: none;
+  }
+
+  .Header4 .container-hearder-4 {
+    padding: 8rem 3rem 4rem 3rem;
+    min-height: 630px;
+    gap: 50px;
+  }
+}

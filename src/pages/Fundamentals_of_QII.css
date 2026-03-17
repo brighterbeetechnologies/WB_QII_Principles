@@ -51,6 +51,7 @@
 }
 
 .center-text-qii-generations {
+  margin-bottom: 1rem;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -64,8 +65,8 @@
 
 .qii-generations {
   width: 100%;
-  margin: 4rem auto;
-  padding: 0rem 3rem 2rem 3rem;
+  /* margin: 2rem auto; */
+  /* padding: 0rem 3rem 2rem 3rem; */
 }
 
 .timeline-item-text {
@@ -114,9 +115,9 @@
 }
 
 .qii-generation-footer {
-  margin: 1rem auto;
+  margin: 2rem auto;
   width: fit-content;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .qii-generation-btn {
@@ -145,7 +146,7 @@
 
 .image-text-container {
   width: 100%;
-  height: 100%;
+  height: 23rem;
   display: flex;
   gap: 1rem;
   background-color: #002244;
@@ -156,10 +157,14 @@
 }
 
 .image-text-container-desc {
+  display: flex;
+  flex-direction: column;
   width: 40%;
   margin: 4rem;
   padding: 1rem;
   color: #fff;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .image-text-container-imag {
@@ -326,7 +331,7 @@
   gap: 1rem;
   width: 100%;
   padding: 0;
-  margin: 1rem auto 4rem auto;
+  margin: 1rem auto 2rem auto;
   /* flex-wrap:wrap; */
   /* display:flex;
   justify-content:center;
@@ -512,8 +517,8 @@
   width: 100%;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   gap: 1rem;
   margin: 2rem auto;
 }
@@ -539,7 +544,7 @@
 }
 
 .global-infrastructure-section-left .global-infrastructure-section-left-img {
-  width: 9rem;
+  width: 8rem;
 }
 
 .global-infrastructure-section-left .global-infrastructure-section-left-title {
@@ -590,6 +595,7 @@
   align-items: center;
   justify-content: center;
   font-size: 1.7rem;
+  margin: 3rem 0rem 1rem 0rem;
 }
 
 .global-infrastructure-section-right
@@ -614,7 +620,7 @@
   align-items: center;
   gap: 1rem;
   position: relative;
-  margin: 0rem 2rem 1rem 0.7rem;
+  margin: 3rem 2rem 5rem 0.7rem;
 }
 
 .global-infrastructure-section-left-group-icons-container:not(
@@ -682,6 +688,13 @@
   text-align: center;
   font-size: 1rem;
   margin-left: 2.8rem;
+}
+
+@media (min-width: 1600px) {
+  .qii-generation-timeline-image-container .timeline-item-text-image {
+    width: 16rem;
+    position: relative;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -794,6 +807,14 @@
   .qii-generation-bottom-description-container,
   .timeline-circle-1 {
     display: none;
+  }
+
+  .center-text-qii-generations {
+    margin-bottom: 3rem;
+  }
+
+  .qii-generation-footer {
+    margin: 3rem auto;
   }
 
   .qii-generations-mobile,

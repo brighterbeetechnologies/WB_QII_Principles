@@ -10,14 +10,16 @@ import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
+import { Popover, Tooltip } from "antd";
 
 export default function QualityEnvironmentalStandards() {
   const resourceArray = [
     {
       id: 0,
-      title: "Blue Dot Network",
-      country: "Global",
-      org: false,
+      title: "Global: Blue Dot Network",
+      type: "Framework",
+      // country: "Global",
+      // org: false,
       description:
         "The Blue Dot Network is a voluntary, private-sector-focused and government-supported certification scheme for infrastructure projects. Led by Australia, Japan, Spain, Switzerland, Türkiye, the United Kingdom and the United States, the certification system assesses infrastructure projects against high standards of transparency, sustainability, and developmental impact.",
       img_path: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
@@ -26,9 +28,10 @@ export default function QualityEnvironmentalStandards() {
     },
     {
       id: 1,
-      title: "FAST-Infra",
-      country: "Global",
-      org: false,
+      title: "Global: FAST-Infra",
+      type: "Framework",
+      // country: "Global",
+      // org: false,
       description:
         "The FAST-Infra Label is a globally applicable label for projects demonstrating significant positive sustainability performance. The FAST-Infra initiative was originally conceived collectively by the Climate Policy Initiative, HSBC, the OECD, the International Finance Corporation and the World Bank Group’s Global Infrastructure Facility, and integrates QII-aligned criteria into its Label to attract private capital to sustainable assets by providing consistent evaluation metrics.",
       img_path: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
@@ -414,7 +417,7 @@ export default function QualityEnvironmentalStandards() {
             <br />
             <br />
             The <strong>World Bank Environmental and Social Framework </strong>
-            and the <strong> IFC Performance Standards (PS)</strong> exemplify
+            and the <strong> IFC Performance Standards</strong> exemplify
             such standards and provide a strong foundation for applying
             international environmental and social best practices to
             infrastructure design and delivery.
@@ -626,18 +629,21 @@ export default function QualityEnvironmentalStandards() {
                       <div className="page-resource-link">
                         <div className="page-resource-body">
                           <div className="page-resource-title title-small">
-                            {p.country && (
+                            {/* {p.country && (
                               <>
                                 <span>{p.country}</span> <br />
                               </>
-                            )}
-                            <strong>{p.title}</strong>
-                            {p.org && (
+                            )} */}
+                            {/* <strong>{p.title}</strong> */}
+                            <p className="page-resource-type">{p.type}</p>
+                            <br />
+                            {p.title}
+                            {/* {p.org && (
                               <>
                                 <br />
                                 <span>{p.org}</span>
                               </>
-                            )}
+                            )} */}
                           </div>
                           <div className="page-resource-overlay" />
                           <img
@@ -649,22 +655,39 @@ export default function QualityEnvironmentalStandards() {
                                 </div> */}
                           <div className="page-resource-data">
                             <div className="page-resource-title title-big">
-                              {p.country && (
+                              {/* {p.country && (
                                 <>
                                   <span>{p.country}</span> <br />
                                 </>
-                              )}
-                              <strong>{p.title}</strong>
-                              {p.org && (
+                              )} */}
+                              {/* <strong>{p.title}</strong> */}
+                              <p className="page-resource-type">{p.type}</p>
+                              <br />
+                              {p.title}
+                              {/* {p.org && (
                                 <>
                                   <br />
                                   <span>{p.org}</span>
                                 </>
-                              )}
+                              )} */}
                             </div>
-                            <div className="page-resource-description">
+                            {/* <div className="page-resource-description">
                               {p.description}
-                            </div>
+                            </div> */}
+                            <Popover
+                              content={
+                                <div className="resource-popover-content">
+                                  {p.description}
+                                </div>
+                              }
+                              placement="left"
+                              title={false}
+                              trigger="click"
+                            >
+                              <div className="page-resource-description">
+                                Read More...
+                              </div>
+                            </Popover>
                             <div className="page-resource-btn-cnt">
                               {p.target === "_blank" ? (
                                 <a

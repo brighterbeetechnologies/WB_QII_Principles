@@ -271,7 +271,7 @@ export default function Fundamentals_of_QII() {
             <div className="global-infrastructure-section-left-group-icons">
               <img src="images/fundamentals_of_qii/Icongroup1.png" alt="" />
             </div>
-            {/* <div className="global-infrastructure-section-left-description">
+            <div className="global-infrastructure-section-left-description">
               <p>
                 <strong>Closing the Gap</strong> <br />
                 <br />
@@ -280,7 +280,7 @@ export default function Fundamentals_of_QII() {
                 spanning transportation, energy, digital, social, and other
                 critical sectors.
               </p>
-            </div> */}
+            </div>
             <div className="global-infrastructure-section-left-des-link">
               <p className="center-light-text-2">
                 Source:{" "}
@@ -307,29 +307,29 @@ export default function Fundamentals_of_QII() {
               <p className="global-infrastructure-section-right-sub-title">
                 Reduction in replacement costs through proper maintenance
               </p>
-              <p className="global-infrastructure-section-right-title-1">
+              {/* <p className="global-infrastructure-section-right-title-1">
                 Quality and quantity are complementary
-              </p>
+              </p> */}
             </div>
             <div className="global-infrastructure-section-left-group-icons-container">
               <div className="global-infrastructure-section-left-group-icons-left">
                 <div className="global-infrastructure-section-left-group-icons-img">
                   <img src="images/fundamentals_of_qii/Icongroup2.png" alt="" />
                 </div>
-                <div className="global-infrastructure-section-left-group-icons-title">
+                {/* <div className="global-infrastructure-section-left-group-icons-title">
                   <p>
                     <strong>Well-planned, sustainable infrastructure</strong>
                   </p>
                   <p>
                     <strong>Maximizes economic and social returns</strong>
                   </p>
-                </div>
+                </div> */}
               </div>
               <div className="global-infrastructure-section-left-group-icons-right">
                 <div className="global-infrastructure-section-left-group-icons-img-right">
                   <img src="images/fundamentals_of_qii/Icongroup3.png" alt="" />
                 </div>
-                <div className="global-infrastructure-section-left-group-icons-title-right">
+                {/* <div className="global-infrastructure-section-left-group-icons-title-right">
                   <p>
                     <strong>
                       With poor planning, assets fail early and cost more to
@@ -339,10 +339,10 @@ export default function Fundamentals_of_QII() {
                   <p>
                     <strong>Exclude those who need services most</strong>
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
-            {/* <div className="global-infrastructure-section-right-description">
+            <div className="global-infrastructure-section-right-description">
               <p>
                 <strong>Why Quality Matters </strong> <br />
                 <br />
@@ -350,7 +350,7 @@ export default function Fundamentals_of_QII() {
                 returns, while poor planning leads to assets that fail early,
                 cost more to maintain, and exclude those who need services most.
               </p>
-            </div> */}
+            </div>
             <div className="global-infrastructure-section-right-des-link">
               <p className="center-light-text-2">
                 Source:{" "}

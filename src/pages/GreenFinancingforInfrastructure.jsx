@@ -240,7 +240,7 @@ export default function GreenFinancingforInfrastructure() {
                 className="qii-badge"
               />
               <h1 className="header-title desk-title">
-                Green Financing for Infrastructure
+                Green Financing
               </h1>
             </div>
           </div>
