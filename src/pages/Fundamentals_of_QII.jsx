@@ -327,9 +327,9 @@ export default function Fundamentals_of_QII() {
               <p className="global-infrastructure-section-right-sub-title">
                 Reduction in replacement costs through proper maintenance
               </p>
-              {/* <p className="global-infrastructure-section-right-title-1">
+              <p className="global-infrastructure-section-right-title-1">
                 Quality and quantity are complementary
-              </p> */}
+              </p>
             </div>
             <div className="global-infrastructure-section-left-group-icons-container">
               <div className="global-infrastructure-section-left-group-icons-left">
