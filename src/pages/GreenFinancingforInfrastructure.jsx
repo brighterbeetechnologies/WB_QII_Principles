@@ -218,7 +218,7 @@ export default function GreenFinancingforInfrastructure() {
           { path: "/qii3", title: "QII.3 Environment" },
           {
             path: "/GreenFinancingforInfrastructure",
-            title: "Green Financing for Infrastructure",
+            title: "Green Financing",
           },
         ],
       }),
@@ -229,7 +229,7 @@ export default function GreenFinancingforInfrastructure() {
       <section className="color-light">
         <Header3
           img="images/qii3/GreenFinancingforInfrastructure/shutterstock_2477739245.png"
-          title={"Green Financing for Infrastructure"}
+          title={"Green Financing"}
           hideDeskTitle={true}
         >
           <div className="hero-content">

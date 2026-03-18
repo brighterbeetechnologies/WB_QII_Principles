@@ -33,7 +33,7 @@ export default function QualityEnvironmentalStandards() {
       // country: "Global",
       // org: false,
       description:
-        "The FAST-Infra Label is a globally applicable label for projects demonstrating significant positive sustainability performance. The FAST-Infra initiative was originally conceived collectively by the Climate Policy Initiative, HSBC, the OECD, the International Finance Corporation and the World Bank Group’s Global Infrastructure Facility, and integrates QII-aligned criteria into its Label to attract private capital to sustainable assets by providing consistent evaluation metrics.",
+        "The FAST-Infra Label is a globally applicable label for projects demonstrating significant positive sustainability performance. The FAST-Infra initiative was originally conceived collectively by the Climate Policy Initiative, HSBC, the OECD, the IFC and the World Bank Group’s Global Infrastructure Facility, and integrates QII-aligned criteria into its Label to attract private capital to sustainable assets by providing consistent evaluation metrics.",
       img_path: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       path: "https://www.fastinfralabel.org/",
       target: "_blank",
@@ -328,7 +328,7 @@ export default function QualityEnvironmentalStandards() {
         </p>
       ),
       buttonText: "Guidance note",
-      link: "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf ​",
+      link: "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf​",
       content: (
         <p>
           The Coalition for Disaster Resilient Infrastructure has developed a

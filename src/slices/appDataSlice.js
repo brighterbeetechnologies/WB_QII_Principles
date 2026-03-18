@@ -1792,8 +1792,8 @@ export const appDataSlice = createSlice({
       // {
       //   id: 3,
       //   paths:
-      //     "https://www.cdri.world/upload/pages/1726999413696320_202203111036infrastructure_standards-building_blocks_for_a_resilient_future_technical_note.pdf?utm_source",
-      //   type: "Report",
+      //     "https://www.cdri.world/upload/pages/1726999413696320_202203111036infr",
+      //   type: "Guidance note",
       //   title:
       //     "Global: Infrastructure Standards – Building Blocks for a Resilient Future",
       //   principles: 2,

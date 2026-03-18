@@ -525,7 +525,7 @@ export default function Decarbonizing_Infrastructure() {
             <strong>Decarbonization Solutions</strong>
             <br />
             Decarbonization will take on very different forms across different
-            sectors, and technology will play a key role.
+            sectors, and technology will play a key role. For example:
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
           {/* <div className="ico-text-card-2-container">
@@ -583,7 +583,7 @@ export default function Decarbonizing_Infrastructure() {
               Improve efficiency of remaining systems
             </p>
           </div> */}
-          <h2 className="center-text">For example</h2>
+          {/* <h2 className="center-text">For example</h2> */}
           <div className="ico-text-card-4-container">
             <div className="ico-text-card-4">
               <div className="ico-text-card-4-ico">
