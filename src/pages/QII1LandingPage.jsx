@@ -1309,34 +1309,40 @@ export default function QII1LandingPage() {
             </div>
             <div className="text-cnt-container">
               <div className="ico-text-card-1-wrapper">
-                <div className="ico-text-card-3-container">
-                  <div
-                    className={`ico-text-card-3 ${fade ? "fade-in" : "fade-out"}`}
-                  >
-                    <div className="ico-text-card-3-ico">
-                      <img src={data[activeIndex].icon} alt="" />
-                    </div>
-                    <div className="ico-text-card-3-description">
-                      <div className="ico-text-card-3-title">
-                        <p>{data[activeIndex].title}</p>
+                <div
+                  className="ico-text-card-3-container"
+                  style={{
+                    width: `${100 * data.length}%`,
+                    transform: `translateX(${-(100 / data.length) * activeIndex}%)`,
+                  }}
+                >
+                  {data.map((d) => {
+                    return (
+                      <div className={`ico-text-card-3`}>
+                        <div className="ico-text-card-3-ico">
+                          <img src={d.icon} alt="" />
+                        </div>
+                        <div className="ico-text-card-3-description">
+                          <div className="ico-text-card-3-title">
+                            <p>{d.title}</p>
+                          </div>
+                          <p className="ico-text-card-3-desc">{d.desc}</p>
+                          {d.link && d.linkText && (
+                            <p className="ico-text-card-3-link">
+                              1:{" "}
+                              <Link
+                                to={d.link}
+                                target="_blank"
+                                className="link"
+                              >
+                                {d.linkText}
+                              </Link>
+                            </p>
+                          )}
+                        </div>
                       </div>
-                      <p className="ico-text-card-3-desc">
-                        {data[activeIndex].desc}
-                      </p>
-                      {data[activeIndex].link && data[activeIndex].linkText && (
-                        <p className="ico-text-card-3-link">
-                          1:{" "}
-                          <Link
-                            to={data[activeIndex].link}
-                            target="_blank"
-                            className="link"
-                          >
-                            {data[activeIndex].linkText}
-                          </Link>
-                        </p>
-                      )}
-                    </div>
-                  </div>
+                    );
+                  })}
                 </div>
                 <div className="ico-text-card-1-pagination-wrapper">
                   <button
@@ -1365,10 +1371,11 @@ export default function QII1LandingPage() {
             </div>
           </div>
         </div>
-        <div className="qii1-text-cnt">
-          <div className="qii1-further-reading-container">
+        {/* <div className="qii1-text-cnt"> */}
+        <div className="qii1-further-reading-container">
+          <div className="qii1-further-reading-continer-big-1">
             <div className="qii1-further-reading-continer-small">
-              <p>
+              <p className="qii1-further-reading">
                 <strong>Iraq: Rebuilding Communities After Conflict</strong>
               </p>
               <div className="qii1-further-reading-link-container">
@@ -1429,6 +1436,8 @@ export default function QII1LandingPage() {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="qii1-further-reading-continer-big">
             <div className="qii1-further-reading-continer-small">
               <p className="qii1-further-reading">
                 <strong>
@@ -1481,6 +1490,7 @@ export default function QII1LandingPage() {
             </div>
           </div>
         </div>
+        {/* </div> */}
       </section>
       <section className="container internal-pages-container color-dark">
         <p className="center-text">

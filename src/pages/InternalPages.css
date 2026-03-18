@@ -17,12 +17,13 @@
   margin-bottom: 0 !important;
 }
 
-/* .ico-text-card-1-wrapper {
-  display: flex;
+.ico-text-card-1-wrapper {
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 0rem;
-} */
+  gap: 0rem; */
+  overflow: hidden;
+}
 
 .ico-text-card-1-container {
   width: 100%;
