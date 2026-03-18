@@ -105,7 +105,7 @@ export default function Procurement() {
           World Bank
         </p>
       ),
-      buttonText: "Full publication​",
+      buttonText: "Full Publication​",
       link: "pdf/Ganga_case_study.pdf",
       buttonText2: "Case Study",
       link2:

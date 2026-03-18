@@ -74,7 +74,7 @@ export default function QualityEnvironmentalStandards() {
         </p>
       ),
       highlight: 1,
-      buttonText: "View the full publication",
+      buttonText: "Full Publication",
       link: "pdf/QII_3_CaseStudy_TibarBay.pdf",
       buttonText2: "Case Study",
       link2:

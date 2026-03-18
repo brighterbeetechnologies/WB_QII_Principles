@@ -213,7 +213,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </p>
       ),
       highlight: 1,
-      buttonText: "Full publication​",
+      buttonText: "Full Publication​",
       link: "https://documents1.worldbank.org/curated/en/915131601460271575/pdf/Appendix-Case-Studies-in-Integrated-Urban-Flood-Risk-Management-in-Japan.pdf#page=7",
       buttonText2: "Case Study",
       link2: "pdf/QII_4_Case Japan Urban Resilience 1.pdf",

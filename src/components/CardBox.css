@@ -186,18 +186,18 @@
 
 .card-pinciple-badge {
   position: absolute;
-  width: 16%;
+  width: 14%;
   right: 1rem;
   top: 2rem;
   z-index: 666;
 }
 
 .card-pinciple-badge2 {
-  top: 7.3rem;
+  top: 6.6rem;
 }
 
 .card-pinciple-badge3 {
-  top: 12.6rem;
+  top: 11.1rem;
 }
 
 /* Rounded corners larger on large screens */

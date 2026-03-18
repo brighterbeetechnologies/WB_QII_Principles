@@ -146,7 +146,7 @@ export default function QII6CaseStudy1() {
               className="single-case-study-button disable-link"
               onClick={() => window.open("", "_blank", "noopener,noreferrer")}
             >
-              View the full publication
+              Full Publication
               <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
             {/* <div

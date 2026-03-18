@@ -51,7 +51,7 @@ export default function Stakeholder_Engagement() {
       duration: "3 min watch",
       width: 1920,
       height: 1080,
-      buttonText2: "View the full publication",
+      buttonText2: "Full Publication",
       link2:"",
       highlight: 1,
       content: (

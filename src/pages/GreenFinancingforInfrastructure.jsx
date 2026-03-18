@@ -107,7 +107,7 @@ export default function GreenFinancingforInfrastructure() {
         </p>
       ),
       highlight: 1,
-      buttonText: "View the full publication",
+      buttonText: "Full Publication",
       link: "https://www.bcenergy.rs/belgrade-waste-management-ppp-project-becomes-the-first-serbian-project-certified-by-the-gold-standard-organization/",
       buttonText2: "Case Study",
       link2: "pdf/QII_3_SpotlightCaseStudy_Belgrade.pdf",

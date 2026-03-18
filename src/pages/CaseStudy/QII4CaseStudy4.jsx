@@ -170,7 +170,7 @@ export default function QII4CaseStudy4() {
                 )
               }
             >
-              View the full publication
+              Full Publication
               <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
             {/* <div

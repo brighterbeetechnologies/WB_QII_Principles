@@ -21,7 +21,7 @@ export default function Govtech_For_Infrastructure() {
           </strong> <br />World Bank
         </p>
       ),
-      buttonText: "View The Full Publication",
+      buttonText: "Full Publication",
       link: "pdf/The COVID-19 Mark on Urban Mobility.pdf",
       buttonText2: "Case Study",
       link2: "pdf/A Net Cure or Curse.pdf",

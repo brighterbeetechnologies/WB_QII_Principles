@@ -463,7 +463,7 @@ export default function QII1LandingPage() {
             Preservation of Trees Act (1994) and Government of India guidelines.
             <br />
             <br />
-            <strong>QII.5 Social </strong>
+            <strong>QII.5 Inclusion </strong>
             <br />
             Station buildings and passenger cars are designed for elderly and
             disabled users, featuring elevators, toilets, internal broadcasting,
@@ -642,7 +642,7 @@ export default function QII1LandingPage() {
             transplantation and one-year settlement monitoring.
             <br />
             <br />
-            <strong>QII.5 Social </strong>
+            <strong>QII.5 Inclusion</strong>
             <br />
             The health benefits are measurable: households connected to the
             sewerage system report diarrhea incidence of 27%, compared to 45%

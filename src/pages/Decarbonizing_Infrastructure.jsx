@@ -43,7 +43,8 @@ export default function Decarbonizing_Infrastructure() {
     {
       id: 2,
       // country: "Global",
-      title: "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
+      title:
+        "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
       type: "Guidance note",
       // subTitle: "EDHEC Climate Institute",
       description:
@@ -974,14 +975,19 @@ export default function Decarbonizing_Infrastructure() {
                           {p.description}
                         </div> */}
                         <Popover
-                        content={p.description}
-                        // title={p.title}
-                        trigger="click"
-                      >
-                        <div className="page-resource-description">
-                          Read More...
-                        </div>
-                      </Popover>
+                          content={
+                            <div className="resource-popover-content">
+                              {p.description}
+                            </div>
+                          }
+                          placement="left"
+                          title={false}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover>
                         <div className="page-resource-btn-cnt">
                           <a
                             className="page-resource-arrow"
