@@ -301,7 +301,7 @@ export default function Fundamentals_of_QII() {
                 critical sectors.
               </p>
             </div>
-            <div className="global-infrastructure-section-left-des-link">
+             <div className="global-infrastructure-section-left-des-link">
               <p className="center-light-text-2">
                 Source:{" "}
                 <Link

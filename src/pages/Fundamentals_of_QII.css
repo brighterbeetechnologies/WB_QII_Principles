@@ -523,7 +523,7 @@
   margin: 2rem auto;
 }
 
-.global-infrastructure-section-container:not(:first-child)::after {
+.global-infrastructure-section-container:not(:first-child)::before {
   content: "";
   position: absolute;
   top: 0rem;
@@ -710,6 +710,17 @@
   .qii-life-cycle-container-images p {
     font-size: 1rem;
   }
+  .global-infrastructure-section-container .global-infrastructure-section-left {
+    width: 100%;
+  }
+  .global-infrastructure-section-container
+    .global-infrastructure-section-right {
+    width: 100%;
+  }
+  .global-infrastructure-section-right
+    .global-infrastructure-section-right-title {
+    padding: 3rem 0rem 0rem 0rem;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -884,12 +895,15 @@
     flex-direction: column-reverse;
     background-image: none;
   }
+  .image-text-container {
+    height: 100%;
+  }
   .image-text-container-imag {
     display: block;
     width: 100%;
   }
   .image-text-container-desc {
-    width: 90%;
+    width: 100%;
   }
   .timeline-circle-1-mobile {
     position: absolute;
@@ -946,10 +960,10 @@
     transform: translate(-50%, -50%);
   }
 
-  .global-infrastructure-section-container:not(:first-child)::after {
+  .global-infrastructure-section-container:not(:first-child)::before {
     content: "";
     position: absolute;
-    top: 47%;
+    top: 56%;
     left: 0;
     transform: translateY(-50%);
     width: 100%;
@@ -959,17 +973,17 @@
 
   .global-infrastructure-section-left
     .global-infrastructure-section-left-description {
-    width: 132%;
+    width: 100%;
     margin: 1rem 4rem;
     padding: 2rem 1rem 2.5rem 1rem;
   }
 
   .global-infrastructure-section-left-des-link {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
   }
   .global-infrastructure-section-left,
   .global-infrastructure-section-right {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     width: 100%;
   }
   .global-infrastructure-section-left-group-icons-left,
@@ -983,14 +997,15 @@
     margin: 0rem 0rem 1rem 0rem;
   }
   .global-infrastructure-section-left-group-icons-title {
-    width: 107%;
+    width: 100%;
   }
   .global-infrastructure-section-left-group-icons-title-right {
-    width: 107%;
+    width: 100%;
   }
   .global-infrastructure-section-right-description {
-    width: 150%;
-    margin: 1rem 22rem 2rem -6rem;
+    width: 100%;
+    margin: 1rem auto;
+    padding: 2rem;
   }
 }
 
