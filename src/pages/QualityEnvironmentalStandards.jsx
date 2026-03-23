@@ -328,7 +328,7 @@ export default function QualityEnvironmentalStandards() {
         </p>
       ),
       buttonText: "Guidance note",
-      link: "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf​",
+      link: "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf",
       content: (
         <p>
           The Coalition for Disaster Resilient Infrastructure has developed a

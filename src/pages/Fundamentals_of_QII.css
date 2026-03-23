@@ -692,8 +692,11 @@
 
 @media (min-width: 1600px) {
   .qii-generation-timeline-image-container .timeline-item-text-image {
-    width: 16rem;
+    width: 25%;
     position: relative;
+  }
+  .qii-generation-timeline-image-container .timeline-item-text-image img {
+    width: 100%;
   }
 }
 

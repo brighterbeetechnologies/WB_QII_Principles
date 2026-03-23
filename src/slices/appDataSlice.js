@@ -1789,25 +1789,25 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
       },
-      // {
-      //   id: 3,
-      //   paths:
-      //     "https://www.cdri.world/upload/pages/1726999413696320_202203111036infr",
-      //   type: "Guidance note",
-      //   title:
-      //     "Global: Infrastructure Standards – Building Blocks for a Resilient Future",
-      //   principles: 2,
-      //   highlight: 0,
-      //   target: "_blank",
-      //   desc: "The Coalition for Disaster Resilient Infrastructure has developed a technical note, which maps out the need for resilience oriented standards across the infrastructure lifecycle, and identifies the principles that infrastructure standards should embed (robustness, redundancy, flexibility, recovery capacity, good governance, etc.).",
-      //   format: 5,
-      //   stage: 2,
-      //   income: 0,
-      //   region: 7,
-      //   industry: 11,
-      //   image:
-      //     "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
-      // },
+      {
+        id: 3,
+        paths:
+          "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf",
+        type: "Guidance note",
+        title:
+          "Global: Infrastructure Standards – Building Blocks for a Resilient Future",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "The Coalition for Disaster Resilient Infrastructure has developed a technical note, which maps out the need for resilience oriented standards across the infrastructure lifecycle, and identifies the principles that infrastructure standards should embed (robustness, redundancy, flexibility, recovery capacity, good governance, etc.).",
+        format: 5,
+        stage: 2,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image:
+          "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
+      },
       // {
       //   id: 3,
       //   paths:
