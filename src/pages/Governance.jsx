@@ -11,6 +11,7 @@ import { Popover, Tooltip } from "antd";
 export default function Governance() {
   const resourceArray = [
     {
+      rId: 31,
       id: 0,
       // country: "Global",
       type: "Report",
@@ -23,6 +24,7 @@ export default function Governance() {
       path: "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
     },
     {
+      rId: 2,
       id: 1,
       // country: "Global",
       title: "Global: PPP Reference Guide",
@@ -34,6 +36,7 @@ export default function Governance() {
       path: "https://ppp.worldbank.org/sites/default/files/2024-08/PPP Reference Guide Version 3.pdf",
     },
     {
+      rId: 35,
       id: 2,
       // country: "Cross-Regional",
       type: "Report",
@@ -45,6 +48,7 @@ export default function Governance() {
       path: "https://prdrse4all.spc.int/system/files/149856004-infrastructure-maintenance-in-the-pacific-challenging-the-build-neglect-rebuild-paradigm.pdf",
     },
     {
+      rId: 33,
       id: 3,
       // country: "Global",
       type: "Report",

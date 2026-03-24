@@ -126,11 +126,12 @@ export const appDataSlice = createSlice({
       // { id: 11, title: "Resource" },
     ],
 
-    learningPath: [ 
+    learningPath: [
       //principle 2 resources
 
       //promote qii2
       {
+        rId: 1,
         id: 1,
         paths:
           "pdf/Revised_Draft_Practice_Manual_LCC_with_sector_specific_guidance_15_Oct_2022.pdf",
@@ -149,6 +150,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/list/02.jpg",
       },
       {
+        rId: 2,
         id: 1,
         paths:
           "https://ppp.worldbank.org/sites/default/files/2024-08/PPP Reference Guide Version 3.pdf",
@@ -166,6 +168,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/resources/02.jpg",
       },
       {
+        rId: 3,
         id: 1,
         paths: "https://www.fhwa.dot.gov/pavement/lcca/010621.pdf",
         type: "Report",
@@ -182,6 +185,7 @@ export const appDataSlice = createSlice({
         image: "images/procurement/resources/01.png",
       },
       {
+        rId: 4,
         id: 1,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
@@ -200,6 +204,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/resources/01.png",
       },
       {
+        rId: 5,
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/library/life-cycle-cost-analysis-management-highway-assets",
@@ -218,6 +223,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/resources/02.png",
       },
       {
+        rId: 6,
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2020-02/World Bank_Municipal PPP_Module 16_Content.pdf",
@@ -237,6 +243,7 @@ export const appDataSlice = createSlice({
 
       //Case Study-qii2
       {
+        rId: 7,
         id: 0,
         paths: "/qii2casestudy1",
         type: "Case Study",
@@ -257,6 +264,7 @@ export const appDataSlice = createSlice({
         videoTitle: "QII.2 in Action",
       },
       {
+        rId: 8,
         id: 1,
         paths: "/qii2casestudy2",
         type: "Case Study",
@@ -275,6 +283,7 @@ export const appDataSlice = createSlice({
         image: "images/resources/02.jpg",
       },
       {
+        rId: 9,
         id: 1,
         paths:
           "https://documents1.worldbank.org/curated/en/099235011182219257/pdf/P1679330af035007e0829505bcfd724025b.pdf",
@@ -292,6 +301,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/list/05.jpg",
       },
       {
+        rId: 10,
         id: 1,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/10/life-cycle-costing-in-public-procurement-in-hungary_90b7465a/8d90f627-en.pdf",
@@ -308,6 +318,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/list/01.jpg",
       },
       {
+        rId: 11,
         id: 1,
         paths:
           "https://www.oecd.org/en/publications/life-cycle-costing-in-public-procurement-in-hungary_8d90f627-en.html",
@@ -325,6 +336,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/list/Slide_29.jpg",
       },
       {
+        rId: 12,
         id: 1,
         paths: "pdf/Infrastructure Data Innovations in Malawi.pdf",
         type: "Case Study",
@@ -342,6 +354,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/list/03.jpg",
       },
       {
+        rId: 13,
         id: 1,
         paths:
           "https://ppp.worldbank.org/library/basic-plan-public-private-partnerships-seoul-korea-development-institute-pimac-kr-2011",
@@ -360,6 +373,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/list/04.jpg",
       },
       {
+        rId: 14,
         id: 1,
         paths: "pdf/Presentation on LCC Transport Unit_ver 2.2.pdf",
         type: "Case Study",
@@ -377,6 +391,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/list/05.jpg",
       },
       {
+        rId: 15,
         id: 1,
         paths: "https://www.ppiaf.org/documents/5629",
         type: "Case Study",
@@ -393,6 +408,7 @@ export const appDataSlice = createSlice({
         image: "images/procurement/Vietnam.png",
       },
       {
+        rId: 16,
         id: 1,
         paths: "pdf/Ganga_case_study.pdf",
         type: "Case Study",
@@ -403,12 +419,13 @@ export const appDataSlice = createSlice({
         desc: "Summarizes a procurement approach where annuity payments were linked to long-term O&M performance.",
         format: 1,
         stage: 2,
-        income: 0,
+        income: 3,
         industry: 2,
         pdf: true,
         image: "images/procurement/IndiaGanga.png",
       },
       {
+        rId: 17,
         id: 1,
         paths:
           "https://www.gihub.org/infrastructure-technology-use-cases/case-studies/pre-fabrication-technology-for-modular-construction/",
@@ -426,6 +443,7 @@ export const appDataSlice = createSlice({
         image: "images/procurement/Pre-Fabrication.png",
       },
       {
+        rId: 18,
         id: 1,
         paths:
           "https://blogs.worldbank.org/en/ppps/modular-bridges-climate-resilient-solution-small-bridges-pacific",
@@ -444,6 +462,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/SolomonIslands.png",
       },
       {
+        rId: 19,
         id: 1,
         paths:
           "https://www.nature.org/content/dam/tnc/nature/en/documents/GCTWF-Business-Case-April-2019.pdf",
@@ -462,6 +481,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/SouthAfrica.png",
       },
       {
+        rId: 20,
         id: 1,
         paths:
           "https://documents1.worldbank.org/curated/en/099032924175510017/pdf/P1760001ef88ab00a18d18167fe0293af27.pdf",
@@ -480,6 +500,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/Peru.png",
       },
       {
+        rId: 21,
         id: 1,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/bbfb9200-de1a-489e-a360-fac68c72d81f",
@@ -498,6 +519,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/Vietnam.png",
       },
       {
+        rId: 22,
         id: 1,
         paths:
           "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean/",
@@ -516,6 +538,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/AIanddeep.png",
       },
       {
+        rId: 23,
         id: 1,
         paths:
           "https://www.gihub.org/infrastructure-technology-use-cases/case-studies/sensors-and-machine-learning-for-predictive-maintenance/",
@@ -534,6 +557,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/SensorsAndMachine.png",
       },
       {
+        rId: 24,
         id: 1,
         paths:
           "https://documents1.worldbank.org/curated/en/470341542225495367/pdf/132059-BRI-PUBLIC-PPP-Stories-Tibar-Bay-Port.pdf",
@@ -551,6 +575,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/Timor-Leste.png",
       },
       {
+        rId: 25,
         id: 1,
         paths:
           "https://documents1.worldbank.org/curated/en/942711467994666687/pdf/103935-REVISED-LW61-fin-logo-OKR.pdf",
@@ -569,6 +594,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/Maldives.png",
       },
       {
+        rId: 26,
         id: 1,
         paths:
           "https://infrastructuredeliverymodels.gihub.org/case-studies/hyderabad-metro-rail/",
@@ -586,6 +612,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/India.png",
       },
       {
+        rId: 27,
         id: 1,
         paths:
           "https://documents1.worldbank.org/curated/en/099325009052225715/pdf/P1773160bfd9f30ed0977607550f60b2651.pdf",
@@ -603,6 +630,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/Argentina.png",
       },
       {
+        rId: 28,
         id: 1,
         paths:
           "https://www.gihub.org/innovative-funding-and-financing/revenue-levers/",
@@ -623,6 +651,7 @@ export const appDataSlice = createSlice({
       //Report qii2
 
       {
+        rId: 29,
         id: 1,
         paths:
           "https://documents1.worldbank.org/curated/en/568291635871410812/pdf/Troubled-Tariffs-Revisiting-Water-Pricing-for-Affordable-and-Sustainable-Water-Services.pdf",
@@ -641,6 +670,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/TroubledTariffs.png",
       },
       {
+        rId: 30,
         id: 1,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/522181612428427520/disruptive-technologies-in-public-procurement",
@@ -658,6 +688,7 @@ export const appDataSlice = createSlice({
         image: "images/procurement/Disruptive.png",
       },
       {
+        rId: 31,
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-03/Final-LOW_WB_G20_Report_v4_1JUN_2021.pdf",
@@ -676,6 +707,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/resources/01.jpg",
       },
       {
+        rId: 32,
         id: 1,
         paths:
           "https://www.oecd.org/en/publications/building-resilience_354aa2aa-en.html",
@@ -694,6 +726,7 @@ export const appDataSlice = createSlice({
         image: "images/procurement/resources/02.png",
       },
       {
+        rId: 33,
         id: 1,
         paths:
           "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
@@ -729,6 +762,7 @@ export const appDataSlice = createSlice({
       //   image: "images/procurement/resources/04.png",
       // },
       {
+        rId: 34,
         id: 1,
         paths:
           "https://www.iisd.org/publications/report/life-cycle-costing-sustainable-public-procurement-question-value",
@@ -746,6 +780,7 @@ export const appDataSlice = createSlice({
         image: "images/procurement/resources/05.png",
       },
       {
+        rId: 35,
         id: 1,
         paths:
           "https://prdrse4all.spc.int/system/files/149856004-infrastructure-maintenance-in-the-pacific-challenging-the-build-neglect-rebuild-paradigm.pdf",
@@ -763,6 +798,7 @@ export const appDataSlice = createSlice({
         image: "images/governance/resources/03.jpg",
       },
       {
+        rId: 36,
         id: 1,
         paths:
           "https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf",
@@ -796,6 +832,7 @@ export const appDataSlice = createSlice({
       //   image: "images/governance/resources/04.jpg",
       // },
       {
+        rId: 37,
         id: 1,
         paths:
           "https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf",
@@ -813,6 +850,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/resources/CatalogueofNature.png",
       },
       {
+        rId: 38,
         id: 1,
         paths: "https://globalbim.org/about-us/",
         type: "Report",
@@ -829,6 +867,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/resources/GlobalBIMetwork.png",
       },
       {
+        rId: 39,
         id: 1,
         paths:
           "https://www.oecd.org/en/publications/iea-technology-roadmaps_22182837.html",
@@ -846,6 +885,7 @@ export const appDataSlice = createSlice({
         image: "images/technicalSolutions/resources/IEATechnology.png",
       },
       {
+        rId: 40,
         id: 1,
         paths:
           "https://thedocs.worldbank.org/en/doc/89d9f9d960bb2870ac1592b041232094-0070012024/original/Monetizing-carbon-credits-in-energy-and-agri-sectors-Agritechnica-May-22-2024.pdf",
@@ -864,6 +904,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/resources/04.png",
       },
       {
+        rId: 41,
         id: 1,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/aa15661f-9c0b-4b64-9836-76a712411742",
@@ -884,6 +925,7 @@ export const appDataSlice = createSlice({
 
       //data qii2
       {
+        rId: 42,
         id: 1,
         paths: "https://www.infratechportal.org/LandingPage",
         type: "Data",
@@ -902,6 +944,7 @@ export const appDataSlice = createSlice({
 
       //Guidance qii2
       {
+        rId: 43,
         id: 1,
         paths: "https://www.gihub.org/infrastructure-output-specifications/",
         type: "Guidance note",
@@ -919,6 +962,7 @@ export const appDataSlice = createSlice({
         image: "images/procurement/ReferenceGuide.png",
       },
       {
+        rId: 44,
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/Innovative_Revenues_Infrastructure/Table_of_Contents",
@@ -936,6 +980,7 @@ export const appDataSlice = createSlice({
         image: "images/costRecovery/InnovativeRevenues.png",
       },
       {
+        rId: 45,
         id: 1,
         paths:
           "https://cdn.gihub.org/umbraco/media/3061/world-bank-group-s-reference-note-on-infratech-toolkit.pdf",
@@ -957,9 +1002,9 @@ export const appDataSlice = createSlice({
 
       //promote
       {
+        rId: 46,
         id: 3,
-        paths:
-          "https://www.bluedot-network.org/about",
+        paths: "https://www.bluedot-network.org/about",
         type: "Framework",
         title: "Global: Blue Dot Network",
         principles: 2,
@@ -975,6 +1020,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
       },
       {
+        rId: 47,
         id: 3,
         paths:
           "https://www.worldbank.org/en/publication/country-climate-development-reports#:~:text=The%20World%20Bank%20Group's%20Country,contributions%20and%20long%2Dterm%20strategies.",
@@ -993,6 +1039,7 @@ export const appDataSlice = createSlice({
           "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Change_Development.png",
       },
       {
+        rId: 48,
         id: 3,
         paths:
           "https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf",
@@ -1011,6 +1058,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
       },
       {
+        rId: 49,
         id: 3,
         paths:
           "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
@@ -1030,6 +1078,7 @@ export const appDataSlice = createSlice({
           "images/qii3/QII3/Decarbonizing_Infrastructure/Investigating_Life_Cycle.png",
       },
       {
+        rId: 50,
         id: 3,
         paths: "https://www.fastinfralabel.org/",
         type: "Framework",
@@ -1048,6 +1097,7 @@ export const appDataSlice = createSlice({
         image: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       },
       {
+        rId: 51,
         id: 3,
         paths:
           "https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf",
@@ -1068,6 +1118,7 @@ export const appDataSlice = createSlice({
 
       //Case Study-qii3
       {
+        rId: 52,
         id: 3,
         paths:
           "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
@@ -1086,6 +1137,7 @@ export const appDataSlice = createSlice({
         image: "images/qii3/shutterstock_2607341901.jpg",
       },
       {
+        rId: 53,
         id: 1,
         paths: "/qii4casestudy1",
         type: "Case Study",
@@ -1102,6 +1154,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/updated/Futakotamagawa.png",
       },
       {
+        rId: 54,
         id: 3,
         paths:
           "https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/",
@@ -1118,6 +1171,7 @@ export const appDataSlice = createSlice({
         image: "images/qii3/Cape-Town-Green-Bond.jpg",
       },
       {
+        rId: 55,
         id: 3,
         paths: "pdf/QII_3_CaseStudy_TibarBay.pdf",
         type: "Case Study",
@@ -1167,6 +1221,7 @@ export const appDataSlice = createSlice({
       //     "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
       // },
       {
+        rId: 56,
         id: 3,
         paths:
           "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdf",
@@ -1185,6 +1240,7 @@ export const appDataSlice = createSlice({
           "images/qii3/QII3/Decarbonizing_Infrastructure/Rewa_Ultra_Mega_Solar_Project.png",
       },
       {
+        rId: 57,
         id: 3,
         paths:
           "https://www.earthsecurity.org/news/nature-infrastructure-in-the-balance-sheet-the-case-of-zephyr-power​",
@@ -1236,6 +1292,7 @@ export const appDataSlice = createSlice({
       //     "images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png",
       // },
       {
+        rId: 58,
         id: 3,
         paths:
           "https://www.gihub.org/innovative-funding-and-financing/case-studies/sustainability-linked-loan-to-improve-water-supply-efficiency-and-resilience/",
@@ -1254,6 +1311,7 @@ export const appDataSlice = createSlice({
           "images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png",
       },
       {
+        rId: 59,
         id: 3,
         paths: "pdf/QII_3_SpotlightCaseStudy_Belgrade.pdf",
         type: "Case Study",
@@ -1305,6 +1363,7 @@ export const appDataSlice = createSlice({
       //     "images/qii3/Quality-Environmental-Standards/Framework for SDG-Aligned Finance.png",
       // },
       {
+        rId: 60,
         id: 3,
         paths:
           "https://www.ifc.org/en/stories/2024/new-technologies-powering-the-energy-transition-in-eap",
@@ -1324,6 +1383,7 @@ export const appDataSlice = createSlice({
           "images/qii3/QII3/Decarbonizing_Infrastructure/New_Technologies_Powering_The_Energy_Transition.png",
       },
       {
+        rId: 61,
         id: 3,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099325009122236722",
@@ -1399,6 +1459,7 @@ export const appDataSlice = createSlice({
       //     "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
       // },
       {
+        rId: 62,
         id: 3,
         paths:
           "https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80",
@@ -1418,6 +1479,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png",
       },
       {
+        rId: 63,
         id: 3,
         paths:
           "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
@@ -1437,6 +1499,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png",
       },
       {
+        rId: 64,
         id: 3,
         paths: "https://www.iso.org/popular-standards.html",
         type: "Framework",
@@ -1454,6 +1517,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Quality-Environmental-Standards/Infrastructure Standards.png",
       },
       {
+        rId: 65,
         id: 3,
         paths: "https://equator-principles.com/",
         type: "Framework",
@@ -1471,6 +1535,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Quality-Environmental-Standards/Equator Principles.png",
       },
       {
+        rId: 66,
         id: 3,
         paths: "https://www.usgbc.org/leed/rating-systems/leed-for-cities",
         type: "Framework",
@@ -1488,6 +1553,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png",
       },
       {
+        rId: 67,
         id: 3,
         paths: "https://breeam.com/breeam-infrastructure",
         type: "Framework",
@@ -1520,6 +1586,7 @@ export const appDataSlice = createSlice({
       //   image: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       // },
       {
+        rId: 68,
         id: 3,
         paths:
           "https://sdgfinance.undp.org/resource-library/framework-sdg-aligned-finance",
@@ -1537,6 +1604,7 @@ export const appDataSlice = createSlice({
         image: "images/qii3/shutterstock_2667061147.jpg",
       },
       {
+        rId: 69,
         id: 3,
         paths: "https://ghgprotocol.org/",
         type: "Framework",
@@ -1554,6 +1622,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Decarbonizing-Infrastructure/Greenhouse-Gas-Protocol.png",
       },
       {
+        rId: 70,
         id: 3,
         paths:
           "https://www.rics.org/profession-standards/rics-standards-and-guidance/sector-standards/construction-standards/whole-life-carbon-assessment/whole-life-carbon-assessment-implementation-guides-and-supporting-documents",
@@ -1572,6 +1641,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Decarbonizing-Infrastructure/RICS-Whole-Life-Carbon-Assessment-Standard.png",
       },
       {
+        rId: 71,
         id: 3,
         paths:
           "https://www.climatebonds.net/expertise/taxonomy/world-taxonomies",
@@ -1590,6 +1660,7 @@ export const appDataSlice = createSlice({
           "images/qii3/GreenFinancingforInfrastructure/World of Taxonomies.png",
       },
       {
+        rId: 72,
         id: 3,
         paths:
           "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en",
@@ -1608,6 +1679,7 @@ export const appDataSlice = createSlice({
           "images/qii3/GreenFinancingforInfrastructure/EU Taxonomy for Sustainable Activities.png",
       },
       {
+        rId: 73,
         id: 3,
         paths:
           "https://www.climatebonds.net/expertise/standard-sector-criteria-certification/sector-criteria",
@@ -1625,6 +1697,7 @@ export const appDataSlice = createSlice({
         image: "images/qii3/Sector_Specific.png",
       },
       {
+        rId: 74,
         id: 3,
         paths:
           "https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/green-bond-principles-gbp/",
@@ -1642,6 +1715,7 @@ export const appDataSlice = createSlice({
         image: "images/qii3/GBP.png",
       },
       {
+        rId: 75,
         id: 3,
         paths: "https://greenchecker.eib.org/",
         type: "Framework",
@@ -1661,6 +1735,7 @@ export const appDataSlice = createSlice({
       //Guidance-qii3
 
       {
+        rId: 76,
         id: 3,
         paths: "https://www.unep.org/geo/global-environment-outlook-7",
         type: "Guidance note",
@@ -1677,6 +1752,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Quality-Environmental-Standards/Global-Environment-Outlook.png",
       },
       {
+        rId: 77,
         id: 3,
         paths:
           "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
@@ -1696,6 +1772,7 @@ export const appDataSlice = createSlice({
           "images/qii3/QII3/Decarbonizing_Infrastructure/Building_Green_Sustainable_Construction.png",
       },
       {
+        rId: 78,
         id: 3,
         paths:
           "https://wedocs.unep.org/rest/api/core/bitstreams/979a0cdb-3d3e-4f4a-b899-96c97f412d0d/content",
@@ -1714,6 +1791,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Infrastructure - Guide for Water Management.png",
       },
       {
+        rId: 79,
         id: 3,
         // paths:
         //   "https://www.unpri.org/infrastructure/integrating-biodiversity-considerations-into-infrastructure/11611.article",
@@ -1734,6 +1812,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/UN Principles for Responsible Investment Integrating Biodiversity Considerations into Infrastructure.png",
       },
       {
+        rId: 80,
         id: 3,
         paths: "https://climateinstitute.edhec.edu/climatech-project",
         type: "Guidance note",
@@ -1754,6 +1833,7 @@ export const appDataSlice = createSlice({
 
       //data-qii3
       {
+        rId: 81,
         id: 3,
         paths: "https://infrastructure-transition.gihub.org/data/",
         type: "Data",
@@ -1773,6 +1853,7 @@ export const appDataSlice = createSlice({
 
       //Report-qii3
       {
+        rId: 82,
         id: 3,
         paths: "https://doi.org/10.1787/a74a45b0-en",
         type: "Report",
@@ -1790,6 +1871,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png",
       },
       {
+        rId: 83,
         id: 3,
         paths:
           "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf",
@@ -1827,6 +1909,7 @@ export const appDataSlice = createSlice({
       //     "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
       // },
       {
+        rId: 84,
         id: 3,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/ddda3ed0-096e-59dd-a25d-3de884254eba",
@@ -1846,6 +1929,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Integrating Green and Gray Creating Next Generation Infrastructure.png",
       },
       {
+        rId: 85,
         id: 3,
         paths:
           "https://documents1.worldbank.org/curated/en/102951623742853259/pdf/Green-Roads-for-Water-Guidelines-for-Road-Infrastructure-in-Support-of-Water-Management-and-Climate-Resilience.pdf",
@@ -1864,6 +1948,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png",
       },
       {
+        rId: 86,
         id: 3,
         paths:
           "https://worldbankgroup.sharepoint.com/sites/WBSUR/SitePages/PublishingPages/Resilient%20Infrastruc-1746476033225.aspx",
@@ -1884,6 +1969,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png",
       },
       {
+        rId: 87,
         id: 3,
         paths: "https://www.naturebasedsolutions.org/knowledge-hub",
         type: "Report",
@@ -1900,6 +1986,7 @@ export const appDataSlice = createSlice({
         image: "images/qii3/shutterstock_2201000683.jpg",
       },
       {
+        rId: 88,
         id: 3,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/f350c5c0-b17b-4f35-ad29-cb3ddc101958",
@@ -1918,6 +2005,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/The-Nature-Based-Solutions-Opportunity-Scan.png",
       },
       {
+        rId: 89,
         id: 3,
         paths:
           "https://documents1.worldbank.org/curated/en/099050725135521570/pdf/P501013-299da78d-86cc-4f74-a095-cde17655875a.pdf",
@@ -1937,6 +2025,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Financing-Climate-AdaptationandNature-Based-Infrastructure.png",
       },
       {
+        rId: 90,
         id: 3,
         paths: "https://www.naturebasedsolutions.org/",
         type: "Report",
@@ -1956,6 +2045,7 @@ export const appDataSlice = createSlice({
 
       //video-qii3
       {
+        rId: 91,
         id: 3,
         paths: "https://www.youtube.com/watch?v=XqFihz4k7Kk",
         type: "Video",
@@ -1993,6 +2083,7 @@ export const appDataSlice = createSlice({
       //promote-qii4
 
       {
+        rId: 92,
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/db0df170-6101-526e-8fc8-d0e448196fc4",
@@ -2011,6 +2102,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/Learning from Mega-disasters Japan Case Study.png",
       },
       {
+        rId: 93,
         id: 4,
         paths: "https://thinkhazard.org/en/",
         type: "Data",
@@ -2027,6 +2119,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/updated/GDFR_Thinkhazard.png",
       },
       {
+        rId: 94,
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099032625173042760",
@@ -2045,6 +2138,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Disaster and Climate-Resilient Transport Guidance Note.png",
       },
       {
+        rId: 95,
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
@@ -2064,6 +2158,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
       },
       {
+        rId: 96,
         id: 4,
         paths: "https://documentsinternal.worldbank.org/Search/34392134",
         type: "Report",
@@ -2081,6 +2176,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png",
       },
       {
+        rId: 97,
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725",
@@ -2102,6 +2198,7 @@ export const appDataSlice = createSlice({
 
       //case study-qii4
       {
+        rId: 98,
         id: 1,
         paths: "/qii4casestudy4",
         type: "Case Study",
@@ -2117,6 +2214,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/updated/QII-4-in-Action.png",
       },
       {
+        rId: 99,
         id: 1,
         paths: "/qii4casestudy1",
         type: "Case Study",
@@ -2135,6 +2233,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/updated/Futakotamagawa.png",
       },
       {
+        rId: 100,
         id: 1,
         paths: "/qii4casestudy2",
         type: "Case Study",
@@ -2152,6 +2251,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/updated/Shibaura_Wastewater_Management.png",
       },
       {
+        rId: 101,
         id: 1,
         paths: "/qii4casestudy3",
         type: "Case Study",
@@ -2168,6 +2268,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/updated/Diagnosing-Road-Network.jpg",
       },
       {
+        rId: 102,
         id: 4,
         paths: "https://georisk.gov.ph/",
         type: "Case study  ",
@@ -2186,6 +2287,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png",
       },
       {
+        rId: 103,
         id: 4,
         paths:
           "https://www.worldbank.org/en/news/feature/2025/07/17/jamaica-how-investments-in-disaster-resilience-helped-protect-communities",
@@ -2204,6 +2306,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/Jamaica Disaster Vulnerability Reduction Project.png",
       },
       {
+        rId: 104,
         id: 4,
         paths:
           "https://www.gfdrr.org/sites/default/files/publication/pda-2015-vanuatu.pdf",
@@ -2222,6 +2325,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png",
       },
       {
+        rId: 105,
         id: 4,
         paths:
           "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean",
@@ -2241,6 +2345,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png",
       },
       {
+        rId: 106,
         id: 4,
         paths:
           "https://www.worldbank.org/en/news/press-release/2025/07/10/building-resilient-afe-infrastructure-protecting-access-connectivity-and-communities",
@@ -2259,6 +2364,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Modular Bridges in Madagascar.png",
       },
       {
+        rId: 107,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf",
@@ -2277,6 +2383,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
       },
       {
+        rId: 108,
         id: 4,
         paths:
           "https://nbi.iisd.org/report/savi-forest-restoration-brantas-river-basin-indonesia/",
@@ -2296,6 +2403,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia.png",
       },
       {
+        rId: 109,
         id: 4,
         paths:
           "https://sustainability-coalition.org/case-study/philippines-energy-development-corporation/",
@@ -2314,6 +2422,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png",
       },
       {
+        rId: 110,
         id: 4,
         paths:
           "https://www.conservation.org/projects/vida-manglar-carbon-project",
@@ -2331,6 +2440,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/updated/Vida-Manglar-Colombia.png",
       },
       {
+        rId: 111,
         id: 4,
         paths:
           "https://www.gfdrr.org/sites/default/files/publication/Learning%20from%20Megadisasters%20%20Lessons%20from%20the%20Great%20East%20Japan%20Earthquake.pdf",
@@ -2350,6 +2460,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Learning from Mega-disasters Japan Case Study.png",
       },
       {
+        rId: 112,
         id: 4,
         paths:
           "https://www.nature.org/content/dam/tnc/nature/en/documents/GCTWF-Business-Case-April-2019.pdf",
@@ -2368,6 +2479,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Greater Cape Town Water Fund Business Case.png",
       },
       {
+        rId: 113,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/099111623162584046/pdf/P17785201f69be0150909902c3a7202107e.pdf",
@@ -2386,6 +2498,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png",
       },
       {
+        rId: 114,
         id: 4,
         paths: "https://www.worldbank.org/en/programs/tokyo-drm-hub",
         type: "Case study",
@@ -2401,6 +2514,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/Fukuoka image.png",
       },
       {
+        rId: 115,
         id: 4,
         paths: "https://www.gfdrr.org/en",
         type: "Case Study",
@@ -2418,6 +2532,7 @@ export const appDataSlice = createSlice({
 
       //Framework-qii4
       {
+        rId: 116,
         id: 4,
         paths:
           "https://cdn.prod.website-files.com/64869a932dab4d8c36a88774/68a44d2347380f7f25d23d24_ST01_V2_05.12.2024.pdf",
@@ -2437,6 +2552,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/ResilientDesignAndOperation/FAST-Infra Label.png",
       },
       {
+        rId: 117,
         id: 4,
         paths:
           "https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass",
@@ -2455,6 +2571,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/EU Taxonomy Compass.png",
       },
       {
+        rId: 118,
         id: 4,
         paths:
           "https://www.gfdrr.org/en/publication/building-code-checklist-structural-resilience",
@@ -2473,6 +2590,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Building Code Checklist for Structural Resilience.png",
       },
       {
+        rId: 119,
         id: 4,
         paths:
           "https://www.climatebonds.net/files/documents/supporting-documents/Climate-Bonds_CBRT-v1-Final-003-User-View_Protected-version2-2-1.xlsx",
@@ -2508,6 +2626,7 @@ export const appDataSlice = createSlice({
       // },
 
       {
+        rId: 120,
         id: 4,
         paths: "https://www.iisd.org/savi/",
         type: "Framework",
@@ -2525,6 +2644,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi).png",
       },
       {
+        rId: 121,
         id: 4,
         paths:
           "https://www.worldbank.org/en/topic/sustainableinfrastructurefinance/brief/climate-toolkits-for-infrastructure-ppps",
@@ -2543,6 +2663,7 @@ export const appDataSlice = createSlice({
           "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
       },
       {
+        rId: 122,
         id: 4,
         paths:
           "https://www.ncsc.gov.uk/collection/cyber-assessment-framework/introduction-to-caf#section_1",
@@ -2561,6 +2682,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png",
       },
       {
+        rId: 123,
         id: 4,
         paths: "https://doi.org/10.1787/4fdf9eaf-en",
         type: "Framework",
@@ -2579,6 +2701,7 @@ export const appDataSlice = createSlice({
 
       //guidance-qii4
       {
+        rId: 124,
         id: 4,
         paths:
           "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
@@ -2598,6 +2721,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1).png",
       },
       {
+        rId: 125,
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150011892",
@@ -2617,6 +2741,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience Roads, Railways, and Urban Transport.png",
       },
       {
+        rId: 126,
         id: 4,
         paths:
           "https://www.gfdrr.org/en/publication/building-regulatory-capacity-assessment-brca-20-methodology",
@@ -2635,6 +2760,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Building Regulatory Capacity Assessment.png",
       },
       {
+        rId: 127,
         id: 4,
         paths:
           "https://www.gfdrr.org/en/feature-story/assessing-benefits-and-costs-nature-based-solutions",
@@ -2654,6 +2780,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Assessing the Benefits and Costs of Nature-Based Solutions for Climate Resilience A Guideline for Project Developers (GFDRR).png",
       },
       {
+        rId: 128,
         id: 4,
         paths:
           "https://www.iigcc.org/hubfs/2025%20resources%20upload/Physical%20Climate%20Risk%20Appraisal%20Methodology%202.0%20IIGCC%202025.pdf",
@@ -2672,6 +2799,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Physical Climate Risk Appraisal Methodology.png",
       },
       {
+        rId: 129,
         id: 4,
         paths:
           "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
@@ -2690,6 +2818,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png",
       },
       {
+        rId: 130,
         id: 4,
         paths:
           "https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment",
@@ -2707,6 +2836,7 @@ export const appDataSlice = createSlice({
         image: "images/qii4/updated/The-cyber-threat-environment.png",
       },
       {
+        rId: 131,
         id: 4,
         paths:
           "https://www.gfdrr.org/sites/default/files/publication/Learning%20from%20Megadisasters%20%20Lessons%20from%20the%20Great%20East%20Japan%20Earthquake.pdf",
@@ -2744,6 +2874,7 @@ export const appDataSlice = createSlice({
 
       //data-qii4
       {
+        rId: 132,
         id: 4,
         paths: "https://climateknowledgeportal.worldbank.org/ ",
         type: "Data",
@@ -2761,6 +2892,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
       },
       {
+        rId: 133,
         id: 4,
         paths:
           "https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Climate-Change/INFORM-Climate-Change-Tool",
@@ -2779,6 +2911,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/INFORM Climate Change Tool (European Commission).png",
       },
       {
+        rId: 134,
         id: 4,
         paths: "https://gain.nd.edu/our-work/country-index/rankings/",
         type: "Data",
@@ -2796,6 +2929,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/Notre Dame Global Adaptation Initiative.png",
       },
       {
+        rId: 135,
         id: 4,
         paths:
           "https://infrastructure-toolkit.oecd.org/governance/strengthen-critical-infrastructure-resilience/",
@@ -2815,6 +2949,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/OECD Infrastructure Toolkit Strengthening Critical Infrastructure Resilience.png",
       },
       {
+        rId: 136,
         id: 4,
         paths: "https://giri.unepgrid.ch/",
         type: "Data",
@@ -2834,6 +2969,7 @@ export const appDataSlice = createSlice({
 
       //report-qii4
       {
+        rId: 137,
         id: 4,
         paths: "https://openknowledge.worldbank.org/handle/10986/21875",
         type: "Report",
@@ -2852,6 +2988,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png",
       },
       {
+        rId: 138,
         id: 4,
         paths: "https://www.gfdrr.org/en/disaster-risk-profiles",
         type: "Report",
@@ -2869,6 +3006,7 @@ export const appDataSlice = createSlice({
           "images/qii4/DiagnosingVulnerabilities/Disaster Risk Profiles (GFDRR).png",
       },
       {
+        rId: 139,
         id: 4,
         paths:
           "https://ppp.worldbank.org/sites/default/files/2022-04/IPFResiliencedrmhubtokyo.pdf",
@@ -2888,6 +3026,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Resilience-in-Infrastructure-Prioritization-Japan-Road-Transport-Sector.jpg",
       },
       {
+        rId: 140,
         id: 4,
         paths: "https://www.gfdrr.org/en/publication/building-back-better",
         type: "Report",
@@ -2905,6 +3044,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Building-Back-Better.jpg",
       },
       {
+        rId: 141,
         id: 4,
         paths:
           "https://www.nist.gov/publications/functional-recovery-lifeline-infrastructure-system-services",
@@ -2924,6 +3064,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Functional-Recovery-of-Lifeline-Infrastructure-System-Services.jpg",
       },
       {
+        rId: 142,
         id: 4,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/04/digital-security-and-resilience-in-critical-infrastructure-and-essential-services_5593c149/a7097901-en.pdf",
@@ -2943,6 +3084,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Digital-Security-and-Resilience-in-Critical-Infrastructure-and-Essential-Services.jpg",
       },
       {
+        rId: 143,
         id: 4,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/11/building-resilience_6b655137/354aa2aa-en.pdf",
@@ -2962,6 +3104,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.jpg",
       },
       {
+        rId: 144,
         id: 4,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/12/digital-public-infrastructure-for-digital-governments_11fe17d9/ff525dc8-en.pdf",
@@ -2980,6 +3123,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Digital Public Infrastructure for Digital Governments.png",
       },
       {
+        rId: 145,
         id: 4,
         paths:
           "https://www.preventionweb.net/publication/building-regulations-sub-saharan-africa-status-review-building-regulatory-environment",
@@ -2999,6 +3143,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png",
       },
       {
+        rId: 146,
         id: 4,
         paths:
           "https://www.worldbank.org/en/topic/disasterriskmanagement/publication/stronger-building-codes-for-a-safer-more-resilient-future",
@@ -3018,6 +3163,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/Stronger Building Codes for a Safer, More Resilient Future.png",
       },
       {
+        rId: 147,
         id: 4,
         paths: "https://cdri.world/upload/biennial/CH4.1-CCRI.pdf",
         type: "Report",
@@ -3035,6 +3181,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
       },
       {
+        rId: 148,
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150032182",
@@ -3054,6 +3201,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png",
       },
       {
+        rId: 149,
         id: 4,
         paths: "https://www.gfdrr.org/en/disaster-risk-finance",
         type: "Report",
@@ -3071,6 +3219,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       },
       {
+        rId: 150,
         id: 4,
         paths:
           "https://www.oecd.org/en/publications/g20-oecd-report-on-approaches-for-financing-and-investing-in-climate-resilient-infrastructure_8f6d436a-en.html",
@@ -3090,6 +3239,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/G20-OECD Report on approaches for financing and investing in climate-resilient infrastructure.png",
       },
       {
+        rId: 151,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/099062623085028392/pdf/P17263707c36b702309f7303dbb7266e1cf.pdf",
@@ -3108,6 +3258,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).jpg",
       },
       {
+        rId: 152,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/546611605298449211/pdf/The-Adaptation-Principles-A-Guide-for-Designing-Strategies-for-Climate-Change-Adaptation-and-Resilience.pdf",
@@ -3125,6 +3276,7 @@ export const appDataSlice = createSlice({
         image: "images/newresource/Adaptation-Principles.png",
       },
       {
+        rId: 153,
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/c3a753a6-2310-501b-a37e-5dcab3e96a0b",
@@ -3142,6 +3294,7 @@ export const appDataSlice = createSlice({
         image: "images/newresource/Lifelines-The-Resilient-Infrastructure.png",
       },
       {
+        rId: 154,
         id: 4,
         paths:
           "https://www.oecd.org/en/publications/climate-resilient-infrastructure_4fdf9eaf-en.html",
@@ -3160,6 +3313,7 @@ export const appDataSlice = createSlice({
           "images/newresource/OECD-Compendium-of-Good-Practices-on-Quality-Infrastructure.png",
       },
       {
+        rId: 155,
         id: 4,
         paths:
           "https://cdri.world/financing-for-disaster-andclimate-resilient-infrastructure/",
@@ -3176,6 +3330,7 @@ export const appDataSlice = createSlice({
         image: "images/newresource/CDRI-Resilience-Dividend.png",
       },
       {
+        rId: 156,
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
@@ -3193,6 +3348,7 @@ export const appDataSlice = createSlice({
         image: "images/newresource/PPIAF-Financing-Climate.png",
       },
       {
+        rId: 157,
         id: 4,
         paths:
           "https://blogs.worldbank.org/en/climatechange/the-triple-dividend--investing-in-resilience-to-boost-growth-and",
@@ -3209,6 +3365,7 @@ export const appDataSlice = createSlice({
         image: "images/newresource/Triple-Dividend-of-Resilience.png",
       },
       {
+        rId: 158,
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/6f69f235-edf6-40b9-9a4b-5efad46630aa",
@@ -3227,6 +3384,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/A Global Assessment of Building Codes.png",
       },
       {
+        rId: 159,
         id: 4,
         paths:
           "https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf",
@@ -3246,6 +3404,7 @@ export const appDataSlice = createSlice({
           "images/qii4/ResilientDesignAndOperation/IFC Catalogue of Nature Based Solutions for Infrastructure Projects.png",
       },
       {
+        rId: 160,
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/c33e226c-2fbb-5e11-8c21-7b711ecbc725",
@@ -3266,6 +3425,7 @@ export const appDataSlice = createSlice({
 
       //blog-qii4
       {
+        rId: 161,
         id: 4,
         paths:
           "https://blogs.worldbank.org/en/climatechange/building-resilience-in-investment-projects--the-power-of-resilie",
@@ -3302,6 +3462,7 @@ export const appDataSlice = createSlice({
       // },
 
       {
+        rId: 162,
         id: 4,
         paths: "https://www.gfdrr.org/en/disaster-risk-finance",
         type: "Blog",
@@ -3318,6 +3479,7 @@ export const appDataSlice = createSlice({
           "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       },
       {
+        rId: 163,
         id: 4,
         paths:
           "https://blogs.worldbank.org/en/ppps/japan-and-world-bank-working-together-build-resilient-infrastructure",
@@ -3341,6 +3503,7 @@ export const appDataSlice = createSlice({
 
       //promote-qii5
       {
+        rId: 164,
         id: 4,
         paths:
           "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
@@ -3358,6 +3521,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2248195609.jpg",
       },
       {
+        rId: 165,
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
@@ -3375,6 +3539,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2543199469.jpg",
       },
       {
+        rId: 166,
         id: 4,
         paths: "https://www.worldbank.org/en/about/rated-criteria",
         type: "Framework",
@@ -3391,6 +3556,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2698330999.jpg",
       },
       {
+        rId: 167,
         id: 4,
         paths:
           "https://ppp.worldbank.org/sub-national-ppp/bidding-documents-and-contractual-provisions-regarding-inclusion-smes-ppps?utm",
@@ -3409,6 +3575,7 @@ export const appDataSlice = createSlice({
           "images/qii5/ProjectPlanningandDesign/World-Bank-Bidding-Documents-Contractual-Provisions-for-Inclusion.png",
       },
       {
+        rId: 168,
         id: 4,
         paths:
           "https://www.jica.go.jp/Resource/english/our_work/thematic_issues/social/c8h0vm00005znamu-att/guideline_social_01.pdf",
@@ -3427,6 +3594,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2528902161.jpg",
       },
       {
+        rId: 169,
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
@@ -3446,6 +3614,7 @@ export const appDataSlice = createSlice({
 
       //Case Study-qii5
       {
+        rId: 170,
         id: 4,
         paths:
           "https://projects.worldbank.org/en/projects-operations/project-detail/P160594",
@@ -3464,6 +3633,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2401273073.jpg",
       },
       {
+        rId: 171,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
@@ -3482,6 +3652,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2346783481.jpg",
       },
       {
+        rId: 172,
         id: 4,
         paths: "https://www.legislation.gov.uk/eudr/2019/882",
         type: "Case study",
@@ -3499,6 +3670,7 @@ export const appDataSlice = createSlice({
           "images/qii5/PoliciesandRegulation/EU-Accessibility-Act(2019).png",
       },
       {
+        rId: 173,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
@@ -3516,6 +3688,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_1725363121.jpg",
       },
       {
+        rId: 174,
         id: 4,
         paths:
           "https://www.oecd.org/en/publications/providing-local-actors-with-case-studies-evidence-and-solutions-places_eb108047-en/hachioji-city-utilising-3d-city-models-and-augmented-reality-to-enhance-local-public-engagement_ab018d21-en.html",
@@ -3533,6 +3706,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/StakeholderEngagement/Hachioji-City-Japan.png",
       },
       {
+        rId: 175,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
@@ -3550,6 +3724,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/StakeholderEngagement/Maputo.png",
       },
       {
+        rId: 176,
         id: 4,
         paths:
           "https://finance.go.ug/sites/default/files/reports/Stakeholder-Engagement-Plan-SEP-PIMs-P511206-June-11-2025.pdf",
@@ -3567,6 +3742,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_623620481.jpg",
       },
       {
+        rId: 177,
         id: 4,
         paths: "",
         type: "Case Study",
@@ -3583,6 +3759,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2309884753.jpg",
       },
       {
+        rId: 178,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
@@ -3599,6 +3776,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2543651931.jpg",
       },
       {
+        rId: 179,
         id: 4,
         paths:
           "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
@@ -3619,6 +3797,7 @@ export const appDataSlice = createSlice({
 
       //guidance-qii5
       {
+        rId: 180,
         id: 4,
         paths:
           "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
@@ -3637,6 +3816,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2660299639.jpg",
       },
       {
+        rId: 181,
         id: 4,
         paths:
           "https://ukgreencitiesandinfrastructure.org/resource/inclusivity-in-procurement/",
@@ -3656,6 +3836,7 @@ export const appDataSlice = createSlice({
           "images/qii5/ProjectPlanningandDesign/UK-Green-Cities-Infrastructure-(ICED)-facility.png",
       },
       {
+        rId: 182,
         id: 4,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
@@ -3673,6 +3854,7 @@ export const appDataSlice = createSlice({
           "images/qii5/PoliciesandRegulation/Mainstreaming-Gender-in-Infrastructure–Gender-Action-Plan.png",
       },
       {
+        rId: 183,
         id: 4,
         paths:
           "https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source",
@@ -3692,6 +3874,7 @@ export const appDataSlice = createSlice({
           "images/qii5/PoliciesandRegulation/Asian-Development-Bank(ADB)—Gender-Equality-and-Social-Inclusion.png",
       },
       {
+        rId: 184,
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/63c07ff8-cd1e-52c0-9441-005b9aa22bcf",
@@ -3711,6 +3894,7 @@ export const appDataSlice = createSlice({
           "images/qii5/PoliciesandRegulation/Gender-Inclusive-Urban-Planning-Design.png",
       },
       {
+        rId: 185,
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
@@ -3730,6 +3914,7 @@ export const appDataSlice = createSlice({
           "images/qii5/PoliciesandRegulation/Inclusive-Infrastructure –Policy-Regulation&Standards.png",
       },
       {
+        rId: 186,
         id: 4,
         paths:
           "https://www.oecd.org/en/publications/oecd-principles-for-private-sector-participation-in-infrastructure_9789264034105-en.html",
@@ -3748,6 +3933,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2478900781.jpg",
       },
       {
+        rId: 187,
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/stakeholder-identification-engagement-and-empowerment",
@@ -3765,6 +3951,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2528541047.jpg",
       },
       {
+        rId: 188,
         id: 4,
         paths: "https://openknowledge.worldbank.org/handle/10986/37259",
         type: "Guidance note",
@@ -3780,6 +3967,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/ProjectPlanningandDesign/Silver-Hues.png",
       },
       {
+        rId: 189,
         id: 4,
         paths:
           "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
@@ -3800,6 +3988,7 @@ export const appDataSlice = createSlice({
 
       //Framework-qii5
       {
+        rId: 190,
         id: 4,
         paths: "https://www.iso.org/obp/ui/en/#iso:std:iso:21542:ed-2:v1:en",
         type: "Framework",
@@ -3818,6 +4007,7 @@ export const appDataSlice = createSlice({
           "images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png",
       },
       {
+        rId: 191,
         id: 4,
         paths: "https://www.responsiblecontracting.org/",
         type: "Framework",
@@ -3834,6 +4024,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2476215753.jpg",
       },
       {
+        rId: 192,
         id: 4,
         paths: "https://www.bluedot-network.org/",
         type: "Framework",
@@ -3851,6 +4042,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
       },
       {
+        rId: 193,
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/383011492423734099/the-world-bank-environmental-and-social-framework",
@@ -3870,6 +4062,7 @@ export const appDataSlice = createSlice({
           "images/qii5/PoliciesandRegulation/Environmental-and-Social-Framework.png",
       },
       {
+        rId: 194,
         id: 4,
         paths: "https://www.fastinfralabel.org/",
         type: "Framework",
@@ -3888,6 +4081,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/PoliciesandRegulation/FAST-Infra-Label.png",
       },
       {
+        rId: 195,
         id: 4,
         paths: "https://www.ada.gov/law-and-regs/design-standards/2010-stds/",
         type: "Framework",
@@ -3908,6 +4102,7 @@ export const appDataSlice = createSlice({
 
       //Report-qii5
       {
+        rId: 196,
         id: 4,
         paths:
           "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
@@ -3925,6 +4120,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2535975537.jpg",
       },
       {
+        rId: 197,
         id: 4,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/09/to-have-and-have-not-how-to-bridge-the-gap-in-opportunities_f642138a/dec143ad-en.pdf",
@@ -3943,6 +4139,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/PoliciesandRegulation/To-Have-and-Have-Not.png",
       },
       {
+        rId: 198,
         id: 4,
         paths:
           "https://ppp.worldbank.org/sites/default/files/2020-09/Gender-and-PPPs_Report_interactive.pdf",
@@ -3960,6 +4157,7 @@ export const appDataSlice = createSlice({
         image: "images/qii5/shutterstock_2535975537.jpg",
       },
       {
+        rId: 199,
         id: 4,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
@@ -3978,6 +4176,7 @@ export const appDataSlice = createSlice({
           "images/qii5/StakeholderEngagement/Mainstreaming-Gender-in-Infrastructure.png",
       },
       {
+        rId: 200,
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
@@ -3996,6 +4195,7 @@ export const appDataSlice = createSlice({
 
       //blog-qii5
       {
+        rId: 201,
         id: 4,
         paths:
           "https://blogs.worldbank.org/en/governance/mainstreaming-gender-public-procurement",
@@ -4014,6 +4214,7 @@ export const appDataSlice = createSlice({
           "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
       },
       {
+        rId: 202,
         id: 4,
         paths:
           "https://blogs.worldbank.org/en/ppps/japan-and-world-bank-advancing-universal-design-urban-planning",
@@ -4036,6 +4237,7 @@ export const appDataSlice = createSlice({
 
       //promote-qii6
       {
+        rId: 203,
         id: 5,
         paths:
           "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
@@ -4054,6 +4256,7 @@ export const appDataSlice = createSlice({
           "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
       },
       {
+        rId: 204,
         id: 5,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2017/03/getting-infrastructure-right_g1g77a22/9789264272453-en.pdf",
@@ -4071,6 +4274,7 @@ export const appDataSlice = createSlice({
         image: "images/qii6/shutterstock_1832080000.jpg",
       },
       {
+        rId: 205,
         id: 5,
         paths: "https://www.jasca2021.jp/",
         type: "Case Study",
@@ -4088,6 +4292,7 @@ export const appDataSlice = createSlice({
           "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       },
       {
+        rId: 206,
         id: 5,
         paths:
           "https://www.worldbank.org/en/data/interactive/2022/10/21/govtech-maturity-index-gtmi-data-dashboard",
@@ -4106,6 +4311,7 @@ export const appDataSlice = createSlice({
           "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
       },
       {
+        rId: 207,
         id: 5,
         paths:
           "https://www.oecd.org/en/publications/digital-public-infrastructure-for-digital-governments_ff525dc8-en.html",
@@ -4122,6 +4328,7 @@ export const appDataSlice = createSlice({
         image: "images/qii6/shutterstock_2370519757.jpg",
       },
       {
+        rId: 208,
         id: 5,
         paths: "https://infrastructuregovern.imf.org/",
         type: "Framework",
@@ -4141,6 +4348,7 @@ export const appDataSlice = createSlice({
 
       //case study-qii6
       {
+        rId: 209,
         id: 5,
         paths: "/not-given",
         type: "Case Study",
@@ -4157,6 +4365,7 @@ export const appDataSlice = createSlice({
         image: "images/qii6/shutterstock_2660000293.jpg",
       },
       {
+        rId: 210,
         id: 5,
         paths:
           "https://www.opengovpartnership.org/wp-content/uploads/2017/05/case-study_Indonesia_One-Map-Policy_0.pdf",
@@ -4192,6 +4401,7 @@ export const appDataSlice = createSlice({
       //   image: "images/qii6/shutterstock_2653389623.jpg",
       // },
       {
+        rId: 211,
         id: 5,
         paths: "pdf/Albania Results Story_FINAL_March 04 2024(2).pdf",
         type: "Case Study",
@@ -4209,6 +4419,7 @@ export const appDataSlice = createSlice({
         image: "images/qii6/Govtech_For_Infrastructure/Albania.png",
       },
       {
+        rId: 212,
         id: 5,
         paths: "pdf/Albania Innovations_Results Story_March 2024.pdf",
         type: "Case Study",
@@ -4226,6 +4437,7 @@ export const appDataSlice = createSlice({
         image: "images/qii6/shutterstock_2668786185.jpg",
       },
       {
+        rId: 213,
         id: 5,
         paths:
           "https://www.worldbank.org/en/news/press-release/2023/09/28/world-bank-and-kosovo-sign-agreement-to-support-digital-governance-for-service-delivery",
@@ -4246,6 +4458,7 @@ export const appDataSlice = createSlice({
 
       //guidance-qii6
       {
+        rId: 214,
         id: 5,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/08/effective-multi-level-public-investment_4bcedf6d/c3bc625b-en.pdf",
@@ -4264,6 +4477,7 @@ export const appDataSlice = createSlice({
           "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
       },
       {
+        rId: 215,
         id: 5,
         paths:
           "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
@@ -4281,6 +4495,7 @@ export const appDataSlice = createSlice({
         image: "images/qii6/shutterstock_2704307853.jpg",
       },
       {
+        rId: 216,
         id: 5,
         paths:
           "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
@@ -4299,6 +4514,7 @@ export const appDataSlice = createSlice({
           "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
       },
       {
+        rId: 217,
         id: 5,
         paths:
           "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
@@ -4335,6 +4551,7 @@ export const appDataSlice = createSlice({
       // },
 
       {
+        rId: 218,
         id: 5,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/07/oecd-implementation-handbook-for-quality-infrastructure-investment_b9131199/479131b2-en.pdf",
@@ -4371,6 +4588,7 @@ export const appDataSlice = createSlice({
 
       //framework-qii6
       {
+        rId: 219,
         id: 5,
         paths:
           "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
@@ -4424,6 +4642,7 @@ export const appDataSlice = createSlice({
       //   image: "images/qii6/shutterstock_2661513413.jpg",
       // },
       {
+        rId: 220,
         id: 5,
         paths:
           "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
@@ -4443,6 +4662,7 @@ export const appDataSlice = createSlice({
 
       //data-qii6
       {
+        rId: 221,
         id: 5,
         paths: "https://data.worldbank.org/",
         type: "Data",

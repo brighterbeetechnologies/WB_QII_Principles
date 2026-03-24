@@ -4,6 +4,9 @@ import { setShowVideo, setVideoData } from "../slices/appDataSlice";
 import { useDispatch } from "react-redux";
 import { Popover, Tooltip } from "antd";
 import { Link, useNavigate } from "react-router-dom";
+import { updateCardClick } from "../utils/cardRanking";
+
+
 export default function CardBox({ card }) {
   const dispatch = useDispatch();
   const openVideo = (url, title, width, height) => {
@@ -62,7 +65,7 @@ export default function CardBox({ card }) {
                 />
               ))}
           </h3>
-          <p className="card-desc"> 
+          <p className="card-desc">
             <Popover
               content={
                 <div className="resource-popover-content">{card.desc}</div>
@@ -91,6 +94,8 @@ export default function CardBox({ card }) {
                 className="btn primary"
                 href={card.paths}
                 target={card.topResource ? "_self" : "_blank"}
+                // onClick={() => console.log("My id is:", card.rId)}
+                onClick={() => updateCardClick(card.rId)}
               >
                 {/* See The {card.type} */}
                 <span className="icon-arrow">&#xe900;</span>
@@ -100,6 +105,8 @@ export default function CardBox({ card }) {
                 className="btn primary"
                 to={card.paths}
                 target={card.topResource ? "_self" : "_blank"}
+                // onClick={() => console.log("My id is:", card.rId)}
+                onClick={() => updateCardClick(card.rId)}
               >
                 {/* See The {card.type} */}
                 <span className="icon-arrow">&#xe900;</span>
@@ -108,8 +115,12 @@ export default function CardBox({ card }) {
             {card.videoUrl && (
               <button
                 className="btn primary video_btn"
+                // onClick={() => {
+                //   openVideo(card.videoUrl, card.videoTitle, 1920, 1080);
+                // }}
                 onClick={() => {
-                  openVideo(card.videoUrl, card.videoTitle, 1920, 1080);
+                  updateCardClick(card.rId);
+                  openVideo(card.videoUrl, card.videoTitle, 1920, 1080); 
                 }}
               >
                 Video <span className="icon-video">&#xe91e;</span>

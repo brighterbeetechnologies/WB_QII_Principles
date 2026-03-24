@@ -12,6 +12,7 @@ import VCardsPagination from "../components/VCardsPagination";
 export default function CostRecovery() {
   const resourceArray = [
     {
+      rId: 4,
       id: 0,
       // country: "Global",
       title:
@@ -24,6 +25,7 @@ export default function CostRecovery() {
       path: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
     },
     {
+      rId: 5,
       id: 1,
       // country: "Global",
       title:
@@ -36,6 +38,7 @@ export default function CostRecovery() {
       path: "https://ppp.worldbank.org/public-private-partnership/library/life-cycle-cost-analysis-management-highway-assets",
     },
     {
+      rId: 6,
       id: 2,
       // country: "Global",
       title: "Global: Municipal Public-Private Partnership Framework",
@@ -47,6 +50,7 @@ export default function CostRecovery() {
       path: "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2020-02/World Bank_Municipal PPP_Module 16_Content.pdf",
     },
     {
+      rId: 40,
       id: 3,
       // country: "Cross-Regional",
       title:
@@ -59,6 +63,7 @@ export default function CostRecovery() {
       path: "https://thedocs.worldbank.org/en/doc/89d9f9d960bb2870ac1592b041232094-0070012024/original/Monetizing-carbon-credits-in-energy-and-agri-sectors-Agritechnica-May-22-2024.pdf",
     },
     {
+      rId: 28,
       id: 4,
       // country: "Global",
       title: "Global: Revenue Levers to Fund Infrastructure",
@@ -71,6 +76,7 @@ export default function CostRecovery() {
       path: "https://www.gihub.org/innovative-funding-and-financing/revenue-levers/",
     },
     {
+      rId: 41,
       id: 4,
       // country: "Global",
       title:
@@ -89,6 +95,7 @@ export default function CostRecovery() {
   const step1Cards = [
     {
       image: "images/costRecovery/Timor-Leste.png",
+      rId: 24,
       title: (
         <p>
           Timor-Leste <br />
@@ -108,6 +115,7 @@ export default function CostRecovery() {
     },
     {
       image: "images/costRecovery/Maldives.png",
+      rId: 25,
       title: (
         <p>
           Maldives
@@ -131,6 +139,7 @@ export default function CostRecovery() {
     },
     {
       image: "images/costRecovery/TroubledTariffs.png",
+      rId: 29,
       title: (
         <p>
           Global <br />
@@ -156,6 +165,7 @@ export default function CostRecovery() {
   const step2Cards = [
     {
       image: "images/costRecovery/India.png",
+      rId: 26,
       title: (
         <p>
           India
@@ -176,6 +186,7 @@ export default function CostRecovery() {
     },
     {
       image: "images/costRecovery/InnovativeRevenues.png",
+      rId: 44,
       title: (
         <p>
           Global <br />
@@ -197,6 +208,7 @@ export default function CostRecovery() {
 
   const step3Cards = [
     {
+      rId: 27,
       image: "images/qii4/updated/Shibaura_Wastewater_Management.png",
       title: (
         <p>
@@ -223,6 +235,7 @@ export default function CostRecovery() {
     },
     {
       image: "images/costRecovery/Argentina.png",
+      rId: 27,
       title: (
         <p>
           Argentina
@@ -243,6 +256,7 @@ export default function CostRecovery() {
     },
     {
       image: "images/costRecovery/lvc.png",
+      rId: 36,
       title: (
         <p>
           Global <br />

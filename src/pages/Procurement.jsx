@@ -23,6 +23,7 @@ export default function Procurement() {
         "This primer provides an introduction to LCCA as a method for comparing the total long-term costs, including agency and user costs, of alternative infrastructure project designs. It explains the step-by-step LCCA process, key concepts, and practical implementation issues.",
       img_path: "images/procurement/resources/01.png",
       path: "https://www.fhwa.dot.gov/pavement/lcca/010621.pdf",
+      rId: 8
     },
 
     {
@@ -36,6 +37,7 @@ export default function Procurement() {
         "This report presents strategies and practical recommendations for strengthening infrastructure resilience and maintenance, emphasizing a holistic, life-cycle approach. It covers regulatory frameworks, innovation (including digital and nature-based solutions), and funding models to help governments optimize existing assets and build new, sustainable infrastructure resilient to future risk.",
       img_path: "images/procurement/resources/02.png",
       path: "https://www.oecd.org/en/publications/building-resilience_354aa2aa-en.html",
+      rId: 32,
     },
     {
       id: 2,
@@ -47,9 +49,11 @@ export default function Procurement() {
         "This report critically examines Public-Private Partnerships (PPPs), considering their benefits and drawbacks. It provides guidance on institutional frameworks, fiscal implications, government support, and unsolicited proposals, emphasizing rigorous value-for-money analysis and risk management to avoid common pitfalls and maximize public benefit.",
       img_path: "images/procurement/resources/03.png",
       path: "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
+      rId: 33,
     },
     {
       id: 3,
+      rId: 31,
       // country: "Global",
       title:
         "Global: Well Maintained: Economic Benefits from More Reliable and Resilient Infrastructure",
@@ -62,6 +66,7 @@ export default function Procurement() {
     },
     {
       id: 4,
+      rId: 34,
       // country: "Global",
       title: "Global: Life-Cycle Costing in Sustainable Public Procurement",
       type: "Report",
@@ -111,6 +116,7 @@ export default function Procurement() {
       link2:
         "https://www.gihub.org/innovative-funding-and-financing/case-studies/clean-ganga-program/",
       highlight: 1,
+      rId: 16,
       content: (
         <p>
           Summarizes a procurement approach where annuity payments were linked
@@ -129,6 +135,7 @@ export default function Procurement() {
           World Bank
         </p>
       ),
+      rId: 15,
       buttonText: "Case Study",
       link: "https://www.ppiaf.org/documents/5629",
       content: (
@@ -150,6 +157,7 @@ export default function Procurement() {
           Global Infrastructure Hub
         </p>
       ),
+      rId: 43,
       buttonText: "Guidance note",
       link: "https://www.gihub.org/infrastructure-output-specifications/",
       content: (
@@ -172,6 +180,7 @@ export default function Procurement() {
           Global Infrastructure Hub
         </p>
       ),
+      rId: 17,
       buttonText: "Case Study",
       link: "https://www.gihub.org/infrastructure-technology-use-cases/case-studies/pre-fabrication-technology-for-modular-construction/",
       content: (
@@ -192,6 +201,7 @@ export default function Procurement() {
           World Bank
         </p>
       ),
+      rId: 30,
       buttonText: "Report",
       link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/522181612428427520/disruptive-technologies-in-public-procurement",
       content: (

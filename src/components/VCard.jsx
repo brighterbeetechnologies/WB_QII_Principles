@@ -2,12 +2,14 @@ import React from "react";
 import "./VCard.css";
 import { setShowVideo, setVideoData } from "../slices/appDataSlice";
 import { useDispatch } from "react-redux";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function VCard({
   image,
   title,
   buttonText,
   children,
+  rId,
   link,
   buttonText2,
   link2,
@@ -48,7 +50,11 @@ export default function VCard({
           />
           <div
             className="VCard-video-gif-play-button"
-            onClick={openVideo}
+            // onClick={openVideo}
+            onClick={() => {
+              updateCardClick(rId);
+              openVideo();
+            }}
           ></div>
           <div className="video-gif-badge">Video</div>
           <div className="VCard-video-duration">
@@ -103,6 +109,7 @@ export default function VCard({
             target="_blank"
             rel="noopener noreferrer"
             className={`VCard-btn ${!link ? "disabled" : ""}`}
+            onClick={() => updateCardClick(rId)}
           >
             <span className="icon-arrow">&#xe900;</span>
           </a>
@@ -120,6 +127,7 @@ export default function VCard({
               target="_blank"
               rel="noopener noreferrer"
               className={`VCard-btn ${!link2 ? "disabled" : ""}`}
+              onClick={() => updateCardClick(rId)}
             >
               <span className="icon-arrow">&#xe900;</span>
             </a>

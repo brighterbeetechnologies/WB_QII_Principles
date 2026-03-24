@@ -7,6 +7,7 @@ import CardBox from "../components/CardBox";
 import { principles } from "../slices/appDataSlice";
 // import { principles1 } from "../slices/appDataSlice";
 import { ConfigProvider, Pagination } from "antd";
+import { getSortedCards } from "../utils/cardRanking";
 
 export default function ResourceLibrary({ subPages, preSelected }) {
   const principleArray = useSelector(principles);
@@ -121,11 +122,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
       const matchPrinciple =
         principleFilters.length === 0 ||
         principleFilters.includes(course.principles);
-      // const matchPrinciple =
-      //   selectedPrinciple.length === 0 ||
-      //   selectedPrinciple.includes(course.principles);
-     
-     
+
       const query = searchQuery.toLowerCase();
 
       const matchSearch =
@@ -145,11 +142,21 @@ export default function ResourceLibrary({ subPages, preSelected }) {
         matchIndustry &&
         matchRegion &&
         matchPrinciple &&
-        matchSearch 
+        matchSearch
       );
     });
 
-    setFilteredCourses(filtered);
+    const isFilterApplied =
+      selectedFilters.length > 0 || searchQuery.trim() !== "";
+
+    // setFilteredCourses(filtered);
+    // added for ranking
+    // setFilteredCourses(getSortedCards(filtered));
+    if (isFilterApplied) {
+      setFilteredCourses(filtered);
+    } else {
+      setFilteredCourses(getSortedCards(filtered));
+    }
     setIndex(0);
   }, [selectedFilters, selectedPrinciple, searchQuery]);
 
@@ -179,30 +186,6 @@ export default function ResourceLibrary({ subPages, preSelected }) {
         <img src="images/circle_left.png" />
       </div>
       <h2 className="section-title light-font">QII Principles and Resources</h2>
-      {/* <div className="principles-btn-cnt">
-        {principleArray.map((p, idx) => (
-          <button
-            className={`btn primary principle_btn ${
-              selectedPrinciple.includes(p.id) ? "selected" : ""
-            }`}
-            key={idx}
-            onClick={() => {
-              togglePrinciple(p.id);
-            }}
-          >
-            {p.title}
-          </button>
-        ))}
-      </div> */}
-      {/* <div className="principles-btn-cnt">
-        {subPages?.map((pages) => {
-          return (
-            <Link to={pages.path} className="btn primary">
-              {pages.title} <span className="icon-arrow">&#xe900;</span>
-            </Link>
-          );
-        })}
-      </div> */}
       <div className="brk-line"></div>
       <div className="filter-cnt">
         <FilterDropDown

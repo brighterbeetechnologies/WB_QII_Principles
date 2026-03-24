@@ -28,6 +28,7 @@ const VCardsPagination = ({ cardsData }) => {
             duration={card.duration}
             width={card.width}
             height={card.height}
+            rId={card.rId} 
           >
             {card.content}
           </VCard>

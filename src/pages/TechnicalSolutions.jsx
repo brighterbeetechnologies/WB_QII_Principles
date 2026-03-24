@@ -13,6 +13,7 @@ export default function TechnicalSolutions() {
     {
       id: 0,
       // country: "Global",
+      rId: 42,
       title: "Global: InfraTech Portal ",
       type: "Data",
       // org: "Asian Infrastructure Investment Bank",
@@ -24,6 +25,7 @@ export default function TechnicalSolutions() {
     {
       id: 1,
       // country: "Global",
+      rId: 45,
       title: "Global: InfraTech Policy Toolkit",
       // org: "World Bank",
       type: "Guidance note",
@@ -35,8 +37,9 @@ export default function TechnicalSolutions() {
     },
     {
       id: 2,
+      rId: 37,
       // country: "Global",
-      title: "Global: Nature-Based Solutions for Infrastructure Projects ",
+      title: "Global: Nature-Based Solutions for Infrastructure Projects",
       type: "Report",
       // org: "International Finance Corporation",
       description:
@@ -46,6 +49,7 @@ export default function TechnicalSolutions() {
     },
     {
       id: 3,
+      rId: 38,
       // country: "Global",
       title: "Global: Global BIM Network",
       // org: "UK Foreign, Commonwealth and Development Office",
@@ -57,6 +61,7 @@ export default function TechnicalSolutions() {
     },
     {
       id: 4,
+      rId: 39,
       // country: "Global",
       title: "Global: IEA Technology Roadmaps",
       // org: "International Energy Agency",
@@ -73,6 +78,7 @@ export default function TechnicalSolutions() {
   const step1Cards = [
     {
       image: "images/procurement/Pre-Fabrication.png",
+      rId: 17,
       title: (
         <p>
           Global <br />
@@ -93,6 +99,7 @@ export default function TechnicalSolutions() {
     },
     {
       image: "images/technicalSolutions/SolomonIslands.png",
+      rId: 18,
       title: (
         <p>
           Cross-Regional <br />
@@ -118,6 +125,7 @@ export default function TechnicalSolutions() {
     },
     {
       image: "images/technicalSolutions/SouthAfrica.png",
+      rId: 19,
       title: (
         <p>
           South Africa <br />
@@ -142,6 +150,7 @@ export default function TechnicalSolutions() {
   const step2Cards = [
     {
       image: "images/technicalSolutions/Peru.png",
+      rId: 20,
       title: (
         <p>
           Peru <br />
@@ -168,6 +177,7 @@ export default function TechnicalSolutions() {
     },
     {
       image: "images/technicalSolutions/Vietnam.png",
+      rId: 21,
       title: (
         <p>
           Vietnam <br />
@@ -196,6 +206,7 @@ export default function TechnicalSolutions() {
   const step3Cards = [
     {
       image: "images/technicalSolutions/AIanddeep.png",
+      rId: 22,
       title: (
         <p>
           Cross-Regional <br />
@@ -219,6 +230,7 @@ export default function TechnicalSolutions() {
     },
     {
       image: "images/technicalSolutions/SensorsAndMachine.png",
+      rId: 23,
       title: (
         <p>
           Global <br />
