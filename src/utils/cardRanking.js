@@ -1,4 +1,5 @@
 export const updateCardClick = (id) => {
+  if (!id) return;
   let storedData = JSON.parse(localStorage.getItem("cardClicks")) || {};
 
   storedData[id] = (storedData[id] || 0) + 1;

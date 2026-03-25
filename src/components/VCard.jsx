@@ -109,14 +109,22 @@ export default function VCard({
             target="_blank"
             rel="noopener noreferrer"
             className={`VCard-btn ${!link ? "disabled" : ""}`}
-            onClick={() => updateCardClick(rId)}
+            // onClick={() => updateCardClick(rId)}
+            onClick={(e) => {
+              e.preventDefault();
+              // console.log("CLICKED:", rId);
+              updateCardClick(rId);
+              if (link) {
+                window.open(link, "_blank");
+              }
+            }}
           >
             <span className="icon-arrow">&#xe900;</span>
           </a>
         </div>
 
         {buttonText2 && (
-          <div className="v-btn-cnt">
+          <div className="v-btn-cnt"> 
             <p>{buttonText2}</p>
             {/* <strong>{buttonText2}</strong> */}
             {/* <a href={link2} target="_blank" className="VCard-btn ">
@@ -127,7 +135,15 @@ export default function VCard({
               target="_blank"
               rel="noopener noreferrer"
               className={`VCard-btn ${!link2 ? "disabled" : ""}`}
-              onClick={() => updateCardClick(rId)}
+              // onClick={() => updateCardClick(rId)}
+              onClick={(e) => {
+                e.preventDefault();
+                // console.log("CLICKED:", rId);
+                updateCardClick(rId);
+                if (link2) {
+                  window.open(link2, "_blank");
+                }
+              }}
             >
               <span className="icon-arrow">&#xe900;</span>
             </a>

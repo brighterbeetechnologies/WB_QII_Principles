@@ -2,12 +2,15 @@ import React from "react";
 import "./ListImageText.css";
 import { useDispatch } from "react-redux";
 import { setShowVideo, setVideoData } from "../slices/appDataSlice";
+import { updateCardClick } from "../utils/cardRanking";
+
 export default function ListImageText({
   step,
   title,
   children,
   description,
   image,
+  rId,
   isVideo,
   videoUrl,
   videoTitle,
@@ -50,7 +53,10 @@ export default function ListImageText({
               <div className="video-gif-badge">VIDEO</div>
               <div
                 className={`video-gif-play-button ${videoDisable && "video-gif-play-button-disable"}`}
-                onClick={openVideo}
+                onClick={() => {
+                  updateCardClick(rId);
+                  openVideo();
+                }}
               ></div>
               <div className="video-gif-meta">
                 <div className="video-gif-meta-item">
@@ -80,13 +86,37 @@ export default function ListImageText({
 
         <div className="case-footer">
           <strong>{buttonText}</strong>
-          <a href={link} target="_blank" className="case-btn ">
+          <a
+            href={link}
+            target="_blank"
+            className="case-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              // console.log("CLICKED:", rId);
+              updateCardClick(rId);
+              if (link) {
+                window.open(link, "_blank");
+              }
+            }}
+          >
             <span className="icon-arrow">&#xe900;</span>
           </a>
           {buttonText2 && (
             <>
               <strong>{buttonText2}</strong>
-              <a href={link2} target="_blank" className="case-btn ">
+              <a
+                href={link2}
+                target="_blank"
+                className="case-btn"
+                onClick={(e) => {
+                  e.preventDefault();
+                  // console.log("CLICKED:", rId);
+                  updateCardClick(rId);
+                  if (link2) {
+                    window.open(link2, "_blank");
+                  }
+                }}
+              >
                 <span className="icon-arrow">&#xe900;</span>
               </a>
             </>

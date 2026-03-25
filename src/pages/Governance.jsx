@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function Governance() {
   const resourceArray = [
@@ -145,6 +146,7 @@ export default function Governance() {
           </p>
           <ListImageText
             step="1"
+            rId={11}
             title={
               <p>
                 <strong>Clear Institutional Roles​</strong>
@@ -202,6 +204,7 @@ export default function Governance() {
 
           <ListImageText
             step="2"
+            rId={1}
             title={
               <p>
                 <strong>
@@ -261,6 +264,7 @@ export default function Governance() {
           <div className="border-dash"></div>
           <ListImageText
             step="3"
+            rId={12}
             title={
               <p>
                 <strong>
@@ -312,6 +316,7 @@ export default function Governance() {
           <div className="border-dash"></div>
           <ListImageText
             step="4"
+            rId={12}
             title={
               <p>
                 <strong>Effective Capacity Building</strong>
@@ -371,6 +376,7 @@ export default function Governance() {
           <div className="border-dash"></div>
           <ListImageText
             step="5"
+            rId= {14}
             title={
               <p>
                 <strong>
@@ -511,13 +517,27 @@ export default function Governance() {
                         </div>
                       </Popover>
                       <div className="page-resource-btn-cnt">
-                        <a
+                        {/* <a
                           className="page-resource-arrow"
                           href={p.path}
                           target="_blank"
                         >
                           <span className="icon-arrow">&#xe900;</span>
-                        </a>
+                        </a> */}
+                        <a
+                          className="page-resource-arrow"
+                          href={p.path}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => {
+                            e.preventDefault(); 
+                            updateCardClick(p.rId);
+
+                            if (p.path) {
+                              window.open(p.path, "_blank");
+                            }
+                          }}
+                        ><span className="icon-arrow">&#xe900;</span></a>
                       </div>
                     </div>
                   </div>

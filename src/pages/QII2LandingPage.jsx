@@ -17,6 +17,7 @@ import ImagewithStatement from "../components/ImagewithStatement";
 import QII2CaseStudy1 from "./QII2CaseStudy1";
 import "./QII2CaseStudy.css";
 import Video from "../components/Video";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
@@ -31,6 +32,7 @@ export default function QII2LandingPage() {
   ]);
   const resourceArray = [
     {
+      rId: 8,
       id: 0,
       title: "India: Ganga River Wastewater Program",
       country: false,
@@ -43,6 +45,7 @@ export default function QII2LandingPage() {
       target: "_self",
     },
     {
+      rId: 9,
       id: 1,
       title:
         "Global: Assessing Economic Efficiency of Long-Term Road Asset Management Strategies",
@@ -55,6 +58,7 @@ export default function QII2LandingPage() {
       target: "_blank",
     },
     {
+      rId: 10,
       id: 2,
       title: "Global: Life-Cycle Costing in Public Procurement in Hungary",
       // country: "Hungary",
@@ -515,6 +519,16 @@ export default function QII2LandingPage() {
                               className="page-resource-arrow"
                               href={p.path}
                               target={p.target}
+                              rel="noopener noreferrer"
+                              onClick={(e) => {
+                                e.preventDefault(); 
+
+                                updateCardClick(p.rId); 
+
+                                if (p.path) {
+                                  window.open(p.path, "_blank"); 
+                                }
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </a>
@@ -523,6 +537,9 @@ export default function QII2LandingPage() {
                               className="page-resource-arrow"
                               to={p.path}
                               target={p.target}
+                              onClick={() => {
+                                updateCardClick(p.rId); 
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </Link>

@@ -61,4 +61,4 @@ const VCardsPagination = ({ cardsData }) => {
   );
 };
 
-export default VCardsPagination;
+export default VCardsPagination; 

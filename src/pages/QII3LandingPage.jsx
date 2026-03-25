@@ -18,6 +18,7 @@ import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
 import Video from "../components/Video";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function QII3LandingPage() {
   const dispatch = useDispatch();
@@ -282,6 +283,7 @@ export default function QII3LandingPage() {
 
   const resourceArray = [
     {
+      rId: 52,
       id: 0,
       title:
         "Timor-Leste: Tibar Bay Port: Applying Quality Environmental and Social Standards",
@@ -295,6 +297,7 @@ export default function QII3LandingPage() {
       target: "_blank",
     },
     {
+      rId: 99,
       id: 1,
       // country: "Japan",
       title:
@@ -308,6 +311,7 @@ export default function QII3LandingPage() {
       target: "_self",
     },
     {
+      rId: 54,
       id: 2,
       title: "South Africa: Cape Town Green Bond",
       // country: "South Africa",
@@ -681,6 +685,16 @@ export default function QII3LandingPage() {
                               className="page-resource-arrow"
                               href={p.path}
                               target={p.target}
+                              rel="noopener noreferrer"
+                              onClick={(e) => {
+                                e.preventDefault();
+
+                                updateCardClick(p.rId);
+
+                                if (p.path) {
+                                  window.open(p.path, "_blank");
+                                }
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </a>
@@ -689,6 +703,9 @@ export default function QII3LandingPage() {
                               className="page-resource-arrow"
                               to={p.path}
                               target={p.target}
+                              onClick={() => {
+                                updateCardClick(p.rId);
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </Link>

@@ -63,6 +63,7 @@ export default function QualityEnvironmentalStandards() {
     // },
     {
       image: "images/qii3/shutterstock_2607341901.jpg",
+      rId: 52,
       title: (
         <p>
           Timor-Leste <br />
@@ -91,6 +92,7 @@ export default function QualityEnvironmentalStandards() {
     {
       image:
         "images/qii3/Quality-Environmental-Standards/Environmental and Social Framework (ESF).png",
+      rId: 62,
       title: (
         <p>
           Global <br />
@@ -114,6 +116,7 @@ export default function QualityEnvironmentalStandards() {
     {
       image:
         "images/qii3/Quality-Environmental-Standards/IFC Performance Standards on Environmental and Social Sustainability.png",
+      rId: 63,
       title: (
         <p>
           Global <br />

@@ -8,6 +8,8 @@ import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
+import { updateCardClick } from "../utils/cardRanking";
+
 export default function TechnicalSolutions() {
   const resourceArray = [
     {
@@ -638,6 +640,15 @@ export default function TechnicalSolutions() {
                           className="page-resource-arrow"
                           href={p.path}
                           target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            updateCardClick(p.rId);
+
+                            if (p.path) {
+                              window.open(p.path, "_blank");
+                            }
+                          }}
                         >
                           <span className="icon-arrow">&#xe900;</span>
                         </a>

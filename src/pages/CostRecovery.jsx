@@ -8,6 +8,7 @@ import { useDispatch } from "react-redux";
 import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
 import VCardsPagination from "../components/VCardsPagination";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function CostRecovery() {
   const resourceArray = [
@@ -208,7 +209,7 @@ export default function CostRecovery() {
 
   const step3Cards = [
     {
-      rId: 27,
+      rId: 100,
       image: "images/qii4/updated/Shibaura_Wastewater_Management.png",
       title: (
         <p>
@@ -626,6 +627,15 @@ export default function CostRecovery() {
                           className="page-resource-arrow"
                           href={p.path}
                           target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            updateCardClick(p.rId);
+
+                            if (p.path) {
+                              window.open(p.path, "_blank");
+                            }
+                          }}
                         >
                           <span className="icon-arrow">&#xe900;</span>
                         </a>

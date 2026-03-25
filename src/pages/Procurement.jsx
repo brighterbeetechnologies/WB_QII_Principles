@@ -10,10 +10,12 @@ import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function Procurement() {
   const resourceArray = [
     {
+      rId: 8,
       id: 0,
       // country: "Global",
       title: "Global: Life-Cycle Cost Analysis Primer",
@@ -23,10 +25,10 @@ export default function Procurement() {
         "This primer provides an introduction to LCCA as a method for comparing the total long-term costs, including agency and user costs, of alternative infrastructure project designs. It explains the step-by-step LCCA process, key concepts, and practical implementation issues.",
       img_path: "images/procurement/resources/01.png",
       path: "https://www.fhwa.dot.gov/pavement/lcca/010621.pdf",
-      rId: 8
     },
 
     {
+      rId: 32,
       id: 1,
       // country: "Global",
       title:
@@ -37,9 +39,9 @@ export default function Procurement() {
         "This report presents strategies and practical recommendations for strengthening infrastructure resilience and maintenance, emphasizing a holistic, life-cycle approach. It covers regulatory frameworks, innovation (including digital and nature-based solutions), and funding models to help governments optimize existing assets and build new, sustainable infrastructure resilient to future risk.",
       img_path: "images/procurement/resources/02.png",
       path: "https://www.oecd.org/en/publications/building-resilience_354aa2aa-en.html",
-      rId: 32,
     },
     {
+      rId: 33,
       id: 2,
       // country: "Global",
       title: "Global: Bringing PPPs into the Sunlight",
@@ -49,7 +51,6 @@ export default function Procurement() {
         "This report critically examines Public-Private Partnerships (PPPs), considering their benefits and drawbacks. It provides guidance on institutional frameworks, fiscal implications, government support, and unsolicited proposals, emphasizing rigorous value-for-money analysis and risk management to avoid common pitfalls and maximize public benefit.",
       img_path: "images/procurement/resources/03.png",
       path: "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
-      rId: 33,
     },
     {
       id: 3,
@@ -515,6 +516,15 @@ export default function Procurement() {
                           className="page-resource-arrow"
                           href={p.path}
                           target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            updateCardClick(p.rId);
+
+                            if (p.path) {
+                              window.open(p.path, "_blank");
+                            }
+                          }}
                         >
                           <span className="icon-arrow">&#xe900;</span>
                         </a>
