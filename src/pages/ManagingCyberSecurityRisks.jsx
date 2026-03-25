@@ -14,6 +14,7 @@ export default function ManagingCyberSecurityRisks() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 113,
       image:
         "images/qii4/ManagingCyberSecurityRisks/Ghana A case study in strengthening cyber resilience (World Bank).png",
       title: (
@@ -35,6 +36,7 @@ export default function ManagingCyberSecurityRisks() {
       ),
     },
     {
+      rId: 223,
       image:
         "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
       title: (
@@ -53,6 +55,7 @@ export default function ManagingCyberSecurityRisks() {
       ),
     },
     {
+      rId: 122,
       image:
         "images/qii4/ManagingCyberSecurityRisks/UK The Cyber Assessment Framework (CAF) (National Cyber.png",
       title: (
@@ -73,6 +76,7 @@ export default function ManagingCyberSecurityRisks() {
       ),
     },
     {
+      rId: 151,
       image:
         "images/qii4/ManagingCyberSecurityRisks/Sectoral Cybersecurity Maturity Model (World Bank).jpg",
       title: (
@@ -93,6 +97,7 @@ export default function ManagingCyberSecurityRisks() {
       ),
     },
     {
+      rId: 96,
       image:
         "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Economics for Emerging Markets (World Bank).png",
       title: (
@@ -117,6 +122,7 @@ export default function ManagingCyberSecurityRisks() {
 
   const step2Cards = [
     {
+      rId: 129,
       image:
         "images/qii4/ManagingCyberSecurityRisks/Cybersecurity best practice for smart cities (CISA).png",
       title: (
@@ -136,6 +142,7 @@ export default function ManagingCyberSecurityRisks() {
       ),
     },
     {
+      rId: 130,
       image: "images/qii4/updated/The-cyber-threat-environment.png",
       title: (
         <p>

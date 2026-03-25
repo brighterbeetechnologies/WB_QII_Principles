@@ -1890,24 +1890,25 @@ export const appDataSlice = createSlice({
         image:
           "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
       },
-      // {
-      //   id: 3,
-      //   paths:
-      //     "https://www.iea.org/reports/net-zero-by-2050#overview",
-      //   type: "Report",
-      //   title: "Global: Net Zero by 2050",
-      //   principles: 2,
-      //   highlight: 0,
-      //   target: "_blank",
-      //   desc: "Pathways to net zero by 2050 for several infrastructure sectors, including the transport, electricity, buildings, and industry sectors.",
-      //   format: 5,
-      //   stage: 2,
-      //   income: 0,
-      //   region: 7,
-      //   industry: 2,
-      //   image:
-      //     "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
-      // },
+      {
+        rId: 222,
+        id: 3,
+        paths:
+          "https://www.iea.org/reports/net-zero-by-2050#overview",
+        type: "Report",
+        title: "Global: Net Zero by 2050",
+        principles: 2,
+        highlight: 0,
+        target: "_blank",
+        desc: "Pathways to net zero by 2050 for several infrastructure sectors, including the transport, electricity, buildings, and industry sectors.",
+        format: 5,
+        stage: 2,
+        income: 0,
+        region: 7,
+        industry: 2,
+        image:
+          "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Toolkits_for_Infrastructure_PPPs.png",
+      },
       {
         rId: 84,
         id: 3,
@@ -2216,7 +2217,7 @@ export const appDataSlice = createSlice({
       {
         rId: 99,
         id: 1,
-        paths: "/qii4casestudy1",
+        paths: "/qii3casestudy2",
         type: "Case Study",
         title:
           "Japan: Futakotamagawa: Integrating Flood Protection and Urban Renewal",
@@ -2853,24 +2854,25 @@ export const appDataSlice = createSlice({
         industry: 1,
         image: "images/newresource/Learning-from-Megadisasters-Lessons.png",
       },
-      // {
-      //   id: 4,
-      //   paths:
-      //     "pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf",
-      //   type: "Guidance note",
-      //   title: "Cybersecurity Assessment Toolkit for Smart Cities",
-      //   highlight: 0,
-      //   target: "_blank",
-      //   principles: 3,
-      //   desc: "The Cybersecurity Assessment Toolkit guides countries and sectors to assess, strengthen, and mainstream cyber resilience in critical infrastructure.",
-      //   format: 2,
-      //   stage: 4,
-      //   income: 0,
-      //   industry: 1,
-      //   pdf: true,
-      //   image:
-      //     "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
-      // },
+      {
+        rId: 223,
+        id: 4,
+        paths:
+          "pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf",
+        type: "Guidance note",
+        title: "Cybersecurity Assessment Toolkit for Smart Cities",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "The Cybersecurity Assessment Toolkit guides countries and sectors to assess, strengthen, and mainstream cyber resilience in critical infrastructure.",
+        format: 2,
+        stage: 4,
+        income: 0,
+        industry: 1,
+        pdf: true,
+        image:
+          "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
+      },
 
       //data-qii4
       {

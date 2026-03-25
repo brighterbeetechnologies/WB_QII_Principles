@@ -11,10 +11,12 @@ import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
 import { Popover, Tooltip } from "antd";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function QualityEnvironmentalStandards() {
   const resourceArray = [
     {
+      rId: 46,
       id: 0,
       title: "Global: Blue Dot Network",
       type: "Framework",
@@ -27,6 +29,7 @@ export default function QualityEnvironmentalStandards() {
       target: "_blank",
     },
     {
+      rId: 194,
       id: 1,
       title: "Global: FAST-Infra",
       type: "Framework",
@@ -146,6 +149,7 @@ export default function QualityEnvironmentalStandards() {
 
   const step2Cards = [
     {
+      rId: 64,
       image:
         "images/qii3/Quality-Environmental-Standards/Infrastructure_Standards.png",
       title: (
@@ -227,6 +231,7 @@ export default function QualityEnvironmentalStandards() {
       ),
     },
     {
+      rId: 65,
       image:
         "images/qii3/Quality-Environmental-Standards/Equator Principles.png",
       title: (
@@ -249,6 +254,7 @@ export default function QualityEnvironmentalStandards() {
       ),
     },
     {
+      rId: 66,
       image:
         "images/qii3/Quality-Environmental-Standards/LEED for Buildings.png",
       title: (
@@ -274,6 +280,7 @@ export default function QualityEnvironmentalStandards() {
       ),
     },
     {
+      rId: 67,
       image: "images/newresource/BREEAM-Infrastructure.png",
       title: (
         <p>
@@ -297,6 +304,7 @@ export default function QualityEnvironmentalStandards() {
 
   const step3Cards = [
     {
+      rId: 68,
       image: "images/qii3/shutterstock_2667061147.jpg",
       title: (
         <p>
@@ -318,6 +326,7 @@ export default function QualityEnvironmentalStandards() {
       ),
     },
     {
+      rId: 83,
       image:
         "images/qii3/Quality-Environmental-Standards/Infrastructure-Standards.png",
       title: (
@@ -343,6 +352,7 @@ export default function QualityEnvironmentalStandards() {
       ),
     },
     {
+      rId: 76,
       image:
         "images/qii3/Quality-Environmental-Standards/Global-Environment-Outlook.png",
       title: (
@@ -420,10 +430,10 @@ export default function QualityEnvironmentalStandards() {
             <br />
             <br />
             The <strong>World Bank Environmental and Social Framework </strong>
-            and the <strong> IFC Performance Standards</strong> exemplify
-            such standards and provide a strong foundation for applying
-            international environmental and social best practices to
-            infrastructure design and delivery.
+            and the <strong> IFC Performance Standards</strong> exemplify such
+            standards and provide a strong foundation for applying international
+            environmental and social best practices to infrastructure design and
+            delivery.
           </div>
           <VCardsPagination cardsData={step1Cards} />
           {/* <div className="VCard-cnt col3">
@@ -696,7 +706,16 @@ export default function QualityEnvironmentalStandards() {
                                 <a
                                   className="page-resource-arrow"
                                   href={p.path}
-                                  target={p.target}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    updateCardClick(p.rId);
+
+                                    if (p.path) {
+                                      window.open(p.path, "_blank");
+                                    }
+                                  }}
                                 >
                                   <span className="icon-arrow">&#xe900;</span>
                                 </a>

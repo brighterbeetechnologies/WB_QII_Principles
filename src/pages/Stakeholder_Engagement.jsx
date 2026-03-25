@@ -33,8 +33,8 @@ export default function Stakeholder_Engagement() {
 
   const step2Cards = [
     {
-      image:
-        "images/qii5/Qii5CaseStudy.jpg",
+      rId: 175,
+      image: "images/qii5/Qii5CaseStudy.jpg",
       title: (
         <p>
           Mozambique <br />
@@ -52,7 +52,7 @@ export default function Stakeholder_Engagement() {
       width: 1920,
       height: 1080,
       buttonText2: "Full Publication",
-      link2:"",
+      link2: "",
       highlight: 1,
       content: (
         <p>
@@ -63,12 +63,14 @@ export default function Stakeholder_Engagement() {
       ),
     },
     {
+      rId: 196,
       image: "images/qii5/shutterstock_2535975537.jpg",
       title: (
         <p>
           Global ​ <br />
           <strong>Gender Equality, Infrastructure and PPPs</strong>
-          <br />World Bank​
+          <br />
+          World Bank​
         </p>
       ),
       buttonText: "Report",
@@ -90,13 +92,15 @@ export default function Stakeholder_Engagement() {
       ),
     },
     {
+      rId: 199,
       image:
         "images/qii5/StakeholderEngagement/Mainstreaming-Gender-in-Infrastructure.png",
       title: (
         <p>
           Global <br />
           <strong>Mainstreaming Gender in Infrastructure</strong>
-          <br />World Bank​
+          <br />
+          World Bank​
         </p>
       ),
       buttonText: "Report",
@@ -118,6 +122,7 @@ export default function Stakeholder_Engagement() {
       ),
     },
     {
+      rId: 187,
       image: "images/qii5/shutterstock_2528541047.jpg",
       title: (
         <p>
@@ -126,7 +131,8 @@ export default function Stakeholder_Engagement() {
             Inclusive Infrastructure “Data Collection and Stakeholder
             Identification”
           </strong>
-          <br />Global Infrastructure Hub
+          <br />
+          Global Infrastructure Hub
         </p>
       ),
       buttonText: "Guidance note",
@@ -143,12 +149,14 @@ export default function Stakeholder_Engagement() {
 
   const step3Cards = [
     {
+      rId: 176,
       image: "images/qii5/shutterstock_623620481.jpg",
       title: (
         <p>
           Uganda <br />
           <strong>Stakeholder Engagement Plan</strong>
-          <br />Republic of Uganda
+          <br />
+          Republic of Uganda
         </p>
       ),
       buttonText: "Case Study",
@@ -164,12 +172,14 @@ export default function Stakeholder_Engagement() {
       ),
     },
     {
+      rId: 174,
       image: "images/qii5/StakeholderEngagement/Hachioji-City-Japan.png",
       title: (
         <p>
           Japan <br />
           <strong>Hachioji City</strong>
-          <br />Organization for Economic Co-operation and Development
+          <br />
+          Organization for Economic Co-operation and Development
         </p>
       ),
       buttonText: "Case Study",
@@ -184,6 +194,7 @@ export default function Stakeholder_Engagement() {
       ),
     },
     {
+      rId: 173,
       image: "images/qii5/shutterstock_1725363121.jpg",
       title: (
         <p>
@@ -203,6 +214,7 @@ export default function Stakeholder_Engagement() {
       ),
     },
     {
+      rId: 189,
       image:
         "images/qii5/StakeholderEngagement/OECD-Infrastructure-Toolkit.png",
       title: (

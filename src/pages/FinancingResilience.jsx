@@ -11,6 +11,7 @@ import ResourceLibrary from "./ResourceLibrary";
 import { Link } from "react-router-dom";
 import VCardsPagination from "../components/VCardsPagination";
 import { Popover, Tooltip } from "antd";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function FinancingResilience() {
   const slidesData = [
@@ -36,6 +37,7 @@ export default function FinancingResilience() {
 
   const resourceArray = [
     {
+      rId: 121,
       id: 0,
       // country: "Global",
       type: "Framework",
@@ -49,6 +51,7 @@ export default function FinancingResilience() {
       target: "_blank",
     },
     {
+      rId: 125,
       id: 1,
       // country: "Global",
       type: "Guidance note",
@@ -63,6 +66,7 @@ export default function FinancingResilience() {
       target: "_blank",
     },
     {
+      rId: 150,
       id: 2,
       // country: "Global",
       type: "Report",
@@ -77,6 +81,7 @@ export default function FinancingResilience() {
       target: "_blank",
     },
     {
+      rId: 147,
       id: 3,
       // country: "Global",
       type: "Report",
@@ -94,6 +99,7 @@ export default function FinancingResilience() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 119,
       image: "images/qii4/FinancingResilience/Climate Bonds Initiative.png",
       title: (
         <p>
@@ -112,6 +118,7 @@ export default function FinancingResilience() {
       ),
     },
     {
+      rId: 117,
       image: "images/qii4/FinancingResilience/EU Taxonomy Compass.png",
       title: (
         <p>
@@ -134,6 +141,7 @@ export default function FinancingResilience() {
       ),
     },
     {
+      rId: 116,
       image: "images/qii4/FinancingResilience/FAST-Infra Label.png",
       title: (
         <p>
@@ -158,6 +166,7 @@ export default function FinancingResilience() {
 
   const step2Cards = [
     {
+      rId: 107,
       image:
         "images/qii4/FinancingResilience/Philippine Water Revolving Fund.png",
       title: (
@@ -180,6 +189,7 @@ export default function FinancingResilience() {
       ),
     },
     {
+      rId: 109,
       image:
         "images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png",
       title: (
@@ -200,6 +210,7 @@ export default function FinancingResilience() {
       ),
     },
     {
+      rId: 110,
       image: "images/qii4/updated/Vida-Manglar-Colombia.png",
       title: (
         <p>
@@ -218,6 +229,7 @@ export default function FinancingResilience() {
       ),
     },
     {
+      rId: 148,
       image:
         "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
       title: (
@@ -241,6 +253,7 @@ export default function FinancingResilience() {
       ),
     },
     {
+      rId: 148,
       image:
         "images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png",
       title: (
@@ -264,6 +277,7 @@ export default function FinancingResilience() {
       ),
     },
     {
+      rId: 149,
       image: "images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png",
       title: (
         <p>
@@ -849,6 +863,16 @@ export default function FinancingResilience() {
                               className="page-resource-arrow"
                               href={p.path}
                               target={p.target}
+                              rel="noopener noreferrer"
+                              onClick={(e) => {
+                                e.preventDefault();
+
+                                updateCardClick(p.rId);
+
+                                if (p.path) {
+                                  window.open(p.path, "_blank");
+                                }
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </a>
@@ -857,6 +881,9 @@ export default function FinancingResilience() {
                               className="page-resource-arrow"
                               to={p.path}
                               target={p.target}
+                              onClick={() => {
+                                updateCardClick(p.rId);
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </Link>

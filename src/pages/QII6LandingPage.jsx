@@ -19,6 +19,7 @@ import Qii6ImagewithStatement from "../components/Qii6ImagewithStatement";
 import Video from "../components/Video";
 import QII6CaseStudy1 from "./QII6CaseStudy/QII6CaseStudy1";
 import "./QII2CaseStudy.css";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
@@ -33,6 +34,7 @@ export default function QII2LandingPage() {
   ]);
   const resourceArray = [
     {
+      rId: 212,
       id: 0,
       title:
         "Albania: ​Innovations to Accelerate Inclusive and High Impact Public Services",
@@ -47,6 +49,7 @@ export default function QII2LandingPage() {
       target: "_blank",
     },
     {
+      rId: 209,
       id: 0,
       title:
         "Global: Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era",
@@ -60,6 +63,7 @@ export default function QII2LandingPage() {
       target: "_blank",
     },
     {
+      rId: 213,
       id: 0,
       title:
         "Kosovo: Supporting Sustainable Digital Infrastructure through Innovation",
@@ -546,66 +550,38 @@ export default function QII2LandingPage() {
                             Read More...
                           </div>
                         </Popover>
-                        {/* <div className="page-resource-btn-cnt">
-                          {p.target === "_blank" ? (
-                            <a
-                              className="page-resource-arrow"
-                              href={p.path}
-                              target={p.target}
-                            >
-                              <span className="icon-arrow">&#xe900;</span>
-                            </a>
-                          ) : p.pdf? (
-                            
-                            <a 
-                              className="page-resource-arrow"
-                              href={p.path}
-                              target={p.target}
-                            >
-                              <span className="icon-arrow">&#xe900;</span>
-                            </a>
-                          ) : (
-                            
-                            <Link 
-                              className="page-resource-arrow"
-                              to={p.path}
-                              target={p.target}
-                            >
-                              <span className="icon-arrow">&#xe900;</span>
-                            </Link>
-                          )}
-                        </div> */}
                         <div className="page-resource-btn-cnt">
-                          {!p.path ? (
-                            <span className="page-resource-arrow disable-link">
-                              <span className="icon-arrow">&#xe900;</span>
-                            </span>
-                          ) : p.target === "_blank" ? (
-                            <a
-                              className="page-resource-arrow"
-                              href={p.path}
-                              target={p.target}
-                              rel="noopener noreferrer"
-                            >
-                              <span className="icon-arrow">&#xe900;</span>
-                            </a>
-                          ) : p.pdf ? (
-                            <a
-                              className="page-resource-arrow"
-                              href={p.path}
-                              target={p.target}
-                            >
-                              <span className="icon-arrow">&#xe900;</span>
-                            </a>
-                          ) : (
-                            <Link
-                              className="page-resource-arrow"
-                              to={p.path}
-                              target={p.target}
-                            >
-                              <span className="icon-arrow">&#xe900;</span>
-                            </Link>
-                          )}
+                          {p.path ? (
+                            p.target === "_blank" ? (
+                              <a
+                                className="page-resource-arrow"
+                                href={p.path}
+                                target={p.target}
+                                rel="noopener noreferrer"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  updateCardClick(p.rId);
+
+                                  if (p.path) {
+                                    window.open(p.path, "_blank");
+                                  }
+                                }}
+                              >
+                                <span className="icon-arrow">&#xe900;</span>
+                              </a>
+                            ) : (
+                              <Link
+                                className="page-resource-arrow"
+                                to={p.path}
+                                target={p.target}
+                                onClick={() => {
+                                  updateCardClick(p.rId);
+                                }}
+                              >
+                                <span className="icon-arrow">&#xe900;</span>
+                              </Link>
+                            )
+                          ) : null}
                         </div>
                       </div>
                     </div>

@@ -18,6 +18,8 @@ import ImagewithStatement from "../components/ImagewithStatement";
 import QII4CaseStudy4 from "./CaseStudy/QII4CaseStudy4";
 import "./QII2CaseStudy.css";
 import Video from "../components/Video";
+import { updateCardClick } from "../utils/cardRanking";
+
 export default function QII4LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -130,6 +132,7 @@ export default function QII4LandingPage() {
 
   const resourceArray = [
     {
+      rId: 53,
       id: 0,
       // country: "Japan",
       title:
@@ -156,6 +159,7 @@ export default function QII4LandingPage() {
       target: "_self",
     },
     {
+      rId: 101,
       id: 2,
       // country: "Cabo Verde",
       title:
@@ -692,6 +696,16 @@ export default function QII4LandingPage() {
                               className="page-resource-arrow"
                               href={p.path}
                               target={p.target}
+                              rel="noopener noreferrer"
+                              onClick={(e) => {
+                                e.preventDefault();
+
+                                updateCardClick(p.rId);
+
+                                if (p.path) {
+                                  window.open(p.path, "_blank");
+                                }
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </a>
@@ -700,6 +714,9 @@ export default function QII4LandingPage() {
                               className="page-resource-arrow"
                               to={p.path}
                               target={p.target}
+                              onClick={() => {
+                                updateCardClick(p.rId);
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </Link>

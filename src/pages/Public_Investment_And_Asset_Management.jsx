@@ -12,10 +12,13 @@ export default function Public_Investment_And_Asset_Management() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 220,
       image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
-        <p>Global <br />
-          <strong>Well Spent</strong> <br />International Monetary Fund
+        <p>
+          Global <br />
+          <strong>Well Spent</strong> <br />
+          International Monetary Fund
         </p>
       ),
       buttonText: "Guidance note",
@@ -41,10 +44,13 @@ export default function Public_Investment_And_Asset_Management() {
       ),
     },
     {
+      rId: 203,
       image: "images/qii6/Public_Investment_And_Asset_Management/IMF-PIMA.png",
       title: (
-        <p>Global <br />
-          <strong>Public Investment Management Assessment​</strong> <br />International Monetary Fund
+        <p>
+          Global <br />
+          <strong>Public Investment Management Assessment​</strong> <br />
+          International Monetary Fund
         </p>
       ),
       buttonText: "Guidance note",
@@ -62,10 +68,11 @@ export default function Public_Investment_And_Asset_Management() {
 
   const step2Cards = [
     {
-      image:
-        "images/qii6/shutterstock_2498436507.jpg",
+      rId: 218,
+      image: "images/qii6/shutterstock_2498436507.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Implementation Handbook for Quality Infrastructure Investment
           </strong>{" "}
@@ -86,10 +93,11 @@ export default function Public_Investment_And_Asset_Management() {
       ),
     },
     {
-      image:
-        "images/qii6/shutterstock_2653389623.jpg",
+      rId: 219,
+      image: "images/qii6/shutterstock_2653389623.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>InfraGov Assessment Framework</strong> <br />
           World Bank
         </p>
@@ -116,10 +124,11 @@ export default function Public_Investment_And_Asset_Management() {
       ),
     },
     {
-      image:
-        "images/qii6/shutterstock_1832080000.jpg",
+      rId: 204,
+      image: "images/qii6/shutterstock_1832080000.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Getting Infrastructure Right</strong> <br />
           Organisation for Economic Co-operation and Development
         </p>
@@ -148,10 +157,13 @@ export default function Public_Investment_And_Asset_Management() {
       ),
     },
     {
+      rId: 220,
       image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
-        <p>Global <br />
-          <strong>Well Spent</strong> <br />International Monetary Fund 
+        <p>
+          Global <br />
+          <strong>Well Spent</strong> <br />
+          International Monetary Fund
         </p>
       ),
       buttonText: "Guidance note",

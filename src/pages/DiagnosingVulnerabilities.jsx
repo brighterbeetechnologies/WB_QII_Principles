@@ -13,16 +13,16 @@ export default function DiagnosingVulnerabilities() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 102,
       image:
         "images/qii4/DiagnosingVulnerabilities/Geospatial Information Management.png",
       title: (
         <p>
           Philippines
           <br />
-          <strong>
-            Geospatial Information Management and Analysis Portal
-          </strong>
-          <br />GeoRiskPH
+          <strong>Geospatial Information Management and Analysis Portal</strong>
+          <br />
+          GeoRiskPH
           <br />
         </p>
       ),
@@ -38,6 +38,7 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 92,
       image:
         "images/qii4/DiagnosingVulnerabilities/Learning from Mega-disasters Japan Case Study.png",
       title: (
@@ -62,10 +63,12 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 132,
       image:
         "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Climate Knowledge Portal</strong>
           <br />
           World Bank
@@ -81,9 +84,11 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 93,
       image: "images/qii4/updated/GDFR_Thinkhazard.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>ThinkHazard!</strong>
           <br />
           GFDRR
@@ -105,10 +110,12 @@ export default function DiagnosingVulnerabilities() {
 
   const step2Cards = [
     {
+      rId: 104,
       image:
         "images/qii4/DiagnosingVulnerabilities/Vanuatu Post-Disaster Needs.png",
       title: (
-        <p>Vanuatu <br />
+        <p>
+          Vanuatu <br />
           <strong>Post-Disaster Needs Assessment</strong>
           <br />
           GFDRR
@@ -126,6 +133,7 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 137,
       image:
         "images/qii4/DiagnosingVulnerabilities/Climate Impact Assessment.png",
       title: (
@@ -151,10 +159,12 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 134,
       image:
         "images/qii4/DiagnosingVulnerabilities/Notre Dame Global Adaptation Initiative.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Notre Dame Global Adaptation Initiative</strong>
           <br />
           University of Notre Dame
@@ -174,10 +184,12 @@ export default function DiagnosingVulnerabilities() {
 
   const step3Cards = [
     {
+      rId: 103,
       image:
         "images/qii4/DiagnosingVulnerabilities/Jamaica Disaster Vulnerability Reduction Project.png",
       title: (
-        <p>Jamaica <br />
+        <p>
+          Jamaica <br />
           <strong>Disaster Vulnerability Reduction Project</strong>
           <br /> World Bank​
         </p>
@@ -196,13 +208,13 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 124,
       image:
         "images/qii4/DiagnosingVulnerabilities/Initial Sea Level Rise Risk Assessment for Nauru (Chapter 5.6.1).png",
       title: (
-        <p>Cross-Regional <br />
-          <strong>
-            Initial Sea Level Rise Risk Assessment for Nauru
-          </strong>
+        <p>
+          Cross-Regional <br />
+          <strong>Initial Sea Level Rise Risk Assessment for Nauru</strong>
           <br />
           Pacific Regional Infrastructure Facility
         </p>
@@ -211,16 +223,19 @@ export default function DiagnosingVulnerabilities() {
       link: "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
       content: (
         <p>
-          Chapter 5.6.1- A conceptual sea level rise assessment has been completed for Nauru to
-          assess potential infrastructure risk and vulnerability.
+          Chapter 5.6.1- A conceptual sea level rise assessment has been
+          completed for Nauru to assess potential infrastructure risk and
+          vulnerability.
         </p>
       ),
     },
     {
+      rId: 138,
       image:
         "images/qii4/DiagnosingVulnerabilities/Disaster Risk Profiles (GFDRR).png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Disaster Risk Profiles</strong>
           <br />
           GFDRR
@@ -239,10 +254,12 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 161,
       image:
         "images/qii4/DiagnosingVulnerabilities/World Bank Climate Knowledge Portal.png",
       title: (
-        <p>Nepal <br />
+        <p>
+          Nepal <br />
           <strong>Resilience Rating System</strong>
           <br />
           World Bank
@@ -259,13 +276,13 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 136,
       image:
         "images/qii4/DiagnosingVulnerabilities/Global Infrastructure Risk.png",
       title: (
-        <p>Global <br />
-          <strong>
-            Global Infrastructure Risk Model and Resilience Index
-          </strong>
+        <p>
+          Global <br />
+          <strong>Global Infrastructure Risk Model and Resilience Index</strong>
           <br />
           Coalition for Disaster Resilient Infrastructure
         </p>
@@ -280,10 +297,12 @@ export default function DiagnosingVulnerabilities() {
       ),
     },
     {
+      rId: 133,
       image:
         "images/qii4/DiagnosingVulnerabilities/INFORM Climate Change Tool (European Commission).png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>INFORM Climate Change Tool</strong>
           <br />
           European Commission

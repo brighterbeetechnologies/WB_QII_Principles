@@ -12,9 +12,11 @@ export default function Policies_Standards_Regulation() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 197,
       image: "images/qii5/PoliciesandRegulation/To-Have-and-Have-Not.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             To Have and Have Not – How to Bridge the Gap in Opportunities
           </strong>{" "}
@@ -28,7 +30,8 @@ export default function Policies_Standards_Regulation() {
         <p>
           This OECD report examines disparities in opportunities across
           societies and provides evidence-based policy recommendations for
-          closing gaps. <br /><br />
+          closing gaps. <br />
+          <br />
           <span className="secound-desc">
             Section 4, page 122 has an evidence-based framework for setting
             clear inclusivity strategies and goals within policy and regulation.
@@ -37,10 +40,12 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
+      rId: 183,
       image:
         "images/qii5/PoliciesandRegulation/Asian-Development-Bank(ADB)—Gender-Equality-and-Social-Inclusion.png",
       title: (
-        <p>Cross-Regional <br />
+        <p>
+          Cross-Regional <br />
           <strong>
             Gender Equality and Social Inclusion (GESI) Guidance for
             Infrastructure
@@ -59,22 +64,24 @@ export default function Policies_Standards_Regulation() {
           <br />
           <br />
           <span className="secound-desc">
-          Most relevant are chapters II to IV, focusing on actionable
-          frameworks, diagnostic processes, and evaluation procedures.
+            Most relevant are chapters II to IV, focusing on actionable
+            frameworks, diagnostic processes, and evaluation procedures.
           </span>
         </p>
       ),
     },
     {
-      image:
-        "images/qii5/shutterstock_2528902161.jpg",
+      rId: 168,
+      image: "images/qii5/shutterstock_2528902161.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             JICA Thematic Guidelines for Inclusive Development, including
             Universal Design
           </strong>
-          <br />JICA
+          <br />
+          JICA
         </p>
       ),
       buttonText: "Guidance note",
@@ -88,12 +95,16 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
+      rId: 184,
       image:
         "images/qii5/PoliciesandRegulation/Gender-Inclusive-Urban-Planning-Design.png",
       title: (
-        <p>Global <br />
-          <strong>Handbook for Gender-Inclusive Urban Planning and Design</strong> <br /> World
-          Bank ​
+        <p>
+          Global <br />
+          <strong>
+            Handbook for Gender-Inclusive Urban Planning and Design
+          </strong>{" "}
+          <br /> World Bank ​
         </p>
       ),
       buttonText: "Guidance note",
@@ -107,19 +118,21 @@ export default function Policies_Standards_Regulation() {
           <br />
           <br />
           <span className="secound-desc">
-          Page 57 outlines core principles that guide gender-inclusive planning,
-          providing a foundation for institutionalizing inclusion into every
-          aspect of urban planning, making projects equitable and responsive to
-          the full range of community needs.
+            Page 57 outlines core principles that guide gender-inclusive
+            planning, providing a foundation for institutionalizing inclusion
+            into every aspect of urban planning, making projects equitable and
+            responsive to the full range of community needs.
           </span>
         </p>
       ),
     },
     {
+      rId: 182,
       image:
         "images/qii5/PoliciesandRegulation/Mainstreaming-Gender-in-Infrastructure–Gender-Action-Plan.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Mainstreaming Gender in Infrastructure: Desk Review</strong>
           <br /> World Bank
         </p>
@@ -135,9 +148,9 @@ export default function Policies_Standards_Regulation() {
           <br />
           <br />
           <span className="secound-desc">
-          Page 37 offers a snapshot of the challenges in collecting primary data
-          for gender gap analysis, including how women's perspectives may be
-          sidelined due to household responsibilities or patriarchal norms.
+            Page 37 offers a snapshot of the challenges in collecting primary
+            data for gender gap analysis, including how women's perspectives may
+            be sidelined due to household responsibilities or patriarchal norms.
           </span>
         </p>
       ),
@@ -146,9 +159,11 @@ export default function Policies_Standards_Regulation() {
 
   const step2Cards = [
     {
+      rId: 169,
       image: "images/qii5/shutterstock_2337776975.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>She Drives Change</strong> <br />
           World Bank ​
         </p>
@@ -162,19 +177,21 @@ export default function Policies_Standards_Regulation() {
           <br />
           <br />
           <span className="secound-desc">
-          Case study 16 is an example of how employment restrictions in
-          Azerbaijan were overcome by policy and regulatory adjustments,
-          conducting awareness campaigns, and including employer engagement to
-          create enabling conditions for women drivers.
+            Case study 16 is an example of how employment restrictions in
+            Azerbaijan were overcome by policy and regulatory adjustments,
+            conducting awareness campaigns, and including employer engagement to
+            create enabling conditions for women drivers.
           </span>
         </p>
       ),
     },
     {
+      rId: 193,
       image:
         "images/qii5/PoliciesandRegulation/Environmental-and-Social-Framework.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Environmental and Social Framework</strong> <br />
           World Bank ​
         </p>
@@ -190,10 +207,12 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
+      rId: 185,
       image:
         "images/qii5/PoliciesandRegulation/Inclusive-Infrastructure –Policy-Regulation&Standards.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             Inclusive Infrastructure – Policy, Regulation & Standards
           </strong>{" "}
@@ -212,11 +231,14 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
+      rId: 172,
       image: "images/qii5/PoliciesandRegulation/EU-Accessibility-Act(2019).png",
       title: (
-        <p>Cross-Regional <br />
+        <p>
+          Cross-Regional <br />
           <strong>EU Accessibility Act (2019)</strong>
-          <br />The National Archives
+          <br />
+          The National Archives
         </p>
       ),
       buttonText: "Case study",
@@ -229,6 +251,7 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
+      rId: 195,
       image:
         "images/qii5/PoliciesandRegulation/Americans-with-Disabilities.png",
       title: (
@@ -238,7 +261,8 @@ export default function Policies_Standards_Regulation() {
             Americans with Disabilities Act (ADA) Standards for Accessible
             Design
           </strong>
-          <br />U.S. Department of Justice
+          <br />
+          U.S. Department of Justice
           <br />
         </p>
       ),
@@ -255,6 +279,7 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
+      rId: 202,
       image:
         "images/qii5/PoliciesandRegulation/Advancing-universal-design-in-urban-planning.png",
       title: (
@@ -280,9 +305,11 @@ export default function Policies_Standards_Regulation() {
 
   const step3Cards = [
     {
+      rId: 194,
       image: "images/qii5/PoliciesandRegulation/FAST-Infra-Label.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>FAST-Infra Sustainable Infrastructure Label</strong>
         </p>
       ),
@@ -299,9 +326,11 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
+      rId: 192,
       image: "images/qii5/PoliciesandRegulation/Blue-Dot-Network.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Blue Dot Network</strong>
         </p>
       ),
@@ -317,9 +346,11 @@ export default function Policies_Standards_Regulation() {
       ),
     },
     {
+      rId: 186,
       image: "images/qii5/shutterstock_2478900781.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>
             OECD Principles for Private Sector Participation in Infrastructure
           </strong>{" "}

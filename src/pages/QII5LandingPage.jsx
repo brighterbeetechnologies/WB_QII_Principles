@@ -17,6 +17,7 @@ import ImagewithStatement from "../components/ImagewithStatement";
 import Video from "../components/Video";
 import QII5CaseStudy1 from "./QII5CaseStudy/QII5CaseStudy1";
 import "./QII2CaseStudy.css";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function QII5LandingPage() {
   const dispatch = useDispatch();
@@ -101,6 +102,7 @@ export default function QII5LandingPage() {
 
   const resourceArray = [
     {
+      rId: 177,
       id: 0,
       title:
         "Vietnam and Senegal: Incorporating Universal Accessibility into Infrastructure Planning and Design ",
@@ -113,6 +115,7 @@ export default function QII5LandingPage() {
       target: "_blank",
     },
     {
+      rId: 200,
       id: 1,
       title: "Global: She Drives Change",
       // country: "Multi-country",
@@ -124,6 +127,7 @@ export default function QII5LandingPage() {
       target: "_blank",
     },
     {
+      rId: 178,
       id: 2,
       title: "Tajikistan: Gender Dimensions of Cross-Border Trade",
       // country: "Tajikistan",
@@ -491,7 +495,7 @@ export default function QII5LandingPage() {
                           </div>
                         </Popover>
                         <div className="page-resource-btn-cnt">
-                          {p.path ? (
+                          {/* {p.path ? (
                             p.target === "_blank" ? (
                               <a
                                 className="page-resource-arrow"
@@ -510,7 +514,38 @@ export default function QII5LandingPage() {
                             <span className="page-resource-arrow disabled">
                               <span className="icon-arrow">&#xe900;</span>
                             </span>
-                          )}
+                          )} */}
+                          {p.path ? (
+                            p.target === "_blank" ? (
+                              <a
+                                className="page-resource-arrow"
+                                href={p.path}
+                                target={p.target}
+                                rel="noopener noreferrer"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  updateCardClick(p.rId);
+
+                                  if (p.path) {
+                                    window.open(p.path, "_blank");
+                                  }
+                                }}
+                              >
+                                <span className="icon-arrow">&#xe900;</span>
+                              </a>
+                            ) : (
+                              <Link
+                                className="page-resource-arrow"
+                                to={p.path}
+                                target={p.target}
+                                onClick={() => {
+                                  updateCardClick(p.rId);
+                                }}
+                              >
+                                <span className="icon-arrow">&#xe900;</span>
+                              </Link>
+                            )
+                          ) : null}
                         </div>
 
                         {/* <div className="page-resource-btn-cnt">

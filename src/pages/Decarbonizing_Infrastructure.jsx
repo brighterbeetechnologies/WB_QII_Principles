@@ -15,6 +15,7 @@ import { Popover, Tooltip } from "antd";
 export default function Decarbonizing_Infrastructure() {
   const resourceArray = [
     {
+      rId: 69,
       id: 0,
       // country: "Global",
       title: "Global: Greenhouse Gas Protocol",
@@ -28,6 +29,7 @@ export default function Decarbonizing_Infrastructure() {
     },
 
     {
+      rId: 70,
       id: 1,
       // country: "Global",
       title: "Global: RICS Whole Life Carbon Assessment Standard",
@@ -41,6 +43,7 @@ export default function Decarbonizing_Infrastructure() {
     },
 
     {
+      rId: 80,
       id: 2,
       // country: "Global",
       title:
@@ -58,6 +61,7 @@ export default function Decarbonizing_Infrastructure() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 47,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Climate_Change_Development.png",
       title: (
@@ -77,6 +81,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
+      rId: 222,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png",
       title: (
@@ -96,6 +101,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
+      rId: 81,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Infrastructure_Transition_Pathways.png",
       title: (
@@ -119,6 +125,7 @@ export default function Decarbonizing_Infrastructure() {
 
   const step2Cards = [
     {
+      rId: 56,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Rewa_Ultra_Mega_Solar_Project.png",
       title: (
@@ -143,6 +150,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
+      rId: 60,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/New_Technologies_Powering_The_Energy_Transition.png",
       title: (
@@ -170,6 +178,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
+      rId: 61,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Cairo_Alexandria_Trade_Logistics_Development.png",
       title: (
@@ -194,6 +203,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
+      rId: 48,
       image:
         "images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png",
       title: (
@@ -215,6 +225,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
+      rId: 222,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Net_Zero_by_2050.png",
       title: (
@@ -235,6 +246,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
+      rId: 49,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Investigating_Life_Cycle.png",
       title: (
@@ -260,6 +272,7 @@ export default function Decarbonizing_Infrastructure() {
       ),
     },
     {
+      rId: 77,
       image:
         "images/qii3/QII3/Decarbonizing_Infrastructure/Building_Green_Sustainable_Construction.png",
       title: (
@@ -993,6 +1006,15 @@ export default function Decarbonizing_Infrastructure() {
                             className="page-resource-arrow"
                             href={p.path}
                             target="_blank"
+                            rel="noopener noreferrer"
+                            onClick={(e) => {
+                              e.preventDefault();
+                              updateCardClick(p.rId);
+
+                              if (p.path) {
+                                window.open(p.path, "_blank");
+                              }
+                            }}
                           >
                             <span className="icon-arrow">&#xe900;</span>
                           </a>

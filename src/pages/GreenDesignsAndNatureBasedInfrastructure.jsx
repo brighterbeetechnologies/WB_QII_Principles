@@ -7,6 +7,7 @@ import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
+// import { updateCardClick } from "../utils/cardRanking";
 
 export default function GreenDesignsAndNatureBasedInfrastructure() {
   const data = [
@@ -74,6 +75,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 84,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Integrating Green and Gray Creating Next Generation Infrastructure.png",
       title: (
@@ -99,6 +101,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 78,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Infrastructure - Guide for Water Management.png",
       title: (
@@ -123,6 +126,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 85,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png",
       title: (
@@ -147,6 +151,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 86,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Green Roads for Water.png",
       title: (
@@ -171,6 +176,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 79,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/UN Principles for Responsible Investment Integrating Biodiversity Considerations into Infrastructure.png",
       title: (
@@ -199,6 +205,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
 
   const step2Cards = [
     {
+      rId: 53,
       image: "images/qii4/updated/Futakotamagawa.png",
       title: (
         // <p>
@@ -228,6 +235,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 57,
       image: "images/qii3/pakistan.png",
       title: (
         <p>
@@ -252,6 +260,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 90,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/GFDRR Mapping of Nature-Based Solutions Projects.png",
       title: (
@@ -274,6 +283,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 51,
       image: "images/qii3/shutterstock_755940463.jpg",
       title: (
         <p>
@@ -297,6 +307,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 87,
       image: "images/qii3/shutterstock_2201000683.jpg",
       title: (
         <p>
@@ -316,6 +327,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 88,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/The-Nature-Based-Solutions-Opportunity-Scan.png",
       title: (
@@ -338,6 +350,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 89,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Financing-Climate-AdaptationandNature-Based-Infrastructure.png",
       title: (
@@ -361,6 +374,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
       ),
     },
     {
+      rId: 91,
       image:
         "images/qii3/Green-Designs-and-Nature-Based-Infrastructure/Finding Solutions to Development Challenges in Nature.png",
       title: (
@@ -599,20 +613,20 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
             </div>
 
             <div className="ico-text-card-1">
-                <div className="ico-text-card-1-description">
-                  <p className="ico-text-card-1-title">EROSION CONTROL</p>
-                  {/* <ul>
+              <div className="ico-text-card-1-description">
+                <p className="ico-text-card-1-title">EROSION CONTROL</p>
+                {/* <ul>
                   <li>Stabilize steep slopes and degraded areas</li>
                   <li>
                     Reduce number of landslides in the surrounding environment of infrastructure"
                   </li>
                 </ul> */}
-                </div>
-                <div className="ico-text-card-1-ico">
-                  <img
-                    src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/EROSION-CONTROL.svg"
-                    alt=""
-                  />
+              </div>
+              <div className="ico-text-card-1-ico">
+                <img
+                  src="images/qii3/Green-Designs-and-Nature-Based-Infrastructure/EROSION-CONTROL.svg"
+                  alt=""
+                />
               </div>
             </div>
 

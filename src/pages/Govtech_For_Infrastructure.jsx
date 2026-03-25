@@ -12,6 +12,7 @@ export default function Govtech_For_Infrastructure() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 209,
       image:
         "images/qii6/shutterstock_2660000293.jpg",
       title: (
@@ -29,6 +30,7 @@ export default function Govtech_For_Infrastructure() {
       content: <p>With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. </p>,
     },
     {
+      rId: 221,
       image:
         "images/qii6/image.png",
       title: (
@@ -52,6 +54,7 @@ export default function Govtech_For_Infrastructure() {
 
   const step2Cards = [
     {
+      rId: 210,
       image: "images/qii6/shutterstock_1268023399.jpg",
       title: (
         <p>Indonesia<br />
@@ -72,6 +75,7 @@ export default function Govtech_For_Infrastructure() {
       ),
     },
     {
+      rId: 205,
       image:
         "images/qii6/Govtech_For_Infrastructure/Japan-Association-for-Smart-Cities-inASEAN.png",
       title: (
@@ -92,6 +96,7 @@ export default function Govtech_For_Infrastructure() {
       ),
     },
     {
+      rId: 206,
       image:
         "images/qii6/Govtech_For_Infrastructure/GovTech-Maturity-Index-Data-Dashboard.png",
       title: (
@@ -115,6 +120,7 @@ export default function Govtech_For_Infrastructure() {
 
   const step3Cards = [
     {
+      rId: 212,
       image:
         "images/qii6/shutterstock_2668786185.jpg",
       title: (
@@ -130,6 +136,7 @@ export default function Govtech_For_Infrastructure() {
       content: <p>With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.​</p>,
     },
     {
+      rId: 213,
       image: "images/qii6/shutterstock_2653389623.jpg",
       title: (
         <p>Kosovo<br />
@@ -143,6 +150,7 @@ export default function Govtech_For_Infrastructure() {
       content: <p>This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​</p>,
     },
     {
+      rId: 207,
       image:
         "images/qii6/shutterstock_2370519757.jpg",
       title: (

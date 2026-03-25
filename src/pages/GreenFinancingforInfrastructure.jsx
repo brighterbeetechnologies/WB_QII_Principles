@@ -7,11 +7,13 @@ import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
+// import { updateCardClick } from "../utils/cardRanking";
 
 export default function GreenFinancingforInfrastructure() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 71,
       image:
         "images/qii3/GreenFinancingforInfrastructure/World of Taxonomies.png",
       title: (
@@ -34,6 +36,7 @@ export default function GreenFinancingforInfrastructure() {
       ),
     },
     {
+      rId: 72,
       image:
         "images/qii3/GreenFinancingforInfrastructure/EU Taxonomy for Sustainable Activities.png",
       title: (
@@ -54,6 +57,7 @@ export default function GreenFinancingforInfrastructure() {
       ),
     },
     {
+      rId: 50,
       image: "images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png",
       title: (
         <p>
@@ -73,6 +77,7 @@ export default function GreenFinancingforInfrastructure() {
       ),
     },
     {
+      rId: 73,
       image:
         "images/qii3/Sector_Specific.png",
       title: (
@@ -97,6 +102,7 @@ export default function GreenFinancingforInfrastructure() {
 
   const step2Cards = [
     {
+      rId: 59,
       image:
         "images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png",
       title: (
@@ -123,6 +129,7 @@ export default function GreenFinancingforInfrastructure() {
       ),
     },
     {
+      rId: 54,
       image:
         "images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png",
       title: (
@@ -145,6 +152,7 @@ export default function GreenFinancingforInfrastructure() {
       ),
     },
     {
+      rId: 58,
       image:
         "images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png",
       title: (
@@ -166,6 +174,7 @@ export default function GreenFinancingforInfrastructure() {
       ),
     },
     {
+      rId: 74,
       image:
         "images/qii3/GBP.png",
       title: (
@@ -186,6 +195,7 @@ export default function GreenFinancingforInfrastructure() {
       ),
     },
     {
+      rId: 75,
       image:
         "images/qii3/shutterstock_2433336173.jpg",
       title: (

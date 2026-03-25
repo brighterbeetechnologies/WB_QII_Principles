@@ -15,6 +15,7 @@ export default function ResilientDesignAndOperation() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 106,
       image:
         "images/qii4/ResilientDesignAndOperation/Modular Bridges in Madagascar.png",
       title: (
@@ -38,6 +39,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 118,
       image:
         "images/qii4/ResilientDesignAndOperation/Building Code Checklist for Structural Resilience.png",
       title: (
@@ -59,6 +61,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 117,
       image: "images/qii4/ResilientDesignAndOperation/EU Taxonomy Compass.png",
       title: (
         <p>Cross-Regional <br />
@@ -78,6 +81,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 116,
       image: "images/qii4/ResilientDesignAndOperation/FAST-Infra Label.png",
       title: (
         <p>Global <br />
@@ -98,6 +102,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 158,
       image:
         "images/qii4/ResilientDesignAndOperation/A Global Assessment of Building Codes.png",
       title: (
@@ -123,6 +128,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 145,
       image:
         "images/qii4/ResilientDesignAndOperation/Building regulations in Sub-Saharan Africa A status review of the building regulatory environment.png",
       title: (
@@ -149,6 +155,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 146,
       image:
         "images/qii4/ResilientDesignAndOperation/Stronger Building Codes for a Safer, More Resilient Future.png",
       title: (
@@ -173,6 +180,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 126,
       image:
         "images/qii4/ResilientDesignAndOperation/Building Regulatory Capacity Assessment.png",
       title: (
@@ -198,6 +206,7 @@ export default function ResilientDesignAndOperation() {
 
   const step2Cards = [
     {
+      rId: 105,
       image:
         "images/qii4/ResilientDesignAndOperation/IADBAI and deep learning for identifying pavement failures.png",
       title: (
@@ -221,6 +230,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 97,
       image:
         "images/qii4/ResilientDesignAndOperation/Catalogue-of-Nature-Based-Solutions-for-Urban-Resilience.jpg",
       title: (
@@ -244,6 +254,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 159,
       image:
         "images/qii4/ResilientDesignAndOperation/IFC Catalogue of Nature Based Solutions for Infrastructure Projects.jpg",
       title: (
@@ -270,6 +281,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 142,
       image:
         "images/qii4/ResilientDesignAndOperation/Digital-Security-and-Resilience-in-Critical-Infrastructure-and-Essential-Services.jpg",
       title: (
@@ -295,6 +307,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 144,
       image:
         "images/qii4/ResilientDesignAndOperation/Digital-Public-Infrastructure-for-Digital-Governments.jpg",
       title: (
@@ -320,6 +333,7 @@ export default function ResilientDesignAndOperation() {
 
   const step3Cards = [
     {
+      rId: 139,
       image:
         "images/qii4/ResilientDesignAndOperation/Resilience-in-Infrastructure-Prioritization-Japan-Road-Transport-Sector.jpg",
       title: (
@@ -348,6 +362,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 140,
       image: "images/qii4/ResilientDesignAndOperation/Building-Back-Better.jpg",
       title: (
         <p>Global <br />
@@ -375,6 +390,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 141,
       image:
         "images/qii4/ResilientDesignAndOperation/Functional-Recovery-of-Lifeline-Infrastructure-System-Services.jpg",
       title: (
@@ -402,6 +418,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 135,
       image:
         "images/qii4/ResilientDesignAndOperation/OECD Infrastructure Toolkit Strengthening Critical Infrastructure Resilience.png",
       title: (
@@ -426,6 +443,7 @@ export default function ResilientDesignAndOperation() {
       ),
     },
     {
+      rId: 143,
       image:
         "images/qii4/ResilientDesignAndOperation/Building Resilience New Strategies for Strengthening Infrastructure Resilience and Maintenance.jpg",
       title: (

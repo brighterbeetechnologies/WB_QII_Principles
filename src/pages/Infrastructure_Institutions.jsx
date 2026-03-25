@@ -12,6 +12,7 @@ export default function Infrastructure_Institutions() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     { 
+      rId: 208,
       image:
         "images/qii6/Infrastructure-Institutions/InfraGov-Assessment-Framework.png",
       title: (
@@ -39,6 +40,7 @@ export default function Infrastructure_Institutions() {
 
   const step2Cards = [
     {
+       rId: 214,
       image:
         "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
       title: (
@@ -72,6 +74,7 @@ export default function Infrastructure_Institutions() {
 
   const step3Cards = [
     {
+      rId: 215,
       image:
         "images/qii6/shutterstock_2704307853.jpg",
       title: (
@@ -90,6 +93,7 @@ export default function Infrastructure_Institutions() {
       ),
     },
     {
+      rId: 220,
       image: "images/qii6/shutterstock_2661513413.jpg",
       title: (
         <p>Global <br />
@@ -120,6 +124,7 @@ export default function Infrastructure_Institutions() {
 
   const step4Cards = [
     {
+      rId: 217,
       image:
         "images/qii6/Infrastructure-Institutions/UNEP-Integrated-Approaches-in-Action.png",
       title: (
@@ -147,6 +152,7 @@ export default function Infrastructure_Institutions() {
       ),
     },
     {
+      rId: 216,
       image:
         "images/qii6/Infrastructure-Institutions/OECD-IMF-Reference-Note.png",
       title: (

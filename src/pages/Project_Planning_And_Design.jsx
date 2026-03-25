@@ -12,6 +12,7 @@ export default function Project_Planning_And_Design() {
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
+      rId: 170,
       image: "images/qii5/shutterstock_2401273073.jpg",
       title: (
         <p>
@@ -36,6 +37,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      rId: 166,
       image: "images/qii5/shutterstock_2698330999.jpg",
       title: (
         <p>
@@ -55,6 +57,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      rId: 201,
       image:
         "images/qii5/ProjectPlanningandDesign/Mainstreaming-Gender-in-Public-Procurement.png",
       title: (
@@ -75,6 +78,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      rId: 181,
       image:
         "images/qii5/ProjectPlanningandDesign/UK-Green-Cities-Infrastructure-(ICED)-facility.png",
       title: (
@@ -98,6 +102,7 @@ export default function Project_Planning_And_Design() {
 
   const step2Cards = [
     {
+      rId: 198,
       image: "images/qii5/shutterstock_2535975537.jpg",
       title: (
         <p>
@@ -123,6 +128,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      rId: 167,
       image:
         "images/qii5/ProjectPlanningandDesign/World-Bank-Bidding-Documents-Contractual-Provisions-for-Inclusion.png",
       title: (
@@ -145,6 +151,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      rId: 191,
       image: "images/qii5/shutterstock_2476215753.jpg",
       title: (
         <p>
@@ -167,6 +174,7 @@ export default function Project_Planning_And_Design() {
 
   const step3Cards = [
     {
+      rId: 177,
       image: "images/qii5/shutterstock_2665469265.jpg",
       title: (
         <p>
@@ -194,6 +202,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      rId: 171,
       image: "images/qii5/shutterstock_2346783481.jpg",
       title: (
         <p>
@@ -217,6 +226,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      rId: 190,
       image:
         "images/qii5/ProjectPlanningandDesign/ISO-Building-Construction-Accessibility.png",
       title: (
@@ -241,6 +251,7 @@ export default function Project_Planning_And_Design() {
       ),
     },
     {
+      rId: 188,
       image: "images/qii5/silver-huess-1.png",
       title: (
         <p>
