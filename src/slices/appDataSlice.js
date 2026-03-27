@@ -4477,7 +4477,7 @@ export const appDataSlice = createSlice({
         industry: 12,
         image:
           "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
-      },
+      }, 
       {
         rId: 215,
         id: 5,
