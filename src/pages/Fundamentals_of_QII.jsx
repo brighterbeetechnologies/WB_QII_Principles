@@ -327,9 +327,9 @@ export default function Fundamentals_of_QII() {
               <p className="global-infrastructure-section-right-sub-title">
                 Reduction in replacement costs through proper maintenance
               </p>
-              <p className="global-infrastructure-section-right-title-1">
+              {/* <p className="global-infrastructure-section-right-title-1">
                 Quality and quantity are complementary:
-              </p>
+              </p> */}
             </div>
             <div className="global-infrastructure-section-left-group-icons-container">
               <div className="global-infrastructure-section-left-group-icons-left">
@@ -365,6 +365,8 @@ export default function Fundamentals_of_QII() {
             <div className="global-infrastructure-section-right-description">
               <p>
                 <strong>Why Quality Matters </strong> <br />
+                <br />
+                Quality and quantity are complementary
                 <br />
                 Well-planned, sustainable infrastructure maximizes economic and
                 social returns, while poor planning leads to assets that fail
@@ -471,8 +473,7 @@ export default function Fundamentals_of_QII() {
               <div className="qii-life-cycle-stage-1-title">Planning</div>
             </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we assessing long-term costs, environmental impacts, and
-              community needs from the start?
+              Are we building in resilience, accessibility, and operational efficiency?
             </div>
           </div>
           <div className="qii-life-cycle-container qii-life-cycle-container-1">
@@ -481,8 +482,7 @@ export default function Fundamentals_of_QII() {
               <div className="qii-life-cycle-stage-1-title">Planning</div>
             </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we assessing long-term costs, environmental impacts, and
-              community needs from the start?
+              Are we ensuring quality, transparency, and local capacity building? 
             </div>
           </div>
           <div className="qii-life-cycle-container qii-life-cycle-container-1">
@@ -491,8 +491,7 @@ export default function Fundamentals_of_QII() {
               <div className="qii-life-cycle-stage-1-title">Planning</div>
             </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we assessing long-term costs, environmental impacts, and
-              community needs from the start?
+              Are we delivering inclusive services while managing costs and risks?
             </div>
           </div>
           <div className="qii-life-cycle-container qii-life-cycle-container-5">
@@ -503,8 +502,7 @@ export default function Fundamentals_of_QII() {
               </div>
             </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we preserving value, adapting to changing conditions, and
-              extending asset life?
+              Are we preserving value, adapting to changing conditions, and extending asset life?
             </div>
           </div>
         </div>

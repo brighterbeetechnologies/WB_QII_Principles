@@ -18,6 +18,7 @@ import { Popover, Tooltip } from "antd";
 import Qii6ImagewithStatement from "../components/Qii6ImagewithStatement";
 import Video from "../components/Video";
 import QII6CaseStudy1 from "./QII6CaseStudy/QII6CaseStudy1";
+// import QII6CaseStudy2 from "./QII6CaseStudy/QII6CaseStudy2";
 import "./QII2CaseStudy.css";
 import { updateCardClick } from "../utils/cardRanking";
 
@@ -44,9 +45,10 @@ export default function QII2LandingPage() {
         "​With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.",
       img_path: "images/qii6/shutterstock_2668786185.jpg",
       highlight: 1,
-      path: "pdf/Albania Innovations_Results Story_March 2024.pdf",
-      pdf: true,
-      target: "_blank",
+      path: "/qii6casestudy2",
+      // path: "pdf/Albania Innovations_Results Story_March 2024.pdf",
+      // pdf: true,
+      target: "_self",
     },
     {
       rId: 209,

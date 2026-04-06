@@ -1170,7 +1170,16 @@ export default function QII1LandingPage() {
     {
       icon: "images/qii1/Icon1.svg",
       title: "Infrastructure as the Backbone of Jobs and Livelihoods",
-      desc: "Infrastructure can create a virtuous economic cycle from job creation to market access.",
+      desc: (
+        <>
+          Infrastructure can create a virtuous economic cycle from job creation
+          to market access.
+          <br />
+          It strengthens human capital by improving access to services,
+          mobility, and economic opportunities, enabling greater participation
+          and productivity across regions.
+        </>
+      ),
       linkText: "World Bank (2020) Jobs Umbrella MDTF: Annual Report 2019-2020",
       link: "https://documents1.worldbank.org/curated/en/924891596641466361/pdf/Jobs-Umbrella-Multidonor-Trust-Fund-Annual-Report-2019-2020.pdf",
     },
@@ -1373,7 +1382,7 @@ export default function QII1LandingPage() {
         </div>
         {/* <div className="qii1-text-cnt"> */}
         <div className="qii1-further-reading-container">
-          <div className="qii1-further-reading-continer-big-1">
+          {/* <div className="qii1-further-reading-continer-big-1">
             <div className="qii1-further-reading-continer-small">
               <p className="qii1-further-reading">
                 <strong>Iraq: Rebuilding Communities After Conflict</strong>
@@ -1488,6 +1497,47 @@ export default function QII1LandingPage() {
                 </p>
               </div>
             </div>
+          </div> */}
+          <div className="qii1-further-reading-container-subtitle">
+            {" "}
+            See the links below for more information on the projects highlighted
+            in the video:​ ​
+          </div>
+          <div className="qii1-further-reading-container-links">
+            <ul>
+              <li>
+                {" "}
+                <a
+                  href="https://blogs.worldbank.org/en/arabvoices/iraq-emergency-project-rebuilding-bridges#:~:text=They%20were%20carried%20out%20by%20Iraqi%20government,Group%27s%20Emergency%20Operation%20for%20Development%20Project%20(EODP)"
+                  target="_blank"
+                >
+                  Iraq: Rebuilding Communities After Conflict
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.worldbank.org/en/news/feature/2022/07/06/-indonesia-pioneers-irrigation-service-delivery-innovation"
+                  target="_blank"
+                >
+                  Indonesia: Transforming Irrigation Performance Through
+                  Technology
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.worldbank.org/en/news/feature/2023/09/26/dominica-s-journey-to-become-the-world-s-first-climate-resilient-country"
+                  target="_blank"
+                >
+                  Dominica: Building Climate Resilience Through Nature-Based
+                </a>
+              </li>
+              <li><a
+                  href="https://blogs.worldbank.org/en/transport/harnessing-technology-and-innovation-modernize-public-transport-our-experience-mozambique"
+                  target="_blank"
+                >
+                  Maputo: Data-Driven Urban Mobility
+                </a></li>
+            </ul>
           </div>
         </div>
         {/* </div> */}

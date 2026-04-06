@@ -21,7 +21,7 @@ export default function QII6CaseStudy1() {
       setBradcrump({
         show: true,
         dir: [
-          { path: "/qii6", title: "QII.5 Governance" },
+          { path: "/qii6", title: "QII.6 Governance" },
           { path: "/qii6", title: "Case Study" },
         ],
       }),

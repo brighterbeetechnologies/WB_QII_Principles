@@ -1893,8 +1893,7 @@ export const appDataSlice = createSlice({
       {
         rId: 222,
         id: 3,
-        paths:
-          "https://www.iea.org/reports/net-zero-by-2050#overview",
+        paths: "https://www.iea.org/reports/net-zero-by-2050#overview",
         type: "Report",
         title: "Global: Net Zero by 2050",
         principles: 2,
@@ -3637,8 +3636,10 @@ export const appDataSlice = createSlice({
       {
         rId: 171,
         id: 4,
+        // paths:
+        //   "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
         paths:
-          "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
+          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
         type: "Case Study",
         title:
           "Senegal​: Mainstreaming Universal Accessibility in the Built Environment Projects",
@@ -4423,7 +4424,8 @@ export const appDataSlice = createSlice({
       {
         rId: 212,
         id: 5,
-        paths: "pdf/Albania Innovations_Results Story_March 2024.pdf",
+        // paths: "pdf/Albania Innovations_Results Story_March 2024.pdf",
+        paths: "/qii6casestudy2",
         type: "Case Study",
         title:
           "Albania: ​Innovations to Accelerate Inclusive and High Impact Public Services",
@@ -4477,7 +4479,7 @@ export const appDataSlice = createSlice({
         industry: 12,
         image:
           "images/qii6/Infrastructure-Institutions/OECDRecommendationonPublicInvestment.png",
-      }, 
+      },
       {
         rId: 215,
         id: 5,
