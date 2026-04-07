@@ -8,7 +8,6 @@ const ImagewithStatement = ({ backgroundImage, text, backgroundPosition, id }) =
         <div
           className="image-statement-container"
           id={id}
-
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundPosition: backgroundPosition,
@@ -19,6 +18,7 @@ const ImagewithStatement = ({ backgroundImage, text, backgroundPosition, id }) =
       ) : (
         <div
           className="image-statement-container"
+          id={id}
           style={{
             backgroundImage: `url(${backgroundImage})`,
           }}

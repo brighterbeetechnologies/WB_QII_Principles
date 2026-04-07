@@ -11,8 +11,10 @@ import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
 import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function Procurement() {
+  const location = useLocation();
   const resourceArray = [
     {
       rId: 8,
@@ -78,26 +80,7 @@ export default function Procurement() {
       path: "https://www.iisd.org/publications/report/life-cycle-costing-sustainable-public-procurement-question-value",
     },
   ];
-  // const slidesData = [
-  //   {
-  //     img: "images/procurement/header_bg_1.png",
-  //     description:
-  //       "The procurement process sets the foundation for the economic efficiency of an infrastructure project. Procurement processes that create incentives to minimize life- cycle costs can lead to better value for money and reduce long-term expenses. Conversely, weak procurement practices, such as focusing solely on initial purchase price, can result in higher operational and maintenance costs over the asset's lifespan. ",
-  //     title: "Procurement",
-  //   },
-  //   {
-  //     img: "images/procurement/header_bg_2.png",
-  //     description:
-  //       "The procurement of infrastructure under Public- Private Partnerships (PPPs) can be an effective way to align incentives for cost efficiency over the course of the project. This alignment will be strongest under PPPs that include an extended Operations and Maintenance (O&M) phase and where the revenues of the private sector partner are linked directly to long-term performance.",
-  //     title: "Procurement",
-  //   },
-  //   {
-  //     img: "images/procurement/header_bg_3.png",
-  //     description:
-  //       "Such incentives may not be as strong for infrastructure projects using public procurement. However, in such cases, the evaluation criteria for construction contracts can still be structured to encourage bidders to factor life- cycle costing into the infrastructure design. More detailed guidance on this topic can be found in the Life- Cycle Costing Guidance Note.",
-  //     title: "Procurement",
-  //   },
-  // ];
+
 
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
@@ -214,6 +197,16 @@ export default function Procurement() {
       ),
     },
   ];
+
+    useEffect(() => {
+      setTimeout(() => {
+        if (location.state?.scrollTo) {
+          const el = document.getElementById(location.state.scrollTo);
+          el?.scrollIntoView({ behavior: "smooth" });
+          navigate(location.pathname, { replace: true, state: null });
+        }
+      }, 500);
+    }, [location]);
 
   const dispatch = useDispatch();
   useEffect(() => {

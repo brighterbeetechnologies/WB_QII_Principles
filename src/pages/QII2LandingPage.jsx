@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./QIILandingPage.css";
 import TextIconCarousal from "../components/TextIconCarousal";
 import Header3 from "../components/Header3";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
@@ -22,6 +22,7 @@ import { updateCardClick } from "../utils/cardRanking";
 export default function QII2LandingPage() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+  const location = useLocation();
   const [preSelectedResources, setPreSelectedResources] = useState([
     {
       show: true,
@@ -137,47 +138,15 @@ export default function QII2LandingPage() {
       path: "/governance",
     },
   ];
-
-  // const topResources = [
-  //   [
-  //     {
-  //       id: 0,
-  //       paths: "/qii2casestudy1",
-  //       type: "Case Study",
-  //       title:
-  //         "Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management",
-  //       principles: 1,
-  //       highlight: true,
-  //       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-  //       format: 0,
-  //       stage: 1,
-  //       region: 1,
-  //       industry: 2,
-  //       image: "images/resources/01.jpg",
-  //       videoUrl: "./video/FukuokaCaseStudy.mp4",
-  //       videoTitle: "QII 2 in Action",
-  //       topResource: true,
-  //       navigate: true,
-  //     },
-  //     {
-  //       id: 1,
-  //       paths: "/qii2casestudy2",
-  //       type: "Case Study",
-  //       title:
-  //         "The Ganga Wastewater Program Strengthening Life Cycle Costing Through Public-Private Partnerships",
-  //       principles: 1,
-  //       highlight: true,
-  //       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-  //       format: 1,
-  //       stage: 2,
-  //       region: 1,
-  //       industry: 2,
-  //       image: "images/resources/02.jpg",
-  //       topResource: true,
-  //       navigate: true,
-  //     },
-  //   ],
-  // ];
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
@@ -380,7 +349,7 @@ export default function QII2LandingPage() {
         </div>
       </section> */}
 
-      <QII2CaseStudy1 id="qii2-section5"/>
+      <QII2CaseStudy1 id="qii2-section5" />
 
       {/* <section className="color-dark top_resource_page">
         <div className="container">
