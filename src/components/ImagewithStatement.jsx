@@ -1,12 +1,14 @@
 import React from "react";
 import "./ImagewithStatement.css";
 
-const ImagewithStatement = ({ backgroundImage, text, backgroundPosition }) => {
+const ImagewithStatement = ({ backgroundImage, text, backgroundPosition, id }) => {
   return (
     <>
       {backgroundPosition ? (
         <div
           className="image-statement-container"
+          id={id}
+
           style={{
             backgroundImage: `url(${backgroundImage})`,
             backgroundPosition: backgroundPosition,

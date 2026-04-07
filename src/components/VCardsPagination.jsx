@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import VCard from "./VCard";
 import { ConfigProvider, Pagination } from "antd";
 
-const VCardsPagination = ({ cardsData }) => {
+const VCardsPagination = ({ cardsData, id }) => {
   const STEP_PAGE_SIZE = 3;
   const [stepPage, setStepPage] = useState(1);
   const stepStart = (stepPage - 1) * STEP_PAGE_SIZE;
@@ -10,7 +10,7 @@ const VCardsPagination = ({ cardsData }) => {
   const stepPaginatedCards = cardsData.slice(stepStart, stepEnd);
   return (
     <>
-      <div className="VCard-cnt col3">
+      <div className="VCard-cnt col3" id={id}>
         {stepPaginatedCards.map((card, index) => (
           <VCard
             key={index}

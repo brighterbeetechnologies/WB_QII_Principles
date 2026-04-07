@@ -202,7 +202,7 @@ export default function QII2LandingPage() {
                 className="landingpage-logo"
               />
               <div className="landingpage-description">
-                <p className="light-font">
+                <p className="light-font" id="qii2-section1">
                   At the heart of QII Principle 2 is the concept of Life-Cycle
                   Costing (LCC), a forward-thinking approach to infrastructure
                   investment. Instead of focusing solely on upfront costs, LCC
@@ -218,7 +218,7 @@ export default function QII2LandingPage() {
             </div>
           </Header3>
         </section>
-        <div className="container internal-pages-cards">
+        <div className="container internal-pages-cards" id="qii2-section2">
           <div className="center-header">
             {/* <h1 className="light-font mBottom">
               Building Blocks of Adopting a Life Cycle Costing Approach
@@ -272,6 +272,7 @@ export default function QII2LandingPage() {
       </Header3>
        */}
       <ImagewithStatement
+        id="qii2-section3"
         backgroundImage={"images/qii2/qii2_img2.png"}
         // text={
         //   "When the building blocks are missing, infrastructure falls into a familiar and costly trap."
@@ -280,7 +281,7 @@ export default function QII2LandingPage() {
           "Incorporating life cycle costing into infrastructure planning and decision-making helps break the costly cycle of short-term thinking. By accounting for the total cost of service delivery—including operations, maintenance, and eventual decommissioning—governments and institutions can make smarter investments that deliver better value over time.​"
         }
       />
-      <section className="color-dark">
+      <section className="color-dark" id="qii2-section4">
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
@@ -379,7 +380,7 @@ export default function QII2LandingPage() {
         </div>
       </section> */}
 
-      <QII2CaseStudy1 />
+      <QII2CaseStudy1 id="qii2-section5"/>
 
       {/* <section className="color-dark top_resource_page">
         <div className="container">
@@ -431,7 +432,7 @@ export default function QII2LandingPage() {
           </div>
         </div> }
       </section> */}
-      <section className="color-dark">
+      <section className="color-dark" id="qii2-section6">
         <div className="container">
           <h2 className="section-title light-font">QII.2 Case Studies</h2>
           <div className="page-resource-grid" role="list">
@@ -521,12 +522,12 @@ export default function QII2LandingPage() {
                               target={p.target}
                               rel="noopener noreferrer"
                               onClick={(e) => {
-                                e.preventDefault(); 
+                                e.preventDefault();
 
-                                updateCardClick(p.rId); 
+                                updateCardClick(p.rId);
 
                                 if (p.path) {
-                                  window.open(p.path, "_blank"); 
+                                  window.open(p.path, "_blank");
                                 }
                               }}
                             >
@@ -538,7 +539,7 @@ export default function QII2LandingPage() {
                               to={p.path}
                               target={p.target}
                               onClick={() => {
-                                updateCardClick(p.rId); 
+                                updateCardClick(p.rId);
                               }}
                             >
                               <span className="icon-arrow">&#xe900;</span>

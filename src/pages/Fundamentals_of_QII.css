@@ -40,18 +40,18 @@
 
 .what-is-qii-section .what-is-qii-title {
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-top: 1rem;
   font-weight: 700;
 }
 
 .what-is-qii-section .what-is-qii-description {
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .center-text-qii-generations {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -174,11 +174,11 @@
 
 .image-text-container-desc p strong {
   font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .image-text-container-desc p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-top: 1rem;
 }
 
@@ -194,7 +194,7 @@
 
 .qii-six-principles-section {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 1rem 6rem 3rem 6rem;
 }
 
@@ -212,8 +212,8 @@
 }
 
 .qii-six-principles-section-curosal-description {
-  width: 63%;
-  font-size: 1.1rem;
+  width: 70%;
+  font-size: 1.2rem;
 }
 
 .qii-six-principles-section-pagination-wrapper {
@@ -575,7 +575,7 @@
   border-radius: 25px;
   margin: 2rem 4rem 1rem 1rem;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 2rem 1rem 2.5rem 1rem;
 }
 
@@ -600,8 +600,8 @@
 
 .global-infrastructure-section-right
   .global-infrastructure-section-right-sub-title {
-  font-size: 1.2rem;
-  width: 45%;
+  font-size: 1.3rem;
+  width: 50%;
   text-align: center;
 }
 
@@ -620,7 +620,7 @@
   align-items: center;
   gap: 1rem;
   position: relative;
-  margin: 4rem 2rem 5rem 0.7rem;
+  margin: 2.3rem 2rem 4.3rem 0.7rem;
 }
 
 .global-infrastructure-section-left-group-icons-container:not(
@@ -678,7 +678,7 @@
   border-radius: 25px;
   margin: 0rem 3rem 3rem 3rem;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 2rem 1rem 1.5rem 1rem;
   width: 93%;
 }

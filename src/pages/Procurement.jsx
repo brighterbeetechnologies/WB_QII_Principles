@@ -222,7 +222,7 @@ export default function Procurement() {
         show: true,
         dir: [
           { path: "/qii2", title: "QII.2 Economic Efficiency" },
-          { path: "/procurement", title: "Procurement" },
+          { path: "/procurement", title: "Procurement" }, 
         ],
       }),
     );
@@ -240,6 +240,7 @@ export default function Procurement() {
             </strong>
           </div> */}
         <Header3
+          id="qii2-procurement-section1"
           img="images/procurement/header_bg_1.png"
           title={"Procurement"}
           hideDeskTitle={true}
@@ -267,7 +268,7 @@ export default function Procurement() {
           </div>
         </Header3>
         <div className="container internal-pages-container">
-          <div className="link-text">
+          <div className="link-text" id="qii2-procurement-section2">
             <p>
               <strong>Spotlight on PPPs</strong>
             </p>
@@ -295,13 +296,16 @@ export default function Procurement() {
             </p>
           </div>
           <div className="link-text mTop"></div>
-          <NumSteps num="1">
+          <NumSteps num="1" id="qii2-procurement-section3">
             <strong>Incentive Structures</strong>
             <br /> <br className="mobile-break" />
             Performance-Based Contracts (PBCs) can be used to link contractors’
             payments to long-term performance and efficiency.
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} />
+          <VCardsPagination
+            cardsData={step1Cards}
+            id="qii2-procurement-section3"
+          />
           {/* <div className="VCard-cnt col3">
             <VCard
               image="images/procurement/IndiaGanga.png"
@@ -365,13 +369,16 @@ export default function Procurement() {
             </VCard>
           </div> */}
           <div className="border-dash"></div>
-          <NumSteps num="2">
+          <NumSteps num="2" id="qii2-procurement-section4">
             <strong>Innovative Technologies</strong>
             <br /> <br className="mobile-break" />
             Procurement processes can incentivize the adoption of innovative
             technologies to enable cost saving during construction and O&M.
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} />
+          <VCardsPagination
+            cardsData={step2Cards}
+            id="qii2-procurement-section4"
+          />
           {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/procurement/Pre-Fabrication.png"
@@ -415,7 +422,7 @@ export default function Procurement() {
           </div> */}
         </div>
       </section>
-      <section className="color-dark">
+      <section className="color-dark" id="qii2-procurement-section5">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading On Procurement

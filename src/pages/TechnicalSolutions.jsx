@@ -285,6 +285,7 @@ export default function TechnicalSolutions() {
           </p>
         </Header3> */}
         <Header3
+          id="qii2-TechnicalSolutions-section1"
           img="images/technicalSolutions/header_bg.jpg"
           title={"Technical Solutions"}
           hideDeskTitle={true}
@@ -310,7 +311,7 @@ export default function TechnicalSolutions() {
           </div>
         </Header3>
         <div className="container internal-pages-container">
-          <div className="link-text">
+          <div className="link-text" id="qii2-TechnicalSolutions-section2">
             <p>
               Infrastructure technologies include a broad range of new or
               innovative materials, machines, or digital technology solutions
@@ -344,7 +345,7 @@ export default function TechnicalSolutions() {
               <strong>Some examples of common uses include:</strong>
             </p>
           </div>
-          <NumSteps num="1">
+          <NumSteps num="1" id="qii2-TechnicalSolutions-section3">
             <strong>Reducing Construction Costs</strong>
             <br /> <br className="mobile-break" />
             Using innovative materials, modern construction methods, and green
@@ -354,7 +355,7 @@ export default function TechnicalSolutions() {
             materials, minimize installation expenses, and accelerate
             construction timelines.{" "}
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} />
+          <VCardsPagination cardsData={step1Cards} id="qii2-TechnicalSolutions-section3"/>
           {/* <div className="VCard-cnt col3">
             <VCard
               image="images/procurement/Pre-Fabrication.png"
@@ -435,7 +436,7 @@ export default function TechnicalSolutions() {
             .
           </p> */}
           <div className="border-dash"></div>
-          <NumSteps num="2">
+          <NumSteps num="2" id="qii2-TechnicalSolutions-section4">
             <strong>Reducing Operational Costs</strong>
             <br /> <br className="mobile-break" />
             Real-time reporting, data analytics, and visualization tools can
@@ -444,7 +445,7 @@ export default function TechnicalSolutions() {
             consumption and make more informed, data-driven O&M decisions,
             ultimately lowering routine operational expenses.
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} />
+          <VCardsPagination cardsData={step2Cards} id="qii2-TechnicalSolutions-section4"/>
           {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/Peru.png"
@@ -501,7 +502,7 @@ export default function TechnicalSolutions() {
             </VCard>
           </div> */}
           <div className="border-dash"></div>
-          <NumSteps num="3">
+          <NumSteps num="3" id="qii2-TechnicalSolutions-section5">
             <strong>Increasing the Life of Assets </strong>
             <br /> <br className="mobile-break" />
             Predictive maintenance technologies, smart monitoring systems, and
@@ -511,7 +512,7 @@ export default function TechnicalSolutions() {
             asset life, and minimize the frequency and cost of major
             rehabilitations over the asset’s life cycle.
           </NumSteps>
-          <VCardsPagination cardsData={step3Cards} />
+          <VCardsPagination cardsData={step3Cards} id="qii2-TechnicalSolutions-section5"/>
           {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/AIanddeep.png"
@@ -560,7 +561,7 @@ export default function TechnicalSolutions() {
           </div> */}
         </div>
       </section>
-      <section className="color-dark">
+      <section className="color-dark" id="qii2-TechnicalSolutions-section6">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading on Technical Solutions

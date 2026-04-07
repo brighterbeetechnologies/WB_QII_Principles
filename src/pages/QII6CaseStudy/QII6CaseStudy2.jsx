@@ -31,7 +31,7 @@ export default function QII2CaseStudy2() {
               backgroundSize: "cover",
             }}
           >
-            <h2 className="main-title">
+            <h2 className="main-title main-title-internal">
               <span>Albania </span> <br />
               Quality Digital Infrastructure for Inclusive Public Services
             </h2>

@@ -3,14 +3,6 @@ import "./SearchBox.css"; // styles
 import { useNavigate } from "react-router-dom";
 import { data } from "../assets/search-index.js" 
 
-// Example JSON data
-
-// [
-//   { id: 1, title: "Lifecycle Costing Basics" },
-//   { id: 2, title: "Case Studies on Resilience" },
-//   { id: 3, title: "Environmental Impact Assessment" },
-// ];
-
 export default function SearchBox() {
   const [query, setQuery] = useState("");
 //   const [data, setData] = useState([]);
@@ -39,6 +31,8 @@ export default function SearchBox() {
     setResults(filtered);
   };
 
+  // console.log("Search results:", results);
+
   return (
     <div className="search-container">
       <div className="search-input-wrapper">
@@ -59,6 +53,7 @@ export default function SearchBox() {
           {results.map((item) => (
             <div className="search-item" onClick={()=> navigate(item.url)} key={item.id}>
               <span className="icon-arrow">&#xe916;</span> {item.title}
+              
             </div>
           ))}
         </div>

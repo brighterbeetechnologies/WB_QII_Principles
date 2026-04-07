@@ -319,11 +319,11 @@ export default function Fundamentals_of_QII() {
           <div className="global-infrastructure-section-right">
             <div className="global-infrastructure-section-right-title">
               <p className="global-infrastructure-section-right-sub-title">
-                Up to <strong>50%</strong>
+                Up to 
               </p>
-              {/* <p>
+              <p>
                 <strong>50%</strong>
-              </p> */}
+              </p>
               <p className="global-infrastructure-section-right-sub-title">
                 Reduction in replacement costs through proper maintenance
               </p>
@@ -366,9 +366,7 @@ export default function Fundamentals_of_QII() {
               <p>
                 <strong>Why Quality Matters </strong> <br />
                 <br />
-                Quality and quantity are complementary
-                <br />
-                Well-planned, sustainable infrastructure maximizes economic and
+                Quality and quantity are complementary: Well-planned, sustainable infrastructure maximizes economic and
                 social returns, while poor planning leads to assets that fail
                 early, cost more to maintain, and exclude those who need
                 services most.

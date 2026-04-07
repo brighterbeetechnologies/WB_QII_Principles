@@ -3636,10 +3636,8 @@ export const appDataSlice = createSlice({
       {
         rId: 171,
         id: 4,
-        // paths:
-        //   "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
         paths:
-          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
+          "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
         type: "Case Study",
         title:
           "Senegal​: Mainstreaming Universal Accessibility in the Built Environment Projects",
@@ -3747,7 +3745,8 @@ export const appDataSlice = createSlice({
       {
         rId: 177,
         id: 4,
-        paths: "",
+        paths:
+          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
         type: "Case Study",
         title:
           "Vietnam and Senegal: Incorporating Universal Accessibility into Infrastructure Planning and Design",

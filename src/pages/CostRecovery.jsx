@@ -302,6 +302,7 @@ export default function CostRecovery() {
           </p>
         </Header3> */}
         <Header3
+          id="qii2-costRecovery-section1"
           img="images/costRecovery/header_bg.png"
           title={"Cost Recovery"}
           hideDeskTitle={true}
@@ -327,7 +328,7 @@ export default function CostRecovery() {
           </div>
         </Header3>
         <div className="container internal-pages-container">
-          <div className="link-text">
+          <div className="link-text" id="qii2-costRecovery-section2">
             <strong>
               In addition to public funding, there are a range of other ways in
               which project developers can raise revenue for infrastructure
@@ -335,14 +336,14 @@ export default function CostRecovery() {
             </strong>
           </div>
 
-          <NumSteps num="1">
+          <NumSteps num="1" id="qii2-costRecovery-section3">
             <strong>User Fees</strong> <br /> <br className="mobile-break" />
             Where infrastructure provides direct and measurable benefits to
             specific users, such as electricity supply, water supply, or public
             transport, it can be possible to recover all or partial costs
             through tariffs and user fees.
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} />
+          <VCardsPagination cardsData={step1Cards} id="qii2-costRecovery-section3"/>
           {/* <div className="VCard-cnt col3">
             <VCard
               image="images/costRecovery/Timor-Leste.png"
@@ -413,7 +414,7 @@ export default function CostRecovery() {
             their tax base. <br />
           </NumSteps> */}
           <div className="border-dash"></div>
-          <NumSteps num="2">
+          <NumSteps num="2" id="qii2-costRecovery-section4">
             <strong>Ancillary Revenues</strong>
             <br /> <br className="mobile-break" />
             In some cases, it may be possible to generate supplementary revenue
@@ -423,7 +424,7 @@ export default function CostRecovery() {
             able to tap into climate-related funding streams, such as carbon
             markets.
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} />
+          <VCardsPagination cardsData={step2Cards} id="qii2-costRecovery-section4" />
           {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/costRecovery/India.png"
@@ -464,7 +465,7 @@ export default function CostRecovery() {
             </VCard>
           </div> */}
           <div className="border-dash"></div>
-          <NumSteps num="3">
+          <NumSteps num="3" id="qii2-costRecovery-section5">
             <strong>Land Value Capture</strong> <br />{" "}
             <br className="mobile-break" />
             Infrastructure often increases the value of surrounding land and
@@ -473,7 +474,7 @@ export default function CostRecovery() {
             taxes, levies, or betterment charges on beneficiaries within
             designated zones.
           </NumSteps>
-          <VCardsPagination cardsData={step3Cards} />
+          <VCardsPagination cardsData={step3Cards} id="qii2-costRecovery-section5"/>
           {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/updated/Shibaura_Wastewater_Management.png"
@@ -547,7 +548,7 @@ export default function CostRecovery() {
           </p> */}
         </div>
       </section>
-      <section className="color-dark">
+      <section className="color-dark" id="qii2-costRecovery-section6">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading On Cost Recovery

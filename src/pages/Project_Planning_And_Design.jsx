@@ -190,8 +190,7 @@ export default function Project_Planning_And_Design() {
       ),
       highlight: 1,
       buttonText: "Case Study",
-      // link: "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
-      link: "",
+      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
       content: (
         <p>
           This highlights the integration of universal accessibility and
@@ -218,8 +217,7 @@ export default function Project_Planning_And_Design() {
       ),
       buttonText: "Case Study",
       highlight: 1,
-      // link: "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
-      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
+      link: "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
       content: (
         <p>
           This engagement brief offers a practical stakeholder training and

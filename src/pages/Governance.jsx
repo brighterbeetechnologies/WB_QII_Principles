@@ -102,6 +102,7 @@ export default function Governance() {
       <section className="color-light">
         <div className="subpagehero">
           <Header3
+            id="qii2-governance-section1"
             img="images/governance/header_bg.jpg"
             title={"Governance"}
             hideDeskTitle={true}
@@ -138,13 +139,14 @@ export default function Governance() {
         </div>
       </section>
 
-      <section className="color-dark ">
+      <section className="color-dark " id="qii2-governance-section2">
         <div className="container internal-pages-container">
           <p className="link-text">
             To enable life-cycle costing, governance frameworks must evolve in
             several specific ways.
           </p>
           <ListImageText
+            id="qii2-governance-section1"
             step="1"
             rId={11}
             title={
@@ -203,6 +205,7 @@ export default function Governance() {
           <div className="border-dash"></div>
 
           <ListImageText
+            id="qii2-governance-section2"
             step="2"
             rId={1}
             title={
@@ -263,6 +266,7 @@ export default function Governance() {
           </ListImageText>
           <div className="border-dash"></div>
           <ListImageText
+            id="qii2-governance-section3"
             step="3"
             rId={12}
             title={
@@ -315,6 +319,7 @@ export default function Governance() {
           </ListImageText>
           <div className="border-dash"></div>
           <ListImageText
+            id="qii2-governance-section4"
             step="4"
             rId={12}
             title={
@@ -375,8 +380,9 @@ export default function Governance() {
           </ListImageText>
           <div className="border-dash"></div>
           <ListImageText
+            id="qii2-governance-section5"
             step="5"
-            rId= {14}
+            rId={14}
             title={
               <p>
                 <strong>
@@ -429,7 +435,7 @@ export default function Governance() {
           </p> */}
         </div>
       </section>
-      <section className="color-light">
+      <section className="color-light" id="qii2-governance-section6">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading On Governance
@@ -530,14 +536,16 @@ export default function Governance() {
                           target="_blank"
                           rel="noopener noreferrer"
                           onClick={(e) => {
-                            e.preventDefault(); 
+                            e.preventDefault();
                             updateCardClick(p.rId);
 
                             if (p.path) {
                               window.open(p.path, "_blank");
                             }
                           }}
-                        ><span className="icon-arrow">&#xe900;</span></a>
+                        >
+                          <span className="icon-arrow">&#xe900;</span>
+                        </a>
                       </div>
                     </div>
                   </div>
