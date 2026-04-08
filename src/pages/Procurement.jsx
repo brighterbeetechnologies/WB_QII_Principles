@@ -14,7 +14,7 @@ import { updateCardClick } from "../utils/cardRanking";
 import { useLocation } from "react-router-dom";
 
 export default function Procurement() {
-  const location = useLocation();
+  const location = useLocation(); 
   const resourceArray = [
     {
       rId: 8,

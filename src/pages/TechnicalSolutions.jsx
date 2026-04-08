@@ -9,8 +9,10 @@ import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
 import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function TechnicalSolutions() {
+  const location = useLocation();
   const resourceArray = [
     {
       id: 0,
@@ -257,6 +259,16 @@ export default function TechnicalSolutions() {
     },
   ];
 
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -355,7 +367,10 @@ export default function TechnicalSolutions() {
             materials, minimize installation expenses, and accelerate
             construction timelines.{" "}
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} id="qii2-TechnicalSolutions-section3"/>
+          <VCardsPagination
+            cardsData={step1Cards}
+            id="qii2-TechnicalSolutions-section3"
+          />
           {/* <div className="VCard-cnt col3">
             <VCard
               image="images/procurement/Pre-Fabrication.png"
@@ -445,7 +460,10 @@ export default function TechnicalSolutions() {
             consumption and make more informed, data-driven O&M decisions,
             ultimately lowering routine operational expenses.
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} id="qii2-TechnicalSolutions-section4"/>
+          <VCardsPagination
+            cardsData={step2Cards}
+            id="qii2-TechnicalSolutions-section4"
+          />
           {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/Peru.png"
@@ -512,7 +530,10 @@ export default function TechnicalSolutions() {
             asset life, and minimize the frequency and cost of major
             rehabilitations over the asset’s life cycle.
           </NumSteps>
-          <VCardsPagination cardsData={step3Cards} id="qii2-TechnicalSolutions-section5"/>
+          <VCardsPagination
+            cardsData={step3Cards}
+            id="qii2-TechnicalSolutions-section5"
+          />
           {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/technicalSolutions/AIanddeep.png"
