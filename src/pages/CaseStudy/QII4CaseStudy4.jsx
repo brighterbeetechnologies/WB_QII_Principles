@@ -34,7 +34,7 @@ export default function QII4CaseStudy4() {
           <div
             className="single-case-study-wrapper"
             style={{
-              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii4/updated/QII-4-in-Action.png")`,
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("GIF/Qll4_Spotlight_Case_Study-GIF.gif")`,
               margin: "1rem 0 0 0",
             }}
           >
@@ -69,8 +69,8 @@ export default function QII4CaseStudy4() {
                   className="video-play-btn icon-play"
                   onClick={() => {
                     openVideo(
-                      "./video/LandingPageVideo.mp4",
-                      "Lessons from Success Stories",
+                      "./video/Qll4_Spotlight_Case_Study.mp4",
+                      "QII.4 in Action",
                       1920,
                       1080,
                     );

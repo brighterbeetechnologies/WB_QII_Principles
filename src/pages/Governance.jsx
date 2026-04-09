@@ -8,8 +8,10 @@ import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
 import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function Governance() {
+  const location = useLocation(); 
   const resourceArray = [
     {
       rId: 31,
@@ -61,6 +63,17 @@ export default function Governance() {
       path: "https://publications.iadb.org/en/bringing-ppps-sunlight-synergies-now-and-pitfalls-later",
     },
   ];
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -146,7 +159,7 @@ export default function Governance() {
             several specific ways.
           </p>
           <ListImageText
-            id="qii2-governance-section1"
+            id="qii2-governance-section2"
             step="1"
             rId={11}
             title={
@@ -205,7 +218,7 @@ export default function Governance() {
           <div className="border-dash"></div>
 
           <ListImageText
-            id="qii2-governance-section2"
+            id="qii2-governance-section3"
             step="2"
             rId={1}
             title={
@@ -266,7 +279,7 @@ export default function Governance() {
           </ListImageText>
           <div className="border-dash"></div>
           <ListImageText
-            id="qii2-governance-section3"
+            id="qii2-governance-section4"
             step="3"
             rId={12}
             title={
@@ -319,7 +332,7 @@ export default function Governance() {
           </ListImageText>
           <div className="border-dash"></div>
           <ListImageText
-            id="qii2-governance-section4"
+            id="qii2-governance-section5"
             step="4"
             rId={12}
             title={
@@ -380,7 +393,7 @@ export default function Governance() {
           </ListImageText>
           <div className="border-dash"></div>
           <ListImageText
-            id="qii2-governance-section5"
+            id="qii2-governance-section6"
             step="5"
             rId={14}
             title={
@@ -435,7 +448,7 @@ export default function Governance() {
           </p> */}
         </div>
       </section>
-      <section className="color-light" id="qii2-governance-section6">
+      <section className="color-light" id="qii2-governance-section7">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
             Further Reading On Governance

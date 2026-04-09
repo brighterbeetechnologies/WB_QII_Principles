@@ -10,7 +10,7 @@ import {
   setVideoData,
 } from "../../slices/appDataSlice";
 
-export default function QII5CaseStudy1() {
+export default function QII5CaseStudy1({id}) {
   const dispatch = useDispatch();
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
@@ -28,13 +28,13 @@ export default function QII5CaseStudy1() {
     );
   }, []);
   return (
-    <div className="single-case-study-page">
+    <div className="single-case-study-page" id={id}>
       <section className="color-light">
         <div className="container">
           <div
             className="single-case-study-wrapper"
             style={{
-              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii5/Qii5CaseStudy.jpg")`,
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("GIF/Qll5_Case_Study_Video-GIF.gif")`,
               margin: "1rem 0 0 0",
             }}
           >
@@ -66,8 +66,8 @@ export default function QII5CaseStudy1() {
                   className="video-play-btn icon-play"
                   onClick={() => {
                     openVideo(
-                      "./video/LandingPageVideo.mp4",
-                      "Lessons from Success Stories",
+                      "./video/Qll5_Case_Study_Video.mp4",
+                      "QII.5 in Action",
                       1920,
                       1080,
                     );

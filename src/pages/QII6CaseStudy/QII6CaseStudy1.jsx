@@ -34,7 +34,7 @@ export default function QII6CaseStudy1() {
           <div
             className="single-case-study-wrapper"
             style={{
-              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii6/QII6-Landing/shutterstock_2293340555.jpg")`,
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("GIF/Qll6_Case_Study_Video-GIF.gif")`,
               margin: "1rem 0 0 0",
             }}
           >
@@ -67,7 +67,7 @@ export default function QII6CaseStudy1() {
                 <button
                   className="video-play-btn icon-play"
                   onClick={() => {
-                    openVideo("", "Lessons from Success Stories", 1920, 1080);
+                    openVideo("video/Qll6_Case_Study_Video.mp4", "QII.6 in Action", 1920, 1080);
                   }}
                 >
                   &#xe91e;
@@ -82,7 +82,7 @@ export default function QII6CaseStudy1() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/sector_icon.svg" alt="" />
                   <h3>SECTOR</h3>
-                  <p>All Infrastructure​</p>
+                  <p>Governance​</p>
                 </div>
               </div>
               <div className="case-study-details-card">
@@ -112,7 +112,7 @@ export default function QII6CaseStudy1() {
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
                   <p>
-                    lorem
+                    
                     <br />
                     <br />
                     <br />
@@ -125,9 +125,9 @@ export default function QII6CaseStudy1() {
                   <h3>RESULT</h3>
                   <div>
                     <ul>
-                      <li>Lorem, ipsum dolor.</li>
-                      <li>Lorem ipsum dolor sit.</li>
-                      <li>Lorem ipsum dolor sit amet.</li>
+                      <li>Uzbekistan: 265 PPPs initiated ($2.9B), ministries consolidated (61→28), e-procurement launched</li>
+                      <li>Tajikistan: e-procurement system established (2019), improved budget transparency rankings</li>
+                      <li>Kyrgyz Republic: 19 PPP contracts signed (3 operational), Open Budget score 62/100 </li>
                     </ul>
                   </div>
                 </div>
@@ -143,8 +143,8 @@ export default function QII6CaseStudy1() {
               <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
             <div
-              className="single-case-study-button disable-link"
-              onClick={() => window.open("", "_blank", "noopener,noreferrer")}
+              className="single-case-study-button"
+              onClick={() => window.open("https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf", "_blank", "noopener,noreferrer")}
             >
               Full Publication
               <div className="arrow-btn icon-arrow">&#xe900;</div>

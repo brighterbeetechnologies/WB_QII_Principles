@@ -7,6 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
+import { useLocation } from "react-router-dom";
 import {
   setBradcrump,
   setShowVideo,
@@ -21,6 +22,7 @@ import Video from "../components/Video";
 import { updateCardClick } from "../utils/cardRanking";
 
 export default function QII4LandingPage() {
+  const location = useLocation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const textCrData = [
@@ -94,41 +96,6 @@ export default function QII4LandingPage() {
       text: "Lowers long-term maintenance and replacement expenses through better design and risk management.",
     },
   ];
-
-  // const topResources = [
-  //   [
-  //     {
-  //       id: 4,
-  //       paths: "/",
-  //       type: "Programs",
-  //       title: "World Bank Tokyo Disaster Risk Management (DRM) Hub",
-  //       highlight: true,
-  //       principles: 3,
-  //       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-  //       format: 5,
-  //       stage: 4,
-  //       region: 1,
-  //       industry: 1,
-  //       image: "images/qii4/Fukuoka image.png",
-  //       topResource: true,
-  //     },
-  //     {
-  //       id: 4,
-  //       paths: "/",
-  //       type: "Programs",
-  //       title: "Global Facility For Disaster Reduction And Recovery",
-  //       highlight: true,
-  //       principles: 3,
-  //       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti impedit eum commodi molestias veritatis blanditiis earum sequi vitae assumenda! Sequi, quam eum voluptatem ex beatae quae aperiam inventore vitae dicta excepturi! Dignissimos odio repellat, in repellendus asperiores assumenda optio autem corporis voluptas doloremque impedit veniam distinctio ipsam dolores, sint hic!",
-  //       format: 5,
-  //       stage: 4,
-  //       region: 1,
-  //       industry: 1,
-  //       image: "images/qii4/Ganga-case-study-image.png",
-  //       topResource: true,
-  //     },
-  //   ],
-  // ];
 
   const resourceArray = [
     {
@@ -345,6 +312,16 @@ export default function QII4LandingPage() {
   };
 
   useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
+  useEffect(() => {
     dispatch(
       setBradcrump({
         show: true,
@@ -355,7 +332,7 @@ export default function QII4LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        <section className="color-light landingpage-banner">
+        <section className="color-light landingpage-banner" id="qii4-section1">
           <Header3 img="images/qii4/QII2_Landing_main.png">
             <div className="langing-page-container">
               <img
@@ -382,7 +359,7 @@ export default function QII4LandingPage() {
             </div>
           </Header3>
         </section>
-        <section className="">
+        <section className="color-dark" id="qii4-section2">
           <div className="container internal-pages-cards">
             <div className="center-header">
               <h3 className="light-font mBottom sub-text ">
@@ -418,87 +395,22 @@ export default function QII4LandingPage() {
             </div>
           </div>
         </section>
-        {/* <div className="container">
-          <p className="header-text">
-            Resilience in infrastructure refers to the capacity to withstand,
-            adapt to, and recover from disruptions—whether caused by natural
-            disasters, climate change, or human-made risks. Resilience ensures
-            reliable infrastructure service delivery and reduces the economic
-            disruptions caused by extreme events. Resilience can be especially
-            important in low- and middle-income countries which can lack the
-            system redundancies and emergency response capacity needed in
-            disaster situations.
-          </p>
-          <div className="header-items-cnt">
-            <div className="header-item">
-              <label className="item-label">
-                <strong>Diagnosing vulnerabilities</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <label className="item-label">
-                <strong>Resilient design and operation</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <label className="item-label">
-                <strong>Financing resilience</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <label className="item-label">
-                <strong>Managing cybersecurity risks</strong>
-              </label>
-            </div>
-          </div>
-        </div> */}
       </section>
-      {/* <Header3 img="images/qii4/QII2_Landing_image2.png">
-        <p>
-          Resilience is more than a safeguard—it's a foundational principle for
-          infrastructure that must withstand, adapt to, and recover from shocks
-          to ensure uninterrupted service, especially in rapidly changing and
-          vulnerable environments.
-        </p>
-      </Header3> */}
       <ImagewithStatement
+      id="qii4-section3"
         backgroundImage={"images/qii4/QII2_Landing_image2.png"}
         text={
           "Resilience is more than a safeguard—it's a foundational principle for infrastructure that must withstand, adapt to, and recover from shocks to ensure uninterrupted service, especially in rapidly changing and vulnerable environments."
         }
       />
-      <section className="color-dark">
+      <section className="color-dark" id="qii4-section4">
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              {/* <img src="images/qii4/QII_4_video_thumbnail.png" alt="" />
-              <div className="vid-cnt">
-                <button
-                  className="video-play-btn icon-play"
-                  onClick={() => {
-                    openVideo(
-                      "./video/LandingPageVideo.mp4",
-                      "Unlocking the Potential of Life Cycle Costing",
-                      1920,
-                      1080,
-                    );
-                  }}
-                >
-                  &#xe91e;
-                </button>
-                <p className="video-title">
-                  <strong>
-                    Unlocking The Urgent Need for Resilient Infrastructure
-                  </strong>
-                </p>
-              </div> */}
               <Video
                 thumbnail="images/qii4/QII_4_video_thumbnail.png"
-                videoUrl=""
-                videoTitle="Unlocking the Potential of Life Cycle Costing"
+                videoUrl="video/Qll4_Landing_Page_Video.mp4"
+                videoTitle="Unlocking The Urgent Need for Resilient Infrastructure"
                 cardTitle={
                   <>
                     <span>Unlocking The Urgent Need for</span> <br />
@@ -523,102 +435,10 @@ export default function QII4LandingPage() {
           </div>
         </div>
       </section>
-      {/* <section className="container internal-pages-container color-dark">
-        <h3 className="statement-text">
-          <strong>The Benefits of Resilience in Infrastructure </strong>
-        </h3>
-        <h1 className="light-font "></h1>
-      </section> */}
-      {/* <section className="q4_landing_page color-dark">
-        <div className="container">
-          <div className="qii4-video-card">
-            <img
-              className="desk_image"
-              src="images/qii4/QII 2 in Action poster.png"
-              alt=""
-            />
-            <img
-              className="mob_image"
-              src="images/qii4/QII 2 in Action poster.png"
-              alt=""
-            />
-            <div className="vid-cnt qii4-vid-cnt">
-              <button
-                className="video-play-btn icon-play"
-                onClick={() => {
-                  openVideo(
-                    "./video/LandingPageVideo.mp4",
-                    "Lessons from Success Stories",
-                    1920,
-                    1080,
-                  );
-                }}
-              >
-                &#xe91e;
-              </button>
-            </div>
-            <div className="qii4-video-overlay">
-              <p className="qii4-video-title">QII 4 in Action</p>
 
-              <p className="qii4-video-desc">
-                The Solomon Islands' adoption of prefabricated modular bridges
-                demonstrates an efficient, climate-resilient solution for
-                strengthening vital transport infrastructure in the Pacific.
-              </p>
-              <Link
-                target="_blank"
-                to="https://blogs.worldbank.org/en/ppps/modular-bridges-climate-resilient-solution-small-bridges-pacific"
-              >
-                <button className="btn-primary qii2-video-cta">
-                  Explore Case Study{" "}
-                  <span className="icon-arrow">&#xe900;</span>
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      <QII4CaseStudy4 id="qii4-section5"/>
 
-      {/* <section className="qii_video_landing_page color-light">
-        <img
-          className="qii_video-thumbnail-image"
-          src="images/qii4/updated/QII-4-in-Action.png"
-          alt="video thumbnail"
-        />
-        <div className="qii-video-overlay"></div>
-        <div className="qii-video-cnt">
-          <button
-            className="video-play-btn icon-play"
-            onClick={() => {
-              openVideo(
-                "./video/LandingPageVideo.mp4",
-                "Lessons from Success Stories",
-                1920,
-                1080,
-              );
-            }}
-          >
-            &#xe91e;
-          </button>
-        </div>
-        <div className="qii-video-text-cnt">
-          <p className="video-title">QII.4 in Action</p>
-          <p className="video-desc">
-            The Solomon Islands’ adoption of prefabricated modular bridges
-            demonstrates an efficient, climate-resilient solution for
-            strengthening vital transport infrastructure in the Pacific.
-          </p>
-          <Link to="/qii4casestudy4">
-            <button className="btn-primary qii2-video-cta">
-              Explore Case Study <span className="icon-arrow">&#xe900;</span>
-            </button>
-          </Link>
-        </div>
-      </section> */}
-
-      <QII4CaseStudy4 />
-
-      <section className="color-dark">
+      <section className="color-dark" id="qii4-section6">
         <div className="container">
           <h2 className="section-title light-font">QII.4 Case Studies</h2>
           <div className="page-resource-grid" role="list">
@@ -743,30 +563,6 @@ export default function QII4LandingPage() {
           </div>
         </div>
       </section>
-
-      {/* <section className="color-dark top_resource_page">
-        <div className="center-header">
-          <h1 className="light-font mBottom">Top Resources: QII 4</h1>
-        </div>
-        <div className="container resource_page">
-          <div className="resource-carousel-container">
-            <div className="resource-carousel-wrapper">
-              <div className="resource-carousel-track">
-                {topResources.map((slide, i) => (
-                  <div className="resource-carousel-slide" key={i}>
-                    <div className="resource-card-container col-2">
-                      {slide.map((card, j) => (
-                        <CardBox key={j} card={card}></CardBox>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
       <section className="color-light z-2" id="resourcesSection">
         <ResourceLibrary
           subPages={subPages}

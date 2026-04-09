@@ -3637,7 +3637,7 @@ export const appDataSlice = createSlice({
         rId: 171,
         id: 4,
         paths:
-          "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
+          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
         type: "Case Study",
         title:
           "Senegal​: Mainstreaming Universal Accessibility in the Built Environment Projects",
@@ -3745,13 +3745,14 @@ export const appDataSlice = createSlice({
       {
         rId: 177,
         id: 4,
-        paths:
-          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
+        // paths:
+        //   "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
+        paths: "/qii5casestudy2",
         type: "Case Study",
         title:
           "Vietnam and Senegal: Incorporating Universal Accessibility into Infrastructure Planning and Design",
         highlight: 2,
-        target: "_blank",
+        target: "_self",
         principles: 4,
         desc: "This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
         format: 1,
@@ -3780,8 +3781,9 @@ export const appDataSlice = createSlice({
       {
         rId: 179,
         id: 4,
-        paths:
-          "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
+        // paths:
+        //   "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
+        paths: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
         type: "Case Study",
         title:
           "Vietnam: Incorporating Universal Accessibility into Infrastructure Planning and Design",

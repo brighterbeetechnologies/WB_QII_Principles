@@ -6,7 +6,7 @@ import "../QII2CaseStudy.css";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../../slices/appDataSlice";
 
-export default function QII2CaseStudy2() {
+export default function QII6CaseStudy2() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(

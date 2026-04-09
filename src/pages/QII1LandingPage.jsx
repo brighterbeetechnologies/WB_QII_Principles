@@ -17,8 +17,10 @@ import {
 import QII1CaseStudy1 from "./QII1CaseStudy/QII1CaseStudy1";
 import QII1_CardBox from "../components/QII1_CardBox";
 import QIIVCard from "../components/QIIVCard";
+import { useLocation } from "react-router-dom";
 
 export default function QII1LandingPage() {
+  const location = useLocation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const STEP_PAGE_SIZE = 3;
@@ -161,14 +163,6 @@ export default function QII1LandingPage() {
       </div>
     </div>,
   ];
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setPage((prev) => (prev === cards.length ? 1 : prev + 1));
-  //   }, 3000); // 3 seconds
-
-  //   return () => clearInterval(interval);
-  // }, [cards.length]);
 
   const tabs = [
     "Sustainable Development Objectives",
@@ -1262,6 +1256,16 @@ export default function QII1LandingPage() {
   };
 
   useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
+  useEffect(() => {
     dispatch(
       setBradcrump({
         show: true,
@@ -1271,7 +1275,7 @@ export default function QII1LandingPage() {
   }, []);
   return (
     <div className="qii1">
-      <section className="q1_landing_page color-dark">
+      <section className="q1_landing_page color-dark" id="qii1-section1">
         <section className="color-light landingpage-banner">
           <Header4 img="images/qii1/QII1_Landing_main.png">
             <div className="langing-page-container">
@@ -1296,16 +1300,16 @@ export default function QII1LandingPage() {
       </section>
       <section className="color-light">
         <div className="container container-qii1">
-          <p className="light-font qii1-sub-text">
+          <p className="light-font qii1-sub-text" id="qii1-section2">
             QII 1 serves as the overarching foundation for the QII Principles,
             with the goal to maximize the positive impact of infrastructure and
             inform the application of the remaining principles:
           </p>
-          <div className="video-text-cnt">
+          <div className="video-text-cnt" id="qii1-section3">
             <div className="video-text-box">
               <Video
-                thumbnail="images/qii1/Indonesia-Transforming.png"
-                videoUrl=""
+                thumbnail="GIF/QII-1 Landing Page Video-GIF.gif"
+                videoUrl="video/QII-1 Sustainable Growth.mp4"
                 videoTitle="QII.1 in Action"
                 cardTitle={
                   <>
@@ -1380,124 +1384,7 @@ export default function QII1LandingPage() {
             </div>
           </div>
         </div>
-        {/* <div className="qii1-text-cnt"> */}
-        <div className="qii1-further-reading-container">
-          {/* <div className="qii1-further-reading-continer-big-1">
-            <div className="qii1-further-reading-continer-small">
-              <p className="qii1-further-reading">
-                <strong>Iraq: Rebuilding Communities After Conflict</strong>
-              </p>
-              <div className="qii1-further-reading-link-container">
-                <p className="qii1-further-reading-link">
-                  <Link
-                    to={
-                      "https://blogs.worldbank.org/en/arabvoices/iraq-emergency-project-rebuilding-bridges#:~:text=They%20were%20carried%20out%20by%20Iraqi%20government,Group%27s%20Emergency%20Operation%20for%20Development%20Project%20(EODP)"
-                    }
-                    className="link5"
-                    target="_blank"
-                  >
-                    Blog: Emergency Project Rebuilding Bridges, Roads, Water,
-                    Wastewater Municipal services and Livelihoods
-                  </Link>
-                </p>
-                <p className="qii1-further-reading-link">
-                  <Link
-                    to={
-                      "https://www.worldbank.org/en/news/press-release/2017/10/31/400-million-for-the-reconstruction-of-mosul-and-newly-liberated-areas-in-iraq#:~:text=On%20October%2031%2C%202017%2C%20the%20World%20Bank,*%20Improve%20education%20quality%20*%20Increase%20employment"
-                    }
-                    className="link5"
-                    target="_blank"
-                  >
-                    Blog: $400 Million for the Reconstruction of Mosul and Newly
-                    Liberated Areas in Irag
-                  </Link>
-                </p>
-              </div>
-            </div>
-            <div className="qii1-further-reading-continer-small">
-              <p className="qii1-further-reading">
-                <strong>
-                  Dominica: Building Climate Resilience Through Nature-Based
-                  Solutions{" "}
-                </strong>
-              </p>
-              <div className="qii1-further-reading-link-container">
-                <p className="qii1-further-reading-link">
-                  <Link
-                    to={"https://www.gfdrr.org/fr/dominique"}
-                    className="link5"
-                    target="_blank"
-                  >
-                    GFDRR Country Profile
-                  </Link>
-                </p>
-                <p className="qii1-further-reading-link">
-                  <Link
-                    to={
-                      "https://www.worldbank.org/en/news/feature/2023/09/26/dominica-s-journey-to-become-the-world-s-first-climate-resilient-country"
-                    }
-                    className="link5"
-                    target="_blank"
-                  >
-                    Blog: Dominica’s Journey to become the World’s First Climate
-                    Resilient Country
-                  </Link>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="qii1-further-reading-continer-big">
-            <div className="qii1-further-reading-continer-small">
-              <p className="qii1-further-reading">
-                <strong>
-                  Indonesia: Transforming Irrigation Performance Through
-                  Technology{" "}
-                </strong>
-              </p>
-              <div className="qii1-further-reading-link-container">
-                <p className="qii1-further-reading-link">
-                  <Link
-                    to={
-                      "https://www.worldbank.org/en/news/feature/2022/07/06/-indonesia-pioneers-irrigation-service-delivery-innovation"
-                    }
-                    className="link5"
-                    target="_blank"
-                  >
-                    Feature: Irrigation Service Delivery Innovation
-                  </Link>
-                </p>
-              </div>
-            </div>
-            <div className="qii1-further-reading-continer-small">
-              <p className="qii1-further-reading">
-                <strong>Maputo: Data-Driven Urban Mobility </strong>
-              </p>
-              <div className="qii1-further-reading-link-container">
-                <p className="qii1-further-reading-link">
-                  <Link
-                    to={
-                      "https://blogs.worldbank.org/en/transport/harnessing-technology-and-innovation-modernize-public-transport-our-experience-mozambique"
-                    }
-                    className="link5"
-                    target="_blank"
-                  >
-                    Blog: Modernizing Public Transport
-                  </Link>
-                </p>
-                <p className="qii1-further-reading-link">
-                  <Link
-                    to={
-                      "https://www.worldbank.org/en/news/press-release/2022/08/24/world-bank-supports-urban-transport-in-the-maputo-metropolitan-area"
-                    }
-                    className="link5"
-                    target="_blank"
-                  >
-                    Press Release: Urban Transport Support
-                  </Link>
-                </p>
-              </div>
-            </div>
-          </div> */}
+        <div className="qii1-further-reading-container" id="qii1-section4">
           <div className="qii1-further-reading-container-subtitle">
             {" "}
             See the links below for more information on the projects highlighted
@@ -1531,25 +1418,27 @@ export default function QII1LandingPage() {
                   Dominica: Building Climate Resilience Through Nature-Based
                 </a>
               </li>
-              <li><a
+              <li>
+                <a
                   href="https://blogs.worldbank.org/en/transport/harnessing-technology-and-innovation-modernize-public-transport-our-experience-mozambique"
                   target="_blank"
                 >
                   Maputo: Data-Driven Urban Mobility
-                </a></li>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
-        {/* </div> */}
       </section>
-      <section className="container internal-pages-container color-dark">
+      <section className="container internal-pages-container color-dark" id="qii1-section5">
         <p className="center-text">
           <strong>
             The Multiplier Effect: How QII Principles Work Together
           </strong>
         </p>
         <div className="VCard-cnt col3">
-          <QIIVCard
+          <QIIVCard 
+            id="qii1-section9"
             image="images/qii1/Eurasia_Tunnel.png"
             title={
               <p>
@@ -1569,6 +1458,7 @@ export default function QII1LandingPage() {
             </p>
           </QIIVCard>
           <QIIVCard
+            id="qii1-section9"
             image="images/qii1/Delhi-Mass-Rapid-Transport-System-Phase-2.png"
             title={
               <p>
@@ -1588,6 +1478,7 @@ export default function QII1LandingPage() {
             </p>
           </QIIVCard>
           <QIIVCard
+          id="qii1-section9"
             image="images/qii1/Port-Moresby-Sewerage-System-Upgrading-Project.png"
             title={
               <p>
@@ -1607,52 +1498,8 @@ export default function QII1LandingPage() {
             </p>
           </QIIVCard>
         </div>
-        {/* <div className="card-5">
-          <div className="card-5-btn-container">
-            <button className="card-5-btn">
-              Sustainable Development Objectives
-            </button>
-            <button className="card-5-btn">Jobs and Growth</button>
-            <button className="card-5-btn">
-              Co-Benefits of Multiple QII Principles
-            </button>
-            <button className="card-5-btn">
-              Partnering With the Private Sector
-            </button>
-            <button className="card-5-btn">
-              Digitalization and Technology
-            </button>
-            <button className="card-5-btn">
-              Partnering With the Private Sector
-            </button>
-            <button className="card-5-btn">References</button>
-          </div>
-          <div className="card-5-content">
-            <div className="card-5-content-circle">
-              <p>
-                <strong>210M</strong>
-              </p>
-              <p>Hours of travel time saved</p>
-            </div>
-            <div className="card-5-content-desc">
-              <p className="card-5-content-country">Eurasia Tunnel, Türkiye</p>
-              <p className="card-5-content-title">
-                Sustainable Development Objectives
-              </p>
-              <p className="card-5-content-description">
-                The Eurasia Tunnel, one of the first projects globally to
-                achieve Blue Dot Network certification, is an engineering
-                landmark that connects two continents in just 5 minutes. Over
-                its first 8 years of operation (2016-2024), the tunnel has saved
-                commuters 210 million hours of travel time while improving road
-                safety. The project aims to cut fuel consumption by 129,000 tons
-                and CO2 emissions by 50,000 tons over its operational lifetime.
-              </p>
-            </div>
-          </div>
-        </div> */}
         {currentCard !== 4 && (
-          <div className="card-5">
+          <div className="card-5" id="qii1-section10">
             <div className="card-5-btn-container">
               {/* {Object.keys(allData[currentCard]).map((tab, i) => (
               
@@ -1673,23 +1520,8 @@ export default function QII1LandingPage() {
             </div>
 
             <div className={`card-5-content ${fade ? "fade-in" : "fade-out"}`}>
-              {/* <div className="card-5-content-circle">
-                <p>
-                  <strong>
-                    {cardsTabsData[currentCard]?.[activeTab].value}
-                  </strong>
-                </p>
-                <p>{cardsTabsData[currentCard]?.[activeTab].desc}</p>
-              </div> */}
-
               <div className="card-5-content-desc">
-                {/* <p className="card-5-content-country">
-                  {cardsTabsData[currentCard]?.[activeTab].country}
-                </p>
-                <p className="card-5-content-title">
-                  {cardsTabsData[currentCard]?.[activeTab].title}
-                </p> */}
-                <div className="card-5-content-description">
+              <div className="card-5-content-description">
                   {cardsTabsData[currentCard]?.[activeTab].description}
                 </div>
               </div>
@@ -1698,21 +1530,17 @@ export default function QII1LandingPage() {
         )}
       </section>
       <section className="container internal-pages-container color-light">
-        <h2 className="section-title light-font">
+        <h2 className="section-title light-font" id="qii1-section6">
           Key Global Initiatives Promoting QII
         </h2>
-        <p className="center-text">
+        <p className="center-text" id="qii1-section6">
           Several international initiatives have incorporated the QII Principles
           into frameworks to strengthen investment decision-making into quality
           infrastructure.
         </p>
-        <VCardsPagination cardsData={step1Cards} />
-        {/* <p className="center-text">
-          Together, these efforts promote a shared global language for quality,
-          resilience, and sustainability in infrastructure investment.
-        </p> */}
+        <VCardsPagination cardsData={step1Cards} id="qii1-section7"/>
       </section>
-      <section className="container internal-pages-container color-dark">
+      <section className="container internal-pages-container color-dark" id="qii1-section8">
         <h2 className="section-title light-font">Other References</h2>
         <div className="card-4-grid" role="list">
           {paginatedCards2.map((card) => (

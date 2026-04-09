@@ -8,7 +8,7 @@ import {
   setVideoData,
 } from "../../slices/appDataSlice";
 
-export default function QII3CaseStudy1() {
+export default function QII3CaseStudy1({id}) {
   const dispatch = useDispatch();
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
@@ -26,13 +26,13 @@ export default function QII3CaseStudy1() {
     );
   }, []);
   return (
-    <div className="single-case-study-page">
+    <div className="single-case-study-page" id={id}>
       <section className="color-light">
         <div className="container">
           <div
             className="single-case-study-wrapper"
             style={{
-              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii3/Highlight_video_thumbnail.png")`,
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("GIF/QII3_Spotlight_Belgrade-GIF.gif")`,
               margin: "1rem 0 0 0",
             }}
           >
@@ -62,11 +62,11 @@ export default function QII3CaseStudy1() {
             <div className="qii-video-cnt">
               <div className="case-study-play-btn">
                 <button
-                  className="video-play-btn icon-play disable-link"
+                  className="video-play-btn icon-play"
                   onClick={() => {
                     openVideo(
-                      "./video/LandingPageVideo.mp4",
-                      "Lessons from Success Stories",
+                      "./video/QII3_Spotlight_Belgrade.mp4",
+                      "QII.3 in Action",
                       1920,
                       1080,
                     );

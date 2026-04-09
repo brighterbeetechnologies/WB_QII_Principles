@@ -18,8 +18,10 @@ import Video from "../components/Video";
 import QII5CaseStudy1 from "./QII5CaseStudy/QII5CaseStudy1";
 import "./QII2CaseStudy.css";
 import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function QII5LandingPage() {
+  const location = useLocation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [preSelectedResources, setPreSelectedResources] = useState([
@@ -108,11 +110,13 @@ export default function QII5LandingPage() {
         "Vietnam and Senegal: Incorporating Universal Accessibility into Infrastructure Planning and Design ",
       // country: "Vietnam and Senegal",
       // org: "World Bank",
+      highlight: 1,
       description:
         "This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials.",
       img_path: "images/qii5/shutterstock_2309884753.jpg",
-      path: "",
-      target: "_blank",
+      // path: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
+      path: "/qii5casestudy2",
+      target: "_self",
     },
     {
       rId: 200,
@@ -236,6 +240,17 @@ export default function QII5LandingPage() {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   useEffect(() => {
     dispatch(
       setBradcrump({
@@ -247,7 +262,7 @@ export default function QII5LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        <section className="color-light landingpage-banner">
+        <section className="color-light landingpage-banner" id="qii5-section1">
           <Header3 img="images/QII_Landing_images_updated/QII5_Landing_main.png">
             <div className="langing-page-container">
               <img
@@ -272,7 +287,7 @@ export default function QII5LandingPage() {
         </section>
         <div className="container internal-pages-cards">
           <div className="center-header">
-            <h3 className="light-font">
+            <h3 className="light-font" id="qii5-section2">
               To fully realize these social and economic benefits, inclusion
               must be integrated throughout the infrastructure lifecycle
               starting with policies and regulations, then through planning and
@@ -281,7 +296,7 @@ export default function QII5LandingPage() {
               met.{" "}
             </h3>
           </div>
-          <div className="qii5-sub-pages">
+          <div className="qii5-sub-pages" id="qii5-section3">
             {subPages.map((page, i) => (
               <div className="subpage-cnt" key={i}>
                 <div
@@ -310,6 +325,7 @@ export default function QII5LandingPage() {
         </div>
       </section>
       <ImagewithStatement
+        id="qii5-section4"
         backgroundImage={"images/qii5/LandingPage.jpg"}
         backgroundPosition={"10% 50%"}
         text={
@@ -329,31 +345,12 @@ export default function QII5LandingPage() {
         }
       />
       <section className="color-dark">
-        <div className="container ">
+        <div className="container " id="qii5-section5">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              {/* <img src="images/qii2/videoCover.png" alt="" />
-              <div className="vid-cnt">
-                <button
-                  className="video-play-btn icon-play"
-                  onClick={() => {
-                    openVideo(
-                      "./video/LandingPageVideo.mp4",
-                      "The Importance of Inclusion in Infrastructure",
-                      1920,
-                      1080,
-                    );
-                  }}
-                >
-                  &#xe91e;
-                </button>
-                <p className="video-title">
-                  <strong>The Importance of Inclusion in Infrastructure</strong>
-                </p>
-              </div> */}
               <Video
-                thumbnail="images/qii5/shutterstock_2616910319.jpg"
-                videoUrl="./video/LandingPageVideo.mp4"
+                thumbnail="GIF/QII-5 Landing Page-GIF.gif"
+                videoUrl="./video/QII-5 Landing Page.mp4"
                 videoTitle="The Importance of Inclusion in Infrastructure"
                 cardTitle={
                   <>
@@ -376,81 +373,37 @@ export default function QII5LandingPage() {
           </div>
         </div>
       </section>
-      {/* <section className="container internal-pages-container color-dark">
-        <h3 className="statement-text">
-          <strong>Life cycle costing</strong> breaks this cycle. <br />
-          <br />
-          By accounting for the <strong>total cost of service delivery</strong>,
-          governments and institutions can make smarter investments that deliver
-          better value over time.
-        </h3>
-        <h1 className="light-font "></h1>
-      </section> */}
-      {/* <section className="qii_video_landing_page color-light">
-        <img
-          className="qii_video-thumbnail-image"
-          src="images/qii4/QII 2 in Action poster.png"
-          alt="video thumbnail"
-        />
-        <div className="qii-video-overlay"></div>
-        <div className="qii-video-cnt">
-          <button
-            className="video-play-btn icon-play"
-            onClick={() => {
-              openVideo(
-                "./video/FukuokaCaseStudy.mp4",
-                "QII.5 in Action",
-                1920,
-                1080,
-              );
-            }}
-          >
-            &#xe91e;
-          </button>
-        </div>
-        <div className="qii-video-text-cnt">
-          <p className="video-title">QII.5 in Action</p>
-          <p className="video-desc">
-            Discover how the design of Maputo's Bus Rapid Transit system is
-            transforming public transport in Mozambique's capital.
-          </p>
-          <Link to="https://openknowledge.worldbank.org/bitstreams/b3a5db52-b590-4b17-84f8-f304ad2c19c2/download">
-            <button className="btn-primary qii2-video-cta">
-              Explore Case Study <span className="icon-arrow">&#xe900;</span>
-            </button>
-          </Link>
-        </div>
-      </section> */}
-      <QII5CaseStudy1 />
+      <QII5CaseStudy1 id="qii5-section6"/>
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">QII.5 Case Studies</h2>
-          <div className="page-resource-grid" role="list">
+          <h2 className="section-title light-font" id="qii5-section7">QII.5 Case Studies</h2>
+          <div className="page-resource-grid" role="list" id="qii5-section8">
             {resourceArray.map((p, index) => {
               return (
                 <article
-                  className="page-resource-card"
+                  // className="page-resource-card"
                   key={index}
                   role="listitem"
                   style={{ backgroundImage: `url(${p.img})` }}
+                  className={`page-resource-card box-card ${p.highlight && "highlighted"}`}
                 >
                   <div className="page-resource-link">
                     <div className="page-resource-body">
                       <div className="page-resource-title title-small">
                         {/* {p.country && (
-                          <>
-                            <span>{p.country}</span> <br />
-                          </>
-                        )} */}
+                                    <>
+                                      <span>{p.country}</span> <br />
+                                    </>
+                                  )} */}
                         {/* <strong>{p.title}</strong> */}
                         <br />
                         {p.title}
                         {/* {p.org && (
-                          <>
-                            <br />
-                            <span>{p.org}</span>
-                          </>
-                        )} */}
+                                    <>
+                                      <br />
+                                      <span>{p.org}</span>
+                                    </>
+                                  )} */}
                       </div>
                       <div className="page-resource-overlay" />
                       <img
@@ -459,27 +412,27 @@ export default function QII5LandingPage() {
                         alt={p.title}
                       />
                       {/* <div className="page-resource-img-cnt">
-                    </div> */}
+                                    </div> */}
                       <div className="page-resource-data">
                         <div className="page-resource-title title-big">
                           {/* {p.country && (
-                            <>
-                              <span>{p.country}</span> <br />
-                            </>
-                          )} */}
+                                      <>
+                                        <span>{p.country}</span> <br />
+                                      </>
+                                    )} */}
                           {/* <strong>{p.title}</strong> */}
                           <br />
                           {p.title}
                           {/* {p.org && (
-                            <>
-                              <br />
-                              <span>{p.org}</span>
-                            </>
-                          )} */}
+                                      <>
+                                        <br />
+                                        <span>{p.org}</span>
+                                      </>
+                                    )} */}
                         </div>
                         {/* <div className="page-resource-description">
-                          {p.description}
-                        </div> */}
+                                    {p.description}
+                                  </div> */}
                         <Popover
                           content={
                             <div className="resource-popover-content">
@@ -495,65 +448,21 @@ export default function QII5LandingPage() {
                           </div>
                         </Popover>
                         <div className="page-resource-btn-cnt">
-                          {/* {p.path ? (
-                            p.target === "_blank" ? (
-                              <a
-                                className="page-resource-arrow"
-                                href={p.path}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <span className="icon-arrow">&#xe900;</span>
-                              </a>
-                            ) : (
-                              <Link className="page-resource-arrow" to={p.path}>
-                                <span className="icon-arrow">&#xe900;</span>
-                              </Link>
-                            )
-                          ) : (
-                            <span className="page-resource-arrow disabled">
-                              <span className="icon-arrow">&#xe900;</span>
-                            </span>
-                          )} */}
-                          {p.path ? (
-                            p.target === "_blank" ? (
-                              <a
-                                className="page-resource-arrow"
-                                href={p.path}
-                                target={p.target}
-                                rel="noopener noreferrer"
-                                onClick={(e) => {
-                                  e.preventDefault();
-                                  updateCardClick(p.rId);
-
-                                  if (p.path) {
-                                    window.open(p.path, "_blank");
-                                  }
-                                }}
-                              >
-                                <span className="icon-arrow">&#xe900;</span>
-                              </a>
-                            ) : (
-                              <Link
-                                className="page-resource-arrow"
-                                to={p.path}
-                                target={p.target}
-                                onClick={() => {
-                                  updateCardClick(p.rId);
-                                }}
-                              >
-                                <span className="icon-arrow">&#xe900;</span>
-                              </Link>
-                            )
-                          ) : null}
-                        </div>
-
-                        {/* <div className="page-resource-btn-cnt">
                           {p.target === "_blank" ? (
                             <a
                               className="page-resource-arrow"
                               href={p.path}
                               target={p.target}
+                              rel="noopener noreferrer"
+                              onClick={(e) => {
+                                e.preventDefault();
+
+                                updateCardClick(p.rId);
+
+                                if (p.path) {
+                                  window.open(p.path, "_blank");
+                                }
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </a>
@@ -562,14 +471,31 @@ export default function QII5LandingPage() {
                               className="page-resource-arrow"
                               to={p.path}
                               target={p.target}
+                              onClick={() => {
+                                updateCardClick(p.rId);
+                              }}
                             >
                               <span className="icon-arrow">&#xe900;</span>
                             </Link>
                           )}
-                        </div> */}
+                        </div>
                       </div>
                     </div>
                   </div>
+                  {p.highlight ? (
+                    <div
+                      className="highlighted-badge"
+                      style={{
+                        background: `${p.highlight ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
+                        backgroundSize: "100% 100%",
+                      }}
+                    >
+                      <img src="images/Star_for_spotligh.svg" alt="" />
+                      {p.highlight && <>Spotlight Case Study</>}
+                    </div>
+                  ) : (
+                    <></>
+                  )}
                 </article>
               );
             })}

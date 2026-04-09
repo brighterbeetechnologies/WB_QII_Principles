@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="942" height="562" viewBox="0 0 942 562">
+  <g id="Group_362625" data-name="Group 362625" transform="translate(-1 -1321)">
+    <text id="Electricity_Heat_29.7_" data-name="Electricity &amp; Heat 
+29.7%" transform="translate(745 1440)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Electricity &amp; Heat</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"> </tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="30">29.7%</tspan></tspan></text>
+    <text id="Transportation_13.7_" data-name="Transportation
+13.7%" transform="translate(745 1710)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Transportation</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="30">13.7%</tspan></tspan></text>
+    <text id="Manufacturing_construction_12.7_" data-name="Manufacturing &amp; construction
+12.7%" transform="translate(517 1847)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Manufacturing &amp; construction</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="30">12.7%</tspan></tspan></text>
+    <text id="Buildings_6.6_" data-name="Buildings
+6.6%" transform="translate(215 1809)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Buildings</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="30">6.6%</tspan></tspan></text>
+    <text id="Fugitive_emissions_6.6_" data-name="Fugitive emissions
+6.6%" transform="translate(36 1727)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Fugitive emissions</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="30">6.6%</tspan></tspan></text>
+    <text id="Other_energy_uses_6.4_" data-name="Other energy uses
+6.4%" transform="translate(1 1626)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Other energy uses</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="30">6.4%</tspan></tspan></text>
+    <text id="Non-energy_sectors_24.3_" data-name="Non-energy sectors
+24.3%" transform="translate(16 1440)" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Non-energy sectors</tspan><tspan font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="30">24.3%</tspan></tspan></text>
+    <g id="Pie_chart" data-name="Pie chart">
+      <circle id="Ellipse_521" data-name="Ellipse 521" cx="248.5" cy="248.5" r="248.5" transform="translate(246 1321)" fill="#fff"/>
+      <g id="pie_chart-2" data-name="pie chart" transform="translate(12.65 1121.45)">
+        <g id="Group_362623" data-name="Group 362623" transform="translate(256.55 221.25)">
+          <path id="Path_7368" data-name="Path 7368" d="M408.6,221.25v226.8l216.375,65.925a232.191,232.191,0,0,0,9.15-65.925q0-93.975-66.45-160.425Q501.75,221.7,408.6,221.25Z" transform="translate(-180.525 -221.25)" fill="#0b233e"/>
+          <path id="Path_7369" data-name="Path 7369" d="M484.575,221.25H483.3q-93.975,0-160.425,66.375Q260,350.575,256.65,438.225l227.925,9.825Z" transform="translate(-256.5 -221.25)" fill="#d4d4d4"/>
+          <path id="Path_7370" data-name="Path 7370" d="M436.125,599.25H437.4q49.245-.239,90.825-18.825L437.4,372.45,351,583.425Q390.3,599.25,436.125,599.25Z" transform="translate(-209.325 -145.65)" fill="#2d7db5"/>
+          <path id="Path_7371" data-name="Path 7371" d="M567.675,532.8q41.8-41.753,57.3-94.425L408.6,372.45l90.825,207.975Q536.6,563.909,567.675,532.8Z" transform="translate(-180.525 -145.65)" fill="#194a79"/>
+          <path id="Path_7372" data-name="Path 7372" d="M268.35,462.075Q284.441,499.608,315.225,531l163.5-158.55Z" transform="translate(-250.65 -145.65)" fill="#8fd1e7"/>
+          <path id="Path_7373" data-name="Path 7373" d="M299.6,531l1.8,1.8q34.047,34.047,75.3,50.625L463.1,372.45Z" transform="translate(-235.025 -145.65)" fill="#5ab1d5"/>
+          <path id="Path_7374" data-name="Path 7374" d="M256.7,365.9q-.15,4.875-.15,9.825,0,48.508,17.7,89.625l210.375-89.625Z" transform="translate(-256.55 -148.925)" fill="#b0d1e0"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_362626" data-name="Group 362626" transform="translate(-5 -0.5)">
+      <path id="Path_7375" data-name="Path 7375" d="M738.529,1444.6H677.817" fill="none" stroke="#0b233e" stroke-width="2"/>
+      <circle id="Ellipse_522" data-name="Ellipse 522" cx="6" cy="6" r="6" transform="translate(732 1439)" fill="#0b233e"/>
+    </g>
+    <g id="Group_362627" data-name="Group 362627" transform="translate(-8 266.5)">
+      <path id="Path_7375-2" data-name="Path 7375" d="M738.529,1444.6H677.817" fill="none" stroke="#194a79" stroke-width="2"/>
+      <circle id="Ellipse_522-2" data-name="Ellipse 522" cx="6" cy="6" r="6" transform="translate(732 1439)" fill="#194a79"/>
+    </g>
+    <g id="Group_362628" data-name="Group 362628" transform="translate(1945.5 1116.183) rotate(90)">
+      <path id="Path_7375-3" data-name="Path 7375" d="M738.529,1444.6H677.817" fill="none" stroke="#2d7db5" stroke-width="2"/>
+      <circle id="Ellipse_522-3" data-name="Ellipse 522" cx="6" cy="6" r="6" transform="translate(732 1439)" fill="#2d7db5"/>
+    </g>
+    <g id="Group_362629" data-name="Group 362629" transform="translate(1944.994 2001.755) rotate(124)">
+      <path id="Path_7375-4" data-name="Path 7375" d="M738.529,1444.6H677.817" fill="none" stroke="#5ab1d5" stroke-width="2"/>
+      <circle id="Ellipse_522-4" data-name="Ellipse 522" cx="6" cy="6" r="6" transform="translate(732 1439)" fill="#5ab1d5"/>
+    </g>
+    <g id="Group_362630" data-name="Group 362630" transform="translate(1678.382 2508.924) rotate(146)">
+      <path id="Path_7375-5" data-name="Path 7375" d="M738.529,1444.6H677.817" fill="none" stroke="#8fd1e7" stroke-width="2"/>
+      <circle id="Ellipse_522-5" data-name="Ellipse 522" cx="6" cy="6" r="6" transform="translate(732 1439)" fill="#8fd1e7"/>
+    </g>
+    <g id="Group_362631" data-name="Group 362631" transform="translate(1285.158 2853.593) rotate(166)">
+      <path id="Path_7375-6" data-name="Path 7375" d="M738.529,1444.6H677.817" fill="none" stroke="#8fd1e7" stroke-width="2"/>
+      <circle id="Ellipse_522-6" data-name="Ellipse 522" cx="6" cy="6" r="6" transform="translate(732 1439)" fill="#8fd1e7"/>
+    </g>
+    <g id="Group_362632" data-name="Group 362632" transform="translate(1285.158 2853.594) rotate(166)">
+      <path id="Path_7375-7" data-name="Path 7375" d="M738.529,1444.6H677.817" fill="none" stroke="#8fd1e7" stroke-width="2"/>
+      <circle id="Ellipse_522-7" data-name="Ellipse 522" cx="6" cy="6" r="6" transform="translate(732 1439)" fill="#8fd1e7"/>
+    </g>
+    <g id="Group_362633" data-name="Group 362633" transform="translate(245.817 1438.5)">
+      <path id="Path_7375-8" data-name="Path 7375" d="M677.817,1444.6h60.712" transform="translate(-672.347 -1439)" fill="none" stroke="#d4d4d4" stroke-width="2"/>
+      <circle id="Ellipse_522-8" data-name="Ellipse 522" cx="6" cy="6" r="6" fill="#d4d4d4"/>
+    </g>
+  </g>
+</svg>

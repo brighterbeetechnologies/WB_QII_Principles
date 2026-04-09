@@ -12,8 +12,10 @@ import { Link } from "react-router-dom";
 import VCardsPagination from "../components/VCardsPagination";
 import { Popover, Tooltip } from "antd";
 import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function FinancingResilience() {
+  const location = useLocation();
   const slidesData = [
     {
       img: "images/qii4/FinancingResilience/header_bg_1.png",
@@ -301,6 +303,16 @@ export default function FinancingResilience() {
     },
   ];
 
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -320,6 +332,7 @@ export default function FinancingResilience() {
     <div className="FinancingResilience">
       <section className="color-light">
         <Header3
+        id="qii4-FR-section1"
           img="images/qii4/financing_resilience.png"
           title={"Financing Resilience"}
           hideDeskTitle={true}
@@ -347,9 +360,8 @@ export default function FinancingResilience() {
             </p>
           </div>
         </Header3>
-        {/* <HeaderCarousal slidesData={slidesData}></HeaderCarousal> */}
         <div className="container internal-pages-container">
-          <p className="link-text">
+          <p className="link-text" id="qii4-FR-section2">
             Overcoming these barriers requires embedding resilience into
             infrastructure financing frameworks and deploying innovative
             financing instruments. Systematic risk screening and appraisal can
@@ -357,7 +369,7 @@ export default function FinancingResilience() {
             to prioritize investments.
           </p>
           <div className="border-dash"></div>
-          <NumSteps num="1">
+          <NumSteps num="1" id="qii4-FR-section3">
             <strong>Screening Projects with Sustainability Standards </strong>{" "}
             <br />
             Alongside the vulnerability and risk assessments (outlined within
@@ -372,241 +384,9 @@ export default function FinancingResilience() {
             including from private investors — that are often out of reach for
             these kinds of infrastructure projects.
           </NumSteps>
-          {/* <p className="mTop" style={{ fontStyle: "italic" }}>
-            *The below list highlights references, which aggregate global best
-            practices across multiple sectors. For a deeper dive into the topic,
-            please refer to the <Link to="/Resilient-design&operation" className="cyber-link">
-              ‘Resilient Design and Operations’
-            </Link> sub-page.
-          </p> */}
-          <VCardsPagination cardsData={step1Cards} />
-          {/* <div className="VCard-cnt col3">
-            <VCard
-              image="images/qii4/FinancingResilience/Climate Bonds Initiative.png"
-              title={
-                <p>
-                  <strong>Climate Bonds Initiative</strong>
-                </p>
-              }
-              buttonText="Tool"
-              link="https://www.climatebonds.net/files/documents/supporting-documents/Climate-Bonds_CBRT-v1-Final-003-User-View_Protected-version2-2-1.xlsx"
-            >
-              <p>
-                This spreadsheet provides an extensive list of investments and
-                interim screening criteria for resilient investments across a
-                range of sectors.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/EU Taxonomy Compass.png"
-              title={
-                <p>
-                  <strong>EU Taxonomy Compass</strong>
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://ec.europa.eu/sustainable-finance-taxonomy/taxonomy-compass/the-compass"
-            >
-              <p>
-                The EU's Taxonomy Regulation establishes six climate and
-                environmental objectives in order for an economic activity to
-                qualify as environmentally sustainable, and this includes
-                objectives related to resilience and adaptation. The EU’s
-                Taxonomy Compass helps users better understand the EU Taxonomy
-                in a simple and practical manner.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/FAST-Infra Label.png"
-              title={
-                <p>
-                  <strong>FAST-Infra Label</strong>
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://cdn.prod.website-files.com/64869a932dab4d8c36a88774/68a44d2347380f7f25d23d24_ST01_V2_05.12.2024.pdf"
-            >
-              <p>
-                The FAST-Infra Label Framework ensures uniformity and
-                comparability in evaluating sustainability performance of
-                infrastructure across the global infrastructure finance market.
-                The label aggregates international best practices on sustainable
-                infrastructure financing from around the world. The criteria for
-                resilience and adaptation can be found in page 46.
-              </p>
-            </VCard>
-          </div> */}
-
-          {/* <div className="border-dash"></div>
-          <NumSteps num="2">
-            <strong>Valuing resilience through life cycle costing -</strong>{" "}
-            Infrastructure should be assessed on its full life-cycle costs, not
-            just upfront spending. In particular, by factoring in the cost of
-            long-term climate and disaster risks, decision-makers can see how an
-            upfront investment in resilience today can avoid large repair and
-            replacement costs in the future.
-          </NumSteps>
-
-          <div className="VCard-cnt col3">
-            <VCard
-              image="images/qii4/FinancingResilience/Assessing the Benefits and Costs of Nature-Based Solutions for Climate Resilience A Guideline for Project Developers (GFDRR).png"
-              title={
-                <p>
-                  <strong>
-                    Assessing the Benefits and Costs of Nature-Based Solutions
-                    for Climate Resilience: A Guideline for Project Developers
-                    (GFDRR)
-                  </strong>
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://www.gfdrr.org/en/feature-story/assessing-benefits-and-costs-nature-based-solutions"
-            >
-              <p>
-                This document aims to guide the design, implementation, and use
-                of studies to value the benefits and costs of Nature-Based
-                Solutions (NBS) for climate resilience projects.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/Learning from Mega-disasters Japan Case Study.png"
-              title={
-                <p>
-                  <strong>
-                    Chapter 28: Measuring the Cost-Effectiveness of Various
-                    Disaster Risk Management Measures{" "}
-                  </strong>
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://www.gfdrr.org/sites/default/files/publication/Learning%20from%20Megadisasters%20%20Lessons%20from%20the%20Great%20East%20Japan%20Earthquake.pdf"
-            >
-              <p>
-                Cost-effectiveness analysis and cost-benefit analysis of DRM
-                projects have been widely implemented both at national and local
-                levels in Japan. This resource covers the different procedures
-                for such analysis, according to the type of project, the funds,
-                and the governing entity responsible particularly in parts V and
-                VI.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/Disaster and Climate-Resilient Transport Guidance Note.png"
-              title={
-                <p>
-                  <strong>
-                    Disaster and Climate-Resilient Transport Guidance Note{" "}
-                  </strong>{" "}
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099032625173042760"
-            >
-              <p>
-                To effectively address climate risks on transportation system
-                functionality, considering a more comprehensive approach is
-                essential. The World Bank therefore developed the life-cycle
-                approach, i.e. a five-pillar approach, to enable climate
-                resilience in every phase of the transport infrastructure life
-                cycle: system planning and financing to assess risks and guide
-                investments, engineering, and design to develop cost-effective
-                adaptation solutions, operations and maintenance to facilitate
-                proactive monitoring and climate-smart upkeep, contingency
-                planning to strengthen emergency response, and institutional
-                capacity and coordination to enhance cross-sector collaboration
-                (overview of 5 pillars on page 5).
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/Physical Climate Risk Appraisal Methodology.png"
-              title={
-                <p>
-                  <strong>
-                    Physical Climate Risk Appraisal Methodology (PCRAM)
-                    2.0:{" "}
-                  </strong>
-                  Institutional Investors Group on Climate Change (IIGCC){" "}
-                </p>
-              }
-              buttonText="Tool"
-              link="https://www.iigcc.org/hubfs/2025%20resources%20upload/Physical%20Climate%20Risk%20Appraisal%20Methodology%202.0%20IIGCC%202025.pdf"
-            >
-              <p>
-                The PCRAM methodology combines insights from climate science,
-                engineering, and finance to support a public or private sector
-                user to incorporate physical climate risk considerations into
-                asset appraisal.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi).png"
-              title={
-                <p>
-                  <strong>Sustainable Asset Valuation</strong> (SAVi){" "}
-                </p>
-              }
-              buttonText="Tool"
-              link="https://www.iisd.org/savi/"
-            >
-              <p>
-                SAVi is a decision-support tool that helps policy-makers and
-                investors understand the true costs of infrastructure across its
-                full life cycle, including risks often missed in traditional
-                valuations. By combining system dynamics and project finance
-                modelling, SAVi captures environmental, social, economic, and
-                governance risks, and even calculates the dollar value of
-                externalities.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/Greater Cape Town Water Fund Business Case.png"
-              title={
-                <p>
-                  <strong>Greater Cape Town Water Fund : </strong>Business Case
-                </p>
-              }
-              buttonText="Case Study"
-              link="https://www.nature.org/content/dam/tnc/nature/en/documents/GCTWF-Business-Case-April-2019.pdf"
-            >
-              <p>
-                This business case puts forward the lifecycle costs and benefits
-                of ecological infrastructure restoration as a critical solution
-                to enhance water security in the Western Cape Water Supply
-                System (WCWSS).
-              </p>
-            </VCard>
-          </div>
-          <div className="VCard-cnt col3">
-            <VCard
-              image="images/qii4/FinancingResilience/Sustainable Asset Valuation (SAVi) of Forest Restoration in the Brantas River Basin, Indonesia.png"
-              title={
-                <p>
-                  <strong>
-                    Sustainable Asset Valuation (SAVi) of Forest Restoration in
-                    the Brantas River Basin, Indonesia{" "}
-                  </strong>
-                </p>
-              }
-              buttonText="Case Study"
-              link="https://nbi.iisd.org/report/savi-forest-restoration-brantas-river-basin-indonesia/"
-            >
-              <p>
-                This report presents a SAVi assessment that quantifies the
-                ecosystem services and economic impacts of the planned
-                reforestation and water retention wells in the Brantas River
-                basin in Indonesia.
-              </p>
-            </VCard>
-          </div> */}
+          <VCardsPagination cardsData={step1Cards} id="qii4-FR-section4"/>
           <div className="border-dash"></div>
-          <NumSteps num="2">
+          <NumSteps num="2" id="qii4-FR-section5">
             <strong>Innovative Financing Instruments </strong>
             <br /> Innovative financing instruments attract private investors by
             lowering risk exposure and improving the predictability and
@@ -617,171 +397,10 @@ export default function FinancingResilience() {
             risks between investors and increase the likelihood of achieving
             target returns.
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} />
-          {/* <div className="VCard-cnt col3"> */}
-          {/* <VCard
-              image="images/qii4/FinancingResilience/Philippine Water Revolving Fund.png"
-              title={
-                <p>
-                  <strong>Philippines Water Revolving Fund</strong>
-                  <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Case study"
-              link="https://documents1.worldbank.org/curated/en/651521472032148001/pdf/107979-BRI-P159188-BlendedFinanceCasesPhilippines-PUBLIC.pdf"
-            >
-              <p>
-                The PWRF blends Official Development Assistance (ODA) and
-                domestic public funds with commercial financing to lower
-                borrowing rates, and to market water and sanitation projects to
-                private finance institutions (PFIs).
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii4/FinancingResilience/Philippines Energy Development Corporation (EDC) Green Bond.png"
-              title={
-                <p>
-                  <strong>
-                    Philippines Energy Development Corporation (EDC) Green Bond
-                  </strong>
-                </p>
-              }
-              buttonText="Case study"
-              link="https://sustainability-coalition.org/case-study/philippines-energy-development-corporation/"
-            >
-              <p>
-                In 2018, IFC issued the first AAA peso-denominated green bond
-                for $90 million with a fifteen-year maturity. The bond was
-                intended to support EDC with restoration and resilience efforts
-                at the Malitbog plant.
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii4/updated/Vida-Manglar-Colombia.png"
-              title={
-                <p>
-                  <strong>Vida Manglar Carbon Project in Colombia</strong>
-                </p>
-              }
-              buttonText="Case study"
-              link="https://www.conservation.org/projects/vida-manglar-carbon-project"
-            >
-              <p>
-                Coastal protection project that uses blue carbon credits to
-                finance the cost of restoring mangrove forests to protect local
-                communities.
-              </p>
-            </VCard> */}
-          {/* <VCard
-              image="images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png"
-              title={
-                <p>
-                  <strong>
-                    Financing Climate Adaptation and Nature-Based Infrastructure
-                  </strong>
-                  <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Report"
-              link="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570"
-            >
-              <p>
-                This report assesses opportunities to increase private sector
-                participation and financing for climate adaptation and
-                nature-based infrastructure in Emerging and Developing Economies
-                (EMDEs).
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii4/FinancingResilience/Transport Resilience Financing, Resources and Opportunities.png"
-              title={
-                <p>
-                  <strong>
-                    Transport Resilience Financing, Resources and Opportunities
-                  </strong>{" "}
-                  <br />
-                  World Bank
-                </p>
-              }
-              buttonText="Report"
-              link="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150032182"
-            >
-              <p>
-                This report presents information on 42 global financing
-                facilities, 33 public funds, and 29 tax measures, offering
-                valuable insights into financing transport resilience in
-                developing countries.
-              </p>
-            </VCard>
-
-            <VCard
-              image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
-              title={
-                <p>
-                  <strong>Disaster Risk Finance</strong>
-                  <br />
-                  GFDRR
-                </p>
-              }
-              buttonText="Resource"
-              link="https://www.gfdrr.org/en/disaster-risk-finance"
-            >
-              <p>
-                GFDRR supports governments in designing financial protection
-                strategies and instruments to respond to natural disasters. The
-                Disaster Risk Financing and Insurance thematic area provides a
-                compendium of case studies and resources in financing solutions
-                for better management of disasters and climate shocks.
-              </p>
-            </VCard>*/}
-          {/* </div>  */}
-          {/* <h4 className="sub-section-title">
-            Further Reading On Financing Resilience
-          </h4> */}
-          {/* <div className="VCard-cnt col3"> */}
-          {/* <VCard
-              image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
-              title={
-                <p>
-                  <strong>GFDRR Disaster Risk Finance</strong>
-                </p>
-              }
-              buttonText="Resource"
-              link="https://www.gfdrr.org/en/disaster-risk-finance"
-            >
-              <p>
-                GFDRR supports governments in designing financial protection
-                strategies and instruments to respond to natural disasters. The
-                Disaster Risk Financing and Insurance thematic area provides a
-                compendium of case studies and resources in financing solutions
-                for better management of disasters and climate shocks.
-              </p>
-            </VCard> */}
-
-          {/* <VCard
-              image="images/qii4/FinancingResilience/GFDRR Disaster Risk Finance.png"
-              title={
-                <p>
-                  <strong>GFDRR Disaster Risk Finance</strong>
-                </p>
-              }
-              buttonText="Resource"
-              link="https://www.gfdrr.org/en/disaster-risk-finance"
-            >
-              <p>
-                GFDRR supports governments in designing financial protection
-                strategies and instruments to respond to natural disasters. The
-                Disaster Risk Financing and Insurance thematic area provides a
-                compendium of case studies and resources in financing solutions
-                for better management of disasters and climate shocks.
-              </p>
-            </VCard> */}
-          {/* </div> */}
+          <VCardsPagination cardsData={step2Cards} id="qii4-FR-section6"/>
         </div>
       </section>
-      <section className="color-dark">
+      <section className="color-dark" id="qii4-FR-section7">
         <div className="container">
           <h2 className="section-title light-font">
             Further Reading On Financing Resilience

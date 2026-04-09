@@ -25,6 +25,7 @@ export default function ListImageText({
   duration,
   width = 1920,
   height = 1080,
+  id
 }) {
   const dispatch = useDispatch();
   const openVideo = () => {
@@ -39,7 +40,7 @@ export default function ListImageText({
     dispatch(setShowVideo(true));
   };
   return (
-    <div className="case-card">
+    <div className="case-card" id={id}>
       {!disableStep && (
         <div className="step">
           <div className="step-number">{step}</div>

@@ -19,8 +19,10 @@ import { Popover, Tooltip } from "antd";
 import ImagewithStatement from "../components/ImagewithStatement";
 import Video from "../components/Video";
 import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function QII3LandingPage() {
+  const location = useLocation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [preSelectedResources, setPreSelectedResources] = useState([
@@ -340,6 +342,17 @@ export default function QII3LandingPage() {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   useEffect(() => {
     dispatch(
       setBradcrump({
@@ -351,7 +364,7 @@ export default function QII3LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        <section className="color-light landingpage-banner">
+        <section className="color-light landingpage-banner" id="qii3-section1">
           <Header3 img="images/qii3/QII3_Landing_main.png">
             <div className="langing-page-container">
               <img
@@ -382,7 +395,7 @@ export default function QII3LandingPage() {
             </div>
           </Header3>
         </section>
-        <div className="container internal-pages-cards">
+        <div className="container internal-pages-cards" id="qii3-section2">
           <div className="center-header">
             <h1 className="light-font mBottom">
               Pathways to Integrating Environmental Value
@@ -420,37 +433,19 @@ export default function QII3LandingPage() {
         </div>
       </section>
       <ImagewithStatement
+        id="qii3-section3"
         backgroundImage={"images/qii3/shutterstock_708204115.png"}
         text={
           "By accounting for climate impacts, biodiversity risks, and ecosystem services – from project conception through delivery – infrastructure can become a driver of environmental regeneration rather than degradation.​"
         }
       />
-      <section className="color-dark">
+      <section className="color-dark" id="qii3-section4">
         <div className="container ">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              {/* <img src="images/qii3/Video1_thumbnail.png" alt="" />
-              <div className="vid-cnt">
-                <button
-                  className="video-play-btn icon-play"
-                  onClick={() => {
-                    openVideo(
-                      "./video/LandingPageVideo.mp4",
-                      "The Environmental Challenge and Opportunity",
-                      1920,
-                      1080,
-                    );
-                  }}
-                >
-                  &#xe91e;
-                </button>
-                <p className="video-title">
-                  <strong>The Environmental Challenge and Opportunity</strong>
-                </p>
-              </div> */}
               <Video
-                thumbnail="images/qii3/Video1_thumbnail.png"
-                videoUrl="./video/LandingPageVideo.mp4"
+                thumbnail="GIF/QII-3 Landing Page Video-GIF.gif"
+                videoUrl="./video/QII-3_Landing_Page_Video.mp4"
                 videoTitle="The Environmental Challenge and Opportunity"
                 cardTitle={
                   <>
@@ -474,139 +469,10 @@ export default function QII3LandingPage() {
           </div>
         </div>
       </section>
-      {/* <section className="container internal-pages-container color-dark">
-        <h3 className="statement-text">
-          <strong> Infrastructure's Environmental Footprint</strong>
-        </h3>
-        <h1 className="light-font "></h1>
-      </section> */}
-      {/* <section className="qii_video_landing_page color-light">
-        <img
-          className="qii_video-thumbnail-image"
-          src="images/qii3/Highlight_video_thumbnail.png"
-          alt="video thumbnail"
-        />
-        <div className="qii-video-overlay"></div>
-        <div className="qii-video-cnt">
-          <button
-            className="video-play-btn icon-play"
-            onClick={() => {
-              openVideo(
-                "./video/FukuokaCaseStudy.mp4",
-                "QII.2 in Action",
-                1920,
-                1080,
-              );
-            }}
-          >
-            &#xe91e;
-          </button>
-        </div>
-        <div className="qii-video-text-cnt">
-          <p className="video-title">Lessons from Success Stories</p>
-          <p className="video-desc">
-            How Belgrade transformed decades of waste into clean energy,
-            pioneering a new model for sustainable infrastructure in emerging
-            markets.
-          </p>
-          <Link to="/qii3casestudy1">
-            <button className="btn-primary qii2-video-cta">
-              Explore Case Study <span className="icon-arrow">&#xe900;</span>
-            </button>
-          </Link>
-        </div>
-      </section> */}
 
-      <QII3CaseStudy1 />
+      <QII3CaseStudy1 id="qii3-section5" />
 
-      {/* <section className="q4_landing_page color-dark">
-        <div className="container">
-          <div className="qii4-video-card">
-            <img
-              className="desk_image"
-              src="images/qii3/Highlight_video_thumbnail.png"
-              alt=""
-            />
-            <img
-              className="mob_image"
-              src="images/qii3/Highlight_video_thumbnail.png"
-              alt=""
-            />
-            <div className="vid-cnt qii4-vid-cnt">
-              <button
-                className="video-play-btn icon-play"
-                onClick={() => {
-                  openVideo(
-                    "./video/LandingPageVideo.mp4",
-                    "Lessons from Success Stories ",
-                    1920,
-                    1080,
-                  );
-                }}
-              >
-                &#xe91e;
-              </button>
-            </div>
-            <div className="qii4-video-overlay">
-              <p className="qii4-video-title">Lessons from Success Stories</p>
-              <p className="qii4-video-desc">
-                How Belgrade transformed decades of waste into clean energy,
-                pioneering a new model for sustainable infrastructure in
-                emerging markets.
-              </p>
-
-              <button className="qii4-video-cta">Explore Case Studies →</button>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* <section className="color-dark ">
-        <div className="container">
-          <div className="center-header">
-            <h1 className="light-font mBottom">Top Resources</h1>
-          </div>
-          <div className="top-resource-card-cnt-qii4">
-            <TopResourceCard
-              image="images/qii3/Environmental and Social Framework World Bank (2017).png"
-              title={
-                <p>Environmental and Social Framework World Bank (2017) </p>
-              }
-              buttonText="Programs"
-              link="https://thedocs.worldbank.org/en/doc/837721522762050108-0290022018/original/ESFFramework.pdf#page=29&zoom=80"
-            ></TopResourceCard>
-            <TopResourceCard
-              image="images/qii3/Climate Toolkits for Infrastructure PPPs World Bank.png"
-              title={
-                <p>Climate Toolkits for Infrastructure PPPs World Bank </p>
-              }
-              buttonText="Programs"
-              link="https://documents1.worldbank.org/curated/en/099120004052270615/pdf/P1746330d584ff0210a9670dcf49a5becb0.pdf"
-            ></TopResourceCard>
-            <TopResourceCard
-              image="images/qii3/IFC Performance Standards on Environmental and Social Sustainability.png"
-              title={
-                <p>
-                  IFC Performance Standards on Environmental and Social Sustainability{" "}
-                </p>
-              }
-              buttonText="Programs"
-              link="https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards"
-            ></TopResourceCard>
-            <TopResourceCard
-              image="images/qii3/Infrastructure for a Climate Resilient Future OECD (2024).png"
-              title={
-                <p>
-                  Infrastructure for a Climate-Resilient Future OECD (2024){" "}
-                </p>
-              }
-              buttonText="Programs"
-              link="https://doi.org/10.1787/a74a45b0-en"
-            ></TopResourceCard>
-          </div>
-        </div>
-      </section> */}
-      <section className="color-dark">
+      <section className="color-dark" id="qii3-section6">
         <div className="container">
           <h2 className="section-title light-font">QII.3 Case Studies</h2>
           <div className="page-resource-grid" role="list">

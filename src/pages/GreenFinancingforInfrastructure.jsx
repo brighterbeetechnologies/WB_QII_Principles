@@ -8,8 +8,10 @@ import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
 // import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function GreenFinancingforInfrastructure() {
+  const location = useLocation();
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
@@ -78,8 +80,7 @@ export default function GreenFinancingforInfrastructure() {
     },
     {
       rId: 73,
-      image:
-        "images/qii3/Sector_Specific.png",
+      image: "images/qii3/Sector_Specific.png",
       title: (
         <p>
           Global <br />
@@ -108,8 +109,12 @@ export default function GreenFinancingforInfrastructure() {
       title: (
         <p>
           Serbia <br />
-          <strong>Belgrade Waste-to-Energy PPP: Turning a Liability into a Climate Asset
-          </strong> <br />IFC
+          <strong>
+            Belgrade Waste-to-Energy PPP: Turning a Liability into a Climate
+            Asset
+          </strong>{" "}
+          <br />
+          IFC
         </p>
       ),
       highlight: 1,
@@ -133,8 +138,11 @@ export default function GreenFinancingforInfrastructure() {
       image:
         "images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png",
       title: (
-        <p>South Africa <br />
-          <strong>Cape Town Green Bond</strong><br />World Bank
+        <p>
+          South Africa <br />
+          <strong>Cape Town Green Bond</strong>
+          <br />
+          World Bank
         </p>
       ),
       buttonText: "Case Study",
@@ -156,8 +164,11 @@ export default function GreenFinancingforInfrastructure() {
       image:
         "images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png",
       title: (
-        <p>Brazil <br />
-          <strong>Corsan Water Sustainability-Linked Loan</strong><br />Global Infrastructure Hub
+        <p>
+          Brazil <br />
+          <strong>Corsan Water Sustainability-Linked Loan</strong>
+          <br />
+          Global Infrastructure Hub
         </p>
       ),
       buttonText: "Case Study",
@@ -175,10 +186,10 @@ export default function GreenFinancingforInfrastructure() {
     },
     {
       rId: 74,
-      image:
-        "images/qii3/GBP.png",
+      image: "images/qii3/GBP.png",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Green Bond Principles</strong>
           <br />
           ICMA
@@ -196,10 +207,10 @@ export default function GreenFinancingforInfrastructure() {
     },
     {
       rId: 75,
-      image:
-        "images/qii3/shutterstock_2433336173.jpg",
+      image: "images/qii3/shutterstock_2433336173.jpg",
       title: (
-        <p>Global <br />
+        <p>
+          Global <br />
           <strong>Green Eligibility Checker Tool</strong>
           <br />
           European Investment Bank
@@ -218,6 +229,16 @@ export default function GreenFinancingforInfrastructure() {
       ),
     },
   ];
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
 
   const dispatch = useDispatch();
   useEffect(() => {
@@ -238,6 +259,7 @@ export default function GreenFinancingforInfrastructure() {
     <div className="procurement">
       <section className="color-light">
         <Header3
+          id="qii3-GF-section1"
           img="images/qii3/GreenFinancingforInfrastructure/shutterstock_2477739245.png"
           title={"Green Financing"}
           hideDeskTitle={true}
@@ -249,9 +271,7 @@ export default function GreenFinancingforInfrastructure() {
                 alt="Qii2 logo"
                 className="qii-badge"
               />
-              <h1 className="header-title desk-title">
-                Green Financing
-              </h1>
+              <h1 className="header-title desk-title">Green Financing</h1>
             </div>
           </div>
           <div className="subpage-description">
@@ -266,7 +286,7 @@ export default function GreenFinancingforInfrastructure() {
           </div>
         </Header3>
         <div className="container internal-pages-container">
-          <p className="link-text">
+          <p className="link-text" id="qii3-GF-section2">
             <strong>Sustainable Infrastructure Finance</strong>
             <br />
             <br />
@@ -284,7 +304,7 @@ export default function GreenFinancingforInfrastructure() {
             finance instruments in the specific country or region.
           </p>
           <div className="border-dash"></div>
-          <NumSteps num="1">
+          <NumSteps num="1" id="qii3-GF-section3">
             <strong>Define and Meet Eligibility for Green Finance</strong>
             <br />
             Sustainable finance taxonomies set common definitions for what
@@ -295,80 +315,9 @@ export default function GreenFinancingforInfrastructure() {
             sustainable investment decisions.{" "}
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} />
-          {/* <div className="VCard-cnt col3">
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/World of Taxonomies.png"
-              title={
-                <p>
-                  <strong>World of TaxonomiesClimate Bonds Initiative </strong>{" "}
-                  <br></br>Climate Bonds Initiative
-                </p>
-              }
-              buttonText="Tool"
-              link="https://www.climatebonds.net/expertise/taxonomy/world-taxonomies"
-            >
-              <p>
-                There are numerous green and sustainable finance taxonomies in
-                use or under development at national, regional, and
-                international levels. This tool allows users to navigate through
-                these taxonomies from a single source.
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/EU Taxonomy for Sustainable Activities.png"
-              title={
-                <p>
-                  <strong>EU Taxonomy for Sustainable Activities </strong>
-                </p>
-              }
-              buttonText="Tool"
-              link="https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en"
-            >
-              <p>
-                This taxonomy provides a common definition of economic
-                activities that can be considered environmentally sustainable.
-                It helps to scale up sustainable investment and protects
-                investors from greenwashing.{" "}
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/FAST-Infra.png"
-              title={
-                <p>
-                  <strong>FAST-Infra</strong>
-                </p>
-              }
-              buttonText="Tool"
-              link="https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en"
-            >
-              <p>
-                This is a harmonized framework that aggregates various
-                sustainable finance taxonomies to create a certification label
-                specifically for infrastructure investments.{" "}
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Sector-Specific Criteria.png"
-              title={
-                <p>
-                  <strong>Sector-Specific Criteria</strong> <br></br>Climate
-                  Bonds Initiative
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://www.climatebonds.net/expertise/taxonomy/world-taxonomies"
-            >
-              <p>
-                The Climate Bonds Initiative (CBI) develops sector-specific
-                criteria that provide climate benchmarks across a range of
-                infrastructure sectors to define projects eligible for climate
-                finance.
-              </p>
-            </VCard>
-          </div> */}
+          <VCardsPagination cardsData={step1Cards} id="qii3-GF-section4"/>
           <div className="border-dash"></div>
-          <NumSteps num="2">
+          <NumSteps num="2" id="qii3-GF-section5">
             <strong>Identify Green Financing Instruments</strong>
             <br />
             Green bonds, sustainability-linked loans, and carbon credit schemes
@@ -383,109 +332,7 @@ export default function GreenFinancingforInfrastructure() {
             context-specific exploration.
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} />
-          {/* <div className="VCard-cnt col3">
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/South Africa Cape Town Green Bond.png"
-              title={
-                <p>
-                  <strong>South Africa: Cape Town Green Bond</strong>{" "}
-                </p>
-              }
-              buttonText="Case Study"
-              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/cape-town-green-bond/"
-            >
-              <p>
-                Illustrates how green bond certification builds investor
-                confidence in climate-aligned municipal infrastructure. In 2017,
-                amid severe drought, Cape Town issued a ZAR 1 billion (~US$75
-                million) Green Bond, the first in South Africa to receive CBI
-                accreditation and the first to earn an “Excellent” rating from
-                the rating agency Moody’s. Proceeds funded electric buses,
-                energy-efficient buildings, water resilience initiatives, and
-                coastal protection.
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Brazil Corsan Water Sustainability-Linked Loan.png"
-              title={
-                <p>
-                  <strong>
-                    Brazil: Corsan Water Sustainability-Linked Loan
-                  </strong>{" "}
-                </p>
-              }
-              buttonText="Case Study"
-              link="https://www.gihub.org/innovative-funding-and-financing/case-studies/sustainability-linked-loan-to-improve-water-supply-efficiency-and-resilience/"
-            >
-              <p>
-                Demonstrates how sustainability-linked financing can drive
-                efficiency improvements in state utilities. IFC provided a US$
-                83 million loan to Corsan, the main water utility in Rio Grande
-                do Sul state, to replace obsolete pumps and hydrometers. The
-                loan was structured in a way that the interest rate would be
-                reduced if Corsan met pre-agreed reductions in water losses.
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Belgrade Waste-to-Energy PPP Carbon Credit Certification.png"
-              title={
-                <p>
-                  <strong>
-                    Belgrade Waste-to-Energy PPP Carbon Credit Certification
-                  </strong>{" "}
-                </p>
-              }
-              buttonText="Case Study"
-              link="pdf/QII_3_SpotlightCaseStudy_Belgrade.pdf"
-            >
-              <p>
-                This project was the first project in Serbia certified by Gold
-                Standard Carbon Credit Certification. This was achieved by
-                modernizing waste treatment infrastructure – going from an open
-                dump emitting 90 million tons of CO₂ equivalent over the last 45
-                years – to a sanitary landfill with biogas collection and
-                leachate treatment, which reduced 210,000 tons of CO₂e per year.
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Bond Principles.png"
-              title={
-                <p>
-                  <strong>Green Bond Principles</strong> <br />
-                  ICMA
-                </p>
-              }
-              buttonText="Guidance"
-              link="https://www.icmagroup.org/sustainable-finance/the-principles-guidelines-and-handbooks/green-bond-principles-gbp/"
-            >
-              <p>
-                These principles outline international best practices when
-                issuing green bonds including the eligible use of proceeds,
-                project evaluation and selection, management of proceeds, and
-                reporting requirements.
-              </p>
-            </VCard>
-            <VCard
-              image="images/qii3/GreenFinancingforInfrastructure/Green Eligibility Checker tool.png"
-              title={
-                <p>
-                  <strong>Green Eligibility Checker tool</strong> <br />
-                  European Investment Bank
-                </p>
-              }
-              buttonText="Tool"
-              link="https://greenchecker.eib.org/"
-            >
-              <p>
-                Developed by the European Investment Bank, this tool helps
-                project developers to assess the compliance of projects with the
-                EIB's green eligibility criteria. While focused on Europe, the
-                tool has also been expanded to be of relevance to countries
-                across North Africa and the Middle East.{" "}
-              </p>
-            </VCard>
-          </div> */}
+          <VCardsPagination cardsData={step2Cards} id="qii3-GF-section6"/>
         </div>
       </section>
     </div>

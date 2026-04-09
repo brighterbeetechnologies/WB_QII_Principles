@@ -9,8 +9,10 @@ import ResourceLibrary from "./ResourceLibrary";
 import { Popover, Tooltip } from "antd";
 import VCardsPagination from "../components/VCardsPagination";
 import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function CostRecovery() {
+  const location = useLocation(); 
   const resourceArray = [
     {
       rId: 4,
@@ -277,6 +279,16 @@ export default function CostRecovery() {
     },
   ];
 
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -343,7 +355,10 @@ export default function CostRecovery() {
             transport, it can be possible to recover all or partial costs
             through tariffs and user fees.
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} id="qii2-costRecovery-section3"/>
+          <VCardsPagination
+            cardsData={step1Cards}
+            id="qii2-costRecovery-section3"
+          />
           {/* <div className="VCard-cnt col3">
             <VCard
               image="images/costRecovery/Timor-Leste.png"
@@ -424,7 +439,10 @@ export default function CostRecovery() {
             able to tap into climate-related funding streams, such as carbon
             markets.
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} id="qii2-costRecovery-section4" />
+          <VCardsPagination
+            cardsData={step2Cards}
+            id="qii2-costRecovery-section4"
+          />
           {/* <div className="VCard-cnt col-2">
             <VCard
               image="images/costRecovery/India.png"
@@ -474,7 +492,10 @@ export default function CostRecovery() {
             taxes, levies, or betterment charges on beneficiaries within
             designated zones.
           </NumSteps>
-          <VCardsPagination cardsData={step3Cards} id="qii2-costRecovery-section5"/>
+          <VCardsPagination
+            cardsData={step3Cards}
+            id="qii2-costRecovery-section5"
+          />
           {/* <div className="VCard-cnt col3">
             <VCard
               image="images/qii4/updated/Shibaura_Wastewater_Management.png"

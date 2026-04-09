@@ -217,7 +217,7 @@ export default function Project_Planning_And_Design() {
       ),
       buttonText: "Case Study",
       highlight: 1,
-      link: "https://documents1.worldbank.org/curated/en/099050124115630064/pdf/P174991178ad6700e1bb681a5c82382b140.pdf",
+      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
       content: (
         <p>
           This engagement brief offers a practical stakeholder training and

@@ -176,10 +176,18 @@
   width: 24%;
 }
 
+.case-study-details-card-child4-Qii5-cs-2 {
+  width: 15% !important;
+}
+
 .single-case-study-wrapper
   .case-study-details
   .case-study-details-card:nth-child(5) {
   width: 34%;
+}
+
+.case-study-details-card-child5-Qii5-cs-2 {
+  width: 43% !important;
 }
 
 .single-case-study-wrapper .video-tag {
@@ -237,6 +245,29 @@
 .single-case-study-button:hover .arrow-btn {
   background-color: #00a996;
   color: #ffffff;
+}
+
+.qii5-snap-case-result {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.qii5-snap-case-result .qii5-snap-case-result-1 {
+  width: 50%;
+  position: relative;
+}
+
+.qii5-snap-case-result .qii5-snap-case-result-1:not(:first-child)::after {
+  content: "";
+  position: absolute;
+  top: 0rem;
+  left: -0.5rem;
+  height: 100%;
+  width: 0px;
+  border: 1px dashed rgb(112, 112, 112, 0.5);
 }
 
 /* @media (max-width: 1400px) {

@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <div className="home color-light">
-      <section className="landing_page">
+      <section className="landing_page" id="qii-sec1">
         <div className="circle-bg">
           <img src="images/circle_right.png" />
         </div>
@@ -57,7 +57,7 @@ export default function Home() {
         </div>
         <div></div>
       </section>
-      <section className="color-dark  principles-page">
+      <section className="color-dark  principles-page" id="qii-sec2">
         <div className="circle-bg">
           <img src="images/circle_left.png" />
         </div>

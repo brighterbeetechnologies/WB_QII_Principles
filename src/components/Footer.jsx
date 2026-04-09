@@ -114,9 +114,9 @@ const Footer = () => {
                   Guidance note
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="disable-link">Tools </a>
-              </li>
+              </li> */}
               <li>
                 <a href="#" className="disable-link">
                   Glossary
