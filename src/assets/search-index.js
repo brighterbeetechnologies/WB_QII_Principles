@@ -1149,7 +1149,7 @@ export const data = [
     content:
       "Global To Have and Have Not – How to Bridge the Gap in Opportunities Organisation for Economic Co-operation and Development​ This OECD report examines disparities in opportunities across societies and provides evidence-based policy recommendations for closing gaps. Section 4, page 122 has an evidence-based framework for setting clear inclusivity strategies and goals within policy and regulation. Cross-Regional Gender Equality and Social Inclusion (GESI) Guidance for Infrastructure Asian Development Bank This guidance note contains a detailed methodology for integrating robust GESI strategies and objectives into country policies, standards, and regulatory frameworks. Most relevant are chapters II to IV, focusing on actionable frameworks, diagnostic processes, and evaluation procedures. Global JICA Thematic Guidelines for Inclusive Development, including Universal Design JICA The JICA Thematic Guidelines on Disability and Development provide a comprehensive framework for mainstreaming disability inclusion across all development activities and sectors. Global Handbook for Gender-Inclusive Urban Planning and Design World Bank ​ This World Bank handbook provides a comprehensive framework for integrating gender considerations into urban planning and design processes. It covers the full spectrum from policy development to implementation. Page 57 outlines core principles that guide gender-inclusive planning, providing a foundation for institutionalizing inclusion into every aspect of urban planning, making projects equitable and responsive to the full range of community needs. Global Mainstreaming Gender in Infrastructure: Desk Review World Bank This provides a comprehensive framework for mainstreaming gender considerations throughout infrastructure project cycles. It addresses practical challenges in collecting gender-disaggregated data and developing gender action plans. Page 37 offers a snapshot of the challenges in collecting primary data for gender gap analysis, including how women's perspectives may be sidelined due to household responsibilities or patriarchal norms.",
   },
-   {
+  {
     title: "Inclusion through Policies, Standards and Regulation",
     qii: "QII.5 Inclusion",
     ip: "Inclusion through Policies, Standards and Regulation",
@@ -1165,6 +1165,105 @@ export const data = [
     url: "/Policies_Standards_Regulation",
     secId: "qii5-PSR-section6",
     content:
-      "Global She Drives Change World Bank ​ This World Bank publication compiles case studies demonstrating how transport sector interventions can advance gender equality. Case study 16 is an example of how employment restrictions in Azerbaijan were overcome by policy and regulatory adjustments, conducting awareness campaigns, and including employer engagement to create enabling conditions for women drivers.",
+      "Global She Drives Change World Bank ​ This World Bank publication compiles case studies demonstrating how transport sector interventions can advance gender equality. Case study 16 is an example of how employment restrictions in Azerbaijan were overcome by policy and regulatory adjustments, conducting awareness campaigns, and including employer engagement to create enabling conditions for women drivers. Global Environmental and Social Framework World Bank ​ This framework provides essential guidance for integrating grievance procedures and relevant mechanisms in projects through a comprehensive set of standards and requirements. Global Inclusive Infrastructure – Policy, Regulation & Standards GI Hub​ The GI Hub's Inclusive Infrastructure resource provides actionable principles for applying inclusive standards and Universal Design in project planning and procurement. Cross-Regional EU Accessibility Act (2019) The National Archives Directive (EU) 2019/882 creates enforceable accessibility standards for transport, ICT, and public services in the EU. Global Americans with Disabilities Act (ADA) Standards for Accessible Design U.S. Department of Justice The 2010 ADA Standards for Accessible Design set enforceable accessibility criteria for buildings and public spaces in the United States and are frequently used as a reference for global infrastructure projects seeking to ensure inclusive, barrier-free environments for all users. Japan Advancing Universal Design in Urban Planning World Bank Japan and the World Bank are collaborating to advance universal design and disability inclusion in urban planning, leveraging Japan’s expertise in accessible infrastructure and the QII Partnership’s global strategies. ",
+  },
+  {
+    title: "Inclusion through Policies, Standards and Regulation",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion through Policies, Standards and Regulation",
+    url: "/Policies_Standards_Regulation",
+    secId: "qii5-PSR-section7",
+    content:
+      "Meeting International Best Practice Standards for Inclusion to Attract Investment Private investors and institutional financiers are increasingly looking for projects with clear ESG (Environmental, Social, and Governance) credentials. Meeting social standards signals that a project is socially responsible, reduces community risk, and is likely to have smoother implementation, all of which lower perceived risk.",
+  },
+  {
+    title: "Inclusion through Policies, Standards and Regulation",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion through Policies, Standards and Regulation",
+    url: "/Policies_Standards_Regulation",
+    secId: "qii5-PSR-section7",
+    content:
+      "Global FAST-Infra Sustainable Infrastructure Label A globally applicable certification for infrastructure projects demonstrating significant positive sustainability performance across environmental, social, governance, and resilience dimensions. The label helps project developers communicate sustainability credentials to investors and supports due diligence processes. Global Blue Dot Network A multilateral certification framework for quality infrastructure projects which consolidates over 80 international standards including the G20 Principles for Quality Infrastructure Investment and IFC Performance Standards. Global OECD Principles for Private Sector Participation in Infrastructure Organisation for Economic Co-operation and Development​ These OECD principles help governments work with private-sector partners to finance and deliver infrastructure projects in transport, water, power, and telecommunications. The principles address the public interest, and provide guidance on regulatory frameworks, transparency, and stakeholder engagement that support inclusive outcomes.",
+  },
+  {
+    title: "Inclusion in Project Design",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion in Project Design",
+    url: "/Project_Planning_And_Design",
+    secId: "qii5-PPD-section1",
+    content:
+      "Inclusion in Project Design The project planning and design stage is where the goal of inclusive infrastructure is translated into practical reality. This requires integrating inclusivity objectives into design specifications and procurement processes. ",
+  },
+  {
+    title: "Inclusion in Project Design",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion in Project Design",
+    url: "/Project_Planning_And_Design",
+    secId: "qii5-PPD-section2",
+    content:
+      "Enhance Procurement Strategies and Processes By integrating social and gender requirements into technical and financial proposals, and conducting bidder briefings on inclusivity expectations, project owners ensure selection favors those with commitment and capacity to deliver equitable solutions.",
+  },
+  {
+    title: "Inclusion in Project Design",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion in Project Design",
+    url: "/Project_Planning_And_Design",
+    secId: "qii5-PPD-section3",
+    content:
+      "Albania Gender Equality in Access to Economic Opportunities DPF World Bank In the Albania Gender Equality in Access to Economic Opportunities project, standard bidding documents for tenders above a certain threshold were updated to require firms to explicitly declare their adherence to principles of non-discrimination and equal pay for equal work. Global Project Procurement: Rated Criteria World Bank The “Rated Criteria” approach ensures that procurement goes beyond price alone, making it mandatory to consider factors like value, quality, sustainability, and social outcomes—such as inclusion. Global Mainstreaming Gender in Public Procurement World Bank This is an account of how traditional approaches are transformed by actively addressing systemic barriers faced by women and women-led enterprises throughout the supply chain. United Kingdom UK Green Cities & Infrastructure (ICED) facility The Centre of Expertise This guidance note outlines how inclusivity can be embedded into procurement strategies and processes throughout the project cycle of multilateral development bank initiatives.",
+  },
+  {
+    title: "Inclusion in Project Design",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion in Project Design",
+    url: "/Project_Planning_And_Design",
+    secId: "qii5-PPD-section4",
+    content:
+      "Embed Inclusivity into Contracts Inclusion must move from procurement intent into binding obligations. Contracts should include clear clauses that specify measurable inclusion objectives, such as minimum numbers or percentages for target groups, accessibility milestones, and penalties or incentives for compliance. These clauses should cover both process (who is hired, who is consulted) and outcomes (who benefits, who accesses).",
+  },
+  {
+    title: "Inclusion in Project Design",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion in Project Design",
+    url: "/Project_Planning_And_Design",
+    secId: "qii5-PPD-section5",
+    content:
+      "Global Gender Equality, Infrastructure and PPPs World Bank​ This is a resource explaining how PPP contracts should include clear, measurable indicators, making clauses binding, with reporting and performance obligations linked to outcomes. PPP Project Stages Three and Four: Drafting the Contract and Managing the Transaction, pg 37 Global Bidding Documents and Contractual Provisions for Inclusion World Bank This resource demonstrates how inclusivity can be explicitly embedded into public-private partnership contracts and bidding documents. Global Responsible Contracting Project Toolkit The RCP provides a comprehensive toolkit for embedding social and environmental responsibility into infrastructure contracts. It offers model contract clauses and implementation resources to operationalize a shared-responsibility approach. ",
+  },
+  {
+    title: "Inclusion in Project Design",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion in Project Design",
+    url: "/Project_Planning_And_Design",
+    secId: "qii5-PPD-section6",
+    content:
+      "Apply Inclusive Design Standards Inclusive design means anticipating the diverse needs of women, persons with disabilities, older persons, and other vulnerable groups, and building flexibility into infrastructure methods and materials. Cascading these standards through all design deliverables ensures that inclusion is visible in the finished asset, not just in planning documents.",
+  },
+  {
+    title: "Inclusion in Project Design",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusion in Project Design",
+    url: "/Project_Planning_And_Design",
+    secId: "qii5-PPD-section7",
+    content:
+      "Vietnam Incorporating Universal Accessibility into Infrastructure Planning and Design​ World Bank​ This highlights the integration of universal accessibility and inclusive design in urban infrastructure. With support from the World Bank and Japanese experts, the projects embedded accessibility measures from the outset, providing technical input, localized guidelines, and capacity-building for city officials. Senegal​ Mainstreaming Universal Accessibility in the Built Environment Projects​ World Bank​ This engagement brief offers a practical stakeholder training and capacity-building framework. Global ISO 21542:2021 – Building Construction: Accessibility and Usability of the Built Environment International Organization for Standardization The ISO 21542 standard serves as a critical benchmark for applying inclusive design standards in infrastructure projects. It is the leading international technical standard for accessibility and universal design in buildings and infrastructure. Global Silver Hues World Bank​ This report has cross-sectoral policy guidance and practical strategies for cities aiming to create urban environments that are accessible, safe, and inclusive for older populations as the world’s cities face rapid demographic aging.",
+  },
+  {
+    title: "Inclusive Stakeholder Engagement",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusive Stakeholder Engagement",
+    url: "/Stakeholder_Engagement",
+    secId: "qii5-SE-section1",
+    content:
+      "Inclusive Stakeholder Engagement Inclusive stakeholder engagement ensures that vulnerable and underrepresented groups are actively included in every phase of infrastructure planning and delivery.",
+  },
+  {
+    title: "Inclusive Stakeholder Engagement",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusive Stakeholder Engagement",
+    url: "/Stakeholder_Engagement",
+    secId: "qii5-SE-section2",
+    content:
+      "",
   },
 ];

@@ -8,8 +8,10 @@ import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
 import ListImageText from "../components/ListImageText";
+import { useLocation } from "react-router-dom";
 
 export default function Stakeholder_Engagement() {
+  const location = useLocation();
   const STEP1_PAGE_SIZE = 3;
   // const step1Cards = [
   //   {
@@ -235,6 +237,16 @@ export default function Stakeholder_Engagement() {
       ),
     },
   ];
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
 
   const dispatch = useDispatch();
   useEffect(() => {
