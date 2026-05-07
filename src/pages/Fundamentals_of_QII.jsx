@@ -5,9 +5,22 @@ import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 export default function Fundamentals_of_QII() {
+  const location = useLocation();
   const navigate = useNavigate();
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -80,7 +93,7 @@ export default function Fundamentals_of_QII() {
 
   return (
     <div className="fundamentals_of_qii">
-      <section className="color-dark">
+      <section className="color-dark" id="FOQ-section1">
         <div className="fundamentals_of_qii-header">
           <div className="fundamentals_of_qii-header-bg">
             {/* <img src="images/fundamentals_of_qii/QII2_Landing_main.png" alt="" /> */}
@@ -91,7 +104,7 @@ export default function Fundamentals_of_QII() {
           </div>
         </div>
       </section>
-      <section className="what-is-qii-section color-dark">
+      <section className="what-is-qii-section color-dark" id="FOQ-section2">
         <h3 className="center-text">
           <strong>WHAT IS QII</strong>
         </h3>
@@ -115,7 +128,7 @@ export default function Fundamentals_of_QII() {
           resilience, inclusion, and governance.
         </p>
       </section>
-      <section className="container internal-pages-container color-light">
+      <section className="container internal-pages-container color-light" id="FOQ-section3">
         <h3 className="center-text-qii-generations">
           <strong>THE PATH TO GLOBAL ADOPTION </strong>
         </h3>
@@ -274,10 +287,10 @@ export default function Fundamentals_of_QII() {
         </div>
       </section>
       <section className="container internal-pages-container color-dark">
-        <h3 className="center-text qii-life-cycle">
+        <h3 className="center-text qii-life-cycle" id="FOQ-section4">
           <strong>THE GLOBAL INFRASTRUCTURE CHALLENGE</strong>
         </h3>
-        <div className="global-infrastructure-section-container">
+        <div className="global-infrastructure-section-container" id="FOQ-section5">
           <div className="global-infrastructure-section-left">
             <div className="global-infrastructure-section-left-img">
               <img src="images/fundamentals_of_qii/Globe.svg" alt="" />
@@ -301,7 +314,7 @@ export default function Fundamentals_of_QII() {
                 critical sectors.
               </p>
             </div>
-             <div className="global-infrastructure-section-left-des-link">
+            <div className="global-infrastructure-section-left-des-link">
               <p className="center-light-text-2">
                 Source:{" "}
                 <Link
@@ -319,7 +332,7 @@ export default function Fundamentals_of_QII() {
           <div className="global-infrastructure-section-right">
             <div className="global-infrastructure-section-right-title">
               <p className="global-infrastructure-section-right-sub-title">
-                Up to 
+                Up to
               </p>
               <p>
                 <strong>50%</strong>
@@ -366,10 +379,10 @@ export default function Fundamentals_of_QII() {
               <p>
                 <strong>Why Quality Matters </strong> <br />
                 <br />
-                Quality and quantity are complementary: Well-planned, sustainable infrastructure maximizes economic and
-                social returns, while poor planning leads to assets that fail
-                early, cost more to maintain, and exclude those who need
-                services most.
+                Quality and quantity are complementary: Well-planned,
+                sustainable infrastructure maximizes economic and social
+                returns, while poor planning leads to assets that fail early,
+                cost more to maintain, and exclude those who need services most.
               </p>
             </div>
             <div className="global-infrastructure-section-right-des-link">
@@ -391,7 +404,7 @@ export default function Fundamentals_of_QII() {
         </div>
       </section>
       <section className="color-light">
-        <div className="image-text-container">
+        <div className="image-text-container" id="FOQ-section6">
           <div className="image-text-container-desc">
             <p>
               <strong>$74 Billion in World Bank Operations</strong>
@@ -410,7 +423,7 @@ export default function Fundamentals_of_QII() {
           </div>
         </div>
       </section>
-      <section className="container internal-pages-container color-light">
+      <section className="container internal-pages-container color-light" id="FOQ-section7">
         <h3 className="center-text qii-life-cycle">
           <strong>THE LIFE-CYCLE PERSPECTIVE</strong>
         </h3>
@@ -471,7 +484,8 @@ export default function Fundamentals_of_QII() {
               <div className="qii-life-cycle-stage-1-title">Planning</div>
             </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we building in resilience, accessibility, and operational efficiency?
+              Are we building in resilience, accessibility, and operational
+              efficiency?
             </div>
           </div>
           <div className="qii-life-cycle-container qii-life-cycle-container-1">
@@ -480,7 +494,8 @@ export default function Fundamentals_of_QII() {
               <div className="qii-life-cycle-stage-1-title">Planning</div>
             </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we ensuring quality, transparency, and local capacity building? 
+              Are we ensuring quality, transparency, and local capacity
+              building?
             </div>
           </div>
           <div className="qii-life-cycle-container qii-life-cycle-container-1">
@@ -489,7 +504,8 @@ export default function Fundamentals_of_QII() {
               <div className="qii-life-cycle-stage-1-title">Planning</div>
             </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we delivering inclusive services while managing costs and risks?
+              Are we delivering inclusive services while managing costs and
+              risks?
             </div>
           </div>
           <div className="qii-life-cycle-container qii-life-cycle-container-5">
@@ -500,7 +516,8 @@ export default function Fundamentals_of_QII() {
               </div>
             </div> */}
             <div className="qii-life-cycle-stage-1-desc">
-              Are we preserving value, adapting to changing conditions, and extending asset life?
+              Are we preserving value, adapting to changing conditions, and
+              extending asset life?
             </div>
           </div>
         </div>
@@ -637,7 +654,7 @@ export default function Fundamentals_of_QII() {
         </div>
         {/* mobile end */}
       </section>
-      <section className="container internal-pages-container color-dark">
+      <section className="container internal-pages-container color-dark" id="FOQ-section8">
         <h3 className="center-text qii-six-principles">
           <strong>THE SIX QII PRINCIPLES</strong>
         </h3>
@@ -686,7 +703,7 @@ export default function Fundamentals_of_QII() {
           </button>
         </div>
       </section>
-      <section className="container internal-pages-container color-light">
+      <section className="container internal-pages-container color-light" id="FOQ-section9">
         <h3 className="center-text">
           <strong>EXPLORE THE PRINCIPLES IN DEPTH</strong>
         </h3>

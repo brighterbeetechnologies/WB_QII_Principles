@@ -5,9 +5,23 @@ import "./QII2CaseStudy.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import { useLocation} from "react-router-dom";
 
 export default function QII2CaseStudy2() {
+  const location = useLocation();
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
+  
   useEffect(() => {
     dispatch(
       setBradcrump({
@@ -20,7 +34,7 @@ export default function QII2CaseStudy2() {
     );
   }, []);
   return (
-    <div className="single-case-study-page">
+    <div className="single-case-study-page" id="qii2CS2">
       <section className="color-light">
         <div className="container">
           <div
@@ -30,7 +44,7 @@ export default function QII2CaseStudy2() {
               margin: "6rem 0 0 0"
             }}
           >
-            <h2 className="main-title">
+            <h2 className="main-title main-title-internal">
               <span>The Ganga Wastewater Program</span> <br />Strengthening Life Cycle
               Costing through Public-Private Partnerships
             </h2>

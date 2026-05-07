@@ -5,8 +5,22 @@ import "../QII2CaseStudy.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../../slices/appDataSlice";
+import { useLocation} from "react-router-dom";
 
 export default function QII4CaseStudy1() {
+  const location = useLocation();
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
+
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -20,13 +34,13 @@ export default function QII4CaseStudy1() {
     ); 
   }, []);
   return ( 
-    <div className="single-case-study-page">
+    <div className="single-case-study-page" id="qii4CS1">
       <section className="color-light">
         <div className="container">
           <div className="single-case-study-wrapper"style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii4/updated/Futakotamagawa.png")`,
             }}>
-            <h2 className="main-title">
+            <h2 className="main-title main-title-internal">
               <p>Japan</p>
               <span>Futakotamagawa:</span> Integrating Flood Protection and Urban Renewal
             </h2>

@@ -21,8 +21,10 @@ import QII6CaseStudy1 from "./QII6CaseStudy/QII6CaseStudy1";
 // import QII6CaseStudy2 from "./QII6CaseStudy/QII6CaseStudy2";
 import "./QII2CaseStudy.css";
 import { updateCardClick } from "../utils/cardRanking";
+import { useLocation } from "react-router-dom";
 
 export default function QII2LandingPage() {
+  const location = useLocation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const [preSelectedResources, setPreSelectedResources] = useState([
@@ -210,6 +212,17 @@ export default function QII2LandingPage() {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));
   };
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   useEffect(() => {
     dispatch(
       setBradcrump({
@@ -221,7 +234,7 @@ export default function QII2LandingPage() {
   return (
     <div className="qii2">
       <section className="q2_landing_page color-dark">
-        <section className="color-light landingpage-banner">
+        <section className="color-light landingpage-banner" id="qii6-section1">
           <Header3 img="images/qii6/QII6-Landing/QII6_Landing_main.jpg">
             <div className="langing-page-container">
               <img
@@ -244,35 +257,9 @@ export default function QII2LandingPage() {
             </div>
           </Header3>
         </section>
-        {/* <section className="container color-light">
-          <div className="header-items-cnt">
-            <div className="header-item">
-              <div className="icon-item">&#xe91c;</div>
-              <label className="item-label">
-                <strong>Efficient investment</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <div className="icon-item">&#xe917;</div>
-              <label className="item-label">
-                <strong>Transparent processes</strong>
-              </label>
-            </div>
-            <div className="devider"></div>
-            <div className="header-item">
-              <div className="icon-item">&#xe91a;</div>
-              <label className="item-label">
-                <strong>Sustainable growth</strong>
-              </label>
-            </div>
-          </div>
-        </section> */}
+
         <div className="container internal-pages-cards">
-          <div className="center-header">
-            {/* <h1 className="light-font mBottom">
-              Building Blocks of Adopting a Life Cycle Costing Approach
-            </h1> */}
+          <div className="center-header" id="qii6-section2">
             <h1 className="light-font mBottom">
               Governance Across the Infrastructure Lifecycle
             </h1>
@@ -282,7 +269,7 @@ export default function QII2LandingPage() {
               investment. This governance is strengthened through:​
             </h3>
           </div>
-          <div className="qii6-sub-pages">
+          <div className="qii6-sub-pages" id="qii6-section3">
             {subPages.map((page, i) => (
               <div className="subpage-cnt" key={i}>
                 <div
@@ -311,44 +298,16 @@ export default function QII2LandingPage() {
         </div>
       </section>
       <Qii6ImagewithStatement
+        id="qii6-section4"
         backgroundImage={"images/qii6/shutterstock_1954705864.jpg"}
         text={
           "Infrastructure investment is not the constraint. In many cases, governance is."
         }
-        // subtext={"Ajay Banga"}
-        // subtext2={"April 2025"}
       />
-      {/* <section className="container color-light">
-        <p>
-          Robust infrastructure governance, grounded in clear rules,
-          transparency, and effective management, ensures value for money and
-          creates the confidence and stability needed for private sector
-          investment.{" "}
-        </p>
-      </section> */}
       <section className="color-dark">
-        <div className="container ">
+        <div className="container " id="qii6-section5">
           <div className="video-text-cnt">
             <div className="video-text-box">
-              {/* <img src="images/qii2/videoCover.png" alt="" />
-              <div className="vid-cnt">
-                <button
-                  className="video-play-btn icon-play"
-                  onClick={() => {
-                    openVideo(
-                      "",
-                      "Why Infrastructure Governance Matters",
-                      1920,
-                      1080,
-                    );
-                  }}
-                >
-                  &#xe91e;
-                </button>
-                <p className="video-title">
-                  <strong>Why Infrastructure Governance Matters</strong>
-                </p>
-              </div> */}
               <Video
                 thumbnail="images/qii6/QII6-Landing/Qii6_Video_Cover.jpg"
                 videoUrl=""
@@ -379,110 +338,13 @@ export default function QII2LandingPage() {
           </div>
         </div>
       </section>
-      {/* <section className="container internal-pages-container color-dark">
-        <h3 className="statement-text">
-          <strong>Life cycle costing</strong> breaks this cycle. <br />
-          <br />
-          By accounting for the <strong>total cost of service delivery</strong>,
-          governments and institutions can make smarter investments that deliver
-          better value over time.
-        </h3>
-        <h1 className="light-font "></h1>
-      </section> */}
-      {/* <section className="qii_video_landing_page color-light">
-        <img
-          className="qii_video-thumbnail-image"
-          src="images/qii4/QII 2 in Action poster.png"
-          alt="video thumbnail"
-        />
-        <div className="qii-video-overlay"></div>
-        <div className="qii-video-cnt">
-          <button
-            className="video-play-btn icon-play"
-            onClick={() => {
-              openVideo(
-                "",
-                "QII.6 in Action",
-                1920,
-                1080,
-              );
-            }}
-          >
-            &#xe91e;
-          </button>
-        </div>
-        <div className="qii-video-text-cnt">
-          <p className="video-title">Lessons from Success Stories</p>
-          <p className="video-desc">
-            InfraGov assessments under the QII Partnership in Kyrgyz Republic,
-            Tajikistan, and Uzbekistan provide practical roadmaps for
-            strengthening infrastructure governance systems.
-          </p>
-          <Link to="">
-            <button className="btn-primary qii2-video-cta disable-link">
-              Explore Case Study <span className="icon-arrow">&#xe900;</span>
-            </button>
-          </Link>
-        </div>
-      </section> */}
 
-      <QII6CaseStudy1 />
-
-      {/* <section className="color-dark top_resource_page">
-        <div className="container">
-          <div className="center-header">
-            <h1 className="light-font mBottom">QII.2 Case Studies</h1>
-          </div>
-          <div className="top-resource-card-cnt">
-            <TopResourceCard
-              image="images/qii2/Fukuoka.png"
-              title={
-                <p>
-                  Fukuoka City: Pioneering Life Cycle Costing For Efficient Water Management
-                </p>
-              }
-              buttonText="Case Study"
-              link="pdf/Fukuoka_city_case_study.pdf"
-            ></TopResourceCard>
-            <TopResourceCard
-              image="images/qii2/Ganga_case_study.png"
-              title={
-                <p>
-                  The Ganga Wastewater Program Strengthening Life Cycle Costing
-                  Through Public-Private Partnerships
-                </p>
-              }
-              buttonText="Case Study"
-              link="pdf/Ganga_case_study.pdf"
-            ></TopResourceCard>
-          </div>
-        </div>
-        {/* <div className="container resource_page">
-          <div className="resource-carousel-container">
-            <div className="resource-carousel-wrapper">
-              <div
-                className="resource-carousel-track"
-                // style={{ transform: `translateX(-${index * 100}%)` }}
-              >
-                {topResources.map((slide, i) => (
-                  <div className="resource-carousel-slide" key={i}>
-                    <div className="resource-card-container col-2">
-                      {slide.map((card, j) => (
-                        <CardBox key={j} card={card}></CardBox>
-                      ))}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div> }
-      </section> */}
+      <QII6CaseStudy1 id="qii6-section6"/>
 
       <section className="color-dark">
         <div className="container">
-          <h2 className="section-title light-font">QII.6 Case Studies</h2>
-          <div className="page-resource-grid" role="list">
+          <h2 className="section-title light-font" id="qii6-section7">QII.6 Case Studies</h2>
+          <div className="page-resource-grid" role="list" id="qii6-section8">
             {resourceArray.map((p, index) => {
               return (
                 <article

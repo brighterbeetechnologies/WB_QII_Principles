@@ -45,7 +45,7 @@ export const data = [
     url: "/qii2",
     secId: "qii2-section1",
     content:
-      "QII.2 Economic Efficiency At the heart of QII Principle 2 is the concept of Life-Cycle Costing (LCC), a forward-thinking approach to infrastructure investment. Instead of focusing solely on upfront costs, LCC considers all costs – planning, design, construction, operations, maintenance, and eventual disposal – thereby maximizing the efficiency of spending over the entire lifespan of an infrastructure project.",
+      "QII2 QII.2 Economic Efficiency At the heart of QII Principle 2 is the concept of Life-Cycle Costing (LCC), a forward-thinking approach to infrastructure investment. Instead of focusing solely on upfront costs, LCC considers all costs – planning, design, construction, operations, maintenance, and eventual disposal – thereby maximizing the efficiency of spending over the entire lifespan of an infrastructure project.",
   },
   {
     title: "",
@@ -328,7 +328,7 @@ export const data = [
     url: "/qii3",
     secId: "qii3-section1",
     content:
-      "QII.3 Environment Infrastructure accounts for ~79% of global greenhouse gas emissions, but can also be a driver of environmental solutions through renewable energy, climate-smart transport, and designs that work with nature. QII 3 supports efforts to move beyond do-no-harm to actively promoting positive environmental outcomes throughout a project's lifecycle. ",
+      "QII3 QII.3 Environment Infrastructure accounts for ~79% of global greenhouse gas emissions, but can also be a driver of environmental solutions through renewable energy, climate-smart transport, and designs that work with nature. QII 3 supports efforts to move beyond do-no-harm to actively promoting positive environmental outcomes throughout a project's lifecycle. ",
   },
   {
     title: "Environment",
@@ -645,7 +645,7 @@ export const data = [
     url: "/qii4",
     secId: "qii4-section1",
     content:
-      "QII.4 Resilience Resilience in infrastructure refers to the capacity to withstand, adapt to, and recover from disruptions - whether caused by natural disasters, climate change, or human-made risks. Resilience ensures reliable infrastructure service delivery and reduces the economic disruptions caused by extreme events. Resilience can be especially important in low- and middle-income countries which can lack the system redundancies and emergency response capacity needed in disaster situations. ",
+      "QII4 QII.4 Resilience Resilience in infrastructure refers to the capacity to withstand, adapt to, and recover from disruptions - whether caused by natural disasters, climate change, or human-made risks. Resilience ensures reliable infrastructure service delivery and reduces the economic disruptions caused by extreme events. Resilience can be especially important in low- and middle-income countries which can lack the system redundancies and emergency response capacity needed in disaster situations. ",
   },
   {
     title: "Resilience",
@@ -960,7 +960,7 @@ export const data = [
     url: "/qii1",
     secId: "qii1-section1",
     content:
-      "QII.1 Sustainable Growth Quality infrastructure drives sustainable growth when infrastructure investments create jobs, boost productivity, and connect people to markets.",
+      "QII1 QII.1 Sustainable Growth Quality infrastructure drives sustainable growth when infrastructure investments create jobs, boost productivity, and connect people to markets.",
   },
   {
     title: "Sustainable Growth",
@@ -1050,7 +1050,7 @@ export const data = [
     url: "/qii5",
     secId: "qii5-section1",
     content:
-      "QII.5 Inclusion Inclusive infrastructure is built to serve everyone, regardless of age, ability, gender, or background. Inclusion matters socially and economically – wide access to electricity, transport, and digital networks fuels productivity and expands opportunities. More users improve financial viability, especially when capital costs are high and marginal costs low (for example, in public transport).",
+      "QII5 QII.5 Inclusion Inclusive infrastructure is built to serve everyone, regardless of age, ability, gender, or background. Inclusion matters socially and economically – wide access to electricity, transport, and digital networks fuels productivity and expands opportunities. More users improve financial viability, especially when capital costs are high and marginal costs low (for example, in public transport).",
   },
   {
     title: "Inclusion",
@@ -1264,6 +1264,431 @@ export const data = [
     url: "/Stakeholder_Engagement",
     secId: "qii5-SE-section2",
     content:
-      "",
+      "Inclusive stakeholder engagement begins with an understanding of key stakeholder groups and their needs, especially those at risk of exclusion or being under-served. The next step is then to develop engagement plans that involve these groups in the planning and design process.",
+  },
+  {
+    title: "Inclusive Stakeholder Engagement",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusive Stakeholder Engagement",
+    url: "/Stakeholder_Engagement",
+    secId: "qii5-SE-section3",
+    content:
+      "Characterize Stakeholders Using Data Identify which stakeholders may be at risk of exclusion by: Collecting and analyzing demographic and usage data to segment user groups. Understanding and mapping the specific needs, perspectives, and barriers faced by vulnerable and underrepresented groups.",
+  },
+  {
+    title: "Inclusive Stakeholder Engagement",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusive Stakeholder Engagement",
+    url: "/Stakeholder_Engagement",
+    secId: "qii5-SE-section4",
+    content:
+      "Mozambique Investing in Mozambique's Connectivity World Bank The use of big data to map mobility patterns helped to ensure a new bus rapid transit system in Maputo was designed to maximize accessibility for all socio-economic groups. Global ​ Gender Equality, Infrastructure and PPPs World Bank​ This report provides comprehensive guidance on integrating gender considerations into public-private partnerships across the project lifecycle. The Kumasi Toilet PPP Project in Ghana (box 16, page 35) used a willingness-to-pay survey as part of its pre-feasibility study to evaluate the financial viability of delivering public toilets through a PPP model. Global Mainstreaming Gender in Infrastructure World Bank​ This provides a comprehensive framework for mainstreaming gender considerations throughout infrastructure project cycles. It covers diagnostics, design, implementation, and monitoring. Figure 7.1 on page 56 maps how different stakeholders (government authorities, MDBs, private sector, gender specialists, civil society, and affected communities) each hold data-driven responsibilities for ensuring gender inclusion at every stage Global Inclusive Infrastructure “Data Collection and Stakeholder Identification” Global Infrastructure Hub This resource outlines methods for collecting and analyzing disaggregated data by gender, age, disability, income, and other criteria to identify at-risk stakeholders in infrastructure projects.",
+  },
+  {
+    title: "Inclusive Stakeholder Engagement",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusive Stakeholder Engagement",
+    url: "/Stakeholder_Engagement",
+    secId: "qii5-SE-section5",
+    content:
+      "Develop Stakeholder Engagement Plans It has long been recognized that good stakeholder engagement is fundamental to generating support for, and ultimately usage of, public infrastructure. A wide range of materials are available to guide project developers in this area.",
+  },
+  {
+    title: "Inclusive Stakeholder Engagement",
+    qii: "QII.5 Inclusion",
+    ip: "Inclusive Stakeholder Engagement",
+    url: "/Stakeholder_Engagement",
+    secId: "qii5-SE-section6",
+    content:
+      "Uganda Stakeholder Engagement Plan Republic of Uganda This resource exemplifies best practice in stakeholder engagement for large, multi-sectoral projects. It provides a detailed framework for identifying stakeholder groups, mapping their interests and influence, selecting appropriate engagement methods for each group, and establishing grievance mechanisms. Japan Hachioji City Organization for Economic Co-operation and Development Hachioji City demonstrates how innovative use of 3D city models and augmented reality can significantly enhance local public engagement in urban planning, ultimately strengthening trust and collaboration between the city government and its citizens. Tajikistan Gender Dimensions of Cross-Border Trade World Bank This World Bank study on Tajikistan’s cross-border trade highlights the critical role of community engagement and inclusion, particularly of women traders, in official trade processes. Global OECD Infrastructure Toolkit Organisation for Economic Co-operation and Development​ The OECD Infrastructure Toolkit provides practical guidance for designing stakeholder engagement plans that are inclusive and systematic.",
+  },
+  {
+    title: "Governance ",
+    qii: "QII.6 Governance ",
+    ip: false,
+    url: "/qii6",
+    secId: "qii6-section1",
+    content:
+      "QII6 QII.6 Governance Good governance is the backbone of quality infrastructure, ensuring projects are transparent, accountable, and deliver value for generations. Strong governance means smarter investment, reduced waste, and greater public trust in infrastructure decisions.",
+  },
+  {
+    title: "Governance ",
+    qii: "QII.6 Governance ",
+    ip: false,
+    url: "/qii6",
+    secId: "qii6-section2",
+    content:
+      "Governance Across the Infrastructure Lifecycle Across the infrastructure lifecycle, robust governance creates the confidence and stability needed to attract private sector investment. This governance is strengthened through: ",
+  },
+  {
+    title: "Governance ",
+    qii: "QII.6 Governance ",
+    ip: false,
+    url: "/qii6",
+    secId: "qii6-section3",
+    content:
+      "Infrastructure Institutions Establishes legal frameworks and cross-government coordination for effective project delivery. Public Investment and Asset Management Applies systematic processes to plan, select, and maintain public infrastructure investments. GovTech for Infrastructure Leverages digital tools to enhance data access, coordination, and transparency.",
+  },
+  {
+    title: "Governance ",
+    qii: "QII.6 Governance ",
+    ip: false,
+    url: "/qii6",
+    secId: "qii6-section4",
+    content:
+      "Infrastructure investment is not the constraint. In many cases, governance is.",
+  },
+  {
+    title: "Governance ",
+    qii: "QII.6 Governance ",
+    ip: false,
+    url: "/qii6",
+    secId: "qii6-section5",
+    content:
+      "Why Infrastructure Governance Matters Enabling Impact Through Strong Governance Delivering quality infrastructure is about more than just spending. Without good governance, increased spending will not translate into value and lasting impact. Governments need to: Reprioritize existing public spending, so that investment targets the highest-priority projects Strengthen transparency and efficiency in public investment processes, minimizing waste and delays Build a predictable, accountable regulatory environment to lower risk and attract private-sector participation",
+  },
+  {
+    title: "Governance ",
+    qii: "QII.6 Governance ",
+    ip: false,
+    url: "/qii6",
+    secId: "qii6-section6",
+    content:
+      "QII.6 in Action InfraGov assessments under the QII Partnership in Kyrgyz Republic, Tajikistan, and Uzbekistan provide practical roadmaps for strengthening infrastructure governance systems. SECTOR Governance COUNTRY Uzbekistan Tajikistan Kyrgyz Republic TIMELINE 2012-Present COST RESULT Uzbekistan: 265 PPPs initiated ($2.9B), ministries consolidated (61→28), e-procurement launched Tajikistan: e-procurement system established (2019), improved budget transparency rankings Kyrgyz Republic: 19 PPP contracts signed (3 operational), Open Budget score 62/100 View case study summary Full Publication",
+  },
+  {
+    title: "Governance ",
+    qii: "QII.6 Governance ",
+    ip: false,
+    url: "/qii6",
+    secId: "qii6-section7",
+    content: "QII.6 Case Studies",
+  },
+  {
+    title: "Governance ",
+    qii: "QII.6 Governance ",
+    ip: false,
+    url: "/qii6",
+    secId: "qii6-section8",
+    content:
+      "Albania: ​Innovations to Accelerate Inclusive and High Impact Public Services ​With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations. Global: Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. ​ Kosovo: Supporting Sustainable Digital Infrastructure through Innovation This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.​",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section1",
+    content:
+      "Infrastructure Institutions Strong institutions are essential for good infrastructure because they set clear rules, coordinate efforts, and make sure projects are managed openly and efficiently. For many countries, strengthening institutions means moving beyond fragmented, compliance-driven systems towards an environment where government staff are empowered, accountable and incentivized to work across boundaries.",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section2",
+    content:
+      "Legal and Regulatory Frameworks for Infrastructure Strong legal and regulatory frameworks are essential to ensure public infrastructure investments follow clear standards and rules that maintain integrity, transparency, and accountability. These legal instruments must be regularly reviewed and updated to reflect best practices, evolving risks, and national development needs.",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section3",
+    content:
+      "Global Infrastructure Governance​ Infrastructure Governance Facility​ The Infrastructure Governance framework provides frameworks and tools to help countries strengthen legal and regulatory structures, ensuring transparent, efficient, and accountable public infrastructure investment management.",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section4",
+    content:
+      "Coordination Across Government Infrastructure is often complex, cutting across sector and institutional boundaries. Effective coordination requires structured cooperation mechanisms and shared investment priorities.",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section5",
+    content:
+      "Global Effective Multi-Level Public Investment​ Organisation for Economic Co-operation and Development This resource provides a comprehensive framework to help governments at all levels work together more effectively on public investment. It covers 12 principles organized around three pillars: coordination, capacities, and framework conditions, addressing the challenges of fragmented responsibilities and the need for coherent investment strategies. Chapter 2 details practical mechanisms for reinforcing coordination across government levels, emphasizing joint investment strategies, intergovernmental dialogue, and capacity-building to unify standards and promote accountability in public infrastructure investment decisions.",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section65",
+    content:
+      "Transparency and Accountability Transparency and accountability are critical for integrity in infrastructure planning and execution. Clear disclosure of project information, open processes for public scrutiny, and systematic monitoring allow stakeholders to detect and address irregularities early, reducing opportunities for mismanagement and corruption. Independent oversight mechanisms further strengthen trust by ensuring decisions and expenditures are subject to continuous external review.",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section7",
+    content:
+      "Global Cost Infrastructure Transparency Initiative Infrastructure Transparency Initiative (CoST) This is a practical resource for embedding transparency throughout the infrastructure planning phase, to tackle corruption and strengthen public confidence in infrastructure decision-making processes. Global Well Spent International Monetary Fund This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, and best practices in project appraisal and selection. Table 10.3 (Measures and Indicators to Prevent and Detect Corruption in Public Infrastructure) provides a comprehensive list of measures and indicators designed to identify vulnerabilities and detect corruption across the infrastructure investment cycle.",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section8",
+    content:
+      "Strategic Planning Strategic long-term planning aligns infrastructure investments with national development goals to ensure that the scarce public resources are used where needed most.",
+  },
+  {
+    title: "Infrastructure Institutions ",
+    qii: "QII.6 Governance ",
+    ip: "Infrastructure Institutions",
+    url: "/Infrastructure-Institutions",
+    secId: "qii6-II-section9",
+    content:
+      "Global Integrated Approaches in Action United Nations Environment Programme This showcases integrated approaches to infrastructure planning in small island developing states, highlighting how countries can align infrastructure investments with climate resilience and sustainable development goals. Saint Lucia's National Infrastructure Assessment demonstrates integrated long-term planning through cross-sectoral analysis and stakeholder engagement to strategically prioritize climate-resilient investments supporting national development. Global Governance of Quality Infrastructure Investment​ Organisation for Economic Co-operation and Development and International Monetary Fund This note provides principles for developing strategic infrastructure planning frameworks that integrate long-term national priorities with project selection.",
+  },
+  {
+    title: "Public Investment and Asset Management",
+    qii: "QII.6 Governance ",
+    ip: "Public Investment and Asset Management",
+    url: "/Public-Investment-And-Asset-Management",
+    secId: "qii6-PIAM-section1",
+    content:
+      "Public Investment and Asset Management Public Investment Management (PIM) refers to the systems and processes governments use to plan, select, and oversee public infrastructure projects. Public Asset Management​ (PAM) refers to the strategic and systematic process by which governments oversee, maintain, and optimize the use of public assets. Strengthening PIM and PAM leads to greater efficiency in resource allocation, asset utilization and long-term value to society.",
+  },
+  {
+    title: "Public Investment and Asset Management",
+    qii: "QII.6 Governance ",
+    ip: "Public Investment and Asset Management",
+    url: "/Public-Investment-And-Asset-Management",
+    secId: "qii6-PIAM-section2",
+    content:
+      "Public Investment Management (PIM) Effective public investment management requires systematic application of financial and fiscal sustainability tools to assess project affordability, demonstrate value for money, mobilize private capital where appropriate, and manage risks throughout the investment decision-making process.",
+  },
+  {
+    title: "Public Investment and Asset Management",
+    qii: "QII.6 Governance ",
+    ip: "Public Investment and Asset Management",
+    url: "/Public-Investment-And-Asset-Management",
+    secId: "qii6-PIAM-section3",
+    content:
+      "Global Well Spent International Monetary Fund This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance. It covers controlling corruption, managing fiscal risks, integrating planning and budgeting, project appraisal and selection, and maintaining public assets. Chapters 11 (Fiscal Risks in Infrastructure) and 12 (Integrating Infrastructure Planning and Budgeting) examine fiscal risk identification and mitigation strategies for infrastructure projects, and outline methods for integrating infrastructure planning with budgetary processes to ensure fiscal sustainability and alignment between investment decisions and available resources. Global Public Investment Management Assessment​ International Monetary Fund The IMF’s Public Investment Management Assessment (PIMA) provides a comprehensive framework to evaluate the strength of public investment management institutions, helping governments identify weaknesses and prioritize reforms.",
+  },
+  {
+    title: "Public Investment and Asset Management",
+    qii: "QII.6 Governance ",
+    ip: "Public Investment and Asset Management",
+    url: "/Public-Investment-And-Asset-Management",
+    secId: "qii6-PIAM-section4",
+    content:
+      "Public Asset Management (PAM) Comprehensive lifecycle management ensures infrastructure assets deliver sustained performance, optimize whole-life costs, and maintain service quality through systematic monitoring, contract management, and preventive maintenance strategies.",
+  },
+  {
+    title: "Public Investment and Asset Management",
+    qii: "QII.6 Governance ",
+    ip: "Public Investment and Asset Management",
+    url: "/Public-Investment-And-Asset-Management",
+    secId: "qii6-PIAM-section5",
+    content:
+      "Global Implementation Handbook for Quality Infrastructure Investment Organisation for Economic Co-operation and Development This handbook provides practical guidance on implementing quality infrastructure principles throughout the project lifecycle, emphasizing integrated planning, stakeholder engagement, environmental and social considerations, and governance mechanisms that support sustainable infrastructure outcomes. Global InfraGov Assessment Framework World Bank InfraGov is a diagnostic framework developed by the World Bank to help countries optimize infrastructure investments by assessing governance across the project lifecycle, cross-cutting principles, and service delivery. Dimension 6 (Infrastructure procurement and contract management systems) assesses the effectiveness of procurement frameworks and contract management practices, examining transparency, competition, risk allocation, and monitoring systems that ensure infrastructure projects are delivered efficiently and contractors meet performance obligations. Global Getting Infrastructure Right Organisation for Economic Co-operation and Development This 2017 report, based on a survey of 27 countries, provides an overview of current practices in infrastructure governance and presents practical tools to help policy makers better manage infrastructure across its full lifecycle. It addresses challenges from technical and budgetary concerns to delivery and governance issues. “Infrastructure procurement and the choice of the delivery modality” – page 52 and “Performance throughout the life cycle” pages – 76-77 analyze procurement strategy selection based on project characteristics and capacity, and emphasize the importance of performance monitoring, maintenance planning, and asset management systems to maximize infrastructure value over its operational lifespan. Global Well Spent International Monetary Fund This 2020 IMF book draws on PIMAs conducted in more than 60 countries to address how countries can attain quality infrastructure outcomes through better governance, with dedicated chapters on maintenance and asset management. Chapter 14 (Maintaining and Managing Public Infrastructure Assets) addresses the critical need for systematic asset management and maintenance planning, highlighting how neglect of routine maintenance accelerates asset deterioration, increases long-term costs, and undermines the benefits of infrastructure investments.",
+  },
+  {
+    title: "GovTech for Infrastructure",
+    qii: "QII.6 Governance ",
+    ip: "GovTech for Infrastructure",
+    url: "/govtech-for-infrastructure",
+    secId: "qii6-GI-section1",
+    content:
+      "GovTech for Infrastructure Digital technologies are reshaping how governments plan, deliver, and oversee infrastructure. GovTech solutions enhance access to data for smarter investment decisions, enable stronger coordination across agencies, and drive greater transparency throughout the infrastructure project lifecycle.",
+  },
+  {
+    title: "GovTech for Infrastructure",
+    qii: "QII.6 Governance ",
+    ip: "GovTech for Infrastructure",
+    url: "/govtech-for-infrastructure",
+    secId: "qii6-GI-section2",
+    content:
+      "Data Collection for Informed Decision Making Quality infrastructure investment starts with quality data. Digital tools for collecting, standardizing, and analyzing infrastructure information enable governments to identify gaps, prioritize investments, and direct resources toward projects with the greatest impact.",
+  },
+  {
+    title: "GovTech for Infrastructure",
+    qii: "QII.6 Governance ",
+    ip: "GovTech for Infrastructure",
+    url: "/govtech-for-infrastructure",
+    secId: "qii6-GI-section3",
+    content:
+      "Multi-country Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era World Bank With co-funding from the QII Partnership and the Mobility and Logistics Multidonor Trust Fund (MOLO), this project developed a replicable methodology for monitoring travel demand patterns using big data from mobile devices. The approach was demonstrated in Bogota, Buenos Aires, and Medellin, supporting transport authorities in leveraging new data sources to inform public transport planning and infrastructure investment decisions. Global Global Infrastructure Indicators Dashboard World Bank Open access portal providing internationally comparable development indicators across transport, energy, water, digital connectivity, etc. You can explore data by country, visualize trends, and benchmark infrastructure performance using the DataBank analysis tool.",
+  },
+  {
+    title: "GovTech for Infrastructure",
+    qii: "QII.6 Governance ",
+    ip: "GovTech for Infrastructure",
+    url: "/govtech-for-infrastructure",
+    secId: "qii6-GI-section4",
+    content:
+      "Digital Platforms for Data Management, Monitoring, and Transparency Integrated digital platforms consolidate infrastructure information across agencies and sectors, enabling real-time project monitoring, performance tracking, and public disclosure that strengthens accountability.",
+  },
+  {
+    title: "GovTech for Infrastructure",
+    qii: "QII.6 Governance ",
+    ip: "GovTech for Infrastructure",
+    url: "/govtech-for-infrastructure",
+    secId: "qii6-GI-section5",
+    content:
+      "Indonesia One Map Policy Open Government Partnership National geospatial platform consolidating land-use data from 19 government agencies across all 34 provinces into a single unified database. Launched in 2018 to resolve overlapping claims and fragmented information that had long impeded sustainable development, infrastructure planning, and land governance. Japan Japan Association for Smart Cities in ASEAN Platform facilitating public-private cooperation between Japan and ASEAN countries on smart city development. Provides access to Japanese smart city technologies across infrastructure maintenance, disaster prevention, and urban planning, alongside the Smart JAMP cooperative framework and ASEAN Smart City Planning Guidebook. Global GovTech Maturity Index Data Dashboard World Bank Interactive dashboard presenting digital governance data for 198 economies, enabling users to explore GovTech maturity across countries, track progress, and inform next steps on GovTech agendas. Also provides access to the World Bank's database of 1,450+ digital governance projects funded since 1995.",
+  },
+  {
+    title: "GovTech for Infrastructure",
+    qii: "QII.6 Governance ",
+    ip: "GovTech for Infrastructure",
+    url: "/govtech-for-infrastructure",
+    secId: "qii6-GI-section6",
+    content:
+      "Ensuring Interoperability Across Governance Levels and Sectors Effective digital governance requires systems that communicate seamlessly across ministries, agencies, and levels of government, ensuring data flows between planning, procurement, implementation, and oversight functions.",
+  },
+  {
+    title: "GovTech for Infrastructure",
+    qii: "QII.6 Governance ",
+    ip: "GovTech for Infrastructure",
+    url: "/govtech-for-infrastructure",
+    secId: "qii6-GI-section7",
+    content:
+      "Albania ​Innovations to Accelerate Inclusive and High Impact Public Services World Bank With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations. Kosovo Supporting Sustainable Digital Infrastructure through Innovation World Bank This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events. Global Digital Public Infrastructure for Digital Governments​ Organisation for Economic Co-operation and Development Policy paper defining digital public infrastructure as shared digital systems that are secure and interoperable, supporting inclusive delivery of public and private services.",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section1",
+    content:
+      "Quality Infrastructure Investment Transforming how the world delivers infrastructure",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section2",
+    content:
+      "WHAT IS QII Infrastructure is a driver of economic growth and prosperity. The G20 Principles for Quality Infrastructure Investment are a set of voluntary, non-binding principles that reflect the G20's common strategic direction and aspiration for quality infrastructure investment. The QII Partnership is a collaboration between the World Bank and the Government of Japan focused on advancing green, resilient, and inclusive development through World Bank infrastructure projects. Priorities include increasing quality in procurement, economic efficiency in view of life-cycle cost, and strengthened standards for resilience, inclusion, and governance.",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section3",
+    content:
+      "THE PATH TO GLOBAL ADOPTION Japan announces the Partnership for Quality Infrastructure, establishing quality as a priority for development finance 2015 G7 leaders endorse principles for quality infrastructure at the Ise-Shima Summit; World Bank and Japan establish the QII Partnership to put them into practice 2016 G20 adopts six QII Principles at the Osaka Summit, extending the framework to advanced and emerging economies as a voluntary global standard 2019 OECD publishes implementation guidance to help governments operationalize QII across the project lifecycle 2021 The QII Partnership is at the heart of integrating the QII principles across World Bank operations and beyond, shaping infrastructure investments and strengthening economies, communities, and the environment for generations. Today Learn More About QII's Global Reach",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section4",
+    content: "THE GLOBAL INFRASTRUCTURE CHALLENGE",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section5",
+    content:
+      "$106 trillion Infrastructure investment needed by 2040 Closing the Gap Addressing the global need for new and improved infrastructure will require roughly $106 trillion in investment by 2040, spanning transportation, energy, digital, social, and other critical sectors. Source: McKinsey, The Infrastructure Moment, 2025 Up to 50% Reduction in replacement costs through proper maintenance Why Quality Matters Quality and quantity are complementary: Well-planned, sustainable infrastructure maximizes economic and social returns, while poor planning leads to assets that fail early, cost more to maintain, and exclude those who need services most. Source: G20 Principles for Quality Infrastructure Investment, Preamble, 2019 ",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section6",
+    content:
+      "$74 Billion in World Bank Operations The QII Partnership has backed $7 billion in World Bank infrastructure operations, with close to 350 interventions across 93 countries and $85 million in total commitment as of FY25.",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section7",
+    content:
+      "THE LIFE-CYCLE PERSPECTIVE Quality infrastructure requires thinking beyond construction to consider impacts across an asset's entire lifespan. Each of the six QII Principles applies at every stage. Planning Are we assessing long-term costs, environmental impacts, and community needs from the start? Design Are we building in resilience, accessibility, and operational efficiency? Construction Are we ensuring quality, transparency, and local capacity building? Operation Are we delivering inclusive services while managing costs and risks? Maintenance Are we preserving value, adapting to changing conditions, and extending asset life?",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section8",
+    content:
+      "THE SIX QII PRINCIPLES Endorsed by G20 Finance Ministers on June 9, 2019, and by Leaders at the G20 Osaka Summit on June 29, 2019. These six voluntary and non-binding QII Principles reflect the G20’s common strategic direction and aspiration for quality infrastructure investment. Maximizing the positive impact of infrastructure to achieve sustainable growth and development. Quality infrastructure creates a virtuous circle through job creation, technology transfer, capacity building, and productivity improvement that crowds in further private investment. Raising economic efficiency in view of life-cycle cost. Quality infrastructure attains value for money by accounting for total costs across planning, design, construction, operation, maintenance, and possible disposal. Integrating environmental considerations in infrastructure investment. Both positive and negative impacts on ecosystems, biodiversity, and climate should be assessed throughout the project life-cycle, with transparent disclosure to all stakeholders. Building resilience against natural disasters and other risks. Quality infrastructure ensures long-term adaptability through sound disaster risk management in design, ongoing maintenance, and well-designed risk finance and insurance mechanisms. Integrating social considerations in infrastructure investment. Quality infrastructure is inclusive, enabling economic participation and social inclusion of all through non-discriminatory access, meaningful community consultation, and equal opportunity for workers. Strengthening infrastructure governance. Sound governance ensures accountability, transparency, and integrity through open procurement, anti-corruption efforts, debt sustainability considerations, and access to information and data for decision-making.",
+  },
+  {
+    title: "Fundamentals of QII",
+    qii: false,
+    ip: "Fundamentals of QII",
+    url: "/fundamentals_of_qii",
+    secId: "FOQ-section9",
+    content:
+      "EXPLORE THE PRINCIPLES IN DEPTH Learn how each principle translates into practical guidance for infrastructure investment. Explore QII Principles",
+  },
+  {
+    title: "Case Study",
+    qii: "QII.2 Economic Efficiency",
+    ip: "Case Study",
+    url: "/qii2casestudy2",
+    secId: "qii2CS2",
+    content:
+      "The Ganga Wastewater Program Strengthening Life Cycle Costing through Public-Private Partnerships SECTOR Water and Sanitation COUNTRY India TIMELINE 2014–Present COST Over US $ 4 billion is being invested in the Clean Ganga program to clean the Ganga River. Includes US $ 1.5 billion in investment through PPP projects, of which US$ 650 million will come from private sector sources. RESULT 12 PPP contracts awarded to treat around 600 million liters/day of wastewater. Integrating long-term operation and maintenance into PPP contracts has broken the cycle of build-neglect-rebuild. View case study summary Full Publication",
+  },
+  {
+    title: "Case Study",
+    qii: "QII.3 Environment",
+    ip: "Case Study",
+    url: "/qii3casestudy2",
+    secId: "qii3CS2",
+    content: "Japan Futakotamagawa: Integrating Flood Protection and Urban Renewal CASE SNAPSHOT SECTOR Urban Development & Flood Management COUNTRY Japan TIMELINE 2004-2015 (main phases) COST Futakotamagawa Rise : ¥102.4 billion ($875 million) Phase 1 (8.1 ha out of 11.2 ha) Futakotamagawa Park : ¥1.274 billion ($11.6 million) RESULT Regulatory expectations demanded improvements in service reliability and financial sustainability. Resilience through the project: Integration of flood protcteion and public-private cost-sharing created a model where urban livelihood, ecological values, and economic viability mutually reinforce each other. View case study summary Full Publication​",
+  },
+  {
+    title: "Case Study",
+    qii: "QII.4 Resilience",
+    ip: "Case Study",
+    url: "/qii4casestudy1",
+    secId: "qii4CS1",
+    content: "Japan Futakotamagawa: Integrating Flood Protection and Urban Renewal CASE SNAPSHOT SECTOR Urban Development & Flood Management COUNTRY Japan TIMELINE 2004-2015 (main phases) COST Futakotamagawa Rise : ¥102.4 billion ($875 million) Phase 1 (8.1 ha out of 11.2 ha) Futakotamagawa Park : ¥1.274 billion ($11.6 million) RESULT Regulatory expectations demanded improvements in service reliability and financial sustainability. Resilience through the project: Integration of flood protcteion and public-private cost-sharing created a model where urban livelihood, ecological values, and economic viability mutually reinforce each other. View case study summary Full Publication​",
+  },
+  {
+    title: "Case Study",
+    qii: "QII.4 Resilience",
+    ip: "Case Study",
+    url: "/qii4casestudy3",
+    secId: "qii4CS3",
+    content: "Cabo Verde Diagnosing Road Network Vulnerabilities to Guide Resilient Investment​ CASE SNAPSHOT SECTOR Transport COUNTRY Cabo Verde TIMELINE 2010s-present COST Undisclosed RESULT Road sector investment, maintenance, and emergency response systematically informed and prioritized based on hazard risk and vulnerability diagnostics View case study summary Full Publication",
+  },
+  {
+    title: "Case Study",
+    qii: "QII.5 Inclusion",
+    ip: "Case Study",
+    url: "/qii5casestudy2",
+    secId: "qii5CS2",
+    content: "Vietnam and Senegal Incorporating Universal Accessibility into Infrastructure Planning and Design CASE SNAPSHOT SECTOR Urban Development COUNTRY Vietnam & Senegal TIMELINE Vietnam: 2017-202 Senegal: QII engagement Jan 2023 - Apr 2024 COST < $1 million RESULT Vietnam: First national accessibility guideline 90,000 beneficiaries in low-income areas Methodology scaled global Senegal: Context-sensitive design guidelines Enhanced public infrastructure Cross-sector stakeholder capacity built View case study summary Full Publication",
+  },
+  {
+    title: "Case Study",
+    qii: "QII.6 ",
+    ip: "Case Study",
+    url: "/qii6casestudy2",
+    secId: "qii6CS2",
+    content: "Albania Quality Digital Infrastructure for Inclusive Public Services CASE SNAPSHOT SECTOR Digital COUNTRY Albania TIMELINE 2023 to Present COST US$375,000 (QII Technical Assistance) US$145 million (World Bank finance) RESULT 95% of central government services online 3+ million registered users 1,200+ digital services View case study summary Full Publication",
   },
 ];

@@ -5,8 +5,21 @@ import "../QII2CaseStudy.css";
 // import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../../slices/appDataSlice";
+import { useLocation } from "react-router-dom";
 
 export default function QII6CaseStudy2() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]); 
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(
@@ -20,7 +33,7 @@ export default function QII6CaseStudy2() {
     );
   }, []);
   return (
-    <div className="single-case-study-page">
+    <div className="single-case-study-page" id="qii6CS2">
       <section className="color-light">
         <div className="container">
           <div

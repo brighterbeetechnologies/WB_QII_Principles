@@ -50,7 +50,7 @@ export default function QII1LandingPage() {
             creation during the construction and O&M phases, to boosting the
             industries that support these activities, to ultimately increasing
             productivity, jobs and access to markets through the infrastructure
-            services provided.
+            services provided.1
           </p>
           <p className="ico-text-card-3-link">
             1:{" "}
@@ -1166,12 +1166,11 @@ export default function QII1LandingPage() {
       title: "Infrastructure as the Backbone of Jobs and Livelihoods",
       desc: (
         <>
-          Infrastructure can create a virtuous economic cycle from job creation
-          to market access.
-          <br />
-          It strengthens human capital by improving access to services,
-          mobility, and economic opportunities, enabling greater participation
-          and productivity across regions.
+          Infrastructure can create a virtuous economic cycle, from job creation
+          during the construction and O&M phases, to boosting the industries
+          that support these activities, to ultimately increasing productivity,
+          jobs and access to markets through the infrastructure services
+          provided. <sup>1</sup>
         </>
       ),
       linkText: "World Bank (2020) Jobs Umbrella MDTF: Annual Report 2019-2020",
@@ -1189,7 +1188,7 @@ export default function QII1LandingPage() {
           While each QII principle stands on its own, governments should
           consider how multiple principles can be combined within a single
           project. The result is co-benefits that no single approach can achieve
-          alone.
+          alone.<sup>1</sup>
         </>
       ),
       linkText:
@@ -1227,7 +1226,7 @@ export default function QII1LandingPage() {
           <br />
           Bridging this financing gap while managing rising debt levels and
           budgetary constraints requires bringing together public and private
-          capital.
+          capital.<sup>1</sup>
         </>
       ),
       linkText: "World Bank (2025) Foundations for Growth and Jobs",
@@ -1430,14 +1429,17 @@ export default function QII1LandingPage() {
           </div>
         </div>
       </section>
-      <section className="container internal-pages-container color-dark" id="qii1-section5">
+      <section
+        className="container internal-pages-container color-dark"
+        id="qii1-section5"
+      >
         <p className="center-text">
           <strong>
             The Multiplier Effect: How QII Principles Work Together
           </strong>
         </p>
         <div className="VCard-cnt col3">
-          <QIIVCard 
+          <QIIVCard
             id="qii1-section9"
             image="images/qii1/Eurasia_Tunnel.png"
             title={
@@ -1478,7 +1480,7 @@ export default function QII1LandingPage() {
             </p>
           </QIIVCard>
           <QIIVCard
-          id="qii1-section9"
+            id="qii1-section9"
             image="images/qii1/Port-Moresby-Sewerage-System-Upgrading-Project.png"
             title={
               <p>
@@ -1521,7 +1523,7 @@ export default function QII1LandingPage() {
 
             <div className={`card-5-content ${fade ? "fade-in" : "fade-out"}`}>
               <div className="card-5-content-desc">
-              <div className="card-5-content-description">
+                <div className="card-5-content-description">
                   {cardsTabsData[currentCard]?.[activeTab].description}
                 </div>
               </div>
@@ -1538,9 +1540,12 @@ export default function QII1LandingPage() {
           into frameworks to strengthen investment decision-making into quality
           infrastructure.
         </p>
-        <VCardsPagination cardsData={step1Cards} id="qii1-section7"/>
+        <VCardsPagination cardsData={step1Cards} id="qii1-section7" />
       </section>
-      <section className="container internal-pages-container color-dark" id="qii1-section8">
+      <section
+        className="container internal-pages-container color-dark"
+        id="qii1-section8"
+      >
         <h2 className="section-title light-font">Other References</h2>
         <div className="card-4-grid" role="list">
           {paginatedCards2.map((card) => (

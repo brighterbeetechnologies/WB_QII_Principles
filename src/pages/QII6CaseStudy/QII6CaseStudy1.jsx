@@ -10,7 +10,7 @@ import {
   setVideoData,
 } from "../../slices/appDataSlice";
 
-export default function QII6CaseStudy1() {
+export default function QII6CaseStudy1({id}) {
   const dispatch = useDispatch();
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
@@ -28,7 +28,7 @@ export default function QII6CaseStudy1() {
     );
   }, []);
   return (
-    <div className="single-case-study-page">
+    <div className="single-case-study-page" id={id}>
       <section className="color-light">
         <div className="container">
           <div

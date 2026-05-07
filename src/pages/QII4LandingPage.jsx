@@ -408,7 +408,7 @@ export default function QII4LandingPage() {
           <div className="video-text-cnt">
             <div className="video-text-box">
               <Video
-                thumbnail="images/qii4/QII_4_video_thumbnail.png"
+                thumbnail="GIF/Qll4_Landing_Page_Video.gif"
                 videoUrl="video/Qll4_Landing_Page_Video.mp4"
                 videoTitle="Unlocking The Urgent Need for Resilient Infrastructure"
                 cardTitle={

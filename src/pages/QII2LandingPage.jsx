@@ -147,6 +147,7 @@ export default function QII2LandingPage() {
       }
     }, 500);
   }, [location]);
+  
   const openVideo = (url, title, width, height) => {
     dispatch(setVideoData({ url, title, width, height }));
     dispatch(setShowVideo(true));

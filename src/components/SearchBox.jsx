@@ -36,7 +36,7 @@ export default function SearchBox() {
         );
         setResults(filtered);
         console.log("Search results:", filtered);
-      }, 1000);
+      }, 500);
     } else {
       setResults([]);
     }

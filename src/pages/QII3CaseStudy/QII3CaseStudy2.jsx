@@ -5,9 +5,22 @@ import "../QII2CaseStudy.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../../slices/appDataSlice";
+import { useLocation} from "react-router-dom";
 
 export default function QII3CaseStudy2() {
+  const location = useLocation();
   const dispatch = useDispatch();
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   useEffect(() => {
     dispatch(
       setBradcrump({
@@ -17,18 +30,22 @@ export default function QII3CaseStudy2() {
           { path: "/qii3", title: "Case Study" },
         ],
       }),
-    ); 
+    );
   }, []);
-  return ( 
-    <div className="single-case-study-page">
+  return (
+    <div className="single-case-study-page" id="qii3CS2">
       <section className="color-light">
         <div className="container">
-          <div className="single-case-study-wrapper"style={{
+          <div
+            className="single-case-study-wrapper"
+            style={{
               backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii4/updated/Futakotamagawa.png")`,
-            }}>
-            <h2 className="main-title">
+            }}
+          >
+            <h2 className="main-title main-title-internal">
               <p>Japan</p>
-              <span>Futakotamagawa:</span> Integrating Flood Protection and Urban Renewal
+              <span>Futakotamagawa:</span> Integrating Flood Protection and
+              Urban Renewal
             </h2>
             <div className="sub-title">
               <h2>CASE SNAPSHOT</h2>
@@ -45,9 +62,12 @@ export default function QII3CaseStudy2() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/country_icon.svg" alt="" />
                   <h3>COUNTRY</h3>
-                  <p>Japan
-                    <br /><br />
-                    <br /><br />
+                  <p>
+                    Japan
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                   </p>
                 </div>
               </div>
@@ -55,21 +75,26 @@ export default function QII3CaseStudy2() {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/timeline.svg" alt="" />
                   <h3>TIMELINE</h3>
-                  <p>2004-2015
-                    <br />(main phases)</p>
+                  <p>
+                    2004-2015
+                    <br />
+                    (main phases)
+                  </p>
                 </div>
               </div>
               <div className="case-study-details-card">
                 <div className="icon-title">
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
-                   <div>
+                  <div>
                     <ul>
                       <li>
-                        <strong>Futakotamagawa Rise :</strong> ¥102.4 billion ($875 million)  Phase 1 (8.1  ha out of 11.2 ha)
+                        <strong>Futakotamagawa Rise :</strong> ¥102.4 billion
+                        ($875 million) Phase 1 (8.1 ha out of 11.2 ha)
                       </li>
                       <li>
-                        <strong>Futakotamagawa Park :</strong> ¥1.274 billion ($11.6 million)
+                        <strong>Futakotamagawa Park :</strong> ¥1.274 billion
+                        ($11.6 million)
                       </li>
                     </ul>
                   </div>
@@ -82,10 +107,14 @@ export default function QII3CaseStudy2() {
                   <div>
                     <ul>
                       <li>
-                        Regulatory expectations demanded improvements in service reliability and financial sustainability.
+                        Regulatory expectations demanded improvements in service
+                        reliability and financial sustainability.
                       </li>
                       <li>
-                        Resilience through the project: Integration of flood protcteion and public-private cost-sharing created a model where urban livelihood, ecological values, and economic viability mutually reinforce each other.
+                        Resilience through the project: Integration of flood
+                        protcteion and public-private cost-sharing created a
+                        model where urban livelihood, ecological values, and
+                        economic viability mutually reinforce each other.
                       </li>
                     </ul>
                   </div>
