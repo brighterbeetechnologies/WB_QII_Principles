@@ -108,7 +108,7 @@ export default function Fundamentals_of_QII() {
         <h3 className="center-text">
           <strong>WHAT IS QII</strong>
         </h3>
-        <p className="what-is-qii-title">
+        {/* <p className="what-is-qii-title">
           Infrastructure is a driver of economic growth and prosperity.
         </p>
         <p className="what-is-qii-description">
@@ -126,9 +126,45 @@ export default function Fundamentals_of_QII() {
           Priorities include increasing quality in procurement, economic
           efficiency in view of life-cycle cost, and strengthened standards for
           resilience, inclusion, and governance.
-        </p>
+        </p> */}
+        <div className="what-is-qii-container">
+          <div className="what-is-qii-card">
+            <div className="what-is-qii-container-image">
+              <img src="images/fundamentals_of_qii/new/1.png" alt="" />
+            </div>
+            <div className="what-is-qii-container-description">
+              The G20 Principles for Quality Infrastructure Investment are a set
+              of voluntary, non-binding principles that reflect the G20's common
+              strategic direction and aspiration for quality infrastructure
+              investment.
+            </div>
+          </div>
+          <div className="what-is-qii-card">
+            <div className="what-is-qii-container-image">
+              <img src="images/fundamentals_of_qii/new/2.png" alt="" />
+            </div>
+            <div className="what-is-qii-container-description">
+              The QII Partnership is a collaboration between the World Bank and
+              the Government of Japan focused on advancing green, resilient, and
+              inclusive development through World Bank infrastructure projects.
+            </div>
+          </div>
+          <div className="what-is-qii-card">
+            <div className="what-is-qii-container-image">
+              <img src="images/fundamentals_of_qii/new/3.png" alt="" />
+            </div>
+            <div className="what-is-qii-container-description">
+              Priorities include increasing quality in procurement, economic
+              efficiency in view of life-cycle cost, and strengthened standards
+              for resilience, inclusion, and governance.
+            </div>
+          </div>
+        </div>
       </section>
-      <section className="container internal-pages-container color-light" id="FOQ-section3">
+      <section
+        className="container internal-pages-container color-light"
+        id="FOQ-section3"
+      >
         <h3 className="center-text-qii-generations">
           <strong>THE PATH TO GLOBAL ADOPTION </strong>
         </h3>
@@ -162,24 +198,24 @@ export default function Fundamentals_of_QII() {
           </div>
           <div className="qii-generation-timeline-image-container">
             <div className="timeline-item-text-image">
-              <img src="images/fundamentals_of_qii/Timeline01.png" alt="" />
-              <div className="timeline-circle-1">2015</div>
+              <img src="images/fundamentals_of_qii/new/Timeline01.svg" alt="" />
+              <div className="timeline-circle-1 timeline-circle-11">2015</div>
             </div>
-            <div className="timeline-item-text-image">
-              <img src="images/fundamentals_of_qii/Timeline02.png" alt="" />
-              <div className="timeline-circle-1">2016</div>
+            <div className="timeline-item-text-image timeline-item-text-image-2">
+              <img src="images/fundamentals_of_qii/new/Timeline02.png" alt="" />
+              <div className="timeline-circle-1 timeline-circle-2">2016</div>
             </div>
-            <div className="timeline-item-text-image">
-              <img src="images/fundamentals_of_qii/Timeline01.png" alt="" />
-              <div className="timeline-circle-1">2019</div>
+            <div className="timeline-item-text-image timeline-item-text-image-3">
+              <img src="images/fundamentals_of_qii/new/Timeline03.png" alt="" />
+              <div className="timeline-circle-1 timeline-circle-3">2019</div>
             </div>
-            <div className="timeline-item-text-image">
-              <img src="images/fundamentals_of_qii/Timeline02.png" alt="" />
-              <div className="timeline-circle-1">2021</div>
+            <div className="timeline-item-text-image timeline-item-text-image-4">
+              <img src="images/fundamentals_of_qii/new/Timeline04.png" alt="" />
+              <div className="timeline-circle-1 timeline-circle-4">2021</div>
             </div>
-            <div className="timeline-item-text-image">
-              <img src="images/fundamentals_of_qii/Timeline01.png" alt="" />
-              <div className="timeline-circle-1">Today</div>
+            <div className="timeline-item-text-image timeline-item-text-image-5">
+              <img src="images/fundamentals_of_qii/new/Timeline05.png" alt="" />
+              <div className="timeline-circle-1 timeline-circle-5">Today</div>
             </div>
           </div>
           <div className="qii-generation-bottom-description-container">
@@ -214,9 +250,9 @@ export default function Fundamentals_of_QII() {
         <div className="qii-generations-mobile">
           <div className="qii-generation-container-mobile">
             <div className="qii-generation-description-mobile-left"></div>
-            <div className="qii-generation-image-mobile">
-              <img src="images/fundamentals_of_qii/Timeline01.svg" alt="" />
-              <div className="timeline-circle-1-mobile">2015</div>
+            <div className="qii-generation-image-mobile qii-generation-image-mobile-1">
+              <img src="images/fundamentals_of_qii/new/Timeline01.svg" alt="" />
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-1">2015</div>
             </div>
             <div className="qii-generation-description-mobile-right">
               Japan announces the Partnership for Quality Infrastructure,
@@ -229,17 +265,17 @@ export default function Fundamentals_of_QII() {
               Ise-Shima Summit; World Bank and Japan establish the QII
               Partnership to put them into practice
             </div>
-            <div className="qii-generation-image-mobile">
-              <img src="images/fundamentals_of_qii/Timeline02.svg" alt="" />
-              <div className="timeline-circle-1-mobile">2016</div>
+            <div className="qii-generation-image-mobile qii-generation-image-mobile-2">
+              <img src="images/fundamentals_of_qii/new/Timeline02.svg" alt="" />
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-2">2016</div>
             </div>
             <div className="qii-generation-description-mobile-right"></div>
           </div>
           <div className="qii-generation-container-mobile">
             <div className="qii-generation-description-mobile-left"></div>
-            <div className="qii-generation-image-mobile">
-              <img src="images/fundamentals_of_qii/Timeline01.svg" alt="" />
-              <div className="timeline-circle-1-mobile">2019</div>
+            <div className="qii-generation-image-mobile qii-generation-image-mobile-3">
+              <img src="images/fundamentals_of_qii/new/Timeline03.svg" alt="" />
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-3">2019</div>
             </div>
             <div className="qii-generation-description-mobile-right">
               G20 adopts six QII Principles at the Osaka Summit, extending the
@@ -252,17 +288,17 @@ export default function Fundamentals_of_QII() {
               OECD publishes implementation guidance to help governments
               operationalize QII across the project lifecycle
             </div>
-            <div className="qii-generation-image-mobile">
-              <img src="images/fundamentals_of_qii/Timeline02.svg" alt="" />
-              <div className="timeline-circle-1-mobile">2021</div>
+            <div className="qii-generation-image-mobile qii-generation-image-mobile-4">
+              <img src="images/fundamentals_of_qii/new/Timeline04.svg" alt="" />
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-4">2021</div>
             </div>
             <div className="qii-generation-description-mobile-right"></div>
           </div>
           <div className="qii-generation-container-mobile">
             <div className="qii-generation-description-mobile-left"></div>
-            <div className="qii-generation-image-mobile">
-              <img src="images/fundamentals_of_qii/Timeline01.svg" alt="" />
-              <div className="timeline-circle-1-mobile">Today</div>
+            <div className="qii-generation-image-mobile qii-generation-image-mobile-5">
+              <img src="images/fundamentals_of_qii/new/Timeline05.svg" alt="" />
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-5">Today</div>
             </div>
             <div className="qii-generation-description-mobile-right">
               The QII Partnership is at the heart of integrating the QII
@@ -290,7 +326,10 @@ export default function Fundamentals_of_QII() {
         <h3 className="center-text qii-life-cycle" id="FOQ-section4">
           <strong>THE GLOBAL INFRASTRUCTURE CHALLENGE</strong>
         </h3>
-        <div className="global-infrastructure-section-container" id="FOQ-section5">
+        <div
+          className="global-infrastructure-section-container"
+          id="FOQ-section5"
+        >
           <div className="global-infrastructure-section-left">
             <div className="global-infrastructure-section-left-img">
               <img src="images/fundamentals_of_qii/Globe.svg" alt="" />
@@ -423,7 +462,10 @@ export default function Fundamentals_of_QII() {
           </div>
         </div>
       </section>
-      <section className="container internal-pages-container color-light" id="FOQ-section7">
+      <section
+        className="container internal-pages-container color-light"
+        id="FOQ-section7"
+      >
         <h3 className="center-text qii-life-cycle">
           <strong>THE LIFE-CYCLE PERSPECTIVE</strong>
         </h3>
@@ -654,7 +696,10 @@ export default function Fundamentals_of_QII() {
         </div>
         {/* mobile end */}
       </section>
-      <section className="container internal-pages-container color-dark" id="FOQ-section8">
+      <section
+        className="container internal-pages-container color-dark"
+        id="FOQ-section8"
+      >
         <h3 className="center-text qii-six-principles">
           <strong>THE SIX QII PRINCIPLES</strong>
         </h3>
@@ -703,7 +748,10 @@ export default function Fundamentals_of_QII() {
           </button>
         </div>
       </section>
-      <section className="container internal-pages-container color-light" id="FOQ-section9">
+      <section
+        className="container internal-pages-container color-light"
+        id="FOQ-section9"
+      >
         <h3 className="center-text">
           <strong>EXPLORE THE PRINCIPLES IN DEPTH</strong>
         </h3>

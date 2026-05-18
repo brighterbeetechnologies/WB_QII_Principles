@@ -4,7 +4,7 @@
 }
 
 .fundamentals_of_qii-header .fundamentals_of_qii-header-bg {
-  background-image: url("/images/fundamentals_of_qii/QII2_Landing_main.png");
+  background-image: url("/images/fundamentals_of_qii/FQII.png");
   object-fit: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -32,8 +32,8 @@
 }
 
 .what-is-qii-section .center-text {
-  font-size: 1.7rem;
-  font-weight: 1000;
+  font-size: 1.8rem;
+  font-weight: 900;
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -48,6 +48,32 @@
 .what-is-qii-section .what-is-qii-description {
   padding: 1rem;
   font-size: 1.2rem;
+}
+
+.what-is-qii-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 2rem;
+  /* margin-top: 2rem; */
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.what-is-qii-card {
+  background-color: #ffffff;
+  padding: 1rem;
+  width: calc((100% - 6rem) / 3);
+}
+
+.what-is-qii-container-image {
+  margin-bottom: 1rem;
+}
+
+.what-is-qii-container-description {
+  font-size: 1.2rem;
+  padding: 0 0.8rem 1rem 0.8rem;
+  /* height: 180px; */
 }
 
 .center-text-qii-generations {
@@ -87,12 +113,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 0rem;
 }
 
 .qii-generation-timeline-image-container .timeline-item-text-image {
   width: 15rem;
   position: relative;
+}
+
+.timeline-item-text-image-2,
+.timeline-item-text-image-4{
+  top: 4.4rem;
 }
 
 .qii-generation-timeline-image-container
@@ -101,9 +132,39 @@
   font-size: 1.5rem;
   font-weight: 900;
   position: absolute;
-  left: 50%;
+  left: 46%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.qii-generation-timeline-image-container
+  .timeline-item-text-image
+  .timeline-circle-11 {
+  color: #00AB51;
+}
+
+.qii-generation-timeline-image-container
+  .timeline-item-text-image
+  .timeline-circle-2 {
+  color: #009CA7;
+}
+
+.qii-generation-timeline-image-container
+  .timeline-item-text-image
+  .timeline-circle-3 {
+  color: #009FDA;
+}
+
+.qii-generation-timeline-image-container
+  .timeline-item-text-image
+  .timeline-circle-4 {
+  color: #002244;
+}
+
+.qii-generation-timeline-image-container
+  .timeline-item-text-image
+  .timeline-circle-5 {
+  color: #614776;
 }
 
 .qii-generation-bottom-description-container {
@@ -112,6 +173,7 @@
   align-items: flex-start;
   gap: 1rem;
   width: 100%;
+  margin-top: 4rem;
 }
 
 .qii-generation-footer {
@@ -416,46 +478,6 @@
   transform: translate(-50%, -50%);
 }
 
-/* .qii-life-cycle-container-1 {
-  position: absolute;
-  left: 24.5%;
-  top: 53%;
-  transform: translate(-50%, -50%);
-  z-index: 55555;
-}
-
-.qii-life-cycle-container-2 {
-  position: absolute;
-  left: 39.5%;
-  top: 53.2%;
-  transform: translate(-50%, -50%);
-  z-index: 4444;
-}
-
-.qii-life-cycle-container-3 {
-  position: absolute;
-  left: 54.5%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 333;
-}
-
-.qii-life-cycle-container-4 {
-  position: absolute;
-  left: 69.6%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 22;
-}
-
-.qii-life-cycle-container-5 {
-  position: absolute;
-  left: 84.6%;
-  top: 53%;
-  transform: translate(-50%, -50%);
-  z-index: 5;
-} */
-
 .qii-life-cycle-stage-image {
   /* width: 13rem; */
   position: relative;
@@ -486,10 +508,6 @@
   width: 11rem;
   z-index: 5;
 }
-
-/* .qii-life-cycle-stage-image:not(:first-child){
-  margin-left:-10rem;
-} */
 
 .qii-life-cycle-stage-1-desc {
   width: 90%;
@@ -806,13 +824,6 @@
     font-weight: 900;
     color: #fff;
   }
-
-  /* .qii-life-cycle-stage-1-title-1-mobile {
-  position: absolute;
-  top: 50%;
-  left: 41%;
-  transform: translate(-50%, -50%);
-} */
 }
 
 @media (max-width: 1020px) {
@@ -840,6 +851,7 @@
   .qii-generations-mobile {
     width: 100%;
     margin: 1rem;
+    position: relative;
   }
   .qii-generation-container-mobile {
     display: flex;
@@ -849,17 +861,21 @@
     align-items: center;
     padding: 1rem;
     gap: 1rem;
-    margin: 0 3rem;
+    /* margin: 0 3rem; */
+  }
+
+  .qii-generation-image-mobile-2, .qii-generation-image-mobile-4 {
+    right: 4.5rem;
   }
 
   .qii-generation-container-mobile:not(:first-child) {
-    margin-top: 4rem;
+    margin-top: 3rem;
   }
 
   .qii-generation-description-mobile,
   .qii-generation-image-mobile,
   .qii-generation-description-mobile {
-    width: 34%;
+    width: 30%;
   }
 
   .qii-generation-image-mobile {
@@ -873,10 +889,10 @@
   .qii-generation-description-mobile-left {
     width: 30%;
     text-align: center;
-    margin: 0 -2rem;
+    margin: 0 1rem;
   }
   .qii-generation-description-mobile-right {
-    width: 29%;
+    width: 30%;
     text-align: center;
     margin: 0rem;
   }
@@ -909,9 +925,44 @@
     position: absolute;
     font-size: 1.6rem;
     font-weight: 900;
-    left: 41%;
-    top: 50%;
+    left: 45%;
+    top: 45%;
     transform: translate(-50%, -50%);
+  }
+  .timeline-circle-1-mobile-1{
+    color: #00AB51;
+  }
+  .timeline-circle-1-mobile-2{
+    color: #009CA7;
+  }
+  .timeline-circle-1-mobile-3{
+    color: #009FDA;
+  }
+  .timeline-circle-1-mobile-4{
+    color: #002244;
+  }
+  .timeline-circle-1-mobile-5{
+    color: #614776;
+  }
+}
+
+@media (max-width: 999px) {
+  .what-is-qii-container {
+    flex-direction: column;
+  }
+  .what-is-qii-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  .what-is-qii-container-image {
+    width: 50%;
+  }
+  .what-is-qii-container-description {
+    width: 50%;
+    padding: 0rem 0.5rem;
   }
 }
 
@@ -1070,6 +1121,12 @@
   }
 }
 
+@media (max-width: 750px) {
+  .what-is-qii-container-description {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 680px) {
   .qii-life-cycle-img-txt-1-mobile {
     font-size: 1.2rem;
@@ -1081,6 +1138,9 @@
   .qii-life-cycle-img-txt-1-mobile-5 {
     top: 41%;
     left: 14.8%;
+  }
+  .what-is-qii-container-description {
+    font-size: 0.9rem;
   }
 }
 

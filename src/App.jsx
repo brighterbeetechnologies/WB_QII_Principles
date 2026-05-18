@@ -41,6 +41,7 @@ import QII6CaseStudy1 from "./pages/QII6CaseStudy/QII6CaseStudy1.jsx";
 import QII6CaseStudy2 from "./pages/QII6CaseStudy/QII6CaseStudy2.jsx";
 import QII5CaseStudy2 from "./pages/QII5CaseStudy/QII5CaseStudy2.jsx";
 import QII5CaseStudy1 from "./pages/QII5CaseStudy/QII5CaseStudy1.jsx";
+import ContactUs from "./pages/contactUs.jsx";
 const Governance = lazy(() => import("./pages/Governance.jsx"));
 export const router = createHashRouter([
 	{
@@ -349,6 +350,14 @@ export const router = createHashRouter([
 				),
 			},
 
+			{
+				path: "/contact-us",
+				element: (
+					<Suspense fallback={<Loader></Loader>}>
+						<ContactUs />
+					</Suspense>
+				),
+			},
 
 			{
 				path: "*",

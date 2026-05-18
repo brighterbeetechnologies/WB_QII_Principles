@@ -377,12 +377,15 @@ export default function Decarbonizing_Infrastructure() {
             </div>
             <div className="Decarbonizing-Infrastructure-des-container">
               <p>
-                More than 75% of global greenhouse gas emissions come from the
-                energy sector.
-                <br /><br />
-                ​Most of these emissions are driven by infrastructure-related
-                energy uses like electricity and heat, transportation,
-                manufacturing, construction, and buildings.​
+                More than 75% of global greenhouse gas emissions are generated
+                from energy use.​ ​
+                <br />
+                <br />
+                The two largest sources of energy- related emissions are the
+                electricity and heat sector, and the transport sector -
+                including emissions associated with residential and commercial
+                buildings, as well as the use of road infrastructure for
+                transportation.​
               </p>
               {/* <div className="Decarbonizing-Infrastructure-des-container-1">
               <div className="color-rectangle-dark-blue"></div>
@@ -414,7 +417,13 @@ export default function Decarbonizing_Infrastructure() {
             {/* <p>Source: World Resources Institute (WRI)</p> */}
             <p className="center-light-text-2">
               Source:{" "}
-              <Link to={"https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors"} target="_blank" className="link">
+              <Link
+                to={
+                  "https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors"
+                }
+                target="_blank"
+                className="link"
+              >
                 World Resources Institute (WRI)
               </Link>
             </p>
@@ -454,7 +463,8 @@ export default function Decarbonizing_Infrastructure() {
             <strong>Decarbonization Solutions</strong>
             <br />
             Decarbonization will take on very different forms across different
-            sectors, and technology will play a key role. For example:
+            sectors, and technology will play a key role. Examples are provided
+            below for the two largest emitting sectors:​
             <span style={{ opacity: "0" }}></span>
           </NumSteps>
           {/* <div className="ico-text-card-2-container">
@@ -521,14 +531,15 @@ export default function Decarbonizing_Infrastructure() {
                   alt=""
                   className="energy-icon"
                 />
-                <p className="ico-text-card-4-title">Energy</p>
+                <p className="ico-text-card-4-title">Electricity and Heat​</p>
               </div>
               <div className="ico-text-card-4-description">
                 <p>
-                  Key decarbonization approaches include replacing fossil fuel
-                  generation with renewables, greening transmission networks,
-                  and enabling on-site renewable generation for buildings and
-                  industry.
+                  Decarbonization approaches include shifting away from fossil
+                  fuel-based heating, cooling, and electricity units, improving
+                  energy efficiency by replacing inefficient lighting and
+                  appliances, and installing on-site renewable energy
+                  generation.​
                 </p>
               </div>
             </div>
@@ -539,15 +550,14 @@ export default function Decarbonizing_Infrastructure() {
                   alt=""
                   className="transport-icon"
                 />
-                <p className="ico-text-card-4-title">Transport</p>
+                <p className="ico-text-card-4-title">Transportation</p>
               </div>
               <div className="ico-text-card-4-description">
                 <p>
-                  Electric charging points and hydrogen fuelling stations are
-                  critical enablers of vehicle decarbonization, while emissions
-                  from road construction can be reduced in many ways, including
-                  reducing materials consumption, and reuse and recycling of
-                  materials from old roadways.
+                  Decarbonization approaches focus on reducing fossil fuel
+                  consumption, including through the adoption of electric
+                  vehicles and modal shifts from road transport to rail and
+                  active transport.​
                 </p>
               </div>
             </div>
