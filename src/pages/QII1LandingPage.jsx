@@ -1170,7 +1170,7 @@ export default function QII1LandingPage() {
     },
     {
       id: 3,
-      image: "images/qii2/PPP-Resource-Center-Tools.png",
+      image: "images/qii2/InfrastructureUnderpinningSustainableDevelopment.png",
       org: "UNOPS",
       title: "Infrastructure: Underpinning Sustainable Development",
       country: "Global",
