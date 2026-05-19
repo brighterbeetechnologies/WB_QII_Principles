@@ -309,8 +309,8 @@ export default function QII2LandingPage() {
           <div className="video-text-cnt">
             <div className="video-text-box">
               <Video
-                thumbnail="images/qii6/QII6-Landing/Qii6_Video_Cover.jpg"
-                videoUrl=""
+                thumbnail="./GIF/Qll6_Case_Study_Video-GIF.gif"
+                videoUrl="./video/Qii6_Landing_Page_Video.mp4"
                 videoTitle="Why Infrastructure Governance Matters"
                 cardTitle={
                   <>

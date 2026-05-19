@@ -133,7 +133,22 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="disable-link">
+                <a
+                  // href="#"
+                  onClick={() =>
+                    navigate("/")
+                  }
+                >
+                  Site Map
+                </a>
+              </li>
+              <li>
+                <a
+                  // href="#"
+                  onClick={() =>
+                    navigate("/contact-us")
+                  }
+                >
                   Contact Us
                 </a>
               </li>
@@ -145,7 +160,7 @@ const Footer = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.worldbank.org/en/programs/quality-infrastructure-investment-partnership"
+                  href="https://www.worldbank.org/en/programs/quality-infrastructure-investment-partnership/brief/the-qii-partnership-team"
                   target="_blank"
                   rel="noopener"
                 >

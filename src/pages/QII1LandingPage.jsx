@@ -1115,6 +1115,7 @@ export default function QII1LandingPage() {
         "A flagship report by MLIT, including 48 case studies of Japan-supported infrastructure projects across the world that demonstrate alignment with QII Principles.",
       type: "Resource",
       paths: "https://www.mlit.go.jp/kokusai/content/001397310.pdf",
+      showButton: false,
     },
     {
       id: 1,
@@ -1142,6 +1143,52 @@ export default function QII1LandingPage() {
       ),
       type: "Resource",
       paths: "https://www.mlit.go.jp/kokusai/content/africa_0807_EN.pdf",
+      showButton: false,
+    },
+    {
+      id: 2,
+      image: "images/qii2/PPP-Resource-Center-Tools.png",
+      org: "World Bank Group",
+      title: "PPP Resource Center - Tools",
+      country: "Global",
+      subtext1: (
+        <>
+          {" "}
+          <Link to={""} className="link4"></Link>
+        </>
+      ),
+      subtext2: (
+        <>
+          This report provides a description of each SDG and an explanation of
+          how it is influenced by infrastructure as a system-of-systems.
+        </>
+      ),
+      type: "Guidance note",
+      paths:
+        "https://content.unops.org/publications/Infrastructure_underpining_sustainable_development_EN.pdf",
+      showButton: true,
+    },
+    {
+      id: 3,
+      image: "images/qii2/PPP-Resource-Center-Tools.png",
+      org: "UNOPS",
+      title: "Infrastructure: Underpinning Sustainable Development",
+      country: "Global",
+      subtext1: (
+        <>
+          {" "}
+          <Link to={""} className="link4"></Link>
+        </>
+      ),
+      subtext2: (
+        <>
+          This report provides a description of each SDG and an explanation of how it is influenced by infrastructure as a system-of-systems.
+        </>
+      ),
+      type: "Report",
+      showButton: true,
+      paths:
+        "https://content.unops.org/publications/Infrastructure_underpining_sustainable_development_EN.pdf",
     },
   ];
 
@@ -1150,9 +1197,13 @@ export default function QII1LandingPage() {
     stepPage * STEP_PAGE_SIZE,
   );
 
+  // const paginatedCards2 = otherRefernceCards.slice(
+  //   (stepPage1 - 1) * STEP_PAGE_SIZE1,
+  //   stepPage1 * STEP_PAGE_SIZE1,
+  // );
   const paginatedCards2 = otherRefernceCards.slice(
-    (stepPage1 - 1) * STEP_PAGE_SIZE1,
-    stepPage1 * STEP_PAGE_SIZE1,
+    (stepPage - 1) * STEP_PAGE_SIZE,
+    stepPage * STEP_PAGE_SIZE,
   );
 
   const openVideo = (url, title, width, height) => {
@@ -1551,30 +1602,30 @@ export default function QII1LandingPage() {
           {paginatedCards2.map((card) => (
             <QII1_CardBox key={card.id} card={card} />
           ))}
-          {otherRefernceCards.length > STEP_PAGE_SIZE1 && (
-            <ConfigProvider
-              theme={{
-                token: {
-                  colorPrimary: "#00a996",
-                  borderRadius: 100,
-                  colorBgContainer: "#e5f5fb",
-                },
-              }}
-            >
-              <Pagination
-                align="center"
-                current={stepPage}
-                pageSize={STEP_PAGE_SIZE}
-                total={otherRefernceCards.length}
-                showSizeChanger={false}
-                showQuickJumper={false}
-                showPrevNextJumpers={false}
-                onChange={(page) => setStepPage(page)}
-                className="resource-pagination"
-              />
-            </ConfigProvider>
-          )}
         </div>
+        {otherRefernceCards.length > STEP_PAGE_SIZE && (
+          <ConfigProvider
+            theme={{
+              token: {
+                colorPrimary: "#00a996",
+                borderRadius: 100,
+                colorBgContainer: "#e5f5fb",
+              },
+            }}
+          >
+            <Pagination
+              align="center"
+              current={stepPage}
+              pageSize={STEP_PAGE_SIZE}
+              total={otherRefernceCards.length}
+              showSizeChanger={false}
+              showQuickJumper={false}
+              showPrevNextJumpers={false}
+              onChange={(page) => setStepPage(page)}
+              className="resource-pagination"
+            />
+          </ConfigProvider>
+        )}
       </section>
       {/* <section className="color-light z-2">
         <ResourceLibrary></ResourceLibrary>

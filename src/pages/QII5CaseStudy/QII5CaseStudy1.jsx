@@ -145,16 +145,16 @@ export default function QII5CaseStudy1({id}) {
           <div className="single-case-study-buttons">
             <div
               className="single-case-study-button"
-              // onClick={() =>
-              //   window.open(
-              //     "https://documents1.worldbank.org/curated/en/132321643990931297/pdf/Quality-Infrastructure-Investment-Partnership-2021-QII-Annual-Report.pdf",
-              //     "_blank",
-              //     "noopener,noreferrer",
-              //   )
-              // }
+              onClick={() =>
+                window.open(
+                  "pdf/QII_5_SpotlightCase_MozambiqueMaputoBRT.pdf",
+                  "_blank",
+                  "noopener,noreferrer",
+                )
+              }
             >
               View case study summary
-              <div className="arrow-btn icon-arrow disable-link">&#xe900;</div>
+              <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
             <div
               className="single-case-study-button"

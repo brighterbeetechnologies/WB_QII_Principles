@@ -9,9 +9,55 @@ import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
 import VCardsPagination from "../components/VCardsPagination";
 import { useLocation } from "react-router-dom";
+import { Popover, Tooltip } from "antd";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function DiagnosingVulnerabilities() {
   const location = useLocation();
+  const resourceArray = [
+    {
+      rId: 233,
+      id: 0,
+      // country: "Global",
+      type: "Case Study",
+      title: "Ghana: Roadmap for Resilient Infrastructure in a Changing Climate",
+      // org: "World Bank",
+      description:
+        "This case study identifies and proposes solutions to address adaptation needs in Ghana based on novel modelling and assessment tools and extensive stakeholder consultation. It provides an assessment of risk of climate hazard on national infrastructure systems.",
+      img_path:
+        "images/qii2/Ghana-Roadmap-for-Resilient-Infrastructure-Changing-Climate.png",
+      path: "https://gca.org/reports/ghana-roadmap-for-resilient-infrastructure-in-a-changing-climate/",
+      target: "_blank",
+    },
+    {
+      rId: 234,
+      id: 0,
+      // country: "Global",
+      type: "Case Study",
+      title: "Bangladesh: Climate-Resilient Infrastructure Stress-test",
+      // org: "World Bank",
+      description:
+        "This case study quantifies the impact of climate hazards on the provision of infrastructure services and the achievement of Bangladesh's development objectives under current and projected climate scenarios.",
+      img_path:
+        "images/qii2/Bangladesh-Climate-Resilient-Infrastructure-Stress-test.png",
+      path: "https://gca.org/reports/bangladesh-climate-resilient-infrastructure-stress-test/",
+      target: "_blank",
+    },
+    {
+      rId: 235,
+      id: 0,
+      // country: "Global",
+      type: "Report",
+      title: "Global: Global Infrastructure Resilience Report 2025",
+      // org: "World Bank",
+      description:
+        "This report emphasizes infrastructure resilience as a core economic strategy. Key priorities include localized risk assessments, layered financing (bonds, insurance, contingency funds), and governance reforms to overcome regulatory gaps. ",
+      img_path:
+        "images/qii2/Global-Infrastructure-Resilience-Report.png",
+      path: "https://cdri.world/global-infrastructure-resilience-report-2025-capturing-the-resilience-dividend-2/",
+      target: "_blank",
+    },
+  ]
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
@@ -403,7 +449,7 @@ export default function DiagnosingVulnerabilities() {
             assets are geographically and how impacted or exposed they are to
             these threats.
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} id="qii4-DV-section4"/>
+          <VCardsPagination cardsData={step1Cards} id="qii4-DV-section4" />
           <div className="border-dash"></div>
           <NumSteps num="2" id="qii4-DV-section5">
             <strong>Asset and System Vulnerability Assessments </strong>
@@ -414,8 +460,8 @@ export default function DiagnosingVulnerabilities() {
             institutional and operational weaknesses that limit resilience and
             recovery.
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} id="qii4-DV-section6"/>
-          
+          <VCardsPagination cardsData={step2Cards} id="qii4-DV-section6" />
+
           <div className="border-dash"></div>
           <NumSteps num="3" id="qii4-DV-section7">
             <strong>Risk-informed Decision-Making​</strong>
@@ -426,8 +472,124 @@ export default function DiagnosingVulnerabilities() {
             standards, and integrate resilience into planning, operations, and
             policy.
           </NumSteps>
-          <VCardsPagination cardsData={step3Cards} id="qii4-DV-section8"/>
-         
+          <VCardsPagination cardsData={step3Cards} id="qii4-DV-section8" />
+        </div>
+      </section>
+      <section className="color-dark" id="qii4-DV-section9">
+        <div className="container">
+          <h2 className="section-title light-font">
+            Further Reading On Financing Resilience
+          </h2>
+          <div className="page-resource-grid" role="list">
+            {resourceArray.map((p, index) => {
+              return (
+                <article
+                  className="page-resource-card"
+                  key={index}
+                  role="listitem"
+                  style={{ backgroundImage: `url(${p.img})` }}
+                >
+                  <div className="page-resource-link">
+                    <div className="page-resource-body">
+                      <div className="page-resource-title title-small">
+                        {/* {p.country && (
+                                <>
+                                  <span>{p.country}</span> <br />
+                                </>
+                              )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <p className="page-resource-type">{p.type}</p>
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
+                                <>
+                                  <br />
+                                  <span>{p.org}</span>
+                                </>
+                              )} */}
+                      </div>
+                      <div className="page-resource-overlay" />
+                      <img
+                        className="page-resource-img"
+                        src={p.img_path}
+                        alt={p.title}
+                      />
+                      {/* <div className="page-resource-img-cnt">
+                                                </div> */}
+                      <div className="page-resource-data">
+                        <div className="page-resource-title title-big">
+                          {/* {p.country && (
+                                  <>
+                                    <span>{p.country}</span> <br />
+                                  </>
+                                )} */}
+                          {/* <strong>{p.title}</strong> */}
+                          <p className="page-resource-type">{p.type}</p>
+                          <br />
+                          {p.title}
+                          {/* {p.org && (
+                                  <>
+                                    <br />
+                                    <span>{p.org}</span>
+                                  </>
+                                )} */}
+                        </div>
+                        {/* <div className="page-resource-description">
+                                {p.description}
+                              </div> */}
+                        <Popover
+                          content={
+                            <div className="resource-popover-content">
+                              {p.description}
+                            </div>
+                          }
+                          placement="left"
+                          title={false}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover>
+                        <div className="page-resource-btn-cnt">
+                          {p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                              rel="noopener noreferrer"
+                              onClick={(e) => {
+                                e.preventDefault();
+
+                                updateCardClick(p.rId);
+
+                                if (p.path) {
+                                  window.open(p.path, "_blank");
+                                }
+                              }}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : (
+                            <Link
+                              className="page-resource-arrow"
+                              to={p.path}
+                              target={p.target}
+                              onClick={() => {
+                                updateCardClick(p.rId);
+                              }}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
         </div>
       </section>
       {/* <section className="color-dark z-2" id="resourcesSection">

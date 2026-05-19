@@ -7,13 +7,54 @@ import Header3 from "../components/Header3";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
 import ResourceLibrary from "./ResourceLibrary";
+import { Popover, Tooltip } from "antd";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import VCardsPagination from "../components/VCardsPagination";
 import { useLocation } from "react-router-dom";
+import { updateCardClick } from "../utils/cardRanking";
 
 export default function ResilientDesignAndOperation() {
   const location = useLocation();
+   const resourceArray = [
+    {
+      id: 4,
+      rId: 226,
+      // country: "Global",
+      title: "Global: Climate-Resilient Infrastructure Handbook",
+      type: "Guidance note",
+      // subTitle: "International Institute for Sustainable Development",
+      description:
+        "The handbook provides tools and knowledge on how to integrate climate resilience throughout the PPP project cycle.",
+      img_path: "images/qii2/Climate_Resilient_Infrastructure_Handbook.png",
+      path: "https://gca.org/reports/climate-resilient-infrastructure-officer-handbook/",
+    },
+     {
+      id: 4,
+      rId: 227,
+      // country: "Global",
+      title: "Regional: Resilient Solar Panels in Africa",
+      type: "Case Study",
+      // subTitle: "International Institute for Sustainable Development",
+      description:
+        "The brief identifies key climate hazards threatening solar PV projects across Africa—including extreme heat, flooding, dust storms, and wildfires. It presents evidence-based adaptation solutions across four categories: site selection, engineering design upgrades, operations and maintenance resilience, and agrivoltaics approaches.",
+      img_path: "images/qii2/Resilient-Solar-Panels-in-Africa.png",
+      path: "https://gca.org/reports/technical-brief-on-resilient-solar-panels-in-africa/",
+    },
+     {
+      id: 4,
+      rId: 228,
+      // country: "Global",
+      title: "Global: Design Principles for Resilient Low Volume Roads",
+      type: "Guidance note",
+      // subTitle: "International Institute for Sustainable Development",
+      description:
+        "The purpose of this guide is to support preliminary conceptual approaches and systematically promote climate resilience into the full lifecycle of low volume roads— from identification and planning through design, construction, maintenance, and eventual asset decommission.",
+      img_path: "images/qii2/DesignPrinciplesforResilientLowVolumeRoads.png",
+      path: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099532403022610169",
+    },
+  ];
+
   const STEP1_PAGE_SIZE = 3;
   const step1Cards = [
     {
@@ -584,8 +625,8 @@ export default function ResilientDesignAndOperation() {
             integrity and service continuity, in alignment with national
             resilience objectives.
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} id="qii4-RDO-section4"/>
-          
+          <VCardsPagination cardsData={step1Cards} id="qii4-RDO-section4" />
+
           <div className="border-dash"></div>
           <NumSteps num="2" id="qii4-RDO-section5">
             <strong>
@@ -613,8 +654,8 @@ export default function ResilientDesignAndOperation() {
             Moreover, these mechanisms deliver environmental, social, and
             economic co-benefits throughout the infrastructure lifespan.
           </p>
-          <VCardsPagination cardsData={step2Cards} id="qii4-RDO-section6"/>
-          
+          <VCardsPagination cardsData={step2Cards} id="qii4-RDO-section6" />
+
           <p className="qii4-note mTop" id="qii4-RDO-section7">
             *For more on digital resilience, visit our{" "}
             <Link to="/Managing-cyber-security-risks" className="cyber-link">
@@ -641,8 +682,129 @@ export default function ResilientDesignAndOperation() {
             effectively and efficiently respond when disruptions and disasters
             strike.
           </NumSteps>
-          <VCardsPagination cardsData={step3Cards} id="qii4-RDO-section9"/>
-         
+          <VCardsPagination cardsData={step3Cards} id="qii4-RDO-section9" />
+        </div>
+      </section>
+      <section className="color-dark" id="qii4-RDO-section10">
+        <div className="container internal-pages-container">
+          <h2 className="section-title light-font">
+            Further Reading On Resilient Design and Operation
+          </h2>
+          <div className="page-resource-grid" role="list">
+            {resourceArray.map((p, index) => (
+              <article
+                className="page-resource-card"
+                key={index}
+                role="listitem"
+                style={{ backgroundImage: `url(${p.img})` }}
+              >
+                <div className="page-resource-link">
+                  <div className="page-resource-body">
+                    <div className="page-resource-title title-small">
+                      <p className="page-resource-type">{p.type}</p>
+                      {/* {p.country && (
+                              <>
+                                <span>{p.country}</span> <br />
+                              </>
+                            )} */}
+                      {/* <strong>{p.title}</strong> */}
+                      <br />
+                      {p.title}
+                      {/* {p.org && (
+                              <>
+                                <br />
+                                <span>{p.org}</span>
+                              </>
+                            )} */}
+                      {/* {p.subTitle && (
+                              <>
+                                <br />
+                                <span>{p.subTitle}</span>
+                              </>
+                            )} */}
+                    </div>
+                    <div className="page-resource-overlay" />
+                    <img
+                      className="page-resource-img"
+                      src={p.img_path}
+                      alt={p.title}
+                    />
+                    {/* <div className="page-resource-img-cnt">
+                          </div> */}
+                    <div className="page-resource-data">
+                      <div className="page-resource-title title-big">
+                        <p className="page-resource-type">{p.type}</p>
+                        {/* {p.country && (
+                                <>
+                                  <span>{p.country}</span> <br />
+                                </>
+                              )} */}
+                        {/* <strong>{p.title}</strong> */}
+                        <br />
+                        {p.title}
+                        {/* {p.org && (
+                                <>
+                                  <br />
+                                  <span>{p.org}</span>
+                                </>
+                              )} */}
+                        {/* {p.subTitle && (
+                                <>
+                                  <br />
+                                  <span>{p.subTitle}</span>
+                                </>
+                              )} */}
+                      </div>
+                      {/* <div className="page-resource-description">
+                              {p.description}
+                            </div> */}
+                      {/* <Popover
+                              content={p.description}
+                              // title={p.title}
+                              trigger="click"
+                            >
+                              <div className="page-resource-description">
+                                Read More...
+                              </div>
+                            </Popover> */}
+                      <Popover
+                        content={
+                          <div className="resource-popover-content">
+                            {p.description}
+                          </div>
+                        }
+                        placement="left"
+                        title={false}
+                        trigger="click"
+                      >
+                        <div className="page-resource-description">
+                          Read More...
+                        </div>
+                      </Popover>
+                      <div className="page-resource-btn-cnt">
+                        <a
+                          className="page-resource-arrow"
+                          href={p.path}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={(e) => {
+                            e.preventDefault();
+                            updateCardClick(p.rId);
+
+                            if (p.path) {
+                              window.open(p.path, "_blank");
+                            }
+                          }}
+                        >
+                          <span className="icon-arrow">&#xe900;</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
         </div>
       </section>
       {/* <section className="color-dark z-2" id="resourcesSection">

@@ -136,8 +136,8 @@ export default function QII6CaseStudy1({id}) {
           </div>
           <div className="single-case-study-buttons">
             <div
-              className="single-case-study-button disable-link"
-              onClick={() => window.open("", "_blank", "noopener,noreferrer")}
+              className="single-case-study-button"
+              onClick={() => window.open("pdf/QII.6_SpotlightCase_InfraGov_Assessment_Framework.pdf", "_blank", "noopener,noreferrer")}
             >
               View case study summary
               <div className="arrow-btn icon-arrow">&#xe900;</div>

@@ -96,6 +96,50 @@ export default function FinancingResilience() {
       path: "https://cdri.world/upload/biennial/CH4.1-CCRI.pdf",
       target: "_blank",
     },
+    {
+      rId: 229,
+      id: 3,
+      type: "Guidance note",
+      title: "Global: Global Tool for Nature-based Solutions",
+      // org: "Coalition for Disaster Resilient Infrastructure",
+      description:
+        "By providing actionable data to policymakers, financial institutions, and investors, the tool supports integrating NbS into infrastructure planning, mobilizing adaptation investments, and embedding resilience globally.",
+      img_path: "images/qii2/Global_Tool_for_Nature-based_Solutions.png",
+      path: "https://gca.org/scaling-investments-in-nbs-for-climate-resilient-infra/",
+      target: "_blank",
+    },
+    {
+      rId: 230,
+      id: 3,
+      type: "Case Study",
+      title: "Regional: Climate Risks to African Ports",
+      // org: "Coalition for Disaster Resilient Infrastructure",
+      description:
+        "Africa’s ports, through which 90% of its trade flows, are at the frontline of climate risk. Already, $5.3 billion of annual trade is exposed to disruptions. This case study showcases hands-on experience climate-proofing development investments across Africa through the Africa Adaptation Acceleration Program",
+      img_path: "images/qii2/Climate_Risks_to_African_Ports.png",
+      path: "https://gca.org/reports/adaptation-insights-ports-climate-risks-to-african-ports-a-trade-corridor-approach-for-resilience-and-adaptation/",
+      target: "_blank",
+    },
+    {
+      rId: 231,
+      id: 3,
+      type: "Report",
+      title: "Global: Pathways to scale investments in Nature-based Solutions",
+      description: "This is a report on the spatial analytics and financial frameworks to scale nature-based solutions for transport infrastructure resilience globally.",
+      img_path: "images/qii2/Pathways.png",
+      path: "https://gca.org/reports/adaptation-insights-pathways-to-scale-investments-in-nature-based-solutions-for-climate-adaptation/",
+      target: "_blank",
+    },
+    {
+      rId: 232,
+      id: 3,
+      type: "Blog",
+      title: "Regional: Pacific Climate Resilient Transport Program",
+      description: "The Pacific Climate Resilient Transport Program is a $338.6 million program which supports governments in six countries in upgrading vital transport infrastructure to make communities more resilient to extreme weather events and climate change.",
+      img_path: "images/qii2/PacificClimateResilientTransportProgram.png",
+      path: "https://www.worldbank.org/en/news/immersive-story/2024/01/31/building-beyond-tomorrow",
+      target: "_blank",
+    },
   ];
 
   const STEP1_PAGE_SIZE = 3;
@@ -332,7 +376,7 @@ export default function FinancingResilience() {
     <div className="FinancingResilience">
       <section className="color-light">
         <Header3
-        id="qii4-FR-section1"
+          id="qii4-FR-section1"
           img="images/qii4/financing_resilience.png"
           title={"Financing Resilience"}
           hideDeskTitle={true}
@@ -384,7 +428,7 @@ export default function FinancingResilience() {
             including from private investors — that are often out of reach for
             these kinds of infrastructure projects.
           </NumSteps>
-          <VCardsPagination cardsData={step1Cards} id="qii4-FR-section4"/>
+          <VCardsPagination cardsData={step1Cards} id="qii4-FR-section4" />
           <div className="border-dash"></div>
           <NumSteps num="2" id="qii4-FR-section5">
             <strong>Innovative Financing Instruments </strong>
@@ -397,7 +441,7 @@ export default function FinancingResilience() {
             risks between investors and increase the likelihood of achieving
             target returns.
           </NumSteps>
-          <VCardsPagination cardsData={step2Cards} id="qii4-FR-section6"/>
+          <VCardsPagination cardsData={step2Cards} id="qii4-FR-section6" />
         </div>
       </section>
       <section className="color-dark" id="qii4-FR-section7">

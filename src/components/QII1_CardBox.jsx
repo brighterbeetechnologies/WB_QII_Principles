@@ -38,44 +38,36 @@ export default function CardBox({ card }) {
           )}
         </h2>
         <br />
-          {card.subtext1 && (
-            <p>
-              {card.subtext1}
-            </p>
-          )}
-          {card.subtext2 && (
-            <p>
-              {card.subtext2}
-            </p>
-          )}
-          {card.subtext3 && (
-            <p>
-              {card.subtext3}
-            </p>
-          )}
-          {/* <div className="card-4-footer">
-            <div className= "card-btn-cnt">
-            {card.pdf ? (
-              <a
-                className="btn primary"
-                href={card.paths}
-                target={card.topResource ? "_self" : "_blank"}
-              >
-                See The {card.type}
-                <span className="icon-arrow">&#xe900;</span>
-              </a>
-            ) : (
-              <Link
-                className="btn primary"
-                to={card.paths}
-                target={card.topResource ? "_self" : "_blank"}
-              >
-                See The {card.type}
-                <span className="icon-arrow">&#xe900;</span>
-              </Link>
-            )}
+        {card.subtext1 && <p>{card.subtext1}</p>}
+        {card.subtext2 && <p>{card.subtext2}</p>}
+        {card.subtext3 && <p>{card.subtext3}</p>}
+        {/* if card link is there */}
+        {card.showButton && (
+          <div className="card-4-footer">
+            <div className="card-btn-cnt">
+              {card.pdf ? (
+                <a
+                  className="btn primary"
+                  href={card.paths}
+                  target={card.topResource ? "_self" : "_blank"}
+                  rel="noopener noreferrer"
+                >
+                  See The {card.type}
+                  <span className="icon-arrow">&#xe900;</span>
+                </a>
+              ) : (
+                <Link
+                  className="btn primary"
+                  to={card.paths}
+                  target={card.topResource ? "_self" : "_blank"}
+                >
+                  {/* See The {card.type} */}
+                  <span className="icon-arrow">&#xe900;</span>
+                </Link>
+              )}
+            </div>
           </div>
-          </div> */}
+        )}
       </div>
     </>
   );

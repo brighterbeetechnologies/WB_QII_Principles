@@ -79,6 +79,30 @@ export default function Procurement() {
       img_path: "images/procurement/resources/05.png",
       path: "https://www.iisd.org/publications/report/life-cycle-costing-sustainable-public-procurement-question-value",
     },
+    {
+      id: 4,
+      rId: 224,
+      // country: "Global",
+      title: "Global: Sustainable Procurement Resource Hub",
+      type: "Data",
+      // subTitle: "International Institute for Sustainable Development",
+      description:
+        "This platform is a joint initiative by multilateral development bank (MDB) partners to create the one-stop online database to access and share knowledge on the latest advances in sustainable public procurement.",
+      img_path: "images/qii2/Sustainable_Procurement_Resource_Hub.png",
+      path: "https://www.sppresourcehub.org/",
+    },
+    {
+      id: 4,
+      rId: 225,
+      // country: "Global",
+      title: "Global: Value for Money in Procurement Financed by Multilateral Development Banks An Assessment Framework",
+      type: "Framework",
+      // subTitle: "International Institute for Sustainable Development",
+      description:
+        "This platform is a joint initiative by multilateral development bank (MDB) partners to create the one-stop online database to access and share knowledge on the latest advances in sustainable public procurement.",
+      img_path: "images/qii2/qii2_promote.png",
+      path: "https://www.adb.org/publications/value-for-money-procurement-mdbs",
+    },
   ];
 
 

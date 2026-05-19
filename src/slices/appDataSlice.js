@@ -127,6 +127,28 @@ export const appDataSlice = createSlice({
     ],
 
     learningPath: [
+
+      //principle 1 resources
+      {
+        rId: 1,
+        id: 1,
+        paths:
+          "https://content.unops.org/publications/Infrastructure_underpining_sustainable_development_EN.pdf",
+        type: "Guidance note",
+        title: "Global: PPP Resource Center - Tools",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This report provides a description of each SDG and an explanation of how it is influenced by infrastructure as a system-of-systems.",
+        format: 2,
+        income: 0,
+        stage: 2,
+        region: 7,
+        industry: 11,
+        // pdf: true,
+        image: "images/qii2/PPP-Resource-Center-Tools.png",
+      },
+
       //principle 2 resources
 
       //promote qii2
@@ -239,6 +261,25 @@ export const appDataSlice = createSlice({
         region: 7,
         industry: 12,
         image: "images/costRecovery/resources/03.png",
+      },
+      {
+        rId: 225,
+        id: 1,
+        paths:
+          "https://www.adb.org/publications/value-for-money-procurement-mdbs",
+        type: "Framework",
+        title:
+          "Global: Value for Money in Procurement Financed by Multilateral Development Banks: An Assessment Framework",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This platform is a joint initiative by multilateral development bank (MDB) partners to create the one-stop online database to access and share knowledge on the latest advances in sustainable public procurement.",
+        format: 9,
+        stage: 2,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image: "images/qii2/qii2_promote.png",
       },
 
       //Case Study-qii2
@@ -778,6 +819,23 @@ export const appDataSlice = createSlice({
         region: 7,
         industry: 11,
         image: "images/procurement/resources/05.png",
+      },
+      {
+        rId: 224,
+        id: 1,
+        paths: "https://www.sppresourcehub.org/",
+        type: "Report",
+        title: "Global: Sustainable Procurement Resource Hub",
+        principles: 1,
+        highlight: 0,
+        target: "_blank",
+        desc: "This platform is a joint initiative by multilateral development bank (MDB) partners to create the one-stop online database to access and share knowledge on the latest advances in sustainable public procurement.",
+        format: 5,
+        stage: 2,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image: "images/qii2/Sustainable_Procurement_Resource_Hub.png",
       },
       {
         rId: 35,
@@ -2195,6 +2253,24 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Catalogue-of-Nature-Based-Solutions-for-Urban-Resilience.jpg",
       },
+      {
+        rId: 227,
+        id: 1,
+        paths:
+          "https://gca.org/reports/technical-brief-on-resilient-solar-panels-in-africa/",
+        type: "Case Study",
+        title: "Regional: Resilient Solar Panels in Africa",
+        principles: 3,
+        highlight: 0,
+        target: "_blank",
+        desc: "The brief identifies key climate hazards threatening solar PV projects across Africa—including extreme heat, flooding, dust storms, and wildfires. It presents evidence-based adaptation solutions across four categories: site selection, engineering design upgrades, operations and maintenance resilience, and agrivoltaics approaches.",
+        format: 1,
+        stage: 2,
+        region: 1,
+        income: 1,
+        industry: 2,
+        image: "images/qii2/Resilient-Solar-Panels-in-Africa.png",
+      },
 
       //case study-qii4
       {
@@ -2529,6 +2605,59 @@ export const appDataSlice = createSlice({
         industry: 1,
         image: "images/qii4/Ganga-case-study-image.png",
       },
+      {
+        rId: 230,
+        id: 1,
+        paths: "https://gca.org/reports/adaptation-insights-ports-climate-risks-to-african-ports-a-trade-corridor-approach-for-resilience-and-adaptation/",
+        type: "Case Study",
+        title: "Regional: Climate Risks to African Ports",
+        principles: 3,
+        highlight: 0,
+        target: "_blank",
+        desc: "Africa’s ports, through which 90% of its trade flows, are at the frontline of climate risk. Already, $5.3 billion of annual trade is exposed to disruptions. This case study showcases hands-on experience climate-proofing development investments across Africa through the Africa Adaptation Acceleration Program",
+        format: 1,
+        stage: 2, 
+        region: 8,
+        income: 1,
+        industry: 9,
+        image: "images/qii2/Climate_Risks_to_African_Ports.png",
+      },
+      {
+        rId: 233,
+        id: 1,
+        paths: "https://gca.org/reports/ghana-roadmap-for-resilient-infrastructure-in-a-changing-climate/",
+        type: "Case Study",
+        title: "Ghana: Roadmap for Resilient Infrastructure in a Changing Climate",
+        principles: 3,
+        highlight: 0,
+        target: "_blank",
+        desc: "This case study identifies and proposes solutions to address adaptation needs in Ghana based on novel modelling and assessment tools and extensive stakeholder consultation. It provides an assessment of risk of climate hazard on national infrastructure systems.",
+        format: 1,
+        stage: 2, 
+        region: 8,
+        income: 2,
+        industry: 11,
+        image: "images/qii2/Ghana-Roadmap-for-Resilient-Infrastructure-Changing-Climate.png",
+      },
+      {
+        rId: 234,
+        id: 1,
+        paths: "https://gca.org/reports/bangladesh-climate-resilient-infrastructure-stress-test/",
+        type: "Case Study",
+        title: "Bangladesh: Climate-Resilient Infrastructure Stress-test",
+        principles: 3,
+        highlight: 0,
+        target: "_blank",
+        desc: "This case study quantifies the impact of climate hazards on the provision of infrastructure services and the achievement of Bangladesh's development objectives under current and projected climate scenarios.",
+        format: 1,
+        stage: 2, 
+        region: 5,
+        income: 2,
+        industry: 11,
+        image: "images/qii2/Bangladesh-Climate-Resilient-Infrastructure-Stress-test.png",
+      },
+      
+
 
       //Framework-qii4
       {
@@ -2872,6 +3001,57 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ManagingCyberSecurityRisks/Cybersecurity Assessment Toolkit for Smart Cities.png",
       },
+      {
+        rId: 226,
+        id: 1,
+        paths: "images/qii2/Climate_Resilient_Infrastructure_Handbook.png",
+        type: "Guidance note",
+        title: "Global: Climate-Resilient Infrastructure Handbook",
+        principles: 3,
+        highlight: 0,
+        target: "_blank",
+        desc: "The handbook provides tools and knowledge on how to integrate climate resilience throughout the PPP project cycle.",
+        format: 2,
+        stage: 2,
+        region: 7,
+        income: 0,
+        industry: 11,
+        image: "images/qii2/Climate_Resilient_Infrastructure_Handbook.png",
+      },
+      {
+        rId: 228,
+        id: 1,
+        paths: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099532403022610169",
+        type: "Guidance note",
+        title: "Global: Design Principles for Resilient Low Volume Roads",
+        principles: 3,
+        highlight: 0,
+        target: "_blank",
+        desc: "The purpose of this guide is to support preliminary conceptual approaches and systematically promote climate resilience into the full lifecycle of low volume roads— from identification and planning through design, construction, maintenance, and eventual asset decommission.",
+        format: 2,
+        stage: 2, 
+        region: 7,
+        income: 0,
+        industry: 9,
+        image: "images/qii2/DesignPrinciplesforResilientLowVolumeRoads.png",
+      },
+      {
+        rId: 229,
+        id: 1,
+        paths: "https://gca.org/scaling-investments-in-nbs-for-climate-resilient-infra/",
+        type: "Guidance note",
+        title: "Global: Global Tool for Nature-based Solutions",
+        principles: 3,
+        highlight: 0,
+        target: "_blank",
+        desc: "By providing actionable data to policymakers, financial institutions, and investors, the tool supports integrating NbS into infrastructure planning, mobilizing adaptation investments, and embedding resilience globally.",
+        format: 2,
+        stage: 2, 
+        region: 7,
+        income: 0,
+        industry: 9,
+        image: "images/qii2/Global_Tool_for_Nature-based_Solutions.png",
+      },
 
       //data-qii4
       {
@@ -3064,6 +3244,77 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/Functional-Recovery-of-Lifeline-Infrastructure-System-Services.jpg",
       },
+      {
+        rId: 226,
+        id: 4,
+        paths:
+          "https://gca.org/reports/climate-resilient-infrastructure-officer-handbook/",
+        type: "Guidance note",
+        title: "Climate-Resilient Infrastructure Handbook",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "The handbook provides tools and knowledge on how to integrate climate resilience throughout the PPP project cycle.",
+        format: 5,
+        stage: 4,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image: "images/qii2/Climate_Resilient_Infrastructure_Handbook.png",
+      },
+      // {
+      //   rId: 45,
+      //   id: 4,
+      //   paths: "",
+      //   type: "",
+      //   title: "",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 3,
+      //   desc: "",
+      //   format: 5,
+      //   stage: 4,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image: "",
+      // },
+      {
+        rId: 45,
+        id: 4,
+        paths:
+          "https://gca.org/reports/climate-resilient-infrastructure-officer-handbook/",
+        type: "Guidance note",
+        title: "",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "",
+        format: 5,
+        stage: 4,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image: "",
+      },
+      // {
+      //   rId: 45,
+      //   id: 4,
+      //   paths:
+      //     "https://gca.org/reports/climate-resilient-infrastructure-officer-handbook/",
+      //   type: "Guidance note",
+      //   title: "",
+      //   highlight: 0,
+      //   target: "_blank",
+      //   principles: 3,
+      //   desc: "",
+      //   format: 5,
+      //   stage: 4,
+      //   income: 0,
+      //   region: 7,
+      //   industry: 11,
+      //   image: "",
+      // },
       {
         rId: 142,
         id: 4,
@@ -3423,6 +3674,42 @@ export const appDataSlice = createSlice({
         image:
           "images/qii4/ResilientDesignAndOperation/A Catalogue of Nature-Based Solutions for Urban Resilience.png",
       },
+      {
+        rId: 231,
+        id: 4,
+        paths:
+          "https://gca.org/reports/adaptation-insights-pathways-to-scale-investments-in-nature-based-solutions-for-climate-adaptation/",
+        type: "Report",
+        title:
+          "Global: Pathways to scale investments in Nature-based Solutions",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "This is a report on the spatial analytics and financial frameworks to scale nature-based solutions for transport infrastructure resilience globally.",
+        format: 5,
+        stage: 4,
+        income: 0,
+        industry: 9,
+        image:
+          "images/qii2/Pathways.png",
+      },
+      {
+        rId: 235,
+        id: 4,
+        paths: "https://cdri.world/global-infrastructure-resilience-report-2025-capturing-the-resilience-dividend-2/",
+        type: "Report",
+        title: "Global: Global Infrastructure Resilience Report 2025",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "This report emphasizes infrastructure resilience as a core economic strategy. Key priorities include localized risk assessments, layered financing (bonds, insurance, contingency funds), and governance reforms to overcome regulatory gaps. ",
+        format: 5,
+        stage: 4,
+        income: 0,
+        region: 7,
+        industry: 11,
+        image: "images/qii2/Global-Infrastructure-Resilience-Report.png",
+      },
 
       //blog-qii4
       {
@@ -3498,6 +3785,26 @@ export const appDataSlice = createSlice({
         industry: 11,
         image:
           "images/newresource/Working_together_to_build_resilient_infrastructure.png",
+      },
+      {
+        rId: 232,
+        id: 4,
+        paths:
+          "https://www.worldbank.org/en/news/immersive-story/2024/01/31/building-beyond-tomorrow",
+        type: "Blog",
+        title:
+          "Regional: Pacific Climate Resilient Transport Program",
+        highlight: 0,
+        target: "_blank",
+        principles: 3,
+        desc: "The Pacific Climate Resilient Transport Program is a $338.6 million program which supports governments in six countries in upgrading vital transport infrastructure to make communities more resilient to extreme weather events and climate change.",
+        format: 8,
+        stage: 4,
+        income: 2,
+        region: 0,
+        industry: 9,
+        image:
+          "images/qii2/PacificClimateResilientTransportProgram.png",
       },
 
       //principle 5 resources
@@ -3783,7 +4090,8 @@ export const appDataSlice = createSlice({
         id: 4,
         // paths:
         //   "https://documents1.worldbank.org/curated/en/099709403182442691/pdf/IDU167ac529a1d8a3145ce1b8de1c832f1eaf6e1.pdf",
-        paths: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
+        paths:
+          "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099010626090013789",
         type: "Case Study",
         title:
           "Vietnam: Incorporating Universal Accessibility into Infrastructure Planning and Design",
