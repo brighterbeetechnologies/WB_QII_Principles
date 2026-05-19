@@ -28,7 +28,7 @@ export default function Govtech_For_Infrastructure() {
         </p>
       ),
       buttonText: "Full Publication",
-      link: "pdf/The COVID-19 Mark on Urban Mobility.pdf",
+      link: "pdf/QII6_LAC_Transport_CaseStudy.pdf",
       buttonText2: "Case Study",
       link2: "pdf/A Net Cure or Curse.pdf",
       highlight: 1,

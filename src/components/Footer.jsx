@@ -117,11 +117,11 @@ const Footer = () => {
               {/* <li>
                 <a href="#" className="disable-link">Tools </a>
               </li> */}
-              <li>
+              {/* <li>
                 <a href="#" className="disable-link">
                   Glossary
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   // href="#"
@@ -136,7 +136,7 @@ const Footer = () => {
                 <a
                   // href="#"
                   onClick={() =>
-                    navigate("/")
+                    navigate("/site-map")
                   }
                 >
                   Site Map

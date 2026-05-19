@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-map-content {
+  /* padding: 8rem 7rem; */
+  padding: 8rem 7rem 0rem 7rem;
+}
+
+/* .site-map-qii-img {
+  width: ;
+} */
+
+.site-map-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-map-header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0 0 0 8rem;
+}
+
+.site-map-links-container {
+  /* margin-top: 1rem; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0 4.8rem 8rem 5rem;
+}
+
+.site-map-link {
+  width: calc(100% / 6);
+  /* background-color: #ffffff;
+  padding: 0.7rem 0.5rem;
+  border-radius: 20px; */
+}
+
+.qii-site-links {
+  font-size: 0.9rem;
+}
+
+.btn-arrow-txt-1 {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 16px;
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.btn-arrow-txt-1:hover {
+  color: #ffffff;
+  background: #00a996;
+}
+
+.btn-arrow-txt-1:disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+
+.site-map-header .btn-arrow-txt {
+  display: flex;
+  /* margin: 0 auto; */
+  margin-top: 1rem;
+  padding: 0.7rem 0.7rem;
+  border-radius: 16px;
+  border: none;
+  text-align: left;
+  background: #ffffff;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.site-map-header .btn-arrow-txt:hover {
+  color: #ffffff;
+  background: #00a996;
+}
+
+.site-map-header  .btn-arrow-txt:disabled {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+
+
+.qii-site-cs-links {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.qii-site-cs-links::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 48%;
+  height: 1px;
+  width: 100%;
+  background: #000000;
+  z-index: -1;
+}
+
+.qii-site-cs-links p {
+  background: #e5f5fb;
+  padding: 0 0.5rem;
+}
+
+.btn-arrow-txt-2 {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.7rem 0.7rem;
+  border-radius: 16px;
+  border: none;
+  text-align: left;
+  background: #ffe471;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  width: 100%;
+}
