@@ -107,7 +107,7 @@ export default function SearchBox() {
               >
                 <div className="search-data">
                   <div className="search-text">
-                    {start > 0 && "..."}
+                    {start > 0 && "..."}  
                     {before}
                     <b>{match}</b>
                     {after}
