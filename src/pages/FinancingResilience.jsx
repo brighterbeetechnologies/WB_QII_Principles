@@ -115,7 +115,7 @@ export default function FinancingResilience() {
       title: "Regional: Climate Risks to African Ports",
       // org: "Coalition for Disaster Resilient Infrastructure",
       description:
-        "Africa’s ports, through which 90% of its trade flows, are at the frontline of climate risk. Already, $5.3 billion of annual trade is exposed to disruptions. This case study showcases hands-on experience climate-proofing development investments across Africa through the Africa Adaptation Acceleration Program",
+        "Africa’s ports, through which 90% of its trade flows, are at the frontline of climate risk. Already, $5.3 billion of annual trade is exposed to disruptions. This case study showcases hands-on experience climate-proofing development investments across Africa through the Africa Adaptation Acceleration Program.",
       img_path: "images/qii2/Climate_Risks_to_African_Ports.png",
       path: "https://gca.org/reports/adaptation-insights-ports-climate-risks-to-african-ports-a-trade-corridor-approach-for-resilience-and-adaptation/",
       target: "_blank",
@@ -289,7 +289,7 @@ export default function FinancingResilience() {
         </p>
       ),
       buttonText: "Report",
-      link: "images/qii4/FinancingResilience/World Bank Financing Climate Adaptation and Nature Based Infrastructure.png",
+      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050725135521570",
       content: (
         <p>
           This report presents information on 42 global financing facilities, 33

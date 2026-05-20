@@ -295,8 +295,8 @@ export default function QII3LandingPage() {
         "This project demonstrates application of the IFC Performance Standards, which gained recognition for rigorous environmental and social scoping that led to key operational improvements such as reducing congestion and enhancing trade efficiency.",
       img_path: "images/qii3/shutterstock_2607341901.jpg",
       highlight: 1,
-      path: "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
-      target: "_blank",
+      path: "/qii3casestudy3",
+      target: "_self",
     },
     {
       rId: 99,

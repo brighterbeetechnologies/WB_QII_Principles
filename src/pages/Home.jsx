@@ -5,7 +5,6 @@ import "./Home.css";
 import ResourceLibrary from "./ResourceLibrary";
 import FAQ from "../components/FAQ";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import SearchBox from "../components/SearchBox";
 export default function Home() {
   const principleArray = useSelector(principles);
   const dispatch = useDispatch();
@@ -51,7 +50,6 @@ export default function Home() {
               Explore tools, principles, and resources to apply Quality
               Infrastructure Investment (QII) Principles to your projects.
             </p>
-            <SearchBox></SearchBox>
           </div>
           <img src="images/Scroll_icon.png" className="scroll-icon" alt="" />
         </div>

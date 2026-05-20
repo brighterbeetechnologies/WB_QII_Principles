@@ -239,7 +239,7 @@ export default function Governance() {
             image="images/governance/list/02.jpg"
             buttonText="Case Study"
             // link="pdf/Revised Draft Practice Manual-LCC- with sector specific guidance-15 Oct 2022.pdf"
-            link="https://ecornertech.com/ecup/WB_QII_Principles/v34/pdf/Revised_Draft_Practice_Manual_LCC_with_sector_specific_guidance_15_Oct_2022.pdf "
+            link="/pdf/Revised_Draft_Practice_Manual_LCC_with_sector_specific_guidance_15_Oct_2022.pdf "
           >
             <div className="description">
               Global <br />

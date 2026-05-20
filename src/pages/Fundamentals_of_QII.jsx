@@ -108,9 +108,10 @@ export default function Fundamentals_of_QII() {
         <h3 className="center-text">
           <strong>WHAT IS QII</strong>
         </h3>
-        {/* <p className="what-is-qii-title">
+         <p className="what-is-qii-title">
           Infrastructure is a driver of economic growth and prosperity.
         </p>
+        {/*
         <p className="what-is-qii-description">
           The G20 Principles for Quality Infrastructure Investment are a set of
           voluntary, non-binding principles that reflect the G20's common

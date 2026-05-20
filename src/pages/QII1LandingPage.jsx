@@ -1367,7 +1367,7 @@ export default function QII1LandingPage() {
                   </>
                 }
                 description=""
-                duration="3 min watch"
+                duration="6 min watch"
               />
             </div>
             <div className="text-cnt-container">

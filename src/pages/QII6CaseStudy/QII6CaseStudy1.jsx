@@ -59,7 +59,7 @@ export default function QII6CaseStudy1({id}) {
                     clipRule="evenodd"
                   />
                 </svg>
-                3 min watch
+                4 min watch
               </p>
             </h2>
             <div className="qii-video-cnt">
@@ -82,7 +82,7 @@ export default function QII6CaseStudy1({id}) {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/sector_icon.svg" alt="" />
                   <h3>SECTOR</h3>
-                  <p>Governance​</p>
+                  <p>All Infrastructure </p>
                 </div>
               </div>
               <div className="case-study-details-card">
@@ -100,8 +100,7 @@ export default function QII6CaseStudy1({id}) {
                   <img src="images/qii2/case-study/timeline.svg" alt="" />
                   <h3>TIMELINE</h3>
                   <p>
-                    2012-Present​
-                    <br />
+                    2022-2023
                     <br />
                     <br />
                   </p>
@@ -112,9 +111,10 @@ export default function QII6CaseStudy1({id}) {
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
                   <p>
-                    
-                    <br />
-                    <br />
+                    <ul>
+                      <li>Three InfraGov diagnostic reports with reform recommendations, timelines, and responsible actors for each country </li>
+                      <li>First regional application of InfraGov, enabling cross-country benchmarking in Central Asia </li>
+                    </ul>
                     <br />
                   </p>
                 </div>
@@ -124,10 +124,11 @@ export default function QII6CaseStudy1({id}) {
                   <img src="images/qii2/case-study/result_icon.svg" alt="" />
                   <h3>RESULT</h3>
                   <div>
+                    Through governance reforms, including those supported by InfraGov assessments, the following investments were mobilized:  
                     <ul>
-                      <li>Uzbekistan: 265 PPPs initiated ($2.9B), ministries consolidated (61→28), e-procurement launched</li>
-                      <li>Tajikistan: e-procurement system established (2019), improved budget transparency rankings</li>
-                      <li>Kyrgyz Republic: 19 PPP contracts signed (3 operational), Open Budget score 62/100 </li>
+                      <li>Uzbekistan: $2.9B in PPPs;</li>
+                      <li>Tajikistan: $34M PPP portfolio; $342M Foreign Direct Investment;</li>
+                      <li>Kyrgyz Republic: 19 PPP contracts (3 operational)</li>
                     </ul>
                   </div>
                 </div>

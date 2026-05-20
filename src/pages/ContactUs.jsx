@@ -44,7 +44,7 @@ export default function ContactUs() {
               <h2 className="name">William Davies</h2>
               <p className="role">Senior Infrastructure Specialist </p>
               <p className="org">World Bank, QII Partnership</p>
-              <p className="email">qii_secretariat@worldbankgroup.org</p>
+              <p className="email"><a href="mailto:qii_secretariat@worldbankgroup.org">qii_secretariat@worldbankgroup.org</a></p>
             </div>
             <div className="contact-card-email">
               <img src="images/contactus/email.png" alt="" />
@@ -61,7 +61,7 @@ export default function ContactUs() {
                     (e.target.style.textDecoration = "underline")
                   }
                 >
-                  qii_secretariat@worldbankgroup.org
+                  <a href="mailto:qii_secretariat@worldbankgroup.org">qii_secretariat@worldbankgroup.org</a>
                 </span>
                 .
               </p>

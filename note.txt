@@ -1,0 +1,11 @@
+npm create vite@latest
+npm i
+npm install @reduxjs/toolkit react-redux enquirer fs-extra
+npm i enquirer fs-extra
+npm i fs-extra
+
+create project in Same directory
+npm create vite@latest . 
+
+
+npm install react-router-dom

@@ -12,6 +12,8 @@ import { setBradcrump } from "../slices/appDataSlice";
 import VCardsPagination from "../components/VCardsPagination";
 import { Popover, Tooltip } from "antd";
 import { useLocation } from "react-router-dom";
+import { updateCardClick } from "../utils/cardRanking";
+
 
 export default function Decarbonizing_Infrastructure() {
   const location = useLocation();

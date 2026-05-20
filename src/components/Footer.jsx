@@ -196,7 +196,7 @@ const Footer = () => {
             &copy; QII Principles Reference Guide. For educational purposes
             only.
           </p>
-          <ul className="footer-legal">
+          {/* <ul className="footer-legal">
             <li>
               <a href="#/privacy">Privacy Policy</a>
             </li>
@@ -206,7 +206,7 @@ const Footer = () => {
             <li>
               <a href="#/accessibility">Accessibility</a>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </footer>

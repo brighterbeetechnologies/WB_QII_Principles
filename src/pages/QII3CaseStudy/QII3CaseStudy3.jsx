@@ -4,79 +4,50 @@ import ListImageText from "../../components/ListImageText";
 import "../QII2CaseStudy.css";
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import {
-  setBradcrump,
-  setShowVideo,
-  setVideoData,
-} from "../../slices/appDataSlice";
+import { setBradcrump } from "../../slices/appDataSlice";
+import { useLocation } from "react-router-dom";
 
-export default function QII5CaseStudy1({id}) {
+export default function QII3CaseStudy3() {
+  const location = useLocation();
   const dispatch = useDispatch();
-  const openVideo = (url, title, width, height) => {
-    dispatch(setVideoData({ url, title, width, height }));
-    dispatch(setShowVideo(true));
-  };
+
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
+
   useEffect(() => {
     dispatch(
       setBradcrump({
         show: true,
         dir: [
-          { path: "/qii5", title: "QII.5 Inclusion" },
-          { path: "/qii5", title: "Case Study" },
+          { path: "/qii3", title: "QII.3 Environment" },
+          { path: "/qii3", title: "Case Study" },
         ],
       }),
     );
   }, []);
   return (
-    <div className="single-case-study-page" id={id}>
+    <div className="single-case-study-page" id="qii3CS2">
       <section className="color-light">
         <div className="container">
           <div
             className="single-case-study-wrapper"
             style={{
-              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("GIF/Qll5_Case_Study_Video-GIF.gif")`,
-              margin: "1rem 0 0 0",
+              backgroundImage: `linear-gradient(0deg, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.6) 85%, rgba(0, 0, 0, 0.8) 100% ), url("images/qii3/shutterstock_2607341901.jpg")`,
             }}
           >
-            <h2 className="main-title">
-              <div className="video-tag">VIDEO</div>
-              <br />
-              <span>QII.5 in Action</span>
-              <br />
-              <br />
-              <p>
-                Discover how the design of Maputo's Bus Rapid Transit system is
-            transforming public transport in Mozambique's capital.
-              </p>
-              <br />
-              <p className="snapshot-video-duration">
-                <svg width="14" height="14" viewBox="0 0 20 20">
-                  <path
-                    fillRule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                3 min watch
-              </p>
+            <h2 className="main-title main-title-internal">
+              <p>Timor-Leste: </p>
+              <span></span>
+              Tibar Bay Port: Applying Quality Environmental and Social
+              Standards
             </h2>
-            <div className="qii-video-cnt">
-              <div className="case-study-play-btn">
-                <button
-                  className="video-play-btn icon-play"
-                  onClick={() => {
-                    openVideo(
-                      "./video/Qll5_Case_Study_Video.mp4",
-                      "QII.5 in Action",
-                      1920,
-                      1080,
-                    );
-                  }}
-                >
-                  &#xe91e;
-                </button>
-              </div>
-            </div>
             <div className="sub-title">
               <h2>CASE SNAPSHOT</h2>
             </div>
@@ -85,7 +56,7 @@ export default function QII5CaseStudy1({id}) {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/sector_icon.svg" alt="" />
                   <h3>SECTOR</h3>
-                  <p>Urban Mobility / Transport​</p>
+                  <p>Transportation</p>
                 </div>
               </div>
               <div className="case-study-details-card">
@@ -93,7 +64,9 @@ export default function QII5CaseStudy1({id}) {
                   <img src="images/qii2/case-study/country_icon.svg" alt="" />
                   <h3>COUNTRY</h3>
                   <p>
-                    Mozambique, Maputo Metropolitan Area​
+                    Timor-Leste
+                    <br />
+                    <br />
                     <br />
                     <br />
                   </p>
@@ -104,10 +77,9 @@ export default function QII5CaseStudy1({id}) {
                   <img src="images/qii2/case-study/timeline.svg" alt="" />
                   <h3>TIMELINE</h3>
                   <p>
-                    2018–2027​
+                    2011-2018
                     <br />
-                    <br />
-                    <br />
+                    (30-year concession)
                   </p>
                 </div>
               </div>
@@ -115,12 +87,11 @@ export default function QII5CaseStudy1({id}) {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
-                  <p>
-                    $250 million ​(World Bank project)​
-                    <br />
-                    <br />
-                    <br />
-                  </p>
+                  <div>
+                    USD 280 million (construction phase)
+                    <br /> <br />
+                    (USD 150m private + USD 130m Viability Gap Finance)
+                  </div>
                 </div>
               </div>
               <div className="case-study-details-card">
@@ -129,14 +100,17 @@ export default function QII5CaseStudy1({id}) {
                   <h3>RESULT</h3>
                   <div>
                     <ul>
+                      <li>Timor-Leste's first PPP.</li>
                       <li>
-                        Better decision making by using “big data” in planning, investments, and operations  
+                        High quality environmental standards avoided harm to
+                        critical coastal ecosystems.
                       </li>
                       <li>
-                        Inclusive design targeting low-income residents, women, people with disabilities, and informal operators 
+                        USD 150 million private investment mobilized
+                        (construction phase); USD 360 million projected over
+                        30-year concession.
                       </li>
-                      <li>Increased access to jobs and services; 124,000 daily beneficiaries with at least 40% women  ​</li>
-                      <li>Travel time reduction for marginalized neighborhoods </li>
+                      <li>500 local jobs created.</li>
                     </ul>
                   </div>
                 </div>
@@ -148,7 +122,7 @@ export default function QII5CaseStudy1({id}) {
               className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "pdf/QII_5_SpotlightCase_MozambiqueMaputoBRT.pdf",
+                  "pdf/QII_3_CaseStudy_TibarBay.pdf",
                   "_blank",
                   "noopener,noreferrer",
                 )
@@ -161,15 +135,28 @@ export default function QII5CaseStudy1({id}) {
               className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "https://documents1.worldbank.org/curated/en/132321643990931297/pdf/Quality-Infrastructure-Investment-Partnership-2021-QII-Annual-Report.pdf",
+                  "https://www.gihub.org/innovative-funding-and-financing/case-studies/tibar-bay-port/",
                   "_blank",
                   "noopener,noreferrer",
                 )
               }
             >
-              Full Publication
+              Full Publication​
               <div className="arrow-btn icon-arrow">&#xe900;</div>
             </div>
+            {/* <div
+              className="single-case-study-button"
+              onClick={() =>
+                window.open(
+                  "pdf/Fukuoka_city_case_study.pdf",
+                  "_blank",
+                  "noopener,noreferrer",
+                )
+              }
+            >
+              View data
+              <div className="arrow-btn icon-arrow">&#xe900;</div>
+            </div> */}
           </div>
         </div>
       </section>
