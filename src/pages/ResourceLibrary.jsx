@@ -44,12 +44,6 @@ export default function ResourceLibrary({ subPages, preSelected }) {
       title: f.title,
       id: f.id,
     })),
-    // ...stage.map((f) => ({
-    //   show: true,
-    //   category: "Project Stage",
-    //   title: f.title,
-    //   id: f.id,
-    // })),
     ...region.map((f) => ({
       show: true,
       category: "Region",
@@ -65,6 +59,12 @@ export default function ResourceLibrary({ subPages, preSelected }) {
     ...industry.map((f) => ({
       show: true,
       category: "Sector",
+      title: f.title,
+      id: f.id,
+    })),
+    ...stage.map((f) => ({
+      show: true,
+      category: "Project Stage",
       title: f.title,
       id: f.id,
     })),
@@ -90,6 +90,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
   // }, []);
 
   // Apply filter logic
+
   useEffect(() => {
     const principleFilters = selectedFilters
       .filter((f) => f.category === "QII Principle")
@@ -105,7 +106,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
       .map((f) => f.id);
     const industryFilters = selectedFilters
       .filter((f) => f.category === "Sector")
-      .map((f) => f.id);
+      .map((f) => f.id);      
 
     const filtered = allCourses.filter((course) => {
       const matchIndustry =
@@ -116,13 +117,15 @@ export default function ResourceLibrary({ subPages, preSelected }) {
         mediaTypeFilters.includes(course.format);
       const matchStage =
         projectStageFilters.length === 0 ||
-        projectStageFilters.includes(course.stage);
+        // projectStageFilters.includes(course.stage);
+        projectStageFilters.some((item) => course.stage.includes(item));
       const matchRegion =
         regionFilters.length === 0 || regionFilters.includes(course.region);
       const matchPrinciple =
         principleFilters.length === 0 ||
         principleFilters.includes(course.principles);
-
+      console.log("matchStage", matchStage);
+      
       const query = searchQuery.toLowerCase();
 
       const matchSearch =

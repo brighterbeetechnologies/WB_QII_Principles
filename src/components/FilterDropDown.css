@@ -33,7 +33,7 @@
   padding: 1rem;
   z-index: 1000;
   display: flex;
-  width: 1240px;
+  width: 100%;
   gap: 10px;
   flex-wrap: wrap;
   max-width: 100%;
@@ -59,7 +59,7 @@
 }
 
 .category-cnt {
-  width: 230px;
+  width: 16%;
 }
 
 .filter-dropdown_category {
