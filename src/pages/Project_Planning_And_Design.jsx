@@ -49,7 +49,7 @@ export default function Project_Planning_And_Design() {
         </p>
       ),
       buttonText: "Framework",
-      link: "https://www.worldbank.org/en/about/rated-criteria​",
+      link: "https://www.worldbank.org/en/about/rated-criteria",
       content: (
         <p>
           The “Rated Criteria” approach ensures that procurement goes beyond

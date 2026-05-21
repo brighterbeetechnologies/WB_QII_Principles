@@ -150,25 +150,25 @@ export const appDataSlice = createSlice({
         image: "images/qii2/PPP-Resource-Center-Tools.png",
       },
 
-      {
-        rId: 1,
-        id: 1,
-        paths:
-          "https://content.unops.org/publications/Infrastructure_underpining_sustainable_development_EN.pdf",
-        type: "Guidance note",
-        title: "Report",
-        principles: 1,
-        highlight: 0,
-        target: "_blank",
-        desc: "This report provides a description of each SDG and an explanation of how it is influenced by infrastructure as a system-of-systems.",
-        format: 5,
-        income: 0,
-        stage: [0],
-        region: 7,
-        industry: 11,
-        // pdf: true,
-        image: "images/qii2/InfrastructureUnderpinningSustainableDevelopment.png",
-      },
+      // {
+      //   rId: 1,
+      //   id: 1,
+      //   paths:
+      //     "https://content.unops.org/publications/Infrastructure_underpining_sustainable_development_EN.pdf",
+      //   type: "Guidance note",
+      //   title: "Report",
+      //   principles: 1,
+      //   highlight: 0,
+      //   target: "_blank",
+      //   desc: "This report provides a description of each SDG and an explanation of how it is influenced by infrastructure as a system-of-systems.",
+      //   format: 5,
+      //   income: 0,
+      //   stage: [0],
+      //   region: 7,
+      //   industry: 11,
+      //   // pdf: true,
+      //   image: "images/qii2/InfrastructureUnderpinningSustainableDevelopment.png",
+      // },
 
       //principle 2 resources
 
@@ -1322,7 +1322,7 @@ export const appDataSlice = createSlice({
         rId: 57,
         id: 3,
         paths:
-          "https://www.earthsecurity.org/news/nature-infrastructure-in-the-balance-sheet-the-case-of-zephyr-power​",
+          "https://www.earthsecurity.org/news/nature-infrastructure-in-the-balance-sheet-the-case-of-zephyr-power",
         type: "Case Study",
         title:
           "Pakistan: The Investment Value of Nature: The Case of Zephyr Power Limited",
@@ -3270,7 +3270,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://gca.org/reports/climate-resilient-infrastructure-officer-handbook/",
-        type: "Guidance note",
+        type: "Report",
         title: "Climate-Resilient Infrastructure Handbook",
         highlight: 0,
         target: "_blank",
@@ -4743,7 +4743,7 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         principles: 5,
-        desc: "With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.TBD",
+        desc: "With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.",
         format: 1,
         stage: [3],
         income: 3,

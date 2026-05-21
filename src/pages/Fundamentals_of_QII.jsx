@@ -241,8 +241,6 @@ export default function Fundamentals_of_QII() {
 
   const lifecycleStages = [1, 2, 3, 4, 5];
 
-  console.log("isLifecycleStagesOpen", isLifecycleStagesOpen);
-
   return (
     <div className="fundamentals_of_qii">
       <section className="color-dark" id="FOQ-section1">

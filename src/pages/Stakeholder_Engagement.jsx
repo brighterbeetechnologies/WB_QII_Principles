@@ -47,6 +47,7 @@ export default function Stakeholder_Engagement() {
       badgeText: "video",
       buttonText: "View case study summary",
       link: "/pdf/QII_5_SpotlightCase_MozambiqueMaputoBRT.pdf",
+      pdf:true,
       isVideo: true,
       videoUrl: "./video/Qll5CaseStudyVideo.mp4",
       videoTitle: "Maputo Investing in Mozambique's Connectivity World Bank",

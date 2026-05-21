@@ -110,10 +110,10 @@ export default function QII6CaseStudy1({id}) {
                 <div className="icon-title">
                   <img src="images/qii2/case-study/cost_icon.svg" alt="" />
                   <h3>COST</h3>
-                  <p>
+                  <p>NA
                     <ul>
-                      <li>Three InfraGov diagnostic reports with reform recommendations, timelines, and responsible actors for each country </li>
-                      <li>First regional application of InfraGov, enabling cross-country benchmarking in Central Asia </li>
+                      {/* <li>Three InfraGov diagnostic reports with reform recommendations, timelines, and responsible actors for each country </li>
+                      <li>First regional application of InfraGov, enabling cross-country benchmarking in Central Asia </li> */}
                     </ul>
                     <br />
                   </p>
@@ -124,11 +124,9 @@ export default function QII6CaseStudy1({id}) {
                   <img src="images/qii2/case-study/result_icon.svg" alt="" />
                   <h3>RESULT</h3>
                   <div>
-                    Through governance reforms, including those supported by InfraGov assessments, the following investments were mobilized:  
                     <ul>
-                      <li>Uzbekistan: $2.9B in PPPs;</li>
-                      <li>Tajikistan: $34M PPP portfolio; $342M Foreign Direct Investment;</li>
-                      <li>Kyrgyz Republic: 19 PPP contracts (3 operational)</li>
+                      <li>Three InfraGov diagnostic reports with reform recommendations, timelines, and responsible actors for each country </li>
+                      <li>First regional application of InfraGov, enabling cross-country benchmarking in Central Asia </li>
                     </ul>
                   </div>
                 </div>

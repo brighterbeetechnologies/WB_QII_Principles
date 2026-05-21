@@ -295,7 +295,7 @@ export default function QII3LandingPage() {
         "This project demonstrates application of the IFC Performance Standards, which gained recognition for rigorous environmental and social scoping that led to key operational improvements such as reducing congestion and enhancing trade efficiency.",
       img_path: "images/qii3/shutterstock_2607341901.jpg",
       highlight: 1,
-      path: "/pdf/QII_3_CaseStudy_TibarBay_.pdf",
+      path: "pdf/QII_3_CaseStudy_TibarBay_.pdf",
       pdf: true,
       target: "_blank",
     },

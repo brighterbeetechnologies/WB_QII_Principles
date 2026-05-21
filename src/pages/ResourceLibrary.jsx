@@ -27,6 +27,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState({});
   const [searchQuery, setSearchQuery] = useState("");
+  const [resourceCurrentPage, setResourceCurrentPage] = useState(1);
 
   const dispatch = useDispatch();
 
@@ -166,6 +167,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
       setFilteredCourses(getSortedCards(filtered));
     }
     setIndex(0);
+    setResourceCurrentPage(1)
   }, [selectedFilters, selectedPrinciple, searchQuery]);
 
   const itemsPerSlide = 6;
@@ -282,8 +284,10 @@ export default function ResourceLibrary({ subPages, preSelected }) {
                   showSizeChanger={false}
                   //   current={index}
                   onChange={(data) => {
+                    setResourceCurrentPage(data)
                     goToSlide(data - 1);
                   }}
+                  current={resourceCurrentPage}
                   className="resource-pagination"
                 />
               </ConfigProvider>

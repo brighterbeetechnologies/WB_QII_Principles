@@ -6,12 +6,13 @@
 
 .contact-us-main {
   display: flex;
-  margin-top: 6rem;
-  width: 100%;
+    margin-top: 6rem;
+    width: 100%;
+    align-items: center;
 }
 
 .contact-us-container {
-  width: 40%;
+  width: 37%;
   background-color: #41c2f1;
   /* margin-top: 6rem; */
   /* padding: 6rem 13rem; */
@@ -51,12 +52,12 @@
 
 .contact-card .role {
   color: #00a996;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 900;
 }
 
 .contact-card .name {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
@@ -67,12 +68,13 @@
 } 
 
 .contact-card .org {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  color: #00a996;
   /* margin-bottom: 2rem; */
 }
 
 .contact-card .email {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #009FDA;
   text-decoration: underline;
   cursor: pointer;
@@ -86,7 +88,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 
 .contact-card-email img {

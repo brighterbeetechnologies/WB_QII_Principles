@@ -250,7 +250,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </p>
       ),
       buttonText: "Case Study",
-      link: "https://www.earthsecurity.org/news/nature-infrastructure-in-the-balance-sheet-the-case-of-zephyr-power​",
+      link: "https://www.earthsecurity.org/news/nature-infrastructure-in-the-balance-sheet-the-case-of-zephyr-power",
       content: (
         <p>
           Demonstrates how mangrove restoration replaced conventional

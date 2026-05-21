@@ -104,7 +104,7 @@ export default function QII5CaseStudy1({id}) {
                   <img src="images/qii2/case-study/timeline.svg" alt="" />
                   <h3>TIMELINE</h3>
                   <p>
-                    2018–2027​
+                    2022–2027​
                     <br />
                     <br />
                     <br />

@@ -81,7 +81,7 @@ export default function SiteMap() {
                   className="qii-site-links-spotlights btn-arrow-txt-2"
                   onClick={() => navigate("/qii2casestudy1")}
                 >
-                  Fukuoka City: Pioneering Life Cycle Costing for Eicient Water
+                  Fukuoka City: Pioneering Life Cycle Costing for Efficient Water
                   Management <span className="icon-arrow"></span>
                 </button>
                 <button
@@ -149,7 +149,7 @@ export default function SiteMap() {
 
                 <button
                   className="qii-site-links-spotlights btn-arrow-txt-2"
-                  onClick={() => navigate("/qii4casestudy2")}
+                  onClick={() => navigate("/qii3casestudy2")}
                 >
                   Japan: Futakotamagawa: Integrating Flood Protection and Urban
                   Renewal <span className="icon-arrow"></span>
@@ -247,7 +247,7 @@ export default function SiteMap() {
                   className="qii-site-links-spotlights btn-arrow-txt-2"
                   onClick={() => navigate("/qii5casestudy1")}
                 >
-                  Mozambique:Maputo Bus Rapid Transit Project: Using Big Data
+                  Mozambique: Maputo Bus Rapid Transit Project: Using Big Data
                   for Inclusive Design <span className="icon-arrow"></span>
                 </button>
 
@@ -256,7 +256,7 @@ export default function SiteMap() {
                   onClick={() => navigate("/qii5casestudy2")}
                 >
                   Vietnam and Senegal: Incorporating Universal Accessibility in
-                  Infrastructure <span className="icon-arrow"></span>
+                  Infrastructure Planning and Design <span className="icon-arrow"></span>
                 </button>
               </div>
               <div className="site-map-link">
@@ -300,7 +300,7 @@ export default function SiteMap() {
 
                 <button
                   className="qii-site-links-spotlights btn-arrow-txt-2"
-                  onClick={() => navigate("pdf/QII6_LAC_Transport_CaseStudy.pdf")}
+                  onClick={() => navigate("/govtech-for-infrastructure", { state: { scrollTo: "qii6-GI-section3" } })}
                 >
                   Global: Public Transport Demand Forecasting Regional Platform
                   for the Post COVID-19 Era<span className="icon-arrow"></span>
