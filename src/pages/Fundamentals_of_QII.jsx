@@ -126,7 +126,8 @@ export default function Fundamentals_of_QII() {
         "Are we building in resilience, accessibility, and operational efficiency?",
       links: [
         {
-          title: "Global: Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9",
+          title:
+            "Global: Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9",
           org: "",
           link: "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
         },
@@ -141,7 +142,8 @@ export default function Fundamentals_of_QII() {
           link: "https://wedocs.unep.org/rest/api/core/bitstreams/979a0cdb-3d3e-4f4a-b899-96c97f412d0d/content",
         },
         {
-          title: "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
+          title:
+            "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
           org: "",
           link: "https://climateinstitute.edhec.edu/climatech-project",
         },
@@ -158,7 +160,8 @@ export default function Fundamentals_of_QII() {
           link: "https://worldbankgroup.sharepoint.com/sites/WBSUR/SitePages/PublishingPages/Resilient%20Infrastruc-1746476033225.aspx",
         },
         {
-          title: "Global: Building Green: Sustainable Construction in Emerging Markets",
+          title:
+            "Global: Building Green: Sustainable Construction in Emerging Markets",
           org: "",
           link: "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
         },
@@ -180,22 +183,26 @@ export default function Fundamentals_of_QII() {
         "Are we delivering inclusive services while managing costs and risks?",
       links: [
         {
-          title: "Peru: Technologies to Increase Observability and Controllability in Real-Time System Operations",
+          title:
+            "Peru: Technologies to Increase Observability and Controllability in Real-Time System Operations",
           org: "",
           link: "https://documents1.worldbank.org/curated/en/099032924175510017/pdf/P1760001ef88ab00a18d18167fe0293af27.pdf",
         },
         {
-          title: "Global: Digital Security and Resilience in Critical Infrastructure and Essential Services",
+          title:
+            "Global: Digital Security and Resilience in Critical Infrastructure and Essential Services",
           org: "",
           link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/04/digital-security-and-resilience-in-critical-infrastructure-and-essential-services_5593c149/a7097901-en.pdf",
         },
         {
-          title: "Vietnam: National Power Transmission Corporation’s Digitalization Journey",
+          title:
+            "Vietnam: National Power Transmission Corporation’s Digitalization Journey",
           org: "",
           link: "https://openknowledge.worldbank.org/entities/publication/bbfb9200-de1a-489e-a360-fac68c72d81f",
         },
         {
-          title: "Cross-Regional: AI and Deep Learning for Identifying Pavement Failures",
+          title:
+            "Cross-Regional: AI and Deep Learning for Identifying Pavement Failures",
           org: "",
           link: "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean",
         },
@@ -212,12 +219,14 @@ export default function Fundamentals_of_QII() {
           link: "https://gca.org/reports/technical-brief-on-resilient-solar-panels-in-africa/",
         },
         {
-          title: "Global: Functional Recovery of Lifeline Infrastructure System Services",
+          title:
+            "Global: Functional Recovery of Lifeline Infrastructure System Services",
           org: "",
           link: "https://www.nist.gov/publications/functional-recovery-lifeline-infrastructure-system-services",
         },
         {
-          title: "Global: Life-Cycle Cost Analysis for Management of Highway Assets",
+          title:
+            "Global: Life-Cycle Cost Analysis for Management of Highway Assets",
           org: "",
           link: "https://ppp.worldbank.org/public-private-partnership/library/life-cycle-cost-analysis-management-highway-assets",
         },
@@ -657,6 +666,25 @@ export default function Fundamentals_of_QII() {
               <hr />
               <p className="life-cycle-popup-title3">
                 <strong>RESOURCES FOR THIS STAGE</strong>
+                <button
+                  onClick={() => {
+                    navigate("/", {
+                      state: {
+                        scrollTo: "all_principle_page",
+                        resourceCategory: {
+                          show: true,
+                          category: "Project Stage",
+                          title:
+                            lifecycleData[isLifecycleStagesOpen - 1]
+                              ?.stageTitle,
+                          id: isLifecycleStagesOpen - 1,
+                        },
+                      },
+                    });
+                  }}
+                >
+                  <strong>view all</strong>
+                </button>
               </p>
               <div className="life-cycle-popup-links">
                 {lifecycleData[isLifecycleStagesOpen - 1]?.links?.map(
@@ -822,7 +850,12 @@ export default function Fundamentals_of_QII() {
               alt=""
               className="mobile-qii-life-cycle-img-1"
             />
-            <p className="qii-life-cycle-img-txt-1-mobile">Planning</p>
+            <p
+              className="qii-life-cycle-img-txt-1-mobile"
+              onClick={() => setIsLifecycleStagesOpen(1)}
+            >
+              Planning
+            </p>
             <p className="qii-life-cycle-description-mobile">
               Are we assessing long-term costs, environmental impacts, and
               community needs from the start?
@@ -834,7 +867,12 @@ export default function Fundamentals_of_QII() {
               alt=""
               className="mobile-qii-life-cycle-img-2"
             />
-            <p className="qii-life-cycle-img-txt-1-mobile">Design</p>
+            <p
+              className="qii-life-cycle-img-txt-1-mobile"
+              onClick={() => setIsLifecycleStagesOpen(2)}
+            >
+              Design
+            </p>
             <p className="qii-life-cycle-description-mobile">
               Are we building in resilience, accessibility, and operational
               efficiency?
@@ -846,7 +884,12 @@ export default function Fundamentals_of_QII() {
               alt=""
               className="mobile-qii-life-cycle-img-4"
             />
-            <p className="qii-life-cycle-img-txt-1-mobile">Construction</p>
+            <p
+              className="qii-life-cycle-img-txt-1-mobile"
+              onClick={() => setIsLifecycleStagesOpen(3)}
+            >
+              Construction
+            </p>
             <p className="qii-life-cycle-description-mobile">
               Are we ensuring quality, transparency, and local capacity
               building?
@@ -858,7 +901,12 @@ export default function Fundamentals_of_QII() {
               alt=""
               className="mobile-qii-life-cycle-img-5"
             />
-            <p className="qii-life-cycle-img-txt-1-mobile">Operation</p>
+            <p
+              className="qii-life-cycle-img-txt-1-mobile"
+              onClick={() => setIsLifecycleStagesOpen(4)}
+            >
+              Operation
+            </p>
             <p className="qii-life-cycle-description-mobile">
               Are we delivering inclusive services while managing costs and
               risks?
@@ -870,7 +918,10 @@ export default function Fundamentals_of_QII() {
               alt=""
               className="mobile-qii-life-cycle-img-6"
             />
-            <p className="qii-life-cycle-img-txt-1-mobile qii-life-cycle-img-txt-1-mobile-5">
+            <p
+              className="qii-life-cycle-img-txt-1-mobile qii-life-cycle-img-txt-1-mobile-5"
+              onClick={() => setIsLifecycleStagesOpen(5)}
+            >
               Maintenance
             </p>
             <p className="qii-life-cycle-description-mobile">

@@ -767,6 +767,26 @@
 
 .life-cycle-popup-title3 {
   text-align: center;
+  position: relative;
+}
+
+.life-cycle-popup-title3 button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #333333;
+  background: #dee5eb;
+  cursor: pointer;
+  padding: 0.3rem 0.8rem;
+  border-radius: 2rem;
+  border: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.life-cycle-popup-title3 button:hover {
+  background: #00a996;
+  color: #fff;
 }
 
 .life-cycle-popup-button-text {
@@ -873,6 +893,15 @@
     .timeline-circle-1 {
     font-size: 1.1rem;
   }
+  .life-cycle-popup-box {
+    width: 95%;
+    padding: 1.5rem;
+  }
+  .life-cycle-popup-box-close {
+    right: 1.5rem;
+    top: 1.5rem;
+  }
+  
 }
 
 @media (max-width: 1140px) {
@@ -1246,6 +1275,9 @@
   .qii-life-cycle-img-txt-1-mobile-5 {
     top: 41%;
   }
+  .life-cycle-popup-button {
+    width: 100%;
+  }
 }
 
 @media (max-width: 750px) {
@@ -1288,5 +1320,12 @@
   .qii-life-cycle-img-txt-1-mobile-5 {
     top: 41%;
     left: 16.8%;
+  }
+
+  .popup-stage-numbers {
+    gap: 1rem;
+  }
+  .popup-stage-number-circle-line {
+    width: 1rem;
   }
 }
