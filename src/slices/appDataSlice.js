@@ -4683,7 +4683,7 @@ export const appDataSlice = createSlice({
       {
         rId: 209,
         id: 5,
-        paths: "pdf/A Net Cure or Curse.pdf",
+        paths: "pdf/QII6_LAC_Transport_CaseStudy.pdf",
         type: "Case Study",
         title:
           "Public Transport Demand Forecasting Regional Platform for the Post COVID-19 Era World Bank",
@@ -4695,6 +4695,7 @@ export const appDataSlice = createSlice({
         stage: [0, 3, 6],
         income: 0,
         industry: 1,
+        pdf: true,
         image: "images/qii6/shutterstock_2660000293.jpg",
       },
       {
@@ -4707,7 +4708,7 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         principles: 5,
-        desc: "This QII grant provides advisory and analytical support for ICT infrastructure management to underpin the Government of Kosovo's digital transformation of public services. The grant complements the World Bank's Strengthening Digital Governance for Service Delivery project, which targets improved system interoperability, an upgraded e-Kosova platform, and citizen-centric service delivery organized around life events.",
+        desc: "With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.",
         format: 1,
         stage: [0, 3],
         income: 3,

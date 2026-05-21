@@ -30,7 +30,7 @@ export default function Govtech_For_Infrastructure() {
       buttonText: "Full Publication",
       link: "pdf/QII6_LAC_Transport_CaseStudy.pdf",
       buttonText2: "Case Study",
-      link2: "pdf/A Net Cure or Curse.pdf",
+      link2: "pdf/QII6_LAC_Transport_CaseStudy.pdf",
       highlight: 1,
       content: (
         <p>
