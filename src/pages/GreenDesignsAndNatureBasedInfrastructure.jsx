@@ -193,7 +193,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </p>
       ),
       buttonText: "Guidance note",
-      link: "https://www.unpri.org/410-page-gone",
+      link: "https://public.unpri.org/download?ac=20180",
       content: (
         <p>
           This guidance from UN PRI helps infrastructure investors and

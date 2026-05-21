@@ -139,7 +139,7 @@ export const appDataSlice = createSlice({
         principles: 1,
         highlight: 0,
         target: "_blank",
-        desc: "This report provides a description of each SDG and an explanation of how it is influenced by infrastructure as a system-of-systems.",
+        desc: " The PPP Resource Center is the World Bank’s hub for public-private partnerships, sharing knowledge to drive infrastructure development, promote private sector engagement, and support job creation.",
         format: 2,
         income: 0,
         stage: 2,
@@ -1854,7 +1854,7 @@ export const appDataSlice = createSlice({
         // paths:
         //   "https://www.unpri.org/infrastructure/integrating-biodiversity-considerations-into-infrastructure/11611.article",
         paths:
-          "https://public.unpri.org/integrating-biodiversity-considerations-into-infrastructure/11611.article",
+          "https://public.unpri.org/download?ac=20180",
         type: "Guidance note",
         title:
           "Global: UN Principles for Responsible Investment: Integrating Biodiversity Considerations into Infrastructure",
@@ -2986,7 +2986,7 @@ export const appDataSlice = createSlice({
         rId: 223,
         id: 4,
         paths:
-          "pdf/130324 GLOBAL_Cybersecurity tookit_Jessica Carolina Grisanti_rev.pdf",
+          "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
         type: "Guidance note",
         title: "Cybersecurity Assessment Toolkit for Smart Cities",
         highlight: 0,
@@ -4721,7 +4721,7 @@ export const appDataSlice = createSlice({
         highlight: 0,
         target: "_blank",
         principles: 5,
-        desc: "TBD",
+        desc: "With support from the World Bank and the QII Partnership, Albania is advancing a GovTech paradigm that pairs public administration reform with digital technologies to transform service delivery. Today, 95% of central government services are available online through the e-Albania portal, serving over 3 million registered users, alongside 216 Education Smart Labs and strengthened digital inclusion measures for vulnerable populations.TBD",
         format: 1,
         stage: 4,
         income: 3,

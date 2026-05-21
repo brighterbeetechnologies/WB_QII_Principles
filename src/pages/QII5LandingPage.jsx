@@ -127,7 +127,7 @@ export default function QII5LandingPage() {
       description:
         "This publication compiles case studies demonstrating how transport sector interventions can advance gender equality.",
       img_path: "images/qii5/shutterstock_2337776975.jpg",
-      path: "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07​",
+      path: "https://openknowledge.worldbank.org/entities/publication/b77e5771-7dfa-46bd-8d53-8e284f124c07",
       target: "_blank",
     },
     {

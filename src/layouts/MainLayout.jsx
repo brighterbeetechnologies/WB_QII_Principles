@@ -97,10 +97,25 @@ export default function MainLayout() {
 	useEffect(() => {
 		if (location.state?.highlightText) {
 			highlightRef.current = location.state.highlightText;
+			const scrollToId = location.state?.scrollToId || null;
 			// Clear route state immediately so back/forward won't re-trigger
 			navigate(location.pathname, { replace: true, state: null });
 			// Apply immediately for same-page searches
 			applyHighlight();
+
+			// Scroll to matching section if secId provided
+			if (scrollToId) {
+				let attempts = 0;
+				const tryScroll = () => {
+					const el = document.getElementById(scrollToId);
+					if (el) {
+						el.scrollIntoView({ behavior: "smooth", block: "start" });
+					} else if (attempts++ < 12) {
+						setTimeout(tryScroll, 200);
+					}
+				};
+				setTimeout(tryScroll, 250);
+			}
 		}
 	}, [location]);
 

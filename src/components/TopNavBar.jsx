@@ -4,9 +4,11 @@ import NavDropDownMenu from "./NavDropDownMenu";
 import SearchBox from "./SearchBox";
 import { useDispatch, useSelector } from "react-redux";
 import { breadCrump, isOverlay, setOverlay } from "../slices/appDataSlice";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 export default function TopNavBar() {
 	const navigate = useNavigate();
+	const location = useLocation();
+	const isHomePage = location.pathname === "/";
 	const dispatch = useDispatch();
 	const isMenuOpen = useSelector(isOverlay);
 	const pageBreadCrump = useSelector(breadCrump);
@@ -40,6 +42,13 @@ export default function TopNavBar() {
 		window.addEventListener("scroll", handleScroll);
 		return () => window.removeEventListener("scroll", handleScroll);
 	}, []);
+	// Auto-open nav search when arriving from a home-page search
+	useEffect(() => {
+		if (!isHomePage && location.state?.highlightText) {
+			setSearchOpen(true);
+		}
+	}, [location]);
+
 	useEffect(() => {
 		const handleClickOutside = (e) => {
 			if (searchRef.current && !searchRef.current.contains(e.target)) {
@@ -101,12 +110,14 @@ export default function TopNavBar() {
 				</div>
 
 				<div className={`right-panel ${isMenuOpen ? "open" : ""}`}>
-					<div className={`nav-search ${searchOpen ? "open" : ""}`} ref={searchRef}>
-						<button className="nav-btn btn primary nav-search-btn" onClick={toggleSearch}>
-							<span className="icon-search">&#xe90f;</span>
-						</button>
-						<SearchBox />
-					</div>
+					{!isHomePage && (
+						<div className={`nav-search ${searchOpen ? "open" : ""}`} ref={searchRef}>
+							<button className="nav-btn btn primary nav-search-btn" onClick={toggleSearch}>
+								<span className="icon-search">&#xe90f;</span>
+							</button>
+							<SearchBox />
+						</div>
+					)}
 					<div className={`nav-sub-menu ${isMenuOpen ? "open" : ""}`}>
 						<div className="nav-sub-menu-cnt">
 							<button className="nav-btn-link" onClick={() => navigate("/fundamentals_of_qii")}>

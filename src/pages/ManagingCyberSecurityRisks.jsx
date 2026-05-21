@@ -48,7 +48,7 @@ export default function ManagingCyberSecurityRisks() {
         </p>
       ),
       buttonText: "Guidance note",
-      link: null,
+      link: "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
       content: (
         <p>
           The Cybersecurity Assessment Toolkit guides countries and sectors to

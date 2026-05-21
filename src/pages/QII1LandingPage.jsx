@@ -1159,8 +1159,7 @@ export default function QII1LandingPage() {
       ),
       subtext2: (
         <>
-          This report provides a description of each SDG and an explanation of
-          how it is influenced by infrastructure as a system-of-systems.
+           The PPP Resource Center is the World Bank’s hub for public-private partnerships, sharing knowledge to drive infrastructure development, promote private sector engagement, and support job creation.
         </>
       ),
       type: "Guidance note",

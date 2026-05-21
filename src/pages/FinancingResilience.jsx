@@ -313,7 +313,7 @@ export default function FinancingResilience() {
         </p>
       ),
       buttonText: "Report",
-      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/09905052515003218",
+      link: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150032182",
       content: (
         <p>
           This report presents information on 42 global financing facilities, 33

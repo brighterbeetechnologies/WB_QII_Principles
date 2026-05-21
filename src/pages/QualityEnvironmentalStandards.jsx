@@ -175,7 +175,7 @@ export default function QualityEnvironmentalStandards() {
               <strong>
                 ISO{" "}
                 <a
-                  href="https://www.iso.org/iso-14001-environmental-management.html"
+                  href="https://www.iso.org/standard/14001"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link"
@@ -189,12 +189,20 @@ export default function QualityEnvironmentalStandards() {
               <strong>
                 ISO{" "}
                 <a
-                  href="file:///C:\Users\wb589312\Downloads\iso.org\iso-37120"
+                  href="https://www.iso.org/standard/61885.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link"
                 >
-                  37101 / 37120
+                  37101
+                </a> / 
+                 <a
+                  href="https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/37120_briefing_note.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link"
+                >
+                  37120
                 </a>
               </strong>{" "}
               –Sustainable cities and communities / indicators for city services
@@ -204,13 +212,21 @@ export default function QualityEnvironmentalStandards() {
               <strong>
                 ISO{" "}
                 <a
-                  href="file:///C:\Users\wb589312\Downloads\iso.org\iso-37120"
+                  href="https://www.iso.org/standard/61694.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link"
                 >
-                  21930 / 21931
-                </a>
+                  21930 
+                </a> / 
+                <a
+                  href="https://www.iso.org/standard/71183.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link"
+                >
+                  21931
+                </a> 
               </strong>{" "}
               – Sustainability of construction works and building products 
             </li>
@@ -218,7 +234,7 @@ export default function QualityEnvironmentalStandards() {
               <strong>
                 ISO{" "}
                 <a
-                  href="file:///C:\Users\wb589312\Downloads\iso.org\iso-37120"
+                  href="https://www.iso.org/standard/66453.html"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="link"
