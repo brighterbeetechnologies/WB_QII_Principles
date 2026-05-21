@@ -73,6 +73,7 @@ export default function Fundamentals_of_QII() {
 
   const [activeIndex, setActiveIndex] = useState(0);
   const [fade, setFade] = useState(true);
+  const [isLifecycleStagesOpen, setIsLifecycleStagesOpen] = useState(0);
   const total = data.length;
 
   const handlePrev = () => {
@@ -91,6 +92,148 @@ export default function Fundamentals_of_QII() {
     }, 200);
   };
 
+  const lifecycleData = [
+    {
+      stageTitle: "PLANNING",
+      stageDesc:
+        "Are we assessing long-term costs, environmental impacts, and community needs from the start?",
+      links: [
+        {
+          title: "Tajikistan: Gender Dimensions of Cross-Border Trade",
+          org: "",
+          link: "https://documents1.worldbank.org/curated/en/099051223071029240/pdf/P1789810e7579c0000b0350d8c4d40ae333.pdf",
+        },
+        {
+          title: "Japan: Hachioji City",
+          org: "",
+          link: "https://www.oecd.org/en/publications/providing-local-actors-with-case-studies-evidence-and-solutions-places_eb108047-en/hachioji-city-utilising-3d-city-models-and-augmented-reality-to-enhance-local-public-engagement_ab018d21-en.html",
+        },
+        {
+          title: "Uganda: Stakeholder Engagement Plan",
+          org: "G20",
+          link: "https://finance.go.ug/sites/default/files/reports/Stakeholder-Engagement-Plan-SEP-PIMs-P511206-June-11-2025.pdf",
+        },
+        {
+          title: "Global: OECD Infrastructure Toolkit",
+          org: "G20",
+          link: "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
+        },
+      ],
+    },
+    {
+      stageTitle: "DESIGN",
+      stageDesc:
+        "Are we building in resilience, accessibility, and operational efficiency?",
+      links: [
+        {
+          title: "Global: Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9",
+          org: "",
+          link: "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
+        },
+        {
+          title: "Global: Nature-Based Solutions for Infrastructure Projects",
+          org: "",
+          link: "https://www.ifc.org/content/dam/ifc/doc/2023/catalogue-of-nature-based-solutions-for-infrastructure-projects.pdf",
+        },
+        {
+          title: "Global: Green Infrastructure - Guide for Water Management",
+          org: "",
+          link: "https://wedocs.unep.org/rest/api/core/bitstreams/979a0cdb-3d3e-4f4a-b899-96c97f412d0d/content",
+        },
+        {
+          title: "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
+          org: "",
+          link: "https://climateinstitute.edhec.edu/climatech-project",
+        },
+      ],
+    },
+    {
+      stageTitle: "CONSTRUCTION",
+      stageDesc:
+        "Are we ensuring quality, transparency, and local capacity building?",
+      links: [
+        {
+          title: "Global: Resilient Infrastructure and Buildings Hub",
+          org: "",
+          link: "https://worldbankgroup.sharepoint.com/sites/WBSUR/SitePages/PublishingPages/Resilient%20Infrastruc-1746476033225.aspx",
+        },
+        {
+          title: "Global: Building Green: Sustainable Construction in Emerging Markets",
+          org: "",
+          link: "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
+        },
+        {
+          title: "India: Rewa Ultra Mega Solar Project",
+          org: "",
+          link: "https://www.ifc.org/content/dam/ifc/doc/mgrt/scaling-infra-india-08.pdf",
+        },
+        {
+          title: "Vietnam: Ho Chi Minh City PBCs",
+          org: "",
+          link: "https://www.ppiaf.org/documents/5629",
+        },
+      ],
+    },
+    {
+      stageTitle: "OPERATION",
+      stageDesc:
+        "Are we delivering inclusive services while managing costs and risks?",
+      links: [
+        {
+          title: "Peru: Technologies to Increase Observability and Controllability in Real-Time System Operations",
+          org: "",
+          link: "https://documents1.worldbank.org/curated/en/099032924175510017/pdf/P1760001ef88ab00a18d18167fe0293af27.pdf",
+        },
+        {
+          title: "Global: Digital Security and Resilience in Critical Infrastructure and Essential Services",
+          org: "",
+          link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/04/digital-security-and-resilience-in-critical-infrastructure-and-essential-services_5593c149/a7097901-en.pdf",
+        },
+        {
+          title: "Vietnam: National Power Transmission Corporation’s Digitalization Journey",
+          org: "",
+          link: "https://openknowledge.worldbank.org/entities/publication/bbfb9200-de1a-489e-a360-fac68c72d81f",
+        },
+        {
+          title: "Cross-Regional: AI and Deep Learning for Identifying Pavement Failures",
+          org: "",
+          link: "https://infratech.gihub.org/infratech-case-studies/ai-and-deep-learning-for-identifying-pavement-failures-in-latin-american-and-the-caribbean",
+        },
+      ],
+    },
+    {
+      stageTitle: "MAINTENANCE",
+      stageDesc:
+        "Are we preserving value, adapting to changing conditions, and extending asset life?",
+      links: [
+        {
+          title: "Regional: Resilient Solar Panels in Africa",
+          org: "",
+          link: "https://gca.org/reports/technical-brief-on-resilient-solar-panels-in-africa/",
+        },
+        {
+          title: "Global: Functional Recovery of Lifeline Infrastructure System Services",
+          org: "",
+          link: "https://www.nist.gov/publications/functional-recovery-lifeline-infrastructure-system-services",
+        },
+        {
+          title: "Global: Life-Cycle Cost Analysis for Management of Highway Assets",
+          org: "",
+          link: "https://ppp.worldbank.org/public-private-partnership/library/life-cycle-cost-analysis-management-highway-assets",
+        },
+        {
+          title: "Vietnam: Ho Chi Minh City PBCs",
+          org: "",
+          link: "https://www.ppiaf.org/documents/5629",
+        },
+      ],
+    },
+  ];
+
+  const lifecycleStages = [1, 2, 3, 4, 5];
+
+  console.log("isLifecycleStagesOpen", isLifecycleStagesOpen);
+
   return (
     <div className="fundamentals_of_qii">
       <section className="color-dark" id="FOQ-section1">
@@ -108,7 +251,7 @@ export default function Fundamentals_of_QII() {
         <h3 className="center-text">
           <strong>WHAT IS QII</strong>
         </h3>
-         <p className="what-is-qii-title">
+        <p className="what-is-qii-title">
           Infrastructure is a driver of economic growth and prosperity.
         </p>
         {/*
@@ -253,7 +396,9 @@ export default function Fundamentals_of_QII() {
             <div className="qii-generation-description-mobile-left"></div>
             <div className="qii-generation-image-mobile qii-generation-image-mobile-1">
               <img src="images/fundamentals_of_qii/new/Timeline01.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-1">2015</div>
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-1">
+                2015
+              </div>
             </div>
             <div className="qii-generation-description-mobile-right">
               Japan announces the Partnership for Quality Infrastructure,
@@ -268,7 +413,9 @@ export default function Fundamentals_of_QII() {
             </div>
             <div className="qii-generation-image-mobile qii-generation-image-mobile-2">
               <img src="images/fundamentals_of_qii/new/Timeline02.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-2">2016</div>
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-2">
+                2016
+              </div>
             </div>
             <div className="qii-generation-description-mobile-right"></div>
           </div>
@@ -276,7 +423,9 @@ export default function Fundamentals_of_QII() {
             <div className="qii-generation-description-mobile-left"></div>
             <div className="qii-generation-image-mobile qii-generation-image-mobile-3">
               <img src="images/fundamentals_of_qii/new/Timeline03.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-3">2019</div>
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-3">
+                2019
+              </div>
             </div>
             <div className="qii-generation-description-mobile-right">
               G20 adopts six QII Principles at the Osaka Summit, extending the
@@ -291,7 +440,9 @@ export default function Fundamentals_of_QII() {
             </div>
             <div className="qii-generation-image-mobile qii-generation-image-mobile-4">
               <img src="images/fundamentals_of_qii/new/Timeline04.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-4">2021</div>
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-4">
+                2021
+              </div>
             </div>
             <div className="qii-generation-description-mobile-right"></div>
           </div>
@@ -299,7 +450,9 @@ export default function Fundamentals_of_QII() {
             <div className="qii-generation-description-mobile-left"></div>
             <div className="qii-generation-image-mobile qii-generation-image-mobile-5">
               <img src="images/fundamentals_of_qii/new/Timeline05.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-5">Today</div>
+              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-5">
+                Today
+              </div>
             </div>
             <div className="qii-generation-description-mobile-right">
               The QII Partnership is at the heart of integrating the QII
@@ -464,9 +617,76 @@ export default function Fundamentals_of_QII() {
         </div>
       </section>
       <section
-        className="container internal-pages-container color-light"
+        className="container internal-pages-container color-light life-cycle-container"
         id="FOQ-section7"
       >
+        {isLifecycleStagesOpen ? (
+          <div className="life-cycle-popup-container">
+            <div className="life-cycle-popup-box">
+              <img
+                src="images/close.svg"
+                alt="close"
+                className="life-cycle-popup-box-close"
+                onClick={() => {
+                  setIsLifecycleStagesOpen(0);
+                }}
+              />
+              <div className="popup-stage-numbers">
+                {lifecycleStages.map((stage, i, stageArray) => {
+                  return (
+                    <div
+                      className={`popup-stage-number-circle ${stage === isLifecycleStagesOpen && "popup-stage-number-active-circle"}`}
+                    >
+                      {stageArray.length - 1 !== i && (
+                        <div className="popup-stage-number-circle-line"></div>
+                      )}
+                      <strong>{stage}</strong>
+                    </div>
+                  );
+                })}
+              </div>
+              <p className="life-cycle-popup-title1">
+                <strong>PROJECT STAGE</strong>
+              </p>
+              <p className="life-cycle-popup-title2">
+                <strong>
+                  {lifecycleData[isLifecycleStagesOpen - 1]?.stageTitle}
+                </strong>
+              </p>
+              <p>{lifecycleData[isLifecycleStagesOpen - 1]?.stageDesc}</p>
+              <hr />
+              <p className="life-cycle-popup-title3">
+                <strong>RESOURCES FOR THIS STAGE</strong>
+              </p>
+              <div className="life-cycle-popup-links">
+                {lifecycleData[isLifecycleStagesOpen - 1]?.links?.map(
+                  (link) => {
+                    return (
+                      <a
+                        className="life-cycle-popup-button"
+                        href={link?.link}
+                        target="_blank"
+                      >
+                        <div className="life-cycle-popup-button-text">
+                          <p>
+                            <strong>{link?.title}</strong>
+                          </p>
+                          {/* <p>{link?.org}</p> */}
+                        </div>
+                        <span className="qii-six-principles-section-arrow">
+                          &#xe900;
+                        </span>
+                      </a>
+                    );
+                  },
+                )}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <></>
+        )}
+
         <h3 className="center-text qii-life-cycle">
           <strong>THE LIFE-CYCLE PERSPECTIVE</strong>
         </h3>
@@ -502,17 +722,46 @@ export default function Fundamentals_of_QII() {
             src="images/fundamentals_of_qii/11/1.png"
             alt=""
             className="qii-life-cycle-img-1"
+            onClick={() => {
+              console.log("clicked");
+              setIsLifecycleStagesOpen(1);
+            }}
           />
           <img
             src="images/fundamentals_of_qii/11/1.png"
             alt=""
             style={{ width: "22.4%", opacity: 0, position: "relative" }}
           />
-          <p className="qii-life-cycle-img-txt-1">Planning</p>
-          <p className="qii-life-cycle-img-txt-2">Design</p>
-          <p className="qii-life-cycle-img-txt-3">Construction</p>
-          <p className="qii-life-cycle-img-txt-4">Operation</p>
-          <p className="qii-life-cycle-img-txt-5">Maintenance</p>
+          <p
+            className="qii-life-cycle-img-txt-1"
+            onClick={() => setIsLifecycleStagesOpen(1)}
+          >
+            Planning
+          </p>
+          <p
+            className="qii-life-cycle-img-txt-2"
+            onClick={() => setIsLifecycleStagesOpen(2)}
+          >
+            Design
+          </p>
+          <p
+            className="qii-life-cycle-img-txt-3"
+            onClick={() => setIsLifecycleStagesOpen(3)}
+          >
+            Construction
+          </p>
+          <p
+            className="qii-life-cycle-img-txt-4"
+            onClick={() => setIsLifecycleStagesOpen(4)}
+          >
+            Operation
+          </p>
+          <p
+            className="qii-life-cycle-img-txt-5"
+            onClick={() => setIsLifecycleStagesOpen(5)}
+          >
+            Maintenance
+          </p>
         </div>
         <div className="qii-life-cycle-container-section">
           <div className="qii-life-cycle-container qii-life-cycle-container-1">
@@ -629,71 +878,6 @@ export default function Fundamentals_of_QII() {
               extending asset life?
             </p>
           </div>
-          {/* <p className="qii-life-cycle-img-txt-1-mobile">Planning</p>
-          <p className="qii-life-cycle-img-txt-2-mobile">Design</p>
-          <p className="qii-life-cycle-img-txt-3-mobile">Construction</p>
-          <p className="qii-life-cycle-img-txt-4-mobile">Operation</p>
-          <p className="qii-life-cycle-img-txt-5-mobile">Maintenance</p> */}
-          {/* </div> */}
-
-          {/* <div className="qii-life-cycle-container-mobile">
-            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-1-mobile">
-              <img src="images/fundamentals_of_qii/11/1_mobile.png" alt="" />
-              <div className="qii-life-cycle-stage-1-title-mobile">
-                Planning
-              </div>
-            </div>
-            <div className="qii-life-cycle-stage-1-desc-mobile">
-              Are we assessing long-term costs, environmental impacts, and
-              community needs from the start?
-            </div>
-          </div>
-          <div className="qii-life-cycle-container-mobile">
-            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
-              <img src="images/fundamentals_of_qii/11/2_mobile.png" alt="" />
-              <div className="qii-life-cycle-stage-2-title-mobile">Design</div>
-            </div>
-            <div className="qii-life-cycle-stage-1-desc-mobile">
-              Are we building in resilience, accessibility, and operational
-              efficiency?
-            </div>
-          </div>
-          <div className="qii-life-cycle-container-mobile">
-            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
-              <img src="images/fundamentals_of_qii/11/3_mobile.png" alt="" />
-              <div className="qii-life-cycle-stage-3-title-mobile">
-                Construction
-              </div>
-            </div>
-            <div className="qii-life-cycle-stage-1-desc-mobile">
-              Are we ensuring quality, transparency, and local capacity
-              building?
-            </div>
-          </div>
-          <div className="qii-life-cycle-container-mobile">
-            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
-              <img src="images/fundamentals_of_qii/11/4_mobile.png" alt="" />
-              <div className="qii-life-cycle-stage-4-title-mobile">
-                Operation
-              </div>
-            </div>
-            <div className="qii-life-cycle-stage-1-desc-mobile">
-              Are we delivering inclusive services while managing costs and
-              risks?
-            </div>
-          </div>
-          <div className="qii-life-cycle-container-mobile">
-            <div className="qii-life-cycle-stage-image-mobile qii-life-cycle-stage-img-2-mobile">
-              <img src="images/fundamentals_of_qii/11/5_mobile.png" alt="" />
-              <div className="qii-life-cycle-stage-5-title-mobile">
-                Maintenance
-              </div>
-            </div>
-            <div className="qii-life-cycle-stage-1-desc-mobile">
-              Are we preserving value, adapting to changing conditions, and
-              extending asset life?
-            </div>
-          </div> */}
         </div>
         {/* mobile end */}
       </section>
