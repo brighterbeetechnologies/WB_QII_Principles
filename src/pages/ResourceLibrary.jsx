@@ -101,6 +101,9 @@ export default function ResourceLibrary({ subPages, preSelected }) {
     const regionFilters = selectedFilters
       .filter((f) => f.category === "Region")
       .map((f) => f.id);
+    const incomeFilters = selectedFilters
+      .filter((f) => f.category === "Income Group")
+      .map((f) => f.id);
     const projectStageFilters = selectedFilters
       .filter((f) => f.category === "Project Stage")
       .map((f) => f.id);
@@ -117,14 +120,15 @@ export default function ResourceLibrary({ subPages, preSelected }) {
         mediaTypeFilters.includes(course.format);
       const matchStage =
         projectStageFilters.length === 0 ||
-        // projectStageFilters.includes(course.stage);
         projectStageFilters.some((item) => course.stage.includes(item));
       const matchRegion =
         regionFilters.length === 0 || regionFilters.includes(course.region);
       const matchPrinciple =
         principleFilters.length === 0 ||
         principleFilters.includes(course.principles);
-      console.log("matchStage", matchStage);
+      const matchIncome =
+        incomeFilters.length === 0 ||
+        incomeFilters.includes(course.income);
       
       const query = searchQuery.toLowerCase();
 
@@ -145,6 +149,7 @@ export default function ResourceLibrary({ subPages, preSelected }) {
         matchIndustry &&
         matchRegion &&
         matchPrinciple &&
+        matchIncome &&
         matchSearch
       );
     });
