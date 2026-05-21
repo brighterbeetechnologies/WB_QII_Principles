@@ -1164,7 +1164,7 @@ export default function QII1LandingPage() {
       ),
       type: "Guidance note",
       paths:
-        "https://content.unops.org/publications/Infrastructure_underpining_sustainable_development_EN.pdf",
+        "https://ppp.worldbank.org/tools",
       showButton: true,
     },
     {

@@ -54,7 +54,7 @@ export default function Stakeholder_Engagement() {
       width: 1920,
       height: 1080,
       buttonText2: "Full Publication",
-      link2: "",
+      link2: "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
       highlight: 1,
       content: (
         <p>

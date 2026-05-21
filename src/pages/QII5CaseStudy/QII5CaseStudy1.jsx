@@ -161,7 +161,7 @@ export default function QII5CaseStudy1({id}) {
               className="single-case-study-button"
               onClick={() =>
                 window.open(
-                  "https://documents1.worldbank.org/curated/en/132321643990931297/pdf/Quality-Infrastructure-Investment-Partnership-2021-QII-Annual-Report.pdf",
+                  "https://documents1.worldbank.org/curated/en/099812406072316190/pdf/IDU08c1864250b3f704aa5080280e316e675350b.pdf",
                   "_blank",
                   "noopener,noreferrer",
                 )
