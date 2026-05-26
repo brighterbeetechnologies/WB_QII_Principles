@@ -165,7 +165,7 @@ export const data = [
 "ip":"",
 "url":"/qii1",
 "secId":"qii1-section9",
-"content":"Türkiye Eurasia Tunnel $2 billion in economic benefits over 8 years, with 53,000+ jobs expected by 2042, by connecting two continents in 5 minutes. QII.2 | QII.3 | QII.4 | QII.5 | QII.6 Learn More "
+"content":"Türkiye Eurasia Tunnel $2 billion in economic benefits over 8 years, with 53,000+ jobs expected by 2042, by connecting two continents in 5 minutes. QII.2 | QII.3 | QII.4 | QII.5 | QII.6 Learn More  Sustainable Development Objectives The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety. The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. "
 },
 {
 "title":"QII.1 Sustainable Growth",

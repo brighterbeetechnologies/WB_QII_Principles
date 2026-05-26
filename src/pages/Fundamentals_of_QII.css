@@ -39,7 +39,7 @@
 }
 
 .what-is-qii-section .what-is-qii-title {
-  padding: 1rem;
+  padding: 2rem 1rem;
   font-size: 1.4rem;
   margin-top: 1rem;
   font-weight: 700;
@@ -223,7 +223,7 @@
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin: 4rem;
+  margin: 1rem;
   padding: 1rem;
   color: #fff;
   justify-content: center;
@@ -242,7 +242,7 @@
 
 .image-text-container-desc p {
   font-size: 1.3rem;
-  margin-top: 1rem;
+  margin: 1rem 4rem 1rem 1rem;
 }
 
 .fundamentals_of_qii-footer-section {
@@ -475,8 +475,8 @@
 }
 
 .qii-life-cycle-img-txt-3 {
-  left: 46%;
-  top: 24%;
+  left: 45.4%;
+  top: 22%;
   width: 8%;
   height: 53%;
   text-align: center;
@@ -485,8 +485,8 @@
 }
 
 .qii-life-cycle-img-txt-4 {
-  left: 66%;
-  top: 24%;
+  left: 66.3%;
+  top: 21%;
   width: 8%;
   height: 53%;
   text-align: center;
@@ -495,8 +495,8 @@
 }
 
 .qii-life-cycle-img-txt-5 {
-  left: 86.6%;
-  top: 24%;
+  left: 85.8%;
+  top: 21%;
   width: 8%;
   height: 53%;
   text-align: center;
@@ -1025,7 +1025,7 @@
   }
   .qii-generations-mobile {
     width: 100%;
-    margin: 1rem;
+    /* margin: 1rem; */
     position: relative;
   }
   .qii-generation-container-mobile {
@@ -1125,19 +1125,21 @@
 @media (max-width: 999px) {
   .what-is-qii-container {
     flex-direction: column;
+    padding: 0rem;
   }
   .what-is-qii-card {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     gap: 1rem;
     width: 100%;
   }
   .what-is-qii-container-image {
-    width: 50%;
+    width: 100%;
   }
   .what-is-qii-container-description {
-    width: 50%;
+    width: 100%;
     padding: 0rem 0.5rem;
   }
 }
@@ -1348,4 +1350,19 @@
   .popup-stage-number-circle-line {
     width: 1rem;
   }
+}
+
+@media (max-width: 500px) {
+  .what-is-qii-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+    .global-infrastructure-section-container:not(:first-child)::before {
+    top: 50%;
+  }
+
 }

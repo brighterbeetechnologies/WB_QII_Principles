@@ -24,7 +24,7 @@
 .Decarbonizing-Infrastructure-sec-container {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 /* .Decarbonizing-Infrastructure-title-new {
@@ -232,7 +232,7 @@
   padding: 1rem 0;
   margin: 1rem auto;
   border-radius: 25px;
-  width: 97%;
+  width: 100%;
 }
 
 .ico-text-card-5 {
@@ -251,7 +251,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 0 6rem;
+  padding: 0 2rem;
   margin: 1rem 0;
 }
 
@@ -260,8 +260,9 @@
   gap: 1rem;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   color: #fff;
+  width: 100%;
 }
 
 .ico-text-card-5-infographics-letter {
@@ -482,7 +483,7 @@
 }
 
 @media (max-width: 960px) {
-  .Decarbonizing-Infrastructure-sec-container{
+  .Decarbonizing-Infrastructure-sec-container {
     flex-direction: column;
     gap: 2rem;
   }
@@ -492,8 +493,8 @@
   }
   .Decarbonizing-Infrastructure-link-container {
     margin-top: 1rem;
-}
   }
+}
 
 @media (min-width: 992px) {
   .DecarbonizingInfrastructure .list-title {
@@ -544,33 +545,20 @@
   .ico-text-card-4-container .ico-text-card-4 .ico-text-card-4-ico {
     align-content: center;
   }
-  .ico-text-card-5-container {
-    width: 50%;
-  }
-  .ico-text-card-5-flow {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0rem;
-    padding: 0 6rem;
-    margin: 1rem 0;
-  }
-  .ico-text-card-5-arrow {
-    display: inline-block;
-    transform: rotate(90deg);
+
+  .ico-text-card-4-container
+    .ico-text-card-4
+    .ico-text-card-4-ico
+    .energy-icon {
+    width: 14%;
   }
 
-  
-.ico-text-card-4-container .ico-text-card-4 .ico-text-card-4-ico .energy-icon {
-  width: 14%;
-}
-
-.ico-text-card-4-container
-  .ico-text-card-4
-  .ico-text-card-4-ico
-  .transport-icon {
-  width: 20%;
-}
+  .ico-text-card-4-container
+    .ico-text-card-4
+    .ico-text-card-4-ico
+    .transport-icon {
+    width: 20%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -599,6 +587,25 @@
     .image-content
     p {
     font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .ico-text-card-5-container {
+    width: 100%;
+  }
+
+  .ico-text-card-5-flow {
+    flex-direction: column;
+  }
+  .ico-text-card-5-arrow {
+    display: inline-block;
+    transform: rotate(90deg);
+  }
+
+  .ico-text-card-5-infographics {
+    justify-content: left;
+    width: 100%;
   }
 }
 
@@ -666,4 +673,26 @@
   .ico-text-card-4-container .ico-text-card-4 {
     height: 332px;
   }
+}
+
+@media (max-width: 500px) {
+  .ico-text-card-4-container .ico-text-card-4 {
+    height: 332px;
+    width: 100%;
+  }
+
+  .ico-text-card-5-container {
+    width: 100%;
+  }
+
+  .ico-text-card-5-flow {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  /* .ico-text-card-5-flow {
+    padding: 0 3rem;
+  }
+     */
 }

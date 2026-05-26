@@ -16,10 +16,12 @@
 }
 
 .qii1-sub-text {
-  margin: 0rem 7rem 3rem 7rem;
+  /* margin: 0rem 7rem 3rem 7rem; */
+  margin-bottom: 3.5rem;
   font-size: 1.4rem;
   text-align: center;
   font-weight: 500;
+  width: 100%;
 }
 
 .ico-text-card-3-container {
@@ -189,7 +191,7 @@
 }
 
 .qii1-further-reading-container {
-  margin: 1rem 3rem 3rem 3rem;
+  /* margin: 1rem 3rem 3rem 3rem; */
   /* padding: 0rem 0rem 5rem 0rem;
   display: flex;
   justify-content: center;
@@ -197,7 +199,9 @@
   gap: 3rem; */
   font-size: 1.2rem;
   font-weight: 950;
-  width: 100%;
+  /* width: 100%; */
+  width: 70%;
+  margin: 0 0 4rem 5rem;
 }
 
 .qii1-further-reading-continer-big-1 {
@@ -539,5 +543,9 @@
   }
 }
 
-@media (max-width: 630px) {
-}
+@media (max-width: 375px) {
+  .qii1-further-reading-container {
+    margin: 0 1rem 4rem 4rem;
+    width: 75%;
+  }
+ }
