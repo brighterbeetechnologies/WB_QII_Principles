@@ -17,60 +17,52 @@ export default function ContactUs() {
   return (
     <div className="contact-us">
       <section className="contact-us color-light">
-        <div className="contact-us-main">
-          <div className="contact-us-container">
-            {/* <p>GET IN TOUCH</p>
-            <h1>Contact Us</h1>
-            <p>
-              The QII Reference Guide team. Reach out about content,
-              partnerships, or technical issues.
-            </p> */}
-            <img src="images/contactus/shutterstock_2228424131.png" alt="" />
-          </div>
-          <div className="contacts-card-container">
-            <p className="p1">GET IN TOUCH</p>
-            <h1>Contact Us</h1>
-            <p>
-              The QII Reference Guide team. Reach out about content,
-              partnerships, or technical issues.
-            </p>
-            {/* <div className="contact-card">
-              <p className="role">Program Manager</p>
-              <h2 className="name">Jane Jamieson</h2>
-              <p className="org">World Bank, QII Partnership</p>
-              <p className="email">qii_secretariat@worldbankgroup.org</p>
-            </div> */}
-            <div className="contact-card">
-              <h2 className="name">William Davies</h2>
-              <p className="role">Senior Infrastructure Specialist </p>
-              <p className="org">World Bank, QII Partnership</p>
-              <p className="email">
-                <a href="mailto:qii_secretariat@worldbankgroup.org">
-                  qii_secretariat@worldbankgroup.org
-                </a>
-              </p>
+        <div className="contact-us-mobile">
+          <div className="contact-us-main">
+            <div className="contact-us-container">
+              <img src="images/contactus/shutterstock_2228424131.png" alt="" />
             </div>
-            <div className="contact-card-email">
-              <img src="images/contactus/email.png" alt="" />
+            <div className="contacts-card-container">
+              <p className="p1">GET IN TOUCH</p>
+              <h1>Contact Us</h1>
               <p>
-                <strong style={{ color: "#000" }}>Primary contact:</strong>{" "}
-                <span
-                  style={{
-                    color: "#009FDA",
-                    textDecoration: "underline",
-                    cursor: "pointer",
-                  }}
-                  onMouseEnter={(e) => (e.target.style.textDecoration = "none")}
-                  onMouseLeave={(e) =>
-                    (e.target.style.textDecoration = "underline")
-                  }
-                >
+                The QII Reference Guide team. Reach out about content,
+                partnerships, or technical issues.
+              </p>
+              <div className="contact-card">
+                <h2 className="name">William Davies</h2>
+                <p className="role">Senior Infrastructure Specialist </p>
+                <p className="org">World Bank, QII Partnership</p>
+                <p className="email">
                   <a href="mailto:qii_secretariat@worldbankgroup.org">
                     qii_secretariat@worldbankgroup.org
                   </a>
-                </span>
-                .
-              </p>
+                </p>
+              </div>
+              <div className="contact-card-email">
+                <img src="images/contactus/email.png" alt="" />
+                <p>
+                  <strong style={{ color: "#000" }}>Primary contact:</strong>{" "}
+                  <span
+                    style={{
+                      color: "#009FDA",
+                      textDecoration: "underline",
+                      cursor: "pointer",
+                    }}
+                    onMouseEnter={(e) =>
+                      (e.target.style.textDecoration = "none")
+                    }
+                    onMouseLeave={(e) =>
+                      (e.target.style.textDecoration = "underline")
+                    }
+                  >
+                    <a href="mailto:qii_secretariat@worldbankgroup.org">
+                      qii_secretariat@worldbankgroup.org
+                    </a>
+                  </span>
+                  .
+                </p>
+              </div>
             </div>
           </div>
         </div>

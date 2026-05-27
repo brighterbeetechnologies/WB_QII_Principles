@@ -1159,12 +1159,13 @@ export default function QII1LandingPage() {
       ),
       subtext2: (
         <>
-           The PPP Resource Center is the World Bank’s hub for public-private partnerships, sharing knowledge to drive infrastructure development, promote private sector engagement, and support job creation.
+          The PPP Resource Center is the World Bank’s hub for public-private
+          partnerships, sharing knowledge to drive infrastructure development,
+          promote private sector engagement, and support job creation.
         </>
       ),
       type: "Guidance note",
-      paths:
-        "https://ppp.worldbank.org/tools",
+      paths: "https://ppp.worldbank.org/tools",
       showButton: true,
     },
     {
@@ -1181,7 +1182,8 @@ export default function QII1LandingPage() {
       ),
       subtext2: (
         <>
-          This report provides a description of each SDG and an explanation of how it is influenced by infrastructure as a system-of-systems.
+          This report provides a description of each SDG and an explanation of
+          how it is influenced by infrastructure as a system-of-systems.
         </>
       ),
       type: "Report",
@@ -1378,9 +1380,13 @@ export default function QII1LandingPage() {
                     transform: `translateX(${-(100 / data.length) * activeIndex}%)`,
                   }}
                 >
-                  {data.map((d) => {
+                  {/* {data.map((d) => {
                     return (
-                      <div className={`ico-text-card-3`}>
+                      <div className={`ico-text-card-3`}> */}
+                  
+                  {data.map((d, index) => {
+                    return (
+                      <div key={index} className="ico-text-card-3">
                         <div className="ico-text-card-3-ico">
                           <img src={d.icon} alt="" />
                         </div>

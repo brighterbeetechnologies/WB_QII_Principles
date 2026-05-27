@@ -7,7 +7,7 @@ export default function Carousel({ slides }) {
   const goToSlide = (i) => {
     if (i < 0 || i >= slides.length) return;
     setIndex(i);
-  };
+  };   
 
   return (
     <div className="resource-carousel-container">

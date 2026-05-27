@@ -887,7 +887,7 @@
 
 @media (max-width: 1080px) {
   .qii-life-cycle-container-images p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -1101,8 +1101,8 @@
     position: absolute;
     font-size: 1.6rem;
     font-weight: 900;
-    left: 45%;
-    top: 45%;
+    left: 50%;
+    top: 47%;
     transform: translate(-50%, -50%);
   }
   .timeline-circle-1-mobile-1 {
@@ -1141,6 +1141,12 @@
   .what-is-qii-container-description {
     width: 100%;
     padding: 0rem 0.5rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .qii-life-cycle-container-images p {
+    font-size: 0.9rem;
   }
 }
 
@@ -1184,7 +1190,7 @@
     position: absolute;
     font-size: 1.6rem;
     font-weight: 900;
-    left: 46%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
   }
@@ -1244,7 +1250,7 @@
     font-size: 1.6rem;
     font-weight: 900;
     left: 50%;
-    top: 50%;
+    top: 47%;
     transform: translate(-50%, -50%);
   }
 }
@@ -1290,7 +1296,7 @@
     font-weight: 900;
     color: #fff;
     top: 34%;
-    left: 12.6%;
+    left: 12%;
     transform: translate(-50%, -50%);
   }
 
@@ -1323,6 +1329,9 @@
   .what-is-qii-container-description {
     font-size: 0.9rem;
   }
+  .qii-six-principles-section {
+    margin: 0rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -1330,18 +1339,20 @@
     margin: 4rem 0;
   }
   .qii-life-cycle-description-mobile {
-    left: 72%;
+    left: 83%;
+    top: 41%;
+    width: 46%;
   }
   .qii-life-cycle-img-txt-1-mobile {
     font-size: 1.2rem;
     top: 35%;
-    left: 16.7%;
+    left: 27.7%;
     transform: translate(-50%, -50%);
   }
 
   .qii-life-cycle-img-txt-1-mobile-5 {
     top: 41%;
-    left: 16.8%;
+    left: 27.8%;
   }
 
   .popup-stage-numbers {
@@ -1349,6 +1360,23 @@
   }
   .popup-stage-number-circle-line {
     width: 1rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .qii-life-cycle-img-txt-1-mobile {
+    font-size: 1.3rem;
+    top: 35%;
+    left: 18.7%;
+    transform: translate(-50%, -50%);
+  }
+
+  .qii-life-cycle-img-txt-1-mobile-5 {
+    top: 41%;
+    left: 19%;
+  }
+  .global-infrastructure-section-container:not(:first-child)::before {
+    top: 53%;
   }
 }
 
@@ -1361,8 +1389,106 @@
     gap: 1rem;
     width: 100%;
   }
-    .global-infrastructure-section-container:not(:first-child)::before {
+  .global-infrastructure-section-container:not(:first-child)::before {
     top: 50%;
   }
 
+  .qii-six-principles-section-curosal {
+    flex-direction: column;
+  }
+  .qii-six-principles-section-curosal-description {
+    width: 100%;
+    text-align: center;
+  }
+  .qii-generation-container-mobile {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .qii-life-cycle-container-section-mobile {
+    margin: 4rem 0;
+  }
+  .qii-life-cycle-description-mobile {
+    left: 83%;
+    top: 41%;
+    width: 46%;
+  }
+  .qii-life-cycle-img-txt-1-mobile {
+    font-size: 1.3rem;
+    top: 35%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+  }
+
+  .qii-life-cycle-img-txt-1-mobile-5 {
+    top: 41%;
+    left: 26%;
+  }
+   .image-text-container-desc p strong {
+    font-size: 1.4rem;
+  }
+  .image-text-container-desc p {
+    font-size: 1.3rem;
+}
+}
+
+@media (max-width: 400px) {
+  .qii-generation-container-mobile {
+    padding: 0rem;
+    margin: 0rem;
+  }
+  .qii-life-cycle-container-section-mobile {
+    margin: 4rem 0;
+  }
+  .qii-life-cycle-description-mobile {
+    left: 83%;
+    top: 41%;
+    width: 46%;
+  }
+  .qii-life-cycle-img-txt-1-mobile {
+    font-size: 1.3rem;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .qii-life-cycle-img-txt-1-mobile-5 {
+    top: 41%;
+    left: 30%;
+  }
+}
+
+@media (max-width: 390px) {
+  .qii-life-cycle-img-txt-1-mobile {
+    font-size: 1.3rem;
+    top: 35%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+  }
+
+  .qii-life-cycle-img-txt-1-mobile-5 {
+    top: 41%;
+    left: 28%;
+  }
+}
+
+@media (max-width: 360px) {
+  .qii-life-cycle-img-txt-1-mobile {
+    font-size: 1.3rem;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .qii-life-cycle-img-txt-1-mobile-5 {
+    top: 41%;
+    left: 30%;
+  }
+}
+
+@media (max-width: 344px) {
+  .qii-life-cycle-description-mobile {
+    left: 87%;
+    top: 41%;
+    width: 36%;
+  }
 }

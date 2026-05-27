@@ -927,6 +927,9 @@ ul {
   .page-resource-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+  .num-step-number {
+    margin: 0 auto 1rem auto
+  }
 }
 
 @media (max-width: 750px) {
@@ -967,3 +970,11 @@ ul {
 .ant-popover {
   margin: 0 2rem !important;
 }
+
+
+@media (max-width: 600px) {
+ .page-resource-body {
+  border-radius: 15px;
+ }
+}
+

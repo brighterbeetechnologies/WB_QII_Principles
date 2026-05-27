@@ -655,6 +655,12 @@ cursor: pointer;
     max-width: 100%;
   }
 }
+
+@media (max-width: 700px) {
+.subpage-cnt {
+	margin: 2rem auto;
+}
+}
 /* 
 @media (max-width: 650px) {
   .qii1-sub-text {
@@ -704,6 +710,7 @@ cursor: pointer;
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
+    margin: 0 2rem;
   }
 
   .landingpage-description .light-font {

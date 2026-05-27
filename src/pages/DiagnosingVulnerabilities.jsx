@@ -478,7 +478,7 @@ export default function DiagnosingVulnerabilities() {
       <section className="color-dark" id="qii4-DV-section9">
         <div className="container">
           <h2 className="section-title light-font">
-            Further Reading On Financing Resilience
+            Further Reading On Diagnosing Vulnerabilities
           </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => {

@@ -240,3 +240,10 @@
 		border-radius: 34px;
 	}
 }
+
+
+@media (max-width: 700px) {
+.subpage-cnt {
+	margin: 2rem auto;
+}
+}

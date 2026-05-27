@@ -6,26 +6,20 @@
 
 .contact-us-main {
   display: flex;
-    margin-top: 6rem;
-    width: 100%;
-    align-items: center;
+  margin: 6rem 0 3rem 0;
+  width: 100%;
+  align-items: center;
 }
 
 .contact-us-container {
-  width: 37%;
+  width: 40%;
   background-color: #41c2f1;
-  /* margin-top: 6rem; */
-  /* padding: 6rem 13rem; */
   color: #ffffff;
   line-height: 2rem;
 }
 
 .contacts-card-container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem; */
-  padding: 8rem 5rem;
+  padding: 7rem 5rem;
   width: 60%;
   line-height: 2rem;
 }
@@ -34,11 +28,11 @@
   font-size: 1rem;
   width: 100%;
 }
-
+/* 
 .contacts-card-container .p1 {
   font-size: 1rem;
   font-weight: 900;
-}
+} */
 
 .contacts-card-container h1 {
   font-size: 2.5rem;
@@ -46,7 +40,7 @@
 }
 
 .contact-card {
-  margin-top: 3rem;
+  margin-top: 2rem;
   line-height: 1.5rem;
 }
 
@@ -65,22 +59,21 @@
   line-height: 1.8rem;
   font-size: 1.3rem;
   font-weight: 900;
-} 
+}
 
 .contact-card .org {
   font-size: 1rem;
   color: #00a996;
-  /* margin-bottom: 2rem; */
 }
 
 .contact-card .email {
   font-size: 1rem;
-  color: #009FDA;
+  color: #009fda;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.contact-card .email:hover{
+.contact-card .email:hover {
   text-decoration: none;
 }
 
@@ -88,7 +81,7 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .contact-card-email img {
@@ -96,4 +89,66 @@
   height: 30px;
 }
 
+@media (max-width: 800px) {}
 
+@media (max-width: 900px) {
+  .contact-us-mobile {
+    background-color: var(--color-bg-primary-dark);
+  }
+  .contact-us-main {
+    flex-direction: column;
+    padding: 9rem 2rem;
+    margin: 0;
+  }
+  .contact-us-container {
+    width: 100%;
+    background-color: #ffffff;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+  }
+
+  .contact-us-container img {
+    border-radius: 2rem;
+    width: 100%;
+  }
+  .contacts-card-container {
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+  }
+  .contacts-card-container p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .contacts-card-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .contact-card .name {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .contact-card .role {
+    font-size: 1rem;
+  }
+  .contact-card .email {
+    font-size: 0.9rem;
+  }
+  .contact-card-email {
+    flex-direction: column;
+  }
+  .contact-card-email img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 400px) {
+  .contact-card-email span {
+    font-size: 0.9rem;
+  }
+}
