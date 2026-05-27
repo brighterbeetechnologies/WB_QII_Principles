@@ -569,10 +569,9 @@ export default function SiteMap() {
                   <span>{openQii === item.id ? "⌃" : "⌄"}</span>
                 </div>
 
-                {/* CONTENT */}
                 {openQii === item.id && (
                   <div className="qii-content-items">
-                    {/* LINKS */}
+              
                     {item.links.map((link, index) => (
                       <button
                         key={index}
@@ -590,7 +589,6 @@ export default function SiteMap() {
                       </button>
                     ))}
 
-                    {/* CASE STUDIES */}
                     {item.caseStudies?.length > 0 && (
                       <>
                         <div className="qii-site-cs-links">
