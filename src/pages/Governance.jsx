@@ -31,7 +31,7 @@ export default function Governance() {
       id: 1,
       // country: "Global",
       title: "Global: PPP Reference Guide",
-      type: "Guidance note",
+      type: "Guidance Note",
       // subTitle: "World Bank",
       description:
         "This document acts as a comprehensive reference on Public-Private Partnership (PPP) structures, legal frameworks, and global case studies, designed to help governments and practitioners make informed decisions about PPPs.",

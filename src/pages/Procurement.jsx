@@ -166,7 +166,7 @@ export default function Procurement() {
         </p>
       ),
       rId: 43,
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.gihub.org/infrastructure-output-specifications/",
       content: (
         <p>

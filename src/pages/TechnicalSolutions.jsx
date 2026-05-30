@@ -32,7 +32,7 @@ export default function TechnicalSolutions() {
       rId: 45,
       title: "Global: InfraTech Policy Toolkit",
       // org: "World Bank",
-      type: "Guidance note",
+      type: "Guidance Note",
       description:
         "This toolkit outlines key priority areas for policymaking and tools for policymakers wishing to integrate InfraTech across the infrastructure life cycle.",
       img_path:

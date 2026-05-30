@@ -52,7 +52,7 @@ export default function Decarbonizing_Infrastructure() {
       // country: "Global",
       title:
         "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
-      type: "Guidance note",
+      type: "Guidance Note",
       // subTitle: "EDHEC Climate Institute",
       description:
         "Guidance on developing decarbonization roadmaps for infrastructure owners and investors. The initiative identifies and evaluates over 100 decarbonization and climate resilience strategies across 101 infrastructure asset subclasses, resulting in more than 1,800 unique asset-strategy applications. Each strategy is assessed for effectiveness and hazard protection level (for physical risks).",
@@ -264,7 +264,7 @@ export default function Decarbonizing_Infrastructure() {
         </p>
       ),
       badgeText: "Transport",
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
       content: (
         <p>
@@ -289,7 +289,7 @@ export default function Decarbonizing_Infrastructure() {
           IFC
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
       content: <p>Guide to decarbonizing construction value chains.</p>,
     },

@@ -677,7 +677,7 @@
 
 @media (max-width: 500px) {
   .ico-text-card-4-container .ico-text-card-4 {
-    height: 332px;
+    height: 255px;
     width: 100%;
   }
 
@@ -691,8 +691,11 @@
 }
 
 @media (max-width: 400px) {
-  /* .ico-text-card-5-flow {
-    padding: 0 3rem;
+  .DecarbonizingInfrastructure .Decarbonizing-Infrastructure-des-container {
+    margin: 2rem auto;
+    font-size: 1rem;
   }
-     */
+  .Decarbonizing-Infrastructure-sec-container {
+    gap: 0rem;
+  }
 }

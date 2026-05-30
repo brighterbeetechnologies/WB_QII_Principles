@@ -3,12 +3,13 @@ import "./SiteMap.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setBradcrump } from "../slices/appDataSlice";
+import { useRef } from "react";
 
 export default function SiteMap() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const [activeQii, setActiveQii] = useState(null);
+  const [activeQii, setActiveQii] = useState(1);
 
   const [openQii, setOpenQii] = useState(null);
   useEffect(() => {
@@ -20,10 +21,28 @@ export default function SiteMap() {
     );
   }, []);
 
+  const imageRefs = useRef([]);
+  const [progressStyle, setProgressStyle] = useState({});
+
+  useEffect(() => {
+    if (!activeQii) return;
+
+    const activeElement = imageRefs.current[activeQii - 1];
+
+    if (activeElement) {
+      setProgressStyle({
+        left: `${activeElement.offsetLeft}px`,
+        width: `${activeElement.offsetWidth}px`,
+        backgroundColor: qiiModules.find((item) => item.id === activeQii)
+          ?.headerColor,
+      });
+    }
+  }, [activeQii]);
+
   const qiiModules = [
     {
       id: 1,
-      image: "images/UpdatedAssets/Qii1.svg",
+      image: "images/UpdatedAssets/1/Q1.png",
       title: "QII.1",
       subtitle: "SUSTAINABLE GROWTH",
       bgClass: "qii1-bg",
@@ -33,7 +52,7 @@ export default function SiteMap() {
 
     {
       id: 2,
-      image: "images/UpdatedAssets/Qii2.svg",
+      image: "images/UpdatedAssets/1/Q2.png",
       title: "QII.2",
       subtitle: "ECONOMIC EFFICIENCY",
       bgClass: "qii2-bg",
@@ -70,7 +89,7 @@ export default function SiteMap() {
 
     {
       id: 3,
-      image: "images/UpdatedAssets/Qii3.svg",
+      image: "images/UpdatedAssets/1/Q3.png",
       title: "QII.3",
       headerColor: "#A2CD4A",
       subtitle: "ENVIRONMENT",
@@ -114,7 +133,7 @@ export default function SiteMap() {
 
     {
       id: 4,
-      image: "images/UpdatedAssets/Qii4.svg",
+      image: "images/UpdatedAssets/1/Q4.png",
       title: "QII.4",
       headerColor: "#DD7A27",
       subtitle: "RESILIENCE",
@@ -155,7 +174,7 @@ export default function SiteMap() {
 
     {
       id: 5,
-      image: "images/UpdatedAssets/Qii5.svg",
+      image: "images/UpdatedAssets/1/Q5.png",
       title: "QII.5",
       headerColor: "#F8C416",
       subtitle: "INNOVATION",
@@ -190,7 +209,7 @@ export default function SiteMap() {
 
     {
       id: 6,
-      image: "images/UpdatedAssets/Qii6.svg",
+      image: "images/UpdatedAssets/1/Q6.png",
       title: "QII.6",
       headerColor: "#32825B",
       subtitle: "GOVERNANCE",
@@ -257,13 +276,94 @@ export default function SiteMap() {
                 Fundamentals of QII <span className="icon-arrow"></span>
               </button>
             </div>
-            <img
+            {/* <img
               className="site-map-qii-img"
               src="images/Full-graphic-site-map.png"
               alt=""
-            />
+            /> */}
+            <div className="site-map-qii-wrapper">
+              <img
+                className="site-map-qii-img"
+                src="images/Full-graphic-site-map.png"
+                alt=""
+              />
+
+              <button
+                className="qii-hotspot qii-hotspot-1"
+                onClick={() => navigate("/qii1")}
+              />
+
+              <button
+                className="qii-hotspot qii-hotspot-2"
+                onClick={() => navigate("/qii2")}
+              />
+
+              <button
+                className="qii-hotspot qii-hotspot-3"
+                onClick={() => navigate("/qii3")}
+              />
+
+              <button
+                className="qii-hotspot qii-hotspot-4"
+                onClick={() => navigate("/qii4")}
+              />
+
+              <button
+                className="qii-hotspot qii-hotspot-5"
+                onClick={() => navigate("/qii5")}
+              />
+
+              <button
+                className="qii-hotspot qii-hotspot-6"
+                onClick={() => navigate("/qii6")}
+              />
+            </div>
             <div className="site-map-links-container">
-              <div className="site-map-link"></div>
+              <div className="site-map-link">
+                <div className="qii-site-cs-links qii-site-cs-links-qii1">
+                  <p>How QII Principles Work Together</p>
+                </div>
+                <button
+                  className="btn-arrow-txt-1 qii-site-links"
+                  onClick={() =>
+                    navigate("/qii1", {
+                      state: {
+                        scrollTo: "qii1-section9",
+                      },
+                    })
+                  }
+                >
+                  Türkiye: Eurasia Tunnel
+                  <span className="icon-arrow"></span>
+                </button>
+                <button
+                  className="btn-arrow-txt-1 qii-site-links"
+                  onClick={() =>
+                    navigate("/qii1", {
+                      state: {
+                        scrollTo: "qii1-section9",
+                      },
+                    })
+                  }
+                >
+                  India: Delhi Mass Rapid Transport System Phase 2
+                  <span className="icon-arrow"></span>
+                </button>
+                <button
+                  className="btn-arrow-txt-1 qii-site-links"
+                  onClick={() =>
+                    navigate("/qii1", {
+                      state: {
+                        scrollTo: "qii1-section9",
+                      },
+                    })
+                  }
+                >
+                  Papua New Guinea: Port Moresby Sewerage System Upgrading
+                  Project
+                  <span className="icon-arrow"></span>
+                </button>
+              </div>
               <div className="site-map-link">
                 <button
                   className="btn-arrow-txt-1 qii-site-links"
@@ -294,7 +394,7 @@ export default function SiteMap() {
                 </button>
 
                 <div className="qii-site-cs-links">
-                  <p>CASE STUDIES</p>
+                  <p>SPOTLIGHT CASE STUDIES</p>
                 </div>
 
                 <button
@@ -348,7 +448,7 @@ export default function SiteMap() {
                 </button>
 
                 <div className="qii-site-cs-links">
-                  <p>CASE STUDIES</p>
+                  <p>SPOTLIGHT CASE STUDIES</p>
                 </div>
 
                 <button
@@ -408,7 +508,7 @@ export default function SiteMap() {
                 </button>
 
                 <div className="qii-site-cs-links">
-                  <p>CASE STUDIES</p>
+                  <p>SPOTLIGHT CASE STUDIES</p>
                 </div>
                 <button
                   className="qii-site-links-spotlights btn-arrow-txt-2"
@@ -460,7 +560,7 @@ export default function SiteMap() {
                 </button>
 
                 <div className="qii-site-cs-links">
-                  <p>CASE STUDIES</p>
+                  <p>SPOTLIGHT CASE STUDIES</p>
                 </div>
 
                 <button
@@ -508,7 +608,7 @@ export default function SiteMap() {
                 </button>
 
                 <div className="qii-site-cs-links">
-                  <p>CASE STUDIES</p>
+                  <p>SPOTLIGHT CASE STUDIES</p>
                 </div>
 
                 <button
@@ -540,9 +640,12 @@ export default function SiteMap() {
           <div className="qii-site-map-principles">
             <div className="qii-site-map-timeline"></div>
 
-            {qiiModules.map((item) => (
+            <div className="qii-site-map-progress" style={progressStyle} />
+
+            {qiiModules.map((item, index) => (
               <img
                 key={item.id}
+                ref={(el) => (imageRefs.current[index] = el)}
                 src={item.image}
                 alt={item.title}
                 className={`qii-image ${
@@ -571,7 +674,6 @@ export default function SiteMap() {
 
                 {openQii === item.id && (
                   <div className="qii-content-items">
-              
                     {item.links.map((link, index) => (
                       <button
                         key={index}
@@ -592,7 +694,7 @@ export default function SiteMap() {
                     {item.caseStudies?.length > 0 && (
                       <>
                         <div className="qii-site-cs-links">
-                          <p>CASE STUDIES</p>
+                          <p>SPOTLIGHT CASE STUDIES</p>
                         </div>
 
                         {item.caseStudies.map((study, index) => (

@@ -30,13 +30,25 @@ export default function ContactUs() {
                 partnerships, or technical issues.
               </p>
               <div className="contact-card">
-                <h2 className="name">William Davies</h2>
-                <p className="role">Senior Infrastructure Specialist </p>
-                <p className="org">World Bank, QII Partnership</p>
+                {/* <h2 className="name">William Davies</h2> */}
+                <p className="role">QII Secretariat</p>
+                {/* <p className="org">World Bank, QII Partnership</p> */}
                 <p className="email">
                   <a href="mailto:qii_secretariat@worldbankgroup.org">
                     qii_secretariat@worldbankgroup.org
                   </a>
+                </p>
+                <p className="org">
+                  To learn more about the Secretariat team, please visit the{" "}
+                  <a
+                    href="https://www.worldbank.org/en/programs/quality-infrastructure-investment-partnership/brief/the-qii-partnership-team"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link"
+                  >
+                    QII Partnership
+                  </a>{" "}
+                  website.
                 </p>
               </div>
               <div className="contact-card-email">

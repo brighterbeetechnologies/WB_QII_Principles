@@ -138,7 +138,7 @@ export default function Stakeholder_Engagement() {
           Global Infrastructure Hub
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://inclusiveinfra.gihub.org/action-areas/stakeholder-identification-engagement-and-empowerment",
       content: (
         <p>
@@ -227,7 +227,7 @@ export default function Stakeholder_Engagement() {
           Organisation for Economic Co-operation and Development​
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
       content: (
         <p>

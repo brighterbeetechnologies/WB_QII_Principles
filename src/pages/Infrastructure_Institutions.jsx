@@ -54,7 +54,7 @@ export default function Infrastructure_Institutions() {
           Organisation for Economic Co-operation and Development
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/08/effective-multi-level-public-investment_4bcedf6d/c3bc625b-en.pdf",
       content: (
         <p>
@@ -89,7 +89,7 @@ export default function Infrastructure_Institutions() {
           Infrastructure Transparency Initiative (CoST)
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
       content: (
         <p>
@@ -109,7 +109,7 @@ export default function Infrastructure_Institutions() {
           International Monetary Fund
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.elibrary.imf.org/display/book/9781513511818/9781513511818.xml",
       content: (
         <p>
@@ -143,7 +143,7 @@ export default function Infrastructure_Institutions() {
           Environment Programme
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
       content: (
         <p>
@@ -175,7 +175,7 @@ export default function Infrastructure_Institutions() {
           International Monetary Fund
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
       content: (
         <p>

@@ -331,7 +331,7 @@ export default function QualityEnvironmentalStandards() {
           OECD & UNDP
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://sdgfinance.undp.org/resource-library/framework-sdg-aligned-finance​",
       content: (
         <p>
@@ -357,7 +357,7 @@ export default function QualityEnvironmentalStandards() {
           CDRI
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf",
       content: (
         <p>
@@ -380,7 +380,7 @@ export default function QualityEnvironmentalStandards() {
           UNEP
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.unep.org/geo/global-environment-outlook-7",
       content: (
         <p>

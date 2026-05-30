@@ -330,6 +330,14 @@
   }
 }
 
+
+@media (max-width: 1199px) {
+  .v-btn-cnt {
+    padding: 0 0.6rem;
+  }
+}
+
+
 /* added */
 
 .VCard-cnt.col1 {

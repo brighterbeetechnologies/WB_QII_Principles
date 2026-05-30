@@ -745,149 +745,148 @@ export default function QII1LandingPage() {
     ],
   };
 
-  const tabData1 = {
-    "Sustainable Development Objectives": {
-      value: "210M",
-      desc: "Hours of travel time saved",
-      country: "Eurasia Tunnel, Türkiye",
-      title: "Sustainable Development Objectives",
-      description: (
-        <>
-          The Eurasia Tunnel, one of the first projects globally to achieve{" "}
-          <a
-            href="https://www.bluedot-network.org/case-studies/BDN-ZX1J8I-21LT"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link"
-          >
-            Blue Dot Network certification
-          </a>
-          , is an engineering landmark that connects two continents in just 5
-          minutes. Over its first 8 years of operation (2016-2024), the tunnel
-          has saved commuters 210 million hours of travel time while improving
-          road safety. The project aims to cut fuel consumption by 129,000 tons
-          and CO<sub>2</sub> emissions by 50,000 tons over its operational
-          lifetime.
-        </>
-      ),
-    },
-    "Jobs and Growth": {
-      value: "14M",
-      desc: "Man-hours",
-      country: "Türkiye",
-      title: "Jobs and Growth",
-      description: (
-        <>
-          The tunnel has had a major positive impact on jobs and economic growth
-          in Türkiye, creating thousands of jobs during construction and
-          operations while generating significant annual savings in time, fuel,
-          and accident costs. By drastically reducing travel times across
-          Istanbul, the tunnel has improved urban mobility, supported
-          productivity, and contributed hundreds of millions of dollars in
-          economic benefits each year.
-          <br /> <br />
-          Construction was completed in 14 million man-hours, employing over
-          12,000 workers, of whom 84% were hired locally. Over the first 8 years
-          of operation, the project has delivered $2 billion in economic
-          benefits. It is expected to contribute $1.7 billion to Gross Value
-          Added, generate $364 million in additional tax revenues, and create
-          53,734 jobs between 2013 and 2042. Of the total economic impact, $4.1
-          billion comes from productivity savings and $1.6 billion from
-          externalities.
-        </>
-      ),
-    },
-    "Co-Benefits of Multiple QII Principles": {
-      value: "14M",
-      desc: "Man-hours",
-      country: "Türkiye",
-      title: "Co-Benefits of Multiple QII Principles",
-      description: (
-        <>
-          <strong>QII.2 Economic Efficiency</strong>
-          <br />
-          Life Cycle Cost estimates were developed at the preparation stage and
-          incorporated into the financial model to enhance long-term economic
-          efficiency. Predictive maintenance is applied using mathematical
-          modelling to detect and diagnose faults in electric motors for
-          ventilation and connected equipment, improving control over equipment
-          performance and reducing breakdowns.
-          <br />
-          <br />
-          <strong>QII.3 Environment</strong>
-          <br />
-          By reducing travel times, the project reduces fuel consumption by
-          30,000 tons and emissions by 13,000 tons. An Environmental and Social
-          Management Plan, prepared in November 2012, describes mitigation
-          measures to minimize possible negative impacts on the climate and
-          surrounding environment. For example, a detailed tree survey
-          documented the species, age, height, and condition of all trees, with
-          at least one-to-one replacement where felling was required.
-          <br />
-          <br />
-          <strong>QII.4 Resilience</strong>
-          <br />
-          The tunnel features seismic-resistant engineering suited to Istanbul's
-          earthquake risk. Two seismic joints provide 3-dimensional flexibility
-          in case of an earthquake. The tunnel entrance was elevated to E.L.+
-          6m, and discharge pumps were installed at the entrance and exit with
-          total capacity sized for tsunami risk.
-        </>
-      ),
-    },
-    References: {
-      value: "12",
-      desc: "Global references",
-      country: "Global",
-      title: "References",
-      description: "Recognized by multiple international organizations.",
-    },
-  };
-  const tabData2 = {
-    "Sustainable Development Objectives": {
-      value: "210M",
-      desc: "Hours of travel time saved",
-      country: "Eurasia Tunnel, Türkiye",
-      title: "Sustainable Development Objectives",
-      description: (
-        <>
-          The Eurasia Tunnel, one of the first projects globally to achieve Blue
-          Dot Network certification, is an engineering landmark that connects
-          two continents in just 5 minutes. Over its first 8 years of operation
-          (2016-2024), the tunnel has saved commuters 210 million hours of
-          travel time while improving road safety. The project aims to cut fuel
-          consumption by 129,000 tons and CO<sub>2</sub> emissions by 50,000
-          tons over its operational lifetime.{" "}
-        </>
-      ),
-    },
-  };
-  const tabData3 = {
-    "Sustainable Development Objectives": {
-      value: "210M",
-      desc: "Hours of travel time saved",
-      country: "Eurasia Tunnel, Türkiye",
-      title: "Sustainable Development Objectives",
-      description:
-        "The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
-    },
-  };
+  // const tabData1 = {
+  //   "Sustainable Development Objectives": {
+  //     value: "210M",
+  //     desc: "Hours of travel time saved",
+  //     country: "Eurasia Tunnel, Türkiye",
+  //     title: "Sustainable Development Objectives",
+  //     description: (
+  //       <>
+  //         The Eurasia Tunnel, one of the first projects globally to achieve{" "}
+  //         <a
+  //           href="https://www.bluedot-network.org/case-studies/BDN-ZX1J8I-21LT"
+  //           target="_blank"
+  //           rel="noopener noreferrer"
+  //           className="link"
+  //         >
+  //           Blue Dot Network certification
+  //         </a>
+  //         , is an engineering landmark that connects two continents in just 5
+  //         minutes. Over its first 8 years of operation (2016-2024), the tunnel
+  //         has saved commuters 210 million hours of travel time while improving
+  //         road safety. The project aims to cut fuel consumption by 129,000 tons
+  //         and CO<sub>2</sub> emissions by 50,000 tons over its operational
+  //         lifetime.
+  //       </>
+  //     ),
+  //   },
+  //   "Jobs and Growth": {
+  //     value: "14M",
+  //     desc: "Man-hours",
+  //     country: "Türkiye",
+  //     title: "Jobs and Growth",
+  //     description: (
+  //       <>
+  //         The tunnel has had a major positive impact on jobs and economic growth
+  //         in Türkiye, creating thousands of jobs during construction and
+  //         operations while generating significant annual savings in time, fuel,
+  //         and accident costs. By drastically reducing travel times across
+  //         Istanbul, the tunnel has improved urban mobility, supported
+  //         productivity, and contributed hundreds of millions of dollars in
+  //         economic benefits each year.
+  //         <br /> <br />
+  //         Construction was completed in 14 million man-hours, employing over
+  //         12,000 workers, of whom 84% were hired locally. Over the first 8 years
+  //         of operation, the project has delivered $2 billion in economic
+  //         benefits. It is expected to contribute $1.7 billion to Gross Value
+  //         Added, generate $364 million in additional tax revenues, and create
+  //         53,734 jobs between 2013 and 2042. Of the total economic impact, $4.1
+  //         billion comes from productivity savings and $1.6 billion from
+  //         externalities.
+  //       </>
+  //     ),
+  //   },
+  //   "Co-Benefits of Multiple QII Principles": {
+  //     value: "14M",
+  //     desc: "Man-hours",
+  //     country: "Türkiye",
+  //     title: "Co-Benefits of Multiple QII Principles",
+  //     description: (
+  //       <>
+  //         <strong>QII.2 Economic Efficiency</strong>
+  //         <br />
+  //         Life Cycle Cost estimates were developed at the preparation stage and
+  //         incorporated into the financial model to enhance long-term economic
+  //         efficiency. Predictive maintenance is applied using mathematical
+  //         modelling to detect and diagnose faults in electric motors for
+  //         ventilation and connected equipment, improving control over equipment
+  //         performance and reducing breakdowns.
+  //         <br />
+  //         <br />
+  //         <strong>QII.3 Environment</strong>
+  //         <br />
+  //         By reducing travel times, the project reduces fuel consumption by
+  //         30,000 tons and emissions by 13,000 tons. An Environmental and Social
+  //         Management Plan, prepared in November 2012, describes mitigation
+  //         measures to minimize possible negative impacts on the climate and
+  //         surrounding environment. For example, a detailed tree survey
+  //         documented the species, age, height, and condition of all trees, with
+  //         at least one-to-one replacement where felling was required.
+  //         <br />
+  //         <br />
+  //         <strong>QII.4 Resilience</strong>
+  //         <br />
+  //         The tunnel features seismic-resistant engineering suited to Istanbul's
+  //         earthquake risk. Two seismic joints provide 3-dimensional flexibility
+  //         in case of an earthquake. The tunnel entrance was elevated to E.L.+
+  //         6m, and discharge pumps were installed at the entrance and exit with
+  //         total capacity sized for tsunami risk.
+  //       </>
+  //     ),
+  //   },
+  //   References: {
+  //     value: "12",
+  //     desc: "Global references",
+  //     country: "Global",
+  //     title: "References",
+  //     description: "Recognized by multiple international organizations.",
+  //   },
+  // };
+  // const tabData2 = {
+  //   "Sustainable Development Objectives": {
+  //     value: "210M",
+  //     desc: "Hours of travel time saved",
+  //     country: "Eurasia Tunnel, Türkiye",
+  //     title: "Sustainable Development Objectives",
+  //     description: (
+  //       <>
+  //         The Eurasia Tunnel, one of the first projects globally to achieve Blue
+  //         Dot Network certification, is an engineering landmark that connects
+  //         two continents in just 5 minutes. Over its first 8 years of operation
+  //         (2016-2024), the tunnel has saved commuters 210 million hours of
+  //         travel time while improving road safety. The project aims to cut fuel
+  //         consumption by 129,000 tons and CO<sub>2</sub> emissions by 50,000
+  //         tons over its operational lifetime.{" "}
+  //       </>
+  //     ),
+  //   },
+  // };
+  // const tabData3 = {
+  //   "Sustainable Development Objectives": {
+  //     value: "210M",
+  //     desc: "Hours of travel time saved",
+  //     country: "Eurasia Tunnel, Türkiye",
+  //     title: "Sustainable Development Objectives",
+  //     description:
+  //       "The Eurasia Tunnel, one of the first projects globally to achieve Blue Dot Network certification, is an engineering landmark that connects two continents in just 5 minutes. Over its first 8 years of operation (2016-2024), the tunnel has saved commuters 210 million hours of travel time while improving road safety.  The project aims to cut fuel consumption by 129,000 tons and CO2 emissions by 50,000 tons over its operational lifetime. ",
+  //   },
+  // };
 
-  const allData = [tabData1, tabData2, tabData3];
+  // const allData = [tabData1, tabData2, tabData3];
 
   const [activeTab, setActiveTab] = useState(0);
   const [fade, setFade] = useState(true);
 
+  useEffect(() => {
+    setActiveTab(0);
+  }, [currentCard]);
+
   const handleTabClick = (tab) => {
     setActiveTab(tab);
-    // if (tab === activeTab) return;
-    // setFade(false);
-    // setTimeout(() => {
-    //   setFade(true);
-    // }, 300);
   };
 
-  const content = allData[currentCard]?.[activeTab];
+  // const content = allData[currentCard]?.[activeTab];
 
   const step1Cards = [
     {
@@ -1164,7 +1163,7 @@ export default function QII1LandingPage() {
           promote private sector engagement, and support job creation.
         </>
       ),
-      type: "Guidance note",
+      type: "Guidance Note",
       paths: "https://ppp.worldbank.org/tools",
       showButton: true,
     },
@@ -1383,7 +1382,7 @@ export default function QII1LandingPage() {
                   {/* {data.map((d) => {
                     return (
                       <div className={`ico-text-card-3`}> */}
-                  
+
                   {data.map((d, index) => {
                     return (
                       <div key={index} className="ico-text-card-3">

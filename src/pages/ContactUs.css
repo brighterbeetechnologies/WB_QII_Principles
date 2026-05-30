@@ -45,7 +45,7 @@
 }
 
 .contact-card .role {
-  color: #00a996;
+  /* color: #00a996; */
   font-size: 1.2rem;
   font-weight: 900;
 }
@@ -63,7 +63,7 @@
 
 .contact-card .org {
   font-size: 1rem;
-  color: #00a996;
+  /* color: #00a996; */
 }
 
 .contact-card .email {

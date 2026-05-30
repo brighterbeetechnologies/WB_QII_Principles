@@ -56,7 +56,7 @@ export default function Policies_Standards_Regulation() {
           Asian Development Bank
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source",
       content: (
         <p>
@@ -86,7 +86,7 @@ export default function Policies_Standards_Regulation() {
           JICA
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.jica.go.jp/Resource/english/our_work/thematic_issues/social/c8h0vm00005znamu-att/guideline_social_01.pdf",
       content: (
         <p>
@@ -109,7 +109,7 @@ export default function Policies_Standards_Regulation() {
           <br /> World Bank ​
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://openknowledge.worldbank.org/entities/publication/63c07ff8-cd1e-52c0-9441-005b9aa22bcf",
       content: (
         <p>
@@ -139,7 +139,7 @@ export default function Policies_Standards_Regulation() {
           <br /> World Bank
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
       content: (
         <p>
@@ -222,7 +222,7 @@ export default function Policies_Standards_Regulation() {
           GI Hub​
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
       content: (
         <p>
@@ -360,7 +360,7 @@ export default function Policies_Standards_Regulation() {
           Organisation for Economic Co-operation and Development​
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.oecd.org/en/publications/oecd-principles-for-private-sector-participation-in-infrastructure_9789264034105-en.html",
       content: (
         <p>

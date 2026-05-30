@@ -90,7 +90,7 @@ export default function Project_Planning_And_Design() {
           <br /> The Centre of Expertise
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://ukgreencitiesandinfrastructure.org/resource/inclusivity-in-procurement/",
       content: (
         <p>
@@ -144,7 +144,7 @@ export default function Project_Planning_And_Design() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://ppp.worldbank.org/sub-national-ppp/bidding-documents-and-contractual-provisions-regarding-inclusion-smes-ppps?utm",
       content: (
         <p>
@@ -264,7 +264,7 @@ export default function Project_Planning_And_Design() {
           World Bank​
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://openknowledge.worldbank.org/handle/10986/37259",
       content: (
         <p>

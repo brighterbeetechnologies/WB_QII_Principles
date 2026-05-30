@@ -93,7 +93,7 @@ const Footer = () => {
                   Case Studies
                 </a>
               </li>
-             <li>
+             {/* <li>
                 <a
                   href="#"
                   onClick={(e) => {
@@ -104,16 +104,16 @@ const Footer = () => {
                         resourceCategory: {
                           show: true,
                           category: "Media Type",
-                          title: "Guidance note",
+                          title: "Guidance Note",
                           id: 2,
                         },
                       },
                     });
                   }}
                 >
-                  Guidance note
+                  Guidance Note
                 </a>
-              </li>
+              </li> */}
               {/* <li>
                 <a href="#" className="disable-link">Tools </a>
               </li> */}
@@ -160,7 +160,8 @@ const Footer = () => {
             <ul>
               <li>
                 <a
-                  href="https://www.worldbank.org/en/programs/quality-infrastructure-investment-partnership/brief/the-qii-partnership-team"
+                href="https://www.worldbank.org/en/programs/quality-infrastructure-investment-partnership"
+                  // href="https://www.worldbank.org/en/programs/quality-infrastructure-investment-partnership/brief/the-qii-partnership-team"
                   target="_blank"
                   rel="noopener"
                 >

@@ -116,7 +116,7 @@ export const appDataSlice = createSlice({
     format: [
       { id: 0, title: "Video" },
       { id: 1, title: "Case Study" },
-      { id: 2, title: "Guidance note" },
+      { id: 2, title: "Guidance Note" },
       // { id: 3, title: "Tool" },
       { id: 4, title: "Data" },
       { id: 5, title: "Report" },
@@ -135,7 +135,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://ppp.worldbank.org/tools",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: PPP Resource Center - Tools",
         principles: 1,
         highlight: 0,
@@ -155,7 +155,7 @@ export const appDataSlice = createSlice({
       //   id: 1,
       //   paths:
       //     "https://content.unops.org/publications/Infrastructure_underpining_sustainable_development_EN.pdf",
-      //   type: "Guidance note",
+      //   type: "Guidance Note",
       //   title: "Report",
       //   principles: 1,
       //   highlight: 0,
@@ -178,7 +178,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "pdf/Revised_Draft_Practice_Manual_LCC_with_sector_specific_guidance_15_Oct_2022.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Combined Cycle Power Plant",
         principles: 1,
         highlight: 0,
@@ -197,7 +197,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://ppp.worldbank.org/sites/default/files/2024-08/PPP Reference Guide Version 3.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: PPP Reference Guide",
         principles: 1,
         highlight: 0,
@@ -251,7 +251,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/library/life-cycle-cost-analysis-management-highway-assets",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Life-Cycle Cost Analysis for Management of Highway Assets",
         principles: 1,
@@ -1026,7 +1026,7 @@ export const appDataSlice = createSlice({
         rId: 43,
         id: 1,
         paths: "https://www.gihub.org/infrastructure-output-specifications/",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Reference Guide on Output Specifications for Quality Infrastructure",
         principles: 1,
@@ -1045,7 +1045,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/Innovative_Revenues_Infrastructure/Table_of_Contents",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Innovative Revenues for Infrastructure Guidelines",
         principles: 1,
         highlight: 0,
@@ -1063,7 +1063,7 @@ export const appDataSlice = createSlice({
         id: 1,
         paths:
           "https://cdn.gihub.org/umbraco/media/3061/world-bank-group-s-reference-note-on-infratech-toolkit.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: InfraTech Policy Toolkit",
         principles: 1,
         highlight: 0,
@@ -1141,7 +1141,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://www.adb.org/sites/default/files/publication/1089246/carbon-emission-road-investments.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Investigating Life Cycle Carbon Emission Impact of Road Investments",
         principles: 2,
@@ -1817,7 +1817,7 @@ export const appDataSlice = createSlice({
         rId: 76,
         id: 3,
         paths: "https://www.unep.org/geo/global-environment-outlook-7",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global Environment Outlook (GEO-7) UNEP",
         principles: 2,
         highlight: 0,
@@ -1835,7 +1835,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://www.ifc.org/content/dam/ifc/doc/2023/building-green-sustainable-construction-in-emerging-markets.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Building Green: Sustainable Construction in Emerging Markets",
         principles: 2,
@@ -1855,7 +1855,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://wedocs.unep.org/rest/api/core/bitstreams/979a0cdb-3d3e-4f4a-b899-96c97f412d0d/content",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Green Infrastructure - Guide for Water Management",
         principles: 2,
         highlight: 0,
@@ -1876,7 +1876,7 @@ export const appDataSlice = createSlice({
         //   "https://www.unpri.org/infrastructure/integrating-biodiversity-considerations-into-infrastructure/11611.article",
         paths:
           "https://public.unpri.org/download?ac=20180",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: UN Principles for Responsible Investment: Integrating Biodiversity Considerations into Infrastructure",
         principles: 2,
@@ -1894,7 +1894,7 @@ export const appDataSlice = createSlice({
         rId: 80,
         id: 3,
         paths: "https://climateinstitute.edhec.edu/climatech-project",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Reducing Infrastructure Climate Risk Through Technology Measures",
         principles: 2,
@@ -1954,7 +1954,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://cdri.world/upload/biennial/CDRI_Global_Infrastructure_Resilience_Report.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Infrastructure Standards – Building Blocks for a Resilient Future",
         principles: 2,
@@ -2012,7 +2012,7 @@ export const appDataSlice = createSlice({
         id: 3,
         paths:
           "https://documents1.worldbank.org/curated/en/102951623742853259/pdf/Green-Roads-for-Water-Guidelines-for-Road-Infrastructure-in-Support-of-Water-Management-and-Climate-Resilience.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Green Roads for Water",
         principles: 2,
         highlight: 0,
@@ -2202,7 +2202,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099032625173042760",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Disaster and Climate-Resilient Transport",
         highlight: 0,
         target: "_blank",
@@ -2855,7 +2855,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.theprif.org/sites/theprif.org/files/documents/PRIF_SLR-Report_DigitalV2.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Cross-Regional: Initial Sea Level Rise Risk Assessment for Nauru",
         highlight: 0,
@@ -2875,7 +2875,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099050525150011892",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport ",
         highlight: 0,
@@ -2895,7 +2895,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.gfdrr.org/en/publication/building-regulatory-capacity-assessment-brca-20-methodology",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Building Regulatory Capacity Assessment",
         highlight: 0,
         target: "_blank",
@@ -2914,7 +2914,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.gfdrr.org/en/feature-story/assessing-benefits-and-costs-nature-based-solutions",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Assessing the Benefits and Costs of Nature-Based Solutions for Climate Resilience: A Guideline for Project Developers (GFDRR)",
         highlight: 0,
@@ -2934,7 +2934,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.iigcc.org/hubfs/2025%20resources%20upload/Physical%20Climate%20Risk%20Appraisal%20Methodology%202.0%20IIGCC%202025.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Physical Climate Risk Appraisal Methodology (PCRAM)",
         highlight: 0,
         target: "_blank",
@@ -2953,7 +2953,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Cybersecurity Best Pactice for Smart Cities (CISA)",
         highlight: 0,
         target: "_blank",
@@ -2972,7 +2972,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.cyber.gc.ca/en/guidance/introduction-cyber-threat-environment",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Canada: The Cyber Threat Environment",
         highlight: 0,
         target: "_blank",
@@ -2990,7 +2990,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.gfdrr.org/sites/default/files/publication/Learning%20from%20Megadisasters%20%20Lessons%20from%20the%20Great%20East%20Japan%20Earthquake.pdf",
-        type: "Guidance note​",
+        type: "Guidance Note​",
         title:
           "Global: Learning from Megadisasters: Lessons from the Great East Japan Earthquake: Ranghieri, Federica, and Mikio Ishiwatari, eds. 2014",
         highlight: 0,
@@ -3008,7 +3008,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.cisa.gov/sites/default/files/2023-04/cybersecurity-best-practices-for-smart-cities_508.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Cybersecurity Assessment Toolkit for Smart Cities",
         highlight: 0,
         target: "_blank",
@@ -3026,7 +3026,7 @@ export const appDataSlice = createSlice({
         rId: 226,
         id: 1,
         paths: "https://gca.org/reports/climate-resilient-infrastructure-officer-handbook/",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Climate-Resilient Infrastructure Handbook",
         principles: 3,
         highlight: 0,
@@ -3043,7 +3043,7 @@ export const appDataSlice = createSlice({
         rId: 228,
         id: 1,
         paths: "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099532403022610169",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Design Principles for Resilient Low Volume Roads",
         principles: 3,
         highlight: 0,
@@ -3060,7 +3060,7 @@ export const appDataSlice = createSlice({
         rId: 229,
         id: 1,
         paths: "https://gca.org/scaling-investments-in-nbs-for-climate-resilient-infra/",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Global Tool for Nature-based Solutions",
         principles: 3,
         highlight: 0,
@@ -3305,7 +3305,7 @@ export const appDataSlice = createSlice({
       //   id: 4,
       //   paths:
       //     "https://gca.org/reports/climate-resilient-infrastructure-officer-handbook/",
-      //   type: "Guidance note",
+      //   type: "Guidance Note",
       //   title: "",
       //   highlight: 0,
       //   target: "_blank",
@@ -3323,7 +3323,7 @@ export const appDataSlice = createSlice({
       //   id: 4,
       //   paths:
       //     "https://gca.org/reports/climate-resilient-infrastructure-officer-handbook/",
-      //   type: "Guidance note",
+      //   type: "Guidance Note",
       //   title: "",
       //   highlight: 0,
       //   target: "_blank",
@@ -3755,7 +3755,7 @@ export const appDataSlice = createSlice({
       // {
       //   id: 4,
       //   paths: "https://openknowledge.worldbank.org/handle/10986/21875",
-      //   type: "Guidance note",
+      //   type: "Guidance Note",
       //   title:
       //     "Climate Impact Assessment Frameworks (Africa Infrastructure Example) ",
       //   highlight: 0,
@@ -3836,7 +3836,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/10050-PPP-Gender-Toolkit-1.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: PPP Gender Toolkit",
         highlight: 0,
         target: "_blank",
@@ -3854,7 +3854,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Inclusive Infrastructure Toolkit",
         highlight: 0,
         target: "_blank",
@@ -3889,7 +3889,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://ppp.worldbank.org/sub-national-ppp/bidding-documents-and-contractual-provisions-regarding-inclusion-smes-ppps?utm",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Bidding Documents and Contractual Provisions for Inclusion",
         highlight: 0,
@@ -3908,7 +3908,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.jica.go.jp/Resource/english/our_work/thematic_issues/social/c8h0vm00005znamu-att/guideline_social_01.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: JICA Thematic Guidelines for Inclusive Development, including Universal Design",
         highlight: 0,
@@ -4134,7 +4134,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://social.desa.un.org/issues/disability/crpd/article-9-accessibility",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Universal Design Principles - Convention on the Rights of Persons with Disabilities (CRPD) Article 9 ",
         highlight: 0,
@@ -4153,7 +4153,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://ukgreencitiesandinfrastructure.org/resource/inclusivity-in-procurement/",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "United Kingdom: UK Green Cities & Infrastructure (ICED) Facility",
         highlight: 0,
@@ -4173,7 +4173,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://ppp.worldbank.org/public-private-partnership/sites/default/files/2022-04/desk-review-final-063021.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Mainstreaming Gender in Infrastructure: Desk Review",
         highlight: 0,
         target: "_blank",
@@ -4191,7 +4191,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.adb.org/sites/default/files/publication/945851/gesi-analysis-adb-cps-south-asia-guidance-note.pdf?utm_source",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Cross-Regional: Gender Equality and Social Inclusion (GESI) Guidance for Infrastructure",
         highlight: 0,
@@ -4211,7 +4211,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://openknowledge.worldbank.org/entities/publication/63c07ff8-cd1e-52c0-9441-005b9aa22bcf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Handbook for Gender-Inclusive Urban Planning and Design",
         highlight: 0,
@@ -4231,7 +4231,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/policy-regulation-and-standards/",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Inclusive Infrastructure – Policy, Regulation & Standards",
         highlight: 0,
@@ -4251,7 +4251,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://www.oecd.org/en/publications/oecd-principles-for-private-sector-participation-in-infrastructure_9789264034105-en.html",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: OECD Principles for Private Sector Participation in Infrastructure",
         highlight: 0,
@@ -4270,7 +4270,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://inclusiveinfra.gihub.org/action-areas/stakeholder-identification-engagement-and-empowerment",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: `Global: Inclusive Infrastructure “Data Collection and Stakeholder Identification”`,
         highlight: 0,
         target: "_blank",
@@ -4287,7 +4287,7 @@ export const appDataSlice = createSlice({
         rId: 188,
         id: 4,
         paths: "https://openknowledge.worldbank.org/handle/10986/37259",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Silver Hues",
         highlight: 0,
         target: "_blank",
@@ -4304,7 +4304,7 @@ export const appDataSlice = createSlice({
         id: 4,
         paths:
           "https://infrastructure-toolkit.oecd.org/governance/ensure-transparent-systematic-and-effective-stakeholder-participation/",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: OECD Infrastructure Toolkit",
         highlight: 0,
         target: "_blank",
@@ -4574,7 +4574,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://www.elibrary.imf.org/display/book/9781513571829/CH006.xml",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Public Investment Management Assessment​",
         highlight: 0,
         target: "_blank",
@@ -4797,7 +4797,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/08/effective-multi-level-public-investment_4bcedf6d/c3bc625b-en.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Effective Multi-Level Public Investment​",
         highlight: 0,
         target: "_blank",
@@ -4816,7 +4816,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://infrastructuretransparency.org/wp-content/uploads/2024/03/WIN-COST-IDB_Brief_InfraPlanning_2023_v4_ok.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Cost Infrastructure Transparency Initiative",
         highlight: 0,
         target: "_blank",
@@ -4834,7 +4834,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/Publications/pubdocuments/OECD_IMF_RefNoteGovernanceofQualityInfrastructureInvestment.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Governance of Quality Infrastructure Investment",
         highlight: 0,
         target: "_blank",
@@ -4853,7 +4853,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://www.uncclearn.org/wp-content/uploads/2021/12/Session-1b-UNEP_Integrated-Approaches-in-Action.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title: "Global: Integrated Approaches in Action",
         highlight: 0,
         target: "_blank",
@@ -4871,7 +4871,7 @@ export const appDataSlice = createSlice({
       //   id: 5,
       //   paths:
       //     "https://thedocs.worldbank.org/en/doc/96550c14d62154355b6edc367d4d7f33-0080012021/original/Infrastructure-Governance-Assessment-Framework-December-2020.pdf",
-      //   type: "Guidance note",
+      //   type: "Guidance Note",
       //   title: "Global: InfraGov Assessment Framework",
       //   highlight: 0,
       //   target: "_blank",
@@ -4890,7 +4890,7 @@ export const appDataSlice = createSlice({
         id: 5,
         paths:
           "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/07/oecd-implementation-handbook-for-quality-infrastructure-investment_b9131199/479131b2-en.pdf",
-        type: "Guidance note",
+        type: "Guidance Note",
         title:
           "Global: Implementation Handbook for Quality Infrastructure Investment",
         highlight: 0,
@@ -4908,7 +4908,7 @@ export const appDataSlice = createSlice({
       //   id: 5,
       //   paths:
       //     "https://www.sipotra.it/wp-content/uploads/2020/09/WELL-SPENT-How-Strong-Infrastructure-Governance-Can-End-Waste-in-Public-Investment.pdf",
-      //   type: "Guidance note",
+      //   type: "Guidance Note",
       //   title: "Global: Well Spent",
       //   highlight: 0,
       //   target: "_blank",

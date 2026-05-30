@@ -34,7 +34,7 @@ export default function CostRecovery() {
       title:
         "Global: Life-Cycle Cost Analysis for Management of Highway Assets",
       // org: "World Bank",
-      type: "Guidance note",
+      type: "Guidance Note",
       description:
         "This report contains an inventory of quantitative processes and models for predicting LCC associated with highway assets.",
       img_path: "images/costRecovery/resources/02.png",
@@ -198,7 +198,7 @@ export default function CostRecovery() {
           World Bank
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://ppp.worldbank.org/public-private-partnership/Innovative_Revenues_Infrastructure/Table_of_Contents",
       content: (
         <p>
@@ -268,7 +268,7 @@ export default function CostRecovery() {
           GFDRR
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.gfdrr.org/sites/default/files/publication/Land Value Capture.pdf",
       content: (
         <p>

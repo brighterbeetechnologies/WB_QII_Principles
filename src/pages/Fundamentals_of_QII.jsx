@@ -400,12 +400,15 @@ export default function Fundamentals_of_QII() {
         {/* mobile */}
         <div className="qii-generations-mobile">
           <div className="qii-generation-container-mobile">
-            <div className="qii-generation-description-mobile-left"></div>
-            <div className="qii-generation-image-mobile qii-generation-image-mobile-1">
-              <img src="images/fundamentals_of_qii/new/Timeline01.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-1">
+            {/* <div className="qii-generation-description-mobile-left"></div> */}
+            <div className="qii-generation-image-mobile">
+              <img
+                src="images/fundamentals_of_qii/new/1/Timeline01.png"
+                alt=""
+              />
+              {/* <div className="timeline-circle-1-mobile timeline-circle-1-mobile-1">
                 2015
-              </div>
+              </div> */}
             </div>
             <div className="qii-generation-description-mobile-right">
               Japan announces the Partnership for Quality Infrastructure,
@@ -413,26 +416,33 @@ export default function Fundamentals_of_QII() {
             </div>
           </div>
           <div className="qii-generation-container-mobile">
-            <div className="qii-generation-description-mobile-left">
+            {/* <div className="qii-generation-description-mobile-left"></div> */}
+            <div className="qii-generation-image-mobile">
+              <img
+                src="images/fundamentals_of_qii/new/1/Timeline02.png"
+                alt=""
+              />
+              {/* <div className="timeline-circle-1-mobile timeline-circle-1-mobile-2">
+                2016
+              </div> */}
+            </div>
+            <div className="qii-generation-description-mobile-right">
+              {" "}
               G7 leaders endorse principles for quality infrastructure at the
               Ise-Shima Summit; World Bank and Japan establish the QII
               Partnership to put them into practice
             </div>
-            <div className="qii-generation-image-mobile qii-generation-image-mobile-2">
-              <img src="images/fundamentals_of_qii/new/Timeline02.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-2">
-                2016
-              </div>
-            </div>
-            <div className="qii-generation-description-mobile-right"></div>
           </div>
           <div className="qii-generation-container-mobile">
-            <div className="qii-generation-description-mobile-left"></div>
-            <div className="qii-generation-image-mobile qii-generation-image-mobile-3">
-              <img src="images/fundamentals_of_qii/new/Timeline03.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-3">
+            {/* <div className="qii-generation-description-mobile-left"></div> */}
+            <div className="qii-generation-image-mobile">
+              <img
+                src="images/fundamentals_of_qii/new/1/Timeline03.png"
+                alt=""
+              />
+              {/* <div className="timeline-circle-1-mobile timeline-circle-1-mobile-3">
                 2019
-              </div>
+              </div> */}
             </div>
             <div className="qii-generation-description-mobile-right">
               G20 adopts six QII Principles at the Osaka Summit, extending the
@@ -441,25 +451,31 @@ export default function Fundamentals_of_QII() {
             </div>
           </div>
           <div className="qii-generation-container-mobile">
-            <div className="qii-generation-description-mobile-left">
+            {/* <div className="qii-generation-description-mobile-left"></div> */}
+            <div className="qii-generation-image-mobile">
+              <img
+                src="images/fundamentals_of_qii/new/1/Timeline04.png"
+                alt=""
+              />
+              {/* <div className="timeline-circle-1-mobile timeline-circle-1-mobile-4">
+                2021
+              </div> */}
+            </div>
+            <div className="qii-generation-description-mobile-right">
               OECD publishes implementation guidance to help governments
               operationalize QII across the project lifecycle
             </div>
-            <div className="qii-generation-image-mobile qii-generation-image-mobile-4">
-              <img src="images/fundamentals_of_qii/new/Timeline04.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-4">
-                2021
-              </div>
-            </div>
-            <div className="qii-generation-description-mobile-right"></div>
           </div>
           <div className="qii-generation-container-mobile">
-            <div className="qii-generation-description-mobile-left"></div>
-            <div className="qii-generation-image-mobile qii-generation-image-mobile-5">
-              <img src="images/fundamentals_of_qii/new/Timeline05.svg" alt="" />
-              <div className="timeline-circle-1-mobile timeline-circle-1-mobile-5">
+            {/* <div className="qii-generation-description-mobile-left"></div> */}
+            <div className="qii-generation-image-mobile">
+              <img
+                src="images/fundamentals_of_qii/new/1/Timeline05.png"
+                alt=""
+              />
+              {/* <div className="timeline-circle-1-mobile timeline-circle-1-mobile-5">
                 Today
-              </div>
+              </div> */}
             </div>
             <div className="qii-generation-description-mobile-right">
               The QII Partnership is at the heart of integrating the QII

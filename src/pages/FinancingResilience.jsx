@@ -56,7 +56,7 @@ export default function FinancingResilience() {
       rId: 125,
       id: 1,
       // country: "Global",
-      type: "Guidance note",
+      type: "Guidance Note",
       title:
         "Global: Sub-sectoral Roadmaps to Promote Private Sector Participation in Transport Resilience: Roads, Railways, and Urban Transport",
       // org: "World Bank",
@@ -99,7 +99,7 @@ export default function FinancingResilience() {
     {
       rId: 229,
       id: 3,
-      type: "Guidance note",
+      type: "Guidance Note",
       title: "Global: Global Tool for Nature-based Solutions",
       // org: "Coalition for Disaster Resilient Infrastructure",
       description:

@@ -319,3 +319,14 @@
     width: 90vw;
   }
 }
+
+
+@media (max-width: 400px) {
+  .box-card {
+    border-radius: 22px;
+  }
+  .page-resource-description {
+    padding: 1rem 1rem 3rem 1rem;
+  }
+}
+

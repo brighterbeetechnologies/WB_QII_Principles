@@ -13,10 +13,10 @@
   padding: 8rem 7rem 0rem 7rem;
 }
 
-.site-map-qii-img {
+/* .site-map-qii-img {
   width: 92%;
   margin: 0 auto;
-}
+} */
 
 .site-map-header {
   display: flex;
@@ -111,6 +111,7 @@
   justify-content: center;
   position: relative;
   margin-top: 1rem;
+  font-size: 0.8rem;
 }
 
 .qii-site-cs-links::before {
@@ -129,6 +130,10 @@
   padding: 0 0.5rem;
 }
 
+.qii-site-cs-links-qii1 {
+  text-align: center;
+}
+
 .btn-arrow-txt-2 {
   display: flex;
   margin: 0 auto;
@@ -144,6 +149,65 @@
   gap: 0.5rem;
   font-size: 0.9rem;
   width: 100%;
+}
+
+.site-map-qii-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.site-map-qii-img {
+  width: 100%;
+  display: block;
+}
+
+.qii-hotspot {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.qii-hotspot-1 {
+  top: 31%;
+  left: 0%;
+  width: 8.5%;
+  height: 69%;
+}
+
+.qii-hotspot-2 {
+  top: 31%;
+  left: 18%;
+  width: 9%;
+  height: 70%;
+}
+
+.qii-hotspot-3 {
+  top: 29%;
+  left: 36.6%;
+  width: 8.5%;
+  height: 71%;
+}
+
+.qii-hotspot-4 {
+  top: 30%;
+  left: 55%;
+  width: 8.6%;
+  height: 70%;
+}
+
+.qii-hotspot-5 {
+  top: 29%;
+  left: 73.1%;
+  width: 8.8%;
+  height: 71%;
+}
+
+.qii-hotspot-6 {
+  top: 29%;
+  left: 91.5%;
+  width: 8.5%;
+  height: 72%;
 }
 
 @media (max-width: 1130px) {
@@ -200,10 +264,29 @@
     margin-top: 2rem;
     width: 100%;
     padding: 0 1rem;
+    position: relative;
   }
   .qii-site-map-principles img {
     width: calc(100% / 6);
   }
+
+  .qii-site-map-timeline {
+    position: absolute;
+    width: 150%;
+    height: 2%;
+    background-color: #a8abac;
+    top: -16%;
+  }
+
+  .qii-site-map-progress {
+    position: absolute;
+    top: -17%;
+    height: 5px;
+    transition: all 0.4s ease;
+    border-radius: 2rem;
+    z-index: 1;
+  }
+
   .qii-content-section {
     width: 100%;
     /* background-color: #ceecf7; */

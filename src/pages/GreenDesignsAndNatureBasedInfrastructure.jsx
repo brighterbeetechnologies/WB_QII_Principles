@@ -115,7 +115,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </p>
       ),
       // badgeText: "Water",
-      buttonText: "Guidance note – Water",
+      buttonText: "Guidance Note – Water",
       link: "https://wedocs.unep.org/rest/api/core/bitstreams/979a0cdb-3d3e-4f4a-b899-96c97f412d0d/content",
       content: (
         <p>
@@ -140,7 +140,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
         </p>
       ),
       // badgeText: "Transport",
-      buttonText: "Guidance note – Transport",
+      buttonText: "Guidance Note – Transport",
       link: "https://documents1.worldbank.org/curated/en/102951623742853259/pdf/Green-Roads-for-Water-Guidelines-for-Road-Infrastructure-in-Support-of-Water-Management-and-Climate-Resilience.pdf",
       content: (
         <p>
@@ -192,7 +192,7 @@ export default function GreenDesignsAndNatureBasedInfrastructure() {
           UN PRI
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://public.unpri.org/download?ac=20180",
       content: (
         <p>

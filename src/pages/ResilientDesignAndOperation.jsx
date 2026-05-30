@@ -22,7 +22,7 @@ export default function ResilientDesignAndOperation() {
       rId: 226,
       // country: "Global",
       title: "Global: Climate-Resilient Infrastructure Handbook",
-      type: "Guidance note",
+      type: "Guidance Note",
       // subTitle: "International Institute for Sustainable Development",
       description:
         "The handbook provides tools and knowledge on how to integrate climate resilience throughout the PPP project cycle.",
@@ -46,7 +46,7 @@ export default function ResilientDesignAndOperation() {
       rId: 228,
       // country: "Global",
       title: "Global: Design Principles for Resilient Low Volume Roads",
-      type: "Guidance note",
+      type: "Guidance Note",
       // subTitle: "International Institute for Sustainable Development",
       description:
         "The purpose of this guide is to support preliminary conceptual approaches and systematically promote climate resilience into the full lifecycle of low volume roads— from identification and planning through design, construction, maintenance, and eventual asset decommission.",
@@ -242,7 +242,7 @@ export default function ResilientDesignAndOperation() {
           GFDRR
         </p>
       ),
-      buttonText: "Guidance note",
+      buttonText: "Guidance Note",
       link: "https://www.gfdrr.org/en/publication/building-regulatory-capacity-assessment-brca-20-methodology",
       content: (
         <p>
