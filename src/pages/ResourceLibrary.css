@@ -326,13 +326,20 @@
 .search-box button {
   width: 36px;
   height: 36px;
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
+  background-color: #ffff;
   border: none;
-  color: #fff;
+  /* color: #fff; */
+  color: var(--color-primary);
   border-radius: 50%;
   position: absolute;
   right: 2px;
   top: 2px;
+}
+
+.search-box button:hover {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .resource-card-container {

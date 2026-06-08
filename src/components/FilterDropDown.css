@@ -34,7 +34,8 @@
   z-index: 1000;
   display: flex;
   width: 100%;
-  gap: 10px;
+  /* gap: 10px; */
+  gap: 1.5rem;
   flex-wrap: wrap;
   max-width: 100%;
 }
@@ -59,7 +60,7 @@
 }
 
 .category-cnt {
-  width: 16%;
+  width: 18%;
 }
 
 .filter-dropdown_category {
@@ -113,8 +114,12 @@
   .filter-dropdown_menu {
     width: 100%;
   }
-  .filter-dropdown_item {
-    /* width: 300px; */
+  /* .filter-dropdown_item {
+    width: 300px;
+  } */
+
+  .category-cnt {
+    width: 20%;
   }
 }
 
@@ -128,5 +133,11 @@
   .filter-dropdown_item,
   .category-cnt {
     width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .category-cnt {
+    width: 50%;
   }
 }

@@ -688,7 +688,7 @@ export default function ResilientDesignAndOperation() {
       <section className="color-dark" id="qii4-RDO-section10">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
-            Further Reading On Resilient Design and Operation
+            Further Reading on Resilient Design and Operation
           </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (

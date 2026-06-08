@@ -572,7 +572,7 @@ export default function CostRecovery() {
       <section className="color-dark" id="qii2-costRecovery-section6">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
-            Further Reading On Cost Recovery
+            Further Reading on Cost Recovery
           </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (

@@ -107,7 +107,7 @@ export default function FAQ() {
     <section className="color-dark">
     <main className="main-content faq-page">
       <div className="left-panel">
-        <h1 className="faq-title">FAQ</h1>
+        <h1 className="faq-title">FAQs</h1>
         <p className="faq-description">
           Find quick answers to common questions about the Quality
           Infrastructure Investment (QII) Reference Guide.

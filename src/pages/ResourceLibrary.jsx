@@ -232,37 +232,6 @@ export default function ResourceLibrary({ subPages, preSelected }) {
           </div>
           {slides.length > 0 && (
             <>
-              {/* <div className="resource-carousel-footer">
-                <button
-                  className={`resource-carousel-btn icon-back ${
-                    index === 0 ? "disabled" : ""
-                  }`}
-                  onClick={() => goToSlide(index - 1)}
-                  disabled={index === 0}
-                >
-                  &#xe90e;
-                </button>
-                <div className="resource-carousel-dots">
-                  {slides.map((_, i) => (
-                    <span
-                      key={i}
-                      className={`dot ${i === index ? "active" : ""}`}
-                      onClick={() => goToSlide(i)}
-                    />
-                  ))}
-                </div>
-                <button
-                  className={`resource-carousel-btn icon-next ${
-                    index === slides.length - 1 || slides.length == 0
-                      ? "disabled"
-                      : ""
-                  }`}
-                  onClick={() => goToSlide(index + 1)}
-                  disabled={index === slides.length - 1 || slides.length == 0}
-                >
-                  &#xe90d;
-                </button>
-              </div> */}
               <ConfigProvider
                 theme={{
                   token: {
@@ -282,11 +251,13 @@ export default function ResourceLibrary({ subPages, preSelected }) {
                   showPrevNextJumpers={false}
                   total={slides?.length}
                   showSizeChanger={false}
+                  showTitle={false}
                   //   current={index}
                   onChange={(data) => {
                     setResourceCurrentPage(data)
                     goToSlide(data - 1);
                   }}
+
                   current={resourceCurrentPage}
                   className="resource-pagination"
                 />

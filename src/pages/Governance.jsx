@@ -451,7 +451,7 @@ export default function Governance() {
       <section className="color-light" id="qii2-governance-section7">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
-            Further Reading On Governance
+            Further Reading on Governance
           </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (

@@ -7,9 +7,9 @@ import ResourceLibrary from "./ResourceLibrary";
 import TopResourceCard from "../components/TopResourceCard";
 import { useDispatch } from "react-redux";
 import {
-	setBradcrump,
-	setShowVideo,
-	setVideoData,
+  setBradcrump,
+  setShowVideo,
+  setVideoData,
 } from "../slices/appDataSlice";
 import CardBox from "../components/CardBox";
 import { Popover, Tooltip } from "antd";
@@ -20,99 +20,99 @@ import Video from "../components/Video";
 import { updateCardClick } from "../utils/cardRanking";
 
 export default function QII2LandingPage() {
-	const dispatch = useDispatch();
-	const navigate = useNavigate();
-	const location = useLocation();
-	const [preSelectedResources, setPreSelectedResources] = useState([
-		{
-			show: true,
-			category: "QII Principle",
-			title: "QII.2 Economic Efficiency",
-			id: 1,
-		},
-	]);
-	const resourceArray = [
-		{
-			rId: 8,
-			id: 0,
-			title: "India: Ganga River Wastewater Program",
-			country: false,
-			org: false,
-			highlight: 1,
-			description:
-				"Summarizes a procurement approach where annuity payments were linked to long-term O&M performance.",
-			img_path: "images/qii2/Ganga_case_study.png",
-			path: "/qii2casestudy2",
-			target: "_self",
-		},
-		{
-			rId: 9,
-			id: 1,
-			title:
-				"Global: Assessing Economic Efficiency of Long-Term Road Asset Management Strategies",
-			// country: "Multi-country",
-			// org: "World Bank",
-			description:
-				"Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
-			img_path: "images/governance/list/05.jpg",
-			path: "https://documents1.worldbank.org/curated/en/099235011182219257/pdf/P1679330af035007e0829505bcfd724025b.pdf",
-			target: "_blank",
-		},
-		{
-			rId: 10,
-			id: 2,
-			title: "Global: Life-Cycle Costing in Public Procurement in Hungary",
-			// country: "Hungary",
-			// org: "Organisation for Economic Co-operation and Development",
-			description:
-				"Analyzes Hungary's policy framework and current practices and provides recommendations for promoting LCC adoption in public procurement.",
-			img_path: "images/governance/list/01.jpg",
-			path: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/10/life-cycle-costing-in-public-procurement-in-hungary_90b7465a/8d90f627-en.pdf",
-			target: "_blank",
-		},
-	];
-	const textCrData = [
-		{
-			id: 0,
-			icon: "&#xe919;",
-			text: "Inadequate government budgets that fail to account for O&M costs, or a lack of funding for operations due to weak tariff/pricing.",
-		},
-		{
-			id: 0,
-			icon: "&#xe922;",
-			text: "Organizational constraints holding back efficient infrastructure asset management. This can include a lack of skills, accountabilities, and unclear roles and responsibilities.",
-		},
-		{
-			id: 0,
-			icon: "&#xe921;",
-			text: "The political attractiveness of building new rather than maintaining existing infrastructure. In emerging markets and developing economies (EMDEs), development assistance can also incentivize new projects regimes.",
-		},
-	];
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const [preSelectedResources, setPreSelectedResources] = useState([
+    {
+      show: true,
+      category: "QII Principle",
+      title: "QII.2 Economic Efficiency",
+      id: 1,
+    },
+  ]);
+  const resourceArray = [
+    {
+      rId: 8,
+      id: 0,
+      title: "India: Ganga River Wastewater Program",
+      country: false,
+      org: false,
+      highlight: 1,
+      description:
+        "Summarizes a procurement approach where annuity payments were linked to long-term O&M performance.",
+      img_path: "images/qii2/Ganga_case_study.png",
+      path: "/qii2casestudy2",
+      target: "_self",
+    },
+    {
+      rId: 9,
+      id: 1,
+      title:
+        "Global: Assessing Economic Efficiency of Long-Term Road Asset Management Strategies",
+      // country: "Multi-country",
+      // org: "World Bank",
+      description:
+        "Compares performance-based contracts (PBCs) with traditional road maintenance approaches through case studies from Argentina, Lao PDR, Liberia, New Zealand, Botswana, and Florida.",
+      img_path: "images/governance/list/05.jpg",
+      path: "https://documents1.worldbank.org/curated/en/099235011182219257/pdf/P1679330af035007e0829505bcfd724025b.pdf",
+      target: "_blank",
+    },
+    {
+      rId: 10,
+      id: 2,
+      title: "Global: Life-Cycle Costing in Public Procurement in Hungary",
+      // country: "Hungary",
+      // org: "Organisation for Economic Co-operation and Development",
+      description:
+        "Analyzes Hungary's policy framework and current practices and provides recommendations for promoting LCC adoption in public procurement.",
+      img_path: "images/governance/list/01.jpg",
+      path: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2022/10/life-cycle-costing-in-public-procurement-in-hungary_90b7465a/8d90f627-en.pdf",
+      target: "_blank",
+    },
+  ];
+  const textCrData = [
+    {
+      id: 0,
+      icon: "&#xe919;",
+      text: "Inadequate government budgets that fail to account for O&M costs, or a lack of funding for operations due to weak tariff/pricing.",
+    },
+    {
+      id: 0,
+      icon: "&#xe922;",
+      text: "Organizational constraints holding back efficient infrastructure asset management. This can include a lack of skills, accountabilities, and unclear roles and responsibilities.",
+    },
+    {
+      id: 0,
+      icon: "&#xe921;",
+      text: "The political attractiveness of building new rather than maintaining existing infrastructure. In emerging markets and developing economies (EMDEs), development assistance can also incentivize new projects regimes.",
+    },
+  ];
 
-	const subPages = [
-		{
-			id: 0,
-			icon: "&#xe91b;",
-			title: "Procurement",
-			// description:
-			//   "Prioritizes long-term value through quality-based contracts and strategic structuring.",
-			description:
-				"Prioritizes long-term value through quality-based contracts.",
-			path: "/procurement",
-		},
-		{
-			id: 0,
-			icon: "&#xe91d;",
-			title: "Technical Solutions",
-			// description:
-			//   "Enhances infrastructure durability and operational performance with resilience-focused strategies.",
-			description:
-				"Enhances infrastructure durability and operational performance.",
-			path: "/technicalsolutions",
-		},
-		{
-			id: 0,
-			icon: `
+  const subPages = [
+    {
+      id: 0,
+      icon: "&#xe91b;",
+      title: "Procurement",
+      // description:
+      //   "Prioritizes long-term value through quality-based contracts and strategic structuring.",
+      description:
+        "Prioritizes long-term value through quality-based contracts.",
+      path: "/procurement",
+    },
+    {
+      id: 0,
+      icon: "&#xe91d;",
+      title: "Technical Solutions",
+      // description:
+      //   "Enhances infrastructure durability and operational performance with resilience-focused strategies.",
+      description:
+        "Enhances infrastructure durability and operational performance.",
+      path: "/technicalsolutions",
+    },
+    {
+      id: 0,
+      icon: `
 <svg xmlns="http://www.w3.org/2000/svg" width="77.604" height="81.85" viewBox="0 0 77.604 81.85">
   <g id="Group_2512" data-name="Group 2512" transform="translate(16406 2964.5)">
     <g id="Cost-recovery" transform="translate(-16406 -2964.5)">
@@ -124,113 +124,113 @@ export default function QII2LandingPage() {
   </g>
 </svg>
 `,
-			title: "Cost-Recovery",
-			description:
-				"Sustains assets through tariffs, user fees, and performance-based financing.",
-			path: "/costrecovery",
-		},
-		{
-			id: 0,
-			icon: "&#xe919;",
-			title: "Governance",
-			description:
-				"Ensures accountability and institutional capacity for effective LCC implementation.",
-			path: "/governance",
-		},
-	];
-	useEffect(() => {
-		setTimeout(() => {
-			if (location.state?.scrollTo) {
-				const el = document.getElementById(location.state.scrollTo);
-				el?.scrollIntoView({ behavior: "smooth" });
-				navigate(location.pathname, { replace: true, state: null });
-			}
-		}, 500);
-	}, [location]);
+      title: "Cost-Recovery",
+      description:
+        "Sustains assets through tariffs, user fees, and performance-based financing.",
+      path: "/costrecovery",
+    },
+    {
+      id: 0,
+      icon: "&#xe919;",
+      title: "Governance",
+      description:
+        "Ensures accountability and institutional capacity for effective LCC implementation.",
+      path: "/governance",
+    },
+  ];
+  useEffect(() => {
+    setTimeout(() => {
+      if (location.state?.scrollTo) {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({ behavior: "smooth" });
+        navigate(location.pathname, { replace: true, state: null });
+      }
+    }, 500);
+  }, [location]);
 
-	const openVideo = (url, title, width, height) => {
-		dispatch(setVideoData({ url, title, width, height }));
-		dispatch(setShowVideo(true));
-	};
-	useEffect(() => {
-		dispatch(
-			setBradcrump({
-				show: true,
-				dir: [{ path: "/qii2", title: "QII.2 Economic Efficiency" }],
-			}),
-		);
-	}, []);
-	return (
-		<div className="qii2">
-			<section className="q2_landing_page color-dark">
-				<section className="color-light landingpage-banner">
-					<Header3 img="images/UpdatedAssets/QII2_Landing-main.png">
-						<div className="langing-page-container">
-							<img
-								src="images/UpdatedAssets/Qii2.svg"
-								alt="landing-page-logo"
-								className="landingpage-logo"
-							/>
-							<div className="landingpage-description">
-								<p className="light-font" id="qii2-section1">
-									At the heart of QII Principle 2 is the concept of Life-Cycle
-									Costing (LCC), a forward-thinking approach to infrastructure
-									investment. Instead of focusing solely on upfront costs, LCC
-									considers all costs – planning, design, construction,
-									operations, maintenance, and eventual disposal – thereby
-									maximizing the efficiency of spending over the entire lifespan
-									of an infrastructure project.
-								</p>
-								{/* <p className="bold-text">
+  const openVideo = (url, title, width, height) => {
+    dispatch(setVideoData({ url, title, width, height }));
+    dispatch(setShowVideo(true));
+  };
+  useEffect(() => {
+    dispatch(
+      setBradcrump({
+        show: true,
+        dir: [{ path: "/qii2", title: "QII.2 Economic Efficiency" }],
+      }),
+    );
+  }, []);
+  return (
+    <div className="qii2">
+      <section className="q2_landing_page color-dark">
+        <section className="color-light landingpage-banner">
+          <Header3 img="images/UpdatedAssets/QII2_Landing-main.png">
+            <div className="langing-page-container">
+              <img
+                src="images/UpdatedAssets/Qii2.svg"
+                alt="landing-page-logo"
+                className="landingpage-logo"
+              />
+              <div className="landingpage-description">
+                <p className="light-font" id="qii2-section1">
+                  At the heart of QII Principle 2 is the concept of Life-Cycle
+                  Costing (LCC), a forward-thinking approach to infrastructure
+                  investment. Instead of focusing solely on upfront costs, LCC
+                  considers all costs – planning, design, construction,
+                  operations, maintenance, and eventual disposal – thereby
+                  maximizing the efficiency of spending over the entire lifespan
+                  of an infrastructure project.
+                </p>
+                {/* <p className="bold-text">
               <strong></strong>
             </p> */}
-							</div>
-						</div>
-					</Header3>
-				</section>
-				<div className="container internal-pages-cards" id="qii2-section2">
-					<div className="center-header">
-						{/* <h1 className="light-font mBottom">
+              </div>
+            </div>
+          </Header3>
+        </section>
+        <div className="container internal-pages-cards" id="qii2-section2">
+          <div className="center-header">
+            {/* <h1 className="light-font mBottom">
               Building Blocks of Adopting a Life Cycle Costing Approach
             </h1> */}
-						<h1 className="light-font mBottom">
-							Building Blocks Of Life Cycle Costing Approach
-						</h1>
-						<h3 className="light-font">
-							Economic efficiency transforms infrastructure by leveraging
-							advanced technologies, prioritizing long-term value, and driving
-							policy reforms for smarter procurement and sustainable outcomes.
-						</h3>
-					</div>
-					<div className="sub-pages">
-						{subPages.map((page, i) => (
-							<div className="subpage-cnt" key={i}>
-								<div
-									className="icon-subpage"
-									dangerouslySetInnerHTML={{ __html: page.icon }}
-									onClick={() => navigate(page.path)}
-								></div>
-								<h3
-									className="label-subpage"
-									onClick={() => navigate(page.path)}
-								>
-									<strong>{page.title}</strong>
-								</h3>
-								<label
-									className="page-description"
-									onClick={() => navigate(page.path)}
-								>
-									{page.description}
-								</label>
-								<Link to={page.path}>
-									<div className="arrow-btn icon-arrow">&#xe900;</div>
-								</Link>
-							</div>
-						))}
-					</div>
-				</div>
-			</section>
-			{/* <Header3 img="images/qii2/qii2_img2.png">
+            <h1 className="light-font mBottom">
+              Building Blocks Of Life Cycle Costing Approach
+            </h1>
+            <h3 className="light-font">
+              Economic efficiency transforms infrastructure by leveraging
+              advanced technologies, prioritizing long-term value, and driving
+              policy reforms for smarter procurement and sustainable outcomes.
+            </h3>
+          </div>
+          <div className="sub-pages">
+            {subPages.map((page, i) => (
+              <div className="subpage-cnt" key={i}>
+                <div
+                  className="icon-subpage"
+                  dangerouslySetInnerHTML={{ __html: page.icon }}
+                  onClick={() => navigate(page.path)}
+                ></div>
+                <h3
+                  className="label-subpage"
+                  onClick={() => navigate(page.path)}
+                >
+                  <strong>{page.title}</strong>
+                </h3>
+                <label
+                  className="page-description"
+                  onClick={() => navigate(page.path)}
+                >
+                  {page.description}
+                </label>
+                <Link to={page.path}>
+                  <div className="arrow-btn icon-arrow">&#xe900;</div>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/* <Header3 img="images/qii2/qii2_img2.png">
         <p>
           Incorporating <strong>life cycle costing</strong> into infrastructure
           planning and decision-making helps break the costly cycle of
@@ -241,21 +241,21 @@ export default function QII2LandingPage() {
         </p>
       </Header3>
        */}
-			<ImagewithStatement
-				id="qii2-section3"
-				backgroundImage={"images/qii2/qii2_img2.png"}
-				// text={
-				//   "When the building blocks are missing, infrastructure falls into a familiar and costly trap."
-				// }
-				text={
-					"Incorporating life cycle costing into infrastructure planning and decision-making helps break the costly cycle of short-term thinking. By accounting for the total cost of service delivery—including operations, maintenance, and eventual decommissioning—governments and institutions can make smarter investments that deliver better value over time.​"
-				}
-			/>
-			<section className="color-dark" id="qii2-section4">
-				<div className="container ">
-					<div className="video-text-cnt">
-						<div className="video-text-box">
-							{/* <img src="images/qii2/Landing-QII-2.gif" alt="" />
+      <ImagewithStatement
+        id="qii2-section3"
+        backgroundImage={"images/qii2/qii2_img2.png"}
+        // text={
+        //   "When the building blocks are missing, infrastructure falls into a familiar and costly trap."
+        // }
+        text={
+          "Incorporating life cycle costing into infrastructure planning and decision-making helps break the costly cycle of short-term thinking. By accounting for the total cost of service delivery—including operations, maintenance, and eventual decommissioning—governments and institutions can make smarter investments that deliver better value over time.​"
+        }
+      />
+      <section className="color-dark" id="qii2-section4">
+        <div className="container ">
+          <div className="video-text-cnt">
+            <div className="video-text-box">
+              {/* <img src="images/qii2/Landing-QII-2.gif" alt="" />
               <div className="vid-cnt">
                 <button
                   className="video-play-btn icon-play"
@@ -274,36 +274,36 @@ export default function QII2LandingPage() {
                   <strong>Unlocking the Potential of Life Cycle Costing</strong>
                 </p>
               </div> */}
-							{/* <Video/> */}
-							<Video
-								thumbnail="images/qii2/Landing-QII-2GIF.gif"
-								videoUrl="./video/LandingPageVideo.mp4"
-								videoTitle="Unlocking the Potential of Life Cycle Costing"
-								cardTitle={
-									<>
-										<span>Unlocking the Potential of</span> <br />
-										Life Cycle Costing
-									</>
-								}
-								description=""
-								duration="3 min watch"
-							/>
-						</div>
-						<div className="text-cnt">
-							{/* <h1 className="light-font mBottom">
+              {/* <Video/> */}
+              <Video
+                thumbnail="images/qii2/Landing-QII-2GIF.gif"
+                videoUrl="./video/LandingPageVideo.mp4"
+                videoTitle="Unlocking the Potential of Life Cycle Costing"
+                cardTitle={
+                  <>
+                    <span>Unlocking the Potential of</span> <br />
+                    Life Cycle Costing
+                  </>
+                }
+                description=""
+                duration="3 min watch"
+              />
+            </div>
+            <div className="text-cnt">
+              {/* <h1 className="light-font mBottom">
                 Why Life Cycle Costing Matters
               </h1> */}
-							<h3 className="light-font sub-text">
-								The <strong>'Build-Neglect-Rebuild'</strong> cycle leads to
-								inefficiencies, higher costs, and wasted resources. Common
-								causes include:
-							</h3>
-							<TextIconCarousal data={textCrData} />
-						</div>
-					</div>
-				</div>
-			</section>
-			{/* <section className="container internal-pages-container color-dark">
+              <h3 className="light-font sub-text">
+                The <strong>'Build-Neglect-Rebuild'</strong> cycle leads to
+                inefficiencies, higher costs, and wasted resources. Common
+                causes include:
+              </h3>
+              <TextIconCarousal data={textCrData} />
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* <section className="container internal-pages-container color-dark">
         <h3 className="statement-text">
           <strong>Life cycle costing</strong> breaks this cycle. <br />
           <br />
@@ -313,7 +313,7 @@ export default function QII2LandingPage() {
         </h3>
         <h1 className="light-font "></h1>
       </section> */}
-			{/* <section className="qii_video_landing_page color-light">
+      {/* <section className="qii_video_landing_page color-light">
         <img
           className="qii_video-thumbnail-image"
           src="images/qii4/QII 2 in Action poster.png"
@@ -350,9 +350,9 @@ export default function QII2LandingPage() {
         </div>
       </section> */}
 
-			<QII2CaseStudy1 id="qii2-section5" />
+      <QII2CaseStudy1 id="qii2-section5" />
 
-			{/* <section className="color-dark top_resource_page">
+      {/* <section className="color-dark top_resource_page">
         <div className="container">
           <div className="center-header">
             <h1 className="light-font mBottom">QII.2 Case Studies</h1>
@@ -402,66 +402,66 @@ export default function QII2LandingPage() {
           </div>
         </div> }
       </section> */}
-			<section className="color-dark" id="qii2-section6">
-				<div className="container">
-					<h2 className="section-title light-font">QII.2 Case Studies</h2>
-					<div className="page-resource-grid" role="list">
-						{resourceArray.map((p, index) => {
-							return (
-								<article
-									// className="page-resource-card"
-									key={index}
-									role="listitem"
-									style={{ backgroundImage: `url(${p.img})` }}
-									className={`page-resource-card box-card ${p.highlight && "highlighted"}`}
-								>
-									<div className="page-resource-link">
-										<div className="page-resource-body">
-											<div className="page-resource-title title-small">
-												{/* {p.country && (
+      <section className="color-dark" id="qii2-section6">
+        <div className="container">
+          <h2 className="section-title light-font">QII.2 Case Studies</h2>
+          <div className="page-resource-grid" role="list">
+            {resourceArray.map((p, index) => {
+              return (
+                <article
+                  // className="page-resource-card"
+                  key={index}
+                  role="listitem"
+                  style={{ backgroundImage: `url(${p.img})` }}
+                  className={`page-resource-card box-card ${p.highlight && "highlighted"}`}
+                >
+                  <div className="page-resource-link">
+                    <div className="page-resource-body">
+                      <div className="page-resource-title title-small">
+                        {/* {p.country && (
                           <>
                             <span>{p.country}</span> <br />
                           </>
                         )} */}
-												<br />
-												{/* <strong>{p.title}</strong> */}
-												{p.title}
-												{/* {p.org && (
+                        <br />
+                        {/* <strong>{p.title}</strong> */}
+                        {p.title}
+                        {/* {p.org && (
                           <>
                             <br />
                             <span>{p.org}</span>
                           </>
                         )} */}
-											</div>
-											<div className="page-resource-overlay" />
-											<img
-												className="page-resource-img"
-												src={p.img_path}
-												alt={p.title}
-											/>
-											{/* <div className="page-resource-img-cnt">
+                      </div>
+                      <div className="page-resource-overlay" />
+                      <img
+                        className="page-resource-img"
+                        src={p.img_path}
+                        alt={p.title}
+                      />
+                      {/* <div className="page-resource-img-cnt">
                                           </div> */}
-											<div className="page-resource-data">
-												<div className="page-resource-title title-big">
-													{/* {p.country && (
+                      <div className="page-resource-data">
+                        <div className="page-resource-title title-big">
+                          {/* {p.country && (
                             <>
                               <span>{p.country}</span> <br />
                             </>
                           )} */}
-													<br />
-													{/* <strong>{p.title}</strong> */}
-													{p.title}
-													{/* {p.org && (
+                          <br />
+                          {/* <strong>{p.title}</strong> */}
+                          {p.title}
+                          {/* {p.org && (
                             <>
                               <br />
                               <span>{p.org}</span>
                             </>
                           )} */}
-												</div>
-												{/* <div className="page-resource-description">
+                        </div>
+                        {/* <div className="page-resource-description">
                           {p.description}
                         </div> */}
-												{/* <Popover
+                        {/* <Popover
                           content={p.description}
                           // title={p.title}
                           trigger="click"
@@ -470,107 +470,107 @@ export default function QII2LandingPage() {
                             Read More...
                           </div>
                         </Popover> */}
-												<Popover
-													content={
-														<div className="resource-popover-content">
-															{p.description}
-														</div>
-													}
-													placement="left"
-													title={false}
-													trigger="click"
-												>
-													<div className="page-resource-description">
-														Read More...
-													</div>
-												</Popover>
-												<div className="page-resource-btn-cnt">
-													{p.target === "_blank" ? (
-														<a
-															className="page-resource-arrow"
-															href={p.path}
-															target={p.target}
-															rel="noopener noreferrer"
-															onClick={(e) => {
-																e.preventDefault();
+                        <Popover
+                          content={
+                            <div className="resource-popover-content">
+                              {p.description}
+                            </div>
+                          }
+                          placement="left"
+                          title={false}
+                          trigger="click"
+                        >
+                          <div className="page-resource-description">
+                            Read More...
+                          </div>
+                        </Popover>
+                        <div className="page-resource-btn-cnt">
+                          {p.target === "_blank" ? (
+                            <a
+                              className="page-resource-arrow"
+                              href={p.path}
+                              target={p.target}
+                              rel="noopener noreferrer"
+                              onClick={(e) => {
+                                e.preventDefault();
 
-																updateCardClick(p.rId);
+                                updateCardClick(p.rId);
 
-																if (p.path) {
-																	window.open(p.path, "_blank");
-																}
-															}}
-														>
-															<span className="icon-arrow">&#xe900;</span>
-														</a>
-													) : (
-														<Link
-															className="page-resource-arrow"
-															to={p.path}
-															target={p.target}
-															onClick={() => {
-																updateCardClick(p.rId);
-															}}
-														>
-															<span className="icon-arrow">&#xe900;</span>
-														</Link>
-													)}
-												</div>
-											</div>
-										</div>
-									</div>
-									{p.highlight ? (
-										<div
-											className="highlighted-badge"
-											style={{
-												background: `${p.highlight ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
-												backgroundSize: "100% 100%",
-											}}
-										>
-											<img src="images/Star_for_spotligh.svg" alt="" />
-											{p.highlight && <>Spotlight Case Study</>}
-										</div>
-									) : (
-										<></>
-									)}
-								</article>
-							);
-						})}
-					</div>
-					<div className="view-all-btn-container">
-						<button
-							className="btn-primary qii2-video-cta"
-							onClick={() => {
-								const el = document.getElementById("resourcesSection");
-								el?.scrollIntoView({ behavior: "smooth" });
-								setPreSelectedResources([
-									{
-										show: true,
-										category: "QII Principle",
-										title: "QII.2 Economic Efficiency",
-										id: 1,
-									},
-									{
-										show: true,
-										category: "Media Type",
-										title: "Case Study",
-										id: 1,
-									},
-								]);
-							}}
-						// disabled
-						>
-							View All <span className="icon-arrow">&#xe900;</span>
-						</button>
-					</div>
-				</div>
-			</section>
-			<section className="color-light z-2" id="resourcesSection">
-				<ResourceLibrary
-					subPages={subPages}
-					preSelected={preSelectedResources}
-				></ResourceLibrary>
-			</section>
-		</div>
-	);
+                                if (p.path) {
+                                  window.open(p.path, "_blank");
+                                }
+                              }}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </a>
+                          ) : (
+                            <Link
+                              className="page-resource-arrow"
+                              to={p.path}
+                              target={p.target}
+                              onClick={() => {
+                                updateCardClick(p.rId);
+                              }}
+                            >
+                              <span className="icon-arrow">&#xe900;</span>
+                            </Link>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {p.highlight ? (
+                    <div
+                      className="highlighted-badge"
+                      style={{
+                        background: `${p.highlight ? `url("images/Spotlight_highlight_BG.png")` : `url("images/Star_BG.png")`}`,
+                        backgroundSize: "100% 100%",
+                      }}
+                    >
+                      <img src="images/Star_for_spotligh.svg" alt="" />
+                      {p.highlight && <>Spotlight Case Study</>}
+                    </div>
+                  ) : (
+                    <></>
+                  )}
+                </article>
+              );
+            })}
+          </div>
+          <div className="view-all-btn-container">
+            <button
+              className="btn-primary qii2-video-cta"
+              onClick={() => {
+                const el = document.getElementById("resourcesSection");
+                el?.scrollIntoView({ behavior: "smooth" });
+                setPreSelectedResources([
+                  {
+                    show: true,
+                    category: "QII Principle",
+                    title: "QII.2 Economic Efficiency",
+                    id: 1,
+                  },
+                  {
+                    show: true,
+                    category: "Media Type",
+                    title: "Case Study",
+                    id: 1,
+                  },
+                ]);
+              }}
+              // disabled
+            >
+              View All <span className="icon-arrow">&#xe900;</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section className="color-light z-2" id="resourcesSection">
+        <ResourceLibrary
+          subPages={subPages}
+          preSelected={preSelectedResources}
+        ></ResourceLibrary>
+      </section>
+    </div>
+  );
 }

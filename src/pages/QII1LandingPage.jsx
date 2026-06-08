@@ -1100,20 +1100,29 @@ export default function QII1LandingPage() {
       title: `"Quality Infrastructure” Around the World: Compendium of Good Practices`,
       country: "Japan",
       subtext1: (
-        <>
+        <>(
           {" "}
           <Link
+            to={"https://www.mlit.go.jp/kokusai/content/africa_0807_EN.pdf"}
+            className="link4"
+            target="_blank"
+          >
+            English
+          </Link> /
+           <Link
             to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"}
             className="link4"
+            target="_blank"
           >
-            (English/Japanese)
+            Japanese
           </Link>
+        )
         </>
       ),
       subtext2:
         "A flagship report by MLIT, including 48 case studies of Japan-supported infrastructure projects across the world that demonstrate alignment with QII Principles.",
       type: "Resource",
-      paths: "https://www.mlit.go.jp/kokusai/content/001397310.pdf",
+      paths: "",
       showButton: false,
     },
     {
@@ -1124,13 +1133,23 @@ export default function QII1LandingPage() {
       country: "Africa",
       subtext1: (
         <>
-          {" "}
+          ({" "}
+          <Link
+            to={"https://www.mlit.go.jp/kokusai/content/africa_0807_EN.pdf"}
+            className="link4"
+            target="_blank"
+          >
+            English
+          </Link>{" "}
+          /
           <Link
             to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"}
             className="link4"
+            target="_blank"
           >
-            (English/Japanese)
-          </Link>
+            Japanese
+          </Link>{" "}
+          )
         </>
       ),
       subtext2: (
@@ -1141,7 +1160,7 @@ export default function QII1LandingPage() {
         </>
       ),
       type: "Resource",
-      paths: "https://www.mlit.go.jp/kokusai/content/africa_0807_EN.pdf",
+      paths: "",
       showButton: false,
     },
     {

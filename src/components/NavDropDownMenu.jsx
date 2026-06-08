@@ -1,9 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./NavDropDownMenu.css";
 import { useNavigate } from "react-router-dom";
+import { setOverlay } from "../slices/appDataSlice";
+import { useDispatch } from "react-redux";
 export default function NavDropDownMenu({ menuItems, title }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const dropdownRef = useRef(null);
   useEffect(() => {
     function handleClickOutside(event) {
@@ -41,6 +44,7 @@ export default function NavDropDownMenu({ menuItems, title }) {
               onClick={() => {
                 navigate(item?.path);
                 setIsMenuOpen(!isMenuOpen);
+                dispatch(setOverlay(!isMenuOpen));
               }}
             >
               {item?.title}

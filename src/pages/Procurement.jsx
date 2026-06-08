@@ -442,7 +442,7 @@ export default function Procurement() {
       <section className="color-dark" id="qii2-procurement-section5">
         <div className="container internal-pages-container">
           <h2 className="section-title light-font">
-            Further Reading On Procurement
+            Further Reading on Procurement
           </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => (

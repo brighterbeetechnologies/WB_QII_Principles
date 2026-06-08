@@ -447,7 +447,7 @@ export default function FinancingResilience() {
       <section className="color-dark" id="qii4-FR-section7">
         <div className="container">
           <h2 className="section-title light-font">
-            Further Reading On Financing Resilience
+            Further Reading on Financing Resilience
           </h2>
           <div className="page-resource-grid" role="list">
             {resourceArray.map((p, index) => {

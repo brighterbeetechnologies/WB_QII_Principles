@@ -626,7 +626,7 @@ export default function Fundamentals_of_QII() {
               <strong>$74 Billion in World Bank Operations</strong>
             </p>
             <p>
-              The QII Partnership has backed $7 billion in World Bank
+              The QII Partnership has backed $74 billion in World Bank
               infrastructure operations, with close to 350 interventions across
               93 countries and $85 million in total commitment as of FY25.
             </p>
