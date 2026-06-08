@@ -1100,23 +1100,24 @@ export default function QII1LandingPage() {
       title: `"Quality Infrastructure” Around the World: Compendium of Good Practices`,
       country: "Japan",
       subtext1: (
-        <>(
-          {" "}
+        <>
+          ({" "}
           <Link
             to={"https://www.mlit.go.jp/kokusai/content/africa_0807_EN.pdf"}
             className="link4"
             target="_blank"
           >
             English
-          </Link> /
-           <Link
+          </Link>{" "}
+          /
+          <Link
             to={"https://www.mlit.go.jp/kokusai/content/001397310.pdf"}
             className="link4"
             target="_blank"
           >
             Japanese
           </Link>
-        )
+          )
         </>
       ),
       subtext2:
@@ -1342,6 +1343,35 @@ export default function QII1LandingPage() {
       }),
     );
   }, []);
+
+  const isMobile = window.innerWidth <= 767;
+
+  const renderExpandedContent = () => (
+    <div className="card-5" id="qii1-section10">
+      <div className="card-5-btn-container">
+        {tabs.map((tab, i) => (
+          <button
+            key={tab}
+            className={`card-5-btn ${
+              activeTab === i ? "card-5-btn-active" : ""
+            }`}
+            onClick={() => handleTabClick(i)}
+          >
+            {tab}
+          </button>
+        ))}
+      </div>
+
+      <div className={`card-5-content ${fade ? "fade-in" : "fade-out"}`}>
+        <div className="card-5-content-desc">
+          <div className="card-5-content-description">
+            {cardsTabsData[currentCard]?.[activeTab].description}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div className="qii1">
       <section className="q1_landing_page color-dark" id="qii1-section1">
@@ -1513,6 +1543,7 @@ export default function QII1LandingPage() {
           </strong>
         </p>
         <div className="VCard-cnt col3">
+          {/* Card 1 */}
           <QIIVCard
             id="qii1-section9"
             image="images/qii1/Eurasia_Tunnel.png"
@@ -1533,6 +1564,10 @@ export default function QII1LandingPage() {
               expected by 2042, by connecting two continents in 5 minutes.
             </p>
           </QIIVCard>
+
+          {isMobile && currentCard === 0 && renderExpandedContent()}
+
+          {/* Card 2 */}
           <QIIVCard
             id="qii1-section9"
             image="images/qii1/Delhi-Mass-Rapid-Transport-System-Phase-2.png"
@@ -1553,6 +1588,10 @@ export default function QII1LandingPage() {
               accessibility, safety, and cleaner air.
             </p>
           </QIIVCard>
+
+          {isMobile && currentCard === 1 && renderExpandedContent()}
+
+          {/* Card 3 */}
           <QIIVCard
             id="qii1-section9"
             image="images/qii1/Port-Moresby-Sewerage-System-Upgrading-Project.png"
@@ -1573,15 +1612,13 @@ export default function QII1LandingPage() {
               building local technical capacity through Japanese partnership
             </p>
           </QIIVCard>
+
+          {isMobile && currentCard === 2 && renderExpandedContent()}
         </div>
-        {currentCard !== 4 && (
+        {/* {currentCard !== 4 && (
           <div className="card-5" id="qii1-section10">
             <div className="card-5-btn-container">
-              {/* {Object.keys(allData[currentCard]).map((tab, i) => (
-              
-            ))} */}
               {tabs.map((tab, i) => {
-                // console.log("activeTab", activeTab);
 
                 return (
                   <button
@@ -1603,7 +1640,8 @@ export default function QII1LandingPage() {
               </div>
             </div>
           </div>
-        )}
+        )} */}
+        {!isMobile && currentCard !== 4 && renderExpandedContent()}
       </section>
       <section className="container internal-pages-container color-light">
         <h2 className="section-title light-font" id="qii1-section6">

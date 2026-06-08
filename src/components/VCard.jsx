@@ -38,8 +38,6 @@ export default function VCard({
 
   return (
     <div className={`VCard ${highlight && "highlighted"}`}>
-      {/* <img className="VCardImg" src={image} alt={title} style={imageStyle} />
-      {badgeText && <div className="video-gif-badge">{badgeText}</div>} */}
       {isVideo ? (
         <div className="VCard-video-gif-thumbnail">
           <img
@@ -50,7 +48,6 @@ export default function VCard({
           />
           <div
             className="VCard-video-gif-play-button"
-            // onClick={openVideo}
             onClick={() => {
               updateCardClick(rId);
               openVideo();
@@ -81,29 +78,12 @@ export default function VCard({
       )}
       <div className="vCardBody">
         <div className="v-title">{title}</div>
-        {/* {isVideo && (
-          <div className="VCard-video-gif-meta">
-            <div className="VCard-video-gif-meta-item">
-              <svg width="14" height="14" viewBox="0 0 20 20">
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              {duration}
-            </div>
-          </div>
-        )} */}
         {children}
       </div>
       <div className="VCard-footer">
         <div className="v-btn-cnt">
           {/* <strong></strong> */}
           {buttonText && <p>{buttonText}</p>}
-          {/* <a href={link} target="_blank" className="VCard-btn ">
-            <span className="icon-arrow">&#xe900;</span>
-          </a> */}
           <a
             href={link || undefined}
             target="_blank"
@@ -112,7 +92,6 @@ export default function VCard({
             // onClick={() => updateCardClick(rId)}
             onClick={(e) => {
               e.preventDefault();
-              // console.log("CLICKED:", rId);
               updateCardClick(rId);
               if (link) {
                 window.open(link, "_blank");
@@ -126,10 +105,6 @@ export default function VCard({
         {buttonText2 && (
           <div className="v-btn-cnt"> 
             <p>{buttonText2}</p>
-            {/* <strong>{buttonText2}</strong> */}
-            {/* <a href={link2} target="_blank" className="VCard-btn ">
-              <span className="icon-arrow">&#xe900;</span>
-            </a> */}
             <a
               href={link2 || undefined}
               target="_blank"

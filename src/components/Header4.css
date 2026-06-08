@@ -84,7 +84,7 @@
 
 @media (min-width: 650px) {
   .header4-bg {
-    height: 65vh;
+    height: 75vh;
   }
 
   .Header4 .mob-title {
@@ -148,8 +148,8 @@
 
 @media (min-width: 992px) {
   .Header4 {
-    height: 65vh;
-    max-height: 400px;
+    height: 75vh;
+    max-height: 700px;
   }
 
   /* .Header-qii1 {
@@ -184,7 +184,8 @@
 @media (min-width: 1200px) {
   .Header4 .footer-header-4 {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 0rem;
   }
 }
 

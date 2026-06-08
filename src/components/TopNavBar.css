@@ -225,7 +225,7 @@ nav .right-panel {
 	justify-content: space-between;
 	align-content  : flex-end;
 	align-items    : center;
-	gap            : 3px;
+	gap            : 5px;
 	padding-right  : 7px;
 	padding-left   : 7px;
 	transition     : 0.25s ease-in-out;
@@ -702,7 +702,7 @@ nav .nav-btn {
 	}
 
 	nav .right-panel {
-		gap: 3px;
+		gap: 5px;
 	}
 
 	nav .right-panel.open {

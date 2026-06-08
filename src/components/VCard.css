@@ -368,3 +368,21 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* 
+.VCard-cnt {
+  display: grid;
+  gap: 24px;
+}
+
+@media (max-width: 1199px) {
+  .VCard-cnt.col3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .VCard-cnt.col3 {
+    grid-template-columns: 1fr;
+  }
+} */

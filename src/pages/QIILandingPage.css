@@ -472,7 +472,8 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
+  margin: 1rem 1rem;
 }
 
 .landingpage-description .light-font {
