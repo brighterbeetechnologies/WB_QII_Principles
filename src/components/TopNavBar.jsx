@@ -96,7 +96,7 @@ export default function TopNavBar() {
                   </React.Fragment>
                 );
               })}
-            </div>
+            </div> 
           </div>
         )}
         <div className="nav-cnt-left">

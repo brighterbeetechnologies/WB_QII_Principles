@@ -380,7 +380,7 @@ ul {
     0% 0% no-repeat padding-box;
   transition: background 0.3s;
   z-index: -1;
-  border-radius: 15px;
+  border-radius: 8px;
   /* display: none; */
 }
 
@@ -658,7 +658,7 @@ ul {
 
   .page-resource-overlay {
     display: block;
-    border-radius: 20px;
+    border-radius: 8px;
   }
 
   .page-resource-card:after {

@@ -70,11 +70,11 @@ export default function CardBox({ card }) {
               content={
                 <div className="resource-popover-content">{card.desc}</div>
               }
-              placement="left"
+              // placement="top"
               title={false}
               trigger="click"
             >
-              <u>READ MORE...</u>
+              READ MORE...
             </Popover>
             {/* {card.desc} */}
             {/* </Tooltip> */}

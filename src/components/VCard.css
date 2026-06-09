@@ -335,6 +335,9 @@
   .v-btn-cnt {
     padding: 0 0.6rem;
   }
+  .VCard-cnt {
+    row-gap: 2rem;
+  }
 }
 
 

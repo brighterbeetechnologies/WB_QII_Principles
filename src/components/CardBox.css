@@ -310,13 +310,13 @@
 
 @media (max-width: 900px) {
   .resource-popover-content {
-    width: 80vw;
+    /* width: 80vw; */
   }
 }
 
 @media (max-width: 700px) {
   .resource-popover-content {
-    width: 90vw;
+    /* width: 90vw; */
   }
 }
 
